@@ -1,15 +1,16 @@
 <?php
+
 /**
- * Plugin Name: My Plugin
- * Description: My Plugin Description.
- * Text Domain: myplugin
+ * Plugin Name: MomtazPress
+ * Description: MomtazPress.
+ * Text Domain: mp
  * Version: 1.0.0
  * Plugin URI: https://www.github.com/kadimi/starter
  * GitHub Plugin URI: https://github.com/kadimi/starter
  * Author: Nabil Kadimi
  * Author URI: https://kadimi.com
  *
- * @package MyPlugin
+ * @package Bayn\MomtazPress
  */
 
 /**
@@ -18,18 +19,21 @@
 require 'class-starter.php';
 
 /**
- * MyPlugin class.
+ * MomtazPress class.
  */
-class MyPlugin extends Starter {};
+class MomtazPress extends Starter {};
 
 /**
  * Create a shortcut for ease of use.
  */
-function myplugin() {
-	return MyPlugin::get_instance();
+function mp( $args = [] ) {
+	return MomtazPress::get_instance( $args );
 }
 
 /**
  * Fire plugin.
  */
-myplugin();
+mp( [
+	'slug' => 'mp',
+	'version' => '1.0.0',
+] );
