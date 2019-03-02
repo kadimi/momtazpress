@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Themes - Sydney package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-09-25 16:23:36+0000\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-09-25 16:23:36+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Themes - Sydney\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
 
 #. Description of the theme
 msgid "Sydney is a powerful business theme that provides a fast way for companies or freelancers to create an awesome online presence. As well as being fully compatible with Elementor, Sydney brings plenty of customization possibilities like access to all Google Fonts, full color control, layout control, logo upload, full screen slider, header image, sticky navigation and much more. Also, Sydney provides all the construction blocks you need to rapidly create an engaging front page."

@@ -2,43 +2,43 @@
 # This file is distributed under the same license as the Plugins - All in One SEO Pack - Stable (latest release) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Plugins - All in One SEO Pack - Stable (latest release)\n"
-"PO-Revision-Date: 2019-02-09 22:40:25+0000\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-03-01 23:58:05+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Plugins - All in One SEO Pack - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
 #: admin/display/credits-content.php:29
 msgid "Team Lead"
-msgstr ""
+msgstr "قائد الفريق"
 
 #: aioseop_class.php:554
 msgid "Bing Webmaster Tools:"
-msgstr ""
+msgstr "أدوات Bing Webmaster Tools لمشرفي المواقع"
 
 #: aioseop_class.php:549
 msgid "Google Search Console:"
-msgstr ""
+msgstr "أدوات Google Search Console لمشرفي المواقع:"
 
 #: aioseop_class.php:119 aioseop_class.php:133 aioseop_class.php:149
 #: aioseop_class.php:194
 msgid "%cf_fieldname% - Custom field name"
-msgstr ""
+msgstr "%cf_fieldname% - اسم الحقل المخصص"
 
 #: modules/aioseop_sitemap.php:214
 msgid "Create RSS Sitemap"
-msgstr ""
+msgstr "إنشاء RSS Sitemap"
 
 #: modules/aioseop_sitemap.php:172
 msgid "Create RSS Sitemap as well."
-msgstr ""
+msgstr "إنشاء RSS Sitemap كذلك."
 
 #: aioseop_class.php:1007
 msgid "Content Type Settings"
-msgstr ""
+msgstr "إعدادات نوع المحتوى"
 
 #. translators: Link to sitemap within current site.
 #: modules/aioseop_sitemap.php:884
@@ -52,7 +52,7 @@ msgstr ""
 
 #: modules/aioseop_robots.php:535
 msgid "Modify Rule"
-msgstr ""
+msgstr "تعديل القواعد"
 
 #: modules/aioseop_robots.php:49
 msgid "Disallow"
@@ -76,11 +76,11 @@ msgstr ""
 
 #: modules/aioseop_robots.php:464
 msgid "Identical rule exists: %s"
-msgstr ""
+msgstr "توجد قاعدة متطابقة: %s"
 
 #: modules/aioseop_robots.php:445
 msgid "Directory Path cannot be empty"
-msgstr ""
+msgstr "الدليل لا يمكن أن يكون فارغًا"
 
 #: modules/aioseop_robots.php:442
 msgid "User Agent cannot be empty"
@@ -88,11 +88,11 @@ msgstr ""
 
 #: modules/aioseop_robots.php:185
 msgid "Unable to delete file"
-msgstr ""
+msgstr "غير قادر على حذف الملف"
 
 #: modules/aioseop_robots.php:180
 msgid "Unable to read file"
-msgstr ""
+msgstr "غير قادر على قراءة الملف"
 
 #: modules/aioseop_robots.php:127
 msgid "A physical file exists. This feature cannot be used."
@@ -104,15 +104,15 @@ msgstr ""
 
 #: modules/aioseop_robots.php:75
 msgid "Configured Rules"
-msgstr ""
+msgstr "القواعد التي تم تكوينها"
 
 #: modules/aioseop_robots.php:49
 msgid "Allow"
-msgstr ""
+msgstr "السماح"
 
 #: modules/aioseop_robots.php:47
 msgid "Rule"
-msgstr ""
+msgstr "قواعد"
 
 #: modules/aioseop_robots.php:34
 msgid "Use the rule builder below to add/delete rules."
@@ -165,16 +165,16 @@ msgstr ""
 
 #: modules/aioseop_sitemap.php:248
 msgid "Exclude Images"
-msgstr ""
+msgstr "استبعاد الصور"
 
 #: modules/aioseop_sitemap.php:180
 msgid "Exclude Images in your sitemap."
-msgstr ""
+msgstr "استبعاد الصور في ملف sitemap الخاص بك."
 
 #. translators: Links to the current AIOSEOP Sitemap settings.
 #: modules/aioseop_sitemap.php:507
 msgid "%1$s Click here%2$s to make these recommended changes."
-msgstr ""
+msgstr "%1$s أنقر هنا%2$s لإجراء هذه التغييرات الموصى بها."
 
 #: modules/aioseop_sitemap.php:503
 msgid "Notice: To avoid problems with your XML Sitemap, we strongly recommend you enable Sitemap Indexes and set the Maximum Posts per Sitemap Page to 1000."
@@ -257,7 +257,7 @@ msgstr ""
 
 #: inc/commonstrings.php:48
 msgid "Track Events:"
-msgstr ""
+msgstr "تتبع الأحداث:"
 
 #: inc/commonstrings.php:47
 msgid "Track Outbound Forms:"
@@ -284,11 +284,11 @@ msgstr ""
 
 #: inc/commonstrings.php:44
 msgid "You must <a href=\"%s\">enter a valid License Key</a> for it to work."
-msgstr ""
+msgstr "يجب <a href=\"%s\"> إدخال مفتاح ترخيص</a> صحيح ليعمل."
 
 #: inc/commonstrings.php:43
 msgid "%s is almost ready."
-msgstr ""
+msgstr "%s جاهز تقريبًا."
 
 #: aioseop_class.php:954
 msgid "NOFOLLOW this page/post"
@@ -336,7 +336,7 @@ msgstr ""
 
 #: admin/aioseop_module_class.php:2353
 msgid "Upload Image"
-msgstr ""
+msgstr "رفع صورة"
 
 #: all_in_one_seo_pack.php:299
 msgid "Feature Request/Bug Report"
@@ -348,23 +348,23 @@ msgstr ""
 
 #: modules/aioseop_performance.php:267
 msgid "Permalink Setting"
-msgstr ""
+msgstr "خصائص الرابط الدائم"
 
 #: modules/aioseop_performance.php:266
 msgid "Search Engine Visibility"
-msgstr ""
+msgstr "الظهور لمحركات البحث"
 
 #: modules/aioseop_performance.php:265
 msgid "Front Page Displays"
-msgstr ""
+msgstr "عرض الصفحة الرئيسية"
 
 #: modules/aioseop_performance.php:264
 msgid "Site Language"
-msgstr ""
+msgstr "لغة الموقع"
 
 #: modules/aioseop_performance.php:263
 msgid "Site Title"
-msgstr ""
+msgstr "عنوان الموقع"
 
 #: aioseop_class.php:243
 msgid "Check this and your Meta Descriptions for any Post Type will be auto-generated using the Post Excerpt, or the first 160 characters of the post content if there is no Post Excerpt. You can overwrite any auto-generated Meta Description by editing the post or page."
@@ -377,7 +377,7 @@ msgstr ""
 #. Plugin URI of the plugin
 #. Author URI of the plugin
 msgid "https://semperplugins.com/all-in-one-seo-pack-pro-version/"
-msgstr ""
+msgstr "https://semperplugins.com/all-in-one-seo-pack-pro-version/"
 
 #: modules/aioseop_importer_exporter.php:47
 msgid "Post Data"
@@ -385,7 +385,7 @@ msgstr ""
 
 #: aioseop_class.php:514
 msgid "Nothing found for %request_words%"
-msgstr ""
+msgstr "لم يتم العثور على %request_words%"
 
 #: admin/display/general-metaboxes.php:182
 msgid "Access to Knowledge Center"
@@ -393,7 +393,7 @@ msgstr ""
 
 #: admin/display/general-metaboxes.php:181
 msgid "Access to Premium Support Forums"
-msgstr ""
+msgstr "صلاحية الدخول إلى منتديات الدعم المميزة"
 
 #: admin/display/general-metaboxes.php:180
 msgid "Access to Video Screencasts"
@@ -409,23 +409,23 @@ msgstr ""
 
 #: admin/display/general-metaboxes.php:175
 msgid "Advanced support for e-commerce"
-msgstr ""
+msgstr "دعم متقدم للتجارة الإلكترونية"
 
 #: admin/display/general-metaboxes.php:173
 msgid "Advanced support for WooCommerce"
-msgstr ""
+msgstr "دعم متقدم لـ WooCommerce"
 
 #: admin/display/general-metaboxes.php:123
 msgid "Subscribe"
-msgstr ""
+msgstr "اشتراك"
 
 #: admin/display/general-metaboxes.php:122
 msgid "Email Address"
-msgstr ""
+msgstr "البريد الإلكتروني"
 
 #: admin/display/general-metaboxes.php:46
 msgid " to upgrade to Pro Version and get:"
-msgstr ""
+msgstr "الترقية إلى إصدار Pro والحصول على:"
 
 #: modules/aioseop_opengraph.php:393
 msgid "Use Content For Autogenerated OG Descriptions"
@@ -489,12 +489,12 @@ msgstr "عرض جديد السيو"
 
 #: modules/aioseop_sitemap.php:888
 msgid "Changes are automatically submitted to search engines."
-msgstr ""
+msgstr "يتم إرسال التغييرات تلقائيًا إلى محركات البحث."
 
 #. translators: Link to documentation.
 #: modules/aioseop_sitemap.php:878
 msgid "Click here to %s."
-msgstr "إغط هنا لـ %s ."
+msgstr "أنقر هنا لـ %s."
 
 #: admin/display/welcome-content.php:77
 msgid "Continue to the General Settings"
@@ -502,11 +502,11 @@ msgstr "المتابعة إلى الإعدادات العامة"
 
 #: admin/display/dashboard_widget.php:27
 msgid "SEO News"
-msgstr "جديد السيو"
+msgstr "أخبار SEO"
 
 #: admin/display/welcome.php:127
 msgid "Credits"
-msgstr "الاعتمادات"
+msgstr "الحقوق"
 
 #: admin/display/welcome.php:123
 msgid "What&#8217;s New"
@@ -618,7 +618,7 @@ msgstr "مسير المشروع"
 
 #: admin/display/credits-content.php:10
 msgid "Project Lead"
-msgstr "مدير المشروع"
+msgstr "إدارة المشروع"
 
 #: admin/display/credits-content.php:5
 msgid "Project Leaders"
@@ -1104,7 +1104,7 @@ msgstr "ادخل المعلومات التالية لأي رابط اضافي ل
 #. different settings.
 #: modules/aioseop_sitemap.php:329
 msgid "Manually set the %1$s of your %2$s."
-msgstr ""
+msgstr "تعيين %1$s يدويًا لـ %2$s الخاص بك."
 
 #: modules/aioseop_sitemap.php:316
 msgid "author pages"
@@ -1176,7 +1176,7 @@ msgstr "أنواع المقالات"
 
 #: modules/aioseop_sitemap.php:228
 msgid "Maximum Posts Per Sitemap Page"
-msgstr ""
+msgstr "العدد الأقصى للتدوينات لكل صفحة Sitemap"
 
 #: modules/aioseop_sitemap.php:226
 msgid "Enable Sitemap Indexes"
