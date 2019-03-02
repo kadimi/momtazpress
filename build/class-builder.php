@@ -294,7 +294,7 @@ class Builder {
 				-o lang/' . $this->plugin_slug . '.pot
 		'
 		);
-		echo shell_exec( 'mkdir -p lang' ); die();
+		shell_exec( 'mkdir -p lang' );
 		shell_exec( $command );
 		$this->log( 'Language file created successfully.' );
 	}
