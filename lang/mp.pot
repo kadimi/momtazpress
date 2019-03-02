@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Nabil Kadimi
-# This file is distributed under the same license as the Starter package.
+# This file is distributed under the same license as the mp package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Starter 1.0.0\n"
+"Project-Id-Version: mp v1.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/kadimi/starter/issues/new\n"
-"POT-Creation-Date: 2017-11-04 09:14+0000\n"
+"POT-Creation-Date: 2019-03-02 05:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: class-starter.php:124
+#: class-starter.php:125
 #, php-format
 msgid ""
 "Plugin <strong>%1$s</strong> not installed yet, run the "
 "`<strong><code>composer install</code></strong>` command on a terminal from "
 "within the plugin directory and activate the plugin again from the <a href="
-"\"%1$s\">plugins page</a>."
+"\"%2$s\">plugins page</a>."
 msgstr ""
