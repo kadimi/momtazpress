@@ -67,6 +67,7 @@ class Builder {
 		$this->plugin_version = $argv[2];
 		$this->task( [ $this, 'pot' ], 'Creating Languages File' );
 		$this->task( [ $this, 'package' ], 'Packaging' );
+		$this->task( [ $this, 'package_distribution' ], 'Packaging Distribution' );
 	}
 
 	/**
@@ -143,7 +144,6 @@ class Builder {
 		$this->log();
 		$this->log( 'Package created.' );
 	}
-
 
 	/**
 	 * Works like shell find command.
@@ -308,5 +308,40 @@ class Builder {
 	protected function shell_command_exists( $command ) {
 		$output = shell_exec( sprintf( 'which %s', escapeshellarg( $command ) ) );
 		return ! empty( $output );
+	}
+
+	protected function package_distribution() {
+
+		$tmp_dir = __DIR__ . DIRECTORY_SEPARATOR . 'releases' . DIRECTORY_SEPARATOR . 'tmp' . DIRECTORY_SEPARATOR;
+		$wp_dir = sprintf( '%1$swordpress-%2$s', $tmp_dir, $this->plugin_version ) . DIRECTORY_SEPARATOR;
+		$wp_file = sprintf( '%1$swordpress-%2$s.tar.gz', $tmp_dir, $this->plugin_version );
+		$wp_url = sprintf( 'https://wordpress.org/wordpress-%s.tar.gz', $this->plugin_version );
+
+		/**
+		 * Create tmp folder.
+		 */
+		shell_exec( "mkdir -p $tmp_dir" );
+
+		/**
+		 * Download and uncompress WordPress.
+		 */
+		if ( ! file_exists( $wp_file ) ) {
+			file_put_contents( $wp_file, file_get_contents( $wp_url ) );
+		}
+		shell_exec( "rm -fr $wp_dir && mkdir $wp_dir && tar -xvzf $wp_file -C $wp_dir" );
+
+		/**
+		 * Copy MomtazPress files into wp-includes.
+		 */
+		shell_exec( "rsync -av . {$wp_dir}wordpress/wp-includes/MomazPress --exclude='.git/' --exclude='build/' --exclude='.gitignore'");
+
+		/**
+		 * Inject MomtazPress code.
+		 */
+		file_put_contents( "{$wp_dir}wordpress/wp-settings.php", str_replace(
+			'// Load active plugins.',
+			"// Load MomtazPress.\ninclude 'MomtazPress/class-plugin.php';\n\n// Load active plugins.",
+			file_get_contents( "{$wp_dir}wordpress/wp-settings.php" )
+		) );
 	}
 }
