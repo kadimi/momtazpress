@@ -372,7 +372,7 @@ class Builder {
 		file_put_contents( "{$wp_dir}wordpress/wp-settings.php", str_replace( $before, ''
 			. "// Load MomtazPress.\n"
 			. "\$wp_local_package = 'ar';\n"
-			. "include 'MomtazPress/class-plugin.php';\n\n"
+			. "include WPINC . '/' . 'MomtazPress/class-plugin.php';\n\n"
 			. $before,
 			file_get_contents( "{$wp_dir}wordpress/wp-settings.php" )
 		) );
