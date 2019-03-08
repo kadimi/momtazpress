@@ -1,6 +1,6 @@
 <?php
 /**
- * Bootswatch build class.
+ * Builded class.
  *
  * @package Starter
  */
@@ -257,7 +257,15 @@ class Builder {
 			exit;
 		}
 
-		$command = str_replace(
+		/**
+		 * Prepare `lang`directory
+		 */
+		shell_exec( 'mkdir -p lang' );
+
+		/**
+		 * Prepare xgettext command.
+		 */
+		$pot_command = str_replace(
 			"\n",
 			'',
 			'
@@ -294,9 +302,21 @@ class Builder {
 				-o lang/' . $this->plugin_slug . '.pot
 		'
 		);
-		shell_exec( 'mkdir -p lang' );
-		shell_exec( $command );
-		$this->log( 'Language file created successfully.' );
+
+		/**
+		 * Run command and restaure old file if nothing changes except the creation date.
+		 */
+		$old = file_get_contents( 'lang/' . $this->plugin_slug . '.pot' );
+		shell_exec( $pot_command );
+		$new = file_get_contents( 'lang/' . $this->plugin_slug . '.pot' );
+		$modified = array_diff( explode( "\n", $old ), explode( "\n", $new ) );
+		if ( 1 === count( $modified ) ) {
+			if ( preg_match( '/^"POT-Creation-Date/', array_values( $modified )[0] ) ) {
+				file_put_contents( 'lang/' . $this->plugin_slug . '.pot', $old );
+			}
+		}
+
+		$this->log( 'Language file handled successfully.' );
 	}
 
 	/**
@@ -331,16 +351,29 @@ class Builder {
 		shell_exec( "rm -fr $wp_dir && mkdir $wp_dir && tar -xvzf $wp_file -C $wp_dir" );
 
 		/**
-		 * Copy MomtazPress files into wp-includes.
+		 * Copy MomtazPress files into wp-includes excluding unnecessary files.
 		 */
-		shell_exec( "rsync -av . {$wp_dir}wordpress/wp-includes/MomazPress --exclude='.git/' --exclude='build/' --exclude='.gitignore'");
+		shell_exec( "rsync -av . {$wp_dir}wordpress/wp-includes/MomtazPress \
+			--exclude=\".*\"                                                \
+			--exclude='codesniffer.ruleset.xml'                             \
+			--exclude='composer.json'                                       \
+			--exclude='composer.lock'                                       \
+			--exclude='LICENSE'                                             \
+			--exclude='README.md'                                           \
+			--exclude='wp'                                                  \
+			--exclude='build/'                                              \
+			--exclude='vendor/'                                             \
+		" );
 
 		/**
 		 * Inject MomtazPress code.
 		 */
-		file_put_contents( "{$wp_dir}wordpress/wp-settings.php", str_replace(
-			'// Load active plugins.',
-			"// Load MomtazPress.\ninclude 'MomtazPress/class-plugin.php';\n\n// Load active plugins.",
+		$before = '// Load active plugins.';
+		file_put_contents( "{$wp_dir}wordpress/wp-settings.php", str_replace( $before, ''
+			. "// Load MomtazPress.\n"
+			. "\$wp_local_package = 'ar';\n"
+			. "include 'MomtazPress/class-plugin.php';\n\n"
+			. $before,
 			file_get_contents( "{$wp_dir}wordpress/wp-settings.php" )
 		) );
 	}
