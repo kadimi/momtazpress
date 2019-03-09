@@ -105,7 +105,8 @@ msgctxt "Used before category names."
 msgid "Categories"
 msgstr "التصنيفات"
 
-#: inc/template-tags.php:95 inc/template-tags.php:104
+#: inc/template-tags.php:95
+#: inc/template-tags.php:104
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ", "
@@ -145,7 +146,8 @@ msgstr "تصفّح التعليقات"
 msgid "Blue"
 msgstr "أزرق"
 
-#: functions.php:228 inc/customizer.php:226
+#: functions.php:228
+#: inc/customizer.php:226
 msgid "Purple"
 msgstr "بنفسجي"
 
@@ -153,7 +155,8 @@ msgstr "بنفسجي"
 msgid "Pink"
 msgstr "وردي ـ زهري"
 
-#: functions.php:203 inc/customizer.php:204
+#: functions.php:203
+#: inc/customizer.php:204
 msgid "Yellow"
 msgstr "أصفر"
 
@@ -169,7 +172,9 @@ msgstr "افتراضي"
 msgid "Header and Sidebar Background Color"
 msgstr "لون خلفية الترويسة والشريط الجانبي"
 
-#: inc/customizer.php:79 inc/customizer.php:104 inc/customizer.php:111
+#: inc/customizer.php:79
+#: inc/customizer.php:104
+#: inc/customizer.php:111
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "يستخدم على الترويسة في الشاشات الصغيرة والشريط الجانبي في الشاشات الواسعة."
 
@@ -181,7 +186,9 @@ msgstr "لون نص الترويسة والشريط الجانبي"
 msgid "Base Color Scheme"
 msgstr "نظام الألوان الأساسي"
 
-#: inc/back-compat.php:37 inc/back-compat.php:48 inc/back-compat.php:64
+#: inc/back-compat.php:37
+#: inc/back-compat.php:48
+#: inc/back-compat.php:64
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Fifteen يتطلب ووردبريس 4.1 على الأقل. أنت تستخدم النسخة %s. فيرجى الترقية والمحاولة مرة أخرى."
 
@@ -270,17 +277,26 @@ msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <
 msgid "Nothing Found"
 msgstr "لم يتم العثور على شيء"
 
-#: content-page.php:37 content.php:61 content-search.php:28
-#: content-search.php:33 image.php:74 content-link.php:60
+#: content-link.php:60
+#: content-page.php:37
+#: content-search.php:28
+#: content-search.php:33
+#: content.php:61
+#: image.php:74
 msgid "Edit"
 msgstr "تحرير"
 
-#: content-page.php:26 content.php:41 image.php:61 content-link.php:39
+#: content-link.php:39
+#: content-page.php:26
+#: content.php:41
+#: image.php:61
 msgid "Pages:"
 msgstr "الصفحات:"
 
 #. translators: %s: Name of current post
-#: content.php:34 inc/template-tags.php:249 content-link.php:32
+#: content-link.php:32
+#: content.php:34
+#: inc/template-tags.php:249
 msgid "Continue reading %s"
 msgstr "متابعة قراءة %s"
 
@@ -308,16 +324,25 @@ msgstr "عرض جميع المواضيع التي كتبها %s"
 msgid "Published by"
 msgstr "نُشرت بواسطة"
 
-#: content-page.php:30 content.php:45 image.php:65 search.php:43 archive.php:53
-#: index.php:50 content-link.php:43
+#: archive.php:53
+#: content-link.php:43
+#: content-page.php:30
+#: content.php:45
+#: image.php:65
+#: index.php:50
+#: search.php:43
 msgid "Page"
 msgstr "الصفحة"
 
-#: search.php:42 archive.php:52 index.php:49
+#: archive.php:52
+#: index.php:49
+#: search.php:42
 msgid "Next page"
 msgstr "الصفحة التالية"
 
-#: search.php:41 archive.php:51 index.php:48
+#: archive.php:51
+#: index.php:48
+#: search.php:41
 msgid "Previous page"
 msgstr "الصفحة السابقة"
 

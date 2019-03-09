@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2015-09-25 16:23:36+0000\n"
+"PO-Revision-Date: 2019-03-08 12:00:39+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Themes - Sydney\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -20,11 +20,13 @@ msgstr ""
 msgid "Sydney"
 msgstr "سدني"
 
-#: inc/customizer.php:305 inc/customizer.php:1919
+#: inc/customizer.php:305
+#: inc/customizer.php:1919
 msgid "or go to the Customizer"
 msgstr ""
 
-#: inc/customizer.php:287 inc/customizer.php:1903
+#: inc/customizer.php:287
+#: inc/customizer.php:1903
 msgid "Click the pencil icon to change this text"
 msgstr ""
 
@@ -88,7 +90,8 @@ msgstr ""
 msgid "Single post title size"
 msgstr ""
 
-#: inc/customizer.php:817 inc/customizer.php:1846
+#: inc/customizer.php:817
+#: inc/customizer.php:1846
 msgid "Classic (alternative)"
 msgstr ""
 
@@ -240,11 +243,15 @@ msgstr ""
 msgid "Install: Sydney Toolbox"
 msgstr ""
 
-#: inc/theme-info.php:65 inc/theme-info.php:77 inc/theme-info.php:95
+#: inc/theme-info.php:65
+#: inc/theme-info.php:77
+#: inc/theme-info.php:95
 msgid "Plugin installed and active!"
 msgstr ""
 
-#: inc/theme-info.php:62 inc/theme-info.php:74 inc/theme-info.php:91
+#: inc/theme-info.php:62
+#: inc/theme-info.php:74
+#: inc/theme-info.php:91
 msgid "Install and Activate"
 msgstr ""
 
@@ -316,11 +323,14 @@ msgstr ""
 msgid "Welcome to Sydney. To get started please make sure to visit our <a href=\"%s\">welcome page</a>."
 msgstr ""
 
-#: inc/customizer.php:211 inc/customizer.php:1861 inc/theme-info.php:140
+#: inc/customizer.php:211
+#: inc/customizer.php:1861
+#: inc/theme-info.php:140
 msgid "Responsive"
 msgstr ""
 
-#: inc/customizer.php:210 inc/customizer.php:1860
+#: inc/customizer.php:210
+#: inc/customizer.php:1860
 msgid "Full screen"
 msgstr ""
 
@@ -352,11 +362,14 @@ msgstr ""
 msgid "Menu items hover"
 msgstr ""
 
-#: inc/customizer.php:156 inc/customizer.php:179 inc/customizer.php:1790
+#: inc/customizer.php:156
+#: inc/customizer.php:179
+#: inc/customizer.php:1790
 msgid "Video"
 msgstr ""
 
-#: demo-content/setup.php:15 inc/theme-info.php:80
+#: demo-content/setup.php:15
+#: inc/theme-info.php:80
 msgid "Demo content"
 msgstr ""
 
@@ -364,15 +377,18 @@ msgstr ""
 msgid "Add a value in the field to change the top/bottom row padding, otherwise 100px will be applied by default"
 msgstr ""
 
-#: widgets/fp-services-type-a.php:46 widgets/fp-services-type-b.php:54
+#: widgets/fp-services-type-a.php:46
+#: widgets/fp-services-type-b.php:54
 msgid "Excerpt"
 msgstr ""
 
-#: widgets/fp-services-type-a.php:45 widgets/fp-services-type-b.php:53
+#: widgets/fp-services-type-a.php:45
+#: widgets/fp-services-type-b.php:53
 msgid "Full content"
 msgstr ""
 
-#: widgets/fp-services-type-a.php:43 widgets/fp-services-type-b.php:51
+#: widgets/fp-services-type-a.php:43
+#: widgets/fp-services-type-b.php:51
 msgid "Content to display:"
 msgstr ""
 
@@ -456,7 +472,8 @@ msgstr ""
 msgid "Number of projects to show (-1 shows all of them):"
 msgstr ""
 
-#: widgets/fp-portfolio.php:35 widgets/fp-portfolio.php:148
+#: widgets/fp-portfolio.php:35
+#: widgets/fp-portfolio.php:148
 msgid "Show all"
 msgstr ""
 
@@ -508,7 +525,8 @@ msgstr ""
 msgid "Sydney Info"
 msgstr ""
 
-#: inc/theme-info.php:48 inc/theme-info.php:118
+#: inc/theme-info.php:48
+#: inc/theme-info.php:118
 msgid "Documentation"
 msgstr "وثائق المساعدة"
 
@@ -817,7 +835,8 @@ msgstr "عدد الأعمدة:"
 msgid "Sydney FP: Services type B"
 msgstr ""
 
-#: widgets/fp-services-type-a.php:145 widgets/fp-services-type-b.php:160
+#: widgets/fp-services-type-a.php:145
+#: widgets/fp-services-type-b.php:160
 msgid "See all our services"
 msgstr ""
 
@@ -825,23 +844,28 @@ msgstr ""
 msgid "Display services in two columns instead of three?"
 msgstr ""
 
-#: widgets/fp-services-type-a.php:39 widgets/fp-services-type-b.php:38
+#: widgets/fp-services-type-a.php:39
+#: widgets/fp-services-type-b.php:38
 msgid "Enter the slug for your category or leave empty to show all services."
 msgstr ""
 
-#: widgets/fp-services-type-a.php:37 widgets/fp-services-type-b.php:36
+#: widgets/fp-services-type-a.php:37
+#: widgets/fp-services-type-b.php:36
 msgid "The text for the button [Defaults to <em>See all our services</em> if left empty]"
 msgstr ""
 
-#: widgets/fp-services-type-a.php:35 widgets/fp-services-type-b.php:34
+#: widgets/fp-services-type-a.php:35
+#: widgets/fp-services-type-b.php:34
 msgid "The URL for your button [In case you want a button below your services block]"
 msgstr ""
 
-#: widgets/fp-services-type-a.php:33 widgets/fp-services-type-b.php:32
+#: widgets/fp-services-type-a.php:33
+#: widgets/fp-services-type-b.php:32
 msgid "Number of services to show (-1 shows all of them):"
 msgstr ""
 
-#: widgets/fp-services-type-a.php:28 widgets/fp-services-type-b.php:27
+#: widgets/fp-services-type-a.php:28
+#: widgets/fp-services-type-b.php:27
 msgid "In order to display this widget, you must first add some services from your admin area."
 msgstr ""
 
@@ -849,7 +873,8 @@ msgstr ""
 msgid "Sydney FP: Services Type A"
 msgstr ""
 
-#: widgets/fp-services-type-a.php:11 widgets/fp-services-type-b.php:11
+#: widgets/fp-services-type-a.php:11
+#: widgets/fp-services-type-b.php:11
 msgid "Show what services you are able to provide."
 msgstr ""
 
@@ -869,7 +894,9 @@ msgstr ""
 msgid "Add a bit of text here. It will be displayed."
 msgstr ""
 
-#: widgets/fp-portfolio.php:152 widgets/fp-social.php:57 widgets/fp-list.php:63
+#: widgets/fp-list.php:63
+#: widgets/fp-portfolio.php:152
+#: widgets/fp-social.php:57
 msgid "Title:"
 msgstr "العنوان:"
 
@@ -881,7 +908,8 @@ msgstr ""
 msgid "A simple list widget"
 msgstr ""
 
-#: widgets/fp-latest-news.php:51 widgets/fp-latest-news.php:53
+#: widgets/fp-latest-news.php:51
+#: widgets/fp-latest-news.php:53
 msgid "See all our news"
 msgstr ""
 
@@ -1073,12 +1101,17 @@ msgstr ""
 msgid "Enter your address"
 msgstr ""
 
-#: widgets/fp-services-type-a.php:30 widgets/fp-latest-news.php:19
-#: widgets/fp-clients.php:23 widgets/fp-facts.php:32
-#: widgets/fp-employees.php:23 widgets/contact-info.php:20
-#: widgets/fp-skills.php:24 widgets/video-widget.php:20
-#: widgets/fp-services-type-b.php:29 widgets/fp-testimonials.php:22
+#: widgets/contact-info.php:20
 #: widgets/fp-call-to-action.php:18
+#: widgets/fp-clients.php:23
+#: widgets/fp-employees.php:23
+#: widgets/fp-facts.php:32
+#: widgets/fp-latest-news.php:19
+#: widgets/fp-services-type-a.php:30
+#: widgets/fp-services-type-b.php:29
+#: widgets/fp-skills.php:24
+#: widgets/fp-testimonials.php:22
+#: widgets/video-widget.php:20
 msgid "Title"
 msgstr "العنوان"
 
@@ -1397,7 +1430,7 @@ msgstr "الملاحظات"
 #: inc/template-tags.php:145
 msgctxt "daily archives date format"
 msgid "F j, Y"
-msgstr "F j, Y"
+msgstr "j F، Y"
 
 #: inc/template-tags.php:145
 msgid "Day: %s"
@@ -1656,11 +1689,13 @@ msgstr ""
 msgid "Menu items"
 msgstr ""
 
-#: inc/customizer.php:1188 inc/customizer.php:1471
+#: inc/customizer.php:1188
+#: inc/customizer.php:1471
 msgid "Site description"
 msgstr ""
 
-#: inc/customizer.php:1169 inc/customizer.php:1450
+#: inc/customizer.php:1169
+#: inc/customizer.php:1450
 msgid "Site title"
 msgstr "اسم الموقع"
 
@@ -1672,11 +1707,13 @@ msgstr "حجم الخط"
 msgid "Headings fonts"
 msgstr ""
 
-#: inc/customizer.php:1089 inc/customizer.php:1137
+#: inc/customizer.php:1089
+#: inc/customizer.php:1137
 msgid "Font family"
 msgstr "عائلة الخط"
 
-#: inc/customizer.php:1072 inc/customizer.php:1120
+#: inc/customizer.php:1072
+#: inc/customizer.php:1120
 msgid "Font name/style/sets"
 msgstr ""
 
@@ -1692,19 +1729,23 @@ msgstr ""
 msgid "Fonts"
 msgstr "الخطوط (غير متوفر في اللغة العربية)"
 
-#: inc/customizer.php:1031 inc/customizer.php:1822
+#: inc/customizer.php:1031
+#: inc/customizer.php:1822
 msgid "Four"
 msgstr ""
 
-#: inc/customizer.php:1030 inc/customizer.php:1821
+#: inc/customizer.php:1030
+#: inc/customizer.php:1821
 msgid "Three"
 msgstr "ثلاثة"
 
-#: inc/customizer.php:1029 inc/customizer.php:1820
+#: inc/customizer.php:1029
+#: inc/customizer.php:1820
 msgid "Two"
 msgstr ""
 
-#: inc/customizer.php:1028 inc/customizer.php:1819
+#: inc/customizer.php:1028
+#: inc/customizer.php:1819
 msgid "One"
 msgstr "واحد"
 
@@ -1716,7 +1757,8 @@ msgstr ""
 msgid "Footer widget area"
 msgstr "الودجات في الفوتر"
 
-#: inc/customizer.php:1008 inc/customizer.php:1392
+#: inc/customizer.php:1008
+#: inc/customizer.php:1392
 msgid "Footer"
 msgstr "أسفل الصفحة (الفوتر)"
 
@@ -1768,15 +1810,18 @@ msgstr ""
 msgid "Full width single posts?"
 msgstr ""
 
-#: inc/customizer.php:819 inc/customizer.php:1848
+#: inc/customizer.php:819
+#: inc/customizer.php:1848
 msgid "Masonry (grid style)"
 msgstr ""
 
-#: inc/customizer.php:818 inc/customizer.php:1847
+#: inc/customizer.php:818
+#: inc/customizer.php:1847
 msgid "Full width (no sidebar)"
 msgstr ""
 
-#: inc/customizer.php:816 inc/customizer.php:1845
+#: inc/customizer.php:816
+#: inc/customizer.php:1845
 msgid "Classic"
 msgstr ""
 
@@ -1788,7 +1833,8 @@ msgstr ""
 msgid "Layout"
 msgstr "الشكل العام"
 
-#: inc/customizer.php:783 inc/theme-info.php:180
+#: inc/customizer.php:783
+#: inc/theme-info.php:180
 msgid "Blog options"
 msgstr ""
 
@@ -1804,11 +1850,13 @@ msgstr ""
 msgid "Header height [default: 300px]"
 msgstr ""
 
-#: inc/customizer.php:719 inc/customizer.php:1808
+#: inc/customizer.php:719
+#: inc/customizer.php:1808
 msgid "Contain"
 msgstr ""
 
-#: inc/customizer.php:718 inc/customizer.php:1807
+#: inc/customizer.php:718
+#: inc/customizer.php:1807
 msgid "Cover"
 msgstr "التفاف"
 
@@ -1816,19 +1864,23 @@ msgstr "التفاف"
 msgid "Header background size"
 msgstr ""
 
-#: inc/customizer.php:698 inc/customizer.php:1873
+#: inc/customizer.php:698
+#: inc/customizer.php:1873
 msgid "Centered (menu and site logo)"
 msgstr ""
 
-#: inc/customizer.php:697 inc/customizer.php:1872
+#: inc/customizer.php:697
+#: inc/customizer.php:1872
 msgid "Inline"
 msgstr ""
 
-#: inc/customizer.php:677 inc/customizer.php:1834
+#: inc/customizer.php:677
+#: inc/customizer.php:1834
 msgid "Static"
 msgstr ""
 
-#: inc/customizer.php:676 inc/customizer.php:1833
+#: inc/customizer.php:676
+#: inc/customizer.php:1833
 msgid "Sticky"
 msgstr "مثبت"
 
@@ -1836,7 +1888,8 @@ msgstr "مثبت"
 msgid "Sticky menu"
 msgstr ""
 
-#: inc/customizer.php:655 inc/customizer.php:694
+#: inc/customizer.php:655
+#: inc/customizer.php:694
 msgid "Menu style"
 msgstr ""
 
@@ -1968,15 +2021,20 @@ msgstr ""
 msgid "Site header type"
 msgstr ""
 
-#: inc/customizer.php:157 inc/customizer.php:180
+#: inc/customizer.php:157
+#: inc/customizer.php:180
 msgid "No header (only menu)"
 msgstr ""
 
-#: inc/customizer.php:155 inc/customizer.php:178 inc/customizer.php:1789
+#: inc/customizer.php:155
+#: inc/customizer.php:178
+#: inc/customizer.php:1789
 msgid "Image"
 msgstr "صورة"
 
-#: inc/customizer.php:154 inc/customizer.php:177 inc/customizer.php:1788
+#: inc/customizer.php:154
+#: inc/customizer.php:177
+#: inc/customizer.php:1788
 msgid "Full screen slider"
 msgstr ""
 
@@ -2000,7 +2058,8 @@ msgstr ""
 msgid "Header area"
 msgstr ""
 
-#: inc/customizer.php:17 inc/customizer.php:70
+#: inc/customizer.php:17
+#: inc/customizer.php:70
 msgid "General"
 msgstr "عام"
 
@@ -2020,7 +2079,8 @@ msgstr ""
 msgid "Footer "
 msgstr "أسفل الصفحة (الفوتر)"
 
-#: functions.php:96 inc/customizer.php:1384
+#: functions.php:96
+#: inc/customizer.php:1384
 msgid "Sidebar"
 msgstr "الشريط الجانبي"
 
@@ -2040,12 +2100,16 @@ msgstr "الموقع يستخدم %s بكل فخر"
 msgid "https://wordpress.org/"
 msgstr ""
 
-#: content-page.php:25 inc/template-tags.php:118
+#: content-page.php:25
+#: inc/template-tags.php:118
 msgid "Edit"
 msgstr "تحرير"
 
-#: content-classic-alt.php:34 content.php:34 content-page.php:18
-#: content-search.php:32 content-single.php:36
+#: content-classic-alt.php:34
+#: content-page.php:18
+#: content-search.php:32
+#: content-single.php:36
+#: content.php:34
 msgid "Pages:"
 msgstr "الصفحات:"
 
@@ -2069,15 +2133,18 @@ msgstr "لم يتم العثور على شيء"
 msgid "Comments are closed."
 msgstr "التعليقات مغلقة."
 
-#: comments.php:37 comments.php:55
+#: comments.php:37
+#: comments.php:55
 msgid "Newer Comments &rarr;"
 msgstr "التعليقات الأحدث &larr;"
 
-#: comments.php:36 comments.php:54
+#: comments.php:36
+#: comments.php:54
 msgid "&larr; Older Comments"
 msgstr "&rarr; التعليقات الأقدم"
 
-#: comments.php:35 comments.php:53
+#: comments.php:35
+#: comments.php:53
 msgid "Comment navigation"
 msgstr "تصفّح التعليقات"
 

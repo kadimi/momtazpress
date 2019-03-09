@@ -15,16 +15,23 @@ msgstr ""
 msgid "Details are shown above. The importer will now try again with a different parser..."
 msgstr "التفاصيل معروضة أعلاه. سيعيد برنامج الاستيراد الآن المحاولة باستخدام محلل لغوي مختلف..."
 
-#: parsers.php:42 parsers.php:72 parsers.php:80
+#: parsers.php:42
+#: parsers.php:72
+#: parsers.php:80
 msgid "There was an error when reading this WXR file"
 msgstr "حدث خطأ أثناء قراءة ملف WXR هذا"
 
-#: parsers.php:84 parsers.php:89 parsers.php:306 parsers.php:502
+#: parsers.php:84
+#: parsers.php:89
+#: parsers.php:306
+#: parsers.php:502
 msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
 msgstr "يبدو أن هذا ليس ملف WXR، رقم إصدار WXR مفقود/غير صالح"
 
-#: wordpress-importer.php:132 wordpress-importer.php:141
-#: wordpress-importer.php:192 wordpress-importer.php:196
+#: wordpress-importer.php:132
+#: wordpress-importer.php:141
+#: wordpress-importer.php:192
+#: wordpress-importer.php:196
 #: wordpress-importer.php:205
 msgid "Sorry, there has been an error."
 msgstr "عفواً، هناك خطأ ما."
@@ -117,7 +124,8 @@ msgstr "أخفق استيراد علامة المشاركة %s"
 msgid "Failed to import category %s"
 msgstr "أخفق استيراد الفئة %s"
 
-#: wordpress-importer.php:516 wordpress-importer.php:738
+#: wordpress-importer.php:516
+#: wordpress-importer.php:738
 msgid "Failed to import %s %s"
 msgstr "أخفق استيراد %s %s"
 

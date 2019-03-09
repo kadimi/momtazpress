@@ -29,13 +29,15 @@ msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><br><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">نشر في</span><br><span class=\"post-title\">%title</span>"
 
-#: template-parts/content/content.php:18
 #: template-parts/content/content-excerpt.php:18
+#: template-parts/content/content.php:18
 msgctxt "post"
 msgid "Featured"
 msgstr "البارزة"
 
-#: inc/back-compat.php:39 inc/back-compat.php:53 inc/back-compat.php:73
+#: inc/back-compat.php:39
+#: inc/back-compat.php:53
+#: inc/back-compat.php:73
 msgid "Twenty Nineteen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
 msgstr "يتطلب قالب Twenty Nineteen على الأقل إصدار ووردبريس 4.7. أنت تقوم بتشغيل الإصدار %s. يرجى الترقية والمحاولة مرة أخرى."
 
@@ -113,7 +115,8 @@ msgstr "صغير"
 msgid "S"
 msgstr "S"
 
-#: functions.php:60 footer.php:37
+#: footer.php:37
+#: functions.php:60
 msgid "Footer Menu"
 msgstr "القائمة السفلية"
 
@@ -130,7 +133,8 @@ msgstr "الصفحة"
 msgid "Add widgets here to appear in your footer."
 msgstr "إضافة ودجات هنا لتظهر في تذييل موقعك."
 
-#: template-parts/footer/footer-widgets.php:12 functions.php:192
+#: functions.php:192
+#: template-parts/footer/footer-widgets.php:12
 msgid "Footer"
 msgstr "التذييل"
 
@@ -167,14 +171,15 @@ msgid "Top Menu"
 msgstr "القائمة العلوية"
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content/content.php:36
 #: template-parts/content/content-single.php:27
+#: template-parts/content/content.php:36
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "متابعة قراءة<span class=\"screen-reader-text\"> \"%s\"</span>"
 
-#: template-parts/content/content.php:49
+#: image.php:52
 #: template-parts/content/content-page.php:27
-#: template-parts/content/content-single.php:40 image.php:52
+#: template-parts/content/content-single.php:40
+#: template-parts/content/content.php:49
 msgid "Pages:"
 msgstr "الصفحات:"
 
@@ -232,7 +237,8 @@ msgid "Posted in"
 msgstr "نُشر في"
 
 #. translators: used between list items, there is a space after the comma.
-#: inc/template-tags.php:86 inc/template-tags.php:98
+#: inc/template-tags.php:86
+#: inc/template-tags.php:98
 msgid ", "
 msgstr "،"
 
@@ -294,8 +300,9 @@ msgstr "أرشيف التصنيف:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #. translators: %s: Name of current post. Only visible to screen readers.
+#: inc/template-tags.php:120
 #: template-parts/content/content-page.php:41
-#: template-parts/header/entry-header.php:32 inc/template-tags.php:120
+#: template-parts/header/entry-header.php:32
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "تحرير <span class=\"screen-reader-text\">%s</span>"
 
@@ -303,11 +310,13 @@ msgstr "تحرير <span class=\"screen-reader-text\">%s</span>"
 msgid "Skip to content"
 msgstr "التجاوز إلى المحتوى"
 
-#: template-parts/header/site-branding.php:46 functions.php:61
+#: functions.php:61
+#: template-parts/header/site-branding.php:46
 msgid "Social Links Menu"
 msgstr "قائمة الروابط الإجتماعية"
 
-#: functions.php:59 functions.php:150
+#: functions.php:59
+#: functions.php:150
 msgid "Primary"
 msgstr "رئيسي"
 
@@ -328,7 +337,9 @@ msgstr "التالي"
 msgid "Previous"
 msgstr "السابق"
 
-#: comments.php:92 comments.php:95 comments.php:96
+#: comments.php:92
+#: comments.php:95
+#: comments.php:96
 msgid "Comments"
 msgstr "التعليقات"
 
@@ -350,7 +361,9 @@ msgctxt "comments title"
 msgid "One reply on &ldquo;%s&rdquo;"
 msgstr "تعليق واحد على &ldquo;%s&rdquo;"
 
-#: comments.php:35 comments.php:105 comments.php:107
+#: comments.php:35
+#: comments.php:105
+#: comments.php:107
 msgid "Leave a comment"
 msgstr "اترك تعليقًا"
 

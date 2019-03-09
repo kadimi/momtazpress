@@ -1695,17 +1695,17 @@ msgstr "وسم كمفضل"
 msgid "Comment <span>%s</span>"
 msgstr "التعليقات <span>%s</span>"
 
-#: src/bp-templates/bp-legacy/buddypress/activity/entry.php:66
 #: src/bp-templates/bp-legacy/buddypress-functions.php:246
 #: src/bp-templates/bp-legacy/buddypress-functions.php:1064
 #: src/bp-templates/bp-legacy/buddypress-functions.php:1081
+#: src/bp-templates/bp-legacy/buddypress/activity/entry.php:66
 msgid "Favorite"
 msgstr "التفضيل"
 
-#: src/bp-templates/bp-legacy/buddypress/activity/entry.php:70
 #: src/bp-templates/bp-legacy/buddypress-functions.php:249
 #: src/bp-templates/bp-legacy/buddypress-functions.php:1062
 #: src/bp-templates/bp-legacy/buddypress-functions.php:1083
+#: src/bp-templates/bp-legacy/buddypress/activity/entry.php:70
 msgid "Remove Favorite"
 msgstr "إزالة التفضيل"
 
@@ -1870,8 +1870,8 @@ msgid "Unreplied"
 msgstr "بدون ردود"
 
 #: src/bp-templates/bp-legacy/buddypress/forums/index.php:89
-#: src/bp-templates/bp-legacy/buddypress/groups/single/forum/edit.php:50
 #: src/bp-templates/bp-legacy/buddypress/groups/single/forum.php:78
+#: src/bp-templates/bp-legacy/buddypress/groups/single/forum/edit.php:50
 msgid "Content:"
 msgstr "المحتوى"
 
@@ -1880,8 +1880,8 @@ msgid "Create New Topic:"
 msgstr "إنشاء موضوع جديد:"
 
 #: src/bp-templates/bp-legacy/buddypress/forums/index.php:92
-#: src/bp-templates/bp-legacy/buddypress/groups/single/forum/edit.php:53
 #: src/bp-templates/bp-legacy/buddypress/groups/single/forum.php:81
+#: src/bp-templates/bp-legacy/buddypress/groups/single/forum/edit.php:53
 msgid "Tags (comma separated):"
 msgstr "الوسوم (مفرقة بفواصل)"
 
@@ -2020,9 +2020,9 @@ msgstr ""
 msgid "Crop Image"
 msgstr "قص الصورة"
 
+#: src/bp-templates/bp-legacy/buddypress-functions.php:1170
 #: src/bp-templates/bp-legacy/buddypress/groups/create.php:225
 #: src/bp-templates/bp-legacy/buddypress/groups/single/invites-loop.php:52
-#: src/bp-templates/bp-legacy/buddypress-functions.php:1170
 msgid "Remove Invite"
 msgstr "إلغاء الدعوة"
 
@@ -2128,9 +2128,9 @@ msgstr "تحذير: مسح هذه المجموعة سيمسح كل المعلو�
 msgid "I understand the consequences of deleting this group."
 msgstr "أنا أفهم نتائج وعواقب مسح هذه المجموعة"
 
+#: src/bp-templates/bp-legacy/buddypress/groups/single/forum.php:27
 #: src/bp-templates/bp-legacy/buddypress/groups/single/forum/edit.php:16
 #: src/bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:17
-#: src/bp-templates/bp-legacy/buddypress/groups/single/forum.php:27
 msgid "Forum Directory"
 msgstr "مسار المنتدى"
 
@@ -3392,7 +3392,8 @@ msgstr "ربط عنوان المربع الجانبي مع دليل المجمو
 msgid "Default groups to show:"
 msgstr "المجموعات الإفتراضية التي ستعرض : "
 
-#: src/bp-loader.php:164 src/bp-loader.php:171
+#: src/bp-loader.php:164
+#: src/bp-loader.php:171
 msgid "Cheatin&#8217; huh?"
 msgstr "تغش.. أليس كذلك؟"
 
@@ -4177,9 +4178,9 @@ msgid "Deactivate"
 msgstr "تعطيل"
 
 #: src/bp-messages/bp-messages-template.php:1578
+#: src/bp-templates/bp-legacy/buddypress-functions.php:243
 #: src/bp-templates/bp-legacy/buddypress/members/register.php:90
 #: src/bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:45
-#: src/bp-templates/bp-legacy/buddypress-functions.php:243
 #: src/bp-xprofile/bp-xprofile-admin.php:888
 msgid "Close"
 msgstr "إغلاق"
@@ -4276,7 +4277,8 @@ msgstr "قادة المشروع"
 msgid "BuddyPress is created by a worldwide network of friendly folks like these."
 msgstr ""
 
-#: src/bp-core/bp-core-admin.php:654 src/bp-core/bp-core-admin.php:659
+#: src/bp-core/bp-core-admin.php:654
+#: src/bp-core/bp-core-admin.php:659
 msgid "Lead Developer"
 msgstr "المطوّر الرئيسي"
 
@@ -4284,8 +4286,10 @@ msgstr "المطوّر الرئيسي"
 msgid "Project Lead"
 msgstr "قائد المشروع"
 
-#: src/bp-core/bp-core-admin.php:668 src/bp-core/bp-core-admin.php:673
-#: src/bp-core/bp-core-admin.php:683 src/bp-core/bp-core-admin.php:688
+#: src/bp-core/bp-core-admin.php:668
+#: src/bp-core/bp-core-admin.php:673
+#: src/bp-core/bp-core-admin.php:683
+#: src/bp-core/bp-core-admin.php:688
 msgid "Core Developer"
 msgstr ""
 
@@ -4405,7 +4409,8 @@ msgstr[3] ""
 msgstr[4] ""
 msgstr[5] ""
 
-#: src/bp-core/bp-core-adminbar.php:36 src/bp-core/deprecated/2.1.php:264
+#: src/bp-core/bp-core-adminbar.php:36
+#: src/bp-core/deprecated/2.1.php:264
 msgid "My Account"
 msgstr "ملفي الشخصي"
 
@@ -4425,7 +4430,8 @@ msgstr "صورة الحساب"
 msgid "The image was uploaded successfully"
 msgstr "تمّ رفع الصورة بنجاح"
 
-#: src/bp-core/bp-core-avatars.php:588 src/bp-core/bp-core-avatars.php:589
+#: src/bp-core/bp-core-avatars.php:588
+#: src/bp-core/bp-core-avatars.php:589
 msgid "The image exceeds the maximum allowed file size of: "
 msgstr "الصورة تتجاوز الحد الأقصى المسموح به في الحجم وهو: "
 
@@ -4453,7 +4459,8 @@ msgstr "يرجى رفع صور بامتدادات JPG، GIF أو PNG فقط."
 msgid "The file you uploaded is too big. Please upload a file under %s"
 msgstr "حجم الملف الذي رفعته كبير، الرجاء محاولة رفع ملف أقل من %s"
 
-#: src/bp-core/bp-core-avatars.php:623 src/bp-core/bp-core-avatars.php:660
+#: src/bp-core/bp-core-avatars.php:623
+#: src/bp-core/bp-core-avatars.php:660
 msgid "Upload Failed! Error was: %s"
 msgstr "خطأ في محاولة التحميل، العطل هو: %s"
 
@@ -4465,22 +4472,28 @@ msgstr "فشل التحميل! المشكل كان: %s"
 msgid "You have selected an image that is smaller than recommended. For best results, upload a picture larger than %d x %d pixels."
 msgstr ""
 
-#: src/bp-core/bp-core-avatars.php:865 src/bp-core/bp-core-classes.php:888
-#: src/bp-core/bp-core-classes.php:889 src/bp-core/bp-core-classes.php:890
-#: src/bp-core/bp-core-template.php:159 src/bp-core/bp-core-template.php:178
+#: src/bp-core/bp-core-avatars.php:865
+#: src/bp-core/bp-core-classes.php:888
+#: src/bp-core/bp-core-classes.php:889
+#: src/bp-core/bp-core-classes.php:890
+#: src/bp-core/bp-core-template.php:159
+#: src/bp-core/bp-core-template.php:178
 #: src/bp-groups/bp-groups-template.php:4461
 #: src/bp-groups/bp-groups-template.php:4462
 #: src/bp-groups/bp-groups-template.php:4463
 msgid "Profile photo of %s"
 msgstr "صورة الحساب الشخصي لـ %s"
 
-#: src/bp-core/bp-core-buddybar.php:389 src/bp-core/bp-core-buddybar.php:400
+#: src/bp-core/bp-core-buddybar.php:389
+#: src/bp-core/bp-core-buddybar.php:400
 #: src/bp-core/bp-core-buddybar.php:420
 msgid "You do not have access to this page."
 msgstr "لا يمكنك الولوج إلى هذه الصفحة."
 
-#: src/bp-core/bp-core-caps.php:283 src/bp-core/bp-core-caps.php:295
-#: src/bp-core/bp-core-caps.php:309 src/bp-core/bp-core-caps.php:319
+#: src/bp-core/bp-core-caps.php:283
+#: src/bp-core/bp-core-caps.php:295
+#: src/bp-core/bp-core-caps.php:309
+#: src/bp-core/bp-core-caps.php:319
 msgid "Special community roles no longer exist. Use mapped capabilities instead"
 msgstr ""
 
@@ -4488,7 +4501,8 @@ msgstr ""
 msgid "This user has been marked as a spammer. Only site admins can view this profile."
 msgstr "تم تحديد هذا المستخدم كمزعج. فقط المدراء يمكنهم رؤية هذا الحساب."
 
-#: src/bp-core/bp-core-catchuri.php:467 src/bp-core/bp-core-catchuri.php:528
+#: src/bp-core/bp-core-catchuri.php:467
+#: src/bp-core/bp-core-catchuri.php:528
 msgid "You must log in to access the page you requested."
 msgstr "يجب عليك تسجيل الدخول للولوج إلى الصفحة التي تطلبها."
 
@@ -4509,7 +4523,8 @@ msgid ""
 "%3$s"
 msgstr ""
 
-#: src/bp-core/bp-core-filters.php:354 src/bp-core/bp-core-filters.php:385
+#: src/bp-core/bp-core-filters.php:354
+#: src/bp-core/bp-core-filters.php:385
 msgid "[User Set]"
 msgstr "[مدخل من العضو]"
 
@@ -4642,8 +4657,10 @@ msgstr[3] "%s دقائق"
 msgstr[4] "%s دقيقة"
 msgstr[5] "%s دقيقة"
 
-#: src/bp-core/bp-core-functions.php:1950 src/bp-core/bp-core-widgets.php:71
-#: src/bp-core/deprecated/1.5.php:307 src/bp-core/deprecated/2.1.php:306
+#: src/bp-core/bp-core-functions.php:1950
+#: src/bp-core/bp-core-widgets.php:71
+#: src/bp-core/deprecated/1.5.php:307
+#: src/bp-core/deprecated/2.1.php:306
 #: src/bp-members/bp-members-template.php:1333
 msgid "Log Out"
 msgstr "تسجيل الخروج"
@@ -4675,7 +4692,8 @@ msgstr "مجلد %s"
 msgid "Options"
 msgstr "خيارات"
 
-#: src/bp-core/bp-core-functions.php:2016 src/bp-core/bp-core-widgets.php:89
+#: src/bp-core/bp-core-functions.php:2016
+#: src/bp-core/bp-core-widgets.php:89
 #: src/bp-core/deprecated/2.1.php:243
 msgid "Log In"
 msgstr "تسجيل الدخول"
@@ -4700,14 +4718,15 @@ msgstr "[&hellip;]"
 msgid "<a href=\"%s\" title=\"Register for a new account\">Register</a>"
 msgstr "<a href=\"%s\" title=\"التسجيل للحصول على حساب جديد\">تسجيل</a>"
 
-#: src/bp-core/bp-core-widgets.php:132 src/bp-groups/bp-groups-widgets.php:146
+#: src/bp-core/bp-core-widgets.php:132
+#: src/bp-groups/bp-groups-widgets.php:146
 #: src/bp-members/bp-members-widgets.php:174
 #: src/bp-members/bp-members-widgets.php:293
 #: src/bp-members/bp-members-widgets.php:399
 #: src/bp-messages/bp-messages-widgets.php:118
 #: src/bp-templates/bp-legacy/buddypress/forums/index.php:86
-#: src/bp-templates/bp-legacy/buddypress/groups/single/forum/edit.php:47
 #: src/bp-templates/bp-legacy/buddypress/groups/single/forum.php:75
+#: src/bp-templates/bp-legacy/buddypress/groups/single/forum/edit.php:47
 msgid "Title:"
 msgstr "العنوان:"
 
@@ -4764,7 +4783,8 @@ msgstr "AOL messenger"
 msgid "Jabber"
 msgstr "Jabber "
 
-#: src/bp-core/deprecated/1.6.php:128 src/bp-core/deprecated/1.6.php:149
+#: src/bp-core/deprecated/1.6.php:128
+#: src/bp-core/deprecated/1.6.php:149
 #: src/bp-groups/bp-groups-template.php:3880
 #: src/bp-groups/bp-groups-template.php:3901
 msgid "Recently Active"
@@ -4774,7 +4794,8 @@ msgstr "ناشط مؤخراً"
 msgid "%1$s mentioned you in the group \"%2$s\""
 msgstr "%1$s أشار لك في المجموعة \"%2$s\""
 
-#: src/bp-core/deprecated/1.6.php:129 src/bp-core/deprecated/1.6.php:152
+#: src/bp-core/deprecated/1.6.php:129
+#: src/bp-core/deprecated/1.6.php:152
 #: src/bp-friends/bp-friends-widgets.php:105
 #: src/bp-friends/bp-friends-widgets.php:193
 #: src/bp-groups/bp-groups-template.php:3506
@@ -4787,25 +4808,30 @@ msgstr "%1$s أشار لك في المجموعة \"%2$s\""
 msgid "Newest"
 msgstr "الأحدث"
 
-#: src/bp-core/deprecated/1.6.php:130 src/bp-core/deprecated/1.6.php:155
+#: src/bp-core/deprecated/1.6.php:130
+#: src/bp-core/deprecated/1.6.php:155
 #: src/bp-groups/bp-groups-template.php:3885
 #: src/bp-groups/bp-groups-template.php:3916
 msgid "Alphabetically"
 msgstr "ألفبائياً"
 
-#: src/bp-core/deprecated/2.1.php:132 src/bp-core/deprecated/2.1.php:319
+#: src/bp-core/deprecated/2.1.php:132
+#: src/bp-core/deprecated/2.1.php:319
 msgid "Manage Posts"
 msgstr "إدارة التدوينات"
 
-#: src/bp-core/deprecated/2.1.php:131 src/bp-core/deprecated/2.1.php:318
+#: src/bp-core/deprecated/2.1.php:131
+#: src/bp-core/deprecated/2.1.php:318
 msgid "New Post"
 msgstr "تدوينة جديدة"
 
-#: src/bp-core/deprecated/2.1.php:130 src/bp-core/deprecated/2.1.php:314
+#: src/bp-core/deprecated/2.1.php:130
+#: src/bp-core/deprecated/2.1.php:314
 msgid "Dashboard"
 msgstr "الرئيسية"
 
-#: src/bp-core/deprecated/2.1.php:133 src/bp-core/deprecated/2.1.php:320
+#: src/bp-core/deprecated/2.1.php:133
+#: src/bp-core/deprecated/2.1.php:320
 msgid "Manage Comments"
 msgstr "إدارة التعليقات"
 
@@ -4837,7 +4863,8 @@ msgstr "عضو عشوائي"
 msgid "Edit Details"
 msgstr "تعديل التفاصيل"
 
-#: src/bp-core/deprecated/2.1.php:410 src/bp-core/deprecated/2.1.php:533
+#: src/bp-core/deprecated/2.1.php:410
+#: src/bp-core/deprecated/2.1.php:533
 msgid "Admin Options"
 msgstr "خيارات الإدارة"
 
@@ -4849,7 +4876,8 @@ msgstr "موقع عشوائي"
 msgid "Manage Invitations"
 msgstr "إدارة الدعوات"
 
-#: src/bp-core/deprecated/2.1.php:419 src/bp-groups/bp-groups-loader.php:668
+#: src/bp-core/deprecated/2.1.php:419
+#: src/bp-groups/bp-groups-loader.php:668
 msgid "Group Profile Photo"
 msgstr ""
 
@@ -4873,7 +4901,8 @@ msgstr "تعديل ملف %s الشخصي"
 msgid "Blog Authors"
 msgstr "كتاب المدونة"
 
-#: src/bp-core/deprecated/2.1.php:437 src/bp-groups/bp-groups-admin.php:919
+#: src/bp-core/deprecated/2.1.php:437
+#: src/bp-groups/bp-groups-admin.php:919
 #: src/bp-templates/bp-legacy/buddypress/groups/single/admin.php:332
 #: src/bp-xprofile/bp-xprofile-admin.php:118
 msgid "Delete Group"
@@ -5033,11 +5062,13 @@ msgstr ""
 msgid "Settings Saved."
 msgstr "تمّ حفظ الإعدادات."
 
-#: src/bp-forums/deprecated/1.6.php:34 src/bp-forums/deprecated/1.6.php:136
+#: src/bp-forums/deprecated/1.6.php:34
+#: src/bp-forums/deprecated/1.6.php:136
 msgid "Install bbPress"
 msgstr "تنصيب bbPress"
 
-#: src/bp-forums/deprecated/1.6.php:31 src/bp-forums/deprecated/1.6.php:133
+#: src/bp-forums/deprecated/1.6.php:31
+#: src/bp-forums/deprecated/1.6.php:133
 msgid "Configure bbPress"
 msgstr "إعداد bbPress"
 
@@ -5045,39 +5076,48 @@ msgstr "إعداد bbPress"
 msgid "(Installed)"
 msgstr "(منصّبة)"
 
-#: src/bp-forums/deprecated/1.6.php:70 src/bp-forums/deprecated/1.6.php:212
+#: src/bp-forums/deprecated/1.6.php:70
+#: src/bp-forums/deprecated/1.6.php:212
 msgid "Give each individual group its own discussion forum. Choose this if you'd like to keep your members' conversations separated into distinct areas."
 msgstr ""
 
-#: src/bp-forums/deprecated/1.6.php:68 src/bp-forums/deprecated/1.6.php:210
+#: src/bp-forums/deprecated/1.6.php:68
+#: src/bp-forums/deprecated/1.6.php:210
 msgid "Forums for Groups"
 msgstr "منتديات للمجموعات"
 
-#: src/bp-forums/deprecated/1.6.php:72 src/bp-forums/deprecated/1.6.php:214
+#: src/bp-forums/deprecated/1.6.php:72
+#: src/bp-forums/deprecated/1.6.php:214
 msgid "Note: This component is retired and will not be receiving any updates in the future.  Only use this component if your current site relies on it."
 msgstr ""
 
-#: src/bp-forums/deprecated/1.6.php:74 src/bp-forums/deprecated/1.6.php:216
+#: src/bp-forums/deprecated/1.6.php:74
+#: src/bp-forums/deprecated/1.6.php:216
 msgid "Features"
 msgstr ""
 
-#: src/bp-forums/deprecated/1.6.php:76 src/bp-forums/deprecated/1.6.php:218
+#: src/bp-forums/deprecated/1.6.php:76
+#: src/bp-forums/deprecated/1.6.php:218
 msgid "Group Integration"
 msgstr "إدراج المجموعة"
 
-#: src/bp-forums/deprecated/1.6.php:77 src/bp-forums/deprecated/1.6.php:219
+#: src/bp-forums/deprecated/1.6.php:77
+#: src/bp-forums/deprecated/1.6.php:219
 msgid "Member Profile Integration"
 msgstr "إدراج حساب العضو"
 
-#: src/bp-forums/deprecated/1.6.php:79 src/bp-forums/deprecated/1.6.php:221
+#: src/bp-forums/deprecated/1.6.php:79
+#: src/bp-forums/deprecated/1.6.php:221
 msgid "@ Mention Integration"
 msgstr ""
 
-#: src/bp-forums/deprecated/1.6.php:78 src/bp-forums/deprecated/1.6.php:220
+#: src/bp-forums/deprecated/1.6.php:78
+#: src/bp-forums/deprecated/1.6.php:220
 msgid "Activity Stream Integration"
 msgstr ""
 
-#: src/bp-forums/deprecated/1.6.php:88 src/bp-forums/deprecated/1.6.php:231
+#: src/bp-forums/deprecated/1.6.php:88
+#: src/bp-forums/deprecated/1.6.php:231
 msgid "New! bbPress"
 msgstr "جديد! bbPress"
 
@@ -5085,43 +5125,53 @@ msgstr "جديد! bbPress"
 msgid "Uninstall Group Forums"
 msgstr "إلغاء تثبيت منتديات المجموعة"
 
-#: src/bp-forums/deprecated/1.6.php:89 src/bp-forums/deprecated/1.6.php:232
+#: src/bp-forums/deprecated/1.6.php:89
+#: src/bp-forums/deprecated/1.6.php:232
 msgid "bbPress is a brand-new forum plugin from one of the lead developers of BuddyPress."
 msgstr ""
 
-#: src/bp-forums/deprecated/1.6.php:91 src/bp-forums/deprecated/1.6.php:234
+#: src/bp-forums/deprecated/1.6.php:91
+#: src/bp-forums/deprecated/1.6.php:234
 msgid "It boasts a bunch of cool features that the BP Legacy Discussion Forums does not have including:"
 msgstr ""
 
-#: src/bp-forums/deprecated/1.6.php:95 src/bp-forums/deprecated/1.6.php:238
+#: src/bp-forums/deprecated/1.6.php:95
+#: src/bp-forums/deprecated/1.6.php:238
 msgid "Moderation via the WP admin dashboard"
 msgstr ""
 
-#: src/bp-forums/deprecated/1.6.php:94 src/bp-forums/deprecated/1.6.php:237
+#: src/bp-forums/deprecated/1.6.php:94
+#: src/bp-forums/deprecated/1.6.php:237
 msgid "Non-group specific forum creation"
 msgstr ""
 
-#: src/bp-forums/deprecated/1.6.php:96 src/bp-forums/deprecated/1.6.php:239
+#: src/bp-forums/deprecated/1.6.php:96
+#: src/bp-forums/deprecated/1.6.php:239
 msgid "Topic splitting"
 msgstr ""
 
-#: src/bp-forums/deprecated/1.6.php:97 src/bp-forums/deprecated/1.6.php:240
+#: src/bp-forums/deprecated/1.6.php:97
+#: src/bp-forums/deprecated/1.6.php:240
 msgid "Revisions"
 msgstr "المراجعات"
 
-#: src/bp-forums/deprecated/1.6.php:98 src/bp-forums/deprecated/1.6.php:241
+#: src/bp-forums/deprecated/1.6.php:98
+#: src/bp-forums/deprecated/1.6.php:241
 msgid "Spam management"
 msgstr "إدارة البريد المزعج"
 
-#: src/bp-forums/deprecated/1.6.php:99 src/bp-forums/deprecated/1.6.php:242
+#: src/bp-forums/deprecated/1.6.php:99
+#: src/bp-forums/deprecated/1.6.php:242
 msgid "Subscriptions"
 msgstr "الإشتراكات"
 
-#: src/bp-forums/deprecated/1.6.php:103 src/bp-forums/deprecated/1.6.php:246
+#: src/bp-forums/deprecated/1.6.php:103
+#: src/bp-forums/deprecated/1.6.php:246
 msgid "If you decide to use bbPress, you will need to deactivate the legacy group forum component.  For more info, <a href=\"%s\">read this codex article</a>."
 msgstr ""
 
-#: src/bp-forums/deprecated/1.6.php:100 src/bp-forums/deprecated/1.6.php:243
+#: src/bp-forums/deprecated/1.6.php:100
+#: src/bp-forums/deprecated/1.6.php:243
 msgid "And more!"
 msgstr "والمزيد!"
 
@@ -5145,7 +5195,8 @@ msgstr ""
 msgid "BuddyPress can make use of your existing bbPress install. Just provide the location of your <code>bb-config.php</code> file, and BuddyPress will do the rest."
 msgstr ""
 
-#: src/bp-forums/deprecated/1.6.php:155 src/bp-forums/deprecated/1.6.php:187
+#: src/bp-forums/deprecated/1.6.php:155
+#: src/bp-forums/deprecated/1.6.php:187
 msgid "Complete Installation"
 msgstr ""
 
@@ -5642,7 +5693,8 @@ msgstr "لا يمكن إضافة هؤلاء المستخدمين إلى المج
 msgid "The group has been updated successfully."
 msgstr "تم تحديث المجموعة بنجاح."
 
-#: src/bp-groups/bp-groups-admin.php:526 src/bp-groups/bp-groups-admin.php:673
+#: src/bp-groups/bp-groups-admin.php:526
+#: src/bp-groups/bp-groups-admin.php:673
 msgid "Add New"
 msgstr "أضف جديد"
 
@@ -5715,7 +5767,8 @@ msgstr "السماح بنقاشات المنتدى"
 msgid "Search all Groups"
 msgstr "البحث في كافة المجموعات"
 
-#: src/bp-groups/bp-groups-admin.php:722 src/bp-groups/bp-groups-admin.php:1490
+#: src/bp-groups/bp-groups-admin.php:722
+#: src/bp-groups/bp-groups-admin.php:1490
 #: src/bp-groups/bp-groups-template.php:1090
 msgid "Public"
 msgstr "عام"
@@ -5724,11 +5777,13 @@ msgstr "عام"
 msgid "Privacy"
 msgstr "الخصوصية"
 
-#: src/bp-groups/bp-groups-admin.php:724 src/bp-groups/bp-groups-admin.php:1496
+#: src/bp-groups/bp-groups-admin.php:724
+#: src/bp-groups/bp-groups-admin.php:1496
 msgid "Hidden"
 msgstr "مخفي"
 
-#: src/bp-groups/bp-groups-admin.php:723 src/bp-groups/bp-groups-admin.php:1493
+#: src/bp-groups/bp-groups-admin.php:723
+#: src/bp-groups/bp-groups-admin.php:1493
 #: src/bp-groups/bp-groups-template.php:1092
 msgid "Private"
 msgstr "خاصة"
@@ -5764,7 +5819,8 @@ msgstr "مدراء"
 msgid "Enter a comma-separated list of user logins."
 msgstr ""
 
-#: src/bp-groups/bp-groups-admin.php:810 src/bp-groups/bp-groups-loader.php:543
+#: src/bp-groups/bp-groups-admin.php:810
+#: src/bp-groups/bp-groups-loader.php:543
 #: src/bp-members/bp-members-loader.php:33
 #: src/bp-members/bp-members-widgets.php:161
 #: src/bp-templates/bp-legacy/buddypress/groups/single/admin.php:231
@@ -5965,7 +6021,8 @@ msgstr "خطأ: فضلا أكتب رداً."
 #: src/bp-core/admin/bp-core-functions.php:475
 #: src/bp-core/admin/bp-core-functions.php:494
 #: src/bp-core/admin/bp-core-functions.php:513
-#: src/bp-groups/bp-groups-admin.php:111 src/bp-groups/bp-groups-admin.php:146
+#: src/bp-groups/bp-groups-admin.php:111
+#: src/bp-groups/bp-groups-admin.php:146
 #: src/bp-members/bp-members-admin.php:704
 #: src/bp-members/bp-members-admin.php:1410
 msgid "Overview"
@@ -6013,7 +6070,8 @@ msgstr ""
 #: src/bp-core/admin/bp-core-functions.php:481
 #: src/bp-core/admin/bp-core-functions.php:500
 #: src/bp-core/admin/bp-core-functions.php:519
-#: src/bp-groups/bp-groups-admin.php:119 src/bp-groups/bp-groups-admin.php:162
+#: src/bp-groups/bp-groups-admin.php:119
+#: src/bp-groups/bp-groups-admin.php:162
 #: src/bp-members/bp-members-admin.php:713
 #: src/bp-members/bp-members-admin.php:1431
 msgid "For more information:"
@@ -6280,7 +6338,8 @@ msgstr[5] ""
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
 msgstr "تاريخ الإرسال <a href=\"%1$s\">%2$s على %3 $s</a>"
 
-#: src/bp-activity/bp-activity-admin.php:1515 src/bp-core/bp-core-cssjs.php:81
+#: src/bp-activity/bp-activity-admin.php:1515
+#: src/bp-core/bp-core-cssjs.php:81
 msgid "Are you sure?"
 msgstr "هل أنت متأكد؟"
 
@@ -6419,7 +6478,8 @@ msgstr "البحث عن نشاط..."
 #: src/bp-activity/bp-activity-template.php:1397
 #: src/bp-activity/bp-activity-template.php:1572
 #: src/bp-activity/bp-activity-template.php:1583
-#: src/bp-blogs/bp-blogs-loader.php:265 src/bp-core/deprecated/2.1.php:501
+#: src/bp-blogs/bp-blogs-loader.php:265
+#: src/bp-core/deprecated/2.1.php:501
 #: src/bp-forums/bp-forums-loader.php:245
 #: src/bp-forums/bp-forums-template.php:856
 #: src/bp-forums/bp-forums-template.php:1153
@@ -6700,8 +6760,10 @@ msgstr "مسار الموقع"
 msgid "%1$s commented on the post, %2$s"
 msgstr ""
 
-#: src/bp-blogs/bp-blogs-loader.php:177 src/bp-blogs/bp-blogs-loader.php:228
-#: src/bp-blogs/bp-blogs-loader.php:256 src/bp-core/deprecated/2.1.php:118
+#: src/bp-blogs/bp-blogs-loader.php:177
+#: src/bp-blogs/bp-blogs-loader.php:228
+#: src/bp-blogs/bp-blogs-loader.php:256
+#: src/bp-core/deprecated/2.1.php:118
 msgid "My Sites"
 msgstr "مواقعي"
 
@@ -6709,15 +6771,18 @@ msgstr "مواقعي"
 msgid "Sites <span>%d</span>"
 msgstr "المواقع <span>%d</span>"
 
-#: src/bp-blogs/bp-blogs-loader.php:220 src/bp-blogs/bp-blogs-screens.php:174
+#: src/bp-blogs/bp-blogs-loader.php:220
+#: src/bp-blogs/bp-blogs-screens.php:174
 #: src/bp-blogs/bp-blogs-screens.php:239
 msgid "Sites"
 msgstr "المواقع"
 
-#: src/bp-blogs/bp-blogs-loader.php:237 src/bp-blogs/bp-blogs-screens.php:237
+#: src/bp-blogs/bp-blogs-loader.php:237
+#: src/bp-blogs/bp-blogs-screens.php:237
 #: src/bp-blogs/bp-blogs-template.php:1389
 #: src/bp-blogs/bp-blogs-template.php:1470
-#: src/bp-blogs/bp-blogs-template.php:1471 src/bp-core/bp-core-filters.php:621
+#: src/bp-blogs/bp-blogs-template.php:1471
+#: src/bp-core/bp-core-filters.php:621
 msgid "Create a Site"
 msgstr "إنشاء موقع"
 
@@ -6740,7 +6805,8 @@ msgstr[3] ""
 msgstr[4] ""
 msgstr[5] ""
 
-#: src/bp-blogs/bp-blogs-template.php:776 src/bp-core/bp-core-classes.php:891
+#: src/bp-blogs/bp-blogs-template.php:776
+#: src/bp-core/bp-core-classes.php:891
 #: src/bp-groups/bp-groups-template.php:4467
 #: src/bp-groups/bp-groups-widgets.php:94
 #: src/bp-groups/bp-groups-widgets.php:206
@@ -6856,11 +6922,13 @@ msgstr[5] "%s موقع"
 msgid "A list of recently published posts from across your network."
 msgstr ""
 
-#: src/bp-blogs/bp-blogs-widgets.php:50 src/bp-blogs/bp-blogs-widgets.php:131
+#: src/bp-blogs/bp-blogs-widgets.php:50
+#: src/bp-blogs/bp-blogs-widgets.php:131
 msgid "Recent Networkwide Posts"
 msgstr ""
 
-#: src/bp-blogs/bp-blogs-template.php:1430 src/bp-core/deprecated/1.5.php:417
+#: src/bp-blogs/bp-blogs-template.php:1430
+#: src/bp-core/deprecated/1.5.php:417
 #: src/bp-forums/bp-forums-template.php:2683
 #: src/bp-groups/bp-groups-template.php:3865
 #: src/bp-members/bp-members-template.php:1246
@@ -7104,13 +7172,16 @@ msgstr ""
 #: src/bp-forums/bp-forums-loader.php:199
 #: src/bp-forums/bp-forums-loader.php:240
 #: src/bp-forums/bp-forums-screens.php:288
-#: src/bp-forums/bp-forums-screens.php:290 src/bp-forums/deprecated/1.6.php:42
-#: src/bp-forums/deprecated/1.7.php:25 src/bp-forums/deprecated/1.7.php:102
+#: src/bp-forums/bp-forums-screens.php:290
+#: src/bp-forums/deprecated/1.6.php:42
+#: src/bp-forums/deprecated/1.7.php:25
+#: src/bp-forums/deprecated/1.7.php:102
 msgid "Forums"
 msgstr "المنتديات"
 
 #: src/bp-core/admin/bp-core-functions.php:411
-#: src/bp-core/admin/bp-core-settings.php:243 src/bp-core/bp-core-admin.php:442
+#: src/bp-core/admin/bp-core-settings.php:243
+#: src/bp-core/bp-core-admin.php:442
 #: src/bp-groups/bp-groups-loader.php:529
 #: src/bp-settings/bp-settings-loader.php:23
 #: src/bp-settings/bp-settings-loader.php:73
@@ -7158,8 +7229,10 @@ msgstr ""
 #. #-#-#-#-#  buddypress.pot (BuddyPress 2.2.3.1)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: src/bp-core/admin/bp-core-functions.php:717
-#: src/bp-core/bp-core-admin.php:216 src/bp-core/bp-core-admin.php:217
-#: src/bp-core/bp-core-admin.php:237 src/bp-core/bp-core-admin.php:291
+#: src/bp-core/bp-core-admin.php:216
+#: src/bp-core/bp-core-admin.php:217
+#: src/bp-core/bp-core-admin.php:237
+#: src/bp-core/bp-core-admin.php:291
 msgid "BuddyPress"
 msgstr "بدي بريس"
 
@@ -7254,7 +7327,8 @@ msgstr "مسارات "
 
 #: src/bp-core/admin/bp-core-tools.php:19
 #: src/bp-core/admin/bp-core-tools.php:383
-#: src/bp-core/admin/bp-core-tools.php:386 src/bp-core/bp-core-admin.php:290
+#: src/bp-core/admin/bp-core-tools.php:386
+#: src/bp-core/bp-core-admin.php:290
 msgid "BuddyPress Tools"
 msgstr "أدوات بدي بريس"
 
@@ -7350,13 +7424,16 @@ msgstr ""
 msgid "Determining last activity dates for each user&hellip; %s"
 msgstr ""
 
-#: src/bp-core/admin/bp-core-tools.php:361 src/bp-core/bp-core-admin.php:267
+#: src/bp-core/admin/bp-core-tools.php:361
+#: src/bp-core/bp-core-admin.php:267
 #: src/bp-core/bp-core-admin.php:268
 msgid "Tools"
 msgstr ""
 
-#: src/bp-core/bp-core-admin.php:196 src/bp-core/bp-core-admin.php:197
-#: src/bp-core/bp-core-admin.php:205 src/bp-core/bp-core-admin.php:206
+#: src/bp-core/bp-core-admin.php:196
+#: src/bp-core/bp-core-admin.php:197
+#: src/bp-core/bp-core-admin.php:205
+#: src/bp-core/bp-core-admin.php:206
 msgid "Welcome to BuddyPress"
 msgstr "مرحبا بك على BuddyPress"
 
@@ -7372,15 +7449,18 @@ msgstr "BuddyPress مكونات"
 msgid "Help"
 msgstr "مساعدة"
 
-#: src/bp-core/bp-core-admin.php:254 src/bp-core/bp-core-admin.php:255
+#: src/bp-core/bp-core-admin.php:254
+#: src/bp-core/bp-core-admin.php:255
 msgid "BuddyPress Settings"
 msgstr "إعدادات \"بدي برس\""
 
-#: src/bp-core/bp-core-admin.php:245 src/bp-core/bp-core-admin.php:246
+#: src/bp-core/bp-core-admin.php:245
+#: src/bp-core/bp-core-admin.php:246
 msgid "BuddyPress Pages"
 msgstr "BuddyPress صفحات"
 
-#: src/bp-core/bp-core-admin.php:278 src/bp-core/bp-core-admin.php:279
+#: src/bp-core/bp-core-admin.php:278
+#: src/bp-core/bp-core-admin.php:279
 msgid "Available Tools"
 msgstr "الأدوات المتاحة"
 
@@ -7396,7 +7476,8 @@ msgstr "حذف الحساب"
 msgid "Profile Syncing"
 msgstr "مزامنة الملف الشخصي"
 
-#: src/bp-core/bp-core-admin.php:320 src/bp-core/bp-core-admin.php:325
+#: src/bp-core/bp-core-admin.php:320
+#: src/bp-core/bp-core-admin.php:325
 msgid "Toolbar"
 msgstr "شريط الأدوات"
 

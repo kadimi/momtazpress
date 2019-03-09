@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-02-04 21:36:33+0000\n"
+"PO-Revision-Date: 2019-03-04 15:53:26+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Themes - Neve\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -22,7 +22,7 @@ msgstr "نيفي (Neve)"
 #. translators: %s - theme name
 #: inc/core/admin.php:60
 msgid "%s Community"
-msgstr ""
+msgstr "مجتمع %s"
 
 #: inc/views/pluggable/pagination.php:107
 msgid "next"
@@ -32,7 +32,7 @@ msgstr "التالي"
 msgid "previous"
 msgstr "السابق"
 
-#: inc/customizer/options/layout_single_post.php:65
+#: inc/customizer/options/layout_single_post.php:71
 msgid "Post navigation"
 msgstr "تصفّح المقالات"
 
@@ -63,7 +63,7 @@ msgid "Try one of our ready to use Starter Sites"
 msgstr "جرب واحدة من قوالبنا للمبتدئين الجاهزة للاستعمال "
 
 #. translators: %s: number of comments
-#: inc/views/partials/post_meta.php:96
+#: inc/views/partials/post_meta.php:102
 msgid "%s Comment"
 msgid_plural "%s Comments"
 msgstr[0] "%s تعليق"
@@ -83,7 +83,7 @@ msgstr "مُنشئ الصفحة كامل العرض نيفي (Neve)"
 
 #: inc/core/admin.php:350
 msgid "Sites Library"
-msgstr ""
+msgstr "مكتبة المواقع"
 
 #: template-parts/content-none.php:33
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
@@ -102,12 +102,12 @@ msgstr "ابدأ هنا"
 msgid "Ready to publish your first post? %s."
 msgstr "هل أنت جاهز لنشر مقالتك الأولى؟ %s."
 
-#: inc/views/template_parts.php:229
+#: inc/views/template_parts.php:230
 msgid "Read More"
 msgstr "اقرأ المزيد"
 
-#: inc/customizer/options/layout_single_post.php:64
-#: inc/views/partials/post_meta.php:134
+#: inc/customizer/options/layout_single_post.php:70
+#: inc/views/partials/post_meta.php:140
 msgid "Tags"
 msgstr "الوسوم"
 
@@ -136,7 +136,8 @@ msgstr "الرد"
 msgid "%1$s at %2$s"
 msgstr "%1$s في %2$s"
 
-#: inc/views/partials/comments.php:107 inc/views/partials/comments.php:138
+#: inc/views/partials/comments.php:107
+#: inc/views/partials/comments.php:138
 msgid "Edit"
 msgstr "تحرير"
 
@@ -173,7 +174,8 @@ msgstr "تبديل التنقل"
 msgid "Navigation Menu"
 msgstr "قائمة التنقل"
 
-#: inc/views/header.php:85 inc/views/layouts/layout_sidebar.php:141
+#: inc/views/header.php:89
+#: inc/views/layouts/layout_sidebar.php:141
 msgid "Close"
 msgstr "إغلاق"
 
@@ -232,7 +234,7 @@ msgstr "أسلوب الطباعة"
 msgid "Header"
 msgstr "ترويسة"
 
-#: inc/customizer/options/layout_single_post.php:76
+#: inc/customizer/options/layout_single_post.php:84
 msgid "Elements Order"
 msgstr "ترتيب العناصر"
 
@@ -299,7 +301,8 @@ msgstr "محتوى القسم"
 
 #. translators: %1$s is Theme Name (Neve), %2$s is WordPress
 #. translators: %1$s is Theme Name ( Neve ), %2$s is WordPress
-#: inc/customizer/options/layout_footer.php:178 inc/views/footer.php:71
+#: inc/customizer/options/layout_footer.php:178
+#: inc/views/footer.php:71
 msgid "%1$s | Powered by %2$s"
 msgstr "%1$s | مشغل بواسطة %2$s"
 
@@ -328,9 +331,9 @@ msgstr "أعمدة الودجات"
 msgid "Widgets"
 msgstr "الودجات"
 
-#: inc/customizer/options/top_bar.php:123
-#: inc/customizer/options/layout_single_post.php:63
 #: inc/customizer/options/layout_footer.php:71
+#: inc/customizer/options/layout_single_post.php:69
+#: inc/customizer/options/top_bar.php:123
 msgid "Content"
 msgstr "المحتوى"
 
@@ -367,6 +370,7 @@ msgid "Meta Order"
 msgstr "تعريف الترتيب"
 
 #: inc/customizer/options/layout_blog.php:261
+#: inc/customizer/options/layout_single_post.php:72
 msgid "Comments"
 msgstr "التعليقات"
 
@@ -390,13 +394,13 @@ msgstr "ترتيب مقالة المحتوى"
 msgid "Excerpt"
 msgstr "المقتطف"
 
-#: inc/customizer/options/layout_single_post.php:61
 #: inc/customizer/options/layout_blog.php:223
+#: inc/customizer/options/layout_single_post.php:67
 msgid "Title & Meta"
 msgstr "العنوان و التعريف"
 
-#: inc/customizer/options/layout_single_post.php:62
 #: inc/customizer/options/layout_blog.php:222
+#: inc/customizer/options/layout_single_post.php:68
 msgid "Thumbnail"
 msgstr "الصور المصغرة"
 
@@ -440,8 +444,9 @@ msgstr "عمود واحد"
 msgid "Grid Layout"
 msgstr "الخطاطة الشبكية"
 
-#: inc/customizer/options/top_bar.php:90 inc/customizer/options/main.php:53
 #: inc/customizer/options/layout_blog.php:65
+#: inc/customizer/options/main.php:53
+#: inc/customizer/options/top_bar.php:90
 msgid "Layout"
 msgstr "التخطيط"
 
@@ -449,8 +454,8 @@ msgstr "التخطيط"
 msgid "Blog"
 msgstr "المدونة"
 
-#: inc/customizer/options/layout_sidebar.php:148
 #: inc/customizer/options/layout_blog.php:46
+#: inc/customizer/options/layout_sidebar.php:148
 msgid "Blog / Archive"
 msgstr "المدونة / الأرشيف"
 
@@ -487,80 +492,87 @@ msgctxt "label"
 msgid "Search"
 msgstr "البحث"
 
-#: inc/core/front_end.php:467
+#: inc/core/front_end.php:569
 msgid "Footer Four"
 msgstr "التذييل أربعة"
 
-#: inc/core/front_end.php:466
+#: inc/core/front_end.php:568
 msgid "Footer Three"
 msgstr "التذييل ثلاثة"
 
-#: inc/core/front_end.php:465
+#: inc/core/front_end.php:567
 msgid "Footer Two"
 msgstr "التذييل إثنان"
 
-#: inc/core/front_end.php:464
+#: inc/core/front_end.php:566
 msgid "Footer One"
 msgstr "التذييل واحد"
 
-#: inc/core/front_end.php:458
+#: inc/core/front_end.php:560
 msgid "Shop Sidebar"
 msgstr "الشريط جانبي للمتجر"
 
-#: inc/customizer/options/colors_background.php:72 inc/core/front_end.php:192
+#: inc/core/front_end.php:266
+#: inc/customizer/options/colors_background.php:72
 msgid "Text Color"
 msgstr "لون النص"
 
-#: inc/customizer/options/colors_background.php:67 inc/core/front_end.php:188
+#: inc/core/front_end.php:262
+#: inc/customizer/options/colors_background.php:67
 msgid "Link Hover Color"
 msgstr "لون المرور فوق الرابط"
 
-#: inc/customizer/options/colors_background.php:62 inc/core/front_end.php:184
+#: inc/core/front_end.php:258
+#: inc/customizer/options/colors_background.php:62
 msgid "Link Color"
 msgstr "لون الرابط"
 
-#: inc/core/front_end.php:180
+#: inc/core/front_end.php:254
 msgid "Button Color"
 msgstr "لون الزر"
 
-#: inc/core/front_end.php:171
+#: inc/core/front_end.php:245
 msgid "White"
 msgstr "أبيض"
 
-#: inc/core/front_end.php:162
+#: inc/core/front_end.php:236
 msgid "Black"
 msgstr "أسود"
 
 #. translators: %s - theme name
-#: inc/core/front_end.php:143
+#: inc/core/front_end.php:194
 msgid "With %s, you can choose from multiple unique demos, specially designed for you, that can be installed with a single click. You just need to choose your favorite, and we will take care of everything else."
 msgstr "مع  %s، يمكنك الاختيار من بين العديد من العروض التوضيحية الفريدة المصممة خصيصًا لك، والتي يمكن تنصيبها بنقرة واحدة. أنت فقط بحاجة إلى اختيار التصميم الذي تفضله، وسنتولى العناية بكل شيء آخر."
 
-#: inc/core/front_end.php:141
+#: inc/core/front_end.php:192
 msgid "Ready to use pre-built websites with 1-click installation"
 msgstr "هل أنت جاهز لاستخدام مواقع الويب سابقة التحديد مع تنصيب بنقرة واحدة"
 
-#: inc/core/front_end.php:124 inc/core/front_end.php:134
+#: inc/core/front_end.php:175
+#: inc/core/front_end.php:185
 msgid "Hi! We've noticed you were using Zelle before. To make your transition easier, we can help you keep the same beautiful homepage you had before, by converting it into an Elementor template. This option will also import your homepage content."
 msgstr "مرحبا! لقد لاحظنا أنك كنت تستخدم زيلي (Zelle) من قبل. لتسهيل عملية الانتقال، يمكننا مساعدتك في الاحتفاظ بنفس الصفحة الرئيسية الجميلة التي كان لديك من قبل، من خلال تحويلها إلى قالب ألمنتر (Elementor). سيعمل هذا الخيار أيضًا على استيراد محتوى صفحتك الرئيسية."
 
-#: inc/core/front_end.php:123 inc/core/front_end.php:133
+#: inc/core/front_end.php:174
+#: inc/core/front_end.php:184
 msgid "Want to keep using Zelle's homepage?"
 msgstr "هل تريد الاستمرار في استخدام الصفحة الرئيسية لـزيلي (Zelle)؟"
 
-#: inc/core/front_end.php:64
+#: inc/core/front_end.php:72
 msgid "Top Bar Menu"
 msgstr "‏‏قائمة الشريط العلوي"
 
-#: inc/core/front_end.php:63
+#: inc/core/front_end.php:71
 msgid "Footer Menu"
 msgstr "قائمة التذييل"
 
-#: inc/core/front_end.php:62 inc/views/header.php:202
+#: inc/core/front_end.php:70
+#: inc/views/header.php:206
 msgid "Primary Menu"
 msgstr "القائمة الأساسية"
 
-#: inc/customizer/options/layout_sidebar.php:43 inc/core/admin.php:240
+#: inc/core/admin.php:240
+#: inc/customizer/options/layout_sidebar.php:43
 msgid "Content / Sidebar"
 msgstr "المحتوى / الشريط الجانبي"
 
@@ -608,7 +620,9 @@ msgstr "إذا وجدت نفسك في وضعية حيث يعمل كل شيء ع�
 msgid "Speed up your site"
 msgstr "اجعل موقعك أكثر سرعة"
 
-#: inc/core/admin.php:154 inc/core/admin.php:164 inc/core/admin.php:174
+#: inc/core/admin.php:154
+#: inc/core/admin.php:164
+#: inc/core/admin.php:174
 msgid "View how to do this"
 msgstr "عرض كيفية القيام بهذا"
 
@@ -624,29 +638,36 @@ msgstr "إنشاء قالب فرعي"
 msgid "Want to get the gist on the latest theme changes? Just consult our changelog below to get a taste of the recent fixes and features implemented."
 msgstr "تريد معرفة جوهر أحدث تغييرات القالب؟ فقط راجع سجل التغيير لدينا أدناه لتأخذ فكرة على الإصلاحات والميزات الحديثة التي تم تنفيذها."
 
-#: inc/core/admin.php:140 inc/core/admin.php:143 inc/core/admin.php:183
+#: inc/core/admin.php:140
+#: inc/core/admin.php:143
+#: inc/core/admin.php:183
 msgid "Changelog"
 msgstr "سجل التغيير"
 
-#: inc/core/admin.php:132 inc/core/admin.php:363
+#: inc/core/admin.php:132
+#: inc/core/admin.php:363
 msgid "Read full documentation"
 msgstr "اقرأ الوثائق كاملة"
 
 #. translators: %s - theme name
-#: inc/core/admin.php:130 inc/core/admin.php:361
+#: inc/core/admin.php:130
+#: inc/core/admin.php:361
 msgid "Need more details? Please check our full documentation for detailed information on how to use %s."
-msgstr ""
+msgstr "بحاجة الى أكثر تفاصيل؟ يرجى مراجعة وثائقنا الكاملة للحصول على معلومات مفصلة حول كيفية استخدام %s."
 
 #. translators: 1 - theme name, 2 - theme name
 #: inc/core/admin.php:119
 msgid "We want to make sure you have the best experience using %1$s, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using %1$s as much as we enjoy creating great products."
-msgstr ""
+msgstr "نريد أن نتأكد من حصولك على أفضل تجربة عندما تستخدم %1$s، لهذا السبب جمعنا لك كل المعلومات الضرورية هنا. نحن نتمنى أن تستمتع باستخدام %1$s بقدر ما نتمتع نحن بإنشاء منتجات رائعة."
 
-#: inc/core/admin.php:117 inc/core/admin.php:121
+#: inc/core/admin.php:117
+#: inc/core/admin.php:121
 msgid "Contact Support"
 msgstr "الاتصال بالدعم"
 
-#: inc/core/admin.php:113 inc/core/admin.php:128 inc/core/admin.php:359
+#: inc/core/admin.php:113
+#: inc/core/admin.php:128
+#: inc/core/admin.php:359
 msgid "Documentation"
 msgstr "الوثائق"
 
@@ -663,9 +684,10 @@ msgid "See demos"
 msgstr "انظر إلى العروض التوضيحية"
 
 #. translators: %s - theme name
-#: inc/core/admin.php:82 inc/core/admin.php:352
+#: inc/core/admin.php:82
+#: inc/core/admin.php:352
 msgid "%s now comes with a sites library with various designs to pick from. Visit our collection of demos that are constantly being added."
-msgstr ""
+msgstr "الآن يأتي %s مع مكتبة المواقع ذات تصميمات مختلفة للاختيار من بينها. قم بزيارة مجموعتنا من العروض التوضيحية التي يتم إضافتها باستمرار."
 
 #: inc/core/admin.php:80
 msgid "Recommended actions"
@@ -683,7 +705,7 @@ msgstr "إرسال مراجعة"
 #. translators: %s - theme name
 #: inc/core/admin.php:69
 msgid "Are you are enjoying %s? We would love to hear your feedback."
-msgstr ""
+msgstr "هل أنت تستمتع ب%s؟ نحن نحب أن نعرف ملاحظاتك."
 
 #: inc/core/admin.php:67
 msgid "Leave us a review"
@@ -697,10 +719,11 @@ msgstr "انضم إلى مجموعتنا على الفيس بوك (Facebook)"
 #. translators: %s - theme name
 #: inc/core/admin.php:62
 msgid "Join the community of %s users. Get connected, share opinions, ask questions and help each other!"
-msgstr ""
+msgstr "انضم إلى مجتمع مستخدمي %s. تواصل مع الآخرين وشارك بآرائك واطرح الأسئلة وساعدوا بعضكم بعضا!"
 
-#: inc/compatibility/woocommerce.php:421
-#: inc/customizer/options/layout_navigation.php:86 inc/views/header.php:118
+#: inc/compatibility/woocommerce.php:435
+#: inc/customizer/options/layout_navigation.php:86
+#: inc/views/header.php:122
 msgid "Cart"
 msgstr "السلة "
 
@@ -720,7 +743,8 @@ msgstr "قائمة مشاريع جاتباك (Jetpack)"
 msgid "Deactivate"
 msgstr "إلغاء التنشيط"
 
-#: inc/admin/plugin_install/main.php:113 inc/admin/plugin_install/main.php:133
+#: inc/admin/plugin_install/main.php:113
+#: inc/admin/plugin_install/main.php:133
 msgid "Activate"
 msgstr "التنشيط"
 
@@ -728,8 +752,9 @@ msgstr "التنشيط"
 msgid "Install and activate"
 msgstr "التنصيب والتنشيط"
 
-#: inc/compatibility/gutenberg.php:210 inc/admin/metabox/main.php:143
-#: inc/core/front_end.php:457
+#: inc/admin/metabox/main.php:143
+#: inc/compatibility/gutenberg.php:210
+#: inc/core/front_end.php:559
 msgid "Sidebar"
 msgstr "الشريط الجانبي"
 
@@ -760,7 +785,8 @@ msgstr "كامل العرض"
 msgid "Contained"
 msgstr "محتواة"
 
-#: inc/admin/metabox/main.php:123 inc/admin/metabox/main.php:138
+#: inc/admin/metabox/main.php:123
+#: inc/admin/metabox/main.php:138
 msgid "Customizer Setting"
 msgstr "إعداد المخصص"
 

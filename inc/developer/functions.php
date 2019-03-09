@@ -73,7 +73,60 @@ function mp_update_pomo( $po_file, $po_url ) {
 		 * Sort header to prevent useless code changes.
 		 */
 		$header_sorting_cmd = sprintf( '{ head -n 4 %1$s; head -n 12 %1$s | tail -n +5 | sort; tail -n +13 %1$s; }', $tmp_file );
-		$filesystem->put_contents( $po_file , trim( shell_exec( $header_sorting_cmd ) ) . "\n" , 0644 );
+		$po_file_contents = trim( shell_exec( $header_sorting_cmd ) ) . "\n";
+
+		/**
+		 * Sort file paths in po file.
+		 */
+		preg_match_all('/(?<unsorted>(?<paths>#:.+?)(?<cmd>[\n]msg(?:[a-z]+) "))/s', $po_file_contents, $chunks, PREG_SET_ORDER );
+		foreach ( $chunks as $chunk ) {
+
+			/**
+			 * Get path (removes '#: ').
+			 */
+			preg_match_all( '/\b[\S]+\b/', $chunk[ 'paths' ], $paths );
+			$paths = $paths[0];
+
+			/**
+			 * Restore '#: '.
+			 */
+			array_walk( $paths, function( &$path ) {
+				$path = "#: $path";
+			} );
+
+			/**
+			 * Pad line numbers to 6 digits.
+			 */
+			array_walk( $paths, function( &$path ) {
+				preg_match_all( '/:(?<line>\d+)/', $path, $lines, PREG_SET_ORDER );
+				foreach ( $lines as $l) {
+					$path = str_replace( ':' . $l[ 'line' ]
+						, ':' . str_repeat( '0', 6 - strlen( $l[ 'line' ] ) ) . $l[ 'line' ]
+						, $path
+					);
+				}
+			} );
+
+			/**
+			 * Sort paths.
+			 */
+			sort( $paths );
+
+			/**
+			 * Unpad line numbers
+			 */
+			array_walk( $paths, function( &$path ) {
+				$path = preg_replace( '/:0+/', ':', $path );
+			} );
+
+			$chunk['sorted'] = implode( "\n", $paths ) . $chunk[ 'cmd' ];
+			$po_file_contents = str_replace( $chunk[ 'unsorted' ], $chunk[ 'sorted' ], $po_file_contents );
+		}
+
+		/**
+		 * Save .po file.
+		 */
+		$filesystem->put_contents( $po_file , $po_file_contents , 0644 );
 
 		/**
 		 * Delete helper file.

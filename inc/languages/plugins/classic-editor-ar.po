@@ -37,13 +37,17 @@ msgstr "إعدادات المحرر"
 msgid "Default Editor"
 msgstr "المحرر الافتراضي"
 
-#: classic-editor.php:375 classic-editor.php:452 classic-editor.php:858
+#: classic-editor.php:375
+#: classic-editor.php:452
+#: classic-editor.php:858
 #: classic-editor.php:869
 msgctxt "Editor Name"
 msgid "Block Editor"
 msgstr "مُحرر المكوّنات"
 
-#: classic-editor.php:371 classic-editor.php:448 classic-editor.php:855
+#: classic-editor.php:371
+#: classic-editor.php:448
+#: classic-editor.php:855
 #: classic-editor.php:869
 msgctxt "Editor Name"
 msgid "Classic Editor"

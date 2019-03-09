@@ -64,14 +64,18 @@ msgid "Dark Gray"
 msgstr ""
 
 #. translators: %s: Name of current post
-#: inc/template-tags.php:194 template-parts/content.php:29
+#: inc/template-tags.php:194
+#: template-parts/content.php:29
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "متابعة قراءة<span class=\"screen-reader-text\"> \"%s\"</span>"
 
 #. translators: %s: Name of current post
-#: image.php:88 template-parts/content.php:53
-#: template-parts/content-single.php:47 template-parts/content-search.php:28
-#: template-parts/content-search.php:43 template-parts/content-page.php:39
+#: image.php:88
+#: template-parts/content-page.php:39
+#: template-parts/content-search.php:28
+#: template-parts/content-search.php:43
+#: template-parts/content-single.php:47
+#: template-parts/content.php:53
 msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "تحرير<span class=\"screen-reader-text\"> \"%s\"</span>"
 
@@ -170,7 +174,8 @@ msgctxt "Used before category names."
 msgid "Categories"
 msgstr "التصنيفات"
 
-#: inc/template-tags.php:99 inc/template-tags.php:108
+#: inc/template-tags.php:99
+#: inc/template-tags.php:108
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ", "
@@ -194,7 +199,8 @@ msgctxt "Used before post author name."
 msgid "Author"
 msgstr "الكاتب"
 
-#: functions.php:207 inc/customizer.php:355
+#: functions.php:207
+#: inc/customizer.php:355
 msgid "Yellow"
 msgstr "أصفر"
 
@@ -226,12 +232,15 @@ msgstr "لون الرابط"
 msgid "Page Background Color"
 msgstr "لون خلفية الصفحة"
 
-#: single.php:31 image.php:107
+#: image.php:107
+#: single.php:31
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">نُشرت على</span><span class=\"post-title\">%title</span>"
 
-#: inc/back-compat.php:41 inc/back-compat.php:54 inc/back-compat.php:72
+#: inc/back-compat.php:41
+#: inc/back-compat.php:54
+#: inc/back-compat.php:72
 msgid "Twenty Sixteen requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Sixteen يتطلب نسخة الووردبريس 4.4 على الأقل. أنت تستخدم النسخة %s. يرجى الترقية والمحاولة مرة أخرى."
 
@@ -244,8 +253,10 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "الحجم الكامل"
 
-#: image.php:58 template-parts/content.php:36
-#: template-parts/content-single.php:26 template-parts/content-page.php:24
+#: image.php:58
+#: template-parts/content-page.php:24
+#: template-parts/content-single.php:26
+#: template-parts/content.php:36
 msgid "Pages:"
 msgstr "الصفحات:"
 
@@ -285,7 +296,8 @@ msgstr "on"
 msgid "Content Bottom 1"
 msgstr "أسفل المحتوى 1"
 
-#: functions.php:279 functions.php:291
+#: functions.php:279
+#: functions.php:291
 msgid "Appears at the bottom of the content on posts and pages."
 msgstr "تظهر أسفل محتوى الصفحات والمقالات."
 
@@ -313,11 +325,13 @@ msgstr "off"
 msgid "Sidebar"
 msgstr "الشريط الجانبي"
 
-#: header.php:66 functions.php:93
+#: functions.php:93
+#: header.php:66
 msgid "Social Links Menu"
 msgstr "قائمة الروابط الإجتماعية"
 
-#: header.php:53 functions.php:92
+#: functions.php:92
+#: header.php:53
 msgid "Primary Menu"
 msgstr "القائمة الأساسية"
 
@@ -341,17 +355,25 @@ msgstr[3] "%1$s آراء على &ldquo;%2$s&rdquo;"
 msgstr[4] "%1$s رأي على &ldquo;%2$s&rdquo;"
 msgstr[5] "%1$s رأي على &ldquo;%2$s&rdquo;"
 
-#: index.php:50 archive.php:53 search.php:41 image.php:62
-#: template-parts/content.php:40 template-parts/content-single.php:30
+#: archive.php:53
+#: image.php:62
+#: index.php:50
+#: search.php:41
 #: template-parts/content-page.php:28
+#: template-parts/content-single.php:30
+#: template-parts/content.php:40
 msgid "Page"
 msgstr "الصفحة"
 
-#: index.php:49 archive.php:52 search.php:40
+#: archive.php:52
+#: index.php:49
+#: search.php:40
 msgid "Next page"
 msgstr "الصفحة التالية"
 
-#: index.php:48 archive.php:51 search.php:39
+#: archive.php:51
+#: index.php:48
+#: search.php:39
 msgid "Previous page"
 msgstr "الصفحة السابقة"
 

@@ -27,12 +27,13 @@ msgstr "تذييل"
 msgid "Add widgets here to appear in your sidebar on blog posts and archive pages."
 msgstr ""
 
-#: sidebar.php:18 functions.php:336
+#: functions.php:336
+#: sidebar.php:18
 msgid "Blog Sidebar"
 msgstr "الشريط الجانبي للمدونة"
 
-#: template-parts/navigation/navigation-top.php:31
 #: template-parts/header/site-branding.php:34
+#: template-parts/navigation/navigation-top.php:31
 msgid "Scroll down to content"
 msgstr "الانتقال للأسفل إلى المحتوى"
 
@@ -115,11 +116,13 @@ msgstr ""
 msgid "Front Page Section %d Content"
 msgstr ""
 
-#: inc/customizer.php:112 inc/customizer.php:171
+#: inc/customizer.php:112
+#: inc/customizer.php:171
 msgid "Two Column"
 msgstr "عمودين"
 
-#: inc/customizer.php:111 inc/customizer.php:170
+#: inc/customizer.php:111
+#: inc/customizer.php:170
 msgid "One Column"
 msgstr "عمود واحد"
 
@@ -151,7 +154,8 @@ msgstr "صورة الترويسة الإفتراضية"
 msgid "Footer 2"
 msgstr "تذييل 2"
 
-#: functions.php:350 functions.php:362
+#: functions.php:350
+#: functions.php:362
 msgid "Add widgets here to appear in your footer."
 msgstr "أضف بعض الودجات هنا لتظهر في تذييل موقعك."
 
@@ -164,8 +168,9 @@ msgctxt "Libre Franklin font: on or off"
 msgid "on"
 msgstr "on"
 
-#: template-parts/navigation/navigation-top.php:12 functions.php:64
+#: functions.php:64
 #: functions.php:203
+#: template-parts/navigation/navigation-top.php:12
 msgid "Top Menu"
 msgstr "القائمة العلوية"
 
@@ -185,7 +190,8 @@ msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث 
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
 
-#: template-parts/post/content-none.php:17 search.php:21
+#: search.php:21
+#: template-parts/post/content-none.php:17
 msgid "Nothing Found"
 msgstr "لم يتم العثور على نتائج"
 
@@ -193,11 +199,13 @@ msgstr "لم يتم العثور على نتائج"
 msgid "Previous Post"
 msgstr "المقالة السابقة"
 
-#: single.php:33 comments.php:71
+#: comments.php:71
+#: single.php:33
 msgid "Previous"
 msgstr "السابق"
 
-#: single.php:34 comments.php:72
+#: comments.php:72
+#: single.php:34
 msgid "Next"
 msgstr "التالي"
 
@@ -221,12 +229,14 @@ msgid "Search Results for: %s"
 msgstr "نتائج البحث عن: %s"
 
 #. translators: %s: Name of current post
+#: functions.php:390
 #: template-parts/page/content-front-page-panels.php:45
 #: template-parts/page/content-front-page.php:42
-#: template-parts/post/content-audio.php:84 template-parts/post/content.php:57
+#: template-parts/post/content-audio.php:84
 #: template-parts/post/content-gallery.php:71
+#: template-parts/post/content-image.php:61
 #: template-parts/post/content-video.php:83
-#: template-parts/post/content-image.php:61 functions.php:390
+#: template-parts/post/content.php:57
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "متابعة قراءة<span class=\"screen-reader-text\"> \"%s\"</span>"
 
@@ -234,7 +244,9 @@ msgstr "متابعة قراءة<span class=\"screen-reader-text\"> \"%s\"</span>
 msgid "Dark"
 msgstr "داكن"
 
-#: inc/back-compat.php:39 inc/back-compat.php:52 inc/back-compat.php:70
+#: inc/back-compat.php:39
+#: inc/back-compat.php:52
+#: inc/back-compat.php:70
 msgid "Twenty Seventeen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Seventeen يتطلب نسخة الووردبريس 4.7 على الأقل. أنت تستخدم النسخة %s. يرجى الترقية والمحاولة مرة أخرى."
 
@@ -244,10 +256,11 @@ msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "تحرير<span class=\"screen-reader-text\"> \"%s\"</span>"
 
 #: template-parts/page/content-page.php:26
-#: template-parts/post/content-audio.php:91 template-parts/post/content.php:64
+#: template-parts/post/content-audio.php:91
 #: template-parts/post/content-gallery.php:78
-#: template-parts/post/content-video.php:90
 #: template-parts/post/content-image.php:68
+#: template-parts/post/content-video.php:90
+#: template-parts/post/content.php:64
 msgid "Pages:"
 msgstr "الصفحات:"
 
@@ -267,7 +280,8 @@ msgstr "طي القائمة الفرعية"
 msgid "Expand child menu"
 msgstr "توسيع القائمة الفرعية"
 
-#: functions.php:65 functions.php:214
+#: functions.php:65
+#: functions.php:214
 msgid "Social Links Menu"
 msgstr "قائمة الروابط الإجتماعية"
 
@@ -301,7 +315,9 @@ msgctxt "comments title"
 msgid "One Reply to &ldquo;%s&rdquo;"
 msgstr "ردّ واحد على &ldquo;%s&rdquo;"
 
-#: archive.php:50 search.php:47 index.php:54
+#: archive.php:50
+#: index.php:54
+#: search.php:47
 msgid "Page"
 msgstr "الصفحة"
 
@@ -313,11 +329,15 @@ msgstr "عذراً! لايمكن العثور على تلك الصفحة."
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr "يبدو أنه لم يتم إيجاد شيء في هذا المكان. ربما تريد البحث؟"
 
-#: archive.php:48 search.php:45 index.php:52
+#: archive.php:48
+#: index.php:52
+#: search.php:45
 msgid "Previous page"
 msgstr "الصفحة السابقة"
 
-#: archive.php:49 search.php:46 index.php:53
+#: archive.php:49
+#: index.php:53
+#: search.php:46
 msgid "Next page"
 msgstr "الصفحة التالية"
 
