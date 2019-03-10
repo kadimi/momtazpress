@@ -1,0 +1,225 @@
+# Translation of Themes - Futurio in Arabic
+# This file is distributed under the same license as the Themes - Futurio package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: +0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Futurio\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "Futurio is a lightweight, fast and customizable free multi-purpose and WooCommerce WordPress theme, suitable for business, portfolio, creative, and photography sites, eCommerce shops, landing pages, blogs or WooCommerce storefronts. Futurio works perfectly with all page builders, like Elementor, Beaver Builder, King Composer, Brizy, Visual Composer, SiteOrigin, Divi or Gutenberg, and supports most free and premium WordPress plugins, like WooCommerce, Jetpack, Contact Form 7, Yoast SEO and many more. Futurio is responsive, SEO friendly, WPML, translation and RTL ready, and comes with a 1-click-demo-import feature. Demos ready for download: https://futuriowp.com/demos/"
+msgstr ""
+
+#. Theme Name of the theme
+msgid "Futurio"
+msgstr ""
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:22
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %s: post title
+#: comments.php:18
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: 404.php:40
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: 404.php:37
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. translators: %s: search result string
+#: search.php:11
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:618
+msgid "My Account"
+msgstr ""
+
+#: functions.php:568
+msgid "View your shopping cart"
+msgstr ""
+
+#: functions.php:552
+msgid "By"
+msgstr ""
+
+#: functions.php:537
+msgid "Next"
+msgstr ""
+
+#: functions.php:537
+msgid "Next Post"
+msgstr ""
+
+#: functions.php:536
+msgid "Previous"
+msgstr ""
+
+#: functions.php:536
+msgid "Previous Post"
+msgstr ""
+
+#: functions.php:397
+msgid "Comment on "
+msgstr ""
+
+#: functions.php:392
+msgid "Off"
+msgstr ""
+
+#. translators: %1$s: Futurio name with futuriowp.com URL
+#: functions.php:361
+msgid "Theme: %1$s"
+msgstr ""
+
+#. translators: %s: WordPress name with wordpress.org URL
+#: functions.php:356
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. translators: %s: WordPress name with wordpress.org URL
+#: functions.php:356
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: functions.php:332
+msgid "Tags"
+msgstr ""
+
+#: functions.php:328
+msgid "Posted in"
+msgstr ""
+
+#: functions.php:270
+msgid "WooCommerce archive sidebar"
+msgstr ""
+
+#: functions.php:260
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: functions.php:249
+msgid "Footer Section"
+msgstr ""
+
+#: functions.php:239
+msgid "Menu Section"
+msgstr ""
+
+#: functions.php:229
+msgid "Archive sidebar"
+msgstr ""
+
+#: functions.php:219
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:26
+msgid "Homepage main menu"
+msgstr ""
+
+#: functions.php:25
+msgid "Main Menu"
+msgstr ""
+
+#: content-none.php:19
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-none.php:14
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#. translators: %1$s: link to admin area
+#: content-none.php:8
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:2
+msgid "Nothing Found"
+msgstr ""
+
+#: lib/dashboard.php:126
+msgid "Install"
+msgstr ""
+
+#. translators: %s: Plugin name string
+#: lib/dashboard.php:123
+msgid "To take full advantage of all the features this theme has to offer, please install and activate the %s plugin."
+msgstr ""
+
+#. translators: %s: Theme name
+#: lib/dashboard.php:80
+msgid "Get started with %s"
+msgstr ""
+
+#. translators: %s: Theme name
+#: lib/dashboard.php:73
+#: lib/dashboard.php:117
+msgid "Thank you for installing %s."
+msgstr ""
+
+#: lib/futurio-plugin-install.php:75
+msgid "Learn more"
+msgstr ""
+
+#: lib/futurio-plugin-install.php:55
+msgid "Install now"
+msgstr ""
+
+#: lib/dashboard.php:126
+#: lib/futurio-plugin-install.php:40
+msgid "Activate"
+msgstr ""
+
+#: lib/dashboard.php:126
+#: lib/futurio-plugin-install.php:29
+msgid "Activated"
+msgstr ""
+
+#: lib/wp_bootstrap_navwalker.php:326
+msgid "Add a menu"
+msgstr ""
+
+#: template-parts/template-part-postauthor.php:4
+msgid "About The Author"
+msgstr ""
+
+#: template-parts/template-part-mainmenu.php:99
+msgid "Menu"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://futuriowp.com/about/"
+msgstr ""
+
+#. Author of the theme
+msgid "FuturioWP"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://futuriowp.com/"
+msgstr ""
