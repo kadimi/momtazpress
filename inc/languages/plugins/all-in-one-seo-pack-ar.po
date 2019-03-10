@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-03-07 15:58:11+0000\n"
+"PO-Revision-Date: 2019-03-10 01:35:54+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Plugins - All in One SEO Pack - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -240,23 +240,23 @@ msgstr "تتبع فيسبوك وتويتر:"
 
 #: inc/commonstrings.php:53
 msgid "Track Page Scrolling:"
-msgstr ""
+msgstr "تتبع تمرير الصفحة:"
 
 #: inc/commonstrings.php:52
 msgid "Track Elements Visibility:"
-msgstr ""
+msgstr "تتبع رؤية العناصر:"
 
 #: inc/commonstrings.php:51
 msgid "Track Media Query:"
-msgstr ""
+msgstr "تتبع استعلامات الوسائط:"
 
 #: inc/commonstrings.php:50
 msgid "Track Page Visibility:"
-msgstr ""
+msgstr "تتبع رؤية الصفحة:"
 
 #: inc/commonstrings.php:49
 msgid "Track URL Changes:"
-msgstr ""
+msgstr "تتبع تغييرات الروابط:"
 
 #: inc/commonstrings.php:48
 msgid "Track Events:"
@@ -264,7 +264,7 @@ msgstr "تتبع الأحداث:"
 
 #: inc/commonstrings.php:47
 msgid "Track Outbound Forms:"
-msgstr ""
+msgstr "تتبع النماذج الصادرة:"
 
 #: modules/aioseop_opengraph.php:110
 msgid "Select the Twitter Card type to use for this Page or Post, overriding the default setting."
@@ -299,7 +299,7 @@ msgstr ""
 
 #: aioseop_class.php:950
 msgid "NOINDEX this page/post"
-msgstr ""
+msgstr "عدم فهرسة هذه الصفحة/المقالة"
 
 #: aioseop_class.php:193
 msgid "%post_month% - The month the page/post was published (localized)"

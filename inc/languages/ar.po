@@ -3360,59 +3360,36 @@ msgstr "تم تنفيذ طلب المسح [%s]"
 msgid ""
 "Howdy,\n"
 "\n"
-"A user data privacy request has been confirmed on ###SITENAME###: All
-#: DESCRIPTION###\n
-#: MANAGE_URL###\n
-#: Regards,\n
-#: Request
-#: SITENAME###\n
-#: SITEURL
-#: USER_EMAIL###\n
-#: User
-#: You
-#: and
-#: at
-#: can
-#: data
-#: here:\n
-#: manage
-#: n
-#: n
-#: n
-#: n
-#: n
-#: privacy
-#: requests
-#: these
-#: view
+"A user data privacy request has been confirmed on ###SITENAME###:\n"
+"\n"
+"User: ###USER_EMAIL###\n"
+"Request: ###DESCRIPTION###\n"
+"\n"
+"You can view and manage these data privacy requests here:\n"
+"\n"
+"###MANAGE_URL###\n"
+"\n"
+"Regards,\n"
+"All at ###SITENAME###\n"
+"###SITEURL###"
 msgstr ""
 "مرحبا،\n"
 "\n"
-"لقد تم تأكيد طلب خصوصية بيانات المستخدم على ###SITENAME###: 1
-#: 2
-#: DESCRIPTION###\n
-#: MANAGE_URL###\n
-#: Name
-#: Privacy
-#: SITENAME###\n
-#: SITEURL
-#: Site
-#: USER_EMAIL###\n
-#: action
-#: data
-#: n
-#: n
-#: n
-#: n
-#: n
-#: n
-#: n
-#: name
-#: of
-#: request
-#: subject
-#: the
-#: translators
+"لقد تم تأكيد طلب خصوصية بيانات المستخدم على ###SITENAME###:\n"
+"\n"
+"المستخدم: ###USER_EMAIL###\n"
+"الطلب: ###DESCRIPTION###\n"
+"\n"
+"يمكنك عرض وإدارة طلبات خصوصية البيانات هذه، من هنا:\n"
+"\n"
+"###MANAGE_URL###\n"
+"\n"
+"مع التحيّة،\n"
+"عبر ###SITENAME###\n"
+"###SITEURL###"
+
+#. translators: Privacy data request subject. 1: Site name, 2: Name of the
+#. action
 #: wp-includes/user.php:3487
 msgid "[%1$s] Confirm Action: %2$s"
 msgstr "[%1$s] تأكيد الإجراء: %2$s"

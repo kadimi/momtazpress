@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-02-21 07:07:22+0000\n"
+"PO-Revision-Date: 2019-03-10 01:32:17+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -239,7 +239,7 @@ msgstr "لقد استلمتَ الطلب التالي من %s:"
 #: templates/emails/admin-failed-order.php:52
 #: templates/emails/plain/admin-failed-order.php:50
 msgid "Hopefully they’ll be back. Read more about <a href=\"https://docs.woocommerce.com/document/managing-orders/\">troubleshooting failed payments</a>."
-msgstr ""
+msgstr "على أمل أنهم سيعودوا. اقرأ المزيد حول <a href=\"https://docs.woocommerce.com/document/managing-orders/\">استكشاف مشكلات فشل المدفوعات وإصلاحها</a>."
 
 #: templates/emails/admin-cancelled-order.php:52
 #: templates/emails/customer-invoice.php:88
