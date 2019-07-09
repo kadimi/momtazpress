@@ -1,5 +1,5 @@
-# Translation of WordPress - 5.1.x - Development - Continents & Cities in Arabic
-# This file is distributed under the same license as the WordPress - 5.1.x - Development - Continents & Cities package.
+# Translation of WordPress - 5.2.x - Development - Continents & Cities in Arabic
+# This file is distributed under the same license as the WordPress - 5.2.x - Development - Continents & Cities package.
 msgid ""
 msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "PO-Revision-Date: 2018-08-04 21:37:46+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"Project-Id-Version: WordPress - 5.1.x - Development - Continents & Cities\n"
+"Project-Id-Version: WordPress - 5.2.x - Development - Continents & Cities\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
 #: wp-admin/includes/continents-cities.php:478

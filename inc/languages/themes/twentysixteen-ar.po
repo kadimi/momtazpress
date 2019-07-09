@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-02-03 23:53:29+0000\n"
+"PO-Revision-Date: 2019-04-20 16:16:52+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Themes - Twenty Sixteen\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -188,7 +188,7 @@ msgstr "نُشرت في"
 #: inc/template-tags.php:40
 msgctxt "Used before post format."
 msgid "Format"
-msgstr "البنية"
+msgstr "بنية المقالة"
 
 #: inc/template-tags.php:52
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"

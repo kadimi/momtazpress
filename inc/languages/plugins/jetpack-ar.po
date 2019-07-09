@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-03-06 13:55:46+0000\n"
+"PO-Revision-Date: 2019-04-15 16:50:05+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Plugins - Jetpack by WordPress.com - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -3177,7 +3177,7 @@ msgstr "مقالات المدونة"
 #: modules/masterbar/masterbar.php:686
 msgctxt "admin bar menu group label"
 msgid "Manage"
-msgstr "نشر"
+msgstr "إدارة"
 
 #: modules/masterbar/masterbar.php:650
 msgid "Plan"
@@ -5612,8 +5612,8 @@ msgid ""
 "\t\tto include  in your posts and comments. Enjoy all sorts of options and embrace your inner nerd."
 msgstr ""
 " %1$s هي لغة ترميز قوية لكتابة المعادلات والصيغ الرياضية المعقدة.\n"
-"\t\tيجمع Jetpack بين قوة %1$s وبساطة ووردبرس ليعطيك الأفضل\n"
-"\t\tفي منصات تدوين الرياضيات. استخدم $latex your latex code here$ أو [latex]your latex code here[/latex]\n"
+"\t\tتجمع إضافة Jetpack بين قوة %1$s وبساطة ووردبريس لمنحك الأفضل في منصات تدوين الرياضيات.\n"
+"\t\tاستخدم $latex your latex code here$ أو [latex]your latex code here[/latex]\n"
 "\t\tالذي سيتم تضمينه في مقالاتك أو تعليقاتك. استمتع بجميع أنواع الخيارات وأطلق العنان لطموحاتك."
 
 #: modules/module-info.php:120
@@ -6699,7 +6699,7 @@ msgstr "الحماية من البريد المزعج"
 #: _inc/jetpack-strings.php:107
 #: _inc/jetpack-strings.php:112
 msgid "Loading…"
-msgstr "جارٍ التحميل..."
+msgstr "جاري التحميل…"
 
 #: _inc/jetpack-strings.php:54
 msgid "For state-of-the-art spam defense, please {{a}}install Akismet{{/a}}."

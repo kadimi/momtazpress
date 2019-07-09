@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-02-22 14:33:29+0000\n"
+"PO-Revision-Date: 2019-04-04 07:59:21+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Themes - Hestia\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -16,11 +16,40 @@ msgid "Hestia is a modern WordPress theme for professionals. It fits creative bu
 msgstr "هستيا (Hestia) هو قالب ووردبريس حديث للمحترفين. يتناسب مع الأعمال الإبداعية، والأعمال التجارية الصغيرة (المطاعم، منظمي حفلات الزفاف، والمحلات الرياضية / الطبية)، والشركات الناشئة، والشركات التجارية، والوكالات والشركات التي تعمل عبر الإنترنت، وقائمات المشاريع، والتجارة الإلكترونية ووكومرس (WooCommerce)، والمستقلين. لديها تصميم متعدد الأغراض ذو صفحة واحدة، التذييل بودجة، صفحة مدونة / الأخبار ومنظر صقيل، متوافق مع: شريط التمرير مسطح باختلاف المنظر (Flat Parallax Slider)، معرض الصور، خريطة السفر (Travel Map) و منشيء الصفحة ألمنتر (Elementor Page Builder). القالب مستجيب، جاهز لWPML و ريتينا، مهيأ لتحسين محركات البحث (ٍُSEO)، ويستخدم ماتيريال كيت (Material Kit) للتصميم."
 
 #. Theme Name of the theme
-#: inc/core/class-hestia-public.php:774
+#: inc/core/class-hestia-public.php:781
 #: inc/customizer/class-hestia-customizer-notices.php:78
 #: inc/views/main/class-hestia-footer.php:134
 msgid "Hestia"
 msgstr "هستيا (Hestia)"
+
+#. translators: %s - theme name
+#: inc/core/class-hestia-admin.php:54
+msgid "Submit a review"
+msgstr "إرسال مراجعة"
+
+#. translators: %s - theme name
+#: inc/core/class-hestia-admin.php:53
+msgid "Are you are enjoying %s? We would love to hear your feedback."
+msgstr "هل تستمتع ب %s؟ نحن نحب أن نعرف رأيك."
+
+#: inc/core/class-hestia-admin.php:51
+msgid "Leave us a review"
+msgstr "اكتب لنا تقييم "
+
+#. translators: %s - theme name
+#: inc/core/class-hestia-admin.php:47
+msgid "Join our Facebook Group"
+msgstr "انضم إلى مجموعة Facebook الخاصة بنا"
+
+#. translators: %s - theme name
+#: inc/core/class-hestia-admin.php:46
+msgid "Join the community of %s users. Get connected, share opinions, ask questions and help each other!"
+msgstr "انضم إلى مجتمع مستخدمي %s.اتصل وشارك بالآراء واطرح الأسئلة وساعدوا بعضكم البعض!"
+
+#. translators: %s - theme name
+#: inc/core/class-hestia-admin.php:44
+msgid "%s Community"
+msgstr "مجتمع %s"
 
 #: inc/views/blog/class-hestia-additional-views.php:93
 msgid "Share on Email"
@@ -30,24 +59,24 @@ msgstr "المشاركة على البريد الإلكتروني"
 msgid "Settings"
 msgstr "الإعدادات"
 
-#: inc/core/class-hestia-admin.php:522
+#: inc/core/class-hestia-admin.php:546
 msgid "Return to your dashboard"
 msgstr "العودة إلى لوحة المعلومات الخاصة بك"
 
 #. translators: %s - theme name
-#: inc/core/class-hestia-admin.php:517
+#: inc/core/class-hestia-admin.php:541
 msgid "%s is now installed and ready to use. We've assembled some links to get you started."
 msgstr "%s الآن منصب وجاهز للاستخدام. لقد جمعنا بعض الروابط لتبدأ."
 
-#: inc/core/class-hestia-admin.php:512
+#: inc/core/class-hestia-admin.php:536
 msgid "Congratulations!"
 msgstr "تهانينا!"
 
-#: inc/core/class-hestia-admin.php:502
+#: inc/core/class-hestia-admin.php:526
 msgid "or try one of our ready to use Starter Sites"
 msgstr "أو جرّب أحد مواقعنا للمبتدئين الجاهزة للاستعمال"
 
-#: inc/core/class-hestia-admin.php:496
+#: inc/core/class-hestia-admin.php:520
 msgid "Go to the theme settings"
 msgstr "انتقل إلى إعدادات القالب"
 
@@ -63,22 +92,22 @@ msgstr "المكونات"
 msgid "Disable Navigation"
 msgstr "تعطيل التنقل"
 
-#: inc/core/class-hestia-public.php:681
-#: inc/core/class-hestia-public.php:691
+#: inc/core/class-hestia-public.php:626
+#: inc/core/class-hestia-public.php:636
 msgid "Hi! We've noticed you were using Zelle before. To make your transition easier, we can help you keep the same beautiful homepage you had before, by converting it into an Elementor template. This option will also import your homepage content."
 msgstr "مرحبا! لقد لاحظنا أنك كنت تستخدم زيلي (Zelle) من قبل. لتسهيل عملية الانتقال، يمكننا مساعدتك في الاحتفاظ بنفس الصفحة الرئيسية الجميلة التي كان لديك من قبل، من خلال تحويلها إلى قالب ألمنتر (Elementor). سيعمل هذا الخيار أيضًا على استيراد محتوى صفحتك الرئيسية."
 
-#: inc/core/class-hestia-public.php:680
-#: inc/core/class-hestia-public.php:690
+#: inc/core/class-hestia-public.php:625
+#: inc/core/class-hestia-public.php:635
 msgid "Want to keep using Zelle's homepage?"
 msgstr "هل تريد الاستمرار في استخدام الصفحة الرئيسية لـزيلي (Zelle)؟"
 
 #. translators: %s - theme name
-#: inc/core/class-hestia-public.php:673
+#: inc/core/class-hestia-public.php:618
 msgid "With %s, you can choose from multiple unique demos, specially designed for you, that can be installed with a single click. You just need to choose your favorite, and we will take care of everything else."
 msgstr "مع %s، يمكنك الاختيار من بين العديد من العروض التوضيحية الفريدة المصممة خصيصًا لك، والتي يمكن تنصيبها بنقرة واحدة. أنت فقط بحاجة إلى اختيار التصميم الذي تفضله، وسنتولى العناية بكل شيء آخر."
 
-#: inc/core/class-hestia-admin.php:41
+#: inc/core/class-hestia-admin.php:65
 msgid "Hestia now comes with a sites library with various designs to pick from. Visit our collection of demos that are constantly being added."
 msgstr "الآن يأتي هستيا (Hestia) مع مكتبة المواقع ذات تصميمات مختلفة للاختيار من بينها. قم بزيارة مجموعتنا من العروض التوضيحية التي يتم إضافتها باستمرار."
 
@@ -103,8 +132,8 @@ msgstr "إنشاء حساب سندينبلو(SendinBlue)"
 msgid "In order to add a contact form to this section, you need to install the %1$s plugin. Then follow %2$sthis guide%3$s to create your form."
 msgstr "لإضافة نموذج المراسلة إلى هذا القسم ، يجب تنصيب %1$s الإضافة. ثم اتبع %2$sهذا الدليل%3$s لإنشاء النموذج الخاص بك."
 
-#: inc/core/class-hestia-public.php:580
-#: inc/core/class-hestia-public.php:581
+#: inc/core/class-hestia-public.php:520
+#: inc/core/class-hestia-public.php:521
 msgid "Featured Image Homepage"
 msgstr "الصفحة الرئيسية للصورة المميزة"
 
@@ -173,12 +202,12 @@ msgstr "المقتطف"
 msgid "Blog Post Content"
 msgstr "محتوى مقالة المدونة"
 
-#: inc/core/class-hestia-public.php:670
-#: inc/core/class-hestia-public.php:776
+#: inc/core/class-hestia-public.php:615
+#: inc/core/class-hestia-public.php:783
 msgid "This process will set up your website, install required plugins, import demo content (pages, posts, media) and set up the customizer options."
 msgstr "ستقوم هذه العملية بإعداد موقع الويب الخاص بك، و تنصيب الإضافات المطلوبة، واستيراد المحتوى التوضيحي (الصفحات والمقالات والوسائط) وإعداد خيارات المخصص."
 
-#: inc/core/class-hestia-public.php:777
+#: inc/core/class-hestia-public.php:784
 msgid "Sites Library"
 msgstr "مكتبة المواقع"
 
@@ -209,7 +238,7 @@ msgstr "إضافي "
 
 #: inc/customizer/general/class-hestia-upsell-manager.php:169
 #: inc/customizer/general/class-hestia-upsell-manager.php:198
-#: inc/views/blog/class-hestia-blog-post-layout.php:349
+#: inc/views/blog/class-hestia-blog-post-layout.php:353
 #: inc/views/blog/class-hestia-featured-posts.php:141
 #: inc/views/class-hestia-tweaks.php:71
 msgid "Read more"
@@ -242,7 +271,7 @@ msgstr "الصفحة الأمامية لهستيا (Hestia) ليست متواف�
 msgid "Enable Header Image Sitewide"
 msgstr "فعّل ترويسة الصورة على كامل الموقع"
 
-#: inc/core/class-hestia-public.php:477
+#: inc/core/class-hestia-public.php:478
 #: inc/customizer/class-hestia-customizer-main.php:81
 msgid "Header Background"
 msgstr "خلفية الترويسة"
@@ -278,7 +307,7 @@ msgstr "التذييل أربعة"
 msgid "Page with Sidebar"
 msgstr "صفحة بشريط جانبي"
 
-#: inc/core/class-hestia-public.php:489
+#: inc/core/class-hestia-public.php:490
 #: inc/customizer/general/class-hestia-header-controls.php:71
 msgid "Menu"
 msgstr "القائمة "
@@ -308,7 +337,7 @@ msgid "Second"
 msgstr "ثانيا"
 
 #: inc/core/class-hestia-public.php:335
-#: inc/core/class-hestia-public.php:489
+#: inc/core/class-hestia-public.php:490
 #: inc/customizer/general/class-hestia-header-controls.php:71
 #: inc/customizer/general/class-hestia-header-controls.php:310
 msgid "Very Top Bar"
@@ -331,7 +360,7 @@ msgstr "فعّل مشاركة الأيقونات"
 msgid "font size"
 msgstr "حجم الخط"
 
-#: inc/core/class-hestia-public.php:472
+#: inc/core/class-hestia-public.php:473
 #: inc/customizer/general/class-hestia-typography-controls.php:146
 msgid "Body"
 msgstr "الجسد"
@@ -369,11 +398,11 @@ msgstr "الخطوط القياسية"
 msgid "Default"
 msgstr "افتراضي"
 
-#: inc/core/class-hestia-admin.php:233
+#: inc/core/class-hestia-admin.php:257
 msgid "Display a frontpage section wherever you like by adding its shortcode in page or post content."
 msgstr "عرض قسم الصفحة الأمامية أينما تريد بإضافة الرمز المختصر الخاص به في محتوى الصفحة أو المقالة."
 
-#: inc/core/class-hestia-admin.php:232
+#: inc/core/class-hestia-admin.php:256
 msgid "Shortcodes for each section"
 msgstr "الرموز المختصرة لكل قسم"
 
@@ -417,13 +446,13 @@ msgstr "المخصص "
 msgid "Change in the Customizer"
 msgstr "تغيير في المخصص "
 
-#: inc/core/class-hestia-admin.php:227
+#: inc/core/class-hestia-admin.php:251
 #: inc/customizer/general/class-hestia-upsell-manager.php:72
 msgid "The ability to reorganize your Frontpage Sections more easily and quickly."
 msgstr "القدرة على إعادة تنظيم أقسام صفحتك الأمامية بسهولة وسرعة أكبر."
 
-#: inc/core/class-hestia-admin.php:61
-#: inc/core/class-hestia-admin.php:64
+#: inc/core/class-hestia-admin.php:85
+#: inc/core/class-hestia-admin.php:88
 msgid "Go to the Customizer"
 msgstr "الذهاب إلى المخصص "
 
@@ -502,7 +531,7 @@ msgstr "يبدو أنه لا يمكننا &rsquo; العثور على ما تب�
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "عذرًا، ولكن لا شيء يقابل مصطلحات البحث التي استعملتها. يرجى المحاولة مجددا بإستخدام كلمات أساسية أخرى."
 
-#: inc/core/class-hestia-public.php:671
+#: inc/core/class-hestia-public.php:616
 #: template-parts/content-none.php:25
 msgid "Get started here"
 msgstr "ابدأ هنا"
@@ -513,12 +542,12 @@ msgid "Ready to publish your first post? %s."
 msgstr "هل أنت جاهز لنشر مقالتك الأولى؟ %s. "
 
 #. translators: %1$s is Time since post, %2$s is author Close tag
-#: inc/views/blog/class-hestia-blog-post-layout.php:302
+#: inc/views/blog/class-hestia-blog-post-layout.php:306
 msgid "%1$s ago %2$s"
 msgstr "%1$s منذ %2$s"
 
 #. translators: %1$s is Author name wrapped, %2$s is Time
-#: inc/views/blog/class-hestia-blog-post-layout.php:293
+#: inc/views/blog/class-hestia-blog-post-layout.php:297
 msgid "By %1$s, %2$s"
 msgstr "بواسطة %1$s، %2$s"
 
@@ -609,11 +638,11 @@ msgstr "عرض كل المقالات في %s"
 msgid "Button"
 msgstr "الزر"
 
-#: inc/core/class-hestia-public.php:773
+#: inc/core/class-hestia-public.php:780
 msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 msgstr "لوريم إيبسوم أضف كل غضون وجهان والفرنسي, بعض من تصفح منتصف السبب. حدى مشروط حاملات الاندونيسية أم, انه تم للجزر النفط. المضي موالية تم."
 
-#: inc/core/class-hestia-public.php:772
+#: inc/core/class-hestia-public.php:779
 msgid "Lorem Ipsum"
 msgstr "لوريم إيبسوم"
 
@@ -702,7 +731,7 @@ msgstr "الصورة الخلفية"
 msgid "Contact"
 msgstr "الاتصال"
 
-#: inc/core/class-hestia-public.php:467
+#: inc/core/class-hestia-public.php:468
 #: inc/customizer/general/class-hestia-color-controls.php:25
 msgid "Accent Color"
 msgstr "لون التمييز"
@@ -786,7 +815,7 @@ msgstr "الإضافات الموصى بها"
 msgid "If you want to take full advantage of the options this theme has to offer, please install and activate %s."
 msgstr "إذا ترغب في الاستفادة الكاملة من الخيارات التي يقدمها هذا القالب، يرجى التنصيب والتنشيط %s."
 
-#: inc/core/class-hestia-admin.php:79
+#: inc/core/class-hestia-admin.php:103
 msgid "It is highly recommended that you install the companion plugin to have access to the Frontpage features, Team and Testimonials sections."
 msgstr "يوصى بشدة تنصيب الإضافة المرافقة للوصول إلى ميزات الصفحة الأمامية  و أقسام الفريق و الشهادات."
 
@@ -799,164 +828,164 @@ msgstr "إلغاء التنشيط"
 msgid "Activate"
 msgstr "التنشيط"
 
-#: inc/core/class-hestia-admin.php:263
+#: inc/core/class-hestia-admin.php:287
 #: inc/customizer/general/class-hestia-upsell-manager.php:73
 msgid "24/7 HelpDesk Professional Support"
 msgstr "مكتب المساعدة دعم احترافي 24/7 "
 
-#: inc/core/class-hestia-admin.php:262
+#: inc/core/class-hestia-admin.php:286
 #: inc/customizer/general/class-hestia-upsell-manager.php:64
 msgid "Quality Support"
 msgstr "دعم ذو جودة"
 
-#: inc/core/class-hestia-admin.php:245
+#: inc/core/class-hestia-admin.php:269
 #: inc/customizer/general/class-hestia-upsell-manager.php:68
 msgid "Change colors for the header overlay, header text and navbar."
 msgstr "غير الألوان لتراكب الترويسة و نص الترويسة وشريط التنقل."
 
-#: inc/core/class-hestia-admin.php:244
+#: inc/core/class-hestia-admin.php:268
 #: inc/customizer/general/class-hestia-upsell-manager.php:60
 msgid "Fully Customizable Colors"
 msgstr "ألوان قابلة للتخصيص بالكامل"
 
-#: inc/core/class-hestia-admin.php:239
+#: inc/core/class-hestia-admin.php:263
 #: inc/customizer/general/class-hestia-upsell-manager.php:67
 msgid "You will be able to add more content to your site header with an awesome slider."
 msgstr "سوف تكون قادرا على إضافة المزيد من المحتوى إلى ترويسة موقعك مع شريط تمرير رائع."
 
-#: inc/core/class-hestia-admin.php:238
+#: inc/core/class-hestia-admin.php:262
 #: inc/customizer/general/class-hestia-upsell-manager.php:59
 msgid "Header Slider"
 msgstr "ترويسة شريط التمرير"
 
-#: inc/core/class-hestia-admin.php:221
+#: inc/core/class-hestia-admin.php:245
 msgid "You can use any background image you want."
 msgstr "يمكنك استخدام أي صورة خلفية تريدها."
 
-#: inc/core/class-hestia-admin.php:220
+#: inc/core/class-hestia-admin.php:244
 msgid "Background image"
 msgstr "الصورة الخلفية"
 
-#: inc/core/class-hestia-admin.php:215
+#: inc/core/class-hestia-admin.php:239
 msgid "Big title, Features, About, Team, Testimonials, Subscribe, Blog, Contact"
 msgstr "العنوان الكبير، الميزات، حول، الفريق، الشهادات، الاشتراك، المدونة، الاتصال"
 
-#: inc/core/class-hestia-admin.php:209
+#: inc/core/class-hestia-admin.php:233
 msgid "Ready for e-commerce. You can build an online store here."
 msgstr "جاهز للتجارة الإلكترونية. يمكنك بناء متجر عبر الإنترنت هنا."
 
-#: inc/core/class-hestia-admin.php:208
+#: inc/core/class-hestia-admin.php:232
 msgid "WooCommerce Compatible"
 msgstr "متوافق مع ووكمرس (WooCommerce)"
 
-#: inc/core/class-hestia-admin.php:203
+#: inc/core/class-hestia-admin.php:227
 msgid "Responsive layout. Works on every device."
 msgstr "تخطيط مستجيب. يعمل على أي جهاز."
 
-#: inc/core/class-hestia-admin.php:202
+#: inc/core/class-hestia-admin.php:226
 msgid "Mobile friendly"
 msgstr "متوافق مع الجوّال"
 
 #. translators: s - theme name
-#: inc/core/class-hestia-admin.php:195
+#: inc/core/class-hestia-admin.php:219
 msgid "Get %s now!"
 msgstr "احصل على %s الآن!"
 
-#: inc/core/class-hestia-admin.php:62
+#: inc/core/class-hestia-admin.php:86
 msgid "Using the WordPress Customizer you can easily customize every aspect of the theme."
 msgstr "باستخدام مخصص ووردبرس يمكنك بسهولة تخصيص جميع جوانب القالب."
 
-#: inc/core/class-hestia-admin.php:42
+#: inc/core/class-hestia-admin.php:66
 msgid "We have compiled a list of steps for you to take so we can ensure that the experience you have using one of our products is very easy to follow."
 msgstr "لقد قمنا بتجميع قائمة من الخطوات التي تستطيع اتخاذها حتى نتأكد من أن تجربة استخدامك لأحد منتجاتنا سهلة للغاية."
 
-#: inc/core/class-hestia-admin.php:40
-#: inc/core/class-hestia-admin.php:44
+#: inc/core/class-hestia-admin.php:64
+#: inc/core/class-hestia-admin.php:68
 msgid "Recommended actions"
 msgstr "الإجراءات الموصى بها"
 
-#: inc/core/class-hestia-admin.php:160
+#: inc/core/class-hestia-admin.php:184
 msgid "In the documentation below you will find an easy way to build a great looking landing page using a drag-and-drop content builder plugin."
 msgstr "ستجد في الوثائق أدناه طريقة سهلة لإنشاء صفحة هبوط رائعة باستخدام إضافة مُنشئ المحتوى بالسحب والإسقاط."
 
-#: inc/core/class-hestia-admin.php:159
+#: inc/core/class-hestia-admin.php:183
 msgid "Build a landing page with a drag-and-drop content builder"
 msgstr "أنشئ صفحة الهبوط باستخدام مُنشئ المحتوى بالسحب والإسقاط."
 
-#: inc/core/class-hestia-admin.php:149
+#: inc/core/class-hestia-admin.php:173
 msgid "If you find yourself in a situation where everything on your site is running very slowly, you might consider having a look at the documentation below where you will find the most common issues causing this and possible solutions for each of the issues."
 msgstr "إذا وجدت نفسك في وضعية حيث يعمل كل شيء على موقعك ببطء شديد، قد تفكر في النظر إلى الوثائق أدناه حيث تستطيع العثور على أكثر المشاكل شيوعا التي تسبب هذا و الحلول الممكنة لكل من هذه المشاكل."
 
-#: inc/core/class-hestia-admin.php:148
+#: inc/core/class-hestia-admin.php:172
 msgid "Speed up your site"
 msgstr "اجعل موقعك أكثر سرعة"
 
-#: inc/core/class-hestia-admin.php:140
-#: inc/core/class-hestia-admin.php:151
-#: inc/core/class-hestia-admin.php:162
+#: inc/core/class-hestia-admin.php:164
+#: inc/core/class-hestia-admin.php:175
+#: inc/core/class-hestia-admin.php:186
 msgid "View how to do this"
 msgstr "عرض كيفية القيام بهذا"
 
-#: inc/core/class-hestia-admin.php:138
+#: inc/core/class-hestia-admin.php:162
 msgid "If you want to make changes to the theme's files, those changes are likely to be overwritten when you next update the theme. In order to prevent that from happening, you need to create a child theme. For this, please follow the documentation below."
 msgstr "إذا تريد إجراء تغييرات على ملفات القالب، من المرجح أن تتم الكتابة الفوقية على تلك التغييرات عندما تقوم بالتحديث التالي للقالب. لمنع حدوث ذلك، تحتاج إلى إنشاء قالب فرعي. لهذا، يرجى الاطلاع على الوثائق أدناه."
 
-#: inc/core/class-hestia-admin.php:137
+#: inc/core/class-hestia-admin.php:161
 msgid "Create a child theme"
 msgstr "إنشاء قالب فرعي"
 
-#: inc/core/class-hestia-admin.php:127
+#: inc/core/class-hestia-admin.php:151
 msgid "Want to get the gist on the latest theme changes? Just consult our changelog below to get a taste of the recent fixes and features implemented."
 msgstr "تريد معرفة جوهر أحدث تغييرات القالب؟ فقط راجع سجل التغيير لدينا أدناه لتأخذ فكرة على الإصلاحات والميزات الحديثة التي تم تنفيذها."
 
-#: inc/core/class-hestia-admin.php:51
-#: inc/core/class-hestia-admin.php:118
+#: inc/core/class-hestia-admin.php:75
+#: inc/core/class-hestia-admin.php:142
 #: inc/customizer/controls/ui/subscribe-info/class-hestia-subscribe-info.php:137
 msgid "Read full documentation"
 msgstr "اقرأ الوثائق كاملة"
 
-#: inc/core/class-hestia-admin.php:52
-#: inc/core/class-hestia-admin.php:116
-#: inc/core/class-hestia-public.php:571
+#: inc/core/class-hestia-admin.php:76
+#: inc/core/class-hestia-admin.php:140
+#: inc/core/class-hestia-public.php:511
 msgid "Need more details? Please check our full documentation for detailed information on how to use Hestia."
 msgstr "بحاجة الى أكثر تفاصيل؟ يرجى مراجعة وثائقنا الكاملة للحصول على معلومات مفصلة حول كيفية استخدام هيستيا (Hestia)."
 
-#: inc/core/class-hestia-admin.php:105
+#: inc/core/class-hestia-admin.php:129
 msgid "We want to make sure you have the best experience using Hestia, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using Hestia as much as we enjoy creating great products."
 msgstr "نريد أن نتأكد من حصولك على أفضل تجربة عندما تستخدم هستيا (Hestia)، لهذا السبب جمعنا لك كل المعلومات الضرورية هنا. نحن نتمنى أن تستمتع باستخدام هيستيا (Hestia) بقدر ما نتمتع نحن بإنشاء منتجات رائعة. "
 
-#: inc/core/class-hestia-admin.php:104
-#: inc/core/class-hestia-admin.php:107
+#: inc/core/class-hestia-admin.php:128
+#: inc/core/class-hestia-admin.php:131
 msgid "Contact Support"
 msgstr "الاتصال بالدعم"
 
-#: inc/core/class-hestia-admin.php:176
+#: inc/core/class-hestia-admin.php:200
 msgid "Free vs PRO"
 msgstr "مجاني مقابل احترافي "
 
-#: inc/core/class-hestia-admin.php:126
-#: inc/core/class-hestia-admin.php:129
-#: inc/core/class-hestia-admin.php:172
+#: inc/core/class-hestia-admin.php:150
+#: inc/core/class-hestia-admin.php:153
+#: inc/core/class-hestia-admin.php:196
 msgid "Changelog"
 msgstr "سجل التغيير"
 
-#: inc/core/class-hestia-admin.php:100
+#: inc/core/class-hestia-admin.php:124
 msgid "Support"
 msgstr "الدعم"
 
-#: inc/core/class-hestia-admin.php:85
+#: inc/core/class-hestia-admin.php:109
 msgid "Useful Plugins"
 msgstr "إضافات مفيدة"
 
-#: inc/core/class-hestia-admin.php:74
+#: inc/core/class-hestia-admin.php:98
 msgid "Recommended Actions"
 msgstr "الإجراءات الموصى بها"
 
-#: inc/core/class-hestia-admin.php:37
+#: inc/core/class-hestia-admin.php:61
 msgid "Getting Started"
 msgstr "بدء الاستخدام"
 
-#: inc/core/class-hestia-public.php:571
+#: inc/core/class-hestia-public.php:511
 msgid "About Hestia"
 msgstr "حول هستيا (Hestia)"
 
@@ -966,7 +995,7 @@ msgstr "حول هستيا (Hestia)"
 msgid "Blog Settings"
 msgstr "إعدادات المدونة"
 
-#: inc/core/class-hestia-admin.php:214
+#: inc/core/class-hestia-admin.php:238
 #: inc/customizer/class-hestia-customizer-main.php:56
 #: inc/customizer/general/class-hestia-general-controls.php:170
 #: inc/customizer/general/class-hestia-typography-controls.php:216
@@ -977,13 +1006,13 @@ msgstr "أقسام الصفحة الأمامية "
 msgid "Appearance Settings"
 msgstr "إعدادات المظهر"
 
-#: inc/core/class-hestia-admin.php:257
+#: inc/core/class-hestia-admin.php:281
 #: inc/customizer/general/class-hestia-upsell-manager.php:70
 #: inc/customizer/general/class-hestia-upsell-manager.php:106
 msgid "A fully customizable pricing plans section."
 msgstr "قسم خطط التسعير القابل للتخصيص بالكامل."
 
-#: inc/core/class-hestia-admin.php:251
+#: inc/core/class-hestia-admin.php:275
 #: inc/customizer/general/class-hestia-upsell-manager.php:69
 #: inc/customizer/general/class-hestia-upsell-manager.php:105
 msgid "Portfolio section with two possible layouts."
@@ -998,27 +1027,27 @@ msgstr "قسم قائمة المشاريع مع تخطيطين محتملين."
 msgid "Get the PRO version!"
 msgstr "احصل على النسخة احترافية!"
 
-#: inc/core/class-hestia-admin.php:226
+#: inc/core/class-hestia-admin.php:250
 #: inc/customizer/general/class-hestia-upsell-manager.php:63
 #: inc/customizer/general/class-hestia-upsell-manager.php:112
 msgid "Section Reordering"
 msgstr "إعادة ترتيب القسم"
 
-#: inc/core/class-hestia-admin.php:256
+#: inc/core/class-hestia-admin.php:280
 #: inc/customizer/general/class-hestia-upsell-manager.php:62
 #: inc/customizer/general/class-hestia-upsell-manager.php:111
 msgid "Pricing Plans Section"
 msgstr "قسم خطط التسعير"
 
-#: inc/core/class-hestia-admin.php:250
+#: inc/core/class-hestia-admin.php:274
 #: inc/customizer/controls/ui/helper-plugin-install/class-hestia-plugin-install-helper.php:130
 #: inc/customizer/general/class-hestia-upsell-manager.php:61
 #: inc/customizer/general/class-hestia-upsell-manager.php:110
 msgid "Jetpack Portfolio"
 msgstr "قائمة مشاريع جاتباك (Jetpack)"
 
-#: inc/core/class-hestia-admin.php:54
-#: inc/core/class-hestia-admin.php:115
+#: inc/core/class-hestia-admin.php:78
+#: inc/core/class-hestia-admin.php:139
 #: inc/customizer/class-hestia-customizer-notices.php:80
 msgid "Documentation"
 msgstr "الوثائق"
@@ -1195,7 +1224,7 @@ msgstr "التذييل إثنان"
 msgid "Footer One"
 msgstr "التذييل واحد"
 
-#: inc/core/class-hestia-public.php:775
+#: inc/core/class-hestia-public.php:782
 msgid "Blog Subscribe Section"
 msgstr "قسم الاشتراك في المدونة"
 
@@ -1206,12 +1235,12 @@ msgstr "قسم الاشتراك في المدونة"
 msgid "Sidebar"
 msgstr "الشريط الجانبي"
 
-#: inc/core/class-hestia-public.php:488
+#: inc/core/class-hestia-public.php:489
 msgid "Footer Menu"
 msgstr "قائمة التذييل"
 
-#: inc/core/class-hestia-public.php:487
-#: inc/core/class-hestia-public.php:594
+#: inc/core/class-hestia-public.php:488
+#: inc/core/class-hestia-public.php:534
 msgid "Primary Menu"
 msgstr "القائمة الرئيسية"
 
