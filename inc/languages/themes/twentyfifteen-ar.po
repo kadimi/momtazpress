@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-04-20 16:17:00+0000\n"
+"PO-Revision-Date: 2019-04-26 19:38:21+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Themes - Twenty Fifteen\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -21,49 +21,49 @@ msgstr "Twenty Fifteen"
 
 #: functions.php:243
 msgid "Light Blue"
-msgstr ""
+msgstr "أزرق فاتح"
 
 #: functions.php:238
 msgid "Bright Blue"
-msgstr ""
+msgstr "أزرق مشع"
 
 #: functions.php:193
 msgid "Light Gray"
-msgstr ""
+msgstr "رمادي فاتح"
 
 #: functions.php:188
 msgid "Dark Gray"
-msgstr ""
+msgstr "رمادي داكن"
 
 #: functions.php:208
 msgid "Dark Brown"
-msgstr ""
+msgstr "بني داكن"
 
 #: functions.php:198
 msgid "White"
-msgstr ""
+msgstr "أبيض"
 
 #: functions.php:218
 msgid "Light Pink"
-msgstr ""
+msgstr "وردي فاتح"
 
 #: functions.php:213
 msgid "Medium Pink"
-msgstr ""
+msgstr "وردي متوسط"
 
 #: functions.php:233
 msgid "Blue Gray"
-msgstr ""
+msgstr "أزرق رمادي"
 
 #: functions.php:223
 msgid "Dark Purple"
-msgstr ""
+msgstr "أرجواني داكن"
 
 #. translators: %s: post title
 #: comments.php:31
 msgctxt "comments title"
 msgid "One thought on &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "تعليق واحد على &ldquo;%s&rdquo;"
 
 #. translators: %s: post title
 #: inc/template-tags.php:130
@@ -205,11 +205,11 @@ msgstr "الصورة التالية"
 msgid "Previous Image"
 msgstr "الصورة السابقة"
 
-#: header.php:49
+#: header.php:50
 msgid "Menu and widgets"
 msgstr "القائمة والودجات"
 
-#: header.php:26
+#: header.php:27
 msgid "Skip to content"
 msgstr "انتقل إلى المحتوى"
 
@@ -309,12 +309,12 @@ msgstr "التعليقات مغلقة."
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "لا توجد أراء حول &ldquo;%2$s&rdquo;"
+msgstr[1] "تعليق واحد (%1$s) على &ldquo;%2$s&rdquo;"
+msgstr[2] "تعليقان (%1$s) على &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s تعليقات على &ldquo;%2$s&rdquo;"
+msgstr[4] "%1$s تعليقا على &ldquo;%2$s&rdquo;"
+msgstr[5] "%1$s تعليق على &ldquo;%2$s&rdquo;"
 
 #: author-bio.php:34
 msgid "View all posts by %s"

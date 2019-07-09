@@ -55,7 +55,7 @@ msgstr "إشعار الخصوصية لـ Akismet"
 msgid "Privacy"
 msgstr "الخصوصية"
 
-#: class.akismet.php:1423
+#: class.akismet.php:1418
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
 msgstr "هذا الموقع يستخدم Akismet للحدّ من التعليقات المزعجة والغير مرغوبة. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">تعرّف على كيفية معالجة بيانات تعليقك</a>."
 
@@ -63,7 +63,7 @@ msgstr "هذا الموقع يستخدم Akismet للحدّ من التعليق�
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "نقوم بجمع معلومات حول الزائرين الذين يعلقون على المواقع التي تستخدم خدمة مكافحة الرسائل غير المرغوب فيها من Akismet anti-spam. تعتمد المعلومات التي نجمعها على كيفية قيام المستخدم بإعداد Akismet للموقع، ولكن عادة ما يتضمن عنوان IP الخاص بالمعلّق، ووكيل المستخدم، وطريقة الإحالة، وعنوان URL الخاص بالموقع (بالإضافة إلى معلومات أخرى يقدمها المعلق مباشرةً مثل الاسم، واسم المستخدم، والبريد الإلكتروني، والتعليق نفسه)."
 
-#: class.akismet.php:226
+#: class.akismet.php:231
 msgid "Comment discarded."
 msgstr "تم تجاهل التعليق."
 
@@ -238,7 +238,7 @@ msgstr "لم يتم إيجاد تعليقات لفحصها. إضافة Akismet �
 msgid "Checking for Spam"
 msgstr "جاري فحص التعليقات والمحتويات المزعجة"
 
-#: class.akismet.php:507
+#: class.akismet.php:512
 msgid "Comment not found."
 msgstr "لم يتم العثور على التعليق."
 
@@ -779,11 +779,11 @@ msgstr "أشارت أكيسميت أثناء محاولة تلقائية إلى 
 msgid "Akismet cleared this comment during an automatic retry."
 msgstr "أكيسميت أجازت هذا التعليق أثناء إعادة المحاولة تلقائياً."
 
-#: class.akismet.php:1268
+#: class.akismet.php:1277
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "يُرجى <a href=\"%1$s\">ترقية وردبرس</a> للإصدار الحالي أو <a href=\"%2$s\">الرجوع إلى الإصدار السابق 2.4 من إضافة أكيسميت</a>."
 
-#: class.akismet.php:1268
+#: class.akismet.php:1277
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "يتطلَّب أكيسميت %s إصدار وردبرس %s أو الإصدار الأعلى."
 

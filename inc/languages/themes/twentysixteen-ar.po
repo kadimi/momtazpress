@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-04-20 16:16:52+0000\n"
+"PO-Revision-Date: 2019-04-26 19:39:49+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Themes - Twenty Sixteen\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -21,47 +21,47 @@ msgstr "Twenty Sixteen هو خطوة تحديثية للتخطيط الأكثر 
 
 #: functions.php:202
 msgid "Bright Red"
-msgstr ""
+msgstr "أحمر فاتح"
 
 #: functions.php:197
 msgid "Dark Red"
-msgstr ""
+msgstr "أحمر داكن"
 
 #: functions.php:192
 msgid "Medium Brown"
-msgstr ""
+msgstr "بني متوسط"
 
 #: functions.php:187
 msgid "Dark Brown"
-msgstr ""
+msgstr "بني داكن"
 
 #: functions.php:182
 msgid "Light Blue"
-msgstr ""
+msgstr "أزرق فاتح"
 
 #: functions.php:177
 msgid "Bright Blue"
-msgstr ""
+msgstr "أزرق مشع"
 
 #: functions.php:172
 msgid "Blue Gray"
-msgstr ""
+msgstr "أزرق رمادي"
 
 #: functions.php:167
 msgid "White"
-msgstr ""
+msgstr "أبيض"
 
 #: functions.php:162
 msgid "Light Gray"
-msgstr ""
+msgstr "رمادي فاتح"
 
 #: functions.php:157
 msgid "Medium Gray"
-msgstr ""
+msgstr "رمادي متوسط"
 
 #: functions.php:152
 msgid "Dark Gray"
-msgstr ""
+msgstr "رمادي داكن"
 
 #. translators: %s: Name of current post
 #: inc/template-tags.php:194
@@ -268,11 +268,11 @@ msgstr "الصورة التالية"
 msgid "Previous Image"
 msgstr "الصورة السابقة"
 
-#: header.php:49
+#: header.php:50
 msgid "Menu"
 msgstr "القائمة"
 
-#: header.php:27
+#: header.php:28
 msgid "Skip to content"
 msgstr "التجاوز إلى المحتوى"
 
@@ -326,12 +326,12 @@ msgid "Sidebar"
 msgstr "الشريط الجانبي"
 
 #: functions.php:93
-#: header.php:66
+#: header.php:67
 msgid "Social Links Menu"
 msgstr "قائمة الروابط الإجتماعية"
 
 #: functions.php:92
-#: header.php:53
+#: header.php:54
 msgid "Primary Menu"
 msgstr "القائمة الأساسية"
 

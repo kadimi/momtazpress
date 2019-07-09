@@ -6,261 +6,265 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: +0000\n"
+"PO-Revision-Date: 2019-07-09 03:59:55+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Themes - Astra\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
 #. Description of the theme
 msgid "Astra is fast, fully customizable & beautiful theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL & Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!"
-msgstr ""
+msgstr "Astra هو قالب سريع، جميل كامل القابلية للتخصيص مناسب للمدونات، للملفات الشخصية، مواقع الاعمال ومتاجر الووكومرس. القالب خفيف جدا جدا (أقل من 50 كيلوبايت في الواجهة) ويقدم سرعة قل نظيرها. ولما كان الـ SEO بذهن مطوري القالب، فإن Astra يأتي بكود منسجم ومتكامل مع schema.org وهذا ما يجعل محركات البحث تحب موقعك. يقدم قالب Astra ميزات وقوالب خاصة حيث يعمل بشكل كامل مع كل ادوات تصميم الصفحات مثل Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, إلخ... بعض الميزات الاخرى: جاهز للووكومرس، متوائم مع مقاييس الشاشات المختلفة، متوائم مع اتجاه اليمين إلى اليسار RTL، جاهز للترجمة، قابل للتوسيع بإضافات استثنائية - بريميوم، يتم تعديله بشكل منتظم، تم مصميمه، تطويره وصيانته من قبل Brainstorm Force. هل تبحث عن قالب أساسي مثالي؟ لا تبحث أكثر. Astra قالب سريع، كامل القابلية للتخصيص وجاهز للووكومرس بحيث يمكنك استخدامه لبناء مواقع انترنت من أي نوع كان."
 
 #. Theme Name of the theme
 #: inc/core/class-astra-admin-settings.php:90
 #: inc/core/view-general.php:19
-#: inc/extras.php:519
-#: inc/extras.php:1586
+#: inc/extras.php:525
+#: inc/extras.php:1594
 msgid "Astra"
-msgstr ""
+msgstr "Astra"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:413
+msgid "The parent menu should have a # link for the submenu to open on a link."
+msgstr "يجب أن تحتوي القائمة الأصلية على رابط # لفتح القائمة الفرعية على الرابط."
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:261
 msgid "Breadcrumb Spacing"
-msgstr ""
+msgstr "مساحة شريط Breadcrumb"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:246
 msgid "Center"
-msgstr ""
+msgstr "وسط"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:240
 msgid "Breadcrumb Alignment"
-msgstr ""
+msgstr "محاذاة Breadcrumb"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:227
 msgid "Disable on 404 Page?"
-msgstr ""
+msgstr "تعطيل على صفحة 404؟"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:213
 msgid "Disable on Singular?"
-msgstr ""
+msgstr "تعطيل على الأحادي؟"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:211
 msgid "All Pages, All Posts, All Attachments"
-msgstr ""
+msgstr "كل الصفحات، كل المشاركات، كل المرفقات"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:198
 msgid "Disable on Single Post?"
-msgstr ""
+msgstr "تعطيل على مقالة واحدة؟"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:184
 msgid "Disable on Single Page?"
-msgstr ""
+msgstr "تعطيل على صفحة واحدة؟"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:170
 msgid "Disable on Archive?"
-msgstr ""
+msgstr "تعطيل في الأرشيف؟"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:156
 msgid "Disable on Search?"
-msgstr ""
+msgstr "تعطيل في البحث؟"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:142
 msgid "Disable on Blog / Posts Page?"
-msgstr ""
+msgstr "تعطيل في صفحة المدونة / المقالات؟"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:140
 msgid "Latest Posts Page or when any page is selected as Blog Page"
-msgstr ""
+msgstr "الأحدث من صفحة المقالات أو عند تحديد أي صفحة كصفحة مدونة"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:127
 msgid "Disable on Home Page?"
-msgstr ""
+msgstr "تعطيل في الصفحة الرئيسية؟"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:114
 msgid "Breadcrumb Separator"
-msgstr ""
+msgstr "فاصل Breadcrumb"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:83
 msgid "Before Title"
-msgstr ""
+msgstr "قبل العنوان"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:81
 msgid "Inside Header"
-msgstr ""
+msgstr "داخل الشريط العلوي"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:75
 msgid "Breadcrumb Position"
-msgstr ""
+msgstr "موضع Breadcrumb"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:95
 msgid "Breadcrumb Source"
-msgstr ""
+msgstr "مصدر Breadcrumb"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:58
 msgid "Breadcrumb Overview"
-msgstr ""
+msgstr "نظرة عامة Breadcrumb"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-color-configs.php:101
 msgid "Separator Color"
-msgstr ""
+msgstr "لون الفاصل"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-color-configs.php:54
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:50
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:54
 msgid "Breadcrumb"
-msgstr ""
+msgstr "Breadcrumb"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:911
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:921
 msgctxt "weekly archives date format"
 msgid "W"
-msgstr ""
+msgstr "W"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:883
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1312
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:893
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1322
 msgctxt "daily archives date format"
 msgid "j"
-msgstr ""
+msgstr "j"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:882
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:938
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1308
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:892
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:948
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1318
 msgctxt "monthly archives date format"
 msgid "F"
-msgstr ""
+msgstr "F"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:881
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:910
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:937
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:964
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1304
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:891
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:920
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:947
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:974
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1314
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:865
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:875
 msgctxt "hour archives time format"
 msgid "g a"
-msgstr ""
+msgstr "g a"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:848
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:858
 msgctxt "minute archives time format"
 msgid "i"
-msgstr ""
+msgstr "i"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:831
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:841
 msgctxt "minute and hour archives time format"
 msgid "g:i a"
-msgstr ""
+msgstr "g:i a"
 
 #. Translators: Weekly archive title. %s is the week date format.
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:371
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:381
 msgid "Week %s"
-msgstr ""
+msgstr "%s أسبوع"
 
 #. Translators: Minute archive title. %s is the minute time format.
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:369
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:379
 msgid "Minute %s"
-msgstr ""
+msgstr "%s دقيقة"
 
 #. Translators: %s is the page number.
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:367
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:377
 msgid "Comment Page %s"
-msgstr ""
+msgstr "تعليقات صفحة %s"
 
 #. Translators: %s is the page number.
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:365
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:375
 msgid "Page %s"
-msgstr ""
+msgstr "صفحة %s"
 
 #. Translators: %s is the search query.
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:363
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:373
 msgid "Search results for: %s"
-msgstr ""
+msgstr "نتائج البحث لـ: %s"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:361
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:371
 msgid "Archives"
-msgstr ""
+msgstr "الأرشيف"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:360
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:370
 msgid "404 Not Found"
-msgstr ""
+msgstr "404 غير موجود"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:358
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:368
 msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "Breadcrumbs"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:357
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:367
 msgid "Browse:"
-msgstr ""
+msgstr "استعراض:"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:99
 msgid "Latest Posts page is your site's front page when the latest posts are displayed on the home page."
-msgstr ""
+msgstr "صفحة أحدث المشاركات هي الصفحة الأولى لموقعك عندما يتم عرض أحدث المشاركات على الصفحة الرئيسية."
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:98
 msgid "Disable on Latest Posts Page?"
-msgstr ""
+msgstr "تعطيل في صفحة آخر المشاركات؟"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:84
 msgid "Blog Page is when Latest Posts are selected to be displayed on a particular page."
-msgstr ""
+msgstr "صفحة المدونة هي عندما يتم اختيار أحدث المشاركات ليتم عرضها على صفحة معينة."
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:83
 msgid "Disable on Blog page?"
-msgstr ""
+msgstr "تعطيل في صفحة المدونة؟"
 
 #: inc/core/class-astra-admin-settings.php:294
 msgid "Details »"
-msgstr ""
+msgstr "تفاصيل »"
 
 #: inc/core/class-astra-admin-settings.php:228
 msgid "Did you know Astra comes with dozens of ready-to-use <a href=\"https://wpastra.com/ready-websites/?utm_source=install-notice\">starter site templates</a>? Install the Astra Starter Sites plugin to get started."
-msgstr ""
+msgstr "هل تعلم أن Astra يأتي مع العشرات من <a href=\"https://wpastra.com/ready-websites/?utm_source=install-notice\"> قوالب مواقع البدء </a> الجاهزة للاستخدام؟ قم بتثبيت المكون الإضافي Astra Starter Sites للبدء."
 
 #: inc/core/class-astra-admin-settings.php:227
 msgid "Thank you for installing Astra!"
-msgstr ""
+msgstr "شكرا لك لتثبيت Astra!"
 
 #: inc/core/class-astra-admin-settings.php:199
 #: inc/core/class-astra-admin-settings.php:202
 msgid "Get Started"
-msgstr ""
+msgstr "البدء"
 
 #: inc/class-astra-mobile-header.php:105
 msgid "Menu Toggle"
-msgstr ""
+msgstr "القائمة"
 
 #: inc/core/class-astra-admin-settings.php:1371
 msgid "Plugin Successfully Deactivated"
-msgstr ""
+msgstr "تم تعطيل الإضافة بنجاح"
 
 #. translators: %1s Astra Theme
 #: inc/core/class-astra-admin-settings.php:1083
 msgid "Extend %1s with free plugins!"
-msgstr ""
+msgstr "تمديد %1s مع إضافات مجانية!"
 
 #: inc/core/class-astra-admin-settings.php:389
 #: inc/core/class-astra-admin-settings.php:1253
 msgid "Deactivate"
-msgstr ""
+msgstr "تعطيل"
 
 #: inc/core/class-astra-admin-settings.php:388
 #: inc/core/class-astra-admin-settings.php:1219
 #: inc/core/class-astra-admin-settings.php:1236
 msgid "Activate"
-msgstr ""
+msgstr "تفعيل"
 
 #: inc/core/class-astra-admin-settings.php:387
 msgid "Deactivating"
-msgstr ""
+msgstr "جار التعطيل"
 
 #: inc/core/class-astra-admin-settings.php:386
 msgid "Activating"
-msgstr ""
+msgstr "جار التفعيل"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:410
 msgid "Primary Header Button"
-msgstr ""
+msgstr "زر الشريط العلوي الأساسي"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:283
 msgid "Footer Widgets Top Border"
@@ -268,82 +272,82 @@ msgstr ""
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:166
 msgid "Button Style"
-msgstr ""
+msgstr "نمط الزر"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:164
 msgid "Custom Button"
-msgstr ""
+msgstr "زر مخصص"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:145
 msgid "Button Link"
-msgstr ""
+msgstr "رابط الزر"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:131
 msgid "Button Text"
-msgstr ""
+msgstr "نص الزر"
 
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:268
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:419
 msgid "Border Hover Color"
-msgstr ""
+msgstr "لون الحدود عند التمرير"
 
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:253
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:404
 msgid "Border Color"
-msgstr ""
+msgstr "لون الإطار"
 
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:232
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:383
 msgid "Border Size"
-msgstr ""
+msgstr "حجم الإطار"
 
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:210
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:361
 msgid "Button Padding"
-msgstr ""
+msgstr "الهامش الداخلي للزر"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:421
 msgid "Transparent Header Button"
-msgstr ""
+msgstr "زر شفاف لأعلى الموقع"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:399
 msgid "Header Button"
-msgstr ""
+msgstr "زر الشريط العلوي"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:388
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:163
 msgid "Theme Button"
-msgstr ""
+msgstr "زر القالب"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:219
 msgid "Content Section"
-msgstr ""
+msgstr "قسم المحتوى"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:162
 msgid "Submenu"
-msgstr ""
+msgstr "القائمة الفرعية"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:151
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:208
 msgid "Link Active / Hover Color"
-msgstr ""
+msgstr "اللون النشط / لون التمرير"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:136
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:193
 msgid "Link / Text Color"
-msgstr ""
+msgstr "لون الرابط / النص"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:105
 msgid "Menu"
-msgstr ""
+msgstr "القائمة"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:89
 msgid "Site Title Hover Color"
-msgstr ""
+msgstr "لون تمرير عنوان الموقع"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:69
 msgid "Site Title Color"
-msgstr ""
+msgstr "لون عنوان الموقع"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:54
 msgid "Background Overlay Color"
@@ -351,55 +355,55 @@ msgstr ""
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:195
 msgid "Logo"
-msgstr ""
+msgstr "الشعار"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:179
 msgid "Different Logo for Transparent Header?"
-msgstr ""
+msgstr "شعار مختلف لأعلى الموقع شفاف؟"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:158
 msgid "Desktop + Mobile"
-msgstr ""
+msgstr "سطح المكتب + الجوال"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:157
 msgid "Mobile"
-msgstr ""
+msgstr "الجوال"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:156
 msgid "Desktop"
-msgstr ""
+msgstr "سطح المكتب"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:153
 msgid "Enable On"
-msgstr ""
+msgstr "تفعيل في"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:127
 msgid "Disable on Posts?"
-msgstr ""
+msgstr "تعطيل على المقالات؟"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:113
 msgid "Disable on Pages?"
-msgstr ""
+msgstr "تعطيل على الصفحات؟"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:69
 msgid "This setting is generally not recommended on special pages such as archive, search, 404, etc. If you would like to enable it, uncheck this option"
-msgstr ""
+msgstr "لا ينصح بهذا الإعداد عمومًا في الصفحات الخاصة مثل الأرشيف أو البحث أو 404، إلخ. إذا كنت ترغب في تمكينه، قم بإلغاء تحديد هذا الخيار"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:68
 msgid "Disable on 404, Search & Archives?"
-msgstr ""
+msgstr "تعطيل في 404، البحث والمحفوظات؟"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:54
 msgid "Enable on Complete Website"
-msgstr ""
+msgstr "تمكين على الموقع الكامل"
 
 #: inc/addons/transparent-header/classes/class-astra-ext-transparent-header-markup.php:329
 msgid "Enabled"
-msgstr ""
+msgstr "مفعل"
 
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-single-layout-configs.php:57
 msgid "Disable on WooCommerce Product Pages?"
-msgstr ""
+msgstr "تعطيل على صفحات منتجات ووكومرس؟"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-single-product-layout-configs.php:45
 msgid "Disable Product Navigation"
@@ -415,13 +419,13 @@ msgstr ""
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:106
 msgid "Options"
-msgstr ""
+msgstr "الخيارات"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:105
 #: inc/core/class-astra-theme-options.php:165
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:106
 msgid "Button"
-msgstr ""
+msgstr "زر"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:103
 msgid "Variable Product Button"
@@ -433,15 +437,15 @@ msgstr ""
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:69
 msgid "Image"
-msgstr ""
+msgstr "صورة"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:67
 msgid "Product Structure"
-msgstr ""
+msgstr "هيكلة المنتج"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:49
 msgid "Archive Columns"
-msgstr ""
+msgstr "أرشيف الأعمدة"
 
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:76
 msgid "EDD Single Product"
@@ -469,7 +473,7 @@ msgstr ""
 
 #: inc/compatibility/edd/class-astra-edd.php:560
 msgid "View Details"
-msgstr ""
+msgstr "عرض التفاصيل"
 
 #: inc/compatibility/edd/class-astra-edd.php:224
 #: inc/compatibility/edd/customizer/class-astra-customizer-register-edd-section.php:36
@@ -481,43 +485,43 @@ msgstr ""
 #. Translators: %s is the theme name.
 #: inc/metabox/class-astra-meta-boxes.php:155
 msgid "%s Settings"
-msgstr ""
+msgstr "إعدادات %s"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:98
 msgid "900 Italic"
-msgstr ""
+msgstr "900 Italic"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:96
 msgid "800 Italic"
-msgstr ""
+msgstr "800 Italic"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:94
 msgid "700 Italic"
-msgstr ""
+msgstr "700 Italic"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:92
 msgid "600 Italic"
-msgstr ""
+msgstr "600 Italic"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:90
 msgid "500 Italic"
-msgstr ""
+msgstr "500 Italic"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:88
 msgid "400 Italic"
-msgstr ""
+msgstr "400 Italic"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:86
 msgid "300 Italic"
-msgstr ""
+msgstr "300 Italic"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:84
 msgid "200 Italic"
-msgstr ""
+msgstr "200 Italic"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:82
 msgid "100 Italic"
-msgstr ""
+msgstr "100 Italic"
 
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:79
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:223
@@ -526,23 +530,23 @@ msgstr ""
 
 #: inc/core/class-astra-admin-settings.php:181
 msgid "I already did"
-msgstr ""
+msgstr "لقد قمت بها بالفعل"
 
 #: inc/core/class-astra-admin-settings.php:180
 msgid "Nope, maybe later"
-msgstr ""
+msgstr "كلا، ربما في وقت لاحق"
 
 #: inc/core/class-astra-admin-settings.php:178
 msgid "Ok, you deserve it"
-msgstr ""
+msgstr "حسنا، أنت تستحق ذلك"
 
 #: inc/core/class-astra-admin-settings.php:176
 msgid "Could you please do us a BIG favor and give it a 5-star rating on WordPress? This would boost our motivation and help other users make a comfortable decision while choosing the Astra theme."
-msgstr ""
+msgstr "هل يمكن أن تقدم لنا خدمة كبيرة ومنح تقييم 5 نجوم على ووردبريس؟ هذا من شأنه أن يعزز حافزنا ويساعد المستخدمين الآخرين على اتخاذ قرار مريح أثناء اختيار قالب Astra."
 
 #: inc/core/class-astra-admin-settings.php:175
 msgid "Hello! Seems like you have used Astra theme to build this website — Thanks a ton!"
-msgstr ""
+msgstr "مرحبا! يبدو أنك قد استخدمت قالب Astra لبناء هذا الموقع - شكرًا لك!"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:317
 msgid "Submenu Item Border Color"
@@ -550,27 +554,27 @@ msgstr ""
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:347
 msgid "Fade"
-msgstr ""
+msgstr "تلاشي"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:346
 msgid "Slide Up"
-msgstr ""
+msgstr "تحرك للأعلى"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:345
 msgid "Slide Down"
-msgstr ""
+msgstr "تحرك للأسفل"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:342
 msgid "Submenu Container Animation"
-msgstr ""
+msgstr "تأثيرات حاوية القائمة الفرعية"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:294
 msgid "Submenu Border Color"
-msgstr ""
+msgstr "لون حدود القائمة الفرعية"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:307
 msgid "Submenu Item Border"
-msgstr ""
+msgstr "حدود القائمة الفرعية"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:245
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:268
@@ -580,7 +584,7 @@ msgstr ""
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:388
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:283
 msgid "Left"
-msgstr ""
+msgstr "يسار"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:267
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:214
@@ -589,7 +593,7 @@ msgstr ""
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:387
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:282
 msgid "Bottom"
-msgstr ""
+msgstr "أسفل"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:247
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:266
@@ -599,7 +603,7 @@ msgstr ""
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:386
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:281
 msgid "Right"
-msgstr ""
+msgstr "يمين"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:265
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:212
@@ -608,70 +612,70 @@ msgstr ""
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:385
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:280
 msgid "Top"
-msgstr ""
+msgstr "أعلى"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:278
 msgid "Submenu Container Border"
-msgstr ""
+msgstr "حدود حاوية القائمة الفرعية"
 
 #: inc/core/class-astra-admin-settings.php:844
 msgid "Nav Menu"
-msgstr ""
+msgstr "شريط القائمة"
 
 #. Translators: Author Name.
 #: inc/blog/blog-config.php:139
 msgid "View all posts by %1$s"
-msgstr ""
+msgstr "عرض جميع المقالات بواسطة %1$s"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:236
 msgid "Header Bottom Border Color"
-msgstr ""
+msgstr "لون الحدود السفلية لأعلى الموقع"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:216
 msgid "Header Bottom Border Size"
-msgstr ""
+msgstr "حجم الحدود السفلية لأعلى الموقع"
 
-#: inc/core/common-functions.php:1078
+#: inc/core/common-functions.php:1080
 msgctxt "placeholder"
 msgid "Search &hellip;"
-msgstr ""
+msgstr "البحث &hellip;"
 
-#: inc/core/common-functions.php:1077
+#: inc/core/common-functions.php:1079
 msgctxt "label"
 msgid "Search for:"
-msgstr ""
+msgstr "البحث عن:"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:312
 msgid "Typography Overview"
-msgstr ""
+msgstr "نظرة عامة على تنسيق الخطوط"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:263
 msgid "Colors & Background Overview"
-msgstr ""
+msgstr "نظرة عامة على الالوان والخلفية "
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:239
 msgid "Sidebar Overview"
-msgstr ""
+msgstr "نظرة عامة على الشريط الجانبي "
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:193
 msgid "Footer Bar Overview"
-msgstr ""
+msgstr "نظرة عامة على شريط التذييل"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:136
 msgid "Primary Header Overview"
-msgstr ""
+msgstr "نظرة عامة على الشريط العلوي الأساسي"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:108
 msgid "Site Identity Overview"
-msgstr ""
+msgstr "نظرة عامة على هوية الموقع"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:67
 msgid "Container Overview"
-msgstr ""
+msgstr "نظرة عامة على الحاوية"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:61
 msgid "Site Layout Overview"
-msgstr ""
+msgstr "نظرة عامة على تخطيط الموقع"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:55
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:58
@@ -682,20 +686,20 @@ msgstr ""
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:260
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:309
 msgid "Helpful Information"
-msgstr ""
+msgstr "معلومات مفيدة"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:207
 #: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:43
 msgid "Different Logo for retina devices?"
-msgstr ""
+msgstr "شعار مختلف لأجهزة retina؟"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:398
 msgid "Link"
-msgstr ""
+msgstr "رابط"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:397
 msgid "Icon"
-msgstr ""
+msgstr "أيقونة"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:394
 msgid "Dropdown Target"
@@ -703,62 +707,62 @@ msgstr ""
 
 #: inc/core/class-astra-admin-settings.php:1423
 msgid "⚡ Lightning Fast & Fully Customizable WordPress theme!"
-msgstr ""
+msgstr "⚡ بسرعة البرق & قالب ووردبريس يمكن تخصيصه بالكامل!"
 
 #: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:86
 msgid "Mobile Logo (optional)"
-msgstr ""
+msgstr "شعار الجوال (اختياري)"
 
 #: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:71
 msgid "Different Logo for mobile devices?"
-msgstr ""
+msgstr "شعار مختلف للأجهزة المحمولة ؟"
 
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:283
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:434
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:514
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:529
 msgid "Border Radius"
-msgstr ""
+msgstr "استدارة الإطار"
 
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:500
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:515
 msgid "Toggle Button Color"
-msgstr ""
+msgstr "تبديل زر اللون"
 
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:488
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:503
 msgid "Minimal"
-msgstr ""
+msgstr "الحد الأدنى"
 
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:487
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:502
 msgid "Outline"
 msgstr ""
 
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:486
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:501
 msgid "Fill"
-msgstr ""
+msgstr "تبعئة"
 
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:481
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:496
 msgid "Toggle Button Style"
-msgstr ""
+msgstr "تبديل نمط الزر"
 
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:555
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:570
 msgid "More Options Available for Mobile Header in Astra Pro!"
-msgstr ""
+msgstr "المزيد من الخيارات متاحة للشريط العلوي للجوال في Astra Pro!"
 
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:447
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:462
 msgid "Take Last item in Menu outside menu"
-msgstr ""
+msgstr "أخذ آخر عنصر في القائمة خارج القائمة"
 
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:433
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:448
 msgid "Hide Last item in Menu on mobile"
-msgstr ""
+msgstr "إخفاء العنصر الأخير في القائمة على الجوال"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:89
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:100
 msgid "Last Item in Menu"
-msgstr ""
+msgstr "العنصر الأخير في القائمة"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:50
 msgid "Header Layout"
-msgstr ""
+msgstr "تنسيق الشريط العلوي"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:155
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:375
@@ -767,32 +771,32 @@ msgstr ""
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:99
 msgid "Site Identity"
-msgstr ""
+msgstr "هوية الموقع"
 
 #: inc/core/class-astra-admin-settings.php:818
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:360
 msgid "Mobile Header"
-msgstr ""
+msgstr "الشريط العلوي للجوال"
 
 #: inc/compatibility/learndash/customizer/class-astra-customizer-register-learndash-section.php:36
 #: inc/compatibility/learndash/customizer/sections/class-astra-learndash-sidebar-configs.php:57
 #: inc/core/class-astra-admin-settings.php:966
 msgid "LearnDash"
-msgstr ""
+msgstr "LearnDash"
 
 #: inc/customizer/configurations/colors-background/class-astra-advanced-footer-colors-configs.php:108
 #: inc/customizer/configurations/colors-background/class-astra-footer-colors-configs.php:95
 #: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:133
 msgid "Background"
-msgstr ""
+msgstr "الخلفية"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:180
 msgid "Fixed"
-msgstr ""
+msgstr "ثابت"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:177
 msgid "Scroll"
-msgstr ""
+msgstr "التمرير"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:171
 msgid "Background Attachment"
@@ -800,204 +804,204 @@ msgstr ""
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:164
 msgid "Auto"
-msgstr ""
+msgstr "تلقائي"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:161
 msgid "Contain"
-msgstr ""
+msgstr "يحتوي"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:158
 msgid "Cover"
-msgstr ""
+msgstr "غلاف"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:155
 msgid "Background Size"
-msgstr ""
+msgstr "حجم الخلفية"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:149
 msgid "Center Bottom"
-msgstr ""
+msgstr "أسفل وسط"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:148
 msgid "Center Center"
-msgstr ""
+msgstr "وسط وسط"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:147
 msgid "Center Top"
-msgstr ""
+msgstr "أعلى وسط"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:146
 msgid "Right Bottom"
-msgstr ""
+msgstr "أسفل يمين"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:145
 msgid "Right Center"
-msgstr ""
+msgstr "يمين وسط"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:144
 msgid "Right Top"
-msgstr ""
+msgstr "أعلى يمين"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:143
 msgid "Left Bottom"
-msgstr ""
+msgstr "أسفل يسار"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:142
 msgid "Left Center"
-msgstr ""
+msgstr "وسط يسار"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:141
 msgid "Left Top"
-msgstr ""
+msgstr "أعلى يسار"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:134
 msgid "Repeat Vertically"
-msgstr ""
+msgstr "تكرار عمودي"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:133
 msgid "Repeat Horizontally"
-msgstr ""
+msgstr "تكرار أفقي"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:132
 msgid "Repeat All"
-msgstr ""
+msgstr "تكرار الجميع"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:131
 msgid "No Repeat"
-msgstr ""
+msgstr "بدون تكرار"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:118
 msgid "Select File"
-msgstr ""
+msgstr "تحديد ملف"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:117
 msgid "Remove"
-msgstr ""
+msgstr "إزالة"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:114
 msgid "No File Selected"
-msgstr ""
+msgstr "لا يوجد ملف محدد"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:109
 msgid "Background Image"
-msgstr ""
+msgstr "صورة الخلفية"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:72
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:122
 msgid "More Settings"
-msgstr ""
+msgstr "المزيد من الإعدادات"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:71
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:120
 msgid "Less Settings"
-msgstr ""
+msgstr "إعدادات أقل"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:70
 msgid "No file selected"
-msgstr ""
+msgstr "لا يوجد ملف محدد"
 
 #: inc/core/class-astra-admin-settings.php:967
 msgid "Supercharge your LearnDash website with amazing design features."
-msgstr ""
+msgstr "اشحن موقع LearnDash الخاص بك من خلال مميزات تصميم مذهلة."
 
 #: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-container-configs.php:59
 msgid "Container for LifterLMS"
-msgstr ""
+msgstr "حاوية لـ LifterLMS"
 
 #: inc/compatibility/learndash/customizer/sections/class-astra-learndash-sidebar-configs.php:58
 msgid "This layout will apply on all single course, lesson, topic and quiz."
-msgstr ""
+msgstr "سيتم تطبيق هذا التصميم على كل مساق ودروس وموضوع واختبار."
 
 #: inc/compatibility/learndash/customizer/sections/class-astra-learndash-container-configs.php:58
 msgid "Will be applied to All Single Courses, Topics, Lessons and Quizzes. Does not work on pages created with LearnDash shortcodes."
-msgstr ""
+msgstr "سيتم تطبيقه على جميع المساقات والمواضيع والدروس والاختبارات. لا يعمل على الصفحات التي تم إنشاؤها باستخدام shortcodes لـ LearnDash."
 
 #: inc/compatibility/learndash/customizer/sections/class-astra-learndash-container-configs.php:57
 msgid "Container for LearnDash"
-msgstr ""
+msgstr "حاوية لـ LearnDash"
 
 #: inc/compatibility/learndash/customizer/sections/layout/class-astra-learndash-general-configs.php:70
 msgid "Differentiate Rows"
-msgstr ""
+msgstr "التفريق بين الصفوف"
 
 #: inc/compatibility/learndash/customizer/sections/layout/class-astra-learndash-general-configs.php:57
 msgid "Display Serial Number"
-msgstr ""
+msgstr "عرض الرقم التسلسلي"
 
 #: inc/compatibility/learndash/customizer/sections/layout/class-astra-learndash-general-configs.php:41
 msgid "Course Content Table"
-msgstr ""
+msgstr "جدول محتويات المساق"
 
 #. translators: %1$s: Astra Theme name.
 #: inc/core/class-astra-admin-settings.php:631
 msgid "%1$s Community"
-msgstr ""
+msgstr "مجتمع %1$s"
 
-#: inc/extras.php:1633
+#: inc/extras.php:1641
 msgid "Astra Pro"
-msgstr ""
+msgstr "Astra Pro"
 
 #: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:134
 #: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:269
 #: inc/customizer/configurations/typography/class-astra-header-typo-configs.php:162
 #: inc/customizer/configurations/typography/class-astra-single-typo-configs.php:102
 msgid "More Options Available for Typography in Astra Pro!"
-msgstr ""
+msgstr "المزيد من الخيارات المتاحة للخطوط في Astra Pro!"
 
 #: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:166
 msgid "More Options Available for Container in Astra Pro!"
-msgstr ""
+msgstr "المزيد من الخيارات المتاحة للحاوية في Astra Pro!"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:169
 msgid "More Options Available for Blog in Astra Pro!"
-msgstr ""
+msgstr "المزيد من الخيارات المتاحة للمدونة في Astra Pro!"
 
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:152
 msgid "More Options Available for Single Post in Astra Pro!"
-msgstr ""
+msgstr "المزيد من الخيارات متاحة للمقالات المفردة في Astra Pro!"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:169
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:152
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:334
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:555
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:570
 #: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:166
 #: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:134
 #: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:269
 #: inc/customizer/configurations/typography/class-astra-header-typo-configs.php:162
 #: inc/customizer/configurations/typography/class-astra-single-typo-configs.php:102
 msgid "Learn More"
-msgstr ""
+msgstr "تعلم المزيد"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:334
 msgid "More Options Available for Footer Widgets in Astra Pro!"
-msgstr ""
+msgstr "المزيد من الخيارات متوفرة لودجات شريط التذييل في Astra Pro!"
 
 #: inc/customizer/configurations/colors-background/class-astra-body-colors-configs.php:44
 msgid "Theme Color"
-msgstr ""
+msgstr "لون القالب"
 
 #: inc/customizer/astra-pro/class-astra-pro-upgrade-link-configs.php:33
 msgid "More Options Available in Astra Pro!"
-msgstr ""
+msgstr "المزيد من الخيارات المتاحة في Astra Pro!"
 
 #. translators: %1$1s: Addon Name, %2$2s: Minimum Required version of the Astra
 #. Addon
 #: inc/core/class-astra-admin-settings.php:1403
 msgid "Update to the latest version of %1$2s to make changes in settings below."
-msgstr ""
+msgstr "قم بالتحديث إلى أحدث إصدار من %1$2s لإجراء تغييرات في الإعدادات أدناه."
 
 #: inc/core/class-astra-admin-settings.php:1333
 msgid "Plugin Successfully Activated"
-msgstr ""
+msgstr "تم تفعيل الإضافة بنجاح"
 
 #: inc/core/class-astra-admin-settings.php:1312
 #: inc/core/class-astra-admin-settings.php:1350
 msgid "No plugin specified"
-msgstr ""
+msgstr "لا يوجد إضافة محددة"
 
 #: inc/core/class-astra-admin-settings.php:1009
 msgid "Links to Customizer Settings:"
-msgstr ""
+msgstr "ارتباط إلى إعدادات التخصيص"
 
 #: inc/core/class-astra-admin-settings.php:993
 msgid "White Label"
@@ -1005,11 +1009,11 @@ msgstr ""
 
 #: inc/core/class-astra-admin-settings.php:927
 msgid "Scroll To Top"
-msgstr ""
+msgstr "التمرير إلى الأعلى"
 
 #: inc/core/class-astra-admin-settings.php:901
 msgid "Site Layouts"
-msgstr ""
+msgstr "تنسيقات الموقع"
 
 #: inc/core/class-astra-admin-settings.php:887
 msgid "Add content conditionally in the various hook areas of the theme."
@@ -1017,29 +1021,29 @@ msgstr ""
 
 #: inc/core/class-astra-admin-settings.php:885
 msgid "Custom Layouts"
-msgstr ""
+msgstr "تنسيقات مخصصة"
 
 #: inc/core/class-astra-admin-settings.php:871
 msgid "Make your header layouts look more appealing and sexy!"
-msgstr ""
+msgstr "جعل تنسيقات أعلى الموقع تبدو أكثر أناقة!"
 
 #: inc/core/class-astra-admin-settings.php:870
 msgid "Page Headers"
-msgstr ""
+msgstr "الأشرطة الرأسية للصفحات"
 
 #: inc/core/class-astra-admin-settings.php:857
 msgid "Sticky Header"
-msgstr ""
+msgstr "شريط رأسي ثابت"
 
 #: inc/addons/transparent-header/classes/class-astra-ext-transparent-header-markup.php:325
 #: inc/addons/transparent-header/classes/class-astra-transparent-header-panels-and-sections.php:48
 #: inc/addons/transparent-header/classes/class-astra-transparent-header-panels-and-sections.php:65
 msgid "Transparent Header"
-msgstr ""
+msgstr "شريط رأسي شفاف"
 
 #: inc/core/class-astra-admin-settings.php:831
 msgid "Header Sections"
-msgstr ""
+msgstr "أقسام الشريط رأسي"
 
 #: inc/core/class-astra-admin-settings.php:805
 msgid "Blog Pro"
@@ -1068,43 +1072,43 @@ msgstr ""
 #: inc/core/class-astra-admin-settings.php:987
 #: inc/core/class-astra-admin-settings.php:1000
 msgid "Learn More »"
-msgstr ""
+msgstr "أعرف أكثر »"
 
 #: inc/core/class-astra-admin-settings.php:755
 msgid "Sidebar Options"
-msgstr ""
+msgstr "إعدادات الشريط الجانبي"
 
 #: inc/core/class-astra-admin-settings.php:750
 msgid "Footer Settings"
-msgstr ""
+msgstr "إعدادات تذييل الموقع"
 
 #: inc/core/class-astra-admin-settings.php:745
 msgid "Blog Layouts"
-msgstr ""
+msgstr "تنسيقات المدونة"
 
 #: inc/core/class-astra-admin-settings.php:740
 msgid "Header Options"
-msgstr ""
+msgstr "خيارات الشريط العلوي"
 
 #: inc/core/class-astra-admin-settings.php:735
 msgid "Layout Options"
-msgstr ""
+msgstr "خيارات التنسيقات"
 
 #: inc/core/class-astra-admin-settings.php:730
 msgid "Customize Fonts"
-msgstr ""
+msgstr "تخصيص الخطوط"
 
 #: inc/core/class-astra-admin-settings.php:725
 msgid "Set Colors"
-msgstr ""
+msgstr "اختيار الألوان"
 
 #: inc/core/class-astra-admin-settings.php:720
 msgid "Upload Logo"
-msgstr ""
+msgstr "رفع شعار"
 
 #: inc/core/class-astra-admin-settings.php:713
 msgid "More Options Available with Astra Pro!"
-msgstr ""
+msgstr "المزيد من الخيارات المتاحة مع Astra Pro!"
 
 #: inc/core/class-astra-admin-settings.php:692
 msgid "Submit a Ticket »"
@@ -1117,16 +1121,16 @@ msgstr ""
 
 #: inc/core/class-astra-admin-settings.php:678
 msgid "Five Star Support"
-msgstr ""
+msgstr "دعم خمس نجوم"
 
 #: inc/core/class-astra-admin-settings.php:648
 msgid "Join Our Facebook Group »"
-msgstr ""
+msgstr "انضم إلى مجموعة Facebook الخاصة بنا »"
 
 #. translators: %1$s: Astra Theme name.
 #: inc/core/class-astra-admin-settings.php:641
 msgid "Join the community of super helpful %1$s users. Say hello, ask questions, give feedback and help each other!"
-msgstr ""
+msgstr "انضم إلى مجتمع مستخدمي %1$s المفيدين. قل مرحباً، اطرح أسئلة، أعط ملاحظاتك وساعد بعضنا البعض!"
 
 #: inc/core/class-astra-admin-settings.php:597
 msgid "Visit Knowledge Base »"
@@ -1142,28 +1146,28 @@ msgstr ""
 
 #: inc/core/class-astra-admin-settings.php:287
 msgid "Install Importer Plugin"
-msgstr ""
+msgstr "تنصيب إضافة الاستيراد"
 
 #: inc/core/class-astra-admin-settings.php:275
 msgid "Activate Importer Plugin"
-msgstr ""
+msgstr "تفعيل إضافة الاستيراد"
 
 #: inc/core/class-astra-admin-settings.php:541
 msgid "Import your favorite site one click and start your project in style!"
-msgstr ""
+msgstr "قم باستيراد موقعك المفضل بنقرة واحدة وابدأ مشروعك بأناقة!"
 
 #: inc/core/class-astra-admin-settings.php:529
 msgid "Starter Site Templates?"
-msgstr ""
+msgstr "قوالب موقع مبدئية؟"
 
 #. translators: %1$s: Starter site link.
 #: inc/core/class-astra-admin-settings.php:532
 msgid "Did you know %1$s offers a free library of %2$s "
-msgstr ""
+msgstr "هل تعلم أن %1$s يقدم مكتبة مجانية من %2$s"
 
 #: inc/core/class-astra-admin-settings.php:522
 msgid "Import Starter Site"
-msgstr ""
+msgstr "استيراد المواقع المبدئية"
 
 #: inc/core/class-astra-admin-settings.php:279
 #: inc/core/class-astra-admin-settings.php:291
@@ -1171,285 +1175,284 @@ msgstr ""
 #: inc/core/class-astra-admin-settings.php:303
 #: inc/core/class-astra-admin-settings.php:385
 msgid "See Library »"
-msgstr ""
+msgstr "مشاهدة المكتبة »"
 
 #: inc/core/class-astra-admin-settings.php:280
 #: inc/core/class-astra-admin-settings.php:383
 msgid "Activating Importer Plugin "
-msgstr ""
+msgstr "تفعيل إضافة الاستيراد"
 
 #: inc/core/class-astra-admin-settings.php:89
 msgid "Astra Options"
-msgstr ""
+msgstr "خيارات Astra"
 
-#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:68
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:58
 msgid "Default System Font"
-msgstr ""
+msgstr "خط النطام الافتراضي"
 
 #: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:113
 msgid "Container for Blog Archives"
-msgstr ""
+msgstr "حاوية أرشيفات المدونة"
 
 #: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:93
 msgid "Container for Blog Posts"
-msgstr ""
+msgstr "حاوية مقالات المدونة"
 
 #: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:75
 msgid "Container for Pages"
-msgstr ""
+msgstr "حاوية الصفحات"
 
 #: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-container-configs.php:45
 msgid "Container for WooCommerce"
-msgstr ""
+msgstr "حاوية ووكوميرس"
 
 #: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:60
 msgid "Default Container"
-msgstr ""
+msgstr "الحاوية الافتراضية"
 
 #: inc/compatibility/lifterlms/customizer/sections/layout/class-astra-lifter-general-configs.php:48
 msgid "Course Columns"
-msgstr ""
+msgstr "أعمدة الدورة التدريبية"
 
 #: inc/compatibility/lifterlms/customizer/sections/layout/class-astra-lifter-general-configs.php:70
 msgid "Membership Columns"
-msgstr ""
+msgstr "أعمدة العضوية"
 
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:139
 msgid "Shop Archive Content Width"
-msgstr ""
+msgstr "عرض محتوى أرشيف المتجر"
 
 #: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-sidebar-configs.php:76
 msgid "LifterLMS Course/Lesson"
-msgstr ""
+msgstr "مساق/درس LifterLMS"
 
 #: inc/compatibility/lifterlms/customizer/class-astra-liferlms-section-configs.php:35
 #: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-sidebar-configs.php:57
 #: inc/core/class-astra-admin-settings.php:980
 msgid "LifterLMS"
-msgstr ""
+msgstr "LifterLMS"
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:297
 msgid "Leave Review"
-msgstr ""
+msgstr "أترك مراجعة"
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:293
 msgid "Review Text is required."
-msgstr ""
+msgstr "يجب إدخال نص المراجعة."
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:292
 msgid "Review Text"
-msgstr ""
+msgstr "نص المراجعة"
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:291
 msgid "Review Title is required."
-msgstr ""
+msgstr "عنوان المراجعة إلزامي."
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:290
 msgid "Review Title"
-msgstr ""
+msgstr "عنوان المراجعة"
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:288
 msgid "Write a Review"
-msgstr ""
+msgstr "اكتب مراجعة"
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:282
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:301
 msgid "Thank you for your review!"
-msgstr ""
+msgstr "شكرا لك على مراجعتك!"
 
 #. translators: 1 Author Name.
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:245
 msgid "By: %s"
-msgstr ""
+msgstr "بواسطة: %s"
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:216
 msgid "What Others Have Said"
-msgstr ""
+msgstr "ماذا قال الآخرون"
 
 #: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:160
 msgid "Sidebar width will apply only when one of the above sidebar is set."
-msgstr ""
+msgstr "عرض الشريط الجانبي سيطبق فقط عندما يتم تحديد أحد الأشرطة الجانبية أعلاه."
 
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:86
 msgid "Product Image Hover Style"
-msgstr ""
+msgstr "نسق صورة المنتج عند التمرير"
 
 #: inc/compatibility/woocommerce/customizer/class-astra-customizer-register-woo-section.php:72
 msgid "Cart Page"
-msgstr ""
+msgstr "صفحة السلة"
 
 #: inc/core/class-astra-admin-settings.php:390
 msgid "Settings"
-msgstr ""
+msgstr "الإعدادات"
 
 #: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:165
 msgid "Inline Logo & Site Title"
-msgstr ""
+msgstr "الشعار وعنوان الموقع على سطر واحد"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:207
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:349
 msgid "Blog"
-msgstr ""
+msgstr "المدونة"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:127
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:340
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:442
 msgid "Primary Header"
-msgstr ""
+msgstr "الشريط العلوي الرئيسي"
 
 #: inc/compatibility/woocommerce/woocommerce-common-functions.php:133
 msgid "Availability:"
-msgstr ""
+msgstr "حالة التوفر:"
 
 #: inc/compatibility/woocommerce/woocommerce-common-functions.php:80
 msgid "Out of stock"
-msgstr ""
+msgstr "غير متوفر في المخزون"
 
 #: inc/compatibility/edd/class-astra-edd.php:558
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:74
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:112
 msgid "Add To Cart"
-msgstr ""
+msgstr "إضافة للسلة"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:73
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:111
 msgid "Short Description"
-msgstr ""
+msgstr "الوصف القصير"
 
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:110
 msgid "Ratings"
-msgstr ""
+msgstr "التقييمات"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:72
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:109
 msgid "Price"
-msgstr ""
+msgstr "السعر"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:71
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:108
 msgid "Title"
-msgstr ""
+msgstr "العنوان"
 
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:106
 msgid "Shop Product Structure"
-msgstr ""
+msgstr "هيكلة منتج المتجر"
 
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:91
 msgid "Swap Images"
-msgstr ""
+msgstr "تبديل الصور"
 
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:64
 msgid "Products Per Page"
-msgstr ""
+msgstr "عدد المنتجات في الصفحة"
 
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:49
 msgid "Shop Columns"
-msgstr ""
+msgstr "أعمدة المتجر"
 
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-single-layout-configs.php:45
 #: inc/metabox/class-astra-meta-boxes.php:314
 msgid "Disable Breadcrumb"
-msgstr ""
+msgstr "إلغاء Breadcrumb"
 
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:45
 msgid "Enable Upsells"
-msgstr ""
+msgstr "تمكين Upsells"
 
 #: inc/compatibility/edd/customizer/class-astra-customizer-register-edd-section.php:53
 #: inc/compatibility/woocommerce/customizer/class-astra-customizer-register-woo-section.php:63
 #: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-sidebar-configs.php:76
 msgid "Single Product"
-msgstr ""
+msgstr "منتج منفرد"
 
 #: inc/compatibility/woocommerce/customizer/class-astra-customizer-register-woo-section.php:53
 msgid "Shop"
-msgstr ""
+msgstr "متجر"
 
 #: inc/compatibility/woocommerce/customizer/class-astra-customizer-register-woo-section.php:44
 msgid "General"
-msgstr ""
+msgstr "عام"
 
 #: inc/compatibility/woocommerce/customizer/class-astra-customizer-register-woo-section.php:37
 #: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-sidebar-configs.php:57
 #: inc/core/class-astra-admin-settings.php:940
 msgid "WooCommerce"
-msgstr ""
+msgstr "ووكومرس"
 
 #: inc/compatibility/edd/class-astra-edd.php:343
 #: inc/compatibility/woocommerce/class-astra-woocommerce.php:1001
 msgid "View your shopping cart"
-msgstr ""
+msgstr "شاهد سلة مشترياتك"
 
 #: inc/compatibility/woocommerce/class-astra-woocommerce.php:412
 msgid "This sidebar will be used on Single Product page."
-msgstr ""
+msgstr "هذا الشريط الجانبي سيستعمل في صفحة المنتج المنفرد."
 
 #: inc/compatibility/woocommerce/class-astra-woocommerce.php:410
 msgid "Product Sidebar"
-msgstr ""
+msgstr "الشريط الجانبي للمنتج"
 
 #: inc/compatibility/edd/class-astra-edd.php:621
 #: inc/compatibility/woocommerce/class-astra-woocommerce.php:398
 msgid "This sidebar will be used on Product archive, Cart, Checkout and My Account pages."
-msgstr ""
+msgstr "هذا الشريط الجانبي سيستعمل في صفحات أرشيف المنتجات، السلة، الدفع وصفحة حسابي."
 
 #: inc/compatibility/woocommerce/class-astra-woocommerce.php:396
 msgid "WooCommerce Sidebar"
-msgstr ""
+msgstr "شريط ووكومرس الجانبي"
 
 #. translators: 1: number of products
 #: inc/compatibility/woocommerce/class-astra-woocommerce.php:212
 msgctxt "product categories"
 msgid "<mark class=\"count\">%1$s Product</mark>"
 msgid_plural "<mark class=\"count\">%1$s Products</mark>"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "<mark class=\"count\">%1$s منتج</mark>"
+msgstr[1] "<mark class=\"count\">منتج</mark>"
+msgstr[2] "<mark class=\"count\">منتجان</mark>"
+msgstr[3] "<mark class=\"count\">%1$s منتجات</mark>"
+msgstr[4] "<mark class=\"count\">%1$s منتج</mark>"
+msgstr[5] "<mark class=\"count\">%1$s منتج</mark>"
 
 #: inc/core/common-functions.php:785
 msgid "This page doesn't seem to exist."
-msgstr ""
+msgstr "لا يبدو أن هذه الصفحة موجودة."
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:359
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:369
 #: inc/core/common-functions.php:779
 msgid "Home"
-msgstr ""
+msgstr "الرئيسية"
 
 #: inc/metabox/class-astra-meta-boxes.php:278
 msgid "Disable Featured Image"
-msgstr ""
+msgstr "إلغاء الصورة المميزة"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:240
 #: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:105
 msgid "Logo Width"
-msgstr ""
+msgstr "عرض الشعار"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:224
 #: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:58
 msgid "Retina Logo"
-msgstr ""
+msgstr "شعار Retina"
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:639
 #: inc/metabox/class-astra-meta-boxes.php:303
 msgid "Disable Footer Bar"
-msgstr ""
+msgstr "إلغاء شريط التذييل"
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:630
 #: inc/metabox/class-astra-meta-boxes.php:291
 msgid "Disable Footer Widgets"
-msgstr ""
+msgstr "إلغاء ودجات شريط التذييل"
 
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:172
 msgid "Paragraph Margin Bottom"
-msgstr ""
+msgstr "الهامش السفلي للفقرة"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:62
 msgid "Blog Post Structure"
-msgstr ""
+msgstr "هيكلة مقالة المدونة"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:65
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:48
@@ -1459,44 +1462,44 @@ msgstr ""
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:64
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:47
 msgid "Featured Image"
-msgstr ""
+msgstr "الصورة البارزة للمقالة"
 
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:45
 msgid "Single Post Structure"
-msgstr ""
+msgstr "هيكلة المقالة المفردة"
 
 #. translators: %s: Name of current post.
 #: template-parts/content.php:34
 msgid "Continue reading %s"
-msgstr ""
+msgstr "تابع قراءة %s"
 
 #: inc/widgets.php:195
 msgid "Footer Widget Area 4"
-msgstr ""
+msgstr "منطقة ودجات شريط التذييل 4"
 
 #: inc/widgets.php:181
 msgid "Footer Widget Area 3"
-msgstr ""
+msgstr "منطقة ودجات شريط التذييل 3"
 
 #: inc/widgets.php:167
 msgid "Footer Widget Area 2"
-msgstr ""
+msgstr "منطقة ودجات شريط التذييل 2"
 
 #: inc/widgets.php:153
 msgid "Footer Widget Area 1"
-msgstr ""
+msgstr "منطقة ودجات شريط التذييل 1"
 
 #: inc/widgets.php:135
 msgid "Footer Bar Section 2"
-msgstr ""
+msgstr "قسم 2 شريط التذييل"
 
 #: inc/widgets.php:120
 msgid "Footer Bar Section 1"
-msgstr ""
+msgstr "قسم 1 شريط التذييل"
 
 #: inc/template-parts.php:169
 msgid "Main Menu"
-msgstr ""
+msgstr "القائمة الرئيسية"
 
 #: inc/addons/transparent-header/classes/class-astra-ext-transparent-header-markup.php:328
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:657
@@ -1504,15 +1507,15 @@ msgstr ""
 #: inc/metabox/class-astra-meta-boxes.php:225
 #: inc/metabox/class-astra-meta-boxes.php:241
 msgid "Customizer Setting"
-msgstr ""
+msgstr "إعدادات المخصص"
 
-#: inc/extras.php:1289
+#: inc/extras.php:1295
 msgid "Click here to assign a widget for this area."
-msgstr ""
+msgstr "إضغط هنا لتحديد ودجت لهذه المنطقة"
 
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:190
 msgid "Headings"
-msgstr ""
+msgstr "الترويسات"
 
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:44
 msgid "Body & Content"
@@ -1520,27 +1523,27 @@ msgstr ""
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:229
 msgid "Footer Bar Width"
-msgstr ""
+msgstr "عرض شريط التذييل"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:188
 msgid "Footer Bar Top Border"
-msgstr ""
+msgstr "حد الإطار العلوي لشريط التذييل"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:57
 msgid "Footer Bar Layout 2"
-msgstr ""
+msgstr "تخطيط شريط التذييل 2"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:53
 msgid "Footer Bar Layout 1"
-msgstr ""
+msgstr "تخطيط شريط التذييل 1"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:46
 msgid "Footer Bar Layout"
-msgstr ""
+msgstr "تخطيط شريط التذييل"
 
 #: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:75
 msgid "Pages"
-msgstr ""
+msgstr "الصفحات"
 
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-container-configs.php:51
 #: inc/compatibility/learndash/customizer/sections/class-astra-learndash-container-configs.php:64
@@ -1553,7 +1556,7 @@ msgstr ""
 #: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:119
 #: inc/metabox/class-astra-meta-boxes.php:245
 msgid "Full Width / Stretched"
-msgstr ""
+msgstr "عرض كامل / ممتد"
 
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-container-configs.php:50
 #: inc/compatibility/learndash/customizer/sections/class-astra-learndash-container-configs.php:63
@@ -1570,19 +1573,19 @@ msgstr ""
 
 #: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:45
 msgid "Default Layout"
-msgstr ""
+msgstr "التخطيط الافتراضي"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:252
 msgid "Layout 4"
-msgstr ""
+msgstr "تخطيط 4"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:248
 msgid "Disable"
-msgstr ""
+msgstr "تعطيل"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:244
 msgid "Footer Widgets Layout"
-msgstr ""
+msgstr "تخطيط ودجات شريط التذييل"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-color-configs.php:77
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:248
@@ -1590,225 +1593,226 @@ msgstr ""
 #: inc/customizer/configurations/colors-background/class-astra-body-colors-configs.php:57
 #: inc/customizer/configurations/colors-background/class-astra-footer-colors-configs.php:56
 msgid "Link Color"
-msgstr ""
+msgstr "لون الرابط"
 
 #: inc/customizer/configurations/colors-background/class-astra-advanced-footer-colors-configs.php:42
 msgid "Widget Title Color"
-msgstr ""
+msgstr "لون عنوان الودجت"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:325
 msgid "Base Typography"
-msgstr ""
+msgstr "الخط الأساسي"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:276
 msgid "Base Colors"
-msgstr ""
+msgstr "الألوان الأساسية"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:183
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:284
 msgid "Footer Bar"
-msgstr ""
+msgstr "شريط التذييل"
 
 #. translators: 1: Post type label
 #: inc/core/class-theme-strings.php:75
 #: inc/core/class-theme-strings.php:90
 msgid "Previous %s"
-msgstr ""
+msgstr "السابق %s"
 
 #. translators: 1: Post type label
 #: inc/core/class-theme-strings.php:73
 #: inc/core/class-theme-strings.php:88
 msgid "Next %s"
-msgstr ""
+msgstr "التالي %s"
 
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:62
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:167
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:318
 msgid "Button Text Hover Color"
-msgstr ""
+msgstr "لون نص الزر عند التمرير"
 
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:50
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:152
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:303
 msgid "Button Text Color"
-msgstr ""
+msgstr "لون نص الزر"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:97
 msgid "Ultra-Bold 900"
-msgstr ""
+msgstr "Ultra-Bold 900"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:95
 msgid "Extra-Bold 800"
-msgstr ""
+msgstr "Extra-Bold 800"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:93
 msgid "Bold 700"
-msgstr ""
+msgstr "Bold 700"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:91
 msgid "Semi-Bold 600"
-msgstr ""
+msgstr "Semi-Bold 600"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:89
 msgid "Medium 500"
-msgstr ""
+msgstr "Medium 500"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:87
 msgid "Normal 400"
-msgstr ""
+msgstr "Normal 400"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:85
 msgid "Light 300"
-msgstr ""
+msgstr "Light 300"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:83
 msgid "Extra-Light 200"
-msgstr ""
+msgstr "Extra-Light 200"
 
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:81
 msgid "Thin 100"
-msgstr ""
+msgstr "Thin 100"
 
 #: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:213
 msgid "Heading 6 (H6)"
-msgstr ""
+msgstr "عنوان 6 (H6)"
 
 #: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:181
 msgid "Heading 5 (H5)"
-msgstr ""
+msgstr "عنوان 5 (H5)"
 
 #: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:144
 msgid "Heading 4 (H4)"
-msgstr ""
+msgstr "عنوان 4 (H4)"
 
 #: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:113
 msgid "Heading 3 (H3)"
-msgstr ""
+msgstr "عنوان 3 (H3)"
 
 #: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:79
 msgid "Heading 2 (H2)"
-msgstr ""
+msgstr "عنوان 2 (H2)"
 
 #: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:44
 msgid "Heading 1 (H1)"
-msgstr ""
+msgstr "عنوان 1 (H1)"
 
 #: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:79
 msgid "Archive Summary Box Title"
-msgstr ""
+msgstr "عنوان صندوق ملخص الأرشيف"
 
 #. translators: 1: link to new post
 #: template-parts/content-none.php:23
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "هل أنت مستعد لنشر مقالتك الأولى؟ <a href=\"%1$s\">إبدأ هنا</a>."
 
 #: inc/core/class-astra-admin-settings.php:914
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:174
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:293
 msgid "Footer Widgets"
-msgstr ""
+msgstr "ودجات شريط التذييل"
 
 #: inc/widgets.php:84
 msgid "Main Sidebar"
-msgstr ""
+msgstr "الشريط الجانبي الرئيسي"
 
 #. translators: %s: Name of current post
 #: inc/template-tags.php:32
 #: template-parts/content-page.php:52
 #: template-parts/single/single-layout.php:41
 msgid "Edit %s"
-msgstr ""
+msgstr "تحرير %s"
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:613
 #: inc/metabox/class-astra-meta-boxes.php:263
 msgid "Disable Primary Header"
-msgstr ""
+msgstr "تعطيل الشريط العلوي الرئيسي"
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:621
 #: inc/metabox/class-astra-meta-boxes.php:271
 msgid "Disable Title"
-msgstr ""
+msgstr "تعطيل العنوان"
 
 #: inc/metabox/class-astra-meta-boxes.php:255
 msgid "Disable Sections"
-msgstr ""
+msgstr "تعطيل الأقسام"
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:645
 msgid "Astra Settings"
-msgstr ""
+msgstr "إعدادات Astra"
 
-#: inc/extras.php:1252
+#: inc/extras.php:1258
 msgid "Add Widget"
-msgstr ""
+msgstr "إضافة ودجت"
 
-#: inc/extras.php:560
+#: inc/extras.php:566
 msgid "Assign Footer Menu"
-msgstr ""
+msgstr "إسناد قائمة لشريط التذييل"
 
-#: inc/extras.php:382
+#: inc/extras.php:388
 msgid "Add Custom HTML"
-msgstr ""
+msgstr "أضف كود HTML"
 
 #: inc/customizer/configurations/typography/class-astra-single-typo-configs.php:46
 msgid "Single Post / Page Title"
-msgstr ""
+msgstr "عنوان المقالة المنفردة / الصفحة"
 
 #: inc/customizer/configurations/typography/class-astra-header-typo-configs.php:100
 msgid "Site Tagline"
-msgstr ""
+msgstr "وسم الموقع"
 
 #: inc/customizer/configurations/typography/class-astra-header-typo-configs.php:51
 msgid "Site Title"
-msgstr ""
+msgstr "عنوان الموقع"
 
-#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:144
+#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:142
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:151
 msgid "Line Height"
-msgstr ""
+msgstr "ارتفاع الخط"
 
-#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:109
+#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:107
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:116
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:260
 msgid "Lowercase"
-msgstr ""
+msgstr "احرف صغيرة"
 
-#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:108
+#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:106
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:115
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:259
 msgid "Uppercase"
-msgstr ""
+msgstr "أحرف كبيرة"
 
-#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:107
+#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:105
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:114
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:258
 msgid "Capitalize"
-msgstr ""
+msgstr "تغيير حالة الأحرف إلى كبيرة"
 
+#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:103
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:256
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:174
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:79
 msgid "Inherit"
 msgstr ""
 
-#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:103
+#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:101
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:110
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:252
 msgid "Text Transform"
-msgstr ""
+msgstr "تحول النص"
 
-#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:89
+#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:87
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:96
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:237
 msgid "Font Weight"
-msgstr ""
+msgstr "وزن الخط"
 
-#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:72
+#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:71
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:62
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:203
 msgid "Font Family"
-msgstr ""
+msgstr "اسم الخط"
 
-#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:123
+#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:121
 #: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:60
 #: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:94
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:130
@@ -1822,27 +1826,27 @@ msgstr ""
 #: inc/customizer/configurations/typography/class-astra-header-typo-configs.php:122
 #: inc/customizer/configurations/typography/class-astra-single-typo-configs.php:62
 msgid "Font Size"
-msgstr ""
+msgstr "حجم الخط"
 
 #: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:44
 msgid "Blog Post Title"
-msgstr ""
+msgstr "عنوان مقالة المدونة"
 
 #: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:147
 msgid "Display Site Tagline"
-msgstr ""
+msgstr "عرض وسم الموقع"
 
 #: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:134
 msgid "Display Site Title"
-msgstr ""
+msgstr "عرض عنوان الموقع"
 
 #: inc/customizer/configurations/layout/class-astra-site-layout-configs.php:42
 msgid "Container Width"
-msgstr ""
+msgstr "عرض الحاوية"
 
 #: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:144
 msgid "Sidebar Width"
-msgstr ""
+msgstr "عرض الشريط الجانبي"
 
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:62
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:81
@@ -1858,7 +1862,7 @@ msgstr ""
 #: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:118
 #: inc/metabox/class-astra-meta-boxes.php:227
 msgid "Right Sidebar"
-msgstr ""
+msgstr "شريط جانبي أيمن"
 
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:61
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:80
@@ -1874,7 +1878,7 @@ msgstr ""
 #: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:117
 #: inc/metabox/class-astra-meta-boxes.php:226
 msgid "Left Sidebar"
-msgstr ""
+msgstr "شريط جانبي أيسر"
 
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:60
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:79
@@ -1890,93 +1894,93 @@ msgstr ""
 #: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:116
 #: inc/metabox/class-astra-meta-boxes.php:228
 msgid "No Sidebar"
-msgstr ""
+msgstr "بدون شريط جانبي"
 
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:465
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:480
 msgid "Stack"
-msgstr ""
+msgstr "Stack"
 
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:461
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:476
 msgid "Inline"
-msgstr ""
+msgstr "على سطر واحد"
 
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:471
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:486
 msgid "Mobile Header Alignment"
-msgstr ""
+msgstr "محاذاة الشريط العلوي للجوال"
 
-#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:418
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:433
 msgid "Menu Label on Small Devices"
-msgstr ""
+msgstr "عنوان القائمة في في الأجهزة الصغيرة"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:249
 msgid "Header Width"
-msgstr ""
+msgstr "عرض الشريط الرأسي"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:278
 msgid "Bottom Border Color"
-msgstr ""
+msgstr "لون الحد السفلي"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:259
 msgid "Bottom Border Size"
-msgstr ""
+msgstr "حجم الحد السفلي"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:202
 msgid "Custom Menu Text / HTML"
-msgstr ""
+msgstr "قائمة مخصصة Text / HTML"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:36
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:107
 msgid "Text / HTML"
-msgstr ""
+msgstr "Text / HTML"
 
-#: inc/core/common-functions.php:1080
+#: inc/core/common-functions.php:1082
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:35
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:105
-#: inc/extras.php:350
+#: inc/extras.php:356
 msgid "Search"
-msgstr ""
+msgstr "البحث"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:75
 msgid "Disable Menu"
-msgstr ""
+msgstr "تعطيل القائمة"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:63
 msgid "Logo Right"
-msgstr ""
+msgstr "شعار في اليمين"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:59
 msgid "Logo Center"
-msgstr ""
+msgstr "شعار في الوسط"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:55
 msgid "Logo Left"
-msgstr ""
+msgstr "شعار في اليسار"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:232
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:252
 msgid "Content Width"
-msgstr ""
+msgstr "عرض المحتوى"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:231
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:251
 msgid "Full Width"
-msgstr ""
+msgstr "العرض الكامل"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:208
 msgid "Footer Bar Top Border Color"
-msgstr ""
+msgstr "لون الحد العلوي لشريط التذييل"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:156
 msgid "Section 2 Custom Text"
-msgstr ""
+msgstr "نص مخصص للمقطع 2"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:136
 msgid "Section 2"
-msgstr ""
+msgstr "المقطع 2"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:111
 msgid "Section 1 Custom Text"
-msgstr ""
+msgstr "نص مخصص للمقطع 1"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:92
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:116
@@ -1984,16 +1988,16 @@ msgstr ""
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:37
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:108
 msgid "Widget"
-msgstr ""
+msgstr "ودجت"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:91
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:115
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:140
 msgid "Custom Text"
-msgstr ""
+msgstr "نص مخصص"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:80
-#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:106
+#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:104
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:90
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:89
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:113
@@ -2003,31 +2007,31 @@ msgstr ""
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:113
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:257
 msgid "None"
-msgstr ""
+msgstr "بدون"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:87
 msgid "Section 1"
-msgstr ""
+msgstr "المقطع 1"
 
 #: inc/addons/transparent-header/classes/class-astra-ext-transparent-header-markup.php:330
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:49
 msgid "Disabled"
-msgstr ""
+msgstr "معطّل"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-color-configs.php:113
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:121
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:178
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:103
 msgid "Background Color"
-msgstr ""
+msgstr "لون الخلفية"
 
 #: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:113
 msgid "Blog Post Archives"
-msgstr ""
+msgstr "أرشيفات مقالات المدونة"
 
 #: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:94
 msgid "Blog Posts"
-msgstr ""
+msgstr "مقالات المدونة"
 
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-container-configs.php:49
 #: inc/compatibility/learndash/customizer/sections/class-astra-learndash-container-configs.php:62
@@ -2058,45 +2062,43 @@ msgstr ""
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:666
 #: inc/metabox/class-astra-meta-boxes.php:238
 msgid "Content Layout"
-msgstr ""
+msgstr "تخطيط المحتوى"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:112
 msgid "Blog Content Width"
-msgstr ""
+msgstr "عرض محتوى المدونة"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:80
 msgid "Blog Meta"
-msgstr ""
+msgstr "Meta المدونة"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:48
 msgid "Excerpt"
-msgstr ""
+msgstr "المقتطف"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:47
 msgid "Full Content"
-msgstr ""
+msgstr "المحتوى الكامل"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:41
 msgid "Blog Post Content"
-msgstr ""
+msgstr "محتوى مقالة المدونة"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:164
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:157
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:130
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:113
 msgid "Enter Width"
-msgstr ""
+msgstr "أدخل العرض"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:149
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:142
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:115
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:98
 msgid "Custom"
-msgstr ""
+msgstr "مخصص"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:36
-#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:86
-#: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:105
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-container-configs.php:47
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:59
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:78
@@ -2124,42 +2126,42 @@ msgstr ""
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:112
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:220
 msgid "Default"
-msgstr ""
+msgstr "افتراضي"
 
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:95
 msgid "Single Post Content Width"
-msgstr ""
+msgstr "عرض محتوى المقالة المفردة"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:86
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:69
 msgid "Tag"
-msgstr ""
+msgstr "وسم"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:85
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:68
 msgid "Publish Date"
-msgstr ""
+msgstr "تاريخ النشر"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:84
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:67
 msgid "Author"
-msgstr ""
+msgstr "الكاتب"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:70
 #: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:113
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:83
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:66
 msgid "Category"
-msgstr ""
+msgstr "تصنيف"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:82
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:65
 msgid "Comments"
-msgstr ""
+msgstr "تعليقات"
 
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:63
 msgid "Single Post Meta"
-msgstr ""
+msgstr "Meta المقالة المنفردة"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-color-configs.php:89
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:263
@@ -2167,7 +2169,7 @@ msgstr ""
 #: inc/customizer/configurations/colors-background/class-astra-body-colors-configs.php:83
 #: inc/customizer/configurations/colors-background/class-astra-footer-colors-configs.php:68
 msgid "Link Hover Color"
-msgstr ""
+msgstr "لون الرابط عند التمرير"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-color-configs.php:65
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:234
@@ -2175,358 +2177,358 @@ msgstr ""
 #: inc/customizer/configurations/colors-background/class-astra-body-colors-configs.php:70
 #: inc/customizer/configurations/colors-background/class-astra-footer-colors-configs.php:41
 msgid "Text Color"
-msgstr ""
+msgstr "لون النص"
 
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:130
 msgid "Horizontal Padding"
-msgstr ""
+msgstr "هامش داخلي أفقي"
 
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:113
 msgid "Vertical Padding"
-msgstr ""
+msgstr "هامش داخلي عمودي"
 
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:98
 msgid "Button Radius"
-msgstr ""
+msgstr "استدارة الزر"
 
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:86
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:197
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:348
 msgid "Button Background Hover Color"
-msgstr ""
+msgstr "لون خلفية الزر عند التمرير"
 
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:74
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:182
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:333
 msgid "Button Background Color"
-msgstr ""
+msgstr "لون خلفية الزر"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:432
 msgid "Widget Areas"
-msgstr ""
+msgstr "مناطق الودجات"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:378
 msgid "Buttons"
-msgstr ""
+msgstr "الأزرار"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:333
 msgid "Content"
-msgstr ""
+msgstr "المحتوى"
 
 #: inc/core/class-astra-admin-settings.php:779
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:304
 msgid "Typography"
-msgstr ""
+msgstr "الخطوط"
 
 #: inc/core/class-astra-admin-settings.php:766
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:256
 msgid "Colors & Background"
-msgstr ""
+msgstr "الألوان والخلفية"
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:654
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:231
 #: inc/metabox/class-astra-meta-boxes.php:222
 msgid "Sidebar"
-msgstr ""
+msgstr "الشريط الجانبي"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:222
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:366
 msgid "Single Post"
-msgstr ""
+msgstr "المقالة المنفردة"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:214
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:357
 msgid "Blog / Archive"
-msgstr ""
+msgstr "مدونة / أرشيف"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:162
 msgid "Footer"
-msgstr ""
+msgstr "شريط التذييل"
 
 #: inc/addons/transparent-header/classes/class-astra-transparent-header-panels-and-sections.php:58
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:86
 #: inc/widgets.php:102
 msgid "Header"
-msgstr ""
+msgstr "الشريط العلوي"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:53
 msgid "Container"
-msgstr ""
+msgstr "الحاوية"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:45
 msgid "Site Layout"
-msgstr ""
+msgstr "تخطيط الموقع"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:38
 msgid "Layout"
-msgstr ""
+msgstr "التخطيط"
 
 #: inc/customizer/class-astra-customizer-sanitizes.php:277
 msgid "Enter valid email address!"
-msgstr ""
+msgstr "أدخل بريد إلكتروني صحيح"
 
 #. translators: 1: search string
 #: inc/core/common-functions.php:791
-#: inc/core/common-functions.php:881
+#: inc/core/common-functions.php:883
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "نتائج البحث عن: %s"
 
 #: inc/core/class-theme-strings.php:78
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
+msgstr "يبدو أننا لم نجد ما بحثت عنه. ربما يساعدك البحث."
 
 #: inc/core/class-theme-strings.php:68
 #: inc/core/class-theme-strings.php:85
 msgid "Previous Page"
-msgstr ""
+msgstr "الصفحة السابقة"
 
 #: inc/core/class-theme-strings.php:67
 #: inc/core/class-theme-strings.php:84
 msgid "Next Page"
-msgstr ""
+msgstr "الصفحة التالية"
 
 #: inc/core/class-theme-strings.php:66
 msgid "% Comments"
-msgstr ""
+msgstr "% تعليقات"
 
 #: inc/core/class-theme-strings.php:65
 msgid "1 Comment"
-msgstr ""
+msgstr "تعليق واحد"
 
 #: inc/core/class-theme-strings.php:63
 msgid "By "
-msgstr ""
+msgstr "بواسطة"
 
 #: inc/core/class-theme-strings.php:62
 #: inc/core/class-theme-strings.php:71
 msgid "Pages:"
-msgstr ""
+msgstr "الصفحات:"
 
 #: inc/core/class-theme-strings.php:59
 msgid "Older Comments"
-msgstr ""
+msgstr "التعليقات الأقدم"
 
 #: inc/core/class-theme-strings.php:58
 msgid "Newer Comments"
-msgstr ""
+msgstr "التعليقات الأحدث"
 
 #: inc/core/class-theme-strings.php:57
 msgid "Comment navigation"
-msgstr ""
+msgstr "تصفح التعليق"
 
 #: inc/core/class-theme-strings.php:56
 msgid "Comments are closed."
-msgstr ""
+msgstr "تم إقفال التعليقات."
 
 #: inc/core/class-theme-strings.php:55
 msgid "Website"
-msgstr ""
+msgstr "الموقع"
 
 #: inc/core/class-theme-strings.php:54
 msgid "Email*"
-msgstr ""
+msgstr "البريد الإلكتروني*"
 
 #: inc/core/class-theme-strings.php:53
 msgid "Name*"
-msgstr ""
+msgstr "الاسم*"
 
 #: inc/core/class-theme-strings.php:52
 msgid "Type here.."
-msgstr ""
+msgstr "اكتب هنا..."
 
 #: inc/core/class-theme-strings.php:51
 msgid "Post Comment &raquo;"
-msgstr ""
+msgstr "انشر تعليقا &raquo;"
 
 #: inc/core/class-theme-strings.php:50
 msgid "Cancel Reply"
-msgstr ""
+msgstr "إلغاء الرد"
 
 #: inc/core/class-theme-strings.php:49
 #: inc/core/class-theme-strings.php:64
 msgid "Leave a Comment"
-msgstr ""
+msgstr "اترك تعليقا"
 
 #: inc/core/class-theme-strings.php:48
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "تعليقك بانتطار المصادقة عليه."
 
 #: inc/core/class-theme-strings.php:47
 msgid "Edit"
-msgstr ""
+msgstr "تحرير"
 
 #: inc/core/class-theme-strings.php:46
 msgid "Reply"
-msgstr ""
+msgstr "رد"
 
 #: inc/core/class-theme-strings.php:41
 #: inc/core/class-theme-strings.php:42
 #: inc/core/class-theme-strings.php:43
 msgid "Search &hellip;"
-msgstr ""
+msgstr "البحث &hellip;"
 
 #: inc/core/class-theme-strings.php:40
 msgid "Start typing and press enter to search"
-msgstr ""
+msgstr "إبدأ بالكتابة ثم اضغط زر enter للبحث"
 
 #: inc/core/class-theme-strings.php:39
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
+msgstr "عذرا، لا شيء يقابل ما بحثت عنه. الرجاء حاول مرة أخرى باستعمال كلمات مفتاحية مختلفة."
 
 #: inc/core/class-theme-strings.php:38
 msgid "Nothing Found"
-msgstr ""
+msgstr "لم يتم العثور على نتائج"
 
 #: inc/core/class-theme-strings.php:35
 msgid "It looks like the link pointing here was faulty. Maybe try searching?"
-msgstr ""
+msgstr "يبدو أن الرابط الذي يشير هنا كان خاطئ. جرب محاولة البحث؟"
 
 #: inc/core/class-theme-strings.php:32
 msgid "Skip to content"
-msgstr ""
+msgstr "تخطي إلى المحتوى"
 
 #: inc/core/class-astra-theme-options.php:164
 msgid "Contact Us"
-msgstr ""
+msgstr "اتصل بنا"
 
 #: inc/core/class-astra-theme-options.php:141
 #: inc/core/class-astra-theme-options.php:143
 msgid "Copyright &copy; [current_year] [site_title] | Powered by [theme_author]"
-msgstr ""
+msgstr "حميع الحقوق محفوظة &copy; [current_year] [site_title] |  تطوير [theme_author]"
 
 #: inc/compatibility/class-astra-beaver-themer.php:363
 msgid "Loop End"
-msgstr ""
+msgstr "نهاية التكرار"
 
 #: inc/compatibility/class-astra-beaver-themer.php:362
 msgid "After Comments"
-msgstr ""
+msgstr "بعد التعليقات"
 
 #: inc/compatibility/class-astra-beaver-themer.php:361
 msgid "Before Comments"
-msgstr ""
+msgstr "قبل التعليقات"
 
 #: inc/compatibility/class-astra-beaver-themer.php:360
 msgid "After Post"
-msgstr ""
+msgstr "بعد المقالة"
 
 #: inc/compatibility/class-astra-beaver-themer.php:359
 msgid "After Post Content"
-msgstr ""
+msgstr "بعد محتوى المقالة"
 
 #: inc/compatibility/class-astra-beaver-themer.php:358
 msgid "Before Post Content"
-msgstr ""
+msgstr "قبل محتوى المقالة"
 
 #: inc/compatibility/class-astra-beaver-themer.php:357
 msgid "Before Post"
-msgstr ""
+msgstr "قبل المقالة"
 
 #: inc/compatibility/class-astra-beaver-themer.php:356
 msgid "Loop Start"
-msgstr ""
+msgstr "بدء التكرار"
 
 #: inc/compatibility/class-astra-beaver-themer.php:350
 msgid "After Sidebar"
-msgstr ""
+msgstr "بعد الشريط الجانبي"
 
 #: inc/compatibility/class-astra-beaver-themer.php:349
 msgid "Before Sidebar"
-msgstr ""
+msgstr "قبل الشريط الجانبي"
 
 #: inc/compatibility/class-astra-beaver-themer.php:343
 msgid "After Footer"
-msgstr ""
+msgstr "بعد شريط التذييل"
 
 #: inc/compatibility/class-astra-beaver-themer.php:342
 msgid "Before Footer"
-msgstr ""
+msgstr "قبل شريط التذييل"
 
 #: inc/compatibility/class-astra-beaver-themer.php:336
 msgid "After Content"
-msgstr ""
+msgstr "بعد المحتوى"
 
 #: inc/compatibility/class-astra-beaver-themer.php:335
 msgid "Before Content"
-msgstr ""
+msgstr "قبل المحتوى"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-configs.php:82
 #: inc/compatibility/class-astra-beaver-themer.php:329
 msgid "After Header"
-msgstr ""
+msgstr "بعد الترويسة"
 
 #: inc/compatibility/class-astra-beaver-themer.php:328
 msgid "Before Header"
-msgstr ""
+msgstr "قبل الترويسة"
 
 #: inc/compatibility/class-astra-beaver-themer.php:322
 msgid "After Page"
-msgstr ""
+msgstr "بعد الصفحة"
 
 #: inc/compatibility/class-astra-beaver-themer.php:321
 msgid "Before Page"
-msgstr ""
+msgstr "قبل الصفحة"
 
 #. translators: 1: date, 2: time
 #: inc/blog/single-blog.php:161
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%2$s في %1$s"
 
 #: inc/blog/single-blog.php:130
 msgid "(Edit)"
-msgstr ""
+msgstr "(تحرير)"
 
 #: inc/blog/single-blog.php:130
 msgid "Pingback:"
-msgstr ""
+msgstr "Pingback:"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/blog/blog-config.php:255
 #: inc/blog/blog-config.php:284
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: inc/blog/blog-config.php:174
 #: inc/blog/blog-config.php:436
 msgid "Read More &raquo;"
-msgstr ""
+msgstr "قراءة المزيد &raquo;"
 
 #: inc/admin-functions.php:27
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:90
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:114
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:139
 msgid "Footer Menu"
-msgstr ""
+msgstr "قائمة شريط التذييل"
 
 #: inc/admin-functions.php:26
 msgid "Primary Menu"
-msgstr ""
+msgstr "القائمة الرئيسية"
 
 #: comments.php:48
 #: comments.php:71
 msgid "Comments Navigation"
-msgstr ""
+msgstr "تصفح التعليقات"
 
 #. translators: 1: number of comments
 #: comments.php:36
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "لا توجد أفكار عن &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s فكرة عن &ldquo;%2$s&rdquo;"
+msgstr[2] "فكرتين عن&ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s أفكار عن &ldquo;%2$s&rdquo;"
+msgstr[4] "%1$s فكرة عن &ldquo;%2$s&rdquo;"
+msgstr[5] "%1$s فكرة عن &ldquo;%2$s&rdquo;"
 
 #. Author URI of the theme
 msgid "https://wpastra.com/about/"
-msgstr ""
+msgstr "https://wpastra.com/about/"
 
 #. Theme URI of the theme
 msgid "https://wpastra.com/"
-msgstr ""
+msgstr "https://wpastra.com/"
 
 #. Author of the theme
 msgid "Brainstorm Force"
-msgstr ""
+msgstr "Brainstorm Force"

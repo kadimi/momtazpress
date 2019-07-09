@@ -6,77 +6,131 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-02-07 19:42:12+0000\n"
+"PO-Revision-Date: 2019-05-19 19:36:56+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Plugins - Contact Form 7 - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
-#. translators: 1: response code, 2: response message, 3: URL
-#: includes/functions.php:384
-msgid "HTTP Response: %1$s %2$s from %3$s"
-msgstr "استجابة HTTP: %1$s %2$s من %3$s"
+#: includes/submission.php:326
+msgid "Blacklisted words are used."
+msgstr "الكلمات المدرجة بالقائمة السوداء مُستخدمة."
 
-#: modules/recaptcha.php:440
+#: includes/submission.php:317
+msgid "Submitted nonce is invalid."
+msgstr "الكلمات المستخدمة المُقدَّمة غير صالحة."
+
+#: includes/submission.php:308
+msgid "User-Agent string is unnaturally short."
+msgstr "سلسلة User-Agent قصيرة بشكل غير طبيعي."
+
+#: modules/recaptcha.php:156
+msgid "reCAPTCHA score (%1$.2f) is lower than the threshold (%2$.2f)."
+msgstr "نقاط reCAPTCHA  (%1$.2f) أقل من المستوى المسموح (%2$.2f)."
+
+#: modules/akismet.php:58
+msgid "Akismet returns a spam response."
+msgstr "إضافة Akismet تستعيد إستجابة الرسائل المزعجة."
+
+#: modules/constant-contact.php:588
+msgid "Select lists to which newly added contacts are to belong."
+msgstr "تحديد القوائم التي تنتمي إليها جهات الاتصال المضافة حديثًا."
+
+#: modules/constant-contact.php:587
+msgctxt "Constant Contact"
+msgid "Contact Lists: Select lists to which newly added contacts are to belong."
+msgstr "قوائم الاتصال: تحديد القوائم التي تنتمي إليها جهات الاتصال المضافة حديثًا."
+
+#: modules/constant-contact.php:584
+msgctxt "Constant Contact"
+msgid "Contact Lists"
+msgstr "قوائم الاتصال"
+
+#: modules/constant-contact.php:565
+msgctxt "API keys"
+msgid "Reset Keys"
+msgstr "إعادة ضبط المفاتيح"
+
+#: modules/constant-contact.php:494
+msgid "This site is connected to the Constant Contact API."
+msgstr "هذا الموقع متصلاً بواجهة برمجة تطبيقات Contact Contact API."
+
+#: modules/constant-contact.php:473
+msgid "Configuration updated."
+msgstr "تم تحديث إعدادات التكوين."
+
+#: modules/constant-contact.php:467
+msgid "Failed to establish connection. Please double-check your configuration."
+msgstr "فشل في إنشاء الاتصال. يرجى التحقق مرة أخرى من إعداداتك."
+
+#: modules/constant-contact.php:460
+msgid "Connection established."
+msgstr "لقد تمّ الاتصال."
+
+#. translators: 1: response code, 2: message, 3: body, 4: URL
+#: includes/functions.php:384
+msgid "HTTP Response: %1$s %2$s %3$s from %4$s"
+msgstr "استجابة HTTP: %1$s %2$s %3$s من  %4$s"
+
+#: modules/recaptcha.php:512
 msgid "Save Changes"
 msgstr "حفظ التغييرات"
 
-#: modules/recaptcha.php:370
+#: modules/recaptcha.php:442
 msgid "reCAPTCHA protects you against spam and other types of automated abuse. With Contact Form 7&#8217;s reCAPTCHA integration module, you can block abusive form submissions by spam bots. For details, see %s."
 msgstr "اختبار reCAPTCHA يحمي موقعك ضد المحتويات الغير مرغوب فيها وأنواع أخرى من إساءة الاستخدام التلقائية. باستخدام وحدة دمج reCAPTCHA مع إضافة Contact Form 7، يمكنك حظر عمليات إرسال وتقديم النماذج المسيئة بواسطة برامج الروبوتات المزعجة. لمزيد من التفاصيل، شاهد %s."
 
-#: modules/recaptcha.php:175
-#: modules/recaptcha.php:373
+#: modules/recaptcha.php:227
+#: modules/recaptcha.php:445
 msgid "reCAPTCHA (v3)"
 msgstr "reCAPTCHA (v3)"
 
-#: modules/recaptcha.php:172
+#: modules/recaptcha.php:224
 msgid "API keys for reCAPTCHA v3 are different from those for v2; keys for v2 don&#8217;t work with the v3 API. You need to register your sites again to get new keys for v3. For details, see %s."
 msgstr "تختلف مفاتيح واجهة API الخاصة بـ reCAPTCHA v3 عن v2. لاتعمل مفاتيح الإصدار v2 مع واجهة برمجة التطبيقات API للإصدار v3. تحتاج إلى تسجيل مواقعك مرة أخرى للحصول على مفاتيح جديدة للإصدار v3. لمزيد من التفاصيل، شاهد %s."
 
-#: modules/constant-contact.php:366
+#: modules/constant-contact.php:570
 msgid "Connect to the Constant Contact API"
 msgstr "الاتصال بواجهة  Constant Contact API"
 
-#: modules/constant-contact.php:362
-#: modules/recaptcha.php:436
+#: modules/recaptcha.php:508
 msgctxt "API keys"
 msgid "Remove Keys"
 msgstr "إزالة مفاتيح API"
 
-#: modules/constant-contact.php:354
+#: modules/constant-contact.php:557
 msgid "Set this URL as the redirect URI."
 msgstr "تعيين الرابط URL هذا كإعادة توجيه URI"
 
-#: modules/constant-contact.php:347
+#: modules/constant-contact.php:550
 msgid "Redirect URI"
 msgstr "إعادة التوجيه URI"
 
-#: modules/constant-contact.php:330
+#: modules/constant-contact.php:533
 msgid "App Secret"
 msgstr "المفتاح السري للتطبيق App Secret"
 
-#: modules/constant-contact.php:313
+#: modules/constant-contact.php:516
 msgid "API Key"
 msgstr "مفتاح API"
 
-#: modules/constant-contact.php:301
-#: modules/recaptcha.php:383
+#: modules/constant-contact.php:504
+#: modules/recaptcha.php:455
 msgid "Setup Integration"
 msgstr "إعداد التكامل والدمج"
 
-#: modules/constant-contact.php:291
+#: modules/constant-contact.php:487
 msgid "Constant Contact Integration"
 msgstr "دمج وتكامل Constant Contact"
 
-#: modules/constant-contact.php:287
+#: modules/constant-contact.php:483
 msgid "https://contactform7.com/constant-contact-integration/"
 msgstr "https://contactform7.com/constant-contact-integration/"
 
-#: modules/constant-contact.php:285
+#: modules/constant-contact.php:481
 msgid "The Constant Contact integration module allows you to send contact data collected through your contact forms to the Constant Contact API. You can create reliable email subscription services in a few easy steps. For details, see %s."
 msgstr "تسمح لك وحدة الدمج لـ Constant Contact بإرسال بيانات الاتصال التي يتمّ جمعها من خلال نماذج الاتصال الخاصة بك إلى واجهة برمجة التطبيقات API لـ Constant Contact. يمكنك إنشاء خدمات اشتراك بريد إلكتروني موثوقة في بضع خطوات سهلة. لمزيد من التفاصيل، شاهد %s."
 
-#: modules/constant-contact.php:171
+#: modules/constant-contact.php:236
 msgid "Constant Contact"
 msgstr "Constant Contact"
 
@@ -84,7 +138,7 @@ msgstr "Constant Contact"
 msgid "Email Marketing"
 msgstr "التسويق عبر البريد الإلكتروني"
 
-#: includes/config-validator.php:586
+#: includes/config-validator.php:590
 msgid "It is not allowed to use files outside the wp-content directory."
 msgstr "ليس مسموحًا باستخدام ملفات خارج دليل wp-content."
 
@@ -138,7 +192,7 @@ msgstr "لم تتم الموافقة"
 msgid "Consented"
 msgstr "تمت الموافقة"
 
-#: includes/submission.php:205
+#: includes/submission.php:206
 msgid "Sending mail has been aborted."
 msgstr "تم إلغاء عملية إرسال البريد."
 
@@ -251,16 +305,16 @@ msgstr "لا يمكن إنشاء نموذج اتصال موجود حاليًا."
 msgid "You are not allowed to access contact forms."
 msgstr "غير مسموح لك بالوصول إلى نماذج الاتصال."
 
-#: includes/config-validator.php:568
+#: includes/config-validator.php:572
 msgid "Attachment file does not exist at %path%."
 msgstr "الملف المرفق غير موجود في %path%."
 
-#: includes/config-validator.php:484
+#: includes/config-validator.php:488
 msgid "Invalid mailbox syntax is used in the %name% field."
 msgstr "في الحقل %name% تمّ استخدام صيغة صندوق بريد غير صالحة."
 
 #. translators: %names%: a list of form control names
-#: includes/config-validator.php:394
+#: includes/config-validator.php:398
 msgid "Unavailable names (%names%) are used for form controls."
 msgstr "الأسماء غير المتاحة (%names%) يتمّ استخدامها لعناصر لوحات تحكّم النموذج."
 
@@ -517,35 +571,36 @@ msgstr "غير مسموح لك بالتحقق من إعدادات التكوين
 #. translators: links labeled 1: 'Akismet', 2: 'reCAPTCHA', 3: 'comment
 #. blacklist'
 #: admin/includes/welcome-panel.php:26
-#: modules/recaptcha.php:174
-#: modules/recaptcha.php:372
+#: modules/recaptcha.php:226
+#: modules/recaptcha.php:444
 msgid "https://contactform7.com/recaptcha/"
 msgstr "https://contactform7.com/recaptcha/"
 
-#: modules/recaptcha.php:415
+#: modules/recaptcha.php:487
 msgid "Secret Key"
 msgstr "المفتاح السري Secret Key"
 
-#: modules/recaptcha.php:398
+#: modules/recaptcha.php:470
 msgid "Site Key"
 msgstr "مفتاح الموقع Site Key"
 
-#: modules/recaptcha.php:364
+#: modules/recaptcha.php:436
 msgid "Settings saved."
 msgstr "تمّ حفظ الإعدادات."
 
-#: modules/recaptcha.php:359
+#: modules/recaptcha.php:431
 msgid "Invalid key values."
-msgstr "قيم رموز غير صحيحة."
+msgstr "قيم مفاتيح غير صحيحة."
 
-#: modules/recaptcha.php:358
+#: modules/constant-contact.php:466
+#: modules/recaptcha.php:430
 msgid "ERROR"
 msgstr "خطأ"
 
 #. translators: links labeled 1: 'Akismet', 2: 'reCAPTCHA', 3: 'comment
 #. blacklist'
 #: admin/includes/welcome-panel.php:26
-#: modules/recaptcha.php:207
+#: modules/recaptcha.php:260
 msgid "reCAPTCHA"
 msgstr "reCAPTCHA"
 
@@ -1243,7 +1298,7 @@ msgstr "وسوم النموذج (Form-tags)"
 
 #: admin/includes/help-tabs.php:21
 msgid "Available Actions"
-msgstr "إجراءات متاحة"
+msgstr "الإجراءات المتاحة"
 
 #: admin/includes/help-tabs.php:16
 #: admin/includes/help-tabs.php:30
@@ -1495,12 +1550,12 @@ msgstr "تمّ حفظ النموذج."
 msgid "Contact form created."
 msgstr "تمّ إنشاء نموذج الاتصال."
 
-#: admin/admin.php:418
+#: admin/admin.php:414
 msgid "Search Contact Forms"
 msgstr "البحث في نماذج الاتصال"
 
 #. translators: %s: search keywords
-#: admin/admin.php:399
+#: admin/admin.php:395
 msgid "Search results for &#8220;%s&#8221;"
 msgstr "نتائج البحث لـ &#8221;%s&#8220;"
 
@@ -1508,16 +1563,16 @@ msgstr "نتائج البحث لـ &#8221;%s&#8220;"
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "سيتم فقدان التغييرات التي أجريتها إذا غادرت هذه الصفحة."
 
-#: admin/admin.php:307
+#: admin/admin.php:305
 msgid "Error in deleting."
 msgstr "حدث خطأ أثناء الحذف."
 
-#: admin/admin.php:303
+#: admin/admin.php:301
 msgid "You are not allowed to delete this item."
 msgstr "غير مسموح لك حذف هذا العنصر."
 
 #: admin/admin.php:197
-#: admin/admin.php:261
+#: admin/admin.php:259
 msgid "You are not allowed to edit this item."
 msgstr "غير مصرح لك تحرير هذا العنصر."
 
@@ -1526,12 +1581,12 @@ msgid "Integration"
 msgstr "الدمج Integration"
 
 #: admin/admin.php:53
-#: admin/admin.php:467
+#: admin/admin.php:463
 msgid "Integration with Other Services"
 msgstr "الدمج مع خدمات أخرى "
 
 #: admin/admin.php:42
-#: admin/admin.php:391
+#: admin/admin.php:387
 #: admin/edit-contact-form.php:47
 msgid "Add New"
 msgstr "إضافة جديد"
@@ -1542,7 +1597,7 @@ msgid "Add New Contact Form"
 msgstr "إضافة نموذج اتصال جديد"
 
 #: admin/admin.php:33
-#: admin/admin.php:384
+#: admin/admin.php:380
 #: includes/contact-form.php:31
 msgid "Contact Forms"
 msgstr "نماذج الاتصال"
@@ -1558,6 +1613,6 @@ msgstr "الاتصال Contact"
 
 #. Plugin Name of the plugin
 #: admin/admin.php:24
-#: modules/flamingo.php:173
+#: modules/flamingo.php:181
 msgid "Contact Form 7"
 msgstr "Contact Form 7"

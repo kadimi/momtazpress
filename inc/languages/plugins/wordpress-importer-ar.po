@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2018-08-07 17:52:08+0000\n"
+"PO-Revision-Date: 2019-07-04 20:57:27+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Plugins - WordPress Importer - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -90,7 +90,7 @@ msgstr "إرسال"
 
 #: wordpress-importer.php:297
 msgid "Import author:"
-msgstr "استيراد الكاتب :"
+msgstr "استيراد الكاتب:"
 
 #: wordpress-importer.php:311
 msgid "as a new user:"

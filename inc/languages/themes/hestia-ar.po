@@ -260,8 +260,8 @@ msgstr "إعدادات الترويسة"
 msgid "Header Gradient"
 msgstr "تدرج الترويسة"
 
-#. translators: Upsell to get the pro version
 #. translators: %s Required action
+#. translators: Upsell to get the pro version
 #: inc/admin/class-hestia-admin-notices-manager.php:39
 #: inc/customizer/general/class-hestia-upsell-manager.php:119
 msgid "Hestia front-page is not multi-language compatible, for this feature %s."
@@ -1018,8 +1018,8 @@ msgstr "قسم خطط التسعير القابل للتخصيص بالكامل.
 msgid "Portfolio section with two possible layouts."
 msgstr "قسم قائمة المشاريع مع تخطيطين محتملين."
 
-#. translators: Upsell to get the pro version
 #. translators: %s Required action
+#. translators: Upsell to get the pro version
 #: inc/admin/class-hestia-admin-notices-manager.php:39
 #: inc/customizer/general/class-hestia-upsell-manager.php:76
 #: inc/customizer/general/class-hestia-upsell-manager.php:119

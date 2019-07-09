@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-04-23 09:17:10+0000\n"
+"PO-Revision-Date: 2019-06-21 15:14:05+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: WordPress - 5.2.x - Development - Administration\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -22,19 +22,116 @@ msgctxt "start of week"
 msgid "1"
 msgstr "6"
 
-#. translators: 1: The filename of the package.
-#: wp-admin/includes/file.php:1191
-msgid "The authenticity of %1$s could not be verified as signature verification is unavailable on this system."
-msgstr ""
+#. translators: %s: Recovery Mode exit link
+#: wp-admin/includes/update.php:854
+msgid "You are in recovery mode. This means there may be an error with a theme or plugin. To exit recovery mode, log out or use the Exit button. <a href=\"%s\">Exit Recovery Mode</a>"
+msgstr "أنت في وضع الاسترداد. هذا يعني أنه قد يكون هناك خطأ ما بأحد القوالب أو الإضافات. للخروج من وضع الاسترداد، قم بتسجيل الخروج أو استخدم زر الخروج. <a href=\"%s\">الخروج من وضع الاسترداد</a>"
+
+#. translators: 1: wp_body_open 2: <body>
+#: wp-admin/about.php:194
+msgid "5.2 introduces a %1$s hook, which lets themes support injecting code right at the beginning of the %2$s element."
+msgstr "الإصدار 5.2 يقدّم الـ %1$s hook، والذي يتيح للقوالب دعم الحقن للأكواد البرمجية في بداية العنصر %2$s مباشرة."
+
+#. translators: 1: link to /wp-admin/site-health.php 2: link to
+#. /wp-admin/site-health.php?tab=debug
+#: wp-admin/about.php:129
+msgid " <a href=\"%1$s\">Check your site status</a>, and <a href=\"%2$s\">learn how to debug issues</a>."
+msgstr "<a href=\"%1$s\">تحقّق من حالة موقعك</a>، <a href=\"%2$s\">وتعلّم طريقة كشف الأخطاء</a>."
+
+#. translators: 1: link to the WordPress 5.1 release post
+#: wp-admin/about.php:122
+msgid "Building on <a href=\"%1$s\">the Site Health features introduced in 5.1</a>, this release adds two new pages to help debug common configuration issues. It also adds space where developers can include debugging information for site maintainers."
+msgstr "بناءً على <a href=\"%1$s\">ميزات صحّة الموقع التي تمّ تقديمها في 5.1</a>، هذا الإصدار يضيف صفحتان جديدتان للمساعدة في كشف مشاكل إعدادات التكوين الشائعة Debug. كما يضيف مساحة للمطوّرين تُمكّنهم من تضمين معلومات الأخطاء المكتشفة Debugging لمهندسي صيانة الموقع. "
+
+#: wp-admin/about.php:203
+msgid "With the addition of webpack and Babel configurations in the @wordpress/scripts package, developers won&#8217;t have to worry about setting up complex build tools to write modern JavaScript."
+msgstr "مع إضافة تكوينات Webpack و Babel في حزمة @wordpress/scripts، ليس هناك ما يدعو إلى القلق بالنسبة للمطورين بشأن إعداد أدوات بناء معقدة لكتابة جافا سكربت حديثة."
+
+#: wp-admin/about.php:202
+msgid "Building JavaScript"
+msgstr "بناء JavaScript"
+
+#: wp-admin/about.php:189
+msgid "New Body Tag Hook"
+msgstr "وسم جديد Body Tag Hook"
+
+#: wp-admin/about.php:184
+msgid "A new theme page template, a conditional function, and two CSS classes make designing and customizing the Privacy Policy page easier."
+msgstr "نموذج لصفحة قالب جديدة، مع وظيفة شرطية ، وإضافة فئتين تنسيق CSS classes لتسهّل عملية تصميم وتخصيص صفحة سياسة الخصوصية."
+
+#: wp-admin/about.php:183
+msgid "Privacy Updates"
+msgstr "تحديثات الخصوصية"
+
+#: wp-admin/about.php:180
+msgid "The minimum supported PHP version is now 5.6.20. As of WordPress 5.2, themes and plugins can safely take advantage of namespaces, anonymous functions, and more!"
+msgstr "الحدّ الأدنى لدعم إصدارات PHP هو الإصدار 5.6.20. اعتبارًا من نسخة ووردبريس 5.2، يمكن للقوالب والإضافات الاستفادة بأمان من مجالات الأسماء (namespaces)، ودوال الوظائف المجهولة (anonymous functions)، والمزيد!"
+
+#: wp-admin/about.php:179
+msgid "PHP Version Bump"
+msgstr "تطوير إصدار PHP"
+
+#: wp-admin/about.php:169
+msgid "Thirteen new icons include Instagram, a suite of icons for BuddyPress, and rotated Earth icons for global inclusion. Find them in the Dashboard and have some fun!"
+msgstr "ثلاث عشرة أيقونة جديدة من ضمنها Instagram، ومجموعة من الأيقونات لإضافة BuddyPress، وأيقونة الكرة الأرضية من أجل الاحتواء العالمي. اعثر عليهم عبر لوحة التحكم واستمتع!"
+
+#: wp-admin/about.php:168
+msgid "New Dashboard Icons"
+msgstr "أيقونات لوحة التحكم الجديدة"
+
+#: wp-admin/about.php:165
+msgid "A number of changes work together to improve contextual awareness and keyboard navigation flow for those using screen readers and other assistive technologies."
+msgstr "هناك عدد من التغييرات تعمل معًا لتحسين مستوى الوعي بالمحتوى المرتبط، وتحسين آلية التنقّل بلوحة المفاتيح بانسيابية لأولئك الذين يستخدمون قارئ الشاشة وتقنيات المساعدة الأخرى."
+
+#: wp-admin/about.php:164
+msgid "Accessibility Updates"
+msgstr "تحديثات لإمكانية الوصول"
+
+#: wp-admin/about.php:160
+msgid "Improvements for Everyone"
+msgstr "تحسينات من أجل الجميع"
+
+#: wp-admin/about.php:154
+msgid "This administrator-focused update will let you safely fix or manage fatal errors without requiring a developer. It features better handling of the so-called “white screen of death”, and a way to enter recovery mode, which pauses error-causing plugins or themes."
+msgstr "هذا التحديث الذي يركّز على لوحة تحكّم المسؤول، يتيح لك إصلاح الأخطاء الفادحة أو إدارتها بأمان دون الحاجة إلى طلب أحد المطوّرين. إنه يتميز بتعامل ومعالجة أفضل مع الحالة التي تسمى بـ \"شاشة الموت البيضاء\" (\"white screen of death\")، وتوفير وسيلة للدخول بـ وضع الاسترداد، والذي يقوم بإيقاف الإضافات أو القوالب التي تسبب الأخطاء مؤقتاً."
+
+#: wp-admin/about.php:153
+msgid "PHP Error Protection"
+msgstr "الحماية من أخطاء PHP"
+
+#: wp-admin/about.php:123
+msgid "https://wordpress.org/news/2019/02/betty/"
+msgstr "https://wordpress.org/news/2019/02/betty/"
+
+#: wp-admin/about.php:117
+msgid "Site Health Check"
+msgstr "التحقق من صحّة الموقع"
+
+#: wp-admin/about.php:107
+msgid "WordPress 5.2 gives you even more robust tools for identifying and fixing configuration issues and fatal errors. Whether you are a developer helping clients or you manage your site solo, these tools can help get you the right information when you need it."
+msgstr "يمنحك ووردبريس 5.2 أدوات أكثر متانة وقوة، لتحديد وإصلاح المشاكل المتعلقة بإعدادات التكوين والأخطاء الفادحة. سواءً أكنت مطورًا يساعد العملاء أو تدير موقعك بصفة فردية، يمكن لهذه الأدوات أن تساعدك في الحصول على المعلومات الصحيحة عند الحاجة إليها."
+
+#: wp-admin/about.php:106
+msgid "Keeping Your Site Safe"
+msgstr "الاحتفاظ بموقعك آمنًا"
+
+#. translators: %s: The current WordPress version number
+#: wp-admin/about.php:31
+#: wp-admin/credits.php:32
+#: wp-admin/freedoms.php:46
+msgid "Congratulations on updating to WordPress %s! This update makes it easier than ever to fix your site if something goes wrong."
+msgstr "نهنئك على تحديث ووردبريس إلى النسخة %s! هذا التحديث يجعل عملية إصلاح موقعك أسهل من أي وقت مضى إذا حدث أمر ما على نحو خاطئ."
 
 #. translators: tab heading for Site Health Status page
 #: wp-admin/site-health-info.php:52
+#: wp-admin/site-health.php:57
 msgctxt "Site Health"
 msgid "Status"
 msgstr "الحالة"
 
 #. translators: tab heading for Site Health Info page
 #: wp-admin/site-health-info.php:59
+#: wp-admin/site-health.php:64
 msgctxt "Site Health"
 msgid "Info"
 msgstr "معلومات"
@@ -50,10 +147,10 @@ msgstr "مغلق"
 
 #. translators: %s: number of critical issues found
 #: wp-admin/js/site-health.js:68
-#: wp-admin/site-health.php:96
+#: wp-admin/site-health.php:102
 msgid "%s Critical issue"
 msgid_plural "%s Critical issues"
-msgstr[0] "لا توجد مشاكل حرجة (%s)."
+msgstr[0] "لا توجد مشاكل حرجة (%s)"
 msgstr[1] "مشكلة حرجة واحدة (%s)"
 msgstr[2] "مشكلتان حرجتان (%s)"
 msgstr[3] " %s مشاكل حرجة"
@@ -98,8 +195,9 @@ msgid "PHP modules perform most of the tasks on the server that make your site r
 msgstr "تقوم وحدات PHP بمعظم المهام التي تجعل موقعك يعمل على الخادم. عند إجراء أي تغييرات على هذه الوحدات، يجب أن تتم عن طريق مسؤول الخادم الخاص بك."
 
 #: wp-admin/includes/class-wp-site-health.php:652
+#: wp-admin/includes/dashboard.php:1631
 msgid "PHP is the programming language we use to build and maintain WordPress. Newer versions of PHP are both faster and more secure, so updating will have a positive effect on your site&#8217;s performance."
-msgstr "لغة PHP هي لغة البرمجة المستخدمة لبناء وصيانة ووردبريس. الإصدارات الأحدث من PHP أسرع وأكثر أمانًا، لذلك سيكون للتحديث تأثير إيجابي على أداء موقعك."
+msgstr "لغة PHP هي لغة البرمجة المستخدمة لبناء وصيانة ووردبريس. الإصدارات الأحدث من PHP أسرع وأكثر أمانًا، لذلك سيكون للتحديث تأثيرًا إيجابيًا على أداء موقعك."
 
 #. translators: Documentation explaining debugging in WordPress.
 #: wp-admin/includes/class-wp-site-health.php:1219
@@ -152,7 +250,7 @@ msgid "[%s] Background Update Failed"
 msgstr "[%s] فشلت التحديثات الخلفية"
 
 #. translators: %s: Name of the filter used.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:113
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:117
 msgid "Could not confirm that the %s filter is available."
 msgstr "لا يمكن التأكيد توفر الفلتر %s."
 
@@ -173,7 +271,7 @@ msgstr "يحتوي موقعك على قالب واحد نشط، وهو محدث 
 msgid "Your site has 1 active plugin, and it is up to date."
 msgstr "يحتوي موقعك على إضافة واحدة نشطة، وهي محدثة إلى آخر نسخة."
 
-#: wp-admin/site-health.php:117
+#: wp-admin/site-health.php:123
 msgid "Passed tests"
 msgstr "الاختبارات المجتازة"
 
@@ -194,9 +292,9 @@ msgid "This page can show you every detail about the configuration of your WordP
 msgstr "يمكن لهذه الصفحة أن تعرض لك جميع التفاصيل حول إعدادات تكوين موقع ووردبريس الخاص بك. إذا رأينا أي شيء يمكن تحسينه هنا، فسنقوم بإبلاغك على صفحة الحالة الصحية للموقع."
 
 #: wp-admin/site-health-info.php:68
-#: wp-admin/site-health.php:67
+#: wp-admin/site-health.php:73
 msgid "The Site Health check requires JavaScript."
-msgstr "تتطلب ميزة التحقق من صحّة الموقع من تمكين جافا سكربت."
+msgstr "تتطلب ميزة التحقق من صحّة الموقع تمكين جافا سكربت."
 
 #: wp-admin/site-health-info.php:43
 #: wp-admin/site-health.php:48
@@ -212,7 +310,7 @@ msgstr "عذرًا، غير مسموح لك بالوصول إلى بيانات �
 msgid "Site Health Info"
 msgstr "معلومات صحّة الموقع"
 
-#: wp-admin/update-core.php:302
+#: wp-admin/update-core.php:310
 msgid "This update doesn&#8217;t work with your version of PHP."
 msgstr "لن يعمل هذا التحديث مع إصدار PHP الخاص بك."
 
@@ -244,17 +342,19 @@ msgid "<strong>Error:</strong> Current WordPress and PHP versions do not meet mi
 msgstr "<strong>خطأ:</strong> لا تلبي إصدارات ووردبريس و PHP الحالية، الحدّ الأدنى لمتطلبات %s."
 
 #. translators: %s: The filename of the package.
-#: wp-admin/includes/file.php:1254
+#: wp-admin/includes/file.php:1287
 msgid "The authenticity of %s could not be verified."
 msgstr "لا يمكن التحقق من صحة %s."
 
 #. translators: %s: The filename of the package.
-#: wp-admin/includes/file.php:1207
+#: wp-admin/includes/file.php:1240
 msgid "The authenticity of %s could not be verified as no signature was found."
 msgstr "تعذر التحقق من صحة %s نظرًا لعدم العثور على توقيع."
 
 #. translators: %s: The filename of the package.
 #: wp-admin/includes/file.php:1171
+#: wp-admin/includes/file.php:1191
+#: wp-admin/includes/file.php:1222
 msgid "The authenticity of %s could not be verified as signature verification is unavailable on this system."
 msgstr "تعذر التحقق من صحة %s نظرًا لأن التحقق من التوقيع غير متاح في هذا النظام."
 
@@ -289,9 +389,15 @@ msgid "You are using a %1$s drop-in which might mean that a %2$s database is not
 msgstr "أنت تستخدم الإضافة المتطورة %1$s (drop-in) مما قد يعني أن قاعدة البيانات %2$s لا تُستخدم."
 
 #. translators: Localized team handbook, if one exists.
-#: wp-admin/includes/class-wp-site-health.php:748
+#: wp-admin/includes/class-wp-site-health.php:746
 msgid "https://make.wordpress.org/hosting/handbook/handbook/server-environment/#php-extensions"
 msgstr "https://make.wordpress.org/hosting/handbook/handbook/server-environment/#php-extensions"
+
+#. translators: 1: Link to the hosting group page about recommended PHP
+#. modules. 2: Additional link attributes. 3: Accessibility text.
+#: wp-admin/includes/class-wp-site-health.php:744
+msgid "The WordPress Hosting Team maintains a list of those modules, both recommended and required, in <a href=\"%1$s\" %2$s>the team handbook%3$s</a>."
+msgstr "يحافظ فريق استضافة ووردبريس على صيانة قائمة هذه الوحدات، الموصى بها والمطلوب منها، في <a href=\"%1$s\" %2$s>الدليل الإرشادي للفريق%3$s</a>"
 
 #: wp-admin/includes/class-wp-site-health.php:183
 #: wp-admin/includes/class-wp-site-health.php:647
@@ -404,10 +510,6 @@ msgctxt "plugin"
 msgid "Cannot Update"
 msgstr "لا يمكن التحديث"
 
-#: wp-admin/includes/update.php:847
-msgid "You are in recovery mode. This means there may be an error with a theme or plugin. To exit recovery mode, log out or use the Exit button."
-msgstr "أنت في وضع الاسترداد. هذا يعني أنه قد يكون هناك خطأ ما في أحد القوالب أو الإضافات. للخروج من وضع الاسترداد، قم بتسجيل الخروج أو استخدم زر الخروج."
-
 #: wp-admin/includes/update.php:458
 msgid "There is a new version of %1$s available, but it doesn&#8217;t work with your version of PHP. <a href=\"%2$s\" %3$s>View version %4$s details</a> or <a href=\"%5$s\">learn more about updating PHP</a>."
 msgstr "هُناك نسخة جديدة مُتاحة من %1$s، لكنها لا تعمل مع إصدار PHP الخاص بك. <a href=\"%2$s\" %3$s>عرض تفاصيل النسخة %4$s</a> أو <a href=\"%5$s\">معرفة المزيد حول تحديثات PHP</a>."
@@ -416,7 +518,7 @@ msgstr "هُناك نسخة جديدة مُتاحة من %1$s، لكنها لا 
 msgid "This plugin failed to load properly and is paused during recovery mode."
 msgstr "فشل تحميل هذه الإضافة بشكل صحيح وتم إيقافها مؤقتًا أثناء وضع الاسترداد."
 
-#: wp-admin/includes/theme.php:905
+#: wp-admin/includes/theme.php:910
 msgid "Go to the Themes screen"
 msgstr "الانتقال إلى شاشة القوالب"
 
@@ -432,18 +534,13 @@ msgstr "الحجم الإجمالي غير متاح. تمت مصادفة بعض 
 msgid "The size cannot be calculated. The directory is not accessible. Usually caused by invalid permissions."
 msgstr "لا يمكن حساب الحجم. الدليل غير قابل للوصول. عادة ما تسبب أذونات غير صالحة. عادةً يكون السبب أذونات غير صالحة."
 
-#. translators: %s: number of ratings
-#: wp-admin/includes/theme.php:727
-msgid "(%s ratings) <span class=\"screen-reader-text\">link to view ratings opens in a new tab</span>"
-msgstr "(%s تقييماً) <span class=\"screen-reader-text\">رابط لعرض التقييمات يفتح في علامة تبويب جديدة</span>"
-
 #: wp-admin/includes/class-wp-debug-data.php:218
 msgid "These settings alter where and how parts of WordPress are loaded."
 msgstr "تغير هذه الإعدادات مكان وكيفية تحميل أجزاء ووردبريس."
 
 #. translators: %s: number of items with no issues
 #: wp-admin/js/site-health.js:72
-#: wp-admin/site-health.php:126
+#: wp-admin/site-health.php:132
 msgid "%s Item with no issues detected"
 msgid_plural "%s Items with no issues detected"
 msgstr[0] "%s عنصر ولم يتم اكتشاف أي مشكلة"
@@ -455,7 +552,7 @@ msgstr[5] "%s عنصر ولم يتم اكتشاف أي مشكلة"
 
 #. translators: %s: number of recommended improvements
 #: wp-admin/js/site-health.js:70
-#: wp-admin/site-health.php:107
+#: wp-admin/site-health.php:113
 msgid "%s Recommended improvement"
 msgid_plural "%s Recommended improvements"
 msgstr[0] "التحسينات الموصى بها (%s)"
@@ -465,28 +562,28 @@ msgstr[3] "التحسينات الموصى بها (%s)"
 msgstr[4] "التحسينات الموصى بها (%s)"
 msgstr[5] "التحسينات الموصى بها (%s)"
 
-#: wp-admin/site-health.php:90
+#: wp-admin/site-health.php:96
 msgid "The site health check shows critical information about your WordPress configuration and items that require your attention."
 msgstr "تعرض لك أداة التحقق من صحّة الموقع معلومات مهمة حول إعدادات تكوين ووردبريس الخاص بك والعناصر التي تتطلب انتباهك."
 
 #: wp-admin/site-health.php:17
-#: wp-admin/site-health.php:87
+#: wp-admin/site-health.php:93
 msgid "Site Health Status"
 msgstr "الحالة الصحية للموقع"
 
-#: wp-admin/site-health.php:81
+#: wp-admin/site-health.php:87
 msgid "Everything is running smoothly here."
 msgstr "كل شيء هنا يجري بسلاسة."
 
-#: wp-admin/site-health.php:77
+#: wp-admin/site-health.php:83
 msgid "Great job!"
 msgstr "عمل رائع!"
 
-#: wp-admin/about.php:30
-#: wp-admin/credits.php:27
-#: wp-admin/freedoms.php:37
-#: wp-admin/includes/ms.php:1137
-#: wp-admin/nav-menus.php:630
+#: wp-admin/about.php:44
+#: wp-admin/credits.php:45
+#: wp-admin/freedoms.php:59
+#: wp-admin/includes/ms.php:1141
+#: wp-admin/nav-menus.php:632
 #: wp-admin/site-health-info.php:48
 #: wp-admin/site-health.php:53
 msgid "Secondary menu"
@@ -800,7 +897,7 @@ msgstr "تتطلب نسخة ووردبريس إصدار %1$s النسخة %2$s �
 
 #: wp-admin/includes/class-wp-site-health.php:977
 msgid "Severely outdated SQL server"
-msgstr "خادم SQL مهجور وقديم جدًا"
+msgstr "خادم SQL مهمل وقديم"
 
 #. translators: 1: The database engine in use (MySQL or MariaDB). 2: Database
 #. server recommended version number.
@@ -839,16 +936,6 @@ msgstr "الوحدة المطلوبة %s غير مثبتة، أو تم تعطي�
 #: wp-admin/includes/class-wp-site-health.php:1478
 msgid "Error"
 msgstr "خطأ"
-
-#: wp-admin/includes/class-wp-site-health.php:749
-msgid "the team handbook"
-msgstr "دليل ومرجع الفريق"
-
-#. translators: %s: Link to the hosting group page about recommended PHP
-#. modules.
-#: wp-admin/includes/class-wp-site-health.php:744
-msgid "The WordPress Hosting Team maintains a list of those modules, both recommended and required, in %s."
-msgstr "يقوم فريق استضافة ووردبريس بصيانة قائمة هذه الوحدات، سواءً الموصى بها أو المطلوبة، على %s."
 
 #: wp-admin/includes/class-wp-site-health.php:733
 msgid "Required and recommended modules are installed"
@@ -897,7 +984,7 @@ msgstr "يجب عليك إزالة الإضافات غير النشطة"
 
 #. translators: %d: The number of themes.
 #: wp-admin/includes/class-wp-site-health.php:513
-msgid "Your site has %d installed theme, and they are all up to date."
+msgid "Your site has %d installed theme, and it is up to date."
 msgid_plural "Your site has %d installed themes, and they are all up to date."
 msgstr[0] "موقعك لا يحتوي على أي قالب منصّب."
 msgstr[1] "موقعك يحتوي على قالب واحد منصّب، وهو محدث حتى اللحظة."
@@ -931,14 +1018,14 @@ msgstr "قوالبك محدّثة حتى اللحظة"
 
 #. translators: %d: The number of active plugins.
 #: wp-admin/includes/class-wp-site-health.php:357
-msgid "Your site has %d active plugin, and they are all up to date."
+msgid "Your site has %d active plugin, and it is up to date."
 msgid_plural "Your site has %d active plugins, and they are all up to date."
 msgstr[0] "موقعك لا يحتوي على أي إضافات نشطة، ولكن جميع الإضافات محدّثة حتى اللحظة."
 msgstr[1] "موقعك يحتوي على إضافة واحدة نشطة، وهي محدّثة حتى اللحظة."
 msgstr[2] "موقعك يحتوي على إضافتين نشطتين، وجميع الإضافات محدّثة حتى اللحظة."
 msgstr[3] "موقعك يحتوي على %d إضافات نشطة، وجميع الإضافات محدّثة حتى اللحظة."
-msgstr[4] "موقعك يحتوي على %d إضافات نشطة، وجميع الإضافات محدّثة حتى اللحظة."
-msgstr[5] "موقعك يحتوي على %d إضافات نشطة، وجميع الإضافات محدّثة حتى اللحظة."
+msgstr[4] "موقعك يحتوي على %d إضافة نشطة، وجميع الإضافات محدّثة حتى اللحظة."
+msgstr[5] "موقعك يحتوي على %d إضافة نشطة، وجميع الإضافات محدّثة حتى اللحظة."
 
 #. translators: %d: The number of outdated plugins.
 #: wp-admin/includes/class-wp-site-health.php:332
@@ -1020,102 +1107,102 @@ msgid "Please wait..."
 msgstr "يرجى الانتظار..."
 
 #. translators: %s: Name of the filter used.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:438
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:442
 msgid "WordPress security and maintenance releases are blocked by the %s filter."
 msgstr "تمّ حظر إصدارات الأمان لصيانة ووردبريس بواسطة الفلتر %s."
 
 #. translators: %s: Name of the constant used.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:427
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:431
 msgid "WordPress security and maintenance releases are blocked by %s."
 msgstr "تمّ حظر إصدارات الأمان لصيانة ووردبريس بواسطة %s."
 
 #. translators: %s: Name of the filter used.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:407
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:411
 msgid "WordPress development updates are blocked by the %s filter."
 msgstr "تمّ حظر تحديثات تطوير ووردبريس بواسطة الفلتر %s."
 
 #. translators: %s: Name of the constant used.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:396
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:400
 msgid "WordPress development updates are blocked by the %s constant."
 msgstr "تمّ حظر تحديثات تطوير ووردبريس بواسطة الثابت %s."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:372
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:376
 msgid "All of your WordPress files are writable."
 msgstr "جميع ملفات ووردبريس الخاص بك قابلة للكتابة."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:367
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:371
 msgid "Some files are not writable by WordPress:"
 msgstr "بعض الملفات غير قابلة للكتابة بواسطة WordPress:"
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:341
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:345
 msgid "This could mean that connections are failing to WordPress.org."
 msgstr "قد يعني هذا فشل الاتصالات بـ WordPress.org."
 
 #. translators: %s: WordPress version
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:338
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:342
 msgid "Couldn't retrieve a list of the checksums for WordPress %s."
 msgstr "لا يمكن استعادة قائمة الـ checksums لـ ووردبريس %s."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:291
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:295
 msgid "Your installation of WordPress doesn't require FTP credentials to perform updates."
 msgstr "لا تتطلب نسختك المنصّبة من ووردبريس بيانات اعتماد FTP لتنفيذ التحديثات."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:282
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:286
 msgid "(Your site is performing updates over FTP due to file ownership. Talk to your hosting company.)"
 msgstr "(يقوم موقعك بإجراء التحديثات عبر FTP بسبب ملكية الملف. تحدّث إلى شركة الاستضافة الخاصة بك.)"
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:281
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:285
 msgid "Your installation of WordPress prompts for FTP credentials to perform updates."
 msgstr "تتطلب نسختك المنصّبة من ووردبريس بيانات اعتماد FTP لتنفيذ التحديثات."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:264
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:268
 msgid "No version control systems were detected."
 msgstr "لم يتم الكشف عن أنظمة للتحكم في الإصدار."
 
 #. translators: 1: Folder name. 2: Version control directory.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:255
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:259
 msgid "The folder %1$s was detected as being under version control (%2$s)."
 msgstr "تم اكتشاف المجلد %1$s على أنه تحت تحكّم الإصدار (%2$s)."
 
 #. translators: 1: Folder name. 2: Version control directory. 3: Filter name.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:242
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:246
 msgid "The folder %1$s was detected as being under version control (%2$s), but the %3$s filter is allowing updates."
 msgstr "تم اكتشاف المجلد %1$s على أنه تحت تحكّم الإصدار (%2$s)، ولكن الفلتر %3$s يسمح بالتحديثات."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:188
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:192
 msgid "We'll try again with the next release."
 msgstr "سنحاول مرة أخرى مع الإصدار التالي."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:183
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:187
 msgid "A previous automatic background update could not occur."
 msgstr "عملية التحديث السابقة في الخلفية لا يمكن إجراؤها تلقائيًا."
 
 #. translators: %s: Code of error shown.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:174
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:191
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:178
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:195
 msgid "The error code was %s."
 msgstr "كان رمز الخطأ %s."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:171
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:175
 msgid "When you've been able to update using the \"Update Now\" button on Dashboard > Updates, we'll clear this error for future update attempts."
 msgstr "عندما تكون قادرًا على التحديث باستخدام زر \"التحديث الآن\" عبر لوحة التحكم > تحديثات، سنقوم بمسح هذا الخطأ لمحاولات التحديث المستقبلية."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:170
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:185
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:174
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:189
 msgid "You would have received an email because of this."
 msgstr "قد ترغب في تلقّي رسالة بريد إلكتروني بسبب هذا."
 
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:169
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:173
 msgid "A previous automatic background update ended with a critical failure, so updates are now disabled."
 msgstr "انتهت عملية التحديث السابقة في الخلفية بفشل خطير، لذا تم تعطيل التحديثات الآن."
 
 #. translators: %s: Name of the filter used.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:146
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:150
 msgid "The %s filter is enabled."
 msgstr "تم تمكين الفلتر %s."
 
 #. translators: %s: Name of the filter used.
-#: wp-admin/includes/class-wp-site-health-auto-updates.php:126
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:130
 msgid "A plugin has prevented updates by disabling %s."
 msgstr "تمّ منع تحديثات الإضافة عن طريق تعطيل %s."
 
@@ -1520,83 +1607,11 @@ msgstr "رابط الموقع"
 msgid "Home URL"
 msgstr "رابط الرئيسية"
 
-#: wp-admin/about.php:117
-msgid "Miscellaneous improvements include updates to values for the <code>WP_DEBUG_LOG</code> constant, new test config file constant in the test suite, new plugin action hooks, short-circuit filters for <code>wp_unique_post_slug()</code> and <code>WP_User_Query</code> and <code>count_users()</code>, a new <code>human_readable_duration</code> function, improved taxonomy metabox sanitization, limited <code>LIKE</code> support for meta keys when using <code>WP_Meta_Query</code>, a new “doing it wrong” notice when registering REST API endpoints, and more!"
-msgstr "تحسينات متفرقة تتضمن تحديثات لقيم <code>WP_DEBUG_LOG</code> الثابت. ملف تكوين اختبار جديد ثابت في مجموعة الاختبار، خطاطيف إجراء جديدة للإضافة، فلاتر ذات دائرة قصيرة  لـ <code>wp_unique_post_slug()</code> و <code>WP_User_Query</code> و <code>count_users()</code>، وظيفة <code>human_readable_duration</code> جديدة، تمّ تحسين فئة صناديق الميتا التعريفية للتصنيف، دعم <code>LIKE</code> محدود لمفاتيح meta عند استخدام <code>WP_Meta_Query</code>، إشعار جديد \"القيام بذلك خاطئاً\" عند تسجيل نقطة النهاية لواجهة برمجة التطبيقات REST API، وأكثر من ذلك!"
-
-#: wp-admin/about.php:115
-msgid "Other Developer Goodness"
-msgstr "تحسينات أخرى للمطورين"
-
-#: wp-admin/about.php:106
-msgid "WordPress 5.1 features a new JavaScript build option, following the large reorganization of code started in the 5.0 release."
-msgstr "يتميز إصدار ووردبريس 5.1 بخيار جديد لبناء JavaScript، تباعاً لعملية التنظيم الكبيرة للأكواد البرمجية التي بدأت عند إطلاق الإصدار 5.0."
-
-#: wp-admin/about.php:104
-msgid "New JS Build Processes"
-msgstr "عمليات بناء JS جديدة"
-
-#: wp-admin/about.php:98
-msgid "The Cron API has been updated with new functions to assist with returning data and includes new filters for modifying cron storage. Other changes in behavior affect cron spawning on servers running FastCGI and PHP-FPM versions 7.0.16 and above."
-msgstr "تم تحديث واجهة برمجة التطبيقات Cron API بوظائف جديدة للمساعدة في إعادة البيانات وتضمين فلاتر جديدة لتعديل تخزين cron. تغييرات أخرى في السلوك تؤثر cron spawning على الخوادم التي تقوم بتشغيل FastCGI و PHP-FPM للإصدارات 7.0.16 وما فوق."
-
-#: wp-admin/about.php:96
-msgid "Cron API"
-msgstr "Cron API"
-
-#: wp-admin/about.php:92
-#: wp-admin/about.php:100
-#: wp-admin/about.php:108
-#: wp-admin/about.php:119
-msgid "<a href=\"%s\">Read more.</a>"
-msgstr "<a href=\"%s\">قراءة المزيد.</a>"
-
-#: wp-admin/about.php:90
-msgid "5.1 introduces a new database table to store metadata associated with sites and allows for the storage of arbitrary site data relevant in a multisite / network context."
-msgstr "إصدار 5.1 يقدم جدول قاعدة بيانات جديد لتخزين الحقول المخصصة المرتبطة بالمواقع ويسمح بتخزين بيانات الموقع الخاصة ذات الصلة في سياق المواقع المتعدّدة / الشبكة."
-
-#: wp-admin/about.php:88
-msgid "Multisite Metadata"
-msgstr "البيانات الوصفية للمواقع المتعدّدة"
-
-#: wp-admin/about.php:75
-msgid "Introduced in WordPress 5.0, the new block editor continues to improve. Most significantly, WordPress 5.1 includes solid performance improvements within the editor. The editor should feel a little quicker to start, and typing should feel smoother. Nevertheless, expect more performance improvements in the next releases."
-msgstr "تم تقديمه في إصدار ووردبريس 5.0، يواصل مُحرّر المكوّنات الجديد التحسّن. والأهم من ذلك، يتضمن ووردبريس 5.1 تحسينات قوية في الأداء داخل المحرر. من المفترض أن يشعر المحرر بقليل من السرعة للبدء، والكتابة ينبغي أن تكون أكثر سلاسة. ومع ذلك، نتوقع المزيد من تحسينات الأداء في الإصدارات القادمة."
-
-#: wp-admin/about.php:71
-msgid "Editor Performance"
-msgstr "أداء المُحرّر"
-
-#: wp-admin/about.php:62
-msgid "WordPress has detected your site is running an outdated version of PHP. You will see this notice on your dashboard with instructions for contacting your host."
-msgstr "اكتشف ووردبريس أن موقعك يعمل على إصدار قديم من PHP. سترى هذه الملاحظة على لوحة التحكم الخاصة بك مع تعليمات للاتصال بالمستضيف الخاص بك."
-
-#: wp-admin/about.php:56
-msgid "When installing new plugins, WordPress&#8217;s Site Health features will check whether a plugin requires a version of PHP incompatible with your site. If so, WordPress will prevent you from installing that plugin."
-msgstr "عند تنصيب إضافات جديدة، ستتحقق ميزة صحّة الموقع في ووردبريس ما إذا كانت الإضافة تتطلب إصدارًا من PHP غير متوافق مع موقعك. إذا كان الأمر كذلك، فإذن ووردبريس ستمنعك من تنصيب هذه الإضافة."
-
-#: wp-admin/about.php:54
-msgid "With security and speed in mind, this release introduces WordPress&#8217;s first <a href=\"%s\">Site Health</a> features. WordPress will start showing notices to administrators of sites that run long-outdated versions of PHP, which is the programming language that powers WordPress."
-msgstr "مع الأخذ في الاعتبار للأمان والسرعة، هذا الإصدار يقدم أول ميزة لـ <a href=\"%s\">صحّة الموقع</a> في ووردبريس. سيبدأ ووردبريس بإظهار الملاحظات لمسؤولي المواقع التي تقوم بتشغيل إصدارات قديمة أو مهملة من PHP، وهي لغة البرمجة التي تدير تشغيل ووردبريس."
-
-#: wp-admin/about.php:50
 #: wp-admin/menu.php:266
 #: wp-admin/site-health-info.php:35
 #: wp-admin/site-health.php:40
 msgid "Site Health"
 msgstr "صحّة الموقع"
-
-#: wp-admin/about.php:44
-msgid "You&#8217;ve successfully upgraded to WordPress 5.1! Following WordPress 5.0&#8212;a major release which introduced the new block editor&#8212;5.1 focuses on polish, in particular by improving overall performance of the editor. In addition, this release paves the way for a better, faster, and more secure WordPress with some essential tools for site administrators and developers."
-msgstr "لقد قمت بالترقية إلى الإصدار ووردبريس 5.1 بنجاح! عقب إصدار ووردبريس 5.0 الرئيسي الذي قدّم مُحرّر المكوّنات الجديد &#8212; يركز هذا الإصدار 5.1 على التحسين، وعلى وجه الخصوص تحسين الأداء بشكل عام للمحرر. بالإضافة إلى ذلك، يمهّد هذا الإصدار الطريق لووردبريس لجعله أفضل وأسرع، وأكثر أماناً مع بعض الأدوات الأساسية لمسؤولي الموقع والمطورين."
-
-#: wp-admin/about.php:37
-msgid "A Little Better Every Day"
-msgstr "أفضل قليلاً كل يوم"
-
-#: wp-admin/about.php:26
-msgid "Thank you for updating to the latest version!"
-msgstr "شكرًا لك على التحديث إلى أحدث نسخة!"
 
 #. translators: %s: all requests count
 #: wp-admin/includes/user.php:1189
@@ -1671,58 +1686,58 @@ msgstr "<strong>أحداث وأخبار ووردبريس</strong> &mdash; الف
 
 #. translators: 1: URL to WordPress release notes, 2: WordPress version number
 #. including locale if necessary
-#: wp-admin/update-core.php:90
+#: wp-admin/update-core.php:98
 msgid "You can update to <a href=\"%1$s\">WordPress %2$s</a> automatically:"
 msgstr "يمكنك التحديث إلى <a href=\"%1$s\">ووردبريس %2$s</a> تلقائيًا:"
 
 #. translators: 1: URL to WordPress release notes, 2: WordPress version number,
 #. 3: Minimum required MySQL version number, 4: Current MySQL version number
-#: wp-admin/update-core.php:87
-#: wp-admin/upgrade.php:96
+#: wp-admin/update-core.php:95
+#: wp-admin/upgrade.php:104
 msgid "You cannot update because <a href=\"%1$s\">WordPress %2$s</a> requires MySQL version %3$s or higher. You are running version %4$s."
 msgstr "لا يمكنك التحديث لأنّ <a href=\"%1$s\">ووردبريس %2$s</a> يتطلب إصدار MySQL نسخة %3$s أو أعلى. أنت تستخدم حالياً النسخة %4$s."
 
 #. translators: 1: URL to WordPress release notes, 2: WordPress version number,
 #. 3: Minimum required PHP version number, 4: Current PHP version number
-#: wp-admin/update-core.php:84
-#: wp-admin/upgrade.php:93
+#: wp-admin/update-core.php:92
+#: wp-admin/upgrade.php:101
 msgid "You cannot update because <a href=\"%1$s\">WordPress %2$s</a> requires PHP version %3$s or higher. You are running version %4$s."
 msgstr "لا يمكنك التحديث لأنّ <a href=\"%1$s\">ووردبريس %2$s</a> يتطلب إصدار PHP نسخة %3$s أو أعلى. أنت تستخدم حالياً النسخة %4$s."
 
-#: wp-admin/nav-menus.php:848
+#: wp-admin/nav-menus.php:852
 msgid "Add menu items"
 msgstr "أضف عناصر القائمة"
 
-#: wp-admin/nav-menus.php:815
+#: wp-admin/nav-menus.php:819
 msgid "or <a href=\"%s\">create a new menu</a>. Don&#8217;t forget to save your changes!"
 msgstr "أو <a href=\"%s\">أنشئ قائمة جديدة</a>. تذكّر أن تحفظ تغييراتك."
 
-#: wp-admin/nav-menus.php:766
-#: wp-admin/nav-menus.php:827
+#: wp-admin/nav-menus.php:770
+#: wp-admin/nav-menus.php:831
 msgid "Click the Save Menu button to save your changes."
 msgstr "أنقر على زر حفظ القائمة لحفظ تغييراتك."
 
-#: wp-admin/nav-menus.php:754
+#: wp-admin/nav-menus.php:758
 msgid "Edit your menu below, or <a href=\"%s\">create a new menu</a>. Don&#8217;t forget to save your changes!"
 msgstr "حرّر القائمة الخاصة بك أدناه، أو  <a href=\"%s\">أنشئ قائمة جديدة</a>. تذكّر أن تحفظ تغييراتك."
 
-#: wp-admin/nav-menus.php:748
+#: wp-admin/nav-menus.php:752
 msgid "Fill in the Menu Name and click the Create Menu button to create your first menu."
 msgstr "املأ اسم القائمة وأنقر على زرّ إنشاء قائمة لإنشاء قائمتك الأولى."
 
-#: wp-admin/nav-menus.php:747
+#: wp-admin/nav-menus.php:751
 msgid "Create your first menu below."
 msgstr "إنشاء القائمة الأولى الخاصة بك أدناه."
 
 #. translators: 1: URL to WordPress release notes, 2: WordPress version number,
 #. 3: Minimum required MySQL version number, 4: Current MySQL version number
-#: wp-admin/install.php:254
+#: wp-admin/install.php:262
 msgid "You cannot install because <a href=\"%1$s\">WordPress %2$s</a> requires MySQL version %3$s or higher. You are running version %4$s."
 msgstr "لا يمكنك التنصيب لأنّ <a href=\"%1$s\">ووردبريس %2$s</a> يتطلب إصدار MySQL نسخة %3$s أو أعلى. أنت تستخدم حالياً النسخة %4$s."
 
 #. translators: 1: URL to WordPress release notes, 2: WordPress version number,
 #. 3: Minimum required PHP version number, 4: Current PHP version number
-#: wp-admin/install.php:251
+#: wp-admin/install.php:259
 msgid "You cannot install because <a href=\"%1$s\">WordPress %2$s</a> requires PHP version %3$s or higher. You are running version %4$s."
 msgstr "لا يمكنك التنصيب لأنّ <a href=\"%1$s\">ووردبريس %2$s</a> يتطلب إصدار PHP نسخة %3$s أو أعلى. أنت تستخدم حالياً النسخة %4$s."
 
@@ -1730,15 +1745,10 @@ msgstr "لا يمكنك التنصيب لأنّ <a href=\"%1$s\">ووردبري�
 msgid "Set up your homepage"
 msgstr "إعداد صفحتك الرئيسية"
 
-#: wp-admin/about.php:65
 #: wp-admin/includes/class-wp-site-health.php:657
 #: wp-admin/includes/dashboard.php:1638
 msgid "Learn more about updating PHP"
 msgstr "معرفة المزيد حول تحديثات PHP"
-
-#: wp-admin/includes/dashboard.php:1631
-msgid "PHP is the programming language we use to build and maintain WordPress. Newer versions of PHP are both faster and more secure, so updating will have a positive effect on your site’s performance."
-msgstr "PHP هي لغة البرمجة التي نستخدمها لبناء وصيانة ووردبريس. تكون الإصدارات الأحدث من PHP أسرع وأكثر أماناً. لذا سيكون للتحديث تأثيرًا إيجابيًا على أداء موقعك."
 
 #: wp-admin/includes/dashboard.php:1630
 msgid "What is PHP and how does it affect my site?"
@@ -1833,9 +1843,14 @@ msgid "This plugin doesn&#8217;t work with your version of WordPress."
 msgstr "هذه الإضافة لا تعمل مع إصدار ووردبريس الخاص بك."
 
 #. translators: %s: "Update PHP" page URL
+#. translators: %s: Update PHP page URL
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:663
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:682
-#: wp-admin/update-core.php:305
+#: wp-admin/includes/update-core.php:952
+#: wp-admin/install.php:247
+#: wp-admin/update-core.php:80
+#: wp-admin/update-core.php:313
+#: wp-admin/upgrade.php:89
 msgid "<a href=\"%s\">Learn more about updating PHP</a>."
 msgstr "<a href=\"%s\">معرفة المزيد عن تحديثات PHP</a>."
 
@@ -1861,6 +1876,8 @@ msgid "Cannot Install"
 msgstr "لا يمكن التنصيب"
 
 #. translators: %s: WordPress version
+#: wp-admin/about.php:72
+#: wp-admin/about.php:97
 #: wp-admin/includes/update.php:267
 #: wp-admin/install.php:242
 #: wp-admin/update-core.php:75
@@ -1880,11 +1897,11 @@ msgctxt "plugin"
 msgid "Resume %s"
 msgstr "استئناف %s"
 
-#: wp-admin/includes/theme.php:903
+#: wp-admin/includes/theme.php:908
 msgid "You can find more details and make changes on the Themes screen."
 msgstr "يمكنك العثور على مزيد من التفاصيل وإجراء تغييرات على شاشة القوالب."
 
-#: wp-admin/includes/theme.php:902
+#: wp-admin/includes/theme.php:907
 msgid "One or more themes failed to load properly."
 msgstr "فشل تحميل قالب واحد أو أكثر بشكل صحيح."
 
@@ -1893,7 +1910,7 @@ msgstr "فشل تحميل قالب واحد أو أكثر بشكل صحيح."
 msgid "Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the default category %s. The default category cannot be deleted."
 msgstr "لا يؤدي حذف تصنيف إلى حذف المقالات من ذلك التصنيف. بدلاً من ذلك، سيتم تعيين المقالات الموجودة فقط في التصنيف المحذوف إلى التصنيف الافتراضي %s. التصنيف الافتراضي لا يمكن حذفه."
 
-#: wp-admin/includes/theme.php:875
+#: wp-admin/includes/theme.php:880
 msgid "Could not resume the theme."
 msgstr "لا يمكن استئناف القالب."
 
@@ -1930,35 +1947,35 @@ msgstr "الرجاء تنصيب <a href=\"%s\">إضافة المحرر التق�
 msgid "This meta box isn't compatible with the block editor."
 msgstr "لا يتوافق حقل التعريف هذا مع مُحرر المكوّنات."
 
-#: wp-admin/freedoms.php:82
+#: wp-admin/freedoms.php:117
 msgid "To distribute copies of your modified versions to others."
 msgstr "توزيع نسخ من إصداراتك المعدلة للآخرين."
 
-#: wp-admin/freedoms.php:81
+#: wp-admin/freedoms.php:116
 msgid "The 4th Freedom"
 msgstr "الحرية الرابعة"
 
-#: wp-admin/freedoms.php:77
+#: wp-admin/freedoms.php:112
 msgid "To redistribute."
 msgstr "إعادة التوزيع."
 
-#: wp-admin/freedoms.php:76
+#: wp-admin/freedoms.php:111
 msgid "The 3rd Freedom"
 msgstr "الحرية الثالثة"
 
-#: wp-admin/freedoms.php:72
+#: wp-admin/freedoms.php:107
 msgid "To study how the program works and change it to make it do what you wish."
 msgstr "معرفة الطريقة التي يعمل فيها برنامج ووردبريس وإجراء أي تعديل لتجعله يعمل بالطريقة التي تناسبك."
 
-#: wp-admin/freedoms.php:71
+#: wp-admin/freedoms.php:106
 msgid "The 2nd Freedom"
 msgstr "الحرية الثانية"
 
-#: wp-admin/freedoms.php:67
+#: wp-admin/freedoms.php:102
 msgid "To run the program for any purpose."
 msgstr "تشغيل البرنامج لأي غرض كان."
 
-#: wp-admin/freedoms.php:66
+#: wp-admin/freedoms.php:101
 msgid "The 1st Freedom"
 msgstr "الحرية الأولى"
 
@@ -1968,39 +1985,10 @@ msgctxt "CSS Font Family for Editor Font"
 msgid "Noto Serif"
 msgstr "Noto Serif"
 
-#: wp-admin/about.php:141
-msgid "Note to users of assistive technology: if you experience usability issues with the block editor, we recommend you continue to use the Classic Editor."
-msgstr "ملاحظة لمستخدمي تقنيات المساعدة: إذا واجهت مشكلات في تجربة وقابلية الاستخدام مع مُحرر المكوّنات، فإننا نوصيك بالاستمرار في استخدام المحرر التقليدي Classic Editor."
-
-#: wp-admin/about.php:140
-msgid "The Classic Editor plugin restores the previous WordPress editor and the Edit Post screen. It lets you keep using plugins that extend it, add old-style meta boxes, or otherwise depend on the previous editor. To install, visit your plugins page and click the &#8220;Install Now&#8221; button next to &#8220;Classic Editor&#8221;. After the plugin finishes installing, click &#8220;Activate&#8221;. That’s it!"
-msgstr "يستعيد المحرر التقليدي Classic Editor المحرر السابق لـ ووردبريس وشاشة تحرير المقالة التقليدية. يتيح لك الاستمرار في استخدام الإضافات التي تعزز عملها، وإضافة النمط القديم لمظهر حقول الميتا التعريفية المخصصة، أو الاعتماد بصورة أخرى على المحرر السابق. للتثبيت، انتقل إلى صفحة الإضافات وأنقر على زر  &#8220;التنصيب الآن&#8221; بجانب &#8220;المحرر التقليدي Classic Editor&#8221;. بعد انتهاء التنصيب، أنقر على &#8220;تفعيل&#8221;. هذا كل شيء!"
-
-#: wp-admin/about.php:139
-msgid "Prefer to stick with the familiar Classic Editor? No problem! Support for the Classic Editor plugin will remain in WordPress through 2021."
-msgstr "هل تُفضّل التمسّك بالمحرر التقليدي المألوف؟ لا مشكلة! سيظل الدعم لإضافة المحرر التقليدي Classic Editor في ووردبريس مستمرًا حتى عام 2021."
-
-#: wp-admin/about.php:135
-msgid "Keep it Classic"
-msgstr "الاحتفاظ بالمُحرر التقليدي"
-
-#: wp-admin/about.php:122
-msgid "Learn how to get started"
-msgstr "تعرّف على كيفية البدء"
-
-#: wp-admin/about.php:77
-msgid "Build your first post"
-msgstr "بناء مقالتك الأولى"
-
 #. translators: first post content, %s: site link
 #: wp-admin/includes/upgrade.php:212
 msgid "Welcome to WordPress. This is your first post. Edit or delete it, then start writing!"
 msgstr "مرحباً بك في ووردبريس. هذه مقالتك الأولى. حررّها أو احذفها، ثم ابدأ النشر!"
-
-#: wp-admin/credits.php:23
-#: wp-admin/freedoms.php:33
-msgid "Thank you for updating to the latest version! WordPress %s introduces a robust new content creation experience."
-msgstr "شكراً لك على التحديث لأحدث نسخة! ووردبريس %s يقدّم تجربة جديدة هائلة لإنشاء المحتوى."
 
 #. translators: first page content, %s: site admin URL
 #: wp-admin/includes/upgrade.php:302
@@ -2095,13 +2083,13 @@ msgid "This meta box, from the %s plugin, isn't compatible with the block editor
 msgstr "هذا الصندوق التعريفي، من الإضافة %s، غير متوافق مع مُحرر المكوّنات."
 
 #. translators: Header for the About section in a personal data export.
-#: wp-admin/includes/file.php:2309
+#: wp-admin/includes/file.php:2342
 msgctxt "personal data group label"
 msgid "About"
 msgstr "حول"
 
 #. translators: Page title of the About WordPress page in the admin.
-#: wp-admin/about.php:15
+#: wp-admin/about.php:13
 msgctxt "page title"
 msgid "About"
 msgstr "حول"
@@ -2114,10 +2102,6 @@ msgstr "https://ar.wordpress.org/plugins/classic-editor/"
 #: wp-admin/privacy.php:63
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
-
-#: wp-admin/about.php:144
-msgid "Install the Classic Editor"
-msgstr "تنصيب المحرر التقليدي"
 
 #. translators: 1: URL to edit Privacy Policy page, 2: URL to preview Privacy
 #. Policy page
@@ -2149,7 +2133,7 @@ msgstr "يجب إضافة محتوى سياسة الخصوصية المقترح 
 msgid "The suggested privacy policy content should be added only in wp-admin by using the %s (or later) action."
 msgstr "يجب إضافة محتوى سياسة الخصوصية المقترح في wp-admin فقط باستخدام الإجراء %s (أو أحدث)."
 
-#: wp-admin/includes/file.php:2247
+#: wp-admin/includes/file.php:2280
 msgid "Unable to create export folder."
 msgstr "غير قادر على إنشاء مجلد التصدير."
 
@@ -2552,22 +2536,22 @@ msgstr "فشل الحذف الإجباري."
 msgid "Email could not be sent."
 msgstr "تعذر إرسال البريد الإلكتروني."
 
-#: wp-admin/includes/file.php:2325
+#: wp-admin/includes/file.php:2358
 msgctxt "date/time"
 msgid "On"
 msgstr "في"
 
-#: wp-admin/includes/file.php:2321
+#: wp-admin/includes/file.php:2354
 msgctxt "website URL"
 msgid "At URL"
 msgstr "رابط الموقع"
 
-#: wp-admin/includes/file.php:2317
+#: wp-admin/includes/file.php:2350
 msgctxt "website name"
 msgid "For site"
 msgstr "اسم الموقع"
 
-#: wp-admin/includes/file.php:2313
+#: wp-admin/includes/file.php:2346
 msgctxt "email address"
 msgid "Report generated for"
 msgstr "تم إنشاء التقرير لـ"
@@ -2725,7 +2709,7 @@ msgstr "إنسخ النص المقترح لسياسة الخصوصية من %s."
 
 #. translators: Do not translate EXPIRATION, LINK, SITENAME, SITEURL: those are
 #. placeholders.
-#: wp-admin/includes/file.php:2433
+#: wp-admin/includes/file.php:2466
 msgid ""
 "Howdy,\n"
 "\n"
@@ -2753,7 +2737,7 @@ msgstr ""
 "عبر ###SITENAME###\n"
 "###SITEURL###"
 
-#: wp-admin/includes/file.php:2373
+#: wp-admin/includes/file.php:2406
 msgid "Unable to add data to export file."
 msgstr "غير قادر على إضافة بيانات لملف التصدير."
 
@@ -2769,53 +2753,53 @@ msgstr "يتم إرسال البريد الإلكتروني..."
 msgid "Download Personal Data Again"
 msgstr "تنزيل البيانات الشخصية مرة أخرى"
 
-#: wp-admin/includes/file.php:2535
+#: wp-admin/includes/file.php:2568
 msgid "Invalid request ID when merging exporter data."
 msgstr "معرّف طلب غير صالح عند دمج بيانات المصدّر."
 
-#: wp-admin/includes/file.php:2490
+#: wp-admin/includes/file.php:2523
 msgid "Unable to send personal data export email."
 msgstr "غير قادر على إرسال بريد إلكتروني لتصدير البيانات الشخصية."
 
 #. translators: Personal data export notification email subject. %s: Site title
-#: wp-admin/includes/file.php:2479
+#: wp-admin/includes/file.php:2512
 msgid "[%s] Personal Data Export"
 msgstr "تصدير البيانات الشخصية [%s]"
 
-#: wp-admin/includes/file.php:2416
+#: wp-admin/includes/file.php:2449
 msgid "Invalid request ID when sending personal data export email."
 msgstr "معرّف طلب غير صالح عند إرسال بريد إلكتروني لتصدير البيانات الشخصية."
 
-#: wp-admin/includes/file.php:2392
+#: wp-admin/includes/file.php:2425
 msgid "Unable to open export file (archive) for writing."
 msgstr "غير قادر على فتح ملف التصدير (الأرشيف) للكتابة."
 
-#: wp-admin/includes/file.php:2301
+#: wp-admin/includes/file.php:2334
 msgid "Personal Data Export"
 msgstr "تصدير البيانات الشخصية"
 
 #. translators: %s: user's email address
-#: wp-admin/includes/file.php:2274
+#: wp-admin/includes/file.php:2307
 msgid "Personal Data Export for %s"
 msgstr "تصدير البيانات الشخصية لـ %s"
 
-#: wp-admin/includes/file.php:2269
+#: wp-admin/includes/file.php:2302
 msgid "Unable to open export file (HTML report) for writing."
 msgstr "غير قادر على فتح ملف التصدير (تقرير HTML) للكتابة."
 
-#: wp-admin/includes/file.php:2255
+#: wp-admin/includes/file.php:2288
 msgid "Unable to protect export folder from browsing."
 msgstr "غير قادر على حماية مجلد التصدير من الاستعراض."
 
-#: wp-admin/includes/file.php:2239
+#: wp-admin/includes/file.php:2272
 msgid "Invalid email address when generating export file."
 msgstr "عنوان بريد إلكتروني غير صالح أثناء توليد ملف التصدير."
 
-#: wp-admin/includes/file.php:2233
+#: wp-admin/includes/file.php:2266
 msgid "Invalid request ID when generating export file."
 msgstr "معرّف الطلب غير صالح عند توليد ملف التصدير."
 
-#: wp-admin/includes/file.php:2226
+#: wp-admin/includes/file.php:2259
 msgid "Unable to generate export file. ZipArchive not available."
 msgstr "غير قادر على توليد ملف التصدير. صيغة الملف ZipArchive غير متاحة."
 
@@ -2990,7 +2974,8 @@ msgstr "إصدار PHP المطلوب:"
 msgid "This changeset cannot be further modified."
 msgstr "لا يمكن تعديل حزمة التغييرات هذه مرة أخرى."
 
-#: wp-admin/freedoms.php:49
+#. translators: %s: https://wordpress.org/about/stats
+#: wp-admin/freedoms.php:74
 msgid "This data is used to provide general enhancements to WordPress, which includes helping to protect your site by finding and automatically installing new updates. It is also used to calculate statistics, such as those shown on the <a href=\"%s\">WordPress.org stats page</a>."
 msgstr "تُستخدم هذه البيانات لتقديم تحسينات عامة لووردبريس، والتي تضمن حماية موقعك عن طريق العثور وتنزيل أحدث التحديثات تلقائياً. وتستخدم أيضاً في حساب الإحصائيات، كهذه التي تظهر على <a href=\"%s\">صفحة إحصائيات ووردبريس</a>."
 
@@ -3003,7 +2988,7 @@ msgstr "لا حاجة لتعديل ملف تنسيقات CSS الخاص بك ه�
 msgid "Did you know?"
 msgstr "هل تعلم؟"
 
-#: wp-admin/credits.php:127
+#: wp-admin/credits.php:146
 msgid "Noteworthy Contributors"
 msgstr "مساهمون جديرون بالإشارة إليهم"
 
@@ -3068,15 +3053,16 @@ msgstr "https://codex.wordpress.org/Giving_WordPress_Its_Own_Directory"
 msgid "Enter the address here if you <a href=\"%s\">want your site home page to be different from your WordPress installation directory</a>."
 msgstr "أدخل العنوان هنا إذا كنت <a href=\"%s\">تريد الصفحة الرئيسية لموقعك أن تكون مختلفة عن مجلّد تنصيب ووردبريس.</a>."
 
-#: wp-admin/about.php:84
+#: wp-admin/about.php:175
 msgid "Developer Happiness"
 msgstr "سعادة المطوِّر"
 
-#: wp-admin/freedoms.php:51
+#. translators: %s: https://wordpress.org/about/privacy
+#: wp-admin/freedoms.php:81
 msgid "We take privacy and transparency very seriously. To learn more about what data we collect, and how we use it, please visit <a href=\"%s\">WordPress.org/about/privacy</a>."
 msgstr "نحن نأخذ الخصوصية والشفافية على محمل الجد. لمعرفة المزيد عن نوعية البيانات التي نجمعها وكيف نستخدمها فضلاً قم بزيارة <a href=\"%s\">WordPress.org/about/privacy</a>."
 
-#: wp-admin/freedoms.php:47
+#: wp-admin/freedoms.php:69
 msgid "From time to time, your WordPress site may send data to WordPress.org &#8212; including, but not limited to &#8212; the version of WordPress you are using, and a list of installed plugins and themes."
 msgstr "من وقت لآخر، قد يقوم موقع ووردبريس الخاص بك بإرسال البيانات إلى WordPress.org &#8212; بما في ذلك، على سبيل المثال لا الحصر &#8212; إصدار ووردبريس الذي تستخدمه، وقائمة الإضافات والقوالب المنصّبة."
 
@@ -3291,7 +3277,7 @@ msgstr "%s يقوم بتحرير هذا المقال بالفعل."
 msgid "%s is already editing this post. Do you want to take over?"
 msgstr "%s يقوم بتحرير هذا المقال بالفعل. هل تريد الاستيلاء على التحرير بدلاً منه؟"
 
-#: wp-admin/includes/ms.php:1171
+#: wp-admin/includes/ms.php:1175
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\">Documentation on Site Management</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\">دليل إدارة الموقع</a>"
 
@@ -3308,23 +3294,23 @@ msgstr "سكربت تنصيب مخصص."
 msgid "Active Installations:"
 msgstr "التنصيبات النشطة:"
 
-#: wp-admin/includes/ms.php:1158
+#: wp-admin/includes/ms.php:1162
 msgid "<strong>Settings</strong> &mdash; This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
 msgstr "<strong>إعدادات</strong> &mdash; هذه الصفحة تظهر لك قائمة بجميع الإعدادات المرتبطة بهذا الموقع. بعض هذه الإعدادات مصدرها من سكربت ووردبريس والبعض الآخر ربما يكون مصدرها من الإضافات التي قمت بتركيبها وتفعيلها. ستلاحظ أنّ بعض الحقول لونها رمادي وهي غير قابلة للتعديل، والسبب يعود إلى طريقة حفظ هذه البيانات في قاعدة البيانات."
 
-#: wp-admin/includes/ms.php:1157
+#: wp-admin/includes/ms.php:1161
 msgid "<strong>Themes</strong> &mdash; This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
 msgstr "<strong>قوالب</strong> &mdash; هذه المنطقة تعرض لك قائمة القوالب غير المفعّلة عبر الشبكة. تفعيل قالب في هذه القائمة يتيح إمكانية الدخول إلى الموقع. لن يؤدي إلى مباشرةً إلى تفعيله، لكن سيجعل القالب يظهر ضمن قائمة القوالب المتاحة للاستخدام في الموقع. لتفعيل قالب وجعله متاحاً لكافة المواقع على الشبكة، شاهد صفحة <a href=\"%s\">قوالب الشبكة</a>."
 
-#: wp-admin/includes/ms.php:1156
+#: wp-admin/includes/ms.php:1160
 msgid "<strong>Users</strong> &mdash; This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
 msgstr "<strong>أعضاء</strong> &mdash; هناك تظهر قائمة الأعضاء المرتبطين بهذا الموقع الذي تقوم بتحريره. تستطيع أن تغيّر رُتبة الأعضاء، ويمكنك أيضاً إعادة تعيين كلمة المرور الخاصة بهم، أو حذفهم من الموقع. حذف العضو من الموقع لا يؤدي إلى حذفه من الشبكة."
 
-#: wp-admin/includes/ms.php:1155
+#: wp-admin/includes/ms.php:1159
 msgid "<strong>Info</strong> &mdash; The site URL is rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
 msgstr "<strong>معلومة</strong> &mdash; نادراً ما يتم تعديل رابط النطاق والمسار لأنّ هذا الأمر قد يؤدي إلى حصول خلل في عمل الموقع. يظهر لديك أيضاً تاريخ تسجيل الموقع وآخر تحديث له. يستطيع مدراء الشبكة أن يعدّلوا على حالة الموقع وجعله: منشور، مؤرشف، مزعج، محذوف، وللبالغين، لإزالتها من القوائم العامة أو تعطيلها."
 
-#: wp-admin/includes/ms.php:1154
+#: wp-admin/includes/ms.php:1158
 msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
 msgstr "القائمة هي لتعديل المعلومات الخاصة بالمواقع الفردية، خصوصاً إذا كانت منطقة المدير لأحد المواقع غير متوفرة."
 
@@ -3485,7 +3471,7 @@ msgstr "إخفاء عناصر التحكم"
 msgid "Expand Sidebar"
 msgstr "توسيع الشريط الجانبي"
 
-#: wp-admin/nav-menus.php:951
+#: wp-admin/nav-menus.php:955
 msgid "Display location"
 msgstr "عرض الموقع"
 
@@ -3506,11 +3492,6 @@ msgstr "إذا كنت بحاجة لإعادة تنصيب النسخة %s، يم�
 msgid "You are using a development version of WordPress. You can update to the latest nightly build automatically:"
 msgstr "أنت تستخدم نسخة المطوّرين من ووردبريس. يمكنك التحديث إلى أحدث نسخة تلقائيًا:"
 
-#: wp-admin/themes.php:323
-#: wp-admin/themes.php:485
-msgid "New version available."
-msgstr "نسخة جديدة مُتاحة."
-
 #: wp-admin/theme-install.php:232
 msgid "Edit Filters"
 msgstr "تحرير المُرشحات"
@@ -3530,6 +3511,7 @@ msgid "Choose either a city in the same timezone as you or a UTC timezone offset
 msgstr "اختر مدينة لها نفس منطقتك الزمنية أو منطقة زمنية بمعيار UTC. "
 
 #. translators: %s: number of ratings
+#: wp-admin/includes/theme.php:729
 #: wp-admin/theme-install.php:341
 msgid "(%s ratings)"
 msgstr "(%s تقييماً)"
@@ -3565,7 +3547,7 @@ msgstr "أقل من 10"
 msgid "Sorry, you are not allowed to attach files to this post."
 msgstr "عذرًا، غير مسموح لك بإرفاق ملفات لهذه المقالة."
 
-#: wp-admin/freedoms.php:92
+#: wp-admin/freedoms.php:131
 #: wp-admin/includes/plugin-install.php:262
 #: wp-admin/includes/plugin-install.php:679
 #: wp-admin/plugin-install.php:86
@@ -3628,7 +3610,7 @@ msgstr "أصلي"
 #: wp-admin/theme-install.php:130
 #: wp-admin/themes.php:145
 #: wp-admin/tools.php:36
-#: wp-admin/update-core.php:650
+#: wp-admin/update-core.php:658
 #: wp-admin/upload.php:76
 #: wp-admin/upload.php:250
 #: wp-admin/user-edit.php:68
@@ -3762,10 +3744,10 @@ msgid "Sorry, you are not allowed to update themes for this site."
 msgstr "عفوًا، غير مسموح لك بتحديث قوالب هذا الموقع."
 
 #: wp-admin/update-core.php:23
-#: wp-admin/update-core.php:720
-#: wp-admin/update-core.php:756
-#: wp-admin/update-core.php:794
-#: wp-admin/update-core.php:834
+#: wp-admin/update-core.php:728
+#: wp-admin/update-core.php:764
+#: wp-admin/update-core.php:802
+#: wp-admin/update-core.php:842
 msgid "Sorry, you are not allowed to update this site."
 msgstr "عذرًا، غير مسموح لك بتحديث هذا الموقع."
 
@@ -3931,7 +3913,6 @@ msgid "Close media attachment panel"
 msgstr "إغلاق لوحة المرفق"
 
 #: wp-admin/includes/ms.php:1075
-#: wp-admin/site-health.php:59
 msgid "Info"
 msgstr "المعلومات"
 
@@ -4065,11 +4046,11 @@ msgstr "عذرًا، ﻻ يُسمح لك بتخصيص الترويسة."
 msgid "Sorry, you are not allowed to import content."
 msgstr "عذرًا، ﻻ يُسمح لك باستيراد محتوى."
 
-#: wp-admin/credits.php:132
+#: wp-admin/credits.php:151
 msgid "Release Deputy"
 msgstr "نائب الإصدار"
 
-#: wp-admin/credits.php:131
+#: wp-admin/credits.php:150
 msgid "Release Design Lead"
 msgstr "قائد تصميم الإصدار"
 
@@ -4191,7 +4172,7 @@ msgstr "تمّ تحديث ملف الوسائط."
 #: wp-admin/includes/update.php:591
 #: wp-admin/includes/update.php:604
 #: wp-admin/includes/update.php:617
-#: wp-admin/update-core.php:328
+#: wp-admin/update-core.php:336
 msgid "View %1$s version %2$s details"
 msgstr "عرض تفاصيل النسخة %2$s من %1$s"
 
@@ -4235,7 +4216,7 @@ msgstr "تمّ تفعيل القالب الجديد."
 msgid "Settings saved and theme activated."
 msgstr "تمّ حفظ الإعدادات وتفعيل القالب."
 
-#: wp-admin/freedoms.php:93
+#: wp-admin/freedoms.php:132
 #: wp-admin/theme-install.php:97
 #: wp-admin/themes.php:114
 msgid "https://wordpress.org/themes/"
@@ -4277,17 +4258,17 @@ msgstr "التوقيت العالمي (%1$s) هو %2$s."
 msgid "There is a pending change of the admin email to %s."
 msgstr "هناك تغيير بانتظار الموافقة لعنوان بريد الإدارة الإلكتروني إلى %s."
 
-#: wp-admin/install.php:388
+#: wp-admin/install.php:396
 msgid "WordPress has been installed. Thank you, and enjoy!"
 msgstr "تم تنصيب ووردبريس بنجاح. شكرًا لك، ونأمل أن تستمتع بموقعك الجديد!"
 
 #. translators: %s: DO_NOT_UPGRADE_GLOBAL_TABLES
-#: wp-admin/install.php:281
+#: wp-admin/install.php:289
 msgid "The constant %s cannot be defined when installing WordPress."
 msgstr "الثابت %s لا يمكن تعريفه أثناء تنصيب ووردبريس."
 
 #. translators: %s: wp-config.php
-#: wp-admin/install.php:268
+#: wp-admin/install.php:276
 msgid "Your %s file has an empty database table prefix, which is not supported."
 msgstr "ملف %s الخاص بك يحتوي على قيمة فارغة لبادئة جداول قاعدة البيانات، القيمة الفارغة غير مدعومة."
 
@@ -4409,8 +4390,8 @@ msgid "Another update is currently in progress."
 msgstr "تحديث آخر جاري حاليًا."
 
 #: wp-admin/includes/class-plugin-upgrader-skin.php:49
-#: wp-admin/update-core.php:778
-#: wp-admin/update-core.php:817
+#: wp-admin/update-core.php:786
+#: wp-admin/update-core.php:825
 msgid "Update progress"
 msgstr "جاري التحديث"
 
@@ -4559,13 +4540,14 @@ msgstr "إرسال بريد الكتروني للعضو الجديد عن حسا
 msgid "Send User Notification"
 msgstr "إرسال إشعار للمستخدم"
 
-#: wp-admin/nav-menus.php:961
+#. translators: %s: menu name
+#: wp-admin/nav-menus.php:965
 msgctxt "menu location"
 msgid "(Currently set to: %s)"
 msgstr "(حاليًا معيّنة لـ: %s)"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:179
+#: wp-admin/about.php:235
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>النسخة %s</strong> عالجت مشكلة أمنية واحدة."
 
@@ -4581,15 +4563,16 @@ msgstr "يمكنك تغيير صورة حسابك من <a href=\"%s\">Gravatar</
 msgid "Profile Picture"
 msgstr "صورة الحساب"
 
-#: wp-admin/about.php:176
+#: wp-admin/about.php:52
+#: wp-admin/about.php:232
 msgid "Maintenance and Security Releases"
 msgstr "الإصدارات الأمنية والصيانة"
 
-#: wp-admin/about.php:173
+#: wp-admin/about.php:229
 msgid "Security Releases"
 msgstr "الإصدارات الأمنية"
 
-#: wp-admin/about.php:170
+#: wp-admin/about.php:226
 msgid "Maintenance Releases"
 msgstr "إصدارات الصيانة"
 
@@ -5286,7 +5269,7 @@ msgstr "بينما وأنت تقوم بتحرير الملف %1$s الخاص ب�
 msgid "Show more details"
 msgstr "عرض المزيد من التفاصيل"
 
-#: wp-admin/nav-menus.php:654
+#: wp-admin/nav-menus.php:658
 msgid "Your theme supports %s menu. Select which menu appears in each location."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
 msgstr[0] "القالب الخاص بك يدعم  %s قوائم. حدّد مكان ظهور كل قائمة."
@@ -5452,7 +5435,7 @@ msgstr "<a href=\"https://codex.wordpress.org/Administration_Screens#Comments\">
 msgid "<a href=\"https://codex.wordpress.org/Posts_Add_New_Screen\">Documentation on Writing and Editing Posts</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Posts_Add_New_Screen\">وثائق المساعدة - كتابة و تحرير المقالات</a>"
 
-#: wp-admin/update-core.php:649
+#: wp-admin/update-core.php:657
 msgid "<a href=\"https://codex.wordpress.org/Dashboard_Updates_Screen\">Documentation on Updating WordPress</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Dashboard_Updates_Screen\">وثائق المساعدة - تحديث ووردبريس</a>"
 
@@ -5526,7 +5509,7 @@ msgstr "<a href=\"https://codex.wordpress.org/Comment_Spam\">وثائق المس
 msgid "<a href=\"https://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date and time formatting</a>."
 msgstr "<a href=\"https://codex.wordpress.org/Formatting_Date_and_Time\">وثائق المساعدة - تنسيق الوقت والتاريخ</a>."
 
-#: wp-admin/update-core.php:201
+#: wp-admin/update-core.php:209
 msgid "<strong>Important:</strong> Before updating, please <a href=\"https://codex.wordpress.org/WordPress_Backups\">back up your database and files</a>. For help with updates, visit the <a href=\"https://codex.wordpress.org/Updating_WordPress\">Updating WordPress</a> Codex page."
 msgstr "<strong>مهم:</strong> من فضلك، قبل التحديث قم بأخذ <a href=\"https://codex.wordpress.org/WordPress_Backups\">نسخة احتياطية لقاعدة البيانات وللملفات الأخرى</a>. للمزيد من المعلومات عن عملية التحديث، قم بزيارة صفحة Codex لـ <a href=\"https://codex.wordpress.org/Updating_WordPress\">تحديث ووردبريس</a>."
 
@@ -5584,7 +5567,7 @@ msgstr "https://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments"
 msgid "The <a href=\"https://codex.wordpress.org/Glossary#Character_set\">character encoding</a> of your site (UTF-8 is recommended)"
 msgstr "<a href=\"https://codex.wordpress.org/Glossary#Character_set\">ترميز</a> موقعك (مفضّل أن يكون UTF-8)"
 
-#: wp-admin/includes/file.php:2066
+#: wp-admin/includes/file.php:2099
 msgid "example: www.wordpress.org"
 msgstr "مثال: www.wordpress.org"
 
@@ -5645,7 +5628,7 @@ msgstr "فصل"
 msgid "Main menu"
 msgstr "القائمة الرئيسية"
 
-#: wp-admin/includes/file.php:2117
+#: wp-admin/includes/file.php:2150
 msgid "Enter the location on the server where the public and private keys are located. If a passphrase is needed, enter that in the password field above."
 msgstr "أدخل الموقع على الخادم حيث تتواجد المفاتيح العامة والخاصة. إذا كانت هناك حاجة لكلمة مرور، أدخلها في حقل كلمة المرور أعلاه."
 
@@ -5764,7 +5747,7 @@ msgstr "d-m-Y H:i:s"
 msgid "You can log out of other devices, such as your phone or a public computer, by clicking the Log Out Everywhere Else button."
 msgstr "يمكنك تسجيل الخروج من الأجهزة الأخرى، مثل الهاتف أو جهاز كمبيوتر عام، عن طريق النقر على زر تسجيل الخروج من جميع الجلسات الأخرى."
 
-#: wp-admin/update-core.php:481
+#: wp-admin/update-core.php:489
 msgid "New translations are available."
 msgstr "تتوفر ترجمات جديدة."
 
@@ -5917,7 +5900,7 @@ msgstr "تسجيل الخروج من كل مكان"
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:109
 msgctxt "Plugin Installer"
 msgid "Recommended"
-msgstr "موصى به"
+msgstr "موصى بها"
 
 #: wp-admin/includes/upgrade.php:588
 msgid ""
@@ -6053,7 +6036,7 @@ msgstr "مرحبًا"
 msgid "If you like, you may enter custom structures for your category and tag URLs here. For example, using <code>topics</code> as your category base would make your category links like <code>%s/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
 msgstr "بإمكانك أيضاً تغيير تركيبة روابط التصنيفات والوسوم، مثلاً إذا كتبت <code>topics</code> ستصبح روابط التصنيفات كالتالي <code>%s/topics/uncategorized/</code>. إذا لم ترغب في تغييرها اترك الحقول التالية فارغة."
 
-#: wp-admin/credits.php:130
+#: wp-admin/credits.php:149
 msgid "Release Lead"
 msgstr "قائد الإصدار"
 
@@ -6102,7 +6085,7 @@ msgstr "لم تعد هناك حاجة إلى الثابت %1$s في ملف %2$s.
 msgid "Invalid translation type."
 msgstr "نوع الترجمة غير صالح."
 
-#: wp-admin/install.php:327
+#: wp-admin/install.php:335
 msgid "Welcome to the famous five-minute WordPress installation process! Just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "مرحبًا بك في معالج تنصيب الووردبريس، العملية ستستغرق 5 دقائق فقط!، املأ البيانات التالية وسوف تكون في طريقك لاستخدام منصة النشر الشخصي الأكثر قوةً وقابلية للتوسع في العالم."
 
@@ -6138,11 +6121,11 @@ msgstr "أضف المستخدم بدون ارسال رسالة بريدية تط
 msgid "The grid view for the Media Library requires JavaScript. <a href=\"%s\">Switch to the list view</a>."
 msgstr "عرض مكتبة الوسائط كشبكة يتطلب الجافاسكربت. <a href=\"%s\">التبديل إلى العرض كقائمة</a>."
 
-#: wp-admin/update-core.php:214
+#: wp-admin/update-core.php:222
 msgid "This site is set up to install updates of future beta versions automatically."
 msgstr "هذا الموقع معد لتثبيت تحديثات النسخ التجريبية المستقبلية تلقائياً."
 
-#: wp-admin/update-core.php:214
+#: wp-admin/update-core.php:222
 msgid "BETA TESTERS:"
 msgstr "مختبرو النسخة التجريبية:"
 
@@ -6213,7 +6196,7 @@ msgstr "الأداء"
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:105
 msgctxt "Plugin Installer"
 msgid "Beta Testing"
-msgstr "اختبار تجريبي"
+msgstr "إصدارات تجريبية تحت الاختبار"
 
 #. translators: %s: URL which cannot be embedded, between code tags
 #: wp-admin/includes/ajax-actions.php:3438
@@ -6370,12 +6353,12 @@ msgstr "إدارة القوائم"
 msgid "Manage widgets"
 msgstr "إدارة الودجات"
 
-#: wp-admin/credits.php:45
-#: wp-admin/credits.php:59
+#: wp-admin/credits.php:63
+#: wp-admin/credits.php:77
 msgid "https://make.wordpress.org/"
 msgstr "https://make.wordpress.org/"
 
-#: wp-admin/includes/ms.php:1172
+#: wp-admin/includes/ms.php:1176
 msgid "<a href=\"https://wordpress.org/support/forum/multisite/\">Support Forums</a>"
 msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\">منتديات الدعم</a>"
 
@@ -6391,31 +6374,34 @@ msgstr "نوع"
 msgid "Search installed themes..."
 msgstr "البحث في القوالب المنصّبة..."
 
-#: wp-admin/update-core.php:636
+#: wp-admin/update-core.php:644
 msgid "<strong>Translations</strong> &mdash; The files translating WordPress into your language are updated for you whenever any other updates occur. But if these files are out of date, you can <strong>click the &#8220;Update Translations&#8221;</strong> button."
 msgstr "<strong>الترجمات</strong> &mdash; الملفات المسؤولة عن ترجمة ووردبريس إلى لغتك يتم تحديثها عندما يتم أي تحديث. لكن في حال إذا كانت هذه الملفات قديمة، يمكنك <strong>النقر على زرّ &#8221;تحديث الترجمات&#8220;</strong>."
 
-#: wp-admin/update-core.php:632
+#: wp-admin/update-core.php:640
 msgid "In most cases, WordPress will automatically apply maintenance and security updates in the background for you."
 msgstr "في أغلب الحالات، ووردبريس ستطبق تلقائياً تحديثات الصيانة والآمان في الخلفية."
 
-#: wp-admin/update-core.php:632
+#: wp-admin/update-core.php:640
 msgid "<strong>WordPress</strong> &mdash; Updating your WordPress installation is a simple one-click procedure: just <strong>click on the &#8220;Update Now&#8221; button</strong> when you are notified that a new version is available."
 msgstr "<strong>ووردبريس</strong> &mdash; تحديث نسخة ووردبريس الخاصة بك إجراء بسيط يتم بنقرة زرّ: فقط <strong> انقر على زرّ &#8221;قم بالتحديث الآن&#8220;</strong> عندما يتم تنبيهك أن هناك نسخة جديدة متاحة."
 
-#: wp-admin/update-core.php:622
+#: wp-admin/update-core.php:630
 msgid "If an update is available, you&#8127;ll see a notification appear in the Toolbar and navigation menu."
 msgstr "في حالة توفر أي تحديث، سوف تلاحظ تنبيهاً يظهر في شريط الأدوات و قائمة التصفح."
 
-#: wp-admin/update-core.php:633
+#: wp-admin/update-core.php:641
 msgid "<strong>Themes and Plugins</strong> &mdash; To update individual themes or plugins from this screen, use the checkboxes to make your selection, then <strong>click on the appropriate &#8220;Update&#8221; button</strong>. To update all of your themes or plugins at once, you can check the box at the top of the section to select all before clicking the update button."
 msgstr "<strong>القوالب والإضافات</strong> &mdash; للتحديث الفردي للقوالب أو الإضافات، استخدم مربعات الاختيار لتحديد اختيارك، ثم <strong>انقر على زرّ &#8221;تحديث&#8220;</strong>. لتحديث كل القوالب أو الإضافات الخاصة بك مرة واحدة، يمكنك النقر على مربع الاختيار بأعلى القائمة لاختيار الكل قبل النقر على زرّ تحديث."
 
-#: wp-admin/update-core.php:621
+#: wp-admin/update-core.php:629
 msgid "On this screen, you can update to the latest version of WordPress, as well as update your themes, plugins, and translations from the WordPress.org repositories."
 msgstr "على هذه الشاشة، يمكنك التحديث إلى أحدث نسخة من الووردبريس، كما يمكنك أيضًا تحديث قوالبك، إضافاتك، وترجماتك من مستودعات WordPress.org."
 
-#: wp-admin/about.php:24
+#. translators: %s: The current WordPress version number
+#: wp-admin/about.php:23
+#: wp-admin/credits.php:24
+#: wp-admin/freedoms.php:38
 msgid "Welcome to WordPress&nbsp;%s"
 msgstr "مرحباً بك في ووردبريس&nbsp;%s"
 
@@ -6471,7 +6457,7 @@ msgstr "عند تفعيل هذا الخيار، سيتم إظهار تذكير �
 msgid "Accessibility Ready"
 msgstr "توفّر سهولة الوصول"
 
-#: wp-admin/includes/theme.php:741
+#: wp-admin/includes/theme.php:746
 #: wp-admin/themes.php:559
 msgid "This is a child theme of %s."
 msgstr "هذا قالب إبن لـ %s."
@@ -6583,7 +6569,7 @@ msgstr "أظهر القالب التالي"
 msgid "Show previous theme"
 msgstr "أظهر القالب السابق"
 
-#: wp-admin/includes/theme.php:735
+#: wp-admin/includes/theme.php:740
 #: wp-admin/themes.php:552
 msgid "Update Available"
 msgstr "التحديث متوفر"
@@ -6709,21 +6695,21 @@ msgstr "ووردبريس %s متوفرة أيضاً الآن."
 #: wp-admin/includes/class-core-upgrader.php:159
 #: wp-admin/includes/class-wp-upgrader.php:165
 #: wp-admin/includes/update-core.php:927
-#: wp-admin/includes/update-core.php:1014
-#: wp-admin/includes/update-core.php:1039
+#: wp-admin/includes/update-core.php:1027
+#: wp-admin/includes/update-core.php:1052
 msgid "The update cannot be installed because we will be unable to copy some files. This is usually due to inconsistent file permissions."
 msgstr "لا يمكن تثبيت التحديث لأننا سنكون غير قادرين على نسخ بعض الملفات. يحدث هذا عادة بسبب تصاريح غير مناسبة للملفات."
 
-#: wp-admin/update-core.php:472
+#: wp-admin/update-core.php:480
 msgid "Your translations are all up to date."
 msgstr "جميع ترجماتك محدّثة."
 
-#: wp-admin/update-core.php:471
 #: wp-admin/update-core.php:479
+#: wp-admin/update-core.php:487
 msgid "Translations"
 msgstr "الترجمات"
 
-#: wp-admin/update-core.php:195
+#: wp-admin/update-core.php:203
 msgid "Future security updates will be applied automatically."
 msgstr "التحديثات الأمنية المستقبلية سيتم تطبيقها تلقائياً."
 
@@ -6753,7 +6739,7 @@ msgid "If you experience any issues or need support, the volunteers in the WordP
 msgstr "إذا واجهتك أية مشكلات أو تحتاج للدعم، المتطوعون في منتديات الدعم الفني ربما يمكنهم المساعدة."
 
 #: wp-admin/includes/class-wp-automatic-updater.php:746
-#: wp-admin/update-core.php:622
+#: wp-admin/update-core.php:630
 msgid "Keeping your site updated is important for security. It also makes the internet a safer place for you and your readers."
 msgstr "من المهم أن تحافظ على موقعك محدثًا دائمًا من أجل الأمان. هذا أيضًا يجعل من الإنترنت مكانًا أكثر أمانًا لك ولقرائك."
 
@@ -6828,8 +6814,8 @@ msgid "Updating translations for %1$s (%2$s)&#8230;"
 msgstr "جاري تحديث الترجمات لـ %1$s (%2$s)&#8230;"
 
 #: wp-admin/includes/class-language-pack-upgrader-skin.php:31
-#: wp-admin/update-core.php:483
-#: wp-admin/update-core.php:844
+#: wp-admin/update-core.php:491
+#: wp-admin/update-core.php:852
 msgid "Update Translations"
 msgstr "تحديث الترجمات"
 
@@ -6837,7 +6823,7 @@ msgstr "تحديث الترجمات"
 msgid "Background updates"
 msgstr "التحديثات في الخلفية"
 
-#: wp-admin/includes/update-core.php:1080
+#: wp-admin/includes/update-core.php:1093
 msgid "There is not enough free disk space to complete the update."
 msgstr "لا توجد مساحة فارغة كافية على القرص لإكمال التحديث."
 
@@ -6898,35 +6884,35 @@ msgstr "يمكن عرض القوائم في المواضع المخصصة بال
 msgid "Your theme does not natively support menus, but you can use them in sidebars by adding a &#8220;Navigation Menu&#8221; widget on the <a href=\"%s\">Widgets</a> screen."
 msgstr "قالبك لا يدعم القوائم المخصصة، لكنك تستطيع استخدامها بإضافة ودجت &#8220;قائمة مخصصة&#8221; في صفحة <a href=\"%s\">الودجات</a>."
 
-#: wp-admin/install.php:377
+#: wp-admin/install.php:385
 msgid "Sorry, that isn&#8217;t a valid email address. Email addresses look like <code>username@example.com</code>."
 msgstr "عفواً، هذا عنوان بريد الكتروني غير صالح. عنوان البريد الالكتروني يجب أن يبدو مثل <code>username@example.com</code>."
 
-#: wp-admin/install.php:373
+#: wp-admin/install.php:381
 msgid "You must provide an email address."
 msgstr "يجب عليك تقديم عنوان بريد إلكتروني صالح."
 
-#: wp-admin/install.php:369
+#: wp-admin/install.php:377
 msgid "Your passwords do not match. Please try again."
 msgstr "كلمات المرور غير متطابقة، يرجى المحاولة مرة آخرى."
 
-#: wp-admin/install.php:365
+#: wp-admin/install.php:373
 msgid "The username you provided has invalid characters."
 msgstr "اسم المستخدم الذي قدمته يحتوي على أحرف غير صالحة."
 
-#: wp-admin/install.php:362
+#: wp-admin/install.php:370
 msgid "Please provide a valid username."
 msgstr "يرجى تقديم اسم مستخدم صالح."
 
-#: wp-admin/includes/update-core.php:1028
+#: wp-admin/includes/update-core.php:1041
 msgid "Copying the required files&#8230;"
 msgstr "جاري نسخ الملفات المطلوبة&#8230;"
 
-#: wp-admin/includes/update-core.php:958
+#: wp-admin/includes/update-core.php:971
 msgid "Preparing to install the latest version&#8230;"
 msgstr "جاري التحضير لتنصيب النسخة الأخيرة&#8230;"
 
-#: wp-admin/includes/file.php:2081
+#: wp-admin/includes/file.php:2114
 msgid "This password will not be stored on the server."
 msgstr "لن يتم تخزين كلمة المرور هذه على الخادم."
 
@@ -7212,7 +7198,7 @@ msgstr "العنصر الذي تحاول استعادته من سلة المهم
 msgid "The item you are trying to move to the Trash no longer exists."
 msgstr "العنصر الذي تحاول نقله إلى سلة  المهملات لم يعد موجودًا."
 
-#: wp-admin/nav-menus.php:900
+#: wp-admin/nav-menus.php:904
 msgid "Drag each item into the order you prefer. Click the arrow on the right of the item to reveal additional configuration options."
 msgstr "اسحب كل عنصر حسب الترتيب الذي تفضله. انقر فوق السهم الموجود على يسار العنصر للكشف عن خيارات تهيئة إضافية."
 
@@ -7256,33 +7242,33 @@ msgctxt "Followed by post revision info"
 msgid "From:"
 msgstr "من:"
 
-#: wp-admin/nav-menus.php:721
+#: wp-admin/nav-menus.php:725
 msgctxt "menu"
 msgid "Use new menu"
 msgstr "استخدم قائمة جديدة"
 
-#: wp-admin/nav-menus.php:702
+#: wp-admin/nav-menus.php:706
 msgctxt "menu"
 msgid "Edit"
 msgstr "تحرير"
 
-#: wp-admin/nav-menus.php:672
+#: wp-admin/nav-menus.php:676
 msgid "Select a Menu"
 msgstr "اختر قائمة"
 
-#: wp-admin/nav-menus.php:663
+#: wp-admin/nav-menus.php:667
 msgid "Assigned Menu"
 msgstr "القائمة المعينّة"
 
-#: wp-admin/nav-menus.php:662
+#: wp-admin/nav-menus.php:666
 msgid "Theme Location"
 msgstr "الموضع في القالب"
 
-#: wp-admin/nav-menus.php:639
+#: wp-admin/nav-menus.php:643
 msgid "Manage Locations"
 msgstr "إدارة مواضع القوائم"
 
-#: wp-admin/nav-menus.php:631
+#: wp-admin/nav-menus.php:633
 msgid "Edit Menus"
 msgstr "تحرير القوائم"
 
@@ -7404,11 +7390,11 @@ msgstr "مرفوض: %s"
 msgid "Capabilities"
 msgstr "الصلاحيات"
 
-#: wp-admin/nav-menus.php:927
+#: wp-admin/nav-menus.php:931
 msgid "Menu Settings"
 msgstr "إعدادات القائمة"
 
-#: wp-admin/nav-menus.php:862
+#: wp-admin/nav-menus.php:866
 msgid "Menu structure"
 msgstr "تركيبة القائمة"
 
@@ -7449,7 +7435,7 @@ msgstr "لا يمكنك نقل هذا العنصر إلى سلة المهملا�
 msgid "%s has taken over and is currently editing."
 msgstr "%s تولى التحرير ويقوم حاليًا بإجراء تغييرات."
 
-#: wp-admin/nav-menus.php:771
+#: wp-admin/nav-menus.php:775
 msgid "Select a menu to edit:"
 msgstr "اختر قائمة لتحريرها:"
 
@@ -7465,15 +7451,15 @@ msgstr "رائع! لقد قمت بإنجاز المطلوب في هذا الجز
 msgid "Client version"
 msgstr "نسخة العميل"
 
-#: wp-admin/nav-menus.php:942
+#: wp-admin/nav-menus.php:946
 msgid "Auto add pages"
 msgstr "اضافة الصفحات تلقائياً"
 
-#: wp-admin/nav-menus.php:914
+#: wp-admin/nav-menus.php:918
 msgid "Give your menu a name, then click Create Menu."
 msgstr "أعط القائمة الخاصة بك اسمًا، ثم انقر على إنشاء قائمة."
 
-#: wp-admin/nav-menus.php:900
+#: wp-admin/nav-menus.php:904
 msgid "Edit your default menu by adding or removing items. Drag each item into the order you prefer. Click Create Menu to save your changes."
 msgstr "حرّر القائمة الافتراضية الخاصة بك بواسطة إضافة أو إزالة عناصر. اسحب كل عنصر حسب الترتيب الذي تفضله. انقر فوق إنشاء قائمة لحفظ التغييرات."
 
@@ -7689,8 +7675,8 @@ msgstr "الظهور لمحركات البحث"
 msgid "You can also control the display of your content in RSS feeds, including the maximum number of posts to display and whether to show full text or a summary."
 msgstr "تستطيع أيضاً التحكّم بطريقة عرض المقالات ضمن الخلاصات (feeds)، بما في ذلك الحد الأقصى لعدد المقالات المعروضة وما إذا كان سيظهر النص كاملاً أو مختصراً."
 
-#: wp-admin/includes/update-core.php:1343
-#: wp-admin/update-core.php:569
+#: wp-admin/includes/update-core.php:1356
+#: wp-admin/update-core.php:577
 msgid "Welcome to WordPress %1$s. You will be redirected to the About WordPress screen. If not, click <a href=\"%2$s\">here</a>."
 msgstr "مرحباً بك في ووردبريس %1$s. سيتّم نقلك إلى صفحة &#8221;نبذة عن ووردبريس&#01;. إذا لم يتّم نقلك، أنقر <a href=\"%2$s\">هنا</a>."
 
@@ -7839,8 +7825,8 @@ msgstr "يمكن تحويل الوسوم بصورة انتقائية إلى تص
 #: wp-admin/includes/class-wp-posts-list-table.php:919
 #: wp-admin/includes/class-wp-terms-list-table.php:353
 #: wp-admin/includes/class-wp-users-list-table.php:466
-#: wp-admin/update-core.php:343
-#: wp-admin/update-core.php:428
+#: wp-admin/update-core.php:351
+#: wp-admin/update-core.php:436
 msgid "Select %s"
 msgstr "اختيار %s"
 
@@ -7938,8 +7924,8 @@ msgstr "يمكنك اختيار صورة من صور القالب الافترا
 msgid "This screen is used to customize the header section of your theme."
 msgstr "في هذه الشاشة يمكنك تنسيق الجزء العلوي (ترويسة) في القالب."
 
-#: wp-admin/install.php:265
-#: wp-admin/install.php:278
+#: wp-admin/install.php:273
+#: wp-admin/install.php:286
 msgid "Configuration Error"
 msgstr "خطأ في الإعدادات"
 
@@ -7956,8 +7942,8 @@ msgid "User deleted."
 msgstr "تمّ حذف العضو."
 
 #: wp-admin/includes/class-core-upgrader.php:36
-#: wp-admin/includes/file.php:1434
-#: wp-admin/includes/file.php:1559
+#: wp-admin/includes/file.php:1467
+#: wp-admin/includes/file.php:1592
 msgid "Could not copy files. You may have run out of disk space."
 msgstr "لا يمكن نسخ الملفات. ربما نفدت مساحة القرص."
 
@@ -8007,10 +7993,10 @@ msgstr "<strong>خطأ</strong>: يرجى إدخال اسم مستعار."
 #: wp-admin/includes/class-wp-list-table.php:1099
 #: wp-admin/includes/nav-menu.php:623
 #: wp-admin/includes/nav-menu.php:860
-#: wp-admin/update-core.php:265
-#: wp-admin/update-core.php:372
-#: wp-admin/update-core.php:412
-#: wp-admin/update-core.php:455
+#: wp-admin/update-core.php:273
+#: wp-admin/update-core.php:380
+#: wp-admin/update-core.php:420
+#: wp-admin/update-core.php:463
 msgid "Select All"
 msgstr "حدّد الكل"
 
@@ -8171,7 +8157,7 @@ msgid "There is a new version of %1$s available. <a href=\"%2$s\" %3$s>View vers
 msgstr "هُناك نسخة جديدة مُتاحة من %1$s. <a href=\"%2$s\" %3$s>عرض تفاصيل النسخة %4$s</a> <em>التحديث التلقائي غير مُتاح لهذا القالب.</em>."
 
 #: wp-admin/install.php:112
-#: wp-admin/install.php:326
+#: wp-admin/install.php:334
 msgctxt "Howdy"
 msgid "Welcome"
 msgstr "مرحبًا"
@@ -8497,7 +8483,9 @@ msgid "Show Toolbar when viewing site"
 msgstr "إظهار شريط الأدوات في واجهة الموقع"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:184
+#: wp-admin/about.php:57
+#: wp-admin/about.php:82
+#: wp-admin/about.php:240
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>النسخة %1$s</strong> عالجت %2$s أخطاء."
@@ -8509,7 +8497,7 @@ msgstr[5] "<strong>النسخة %1$s</strong> عالجت %2$s أخطاء."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:196
+#: wp-admin/about.php:252
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>النسخة %1$s</strong> عالجت بعض المشاكل الأمنية وأصلحت %2$s أخطاء."
@@ -8519,14 +8507,17 @@ msgstr[3] "<strong>النسخة %1$s</strong> عالجت بعض المشاكل �
 msgstr[4] "<strong>النسخة %1$s</strong> عالجت بعض المشاكل الأمنية وأصلحت %2$s خطأ."
 msgstr[5] "<strong>النسخة %1$s</strong> عالجت بعض المشاكل الأمنية وأصلحت %2$s أخطاء."
 
+#. translators: %s: HelpHub URL
 #. translators: %s: Codex URL
-#: wp-admin/about.php:202
+#: wp-admin/about.php:69
+#: wp-admin/about.php:94
+#: wp-admin/about.php:258
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "لمزيد من المعلومات، شاهد <a href=\"%s\">ملاحظات الإصدار</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:190
+#: wp-admin/about.php:246
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>النسخة %1$s</strong> عالجت مشكلة أمنية وأصلحت %2$s أخطاء."
@@ -8541,25 +8532,25 @@ msgid "Welcome to your WordPress Dashboard! This is the screen you will see when
 msgstr "مرحبًا بك في لوحة تحكّم الووردبريس الخاصة بك! هذه هي الشاشة التي سوف تراها عند تسجيل الدخول إلى موقعك والتي من خلالها يمكنك الوصول إلى كافة الميزات الإدارية للموقع. للحصول على المساعدة لأي شاشة يمكنك النقر على تبويب المُساعدة الموجود فوق عنوان الشاشة."
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:181
+#: wp-admin/about.php:237
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>النسخة %s</strong> عالجت عدة مُشكلات أمنية."
 
-#: wp-admin/about.php:169
+#: wp-admin/about.php:225
 msgid "Maintenance Release"
 msgstr "إصدار صيانة"
 
-#: wp-admin/about.php:172
+#: wp-admin/about.php:228
 msgid "Security Release"
 msgstr "إصدار أمني"
 
-#: wp-admin/about.php:31
-#: wp-admin/credits.php:28
-#: wp-admin/freedoms.php:38
+#: wp-admin/about.php:45
+#: wp-admin/credits.php:46
+#: wp-admin/freedoms.php:60
 msgid "What&#8217;s New"
 msgstr "ما الجديد؟"
 
-#: wp-admin/about.php:175
+#: wp-admin/about.php:231
 msgid "Maintenance and Security Release"
 msgstr "إصدار صيانة وأمني"
 
@@ -8567,12 +8558,12 @@ msgstr "إصدار صيانة وأمني"
 msgid "This screen allows you to choose your permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "هذه الشاشة تسمح لك باختيار تركيبة الروابط الدائمة المناسبة لك. يمكنك اختيار تركيبة روابط من الإعدادات الشائعة أو إنشاء تركيبة روابط مخصّصة."
 
-#: wp-admin/includes/update-core.php:1344
-#: wp-admin/update-core.php:570
+#: wp-admin/includes/update-core.php:1357
+#: wp-admin/update-core.php:578
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "مرحباً بك في ووردبريس %1$s. <a href=\"%2$s\">المزيد من المعلومات</a>."
 
-#: wp-admin/about.php:156
+#: wp-admin/about.php:212
 msgid "Return to Updates"
 msgstr "الرجوع إلى التحديثات"
 
@@ -8617,7 +8608,7 @@ msgstr "يمكنك أيضاً تحرير أو نقل مقالات متعددة �
 msgid "This screen provides access to all of your posts. You can customize the display of this screen to suit your workflow."
 msgstr "هذه الشاشة تتيح لك الوصول إلى جميع مقالاتك. يمكنك تخصيص العرض في هذه الشاشة حسبما يناسبك."
 
-#: wp-admin/update-core.php:642
+#: wp-admin/update-core.php:650
 msgid "How to Update"
 msgstr "كيفية التحديث"
 
@@ -8800,7 +8791,7 @@ msgstr "يمكنك إدارة التعليقات في موقعك بطريقة م
 msgid "Links may be separated into Link Categories; these are different than the categories used on your posts."
 msgstr "يمكنك إنشاء تصنيفات روابط مختلفة، مثلاً تصنيف روابط لـ \"مواقع رياضية\" وتصنيف روابط آخر لـ \"مواقع تعليمية\". تصنيفات الروابط تختلف عن تصنيفات المقالات."
 
-#: wp-admin/update-core.php:231
+#: wp-admin/update-core.php:239
 msgid "<a href=\"%1$s\">Learn more about WordPress %2$s</a>."
 msgstr "<a href=\"%1$s\">معرفة المزيد حول ووردبريس %2$s</a>."
 
@@ -8844,20 +8835,15 @@ msgstr "إدارة الصفحات"
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
 msgstr "كونك تستخدم نسخة المواقع المتعدّدة (Multi-Site)، تستطيع إذاً إضافة حسابات جديدة موجودة سابقاً على الشبكة وذلك عن طريق تحديد اسم المستخدم أو البريد الإلكتروني، ثمّ تحديد الرتبة. للمزيد من الخيارات، مثل تحديد كلمة المرور، يجب أن تكون لديك صلاحيات مدير الشبكة وحينها يمكنك التوجّه إلى (إدارة الشبكة > كافة الأعضاء) ومن ثمّ إجراء التعديلات التي تريدها."
 
-#: wp-admin/credits.php:21
-#: wp-admin/freedoms.php:31
-msgid "Welcome to WordPress %s"
-msgstr "مرحباً بك في ووردبريس %s"
-
-#: wp-admin/about.php:156
+#: wp-admin/about.php:212
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "الرجوع إلى لوحة التحكم &larr; تحديثات"
 
-#: wp-admin/about.php:159
+#: wp-admin/about.php:215
 msgid "Go to Dashboard &rarr; Home"
 msgstr "الانتقال إلى لوحة التحكم &larr; الرئيسية"
 
-#: wp-admin/credits.php:54
+#: wp-admin/credits.php:72
 msgid "WordPress is created by a worldwide team of passionate individuals."
 msgstr "يتم إنشاء ووردبريس بواسطة فريق من الأفراد من كافة أنحاء العالم."
 
@@ -8889,7 +8875,7 @@ msgstr ""
 "يرجى النقر على الرابط التالي لتأكيد الدعوة:\n"
 "%4$s"
 
-#: wp-admin/credits.php:133
+#: wp-admin/credits.php:152
 msgid "Core Developer"
 msgstr "مطوّر"
 
@@ -8952,7 +8938,7 @@ msgid "Successfully repaired the %s table."
 msgstr "تمّ بنجاح إصلاح الجدول %s."
 
 #. translators: %s: plugin version
-#: wp-admin/update-core.php:330
+#: wp-admin/update-core.php:338
 msgid "View version %s details."
 msgstr "عرض تفاصيل النسخة %s."
 
@@ -8981,7 +8967,7 @@ msgstr "صوتيات، فيديو، أو أي ملف آخر"
 msgid "<strong>ERROR</strong>: options page not found."
 msgstr "<strong>خطأ</strong>: صفحة الخيارات غير موجودة."
 
-#: wp-admin/includes/file.php:1989
+#: wp-admin/includes/file.php:2022
 msgid "<strong>ERROR:</strong> There was an error connecting to the server, Please verify the settings are correct."
 msgstr "<strong>خطأ:</strong> حصل خطأ أثناء الاتصال بالخادم. من فضلك، تأكّد من صحة الإعدادات."
 
@@ -9006,7 +8992,7 @@ msgstr "خطأ: أنت تقوم بالرد على تعليق موجود في م�
 #: wp-admin/export.php:49
 #: wp-admin/import.php:23
 #: wp-admin/includes/class-wp-screen.php:816
-#: wp-admin/includes/ms.php:1152
+#: wp-admin/includes/ms.php:1156
 #: wp-admin/index.php:42
 #: wp-admin/link-manager.php:53
 #: wp-admin/media-new.php:48
@@ -9027,7 +9013,7 @@ msgstr "خطأ: أنت تقوم بالرد على تعليق موجود في م�
 #: wp-admin/theme-editor.php:27
 #: wp-admin/theme-install.php:110
 #: wp-admin/themes.php:103
-#: wp-admin/update-core.php:627
+#: wp-admin/update-core.php:635
 #: wp-admin/upload.php:54
 #: wp-admin/upload.php:223
 #: wp-admin/user-edit.php:60
@@ -9066,7 +9052,7 @@ msgstr "إضافات %s"
 #. translators: %s: plugin name
 #: wp-admin/includes/class-wp-theme-install-list-table.php:478
 #: wp-admin/includes/deprecated.php:1381
-#: wp-admin/includes/theme.php:763
+#: wp-admin/includes/theme.php:768
 #: wp-admin/theme-install.php:299
 #: wp-admin/theme-install.php:319
 msgid "Install"
@@ -9091,7 +9077,7 @@ msgstr "كافة الأعضاء"
 #: wp-admin/includes/media.php:1605
 #: wp-admin/includes/meta-boxes.php:1030
 #: wp-admin/includes/template.php:625
-#: wp-admin/includes/theme.php:758
+#: wp-admin/includes/theme.php:763
 #: wp-admin/includes/widgets.php:286
 #: wp-admin/themes.php:434
 #: wp-admin/themes.php:585
@@ -9120,7 +9106,7 @@ msgstr "أضف جديد"
 #: wp-admin/edit.php:283
 #: wp-admin/export.php:56
 #: wp-admin/import.php:30
-#: wp-admin/includes/ms.php:1170
+#: wp-admin/includes/ms.php:1174
 #: wp-admin/index.php:106
 #: wp-admin/link-manager.php:70
 #: wp-admin/media-new.php:59
@@ -9141,7 +9127,7 @@ msgstr "أضف جديد"
 #: wp-admin/theme-install.php:128
 #: wp-admin/themes.php:143
 #: wp-admin/tools.php:34
-#: wp-admin/update-core.php:648
+#: wp-admin/update-core.php:656
 #: wp-admin/upload.php:74
 #: wp-admin/upload.php:248
 #: wp-admin/user-edit.php:66
@@ -9229,13 +9215,14 @@ msgstr "تمّ إضافة العضو."
 msgid "By %s"
 msgstr "بواسطة %s"
 
+#. translators: %s: The current WordPress version number
 #. translators: %s: Plugin version number.
 #. translators: %s: Theme version number.
 #. translators: %s: plugin version number
 #. translators: %s: Plugin version
-#: wp-admin/about.php:28
-#: wp-admin/credits.php:25
-#: wp-admin/freedoms.php:35
+#: wp-admin/about.php:40
+#: wp-admin/credits.php:41
+#: wp-admin/freedoms.php:55
 #: wp-admin/includes/ajax-actions.php:4182
 #: wp-admin/includes/ajax-actions.php:4225
 #: wp-admin/includes/class-wp-debug-data.php:789
@@ -9437,7 +9424,7 @@ msgstr "الملف المراد رفعه تجاوز الحد الأقصى لحج
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
 msgstr "الملف المرفوع يتجاوز الحد الأقصى المحدد لهذا النوع من الملفات المتواجد في ملف php.ini."
 
-#: wp-admin/credits.php:134
+#: wp-admin/credits.php:153
 msgid "External Libraries"
 msgstr "مكتبات خارجية"
 
@@ -9449,28 +9436,32 @@ msgstr "تهيئة الشبكة"
 msgid "Available Tools"
 msgstr "أدوات متاحة"
 
-#: wp-admin/credits.php:66
+#: wp-admin/credits.php:84
 msgctxt "Translate this to be the equivalent of English Translators in your language for the credits page Translators section"
 msgid "Translators"
 msgstr "الترجمة إلى اللغة العربية"
 
-#: wp-admin/freedoms.php:95
+#. translators: %s: https://wordpress.org/about/license
+#: wp-admin/freedoms.php:134
 msgid "Every plugin and theme in WordPress.org&#8217;s directory is 100%% GPL or a similarly free and compatible license, so you can feel safe finding <a href=\"%1$s\">plugins</a> and <a href=\"%2$s\">themes</a> there. If you get a plugin or theme from another source, make sure to <a href=\"%3$s\">ask them if it&#8217;s GPL</a> first. If they don&#8217;t respect the WordPress license, we don&#8217;t recommend them."
 msgstr "كافة الإضافات والقوالب في مستودع ووردبريس مبنية على اتفاقية GPL أو على رخصة أخرى مجانية مطابقة لها، لذا يمكنك أن تشعر بالأمان عند بحثك في مستودع ووردبريس عن <a href=\"%1$s\">إضافات</a> أو <a href=\"%2$s\">قوالب</a>. في حال حصلت على قالب أو إضافة من مصدر آخر، تأكّد بدايةً  أنها تحمل <a href=\"%3$s\">ترخيص GPL</a>.  إذا وجدت أن مبرمجي القالب أو الإضافة لا يحترمون رخصة ووردبريس فنحن لا ننصح بهم."
 
-#: wp-admin/freedoms.php:88
+#. translators: %s: https://wordpressfoundation.org/trademark-policy
+#: wp-admin/freedoms.php:125
 msgid "WordPress grows when people like you tell their friends about it, and the thousands of businesses and services that are built on and around WordPress share that fact with their users. We&#8217;re flattered every time someone spreads the good word, just make sure to <a href=\"%s\">check out our trademark guidelines</a> first."
 msgstr "ينمو ويشتهر ووردبريس عندما يقوم أشخاص مثلك بنصح غيرهم باستخدام ووردبريس وذلك بسبب قوّة وتميّز هذا البرنامج الرائع. هناك أيضاً الكثير من المصالح التجارية التي تعتمد على ووردبريس لإدارة مواقعها والتي توصي باستخدام برنامج ووردبريس. كن على يقين أننا نشعر بالإطراء في كل مرة يتمّ فيها الإشادة ببرنامج ووردبريس، فقط تأكّد أنك توافي <a href=\"%s\">المبادئ التوجيهية لعلامتنا التجارية</a>."
 
-#: wp-admin/freedoms.php:59
+#. translators: %s: https://wordpress.org/about/license
+#: wp-admin/freedoms.php:93
 msgid "WordPress is Free and open source software, built by a distributed community of mostly volunteer developers from around the world. WordPress comes with some awesome, worldview-changing rights courtesy of its <a href=\"%s\">license</a>, the GPL."
 msgstr "يُعتبر ووردبريس من البرمجيات الحرة والمفتوحة المصدر. يشارك في بناء وتطوير ووردبريس كم كبير من المطوّرين من كافة أنحاء العالم ومعظمهم من المتطوّعين. يتم توزيع ووردبريس تحت <a href=\"%s\">رخصة</a> جنو العمومية - GPL."
 
-#: wp-admin/credits.php:125
+#: wp-admin/credits.php:143
 msgid "Project Leaders"
 msgstr "قادة المشروع"
 
-#: wp-admin/credits.php:43
+#. translators: 1: https://wordpress.org/about/, 2: https://make.wordpress.org
+#: wp-admin/credits.php:61
 msgid "WordPress is created by a <a href=\"%1$s\">worldwide team</a> of passionate individuals. <a href=\"%2$s\">Get involved in WordPress</a>."
 msgstr "يتم إنشاء ووردبريس بواسطة <a href=\"%1$s\">فريق من كافة أنحاء العالم</a> يضم نخبة من الأفراد الذين يتسمون بالحماس والنشاط. <a href=\"%2$s\">انضم إليهم!</a>."
 
@@ -9478,11 +9469,12 @@ msgstr "يتم إنشاء ووردبريس بواسطة <a href=\"%1$s\">فري�
 msgid "All Comments"
 msgstr "كافة التعليقات"
 
-#: wp-admin/credits.php:126
+#. translators: %s: The current WordPress version number
+#: wp-admin/credits.php:145
 msgid "Core Contributors to WordPress %s"
 msgstr "ساهموا في تطوير ووردبريس %s"
 
-#: wp-admin/credits.php:128
+#: wp-admin/credits.php:147
 msgid "Cofounder, Project Lead"
 msgstr "شريك مؤسّس، قائد مشروع"
 
@@ -9491,31 +9483,31 @@ msgctxt "removing-widget"
 msgid "Deactivate"
 msgstr "تعطيل"
 
-#: wp-admin/about.php:32
+#: wp-admin/about.php:46
 #: wp-admin/credits.php:13
-#: wp-admin/credits.php:29
-#: wp-admin/freedoms.php:39
+#: wp-admin/credits.php:47
+#: wp-admin/freedoms.php:61
 msgid "Credits"
 msgstr "شكر و تقدير"
 
 #. translators: %s: https://make.wordpress.org
-#: wp-admin/credits.php:58
+#: wp-admin/credits.php:76
 msgid "Want to see your name in lights on this page? <a href=\"%s\">Get involved in WordPress</a>."
 msgstr "تريد أن تشاهد اسمك في هذه الصفحة؟ <a href=\"%s\">ساهم في تطوير ووردبريس</a>."
 
-#: wp-admin/credits.php:129
+#: wp-admin/credits.php:148
 msgid "Lead Developer"
 msgstr "قائد تطوير"
 
-#: wp-admin/about.php:33
-#: wp-admin/credits.php:30
+#: wp-admin/about.php:47
+#: wp-admin/credits.php:48
 #: wp-admin/freedoms.php:12
-#: wp-admin/freedoms.php:40
-#: wp-admin/freedoms.php:58
+#: wp-admin/freedoms.php:62
+#: wp-admin/freedoms.php:89
 msgid "Freedoms"
 msgstr "الحريات"
 
-#: wp-admin/freedoms.php:99
+#: wp-admin/freedoms.php:138
 msgid "Don&#8217;t you wish all software came with these freedoms? So do we! For more information, check out the <a href=\"https://www.fsf.org/\">Free Software Foundation</a>."
 msgstr "ألا تتمنى أن تحظى كل البرامج بمثل هذه الحريات؟ نحن نتمنى ذلك أيضًا! لمزيد من المعلومات تفضّل بزيارة <a href=\"https://www.fsf.org/\">مؤسسة البرامج الحرة</a>."
 
@@ -9665,15 +9657,15 @@ msgstr "هذا القالب الفرعي يستقي القوالب من القا
 msgid "No Update Required"
 msgstr "لا توجد حاجة للتحديث"
 
-#: wp-admin/upgrade.php:110
+#: wp-admin/upgrade.php:120
 msgid "WordPress has been updated! Before we send you on your way, we have to update your database to the newest version."
 msgstr "تم تحديث ووردبريس! لكن قبل الاستمرار يجب تحديث قاعدة البيانات إلى أحدث نسخة."
 
-#: wp-admin/upgrade.php:109
+#: wp-admin/upgrade.php:119
 msgid "Database Update Required"
 msgstr "يجب تحديث قاعدة البيانات"
 
-#: wp-admin/upgrade.php:122
+#: wp-admin/upgrade.php:132
 msgid "Update Complete"
 msgstr "تمّ التحديث"
 
@@ -9681,19 +9673,19 @@ msgstr "تمّ التحديث"
 msgid "WordPress &rsaquo; Update"
 msgstr "ووردبريس &lsaquo; تحديث"
 
-#: wp-admin/upgrade.php:111
+#: wp-admin/upgrade.php:121
 msgid "The database update process may take a little while, so please be patient."
 msgstr "عملية التحديث قد تستغرق بعض الوقت، لذا يرجى التحلي بالصبر."
 
-#: wp-admin/update-core.php:126
+#: wp-admin/update-core.php:134
 msgid "You are about to install WordPress %s <strong>in English (US).</strong> There is a chance this update will break your translation. You may prefer to wait for the localized version to be released."
 msgstr "أنت على وشك تنصيب ووردبريس %s <strong>باللغة الإنجليزية.</strong> هناك احتمال كبير بأنّ هذا التحديث سوف يغيّر اللغة المستخدمة حالياً في لوحة التحكم الخاصة بك. ربما من الأفضل التريّّث قليلاً حتى يتم إصدار النسخة المعرّبة رسمياً."
 
-#: wp-admin/upgrade.php:112
+#: wp-admin/upgrade.php:122
 msgid "Update WordPress Database"
 msgstr "تحديث قاعدة بيانات ووردبريس"
 
-#: wp-admin/upgrade.php:123
+#: wp-admin/upgrade.php:133
 msgid "Your WordPress database has been successfully updated!"
 msgstr "تمّ تحديث قاعدة بيانات ووردبريس بنجاح!"
 
@@ -9808,7 +9800,7 @@ msgid "Search Installed Themes"
 msgstr "بحث في القوالب المنصّبة"
 
 #. translators: %s: link to documentation on child themes
-#: wp-admin/update-core.php:400
+#: wp-admin/update-core.php:408
 msgid "<strong>Please Note:</strong> Any customizations you have made to theme files will be lost. Please consider using <a href=\"%s\">child themes</a> for modifications."
 msgstr "<strong>ملاحظة:</strong> ستفقد التعديلات السابقة التي أجريتها على ملفات القالب. ربمّا من الأفضل لك أن تستخدم <a href=\"%s\">القوالب الفرعية</a> لإجراء تعديلات."
 
@@ -9823,20 +9815,20 @@ msgstr[3] "المثبّتة <span class=\"count\">(%s)</span>"
 msgstr[4] "المثبّتة <span class=\"count\">(%s)</span>"
 msgstr[5] "المثبّتة <span class=\"count\">(%s)</span>"
 
-#: wp-admin/update-core.php:683
+#: wp-admin/update-core.php:691
 msgid "Check Again"
 msgstr "إجراء فحص جديد"
 
 #. translators: 1: date, 2: time
-#: wp-admin/update-core.php:682
+#: wp-admin/update-core.php:690
 msgid "Last checked on %1$s at %2$s."
 msgstr "آخر فحص يوم %1$s الساعة %2$s."
 
-#: wp-admin/update-core.php:666
+#: wp-admin/update-core.php:674
 msgid "Please select one or more themes to update."
 msgstr "الرجاء اختيار قالب واحد أو أكثر للبدء بعملية التحديث."
 
-#: wp-admin/update-core.php:668
+#: wp-admin/update-core.php:676
 msgid "Please select one or more plugins to update."
 msgstr "الرجاء اختيار إضافة واحدة أو أكثر للبدء بعملية التحديث."
 
@@ -9853,7 +9845,7 @@ msgstr "تطبيق"
 msgid "Editor Style"
 msgstr "(CSS) للمحرّر"
 
-#: wp-admin/includes/file.php:2037
+#: wp-admin/includes/file.php:2070
 msgid "To perform the requested action, WordPress needs to access your web server."
 msgstr "لتنفيذ الإجراء المطلوب، ووردبريس يحتاج إلى الوصول إلى خادم الويب."
 
@@ -9945,19 +9937,19 @@ msgstr "قص الصورة ثم اعتمادها"
 msgid "XFN stands for <a href=\"http://gmpg.org/xfn/\">XHTML Friends Network</a>, which is optional. WordPress allows the generation of XFN attributes to show how you are related to the authors/owners of the site to which you are linking."
 msgstr "علاقات الرابط (XFN) اختيارية وهي تستخدم لتحديد خصائص الرابط. مثلاً، الرابط عبارة عن رابط لموقع آخر لك، إذاً يمكنك تحديد هوية الرابط ووضع إشارة بجانب \"رابط لموقعي الآخر\". ببساطة، علاقات الرابط (XFN) تبيّن ما هي علاقتك بالروابط التي تضيفها في موقعك. معلومات أوفى عن <a href=\"http://gmpg.org/xfn/\"> علاقات الرابط (XFN)</a>."
 
-#: wp-admin/includes/file.php:2042
+#: wp-admin/includes/file.php:2075
 msgid "FTP/SSH Username"
 msgstr "اسم مستخدم ال FTP/SSH"
 
-#: wp-admin/includes/file.php:2043
+#: wp-admin/includes/file.php:2076
 msgid "FTP/SSH Password"
 msgstr "كلمة مرور ال FTP/SSH"
 
-#: wp-admin/includes/file.php:2046
+#: wp-admin/includes/file.php:2079
 msgid "FTP Username"
 msgstr "اسم مستخدم الاف تي بي"
 
-#: wp-admin/includes/file.php:2047
+#: wp-admin/includes/file.php:2080
 msgid "FTP Password"
 msgstr "كلمة مرور الاف تي بي"
 
@@ -10001,15 +9993,15 @@ msgstr "يمكنك تحديد الأحجام القصوى للصور التي ت
 msgid "<strong>Order</strong> &mdash; Pages are usually ordered alphabetically, but you can choose your own order by entering a number (1 for first, etc.) in this field."
 msgstr "<strong>الترتيب</strong> &mdash; عادةً، يتم ترتيب الصفحات أبجدياً لكن يمكنك ترتيب الصفحات باستخدام الأرقام."
 
-#: wp-admin/includes/file.php:2051
+#: wp-admin/includes/file.php:2084
 msgid "If you do not remember your credentials, you should contact your web host."
 msgstr "إذا كنت لا تتذكر بيانات الدخول، عليك التواصل مع مستضيفك."
 
-#: wp-admin/includes/file.php:2045
+#: wp-admin/includes/file.php:2078
 msgid "Please enter your FTP credentials to proceed."
 msgstr "من فضلك أدخل بيانات دخول الاف تي بي للتقدّم."
 
-#: wp-admin/includes/file.php:2041
+#: wp-admin/includes/file.php:2074
 msgid "Please enter your FTP or SSH credentials to proceed."
 msgstr "من فضلك أدخل بيانات دخول الاف تي بي أو ال SSH للتقدّم."
 
@@ -10117,23 +10109,23 @@ msgstr "للمزيد من المعلومات عن التوقيت العالمي 
 msgid "The boxes for link name, web address, and description have fixed positions, while the others may be repositioned using drag and drop. You can also hide boxes you don&#8217;t use in the Screen Options tab, or minimize boxes by clicking on the title bar of the box."
 msgstr "صناديق (الاسم)، (العنوان) و (الوصف) هي صناديق ثابتة بينما باقي الصناديق الأخرى في هذه الشاشة يمكنك تحريكها بواسطة السحب والإفلات لترتيبها كما تريد. يمكنك تعديل طريقة عرض المعلومات في هذه الشاشة كما هو الحال مع باقي الصفحات وذلك بالنقر على زر خيارات الشاشة أعلاه."
 
-#: wp-admin/update-core.php:205
+#: wp-admin/update-core.php:213
 msgid "An updated version of WordPress is available."
 msgstr "يوجد إصدار جديد من ووردبريس متاح للتحديث!"
 
-#: wp-admin/update-core.php:388
+#: wp-admin/update-core.php:396
 msgid "Your themes are all up to date."
 msgstr "جميع القوالب محدّثة."
 
-#: wp-admin/update-core.php:182
+#: wp-admin/update-core.php:190
 msgid "You have the latest version of WordPress."
 msgstr "لديك أحدث إصدار من ووردبريس."
 
-#: wp-admin/update-core.php:244
+#: wp-admin/update-core.php:252
 msgid "Your plugins are all up to date."
 msgstr "جميع الإضافات محدّثة."
 
-#: wp-admin/update-core.php:228
+#: wp-admin/update-core.php:236
 msgid "While your site is being updated, it will be in maintenance mode. As soon as your updates are complete, your site will return to normal."
 msgstr "أثناء التحديث سيدخل موقعك إلى وضعية الصيانة. سيعود الموقع لحالته الطبيعية فور الانتهاء من التحديث."
 
@@ -10350,7 +10342,7 @@ msgstr "يمكنك إعادة فرز المقالات لعرض مقالات من
 msgid "Search Installed Plugins"
 msgstr "البحث في الإضافات المنصّبة"
 
-#: wp-admin/nav-menus.php:652
+#: wp-admin/nav-menus.php:656
 msgid "Your theme supports one menu. Select which menu you would like to use."
 msgstr "قالبك المستخدم يدعم قائمة واحدة. حدّد القائمة التي ترغب في استخدامها."
 
@@ -10408,8 +10400,8 @@ msgstr "التعليقات على &#8220;%s&#8221;"
 msgid "Show advanced menu properties"
 msgstr "أظهر خصائص متقدمّة للقوائم"
 
-#: wp-admin/update-core.php:356
-#: wp-admin/update-core.php:440
+#: wp-admin/update-core.php:364
+#: wp-admin/update-core.php:448
 msgid "You have version %1$s installed. Update to %2$s."
 msgstr "أنت تستخدم النسخة  %1$s. قم بالتحديث للنسخة %2$s."
 
@@ -10612,7 +10604,7 @@ msgstr "عذرًا، لا يُسمح لك باستعادة هذا العنصر �
 msgid "Error in restoring from Trash."
 msgstr "حصل خطأ ما أثناء الاستعادة من سلة المهملات."
 
-#: wp-admin/update-core.php:395
+#: wp-admin/update-core.php:403
 msgid "The following themes have new versions available. Check the ones you want to update and then click &#8220;Update Themes&#8221;."
 msgstr "هناك تحديثات متوفرة للقوالب التالية. أشر على القوالب التي تريد تحديثها ثم اضغط على &#8220;تحديث القوالب&#8221;."
 
@@ -10628,7 +10620,7 @@ msgstr "هذا المستخدم عضو سابق في هذا الموقع."
 msgid "User has been added to your site."
 msgstr "تم إضافة عضو جديد لموقعك."
 
-#: wp-admin/update-core.php:257
+#: wp-admin/update-core.php:265
 msgid "The following plugins have new versions available. Check the ones you want to update and then click &#8220;Update Plugins&#8221;."
 msgstr "هناك تحديثات متوفرة للإضافات التالية. أشر على الإضافات التي تريد تحديثها ثم اضغط على &#8220;تحديث الإضافات&#8221;."
 
@@ -10712,8 +10704,8 @@ msgstr "ظهور الموقع:"
 msgid "In a few words, explain what this site is about."
 msgstr "بكلمات قليلة، أكتب نبذة قصيرة عن الموقع."
 
-#: wp-admin/nav-menus.php:888
-#: wp-admin/nav-menus.php:999
+#: wp-admin/nav-menus.php:892
+#: wp-admin/nav-menus.php:1003
 msgid "Save Menu"
 msgstr "حفظ القائمة"
 
@@ -10787,31 +10779,31 @@ msgstr "كلمة المرور التي اخترتها أثناء التنصيب.
 #. translators: 1: URL to WordPress release notes, 2: WordPress version number,
 #. 3: Minimum required PHP version number, 4: Minimum required MySQL version
 #. number, 5: Current PHP version number, 6: Current MySQL version number
-#: wp-admin/update-core.php:81
-#: wp-admin/upgrade.php:90
+#: wp-admin/update-core.php:89
+#: wp-admin/upgrade.php:98
 msgid "You cannot update because <a href=\"%1$s\">WordPress %2$s</a> requires PHP version %3$s or higher and MySQL version %4$s or higher. You are running PHP version %5$s and MySQL version %6$s."
 msgstr "لا يمكنك التحديث لأنّ <a href=\"%1$s\">ووردبريس %2$s</a> يتطلب إصدار PHP نسخة %3$s أو أعلى ويتطلب أيضاً MySQL نسخة %4$s أو أعلى. أنت تستخدم حالياً PHP النسخة %5$s و MySQL النسخة %6$s."
 
 #: wp-admin/plugins.php:140
-#: wp-admin/update-core.php:260
-#: wp-admin/update-core.php:376
-#: wp-admin/update-core.php:773
-#: wp-admin/update-core.php:777
+#: wp-admin/update-core.php:268
+#: wp-admin/update-core.php:384
+#: wp-admin/update-core.php:781
+#: wp-admin/update-core.php:785
 msgid "Update Plugins"
 msgstr "تحديث الإضافات"
 
-#: wp-admin/update-core.php:522
+#: wp-admin/update-core.php:530
 msgid "Update WordPress"
 msgstr "تحديث ووردبريس"
 
 #: wp-admin/includes/class-wp-automatic-updater.php:379
-#: wp-admin/includes/update-core.php:1340
-#: wp-admin/update-core.php:568
+#: wp-admin/includes/update-core.php:1353
+#: wp-admin/update-core.php:576
 msgid "WordPress updated successfully"
 msgstr "تمّ تحديث ووردبريس بنجاح!"
 
-#: wp-admin/update-core.php:618
-#: wp-admin/update-core.php:661
+#: wp-admin/update-core.php:626
+#: wp-admin/update-core.php:669
 msgid "WordPress Updates"
 msgstr "تحديثات ووردبريس"
 
@@ -10848,7 +10840,7 @@ msgstr "إظهار الكل"
 msgid "Please enter a valid menu name."
 msgstr "من فضلك أدخل اسم قائمة صحيح."
 
-#: wp-admin/about.php:159
+#: wp-admin/about.php:215
 msgid "Go to Dashboard"
 msgstr "إذهب إلى الصفحة الرئيسية في لوحة التحكم"
 
@@ -10890,7 +10882,7 @@ msgstr "هذا العنوان مستخدم لأغراض إدارية. إن قم�
 #. translators: 1: URL to WordPress release notes, 2: WordPress version number,
 #. 3: Minimum required PHP version number, 4: Minimum required MySQL version
 #. number, 5: Current PHP version number, 6: Current MySQL version number
-#: wp-admin/install.php:248
+#: wp-admin/install.php:256
 msgid "You cannot install because <a href=\"%1$s\">WordPress %2$s</a> requires PHP version %3$s or higher and MySQL version %4$s or higher. You are running PHP version %5$s and MySQL version %6$s."
 msgstr "لا يمكنك التنصيب لأنّ <a href=\"%1$s\">ووردبريس %2$s</a> يتطلب إصدار PHP نسخة %3$s أو أعلى ويتطلب أيضاً MySQL نسخة %4$s أو أعلى. أنت تستخدم حالياً PHP النسخة %5$s و MySQL النسخة %6$s."
 
@@ -11170,11 +11162,11 @@ msgstr "تم حذف ملف الوسائط بشكل دائم."
 msgid "Sorry, you are not allowed to delete these items."
 msgstr "عذرًا، لا يُسمح لك بحذف هذه العناصر."
 
-#: wp-admin/upgrade.php:130
+#: wp-admin/upgrade.php:140
 msgid "%s seconds"
 msgstr "%s ثواني"
 
-#: wp-admin/upgrade.php:128
+#: wp-admin/upgrade.php:138
 msgid "%s queries"
 msgstr "%s عملية"
 
@@ -11224,38 +11216,38 @@ msgid "Plugin Reactivation"
 msgstr "إعادة تفعيل الإضافة"
 
 #: wp-admin/includes/class-wp-automatic-updater.php:377
-#: wp-admin/update-core.php:562
+#: wp-admin/update-core.php:570
 msgid "Installation Failed"
 msgstr "التركيب فشل"
 
-#: wp-admin/update-core.php:287
-#: wp-admin/update-core.php:294
+#: wp-admin/update-core.php:295
+#: wp-admin/update-core.php:302
 msgid "Compatibility with WordPress %1$s: Unknown"
 msgstr "نسبة التوافق مع ووردبريس %1$s: غير معروف"
 
-#: wp-admin/update-core.php:285
-#: wp-admin/update-core.php:292
+#: wp-admin/update-core.php:293
+#: wp-admin/update-core.php:300
 msgid "Compatibility with WordPress %1$s: 100%% (according to its author)"
 msgstr "نسبة التوافق مع ووردبريس %1$s: 100%% (وفق تصريح المبرمج)"
 
-#: wp-admin/update-core.php:145
+#: wp-admin/update-core.php:153
 msgid "Hide hidden updates"
 msgstr "إخفاء التحديثات"
 
-#: wp-admin/update-core.php:144
-#: wp-admin/update-core.php:155
+#: wp-admin/update-core.php:152
+#: wp-admin/update-core.php:163
 msgid "Show hidden updates"
 msgstr "عرض التحديثات المخفية"
 
-#: wp-admin/update-core.php:123
+#: wp-admin/update-core.php:131
 msgid "This localized version contains both the translation and various other localization fixes. You can skip upgrading if you want to keep your current translation."
 msgstr "هذه النسخة المَحلّية تحوي الترجمات والعديد من الإصلاحات المتنوعة المخصصة لمنطقتك. يمكنك تخطي الترقية إذا أردت الاحتفاظ بالترجمة الحالية الخاصة بك."
 
-#: wp-admin/update-core.php:118
+#: wp-admin/update-core.php:126
 msgid "Bring back this update"
 msgstr "إعادة هذا التحديث"
 
-#: wp-admin/update-core.php:116
+#: wp-admin/update-core.php:124
 msgid "Hide this update"
 msgstr "إخفاء هذا التحديث"
 
@@ -11292,7 +11284,7 @@ msgstr "اختر قالب لتحريره :"
 msgid "Edit Themes"
 msgstr "تحرير القوالب"
 
-#: wp-admin/includes/theme.php:747
+#: wp-admin/includes/theme.php:752
 #: wp-admin/themes.php:563
 msgid "Tags:"
 msgstr "الوسوم:"
@@ -11913,10 +11905,10 @@ msgstr "إعدادات المناقشة"
 msgid "No users found."
 msgstr "لم يتم إيجاد أعضاء."
 
-#: wp-admin/update-core.php:407
-#: wp-admin/update-core.php:459
-#: wp-admin/update-core.php:811
-#: wp-admin/update-core.php:816
+#: wp-admin/update-core.php:415
+#: wp-admin/update-core.php:467
+#: wp-admin/update-core.php:819
+#: wp-admin/update-core.php:824
 msgid "Update Themes"
 msgstr "تحديث القوالب"
 
@@ -11933,9 +11925,9 @@ msgstr "دعم تعدد المواقع غير مفعلة"
 msgid "Permalinks"
 msgstr "روابط دائمة"
 
-#: wp-admin/about.php:34
-#: wp-admin/credits.php:31
-#: wp-admin/freedoms.php:41
+#: wp-admin/about.php:48
+#: wp-admin/credits.php:49
+#: wp-admin/freedoms.php:63
 #: wp-admin/menu.php:281
 msgid "Privacy"
 msgstr "الخصوصية"
@@ -12065,21 +12057,17 @@ msgstr "أضف جديد"
 msgid "Add New Link"
 msgstr "أضف رابط جديد"
 
-#: wp-admin/install.php:386
+#: wp-admin/install.php:394
 msgid "Success!"
 msgstr "تمّ بنجاح!"
 
-#: wp-admin/install.php:330
+#: wp-admin/install.php:338
 msgid "Please provide the following information. Don&#8217;t worry, you can always change these settings later."
 msgstr "الرجاء إدخال المعلومات التالية، لا تقلق ... تستطيع تغيير هذه الإعدادات لاحقاً."
 
-#: wp-admin/install.php:329
+#: wp-admin/install.php:337
 msgid "Information needed"
 msgstr "معلومات مطلوبة"
-
-#: wp-admin/install.php:259
-msgid "Insufficient Requirements"
-msgstr "المتطلبات غير كافية"
 
 #: wp-admin/install.php:211
 msgid "Install WordPress"
@@ -12169,7 +12157,7 @@ msgstr "تحديث إلى %s"
 msgid "You are using a development version (%1$s). Cool! Please <a href=\"%2$s\">stay updated</a>."
 msgstr "رائع! أنت تستخدم نسخة المطوّرين من ووردبريس %1$s. يرجى <a href=\"%2$s\">التحديث باستمرار</a>."
 
-#: wp-admin/includes/update-core.php:1204
+#: wp-admin/includes/update-core.php:1217
 msgid "Upgrading database&#8230;"
 msgstr "جاري ترقية قاعدة البيانات&#8230;"
 
@@ -12181,15 +12169,15 @@ msgstr "لا يمكن فك حزمة التحديث"
 msgid "Verifying the unpacked files&#8230;"
 msgstr "يتمّ التحقّق من الملفات بعد فك الحزمة&#8230;"
 
-#: wp-admin/includes/update-core.php:954
+#: wp-admin/includes/update-core.php:967
 msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
 msgstr "لا يمكن تنصيب التحديث لأنّ ووردبريس %1$s يتطلّب MySQL النسخة %2$s أو نسخة أعلى. أنت تستخدم حالياً النسخة %3$s."
 
-#: wp-admin/includes/update-core.php:952
+#: wp-admin/includes/update-core.php:965
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
 msgstr "لا يمكن تنصيب التحديث لأنّ ووردبريس %1$s يتطلّب PHP النسخة %2$s أو نسخة أعلى. أنت تستخدم حالياً النسخة %3$s."
 
-#: wp-admin/includes/update-core.php:950
+#: wp-admin/includes/update-core.php:963
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
 msgstr "لا يمكن تنصيب التحديث لأنّ ووردبريس %1$s يتطلّب PHP النسخة %2$s أو نسخة أعلى و MySQL النسخة %3$s أو نسخة أعلى. أنت تستخدم حالياً PHP النسخة %4$s و MySQL النسخة %5$s."
 
@@ -12278,7 +12266,7 @@ msgstr "عمود واحد"
 msgid "Feature Filter"
 msgstr "فرز حسب الخصائص"
 
-#: wp-admin/includes/class-wp-screen.php:939
+#: wp-admin/includes/class-wp-screen.php:932
 msgid "Screen Options"
 msgstr "خيارات الشاشة"
 
@@ -13139,64 +13127,64 @@ msgstr "قص"
 msgid "Image data does not exist. Please re-upload the image."
 msgstr "لم يتم العثور على بيانات الصورة. فضلاً أعد إرسال الصورة."
 
-#: wp-admin/includes/file.php:2131
+#: wp-admin/includes/file.php:2164
 msgid "Proceed"
 msgstr "تقدم"
 
-#: wp-admin/includes/file.php:2087
+#: wp-admin/includes/file.php:2120
 msgid "Connection Type"
 msgstr "نوع الإتصال"
 
-#: wp-admin/includes/file.php:2114
+#: wp-admin/includes/file.php:2147
 msgid "Private Key:"
 msgstr "مفتاح خاص:"
 
-#: wp-admin/includes/file.php:2110
+#: wp-admin/includes/file.php:2143
 msgid "Public Key:"
 msgstr "مفتاح عام:"
 
-#: wp-admin/includes/file.php:2108
+#: wp-admin/includes/file.php:2141
 msgid "Authentication Keys"
 msgstr "مفاتيح التحقق"
 
-#: wp-admin/includes/file.php:2065
+#: wp-admin/includes/file.php:2098
 msgid "Hostname"
 msgstr "اسم المستضيف (Hostname) "
 
-#: wp-admin/includes/file.php:2031
+#: wp-admin/includes/file.php:2064
 msgid "Connection Information"
 msgstr "معلومات الإتصال"
 
-#: wp-admin/includes/file.php:2004
+#: wp-admin/includes/file.php:2037
 msgid "SSH2"
 msgstr "SSH2"
 
-#: wp-admin/includes/file.php:2001
+#: wp-admin/includes/file.php:2034
 msgid "FTPS (SSL)"
 msgstr "اف تي بي  (SSL)"
 
-#: wp-admin/includes/file.php:1998
+#: wp-admin/includes/file.php:2031
 msgid "FTP"
 msgstr "اف تي بي"
 
-#: wp-admin/includes/file.php:1535
+#: wp-admin/includes/file.php:1568
 msgid "Empty archive."
 msgstr "أرشيف فارغ."
 
-#: wp-admin/includes/file.php:1489
-#: wp-admin/includes/file.php:1606
-#: wp-admin/includes/file.php:1645
-#: wp-admin/includes/update-core.php:1155
-#: wp-admin/includes/update-core.php:1277
+#: wp-admin/includes/file.php:1522
+#: wp-admin/includes/file.php:1639
+#: wp-admin/includes/file.php:1678
+#: wp-admin/includes/update-core.php:1168
+#: wp-admin/includes/update-core.php:1290
 msgid "Could not copy file."
 msgstr "لم يتم التمكن من نسخ الملف."
 
-#: wp-admin/includes/file.php:1485
+#: wp-admin/includes/file.php:1518
 msgid "Could not extract file from archive."
 msgstr "غير قادر على استخلاص الملف من الأرشيف."
 
-#: wp-admin/includes/file.php:1403
-#: wp-admin/includes/file.php:1467
+#: wp-admin/includes/file.php:1436
+#: wp-admin/includes/file.php:1500
 msgid "Could not retrieve file from archive."
 msgstr "غير قادر على استعادة الملف من الأرشيف."
 
@@ -13541,25 +13529,25 @@ msgid "The plugin is at the latest version."
 msgstr "هذه آخر إصدارة من الإضافة"
 
 #: wp-admin/includes/class-wp-upgrader.php:168
-#: wp-admin/includes/update-core.php:1115
+#: wp-admin/includes/update-core.php:1128
 msgid "Disabling Maintenance mode&#8230;"
 msgstr "تعطيل وضع الصيانة &#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:167
-#: wp-admin/includes/update-core.php:1020
+#: wp-admin/includes/update-core.php:1033
 msgid "Enabling Maintenance mode&#8230;"
 msgstr "تمكين وضع الصيانة &#8230;"
 
-#: wp-admin/includes/file.php:1396
-#: wp-admin/includes/file.php:1531
+#: wp-admin/includes/file.php:1429
+#: wp-admin/includes/file.php:1564
 msgid "Incompatible Archive."
 msgstr "أرشيف غير متوافق."
 
 #: wp-admin/includes/class-wp-upgrader.php:163
-#: wp-admin/includes/file.php:1460
-#: wp-admin/includes/file.php:1585
-#: wp-admin/includes/file.php:1651
-#: wp-admin/includes/update-core.php:1283
+#: wp-admin/includes/file.php:1493
+#: wp-admin/includes/file.php:1618
+#: wp-admin/includes/file.php:1684
+#: wp-admin/includes/update-core.php:1296
 msgid "Could not create directory."
 msgstr "لم أتمكن من إنشاء الدليل."
 
@@ -13602,7 +13590,7 @@ msgstr "خلل في ملف النظام."
 
 #: wp-admin/includes/class-wp-automatic-updater.php:366
 #: wp-admin/includes/class-wp-upgrader.php:150
-#: wp-admin/includes/file.php:1320
+#: wp-admin/includes/file.php:1353
 #: wp-admin/includes/plugin.php:912
 #: wp-admin/includes/theme.php:61
 msgid "Could not access filesystem."
@@ -13717,7 +13705,7 @@ msgstr "مقالات"
 
 #: wp-admin/includes/media.php:1609
 #: wp-admin/upgrade.php:78
-#: wp-admin/upgrade.php:124
+#: wp-admin/upgrade.php:134
 msgid "Continue"
 msgstr "المتابعة"
 
@@ -14082,7 +14070,7 @@ msgid "Custom Header"
 msgstr "ترويسة خاصة"
 
 #: wp-admin/includes/template.php:2289
-#: wp-admin/nav-menus.php:730
+#: wp-admin/nav-menus.php:734
 #: wp-admin/options.php:364
 msgid "Save Changes"
 msgstr "حفظ التغييرات"
