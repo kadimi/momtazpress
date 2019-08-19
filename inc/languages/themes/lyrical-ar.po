@@ -1,0 +1,36 @@
+# Translation of Themes - Lyrical in Arabic
+# This file is distributed under the same license as the Themes - Lyrical package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: +0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Lyrical\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "Lyrical is a Primer child theme with a focus on photography and beautiful fonts."
+msgstr ""
+
+#. Theme Name of the theme
+msgid "Lyrical"
+msgstr ""
+
+#: functions.php:164
+msgid "Dropdown Background"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.godaddy.com/"
+msgstr ""
+
+#. Author of the theme
+msgid "GoDaddy"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://github.com/godaddy/wp-lyrical-theme"
+msgstr ""

@@ -6,10 +6,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-05-19 19:36:56+0000\n"
+"PO-Revision-Date: 2019-08-04 16:52:28+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Plugins - Contact Form 7 - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: modules/recaptcha.php:499
+msgid "reCAPTCHA is active on this site."
+msgstr "الـ reCAPTCHA نشط على هذا الموقع."
+
+#: modules/recaptcha.php:156
+msgid "reCAPTCHA response token is empty."
+msgstr "رمز استجابة reCAPTCHA فارغ."
 
 #: includes/submission.php:326
 msgid "Blacklisted words are used."
@@ -23,7 +31,7 @@ msgstr "الكلمات المستخدمة المُقدَّمة غير صالحة
 msgid "User-Agent string is unnaturally short."
 msgstr "سلسلة User-Agent قصيرة بشكل غير طبيعي."
 
-#: modules/recaptcha.php:156
+#: modules/recaptcha.php:162
 msgid "reCAPTCHA score (%1$.2f) is lower than the threshold (%2$.2f)."
 msgstr "نقاط reCAPTCHA  (%1$.2f) أقل من المستوى المسموح (%2$.2f)."
 
@@ -71,20 +79,20 @@ msgstr "لقد تمّ الاتصال."
 msgid "HTTP Response: %1$s %2$s %3$s from %4$s"
 msgstr "استجابة HTTP: %1$s %2$s %3$s من  %4$s"
 
-#: modules/recaptcha.php:512
+#: modules/recaptcha.php:570
 msgid "Save Changes"
 msgstr "حفظ التغييرات"
 
-#: modules/recaptcha.php:442
+#: modules/recaptcha.php:489
 msgid "reCAPTCHA protects you against spam and other types of automated abuse. With Contact Form 7&#8217;s reCAPTCHA integration module, you can block abusive form submissions by spam bots. For details, see %s."
 msgstr "اختبار reCAPTCHA يحمي موقعك ضد المحتويات الغير مرغوب فيها وأنواع أخرى من إساءة الاستخدام التلقائية. باستخدام وحدة دمج reCAPTCHA مع إضافة Contact Form 7، يمكنك حظر عمليات إرسال وتقديم النماذج المسيئة بواسطة برامج الروبوتات المزعجة. لمزيد من التفاصيل، شاهد %s."
 
-#: modules/recaptcha.php:227
-#: modules/recaptcha.php:445
+#: modules/recaptcha.php:234
+#: modules/recaptcha.php:492
 msgid "reCAPTCHA (v3)"
 msgstr "reCAPTCHA (v3)"
 
-#: modules/recaptcha.php:224
+#: modules/recaptcha.php:231
 msgid "API keys for reCAPTCHA v3 are different from those for v2; keys for v2 don&#8217;t work with the v3 API. You need to register your sites again to get new keys for v3. For details, see %s."
 msgstr "تختلف مفاتيح واجهة API الخاصة بـ reCAPTCHA v3 عن v2. لاتعمل مفاتيح الإصدار v2 مع واجهة برمجة التطبيقات API للإصدار v3. تحتاج إلى تسجيل مواقعك مرة أخرى للحصول على مفاتيح جديدة للإصدار v3. لمزيد من التفاصيل، شاهد %s."
 
@@ -92,7 +100,7 @@ msgstr "تختلف مفاتيح واجهة API الخاصة بـ reCAPTCHA v3 ع
 msgid "Connect to the Constant Contact API"
 msgstr "الاتصال بواجهة  Constant Contact API"
 
-#: modules/recaptcha.php:508
+#: modules/recaptcha.php:565
 msgctxt "API keys"
 msgid "Remove Keys"
 msgstr "إزالة مفاتيح API"
@@ -114,7 +122,7 @@ msgid "API Key"
 msgstr "مفتاح API"
 
 #: modules/constant-contact.php:504
-#: modules/recaptcha.php:455
+#: modules/recaptcha.php:509
 msgid "Setup Integration"
 msgstr "إعداد التكامل والدمج"
 
@@ -142,7 +150,7 @@ msgstr "التسويق عبر البريد الإلكتروني"
 msgid "It is not allowed to use files outside the wp-content directory."
 msgstr "ليس مسموحًا باستخدام ملفات خارج دليل wp-content."
 
-#: modules/acceptance.php:254
+#: modules/acceptance.php:266
 msgid "Make this checkbox optional"
 msgstr "جعل خانة الاختيار هذه اختيارية غير إجبارية"
 
@@ -175,20 +183,20 @@ msgstr "هنا تجد خيارات إضافية للمساعدة في حل مش�
 msgid "Do you need help?"
 msgstr "هل أنت بحاجة للمساعدة؟"
 
-#: modules/acceptance.php:245
+#: modules/acceptance.php:257
 msgid "Condition"
 msgstr "الشرط"
 
-#: modules/acceptance.php:204
+#: modules/acceptance.php:216
 msgctxt "mail output for acceptance checkboxes"
 msgid "%1$s: %2$s"
 msgstr "%1$s: %2$s"
 
-#: modules/acceptance.php:188
+#: modules/acceptance.php:200
 msgid "Not consented"
 msgstr "لم تتم الموافقة"
 
-#: modules/acceptance.php:186
+#: modules/acceptance.php:198
 msgid "Consented"
 msgstr "تمت الموافقة"
 
@@ -261,8 +269,8 @@ msgstr "إذا كنت تستمتع باستخدام إضافة Contact Form 7 و
 msgid "It is hard to continue development and support for this plugin without contributions from users like you."
 msgstr "من الصعب الاستمرار في التطوير ودعم هذه الإضافة من دون مساهمات من المستخدمين مثلك."
 
-#: includes/contact-form.php:307
-#: includes/contact-form.php:720
+#: includes/contact-form.php:316
+#: includes/contact-form.php:731
 msgid "This contact form is available only for logged in users."
 msgstr "نموذج الاتصال هذا متاحًا فقط للمستخدمين المسجلين دخولهم."
 
@@ -571,36 +579,36 @@ msgstr "غير مسموح لك بالتحقق من إعدادات التكوين
 #. translators: links labeled 1: 'Akismet', 2: 'reCAPTCHA', 3: 'comment
 #. blacklist'
 #: admin/includes/welcome-panel.php:26
-#: modules/recaptcha.php:226
-#: modules/recaptcha.php:444
+#: modules/recaptcha.php:233
+#: modules/recaptcha.php:491
 msgid "https://contactform7.com/recaptcha/"
 msgstr "https://contactform7.com/recaptcha/"
 
-#: modules/recaptcha.php:487
+#: modules/recaptcha.php:541
 msgid "Secret Key"
 msgstr "المفتاح السري Secret Key"
 
-#: modules/recaptcha.php:470
+#: modules/recaptcha.php:524
 msgid "Site Key"
 msgstr "مفتاح الموقع Site Key"
 
-#: modules/recaptcha.php:436
+#: modules/recaptcha.php:483
 msgid "Settings saved."
 msgstr "تمّ حفظ الإعدادات."
 
-#: modules/recaptcha.php:431
+#: modules/recaptcha.php:478
 msgid "Invalid key values."
 msgstr "قيم مفاتيح غير صحيحة."
 
 #: modules/constant-contact.php:466
-#: modules/recaptcha.php:430
+#: modules/recaptcha.php:477
 msgid "ERROR"
 msgstr "خطأ"
 
 #. translators: links labeled 1: 'Akismet', 2: 'reCAPTCHA', 3: 'comment
 #. blacklist'
 #: admin/includes/welcome-panel.php:26
-#: modules/recaptcha.php:260
+#: modules/recaptcha.php:267
 msgid "reCAPTCHA"
 msgstr "reCAPTCHA"
 
@@ -1040,7 +1048,7 @@ msgstr "لقد قمت بإدخال كود خاطئ."
 msgid "The code that sender entered does not match the CAPTCHA"
 msgstr "الكود الذي قمت بإدخاله في التحقق البشري غير مُتطابق"
 
-#: modules/acceptance.php:278
+#: modules/acceptance.php:290
 #: modules/checkbox.php:341
 #: modules/date.php:217
 #: modules/file.php:270
@@ -1054,7 +1062,7 @@ msgstr "الكود الذي قمت بإدخاله في التحقق البشري
 msgid "Insert Tag"
 msgstr "إدراج الوسم"
 
-#: modules/acceptance.php:265
+#: modules/acceptance.php:277
 #: modules/checkbox.php:328
 #: modules/date.php:205
 #: modules/file.php:257
@@ -1069,7 +1077,7 @@ msgstr "إدراج الوسم"
 msgid "Class attribute"
 msgstr "فئة السمة Class"
 
-#: modules/acceptance.php:260
+#: modules/acceptance.php:272
 #: modules/checkbox.php:323
 #: modules/date.php:200
 #: modules/file.php:252
@@ -1084,8 +1092,8 @@ msgstr "فئة السمة Class"
 msgid "Id attribute"
 msgstr "مُعرّف السمة ID"
 
-#: modules/acceptance.php:250
-#: modules/acceptance.php:253
+#: modules/acceptance.php:262
+#: modules/acceptance.php:265
 #: modules/checkbox.php:307
 #: modules/checkbox.php:310
 #: modules/select.php:188
@@ -1093,7 +1101,7 @@ msgstr "مُعرّف السمة ID"
 msgid "Options"
 msgstr "خيارات"
 
-#: modules/acceptance.php:240
+#: modules/acceptance.php:252
 #: modules/checkbox.php:302
 #: modules/date.php:171
 #: modules/file.php:237
@@ -1106,28 +1114,28 @@ msgstr "خيارات"
 msgid "Name"
 msgstr "الاسم"
 
-#: modules/acceptance.php:230
+#: modules/acceptance.php:242
 msgid "Acceptance Checkbox"
 msgstr "خانة قبول اختيار Acceptance Checkbox"
 
-#: modules/acceptance.php:230
+#: modules/acceptance.php:242
 msgid "https://contactform7.com/acceptance-checkbox/"
 msgstr "https://contactform7.com/acceptance-checkbox/"
 
-#: modules/acceptance.php:228
+#: modules/acceptance.php:240
 msgid "Generate a form-tag for an acceptance checkbox. For more details, see %s."
 msgstr "توليد وسم نموذج form-tag لخانة قبول اختيار Acceptance Checkbox. لمزيد من التفاصيل، شاهد %s."
 
-#: modules/acceptance.php:220
+#: modules/acceptance.php:232
 msgid "acceptance"
 msgstr "قبول acceptance"
 
-#: includes/contact-form.php:169
+#: includes/contact-form.php:174
 msgid "<code>%1$s</code> property of a <code>WPCF7_ContactForm</code> object is <strong>no longer accessible</strong>. Use <code>%2$s</code> method instead."
 msgstr "خاصية <code>%1$s</code> للكائن <code>WPCF7_ContactForm</code> <strong>لم يعد من الممكن الوصول إليها</strong>. استخدم الطريقة <code>%2$s</code> بدلاً من ذلك."
 
 #: includes/contact-form.php:93
-#: includes/contact-form.php:245
+#: includes/contact-form.php:254
 msgid "Untitled"
 msgstr "بدون عنوان"
 

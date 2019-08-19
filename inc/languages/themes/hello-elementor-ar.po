@@ -19,36 +19,36 @@ msgstr ""
 msgid "Hello Elementor"
 msgstr ""
 
-#: includes/admin-functions.php:46
+#: includes/admin-functions.php:48
 msgid "Hello theme is a lightweight starter theme. We recommend you use it together with Elementor Page Builder plugin, they work perfectly together!"
 msgstr ""
 
-#: includes/admin-functions.php:138
+#: includes/admin-functions.php:140
 msgid "Thanks for installing Hello Theme!"
 msgstr ""
 
-#: includes/admin-functions.php:48
+#: includes/admin-functions.php:50
 msgid "Install Elementor"
 msgstr ""
 
-#: includes/admin-functions.php:39
+#: includes/admin-functions.php:41
 msgid "Activate Elementor"
 msgstr ""
 
-#: includes/admin-functions.php:140
+#: includes/admin-functions.php:143
 msgid "Learn more about Elementor"
 msgstr ""
 
-#: includes/admin-functions.php:37
+#: includes/admin-functions.php:39
 msgid "Hello theme is a lightweight starter theme designed to work perfectly with Elementor Page Builder plugin."
 msgstr ""
 
-#: comments.php:62
+#: comments.php:67
 msgid "Comments are closed."
 msgstr ""
 
 #. translators: 1: number of comments
-#: comments.php:29
+#: comments.php:31
 msgctxt "comments title"
 msgid "%1$s Response"
 msgid_plural "%1$s Responses"
@@ -59,48 +59,48 @@ msgstr[3] ""
 msgstr[4] ""
 msgstr[5] ""
 
-#: comments.php:25
+#: comments.php:27
 msgctxt "comments title"
 msgid "One Response"
 msgstr ""
 
 #. Translators: HTML arrow
-#: template-parts/archive.php:43
-#: template-parts/search.php:42
+#: template-parts/archive.php:48
+#: template-parts/search.php:46
 msgid "newer %s"
 msgstr ""
 
 #. Translators: HTML arrow
-#: template-parts/archive.php:41
-#: template-parts/search.php:40
+#: template-parts/archive.php:46
+#: template-parts/search.php:44
 msgid "%s older"
 msgstr ""
 
-#: template-parts/search.php:30
+#: template-parts/search.php:32
 msgid "It seems we can't find what you're looking for."
 msgstr ""
 
-#: template-parts/search.php:14
+#: template-parts/search.php:16
 msgid "Search results for: "
 msgstr ""
 
-#: template-parts/header.php:15
+#: template-parts/header.php:23
 msgid "Home"
 msgstr ""
 
-#: template-parts/single.php:21
+#: template-parts/single.php:25
 msgid "Tagged "
 msgstr ""
 
-#: template-parts/404.php:17
+#: template-parts/404.php:19
 msgid "It looks like nothing was found at this location."
 msgstr ""
 
-#: template-parts/404.php:13
+#: template-parts/404.php:15
 msgid "The page can&rsquo;t be found."
 msgstr ""
 
-#: functions.php:29
+#: functions.php:32
 msgid "Primary"
 msgstr ""
 

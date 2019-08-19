@@ -578,7 +578,7 @@ msgstr ""
 msgid "Easy Digital Downloads"
 msgstr ""
 
-#: inc/customizer/customizer.php:133
+#: inc/customizer/customizer.php:134
 msgid "Premium Addons Available"
 msgstr ""
 
@@ -758,15 +758,11 @@ msgstr ""
 msgid "Billing"
 msgstr ""
 
-#: woocommerce/cart/mini-cart.php:101
+#: woocommerce/cart/mini-cart.php:111
 msgid "No products in the cart."
 msgstr ""
 
-#: woocommerce/cart/mini-cart.php:93
-msgid "Subtotal"
-msgstr ""
-
-#: woocommerce/cart/mini-cart.php:76
+#: woocommerce/cart/mini-cart.php:73
 msgid "Remove this item"
 msgstr ""
 

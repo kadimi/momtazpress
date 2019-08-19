@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-06-21 15:14:05+0000\n"
+"PO-Revision-Date: 2019-08-08 14:55:37+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: WordPress - 5.2.x - Development - Administration\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -3473,7 +3473,7 @@ msgstr "توسيع الشريط الجانبي"
 
 #: wp-admin/nav-menus.php:955
 msgid "Display location"
-msgstr "عرض الموقع"
+msgstr "مكان العرض"
 
 #. translators: 1: user id, 2: user login
 #: wp-admin/users.php:425
@@ -8338,7 +8338,7 @@ msgstr "اسم قاعدة البيانات"
 
 #: wp-admin/setup-config.php:159
 msgid "Welcome to WordPress. Before getting started, we need some information on the database. You will need to know the following items before proceeding."
-msgstr "مرحبا بك في ووردبريس. قبل الشروع في العمل، نحن بحاجة لبعض المعلومات عن قاعدة البيانات. عليك معرفة العناصر التالية قبل المتابعة."
+msgstr "مرحبًا بك في ووردبريس. قبل الشروع في العمل، نحن بحاجة لبعض المعلومات عن قاعدة البيانات. عليك معرفة العناصر التالية قبل المتابعة."
 
 #: wp-admin/setup-config.php:112
 msgid "WordPress &rsaquo; Setup Configuration File"

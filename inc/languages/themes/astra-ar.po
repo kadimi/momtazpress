@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-07-09 03:59:55+0000\n"
+"PO-Revision-Date: 2019-07-23 07:57:47+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Themes - Astra\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -268,7 +268,7 @@ msgstr "زر الشريط العلوي الأساسي"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:283
 msgid "Footer Widgets Top Border"
-msgstr ""
+msgstr "حد الإطار العلوي لودجات شريط التذييل"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:166
 msgid "Button Style"
@@ -351,7 +351,7 @@ msgstr "لون عنوان الموقع"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-colors-transparent-header-configs.php:54
 msgid "Background Overlay Color"
-msgstr ""
+msgstr "لون غطاء الخلفية"
 
 #: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:195
 msgid "Logo"
@@ -411,11 +411,11 @@ msgstr ""
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:146
 msgid "Archive Content Width"
-msgstr ""
+msgstr "عرض محتوى الأرشيف"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:121
 msgid "Variable Product Button Text"
-msgstr ""
+msgstr "نص زر المنتج المتغير"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:106
 msgid "Options"
@@ -429,11 +429,11 @@ msgstr "زر"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:103
 msgid "Variable Product Button"
-msgstr ""
+msgstr "زر المنتج المتغير"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:89
 msgid "Cart Button Text"
-msgstr ""
+msgstr "نص زر سلة المشتريات"
 
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:69
 msgid "Image"
@@ -449,19 +449,19 @@ msgstr "أرشيف الأعمدة"
 
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:76
 msgid "EDD Single Product"
-msgstr ""
+msgstr "منتج منفرد EDD"
 
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-container-configs.php:45
 msgid "Container for Easy Digital Downloads"
-msgstr ""
+msgstr "حاوية لسهولة التنزيلات الرقمية"
 
 #: inc/compatibility/edd/customizer/class-astra-customizer-register-edd-section.php:43
 msgid "Product Archive"
-msgstr ""
+msgstr "أرشيف المنتج"
 
 #: inc/compatibility/edd/class-astra-edd.php:635
 msgid "This sidebar will be used on EDD Single Product page."
-msgstr ""
+msgstr "هذا الشريط الجانبي سيستعمل في صفحة المنتج المنفرد من نوع EDD."
 
 #: inc/compatibility/edd/class-astra-edd.php:633
 msgid "EDD Single Product Sidebar"
@@ -469,7 +469,7 @@ msgstr ""
 
 #: inc/compatibility/edd/class-astra-edd.php:619
 msgid "Easy Digital Downloads Sidebar"
-msgstr ""
+msgstr "الشريط الجانبي للتنزيلات الرقمية السهلة EDD"
 
 #: inc/compatibility/edd/class-astra-edd.php:560
 msgid "View Details"
@@ -480,7 +480,7 @@ msgstr "عرض التفاصيل"
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:57
 #: inc/core/class-astra-admin-settings.php:953
 msgid "Easy Digital Downloads"
-msgstr ""
+msgstr "للتنزيلات الرقمية السهلة EDD"
 
 #. Translators: %s is the theme name.
 #: inc/metabox/class-astra-meta-boxes.php:155
@@ -550,7 +550,7 @@ msgstr "مرحبا! يبدو أنك قد استخدمت قالب Astra لبنا�
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:317
 msgid "Submenu Item Border Color"
-msgstr ""
+msgstr "لون حدود القائمة الفرعية"
 
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:347
 msgid "Fade"
@@ -800,7 +800,7 @@ msgstr "التمرير"
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:171
 msgid "Background Attachment"
-msgstr ""
+msgstr "الخلفية المرفقة "
 
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:164
 msgid "Auto"
@@ -1005,7 +1005,7 @@ msgstr "ارتباط إلى إعدادات التخصيص"
 
 #: inc/core/class-astra-admin-settings.php:993
 msgid "White Label"
-msgstr ""
+msgstr "White Label"
 
 #: inc/core/class-astra-admin-settings.php:927
 msgid "Scroll To Top"
@@ -1047,11 +1047,11 @@ msgstr "أقسام الشريط رأسي"
 
 #: inc/core/class-astra-admin-settings.php:805
 msgid "Blog Pro"
-msgstr ""
+msgstr "مدونة Pro"
 
 #: inc/core/class-astra-admin-settings.php:792
 msgid "Spacing"
-msgstr ""
+msgstr "مساحة"
 
 #: inc/core/class-astra-admin-settings.php:773
 #: inc/core/class-astra-admin-settings.php:786
@@ -1112,12 +1112,12 @@ msgstr "المزيد من الخيارات المتاحة مع Astra Pro!"
 
 #: inc/core/class-astra-admin-settings.php:692
 msgid "Submit a Ticket »"
-msgstr ""
+msgstr "تقديم تذكرة »"
 
 #. translators: %1$s: Astra Theme name.
 #: inc/core/class-astra-admin-settings.php:685
 msgid "Got a question? Get in touch with %1$s developers. We're happy to help!"
-msgstr ""
+msgstr "هل لديك سؤال؟ تواصل مع مطوري %1$s. نحن سعداء للمساعدة!"
 
 #: inc/core/class-astra-admin-settings.php:678
 msgid "Five Star Support"
@@ -1134,15 +1134,15 @@ msgstr "انضم إلى مجتمع مستخدمي %1$s المفيدين. قل م
 
 #: inc/core/class-astra-admin-settings.php:597
 msgid "Visit Knowledge Base »"
-msgstr ""
+msgstr "زيارة قاعدة المعرفة »"
 
 #: inc/core/class-astra-admin-settings.php:593
 msgid "Not sure how something works? Take a peek at the knowledge base and learn."
-msgstr ""
+msgstr "لست متأكدا كيف يعمل شيء معين؟ قم بإلقاء نظرة خاطفة على قاعدة المعرفة والتعلم."
 
 #: inc/core/class-astra-admin-settings.php:589
 msgid "Knowledge Base"
-msgstr ""
+msgstr "قاعدة المعرفة"
 
 #: inc/core/class-astra-admin-settings.php:287
 msgid "Install Importer Plugin"
@@ -1457,7 +1457,7 @@ msgstr "هيكلة مقالة المدونة"
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:65
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:48
 msgid "Title & Blog Meta"
-msgstr ""
+msgstr "العنوان & Meta المدونة"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:64
 #: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:47
@@ -1519,7 +1519,7 @@ msgstr "الترويسات"
 
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:44
 msgid "Body & Content"
-msgstr ""
+msgstr "المحتوى & المضمون"
 
 #: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:229
 msgid "Footer Bar Width"
@@ -1569,7 +1569,7 @@ msgstr "عرض كامل / ممتد"
 #: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:118
 #: inc/metabox/class-astra-meta-boxes.php:244
 msgid "Full Width / Contained"
-msgstr ""
+msgstr "عرض كامل / مؤطر"
 
 #: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:45
 msgid "Default Layout"
@@ -1616,13 +1616,13 @@ msgstr "شريط التذييل"
 #: inc/core/class-theme-strings.php:75
 #: inc/core/class-theme-strings.php:90
 msgid "Previous %s"
-msgstr "السابق %s"
+msgstr "%s السابق"
 
 #. translators: 1: Post type label
 #: inc/core/class-theme-strings.php:73
 #: inc/core/class-theme-strings.php:88
 msgid "Next %s"
-msgstr "التالي %s"
+msgstr "%s التالي"
 
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:62
 #: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:167
@@ -1792,7 +1792,7 @@ msgstr "تغيير حالة الأحرف إلى كبيرة"
 #: inc/customizer/custom-controls/background/class-astra-control-background.php:174
 #: inc/customizer/custom-controls/typography/class-astra-control-typography.php:79
 msgid "Inherit"
-msgstr ""
+msgstr "وراثة"
 
 #: inc/addons/breadcrumbs/customizer/class-astra-breadcrumbs-typo-configs.php:101
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:110
@@ -2044,7 +2044,7 @@ msgstr "مقالات المدونة"
 #: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:117
 #: inc/metabox/class-astra-meta-boxes.php:243
 msgid "Content Boxed"
-msgstr ""
+msgstr "محتوى داخل صندوق"
 
 #: inc/compatibility/edd/customizer/sections/class-astra-edd-container-configs.php:48
 #: inc/compatibility/learndash/customizer/sections/class-astra-learndash-container-configs.php:61
@@ -2057,7 +2057,7 @@ msgstr ""
 #: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:116
 #: inc/metabox/class-astra-meta-boxes.php:242
 msgid "Boxed"
-msgstr ""
+msgstr "داخل صندوق"
 
 #: inc/compatibility/lifterlms/class-astra-lifterlms.php:666
 #: inc/metabox/class-astra-meta-boxes.php:238
