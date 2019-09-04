@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-08-08 14:55:37+0000\n"
+"PO-Revision-Date: 2019-08-23 01:31:05+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: WordPress - 5.2.x - Development - Administration\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -1533,7 +1533,7 @@ msgstr "قاعدة البيانات"
 
 #: wp-admin/includes/class-wp-debug-data.php:162
 msgid "The options shown below relate to your server setup. If changes are required, you may need your web host&#8217;s assistance."
-msgstr "الخيارات الموضحة أدناه تتعلق بإعدادات الخادم الخاص بك. إذا كانت التغييرات مطلوبة، فقد تحتاج إلى مساعدة مستضيف الويب الخاص بك."
+msgstr "الخيارات الموضحة أدناه تتعلق بإعدادات الخادم الخاص بك. إذا كانت التغييرات مطلوبة، فقد تحتاج إلى مساعدة مستضيف موقع الويب الخاص بك."
 
 #: wp-admin/includes/class-wp-debug-data.php:161
 msgid "Server"

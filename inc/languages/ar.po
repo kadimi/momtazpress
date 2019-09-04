@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-08-16 22:21:56+0000\n"
+"PO-Revision-Date: 2019-09-03 09:40:59+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: WordPress - 5.2.x - Development\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -12675,7 +12675,7 @@ msgstr "عذرًا، غير مسموح لك بربط عناصر هذه الفئ�
 
 #: wp-includes/class-wp-xmlrpc-server.php:2256
 msgid "Sorry, deleting the term failed."
-msgstr ".عذرا، فشل حذف العبارة"
+msgstr "عذرًا، فشل حذف العنصر."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:95
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:153

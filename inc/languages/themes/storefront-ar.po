@@ -19,6 +19,10 @@ msgstr "Storefront"
 msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!"
 msgstr ""
 
+#: inc/admin/class-storefront-plugin-install.php:114
+msgid "learn more"
+msgstr ""
+
 #: inc/class-storefront.php:209
 msgid "Huge"
 msgstr ""
@@ -48,11 +52,11 @@ msgid "This is your homepage which is what most visitors will see when they firs
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: inc/storefront-template-functions.php:515
+#: inc/storefront-template-functions.php:517
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
-#: inc/storefront-template-functions.php:553
+#: inc/storefront-template-functions.php:555
 msgid "Tag:"
 msgid_plural "Tags:"
 msgstr[0] ""
@@ -62,7 +66,7 @@ msgstr[3] ""
 msgstr[4] ""
 msgstr[5] ""
 
-#: inc/storefront-template-functions.php:547
+#: inc/storefront-template-functions.php:549
 msgid "Category:"
 msgid_plural "Categories:"
 msgstr[0] ""
@@ -73,11 +77,11 @@ msgstr[4] ""
 msgstr[5] ""
 
 #. translators: %s: post date
-#: inc/storefront-template-functions.php:461
+#: inc/storefront-template-functions.php:463
 msgid "Posted on %s"
 msgstr ""
 
-#: inc/storefront-template-functions.php:467
+#: inc/storefront-template-functions.php:469
 msgid "by"
 msgstr "بواسطة"
 
@@ -97,11 +101,11 @@ msgstr ""
 msgid "More products"
 msgstr ""
 
-#: inc/storefront-template-functions.php:586
+#: inc/storefront-template-functions.php:588
 msgid "Previous post:"
 msgstr ""
 
-#: inc/storefront-template-functions.php:585
+#: inc/storefront-template-functions.php:587
 msgid "Next post:"
 msgstr ""
 
@@ -190,7 +194,7 @@ msgstr ""
 msgid "On Sale Products"
 msgstr ""
 
-#: inc/storefront-template-functions.php:303
+#: inc/storefront-template-functions.php:305
 msgid "Edit this section"
 msgstr ""
 
@@ -399,7 +403,6 @@ msgid "Footer Column %1$d"
 msgstr ""
 
 #: inc/admin/class-storefront-admin.php:205
-#: inc/admin/class-storefront-plugin-install.php:114
 msgid "Learn more"
 msgstr "معرفة المزيد"
 
@@ -507,7 +510,7 @@ msgstr ""
 msgid "Shop by Category"
 msgstr ""
 
-#: inc/storefront-template-functions.php:235
+#: inc/storefront-template-functions.php:237
 msgid "Menu"
 msgstr ""
 
@@ -537,12 +540,12 @@ msgstr ""
 msgid "Header background image"
 msgstr ""
 
-#: inc/storefront-template-functions.php:571
+#: inc/storefront-template-functions.php:573
 msgctxt "Next post"
 msgid "Next"
 msgstr ""
 
-#: inc/storefront-template-functions.php:572
+#: inc/storefront-template-functions.php:574
 msgctxt "Previous post"
 msgid "Previous"
 msgstr ""
@@ -611,47 +614,47 @@ msgstr "منتجات مخفضة"
 msgid "Next"
 msgstr "التالي"
 
-#: inc/storefront-template-functions.php:476
+#: inc/storefront-template-functions.php:478
 msgid "% Comments"
 msgstr "% تعليقات"
 
-#: inc/storefront-template-functions.php:476
+#: inc/storefront-template-functions.php:478
 msgid "1 Comment"
 msgstr "تعليق واحد"
 
-#: inc/storefront-template-functions.php:476
+#: inc/storefront-template-functions.php:478
 msgid "Leave a comment"
 msgstr "أضف تعليق"
 
 #. translators: used between list items, there is a space after the comma
-#: inc/storefront-template-functions.php:538
-#: inc/storefront-template-functions.php:541
+#: inc/storefront-template-functions.php:540
+#: inc/storefront-template-functions.php:543
 msgid ", "
 msgstr "، "
 
 #. translators: %s: post title
-#: inc/storefront-template-functions.php:411
+#: inc/storefront-template-functions.php:413
 msgid "Continue reading %s"
 msgstr "متابعة قراءة %s"
 
-#: inc/storefront-template-functions.php:349
-#: inc/storefront-template-functions.php:420
+#: inc/storefront-template-functions.php:351
+#: inc/storefront-template-functions.php:422
 msgid "Pages:"
 msgstr "الصفحات:"
 
-#: inc/storefront-template-functions.php:290
+#: inc/storefront-template-functions.php:292
 msgid "Skip to navigation"
 msgstr ""
 
-#: inc/storefront-template-functions.php:266
+#: inc/storefront-template-functions.php:268
 msgid "Secondary Navigation"
 msgstr ""
 
-#: inc/storefront-template-functions.php:291
+#: inc/storefront-template-functions.php:293
 msgid "Skip to content"
 msgstr "انتقل إلى المحتوى"
 
-#: inc/storefront-template-functions.php:234
+#: inc/storefront-template-functions.php:236
 msgid "Primary Navigation"
 msgstr "عنوان القائمة الرئيسي"
 
