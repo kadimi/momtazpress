@@ -25,14 +25,15 @@ add_action( 'mp_init', function() {
 	 * Update bbPress
 	 */
 	$po_file = MP_LANG_DIR . "/plugins/bbpress-ar.po";
-	$po_url = 'https://translate.wordpress.org/projects/bbpress/2.4.x/ar/default/export-translations?format=po';
+	$po_url = 'https://translate.wordpress.org/projects/wp-plugins/bbpress/stable/ar/default/export-translations/?format=po';
 	mp_update_pomo( $po_file, $po_url );
 
 	/**
 	 * Update BuddyPress
 	 */
 	$po_file = MP_LANG_DIR . "/plugins/buddypress-ar.po";
-	$po_url = 'https://translate.wordpress.org/projects/buddypress/2.2.x/ar/default/export-translations?format=po';
+	$po_url = 'https://translate.wordpress.org/projects/wp-plugins/buddypress/stable/ar/default/export-translations/?format=po';
+
 	mp_update_pomo( $po_file, $po_url );
 
 	/**
