@@ -252,6 +252,8 @@ class Builder {
 	 */
 	protected function pot() {
 
+		$pot_filename = 'lang/' . $this->plugin_slug . '.pot';
+
 		$this->log();
 
 		if ( ! $this->shell_command_exists( 'xgettext' ) ) {
@@ -308,13 +310,13 @@ class Builder {
 		/**
 		 * Run command and restaure old file if nothing changes except the creation date.
 		 */
-		$old = file_get_contents( 'lang/' . $this->plugin_slug . '.pot' );
+		$old = file_exists( $pot_filename ) ? file_get_contents( $pot_filename ) : '';
 		shell_exec( $pot_command );
-		$new = file_get_contents( 'lang/' . $this->plugin_slug . '.pot' );
+		$new = file_get_contents( $pot_filename );
 		$modified = array_diff( explode( "\n", $old ), explode( "\n", $new ) );
 		if ( 1 === count( $modified ) ) {
 			if ( preg_match( '/^"POT-Creation-Date/', array_values( $modified )[0] ) ) {
-				file_put_contents( 'lang/' . $this->plugin_slug . '.pot', $old );
+				file_put_contents( $pot_filename, $old );
 			}
 		}
 
