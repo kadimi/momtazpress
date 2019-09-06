@@ -93,7 +93,8 @@ class Builder {
 		/**
 		 * Prepare file name.
 		 */
-		$filename = $dir . $this->plugin_slug . '.zip';
+		// $filename = $dir . $this->plugin_slug . '.zip';
+		$filename = $dir . $this->plugin_slug . '-plugin-' . $this->plugin_version . '.zip';
 
 		/**
 		 * Create directory `releases` if it doesn't exist.
@@ -125,8 +126,9 @@ class Builder {
 		);
 
 		/**
-		 * Create package.
+		 * Create plugin package.
 		 */
+		shell_exec( "rm -fr $filename" );
 		$zip = new ZipArchive();
 		if ( $zip->open( $filename, ZipArchive::CREATE ) !== true ) {
 			$this->log( 'cannot open <$filename>' );
@@ -164,7 +166,7 @@ class Builder {
 			/**
 			 * Skip non-matching.
 			 */
-			if ( ! preg_match( "/$pattern/", $path ) ) {
+			if ( ! preg_match( "#$pattern#", $path ) ) {
 				continue;
 			}
 			/**
@@ -332,14 +334,20 @@ class Builder {
 
 	protected function package_distribution() {
 
-		$tmp_dir = __DIR__ . DIRECTORY_SEPARATOR . 'releases' . DIRECTORY_SEPARATOR . 'tmp' . DIRECTORY_SEPARATOR;
+		$releases_dir = __DIR__ . DIRECTORY_SEPARATOR . 'releases' . DIRECTORY_SEPARATOR;
+		$tmp_dir = $releases_dir . 'tmp' . DIRECTORY_SEPARATOR;
+
+		$mp_dir = sprintf( '%1$smomtazpress-%2$s', $tmp_dir, $this->plugin_version ) . DIRECTORY_SEPARATOR;
+		$mp_file = sprintf( '%1$smomtazpress-distro-%2$s.zip', $releases_dir, $this->plugin_version );
+
 		$wp_dir = sprintf( '%1$swordpress-%2$s', $tmp_dir, $this->plugin_version ) . DIRECTORY_SEPARATOR;
 		$wp_file = sprintf( '%1$swordpress-%2$s.tar.gz', $tmp_dir, $this->plugin_version );
 		$wp_url = sprintf( 'https://wordpress.org/wordpress-%s.tar.gz', $this->plugin_version );
 
 		/**
-		 * Create tmp folder.
+		 * Create ./releases and ./releases/tmp folders.
 		 */
+		shell_exec( "mkdir -p $releases_dir" );
 		shell_exec( "mkdir -p $tmp_dir" );
 
 		/**
@@ -376,5 +384,49 @@ class Builder {
 			. $before,
 			file_get_contents( "{$wp_dir}wordpress/wp-settings.php" )
 		) );
+
+		/**
+		 * Rename wordpress folders folders
+		 */
+		shell_exec( "mv -f $wp_dir $mp_dir" );
+		shell_exec( "mv -f {$mp_dir}wordpress {$mp_dir}momtazpress" );
+
+		/**
+		 * Change working directory to `$mp_dir` to get a proper structure on the zip file.
+		 */
+		chdir( $mp_dir );
+
+		/**
+		 * Prepare a list of files.
+		 */
+		$files = $this->find( '.' );
+
+		/**
+		 * Create distribution package.
+		 */
+		shell_exec( "rm -fr $mp_file" );
+		$zip = new ZipArchive();
+		if ( $zip->open( $mp_file, ZipArchive::CREATE ) !== true ) {
+			$this->log( 'cannot open <$filename>' );
+			exit;
+		}
+		foreach ( $files as $file ) {
+			if ( is_dir( $file ) ) {
+				$zip->addEmptyDir( $file );
+			} else {
+				$zip->addFile( $file );
+			}
+		}
+		$zip->close();
+
+		/**
+		 * Restore working directory.
+		 */
+		chdir( __DIR__ );
+
+		/**
+		 * Cleanup
+		 */
+		shell_exec( "rm -fr $mp_dir" );
 	}
 }
