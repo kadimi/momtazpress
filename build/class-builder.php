@@ -65,9 +65,9 @@ class Builder {
 		$this->timer = microtime( true );
 		$this->plugin_slug = $argv[1];
 		$this->plugin_version = $argv[2];
-		$this->task( [ $this, 'pot' ], 'Creating Languages File' );
+		$this->task( [ $this, 'pot' ], 'Creating languages file' );
 		$this->task( [ $this, 'package' ], 'Packaging' );
-		$this->task( [ $this, 'package_distribution' ], 'Packaging Distribution' );
+		$this->task( [ $this, 'package_distribution' ], 'Packaging distribution' );
 	}
 
 	/**
@@ -84,7 +84,7 @@ class Builder {
 	}
 
 	/**
-	 * Build zip file.
+	 * Build plugin zip file.
 	 */
 	private function package() {
 
@@ -131,7 +131,7 @@ class Builder {
 		shell_exec( "rm -fr $filename" );
 		$zip = new ZipArchive();
 		if ( $zip->open( $filename, ZipArchive::CREATE ) !== true ) {
-			$this->log( 'cannot open <$filename>' );
+			$this->log_error( 'cannot open $filename.' );
 			exit;
 		}
 		foreach ( $files as $file ) {
@@ -144,7 +144,7 @@ class Builder {
 		$zip->close();
 
 		$this->log();
-		$this->log( 'Package created.' );
+		$this->log( 'Plugin package created.' );
 	}
 
 	/**
@@ -192,7 +192,6 @@ class Builder {
 		sort( $elements );
 		return $elements;
 	}
-
 
 	/**
 	 * Simple logger function.
@@ -334,7 +333,12 @@ class Builder {
 		return ! empty( $output );
 	}
 
+	/**
+	 * Build distribution zip file.
+	 */
 	protected function package_distribution() {
+
+		$this->log();
 
 		$releases_dir = __DIR__ . DIRECTORY_SEPARATOR . 'releases' . DIRECTORY_SEPARATOR;
 		$tmp_dir = $releases_dir . 'tmp' . DIRECTORY_SEPARATOR;
@@ -409,7 +413,7 @@ class Builder {
 		shell_exec( "rm -fr $mp_file" );
 		$zip = new ZipArchive();
 		if ( $zip->open( $mp_file, ZipArchive::CREATE ) !== true ) {
-			$this->log( 'cannot open <$filename>' );
+			$this->log_error( "cannot open $mp_file." );
 			exit;
 		}
 		foreach ( $files as $file ) {
@@ -430,5 +434,7 @@ class Builder {
 		 * Cleanup
 		 */
 		shell_exec( "rm -fr $mp_dir" );
+
+		$this->log( 'Disribution package created.' );
 	}
 }
