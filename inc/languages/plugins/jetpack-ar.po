@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-09-03 13:50:16+0000\n"
+"PO-Revision-Date: 2019-09-05 00:54:13+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Plugins - Jetpack by WordPress.com - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -14,210 +14,210 @@ msgstr ""
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Plan upgraded. You may use premium blocks now."
-msgstr ""
+msgstr "تمت ترقية الخطة. قد تستخدم مكوِّنات مميزة الآن."
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Generating preview…"
-msgstr ""
+msgstr "جارٍ إنشاء المعاينة…"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Remove Poster Image"
-msgstr ""
+msgstr "إزالة صورة الملصق"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "There is no poster image currently selected"
-msgstr ""
+msgstr "لم يتم تحديد أي صورة ملصق حاليًا"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "The current poster image url is %s"
-msgstr ""
+msgstr "عنوان url لصورة الملصق الحالية هو %s"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Replace image"
-msgstr ""
+msgstr "استبدال صورة"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Select Poster Image"
-msgstr ""
+msgstr "تحديد صورة الملصق"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Poster Image"
-msgstr ""
+msgstr "صورة الملصق"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgctxt "VideoPress preload setting"
 msgid "None"
-msgstr ""
+msgstr "لا شيء"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgctxt "VideoPress preload setting"
 msgid "Metadata"
-msgstr ""
+msgstr "بيانات التعريف"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgctxt "VideoPress preload setting"
 msgid "Auto"
-msgstr ""
+msgstr "تلقائي"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Preload"
-msgstr ""
+msgstr "التحميل المسبق"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Playback Controls"
-msgstr ""
+msgstr "عناصر التحكم في التشغيل"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Muted"
-msgstr ""
+msgstr "تم كتم الصوت"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Loop"
-msgstr ""
+msgstr "التكرار"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Video Settings"
-msgstr ""
+msgstr "إعدادات الفيديو"
 
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Note: Autoplaying videos may cause usability issues for some visitors."
-msgstr ""
+msgstr "ملحوظة: قد يتسبب التشغيل التلقائي لمقاطع الفيديو في حدوث مشكلات متعلقة بإمكانية الاستخدام لدى بعض الزائرين."
 
 #: _inc/jetpack-strings.php:725
 msgid "deprecated"
-msgstr ""
+msgstr "مهمل"
 
 #: _inc/jetpack-strings.php:724
 msgid "hookRemoved"
-msgstr ""
+msgstr "hookRemoved"
 
 #: _inc/jetpack-strings.php:723
 msgid "hookAdded"
-msgstr ""
+msgstr "hookAdded"
 
 #: _inc/jetpack-strings.php:298
 msgid "Start with free"
-msgstr ""
+msgstr "البدء مجانًا"
 
 #: _inc/jetpack-strings.php:297
 msgid "Now that you're set up, pick a plan that fits your needs."
-msgstr ""
+msgstr "والآن بعد أن تقوم بالإعداد، اختر خطة تناسب احتياجاتك."
 
 #: _inc/jetpack-strings.php:79
 msgid "Your Jetpack plan provides anti-spam protection through Akismet. Click 'set up' to enable it on your site."
-msgstr ""
+msgstr "توفِّر خطة Jetpack الخاصة بك حماية ضد البريد المزعج من خلال Akismet. انقر على \"إعداد\" لتمكينه على موقعك."
 
 #: _inc/jetpack-strings.php:75
 msgid "Already have a key? {{a}}Activate Akismet{{/a}}"
-msgstr ""
+msgstr "هل لديك مفتاح بالفعل؟ {{a}}تفعيل Akismet{{/a}}"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:220
 msgid "Site benefits correctly received."
-msgstr ""
+msgstr "تم استلام مزايا الموقع بصورة صحيحة."
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:211
 msgid "The number of times visitors have shared your posts with the world using Jetpack"
-msgstr ""
+msgstr "عدد المرات التي شارك فيها الزائرون مقالاتك مع العالم باستخدام Jetpack"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:200
 msgid "Live social media site connections, powered by Jetpack"
-msgstr ""
+msgstr "اتصالات مواقع وسائل التواصل الاجتماعي المباشرة المدعومة من Jetpack"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:181
 msgid "Ad-free, lightning-fast videos delivered by Jetpack"
-msgstr ""
+msgstr "مقاطع فيديو خالية من الإعلانات وسريعة للغاية يوفِّرها Jetpack"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:166
 msgid "Super-fast, mobile-ready images served by Jetpack"
-msgstr ""
+msgstr "صور فائقة السرعة وصالحة للاستخدام عبر الهاتف المحمول يوفِّرها Jetpack"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:165
 msgid "Image Hosting"
-msgstr ""
+msgstr "استضافة الصور"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:148
 msgid "Form submissions stored by Jetpack"
-msgstr ""
+msgstr "عمليات إرسال النماذج المُخزَّنة بواسطة Jetpack"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:147
 msgid "Contact Form Feedback"
-msgstr ""
+msgstr "ملاحظات حول نموذج جهة الاتصال"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:134
 msgid "The number of times Jetpack has backed up your site and kept it safe"
-msgstr ""
+msgstr "عدد المرات التي أجرى فيها Jetpack نسخًا احتياطيًا لموقعك، وأبقاه آمنًا"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:133
 msgid "Jetpack Backup"
-msgstr ""
+msgstr "نسخ احتياطي عبر Jetpack"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:120
 msgid "People subscribed to your updates through Jetpack"
-msgstr ""
+msgstr "الأشخاص المشتركون في تحديثاتك عبر Jetpack"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:119
 msgid "Subscribers"
-msgstr ""
+msgstr "المشتركون"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:109
 msgid "The number of malicious login attempts blocked by Jetpack"
-msgstr ""
+msgstr "تم حظر عدد محاولات تسجيل الدخول الضارة بواسطة Jetpack"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:108
 msgid "Brute force protection"
-msgstr ""
+msgstr "الحماية ضد القوة الغاشمة"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:97
 msgid "Visitors tracked by Jetpack this year"
-msgstr ""
+msgstr "الزائرون الذين تم تعقبهم بواسطة Jetpack هذا العام"
 
 #: _inc/lib/components.php:65
 msgid "a paid plan"
-msgstr ""
+msgstr "خطة مدفوعة"
 
 #: _inc/lib/class.core-rest-api-endpoints.php:3117
 msgid "Activated Akismet"
-msgstr ""
+msgstr "Akismet مفعَّل"
 
 #: _inc/lib/class.core-rest-api-endpoints.php:3112
 msgid "Unable to activate Akismet"
-msgstr ""
+msgstr "يتعذر تفعيل Akismet"
 
 #: _inc/lib/class.core-rest-api-endpoints.php:1126
 msgid "Unable to verify your request."
-msgstr ""
+msgstr "يتعذر التحقُّق من طلبك."
 
 #: modules/widgets/contact-info.php:426
 msgid "Please enter a valid Google API Key."
-msgstr ""
+msgstr "يرجى إدخال مفتاح صالح لواجهة برمجة التطبيقات في غوغل."
 
 #: modules/protect.php:187
 msgid "https://jetpack.com/support/multisite-protect"
-msgstr ""
+msgstr "https://jetpack.com/support/multisite-protect"
 
 #: modules/protect.php:181
 msgid "Thanks for activating Jetpack's brute force attack prevention feature! To start protecting your whole WordPress Multisite Network, please network activate the Jetpack plugin. Due to the way logins are handled on WordPress Multisite Networks, Jetpack must be network activated in order for the brute force attack prevention feature to work properly."
-msgstr ""
+msgstr "شكرًا على تفعيل ميزة الحماية من هجمات القوة الغاشمة في Jetpack! لبدء حماية شبكة وردبرس متعددة المواقع بالكامل، يرجى تفعيل إضافة Jetpack على الشبكة. بسبب طريقة معالجة عمليات تسجيل الدخول على شبكات وردبرس متعددة المواقع، يجب تفعيل Jetpack على الشبكة لكي تعمل ميزة الحماية من هجمات القوة الغاشمة بشكل صحيح."
 
 #: modules/protect.php:179
 msgid "Jetpack Brute Force Attack Prevention cannot keep your site secure"
-msgstr ""
+msgstr "يتعذر على ميزة الحماية من هجمات القوة الغاشمة إبقاء موقعك في أمان"
 
 #: _inc/blocks/editor-beta.js:12
 #: _inc/blocks/editor.js:12
