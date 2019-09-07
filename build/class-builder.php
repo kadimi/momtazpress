@@ -252,7 +252,41 @@ class Builder {
 	 * Runs `composer install`.
 	 */
 	protected function composer_install() {
+		/**
+		 * Run `composer install`.
+		 */
 		shell_exec( 'rm -fr vendor composer.lock && composer install' );
+
+		/**
+		 * Rename composer classes.
+		 */
+		$prefix = md5( sprintf( '%s:%s', $this->plugin_slug, $this->plugin_version ) );
+		$preg_replacements =  [
+			'vendor/autoload.php' => [
+				'/Composer([a-z]+)[0-9a-f]{32}/i' => 'Composer$1' . $prefix,
+			],
+			'vendor/composer/autoload_real.php' => [
+				'/Composer([a-z]+)[0-9a-f]{32}/i' => 'Composer$1' . $prefix,
+			],
+			'vendor/composer/autoload_static.php' => [
+				'/Composer([a-z]+)[0-9a-f]{32}/i' => 'Composer$1' . $prefix,
+			],
+		];
+
+		foreach ( $preg_replacements as $file => $replacements ) {
+			$count    = 0;
+			$contents = file_get_contents( $file );
+			foreach ( $replacements as $regex => $replacement ) {
+				$contents = preg_replace( $regex, $replacement, $contents, -1, $sub_count );
+				$count += $sub_count;
+			}
+			file_put_contents( $file, $contents );
+			$this->log( sprintf( '%d replacements made in %s.'
+				, $count
+				, $file
+			) );
+		}
+
 		$this->log( 'Dependencies installed successfully.' );
 	}
 
