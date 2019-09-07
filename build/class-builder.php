@@ -398,6 +398,7 @@ class Builder {
 			--exclude='README.md'                                           \
 			--exclude='wp'                                                  \
 			--exclude='build/'                                              \
+			--exclude='inc/developer/'                                      \
 		" );
 
 		/**
