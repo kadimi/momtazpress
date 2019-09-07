@@ -65,10 +65,10 @@ class Builder {
 		$this->timer = microtime( true );
 		$this->plugin_slug = $argv[1];
 		$this->plugin_version = $argv[2];
-		$this->task( [ $this, 'pot' ], 'Creating languages file' );
-		$this->task( [ $this, 'composer_install' ], 'Installing dependencies' );
-		$this->task( [ $this, 'package' ], 'Packaging' );
-		$this->task( [ $this, 'package_distribution' ], 'Packaging distribution' );
+		$this->task( [ $this, 'pot' ], 'Create pot file' );
+		$this->task( [ $this, 'composer_install' ], 'Install dependencies' );
+		$this->task( [ $this, 'package_plugin' ], 'Package plugin' );
+		$this->task( [ $this, 'package_distribution' ], 'Package distribution' );
 	}
 
 	/**
@@ -87,7 +87,7 @@ class Builder {
 	/**
 	 * Build plugin zip file.
 	 */
-	private function package() {
+	private function package_plugin() {
 
 		$dir = 'build/releases/';
 
@@ -143,9 +143,6 @@ class Builder {
 			}
 		}
 		$zip->close();
-
-		$this->log();
-		$this->log( 'Plugin package created.' );
 	}
 
 	/**
@@ -217,8 +214,9 @@ class Builder {
 	 * @param  String $title  The log title.
 	 */
 	protected function log_title( $title ) {
-		$this->log();
+		// $this->log();
 		$this->log( $title, true, true );
+		// $this->log();
 	}
 
 	/**
@@ -240,11 +238,11 @@ class Builder {
 	 * @param  String   $title     A title.
 	 */
 	protected function task( callable $callback, $title ) {
-		$this->log_title( $title . ' started.' );
+		$this->log_title( $title );
 		$timer = microtime( true );
 		call_user_func( $callback );
 		$duration = microtime( true ) - $timer;
-		$this->log_title( sprintf( '%s completed in %.2fs', $title, $duration ) );
+		$this->log( sprintf( '...completed in %.2fs', $duration ) );
 	}
 
 
@@ -261,7 +259,7 @@ class Builder {
 		 * Rename composer classes.
 		 */
 		$prefix = md5( sprintf( '%s:%s', $this->plugin_slug, $this->plugin_version ) );
-		$preg_replacements =  [
+		$this->do_preg_replace ( [
 			'vendor/autoload.php' => [
 				'/Composer([a-z]+)[0-9a-f]{32}/i' => 'Composer$1' . $prefix,
 			],
@@ -271,23 +269,7 @@ class Builder {
 			'vendor/composer/autoload_static.php' => [
 				'/Composer([a-z]+)[0-9a-f]{32}/i' => 'Composer$1' . $prefix,
 			],
-		];
-
-		foreach ( $preg_replacements as $file => $replacements ) {
-			$count    = 0;
-			$contents = file_get_contents( $file );
-			foreach ( $replacements as $regex => $replacement ) {
-				$contents = preg_replace( $regex, $replacement, $contents, -1, $sub_count );
-				$count += $sub_count;
-			}
-			file_put_contents( $file, $contents );
-			$this->log( sprintf( '%d replacements made in %s.'
-				, $count
-				, $file
-			) );
-		}
-
-		$this->log( 'Dependencies installed successfully.' );
+		] );
 	}
 
 	/**
@@ -296,8 +278,6 @@ class Builder {
 	protected function pot() {
 
 		$pot_filename = 'lang/' . $this->plugin_slug . '.pot';
-
-		$this->log();
 
 		if ( ! $this->shell_command_exists( 'xgettext' ) ) {
 			$this->log_error( '`xgettext` command does not exist.' );
@@ -326,7 +306,6 @@ class Builder {
 				--package-name=' . $this->plugin_slug . '
 				--package-version=' . $this->plugin_version . '
 				--copyright-holder="Nabil Kadimi"
-				--msgid-bugs-address="https://github.com/kadimi/starter/issues/new"
 				--from-code=UTF-8
 				--keyword="__"
 				--keyword="__ngettext:1,2"
@@ -346,22 +325,25 @@ class Builder {
 				--keyword="esc_html_e"
 				--keyword="esc_html_x:1,2c"
 				--sort-by-file
-				-o lang/' . $this->plugin_slug . '.pot
+				-o ' . $pot_filename . '
 		'
 		);
 
 		/**
 		 * Run command and restaure old file if nothing changes except the creation date.
 		 */
-		$old = file_exists( $pot_filename ) ? file_get_contents( $pot_filename ) : '';
 		shell_exec( $pot_command );
-		$new = file_get_contents( $pot_filename );
-		$modified = array_diff( explode( "\n", $old ), explode( "\n", $new ) );
-		if ( 1 === count( $modified ) ) {
-			if ( preg_match( '/^"POT-Creation-Date/', array_values( $modified )[0] ) ) {
-				file_put_contents( $pot_filename, $old );
-			}
-		}
+
+		$this->do_preg_replace ( [
+			$pot_filename => [
+				sprintf( "/\"%s:[^\n]+\n/", 'Language' ) => '',
+				sprintf( "/\"%s:[^\n]+\n/", 'Language-Team' ) => '',
+				sprintf( "/\"%s:[^\n]+\n/", 'Last-Translator') => '',
+				sprintf( "/\"%s:[^\n]+\n/", 'Plural-Forms' ) => '',
+				'/"(PO|POT)-([a-z]+)-Date: .*/i' => '"$1-$2-Date: YEAR-MO-DA HO:MI+ZONE\n"',
+			],
+		] );
+
 
 		$this->log( 'Language file handled successfully.' );
 	}
@@ -381,8 +363,6 @@ class Builder {
 	 * Build distribution zip file.
 	 */
 	protected function package_distribution() {
-
-		$this->log();
 
 		$releases_dir = __DIR__ . DIRECTORY_SEPARATOR . 'releases' . DIRECTORY_SEPARATOR;
 		$tmp_dir = $releases_dir . 'tmp' . DIRECTORY_SEPARATOR;
@@ -475,7 +455,24 @@ class Builder {
 		 * Cleanup
 		 */
 		shell_exec( "rm -fr $mp_dir" );
+	}
 
-		$this->log( 'Disribution package created.' );
+	/**
+	 * Apply regex string replacements.
+	 */
+	private function do_preg_replace( $preg_replacements ) {
+		foreach ( $preg_replacements as $file => $replacements ) {
+			$count    = 0;
+			$contents = file_get_contents( $file );
+			foreach ( $replacements as $regex => $replacement ) {
+				$contents = preg_replace( $regex, $replacement, $contents, -1, $sub_count );
+				$count += $sub_count;
+			}
+			file_put_contents( $file, $contents );
+			$this->log( sprintf( '%d replacements made in %s.'
+				, $count
+				, $file
+			) );
+		}
 	}
 }
