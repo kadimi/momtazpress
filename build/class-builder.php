@@ -66,6 +66,7 @@ class Builder {
 		$this->plugin_slug = $argv[1];
 		$this->plugin_version = $argv[2];
 		$this->task( [ $this, 'pot' ], 'Creating languages file' );
+		$this->task( [ $this, 'composer_install' ], 'Installing dependencies' );
 		$this->task( [ $this, 'package' ], 'Packaging' );
 		$this->task( [ $this, 'package_distribution' ], 'Packaging distribution' );
 	}
@@ -246,6 +247,15 @@ class Builder {
 		$this->log_title( sprintf( '%s completed in %.2fs', $title, $duration ) );
 	}
 
+
+	/**
+	 * Runs `composer install`.
+	 */
+	protected function composer_install() {
+		shell_exec( 'rm -fr vendor composer.lock && composer install' );
+		$this->log( 'Dependencies installed successfully.' );
+	}
+
 	/**
 	 * Generate pot file.
 	 */
@@ -370,13 +380,10 @@ class Builder {
 		shell_exec( "rsync -av . {$wp_dir}wordpress/wp-includes/MomtazPress \
 			--exclude=\".*\"                                                \
 			--exclude='codesniffer.ruleset.xml'                             \
-			--exclude='composer.json'                                       \
-			--exclude='composer.lock'                                       \
 			--exclude='LICENSE'                                             \
 			--exclude='README.md'                                           \
 			--exclude='wp'                                                  \
 			--exclude='build/'                                              \
-			--exclude='vendor/'                                             \
 		" );
 
 		/**
