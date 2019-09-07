@@ -6,11 +6,5 @@
             "name": "Nabil Kadimi",
             "email": "nabil@kadimi.com"
         }
-    ],
-    "require": {
-        "tgmpa/tgm-plugin-activation": "^2.5"
-    },
-    "require-dev": {
-        "kint-php/kint": "^2.1"
-    }
+    ]
 }
