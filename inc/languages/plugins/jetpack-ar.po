@@ -4219,12 +4219,12 @@ msgid "View all stats"
 msgstr "عرض جميع الإحصاءات"
 
 #. translators: Placeholder is a Jetpack logo.
-#: class.jetpack.php:6581
+#: class.jetpack.php:6586
 msgid "Stats <span>by %s</span>"
 msgstr "إحصاءات <span>بواسطة %s</span>"
 
 #. translators: %s is a URL
-#: class.jetpack.php:5691
+#: class.jetpack.php:5696
 msgid "Your site is incorrectly double-encoding redirects from http to https. This is preventing Jetpack from authenticating your connection. Please visit our <a href=\"%s\">support page</a> for details about how to resolve this."
 msgstr "يقوم موقعك بإعادة توجيه الترميز المزدوج من http إلى https بشكل غير صحيح. وهذا يمنع Jetpack من مصادقة اتصالك. يرجى زيارة <a href=\"%s\">صفحة الدعم</a> الخاصة بنا للحصول على تفاصيل حول كيفية حل هذا."
 
@@ -4849,7 +4849,7 @@ msgstr "يجب أن تكون معلمة embed_url عنوان URL صالحًا."
 msgid "Your token must have permission to post on this blog."
 msgstr "يحتوي الرمز المميز لديك على إذن بالنشر على هذه المدونة."
 
-#: class.jetpack.php:4081
+#: class.jetpack.php:4086
 msgid "Could not activate %s"
 msgstr "لا يمكن تنشيط %s"
 
@@ -6714,10 +6714,10 @@ msgstr "يعمل Jetpack عن طريق الاتصال بـ WordPress.com للا�
 msgid "A connection problem with WordPress.com."
 msgstr "حدثت مشكلة أثناء الاتصال بـ WordPress.com."
 
-#. translators: %1$s: Service Name (Facebook, Twitter, ...), %2$s: Username on
-#. Service (@jetpack, ...)
 #. Translators: the first variable is a module option or slug, or setting. The
 #. second is the error message .
+#. translators: %1$s: Service Name (Facebook, Twitter, ...), %2$s: Username on
+#. Service (@jetpack, ...)
 #: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:932
 #: modules/publicize/ui.php:422
 msgid "%1$s: %2$s"
@@ -7879,15 +7879,15 @@ msgstr "عرض معارض الصور في تجربة تصفح رائعة بمل�
 msgid "Select another theme to view its custom CSS."
 msgstr "اختر قالبًا آخر لعرض CSS المخصص الخاص به."
 
-#: class.jetpack.php:5298
+#: class.jetpack.php:5303
 msgid "The request is not signed correctly."
 msgstr "لم يتم التوقيع على الطلب بصورة صحيحة."
 
-#: class.jetpack.php:5276
+#: class.jetpack.php:5281
 msgid "This request method does not support body parameters."
 msgstr "طريقة الطلب هذه لا تدعم معلمات النص."
 
-#: class.jetpack.php:5268
+#: class.jetpack.php:5273
 msgid "This request method is not supported."
 msgstr "طريقة النص هذه غير مدعومة."
 
@@ -8275,7 +8275,7 @@ msgstr "قيمة وصف بيانات تعريف SEO غير صالحة."
 msgid "SEO tools are not enabled for this site."
 msgstr "لم يتم تمكين أدوات SEO لهذا الموقع."
 
-#: class.jetpack.php:5970
+#: class.jetpack.php:5975
 msgid "Cannot parse URL %s"
 msgstr "لا يمكن توزيع عنوان %s"
 
@@ -9862,45 +9862,45 @@ msgstr "محتوى أرشيف معرض الأعمال"
 msgid "Portfolio Archive Title"
 msgstr "عنوان أرشيف معرض الأعمال"
 
-#: class.jetpack.php:6696
+#: class.jetpack.php:6701
 msgid "This user is linked and ready to fly with Jetpack."
 msgstr "تم ربط هذا المستخدم وأصبح جاهزًا للانطلاق مع Jetpack."
 
-#: class.jetpack.php:4975
+#: class.jetpack.php:4980
 msgid "Checking"
 msgstr "التحقق"
 
-#: class.jetpack.php:4962
+#: class.jetpack.php:4967
 msgid "For more help, try our <a href=\"%1$s\">connection debugger</a> or <a href=\"%2$s\" target=\"_blank\">troubleshooting tips</a>."
 msgstr "للحصول على مزيد من المساعدة، جرب <a href=\"%1$s\">الاتصال بمصحح الأخطاء</a> أو <a href=\"%2$s\" target=\"_blank\">توجيهات استكشاف الأخطاء وإصلاحها</a>."
 
-#: class.jetpack.php:4958
-#: class.jetpack.php:4984
+#: class.jetpack.php:4963
+#: class.jetpack.php:4989
 msgid "Try again"
 msgstr "حاول مجددًا"
 
-#: class.jetpack.php:4957
+#: class.jetpack.php:4962
 msgid "Jetpack will re-test for HTTPS support once a day, but you can click here to try again immediately: "
 msgstr "سيعيد Jetpack اختبار دعم HTTPS مرة واحدة في اليوم، لكن يمكنك النقر هنا للمحاولة مرة أخرى على الفور: "
 
-#: class.jetpack.php:4955
+#: class.jetpack.php:4960
 msgid "Your site could not connect to WordPress.com via HTTPS. This could be due to any number of reasons, including faulty SSL certificates, misconfigured or missing SSL libraries, or network issues."
 msgstr "يتعذر ربط موقعك بـ WordPress.com عبر HTTPS. قد يعود هذا إلى أي عدد من الأسباب، بما في ذلك وجود خطأ في شهادات SSL، أو مكتبات SSL مفقودة أو معاد تكوينها بشكل غير صحيح، أو مشكلات في الشبكة."
 
-#: class.jetpack.php:4954
+#: class.jetpack.php:4959
 msgid "Outbound HTTPS not working"
 msgstr "لا يعمل HTTPS الصادر"
 
-#: class.jetpack.php:4930
+#: class.jetpack.php:4935
 msgid "Response was not OK: "
 msgstr "لم يكن الرد بالموافقة: "
 
-#: class.jetpack.php:4922
 #: class.jetpack.php:4927
+#: class.jetpack.php:4932
 msgid "WordPress reports no SSL support"
 msgstr "تقرير ووردبريس لا يرد فيه دعم SSL"
 
-#: class.jetpack.php:4909
+#: class.jetpack.php:4914
 msgid "JETPACK_CLIENT__HTTPS is set to NEVER"
 msgstr "تم تعيين JETPACK_CLIENT__HTTPS على أبدًا"
 
@@ -11394,9 +11394,9 @@ msgstr "أحسن مشاركات"
 msgid "%1$s %2$s Views"
 msgstr "%1$s %2$s مشاهدة"
 
-#: modules/stats.php:1099 modules/videopress/class.videopress-player.php:305
-#: modules/contact-form/grunion-editor-view.php:92
+#: modules/stats.php:1099 modules/contact-form/grunion-editor-view.php:92
 #: modules/contact-form/grunion-contact-form.php:1846
+#: modules/videopress/class.videopress-player.php:305
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Submit"
@@ -11516,7 +11516,7 @@ msgstr "تتطلب عرض الشرائح هذه للجافا سكريبت."
 msgid "Click to view slideshow."
 msgstr "اضغط لمشاهدة عرض الشرائح."
 
-#: modules/shortcodes/slideshow.php:73 modules/widgets/gallery.php:373
+#: modules/widgets/gallery.php:373 modules/shortcodes/slideshow.php:73
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Slideshow"
@@ -12176,10 +12176,11 @@ msgstr "المزيد من المعلومات"
 msgid "Enable Post By Email"
 msgstr "تفعيل التدوين بواسطة البريد الإلكتروني"
 
-#: modules/post-by-email.php:83 modules/subscriptions/views.php:524
-#: _inc/lib/class.core-rest-api-endpoints.php:1827
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: _inc/lib/class.core-rest-api-endpoints.php:1827
+#: modules/post-by-email.php:83
+#: modules/subscriptions/views.php:524
 msgid "Email Address"
 msgstr "عنوان البريد الإلكتروني"
 
@@ -12588,8 +12589,8 @@ msgstr "رد"
 msgid "Your comment is awaiting moderation."
 msgstr "تعليقك بأنتظار الموافقة بالنشر."
 
-#. translators: 1: date, 2: time
 #. translators: Date and time
+#. translators: 1: date, 2: time
 #: _inc/lib/icalendar-reader.php:839
 #: modules/minileven/theme/pub/minileven/inc/template-tags.php:61
 msgid "%1$s at %2$s"
@@ -14044,25 +14045,25 @@ msgstr "الخيار الأول"
 msgid "Options"
 msgstr "إعدادات"
 
+#: modules/contact-form/grunion-form-view.php:219
+#: modules/contact-form/grunion-editor-view.php:222
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
-#: modules/contact-form/grunion-editor-view.php:222
-#: modules/contact-form/grunion-form-view.php:219
 msgid "Textarea"
 msgstr "مربع نص"
 
-#: modules/contact-form/grunion-editor-view.php:218
 #: modules/contact-form/grunion-form-view.php:218
+#: modules/contact-form/grunion-editor-view.php:218
 #: modules/contact-form/grunion-contact-form.php:2291
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Text"
 msgstr "نص"
 
+#: modules/contact-form/grunion-form-view.php:217
+#: modules/contact-form/grunion-editor-view.php:226
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
-#: modules/contact-form/grunion-editor-view.php:226
-#: modules/contact-form/grunion-form-view.php:217
 msgid "Radio"
 msgstr "زر اختيار"
 
@@ -14071,8 +14072,8 @@ msgstr "زر اختيار"
 msgid "Drop down"
 msgstr "قائمة منسدلة"
 
-#: modules/contact-form/grunion-editor-view.php:223
 #: modules/contact-form/grunion-form-view.php:212
+#: modules/contact-form/grunion-editor-view.php:223
 #: modules/contact-form/grunion-contact-form.php:2305
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
@@ -14417,11 +14418,11 @@ msgstr "أسترجع العنصر من سلة المهملات"
 msgid "Date"
 msgstr "التاريخ"
 
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
+#: modules/contact-form/admin.php:271
 #: modules/contact-form/grunion-editor-view.php:90
 #: modules/contact-form/grunion-contact-form.php:1870
 #: modules/contact-form/grunion-contact-form.php:2303
-#: modules/contact-form/admin.php:271
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Message"
@@ -14627,27 +14628,27 @@ msgstr "فشل التحقق من المناسبة الحالية."
 msgid "Missing attachment ID."
 msgstr "رقم المرفق مفقود."
 
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
 #: modules/carousel/jetpack-carousel.php:297
+#: modules/contact-form/grunion-form-view.php:220
 #: modules/contact-form/grunion-editor-view.php:89
 #: modules/contact-form/grunion-editor-view.php:221
-#: modules/contact-form/grunion-form-view.php:220
 #: modules/contact-form/grunion-contact-form.php:1862
 #: modules/contact-form/grunion-contact-form.php:2297
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Website"
 msgstr "الموقع"
 
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
 #: modules/carousel/jetpack-carousel.php:293
 #: modules/widgets/simple-payments/form.php:147
 #: modules/widgets/social-icons.php:565
+#: modules/contact-form/grunion-form-view.php:215
 #: modules/contact-form/grunion-editor-view.php:88
 #: modules/contact-form/grunion-editor-view.php:220
-#: modules/contact-form/grunion-form-view.php:215
 #: modules/contact-form/grunion-contact-form.php:1861
 #: modules/contact-form/grunion-contact-form.php:2295
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
 msgid "Email"
@@ -14941,58 +14942,58 @@ msgstr "النوع"
 msgid "Thumbnail Grid"
 msgstr "شبكة صور مصغرة"
 
-#: class.jetpack.php:6672
+#: class.jetpack.php:6677
 msgid "Akismet can help to keep your blog safe from spam!"
 msgstr "يمكن أن يساعدك أكيسميت في إصلاح أخطاء مدونتك بحيث لا تُصاب بالبريد المزعج!"
 
-#: class.jetpack.php:6669
+#: class.jetpack.php:6674
 msgid "Activate Akismet"
 msgstr "فعِّل أكيسميت"
 
-#: class.jetpack.php:6666
+#: class.jetpack.php:6671
 msgctxt "{#} Spam comments blocked by Akismet -- number is on a prior line, text is a caption."
 msgid "Spam comments blocked by Akismet."
 msgstr "تم حظر التعليقات المزعجة بواسطة Akismet."
 
-#: class.jetpack.php:6659
+#: class.jetpack.php:6664
 msgid "Protect is inactive."
 msgstr "أداة Protect غير نشطة."
 
-#: class.jetpack.php:6656
+#: class.jetpack.php:6661
 msgid "Activate Protect"
 msgstr "تفعيل الحماية"
 
-#: class.jetpack.php:6655
+#: class.jetpack.php:6660
 msgid "Protect helps to keep you secure from brute-force login attacks."
 msgstr "يساعدك Protect في الحفاظ على الأمان من هجمات تسجيل الدخول الشرسة."
 
-#: class.jetpack.php:6653
+#: class.jetpack.php:6658
 msgctxt "{#} Blocked malicious login attempts -- number is on a prior line, text is a caption."
 msgid "Blocked malicious login attempts"
 msgstr "حظر محاولات تسجيل الدخول الضارة"
 
-#: class.jetpack.php:5777
+#: class.jetpack.php:5782
 msgid "%s wants to access your site&#8217;s data.  Log in to authorize that access."
 msgstr "%s يريد الوصول إلى بيانات مواقعك. قم بتسجيل الدخول لتسمح بالوصول."
 
-#: class.jetpack.php:5737
+#: class.jetpack.php:5742
 msgid "The authorization process expired.  Please go back and try again."
 msgstr "انتهت عملية المصادقة. يرجى الرجوع والمحاولة مرة أخرى."
 
-#: class.jetpack.php:5678
+#: class.jetpack.php:5683
 msgid "Someone may be trying to trick you into giving them access to your site.  Or it could be you just encountered a bug :).  Either way, please close this window."
 msgstr "قد يكون شخص ما يحاول خداعك لمنحهم إمكانية الوصول إلى موقعك. أو من الممكن واجهك خطأ :). في كلتا الحالتين، يرجى إغلاق هذه النافذة."
 
-#: class.jetpack.php:5675
+#: class.jetpack.php:5680
 msgid "You must connect your Jetpack plugin to WordPress.com to use this feature."
 msgstr "يجب عمل اتصال Jetpack مع حساب WordPress.com حتى تستخدم هذه الميزة."
 
-#: class.jetpack.php:4329
+#: class.jetpack.php:4334
 msgctxt "%l = list of Jetpack module/feature names"
 msgid "Deactivate %l"
 msgstr "تعطيل %l"
 
-#: class.jetpack.php:4312
+#: class.jetpack.php:4317
 msgctxt "%1$s = deactivation URL, %2$s = \"Deactivate {list of Jetpack module/feature names}"
 msgid "If your site is not publicly accessible, consider <a href=\"%1$s\" title=\"%2$s\">deactivating this feature</a>."
 msgid_plural "If your site is not publicly accessible, consider <a href=\"%1$s\" title=\"%2$s\">deactivating these features</a>."
@@ -15003,7 +15004,7 @@ msgstr[3] "إذا كان موقعك غير متاح للعامة، يرجى <a h
 msgstr[4] "إذا كان موقعك غير متاح للعامة، يرجى <a href=\"%1$s\" title=\"%2$s\">تعطيل هذه الميزات</a>."
 msgstr[5] "إذا كان موقعك غير متاح للعامة، يرجى <a href=\"%1$s\" title=\"%2$s\">تعطيل هذه الميزات</a>."
 
-#: class.jetpack.php:4295
+#: class.jetpack.php:4300
 msgctxt "%l = list of Jetpack module/feature names"
 msgid "Like your site's RSS feeds, %l allows access to your posts and other content to third parties."
 msgid_plural "Like your site's RSS feeds, %l allow access to your posts and other content to third parties."
@@ -15014,11 +15015,11 @@ msgstr[3] "هل أحببت خلاصات RSS لموقعك، تسمح إضافة %
 msgstr[4] "هل أحببت خلاصات RSS لموقعك، تسمح إضافة %l بالوصول إلى مواضيعك ومحتويات أخرى لجهات أخرى."
 msgstr[5] "هل أحببت خلاصات RSS لموقعك، تسمح إضافة %l بالوصول إلى مواضيعك ومحتويات أخرى لجهات أخرى."
 
-#: class.jetpack.php:4290
+#: class.jetpack.php:4295
 msgid "Is this site private?"
 msgstr "هل هذا الموقع خاص؟"
 
-#: class.jetpack.php:4228
+#: class.jetpack.php:4233
 msgid "The old version has been deactivated and can be removed from your site."
 msgid_plural "The old versions have been deactivated and can be removed from your site."
 msgstr[0] "تم تعطيل الإصدار القديم ويمكن حذفه من موقعك."
@@ -15028,7 +15029,7 @@ msgstr[3] "تم تعطيل الإصدار القديم ويمكن حذفه من 
 msgstr[4] "تم تعطيل الإصدار القديم ويمكن حذفه من موقعك."
 msgstr[5] "تم تعطيل الإصدار القديم ويمكن حذفه من موقعك."
 
-#: class.jetpack.php:4217
+#: class.jetpack.php:4222
 msgid "Jetpack contains the most recent version of the old %l plugin."
 msgid_plural "Jetpack contains the most recent versions of the old %l plugins."
 msgstr[0] "يحتوي Jetpack على أحدث نسخة من أقدم إضافة %l."
@@ -15038,11 +15039,11 @@ msgstr[3] "يحتوي Jetpack على أحدث نسخة من أقدم إضافة 
 msgstr[4] "يحتوي Jetpack على أحدث نسخة من أقدم إضافة %l."
 msgstr[5] "يحتوي Jetpack على أحدث نسخة من أقدم إضافة %l."
 
-#: class.jetpack.php:4192
+#: class.jetpack.php:4197
 msgid "Manage has been activated for you!"
 msgstr "تم تفعيل الإدارة لك!"
 
-#: class.jetpack.php:4190
+#: class.jetpack.php:4195
 msgid "You are all set! Your site can now be managed from <a href=\"%s\" target=\"_blank\">wordpress.com/sites</a>."
 msgstr "أنت مستعدٌ الآن! يمكن إدارة موقعك الآن من <a href=\"%s\" target=\"_blank\">wordpress.com/sites</a>."
 
@@ -15066,67 +15067,67 @@ msgstr "يجب أن يكون موقعك على الويب قابلاً للوص�
 msgid "<strong>Jetpack is activated!</strong> Each site on your network must be connected individually by an admin on that site."
 msgstr "<strong>تم تفعيل Jetpack!</strong> كل موقع على شبكتك يجب أن يكون مرتبط بشكل منفرد بواسطة المدير العام على ذلك الموقع."
 
-#: class.jetpack.php:3866
+#: class.jetpack.php:3871
 msgid "Jetpack Support"
 msgstr "الدعم الفني لخدمة Jetpack"
 
-#: class.jetpack.php:3865
+#: class.jetpack.php:3870
 msgid "Jetpack FAQ"
 msgstr "الأسئلة الشائعة عن Jetpack"
 
-#: class.jetpack.php:3864
+#: class.jetpack.php:3869
 msgid "For more information:"
 msgstr "للمزيد من المعلومات:"
 
-#: class.jetpack.php:3857
+#: class.jetpack.php:3862
 msgid "Using the tools on the right, you can search for specific modules, filter by module categories or which are active, or change the sorting order."
 msgstr "باستخدام الأدوات الموجودة على اليمين، يمكنك البحث عن وحدات نمطية معينة أو التصفية حسب فئات الوحدات النمطية أو النشطة منها أو تغيير ترتيب الفرز."
 
-#: class.jetpack.php:3855
+#: class.jetpack.php:3860
 msgid "Using the checkboxes next to each module, you can select multiple modules to toggle via the Bulk Actions menu at the top of the list."
 msgstr "باستخدام مربعات الخيار الموجودة بجوار كل وحدة نمطية، يمكنك تحديد عدة وحدات نمطية للتبديل عبر قائمة الإجراءات المجمعة أعلى القائمة."
 
-#: class.jetpack.php:3854
+#: class.jetpack.php:3859
 msgid "Each module has an Activate or Deactivate link so you can toggle one individually."
 msgstr "لكل وحدة نمطية رابط \"تنشيط\" أو \"إلغاء التنشيط\" حتى تتمكن من التبديل بينهما."
 
-#: class.jetpack.php:3852
+#: class.jetpack.php:3857
 msgid "You can activate or deactivate individual Jetpack modules to suit your needs."
 msgstr "يمكنك تفعيل أو تعطيل إضافات Jetpack بشكل فردي لتناسب احتياجاتك."
 
-#: class.jetpack.php:3840
+#: class.jetpack.php:3845
 msgid "On this page, you are able to view the modules available within Jetpack, learn more about them, and activate or deactivate them as needed."
 msgstr "في هذه الصفحة، تستطيع عرض الإضافات ضمن Jetpack، تعلم المزيد حولها وقم بتفعيلها أو تعطيلها عند الحاجة."
 
-#: class.jetpack.php:3839
+#: class.jetpack.php:3844
 msgid "Jetpack supercharges your self-hosted WordPress site with the awesome cloud power of WordPress.com."
 msgstr "يقوم Jetpack بشحن موقعك بالقوة الرائعة من الخدمات السحابية من موقع WordPress.com"
 
 #. Plugin Name of the plugin
-#: class.jetpack.php:3838
-#: class.jetpack.php:3851
+#: class.jetpack.php:3843
+#: class.jetpack.php:3856
 msgid "Jetpack by WordPress.com"
 msgstr "خدمة Jetpack من WordPress.com"
 
-#: class.jetpack.php:3836
+#: class.jetpack.php:3841
 #: modules/theme-tools/site-breadcrumbs.php:48
 msgid "Home"
 msgstr "الرئيسية"
 
-#: class.jetpack.php:3593
-#: class.jetpack.php:3609
+#: class.jetpack.php:3598
+#: class.jetpack.php:3614
 msgid "Jetpack contains the most recent version of the old &#8220;%1$s&#8221; plugin."
 msgstr "Jetpack يتضمن آخر إصدار قديم من إضافة &#8220;%1$s&#8221;."
 
-#: class.jetpack.php:3416
+#: class.jetpack.php:3421
 msgid "Second param must be numeric or empty"
 msgstr "يجب أن تكون المعلمة الثانية رقمية أو فارغة"
 
-#: class.jetpack.php:3412
+#: class.jetpack.php:3417
 msgid "First param must be string or empty"
 msgstr "يجب أن تكون المعلمة الأولى سلسلة أو فارغة"
 
-#: class.jetpack.php:3130
+#: class.jetpack.php:3135
 msgid "Jetpack requires WordPress version %s or later."
 msgstr "إن إضافة Jetpackتتطلب ووردبريس الإصدار %sأو الأحدث."
 
@@ -15234,17 +15235,17 @@ msgstr "معلومات تصحيح الأخطاء"
 msgid "e-mail"
 msgstr "البريد الإلكتروني"
 
-#: modules/custom-post-types/nova.php:953
+#: _inc/blocks/editor-beta.js:24
+#: _inc/blocks/editor.js:24
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
+#: class.jetpack-modules-list-table.php:198
 #: modules/carousel/jetpack-carousel.php:295
+#: modules/contact-form/grunion-contact-form.php:1860
+#: modules/contact-form/grunion-contact-form.php:2293
 #: modules/contact-form/grunion-editor-view.php:87
 #: modules/contact-form/grunion-editor-view.php:219
 #: modules/contact-form/grunion-form-view.php:216
-#: modules/contact-form/grunion-contact-form.php:1860
-#: modules/contact-form/grunion-contact-form.php:2293
-#: class.jetpack-modules-list-table.php:198
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
-#: _inc/blocks/editor-beta.js:24
-#: _inc/blocks/editor.js:24
+#: modules/custom-post-types/nova.php:953
 msgid "Name"
 msgstr "الاسم"
 
@@ -15536,7 +15537,7 @@ msgstr "ليس %s أمراً صالحاً."
 msgid "Jetpack is not currently connected to WordPress.com"
 msgstr "إن Jetpack غير متصلة حالياً بـ WordPress.com"
 
-#: class.jetpack.php:3867
+#: class.jetpack.php:3872
 msgid "Jetpack Debugging Center"
 msgstr "مركز تصحيح الأخطاء"
 
@@ -15591,15 +15592,14 @@ msgstr "الكل"
 msgid "View:"
 msgstr "عرض:"
 
-#: _inc/blocks/editor-beta.js:24
-#: _inc/blocks/editor.js:24
 #: _inc/jetpack-strings.php:154
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:92
-#: modules/masterbar/masterbar.php:461
+#: modules/masterbar/masterbar.php:461 modules/widgets/search.php:62
 #: modules/minileven/theme/pub/minileven/searchform.php:9
 #: modules/minileven/theme/pub/minileven/searchform.php:10
 #: modules/minileven/theme/pub/minileven/searchform.php:11
-#: modules/widgets/search.php:62
+#: _inc/blocks/editor-beta.js:24
+#: _inc/blocks/editor.js:24
 msgid "Search"
 msgstr "بحث"
 
@@ -15623,8 +15623,8 @@ msgstr "الرسائل"
 #: _inc/lib/admin-pages/class.jetpack-react-page.php:70
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:22
 #: class.jetpack-network.php:294
-#: class.jetpack.php:3849
-#: class.jetpack.php:3924
+#: class.jetpack.php:3854
+#: class.jetpack.php:3929
 #: modules/masterbar/masterbar.php:1282
 #: modules/publicize/ui.php:517
 #: modules/sharedaddy/sharedaddy.php:217
@@ -15652,7 +15652,7 @@ msgstr "تعلم المزيد"
 msgid "Disconnect Jetpack"
 msgstr "قطع الاتصال بـ Jetpack"
 
-#: class.jetpack.php:3925
+#: class.jetpack.php:3930
 #: modules/sharedaddy/sharedaddy.php:225
 msgid "Support"
 msgstr "الدعم الفني "
