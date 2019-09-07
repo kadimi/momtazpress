@@ -94,7 +94,6 @@ class Builder {
 		/**
 		 * Prepare file name.
 		 */
-		// $filename = $dir . $this->plugin_slug . '.zip';
 		$filename = $dir . $this->plugin_slug . '-plugin-' . $this->plugin_version . '.zip';
 
 		/**
@@ -143,6 +142,8 @@ class Builder {
 			}
 		}
 		$zip->close();
+
+		$this->log( '[Info] File size: ' . $this->filesize_formatted( $filename ) );
 	}
 
 	/**
@@ -244,7 +245,6 @@ class Builder {
 		$duration = microtime( true ) - $timer;
 		$this->log( sprintf( '...completed in %.2fs', $duration ) );
 	}
-
 
 	/**
 	 * Runs `composer install`.
@@ -455,6 +455,8 @@ class Builder {
 		 * Cleanup
 		 */
 		shell_exec( "rm -fr $mp_dir" );
+
+		$this->log( '[Info] File size: ' . $this->filesize_formatted( $mp_file ) );
 	}
 
 	/**
@@ -474,5 +476,17 @@ class Builder {
 				, $file
 			) );
 		}
+	}
+
+	/**
+	 * Get formatted filesize.
+	 *
+	 * @link https://stackoverflow.com/a/11860664
+	 */
+	private function filesize_formatted( $path ) {
+		$size = filesize( $path );
+		$units = array( 'B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB');
+		$power = $size > 0 ? floor( log( $size, 1024 ) ) : 0;
+		return number_format( $size / pow( 1024, $power ), 2, '.', ',' ) . ' ' . $units[ $power ];
 	}
 }
