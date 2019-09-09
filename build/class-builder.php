@@ -36,6 +36,18 @@ class Builder {
 	private $plugin_timestamp;
 
 	/**
+	 * Tasks.
+	 *
+	 * @var array
+	 */
+	private $tasks = [
+		'composer_install' => 'Install dependencies',
+		'pot' => 'Create pot file',
+		'package_plugin' => 'Package plugin',
+		'package_distribution' => 'Package distribution',
+	];
+
+	/**
 	 * Last error seen on the log.
 	 *
 	 * @var Boolean|String
@@ -68,20 +80,42 @@ class Builder {
 
 		global $argv;
 
-		if ( empty( $argv[3] ) ) {
-			$this->log_error( "Missing parameters.\n- Usage: php -f build/build.php [name] [version] [timestamp]" );
+		/**
+		 * Parse options.
+		 */
+		$opts = getopt( 's:v:t:x::' );
+		$opts += [
+			'x' => '',
+		];
+		if ( 0
+			|| empty( $opts[ 's' ] )
+			|| empty( $opts[ 'v' ] )
+			|| empty( $opts[ 't' ] )
+		) {
+			$this->log_error( "Missing parameters.\n- Usage: php -f build/build.php -n{name} -v{version} -t{timestamp} [-x{task1|task2}]" );
 		}
 
+		/**
+		 * Create releases dir.
+		 */
 		shell_exec( "mkdir -p {$this->releases_dir}" );
 
+		/**
+		 * Parse options.
+		 */
 		$this->timer = microtime( true );
-		$this->plugin_slug = $argv[1];
-		$this->plugin_version = $argv[2];
-		$this->plugin_timestamp =  $argv[3];
-		$this->task( [ $this, 'pot' ], 'Create pot file' );
-		$this->task( [ $this, 'composer_install' ], 'Install dependencies' );
-		$this->task( [ $this, 'package_plugin' ], 'Package plugin' );
-		$this->task( [ $this, 'package_distribution' ], 'Package distribution' );
+		$this->plugin_slug = $opts[ 's' ];
+		$this->plugin_version = $opts[ 'v' ];
+		$this->plugin_timestamp =  $opts[ 't' ];
+
+		/**
+		 * Run tasks.
+		 */
+		foreach ( $this->tasks as $task => $title ) {
+			if ( ! in_array( $task, explode( '|', $opts[ 'x' ] ) ) ) {
+				$this->task( [ $this, $task ], $title );
+			}			
+		}
 	}
 
 	/**
@@ -156,6 +190,13 @@ class Builder {
 	protected function find( $pattern ) {
 
 		$elements = [];
+
+		/**
+		 * Check $pattern exists as a file or directory.
+		 */
+		if ( ! file_exists( $pattern ) ) {
+			return $elements;
+		}
 
 		/**
 		 * All paths
