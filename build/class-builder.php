@@ -92,7 +92,7 @@ class Builder {
 			|| empty( $opts[ 'v' ] )
 			|| empty( $opts[ 't' ] )
 		) {
-			$this->log_error( "Missing parameters.\n- Usage: php -f build/build.php -n{name} -v{version} -t{timestamp} [-x{task1|task2}]" );
+			$this->log_error( "Missing parameters.\n- Usage: php -f build/build.php -s{slug} -v{version} -t{timestamp} [-x{task1|task2}]" );
 		}
 
 		/**
