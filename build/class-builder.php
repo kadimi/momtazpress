@@ -148,14 +148,33 @@ class Builder {
 			$this->find( '.' ),
 			$this->find( '.git' ),
 			$this->find( 'build' ),
+			$this->find( 'inc/developer' ),
 			$this->find( 'vendor' ),
 			[
 				'.git/',
 				'composer.lock',
 				'build/',
+				'inc/developer/',
 				'vendor/',
 			]
 		);
+
+		/**
+		 * Remove some files from list.
+		 *   - dot file
+		 *   - .gitkeep
+		 *   - *.po
+		 */
+		$files = array_filter( $files, function( $file ) {
+			if ( 0
+				// || substr( $file, 0, 1 ) === '.'
+				// || substr( $file, -8 ) === '.gitkeep'
+				|| substr( $file, -3 ) === '.po'
+			) {
+				return false;
+			}
+			return true;
+		} );
 
 		/**
 		 * Create plugin package.
