@@ -19,21 +19,21 @@ class Builder {
 	 *
 	 * @var string
 	 */
-	private $plugin_slug;
+	private $slug;
 
 	/**
 	 * Plugin version.
 	 *
 	 * @var string
 	 */
-	private $plugin_version;
+	private $version;
 
 	/**
 	 * Plugin timestamp.
 	 *
 	 * @var string
 	 */
-	private $plugin_timestamp;
+	private $timestamp;
 
 	/**
 	 * Tasks.
@@ -104,9 +104,9 @@ class Builder {
 		 * Parse options.
 		 */
 		$this->timer = microtime( true );
-		$this->plugin_slug = $opts[ 's' ];
-		$this->plugin_version = $opts[ 'v' ];
-		$this->plugin_timestamp =  $opts[ 't' ];
+		$this->slug = $opts[ 's' ];
+		$this->version = $opts[ 'v' ];
+		$this->timestamp =  $opts[ 't' ];
 
 		/**
 		 * Run tasks.
@@ -139,7 +139,7 @@ class Builder {
 		/**
 		 * Prepare file name.
 		 */
-		$filename = $this->releases_dir . $this->plugin_slug . '-plugin-' . $this->plugin_version . '.zip';
+		$filename = $this->releases_dir . $this->slug . '-plugin-' . $this->version . '.zip';
 
 		/**
 		 * Prepare a list of files.
@@ -175,7 +175,7 @@ class Builder {
 		}
 		$zip->close();
 
-		$this->remove_zip_extra( $filename, $this->plugin_timestamp );
+		$this->remove_zip_extra( $filename, $this->timestamp );
 
 		$this->log( '[Info] File size: ' . $this->filesize_formatted( $filename ) );
 		$this->log( '[Info] Hashes: ' . $this->hashes( $filename ) );
@@ -300,7 +300,7 @@ class Builder {
 		/**
 		 * Rename composer classes.
 		 */
-		$prefix = md5( sprintf( '%s:%s', $this->plugin_slug, $this->plugin_version ) );
+		$prefix = md5( sprintf( '%s:%s', $this->slug, $this->version ) );
 		$this->do_preg_replace ( [
 			'vendor/autoload.php' => [
 				'/Composer([a-z]+)[0-9a-f]{32}/i' => 'Composer$1' . $prefix,
@@ -319,7 +319,7 @@ class Builder {
 	 */
 	protected function pot() {
 
-		$pot_filename = 'lang/' . $this->plugin_slug . '.pot';
+		$pot_filename = 'lang/' . $this->slug . '.pot';
 
 		if ( ! $this->shell_command_exists( 'xgettext' ) ) {
 			$this->log_error( '`xgettext` command does not exist.' );
@@ -345,8 +345,8 @@ class Builder {
 			|
 			xargs xgettext
 				--language=PHP
-				--package-name=' . $this->plugin_slug . '
-				--package-version=' . $this->plugin_version . '
+				--package-name=' . $this->slug . '
+				--package-version=' . $this->version . '
 				--copyright-holder="Nabil Kadimi"
 				--from-code=UTF-8
 				--keyword="__"
@@ -410,25 +410,25 @@ class Builder {
 
 		$mp_dir = sprintf( '%1$smomtazpress-distro-%2$s'
 			, sys_get_temp_dir() . DIRECTORY_SEPARATOR
-			, $this->plugin_version
+			, $this->version
 		) . DIRECTORY_SEPARATOR;
 
 		$mp_file = sprintf( '%1$smomtazpress-distro-%2$s.zip'
 			, $this->releases_dir
-			, $this->plugin_version
+			, $this->version
 		);
 
 		$wp_dir = sprintf( '%1$swordpress-%2$s'
 			, sys_get_temp_dir() . DIRECTORY_SEPARATOR
-			, $this->plugin_version
+			, $this->version
 		) . DIRECTORY_SEPARATOR;
 
 		$wp_file = sprintf( '%1$swordpress-%2$s.tar.gz'
 			, sys_get_temp_dir() . DIRECTORY_SEPARATOR
-			, $this->plugin_version
+			, $this->version
 		);
 
-		$wp_url = sprintf( 'https://wordpress.org/wordpress-%s.tar.gz', $this->plugin_version );
+		$wp_url = sprintf( 'https://wordpress.org/wordpress-%s.tar.gz', $this->version );
 
 		/**
 		 * Download and uncompress WordPress.
@@ -507,7 +507,7 @@ class Builder {
 		 *
 		 * This assures we always get he same file md5 hash.
 		 */
-		$this->remove_zip_extra( $mp_file, $this->plugin_timestamp );
+		$this->remove_zip_extra( $mp_file, $this->timestamp );
 
 		/**
 		 * Show some stats.
