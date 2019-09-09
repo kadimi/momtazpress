@@ -483,7 +483,7 @@ class Builder {
 		) );
 
 		/**
-		 * Rename wordpress folders folders
+		 * Rename wordpress folders.
 		 */
 		shell_exec( "mv -f $wp_dir $mp_dir" );
 		shell_exec( "mv -f {$mp_dir}wordpress {$mp_dir}momtazpress" );
