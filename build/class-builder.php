@@ -29,11 +29,32 @@ class Builder {
 	private $plugin_version;
 
 	/**
+	 * Plugin timestamp.
+	 *
+	 * @var string
+	 */
+	private $plugin_timestamp;
+
+	/**
 	 * Last error seen on the log.
 	 *
 	 * @var Boolean|String
 	 */
 	private $last_error = false;
+
+	/**
+	 * Releases directory.
+	 *
+	 * @var string
+	 */
+	private $releases_dir = __DIR__ . DIRECTORY_SEPARATOR . 'releases' . DIRECTORY_SEPARATOR;
+
+	/**
+	 * Releases temproray/cache directory.
+	 *
+	 * @var string
+	 */
+	private $releases_tmp_dir = __DIR__ . DIRECTORY_SEPARATOR . 'releases' . DIRECTORY_SEPARATOR . 'tmp' . DIRECTORY_SEPARATOR;
 
 	/**
 	 * Timer.
@@ -54,17 +75,17 @@ class Builder {
 
 		global $argv;
 
-		if ( empty( $argv[1] ) ) {
-			$this->log_error( 'Missing plugin slug and version, example usage: `php -f build/build.php acme-plugin 1.0.0`' );
+		if ( empty( $argv[3] ) ) {
+			$this->log_error( "Missing parameters.\n- Usage: php -f build/build.php [name] [version] [timestamp]" );
 		}
 
-		if ( empty( $argv[2] ) ) {
-			$this->log_error( 'Missing plugin version, example usage: `php -f build/build.php acme-plugin 1.0.0`' );
-		}
+		shell_exec( "mkdir -p {$this->releases_dir}" );
+		shell_exec( "mkdir -p {$this->releases_tmp_dir}" );
 
 		$this->timer = microtime( true );
 		$this->plugin_slug = $argv[1];
 		$this->plugin_version = $argv[2];
+		$this->plugin_timestamp =  $argv[3];
 		$this->task( [ $this, 'pot' ], 'Create pot file' );
 		$this->task( [ $this, 'composer_install' ], 'Install dependencies' );
 		$this->task( [ $this, 'package_plugin' ], 'Package plugin' );
@@ -89,28 +110,10 @@ class Builder {
 	 */
 	private function package_plugin() {
 
-		$dir = 'build/releases/';
-
 		/**
 		 * Prepare file name.
 		 */
-		$filename = $dir . $this->plugin_slug . '-plugin-' . $this->plugin_version . '.zip';
-
-		/**
-		 * Create directory `releases` if it doesn't exist.
-		 */
-		if ( ! is_dir( $dir ) ) {
-			mkdir( $dir, 0755, true );
-		}
-
-		/**
-		 * Delete existing release with same file name.
-		 */
-		if ( file_exists( $filename ) ) {
-			// @codingStandardsIgnoreStart
-			unlink( $filename );
-			// @codingStandardsIgnoreEnd
-		}
+		$filename = $this->releases_dir . $this->plugin_slug . '-plugin-' . $this->plugin_version . '.zip';
 
 		/**
 		 * Prepare a list of files.
@@ -119,9 +122,12 @@ class Builder {
 			$this->find( '.' ),
 			$this->find( '.git' ),
 			$this->find( 'build' ),
+			$this->find( 'vendor' ),
 			[
 				'.git/',
+				'composer.lock',
 				'build/',
+				'vendor/',
 			]
 		);
 
@@ -143,7 +149,10 @@ class Builder {
 		}
 		$zip->close();
 
+		$this->remove_zip_extra( $filename, $this->plugin_timestamp );
+
 		$this->log( '[Info] File size: ' . $this->filesize_formatted( $filename ) );
+		$this->log( '[Info] Hashes: ' . $this->hashes( $filename ) );
 	}
 
 	/**
@@ -364,21 +373,13 @@ class Builder {
 	 */
 	protected function package_distribution() {
 
-		$releases_dir = __DIR__ . DIRECTORY_SEPARATOR . 'releases' . DIRECTORY_SEPARATOR;
-		$tmp_dir = $releases_dir . 'tmp' . DIRECTORY_SEPARATOR;
+		$mp_dir = sprintf( '%1$smomtazpress-%2$s', $this->releases_tmp_dir, $this->plugin_version ) . DIRECTORY_SEPARATOR;
+		$mp_file = sprintf( '%1$smomtazpress-distro-%2$s.zip', $this->releases_dir, $this->plugin_version );
 
-		$mp_dir = sprintf( '%1$smomtazpress-%2$s', $tmp_dir, $this->plugin_version ) . DIRECTORY_SEPARATOR;
-		$mp_file = sprintf( '%1$smomtazpress-distro-%2$s.zip', $releases_dir, $this->plugin_version );
+		$wp_dir = sprintf( '%1$swordpress-%2$s', $this->releases_tmp_dir, $this->plugin_version ) . DIRECTORY_SEPARATOR;
+		$wp_file = sprintf( '%1$swordpress-%2$s.tar.gz', $this->releases_tmp_dir, $this->plugin_version );
 
-		$wp_dir = sprintf( '%1$swordpress-%2$s', $tmp_dir, $this->plugin_version ) . DIRECTORY_SEPARATOR;
-		$wp_file = sprintf( '%1$swordpress-%2$s.tar.gz', $tmp_dir, $this->plugin_version );
 		$wp_url = sprintf( 'https://wordpress.org/wordpress-%s.tar.gz', $this->plugin_version );
-
-		/**
-		 * Create ./releases and ./releases/tmp folders.
-		 */
-		shell_exec( "mkdir -p $releases_dir" );
-		shell_exec( "mkdir -p $tmp_dir" );
 
 		/**
 		 * Download and uncompress WordPress.
@@ -457,7 +458,10 @@ class Builder {
 		 */
 		shell_exec( "rm -fr $mp_dir" );
 
+		$this->remove_zip_extra( $mp_file, $this->plugin_timestamp );
+
 		$this->log( '[Info] File size: ' . $this->filesize_formatted( $mp_file ) );
+		$this->log( '[Info] Hashes: ' . $this->hashes( $mp_file ) );
 	}
 
 	/**
@@ -489,5 +493,68 @@ class Builder {
 		$units = array( 'B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB');
 		$power = $size > 0 ? floor( log( $size, 1024 ) ) : 0;
 		return number_format( $size / pow( 1024, $power ), 2, '.', ',' ) . ' ' . $units[ $power ];
+	}
+
+	/**
+	 * Get hashes.
+	 *
+	 */
+	private function hashes( $path ) {
+		return 'MD5: ' . md5_file( $path );
+	}
+
+	/**
+	 * Remove extra data from zip file.
+	 */
+	private function remove_zip_extra( $file, $timestamp ) {
+
+		$random = substr( str_shuffle( MD5( microtime() ) ), 0, 10 );
+		$tmp = sys_get_temp_dir() . DIRECTORY_SEPARATOR . basename( $file) . DIRECTORY_SEPARATOR;
+		$tmp_random = $tmp . DIRECTORY_SEPARATOR . $random . DIRECTORY_SEPARATOR;
+		$cwd = getcwd();
+
+		/**
+		 * Create $tmp.
+		 */
+		shell_exec( "mkdir -p $tmp" );
+
+		/**
+		 * Extract file to the random temporary directory.
+		 */
+		shell_exec( "unzip $file -d $tmp_random" );
+
+		/**
+		 * cd into newly created random temporary directory.
+		 */
+		chdir( $tmp_random );
+
+		/**
+		 * Set files timestamps.
+		 */
+		echo shell_exec( '
+			find -print | while read filename; do
+				touch -t ' . $timestamp . ' "$filename"
+			done
+		' );
+
+		/**
+		 * Compress.
+		 */
+		shell_exec( "zip -X -r ../$random.zip ." );
+
+		/**
+		 * Overwrite original file.
+		 */
+		shell_exec( "mv -f ../$random.zip $file" );
+
+		/**
+		 * cd back.
+		 */
+		chdir( $cwd );
+
+		/**
+		 * Cleanup.
+		 */
+		shell_exec( "rm -fr $tmp_random" );
 	}
 }
