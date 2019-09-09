@@ -50,13 +50,6 @@ class Builder {
 	private $releases_dir = __DIR__ . DIRECTORY_SEPARATOR . 'releases' . DIRECTORY_SEPARATOR;
 
 	/**
-	 * Releases temproray/cache directory.
-	 *
-	 * @var string
-	 */
-	private $releases_tmp_dir = __DIR__ . DIRECTORY_SEPARATOR . 'releases' . DIRECTORY_SEPARATOR . 'tmp' . DIRECTORY_SEPARATOR;
-
-	/**
 	 * Timer.
 	 *
 	 * @var float
@@ -80,7 +73,6 @@ class Builder {
 		}
 
 		shell_exec( "mkdir -p {$this->releases_dir}" );
-		shell_exec( "mkdir -p {$this->releases_tmp_dir}" );
 
 		$this->timer = microtime( true );
 		$this->plugin_slug = $argv[1];
@@ -373,11 +365,27 @@ class Builder {
 	 */
 	protected function package_distribution() {
 
-		$mp_dir = sprintf( '%1$smomtazpress-%2$s', $this->releases_tmp_dir, $this->plugin_version ) . DIRECTORY_SEPARATOR;
-		$mp_file = sprintf( '%1$smomtazpress-distro-%2$s.zip', $this->releases_dir, $this->plugin_version );
+		$cwd = getcwd();
 
-		$wp_dir = sprintf( '%1$swordpress-%2$s', $this->releases_tmp_dir, $this->plugin_version ) . DIRECTORY_SEPARATOR;
-		$wp_file = sprintf( '%1$swordpress-%2$s.tar.gz', $this->releases_tmp_dir, $this->plugin_version );
+		$mp_dir = sprintf( '%1$smomtazpress-distro-%2$s'
+			, sys_get_temp_dir() . DIRECTORY_SEPARATOR
+			, $this->plugin_version
+		) . DIRECTORY_SEPARATOR;
+
+		$mp_file = sprintf( '%1$smomtazpress-distro-%2$s.zip'
+			, $this->releases_dir
+			, $this->plugin_version
+		);
+
+		$wp_dir = sprintf( '%1$swordpress-%2$s'
+			, sys_get_temp_dir() . DIRECTORY_SEPARATOR
+			, $this->plugin_version
+		) . DIRECTORY_SEPARATOR;
+
+		$wp_file = sprintf( '%1$swordpress-%2$s.tar.gz'
+			, sys_get_temp_dir() . DIRECTORY_SEPARATOR
+			, $this->plugin_version
+		);
 
 		$wp_url = sprintf( 'https://wordpress.org/wordpress-%s.tar.gz', $this->plugin_version );
 
@@ -449,19 +457,27 @@ class Builder {
 		$zip->close();
 
 		/**
-		 * Restore working directory.
+		 * cd back.
 		 */
-		chdir( __DIR__ );
+		chdir( $cwd );
+
+		/**
+		 * Remove zip data.
+		 *
+		 * This assures we always get he same file md5 hash.
+		 */
+		$this->remove_zip_extra( $mp_file, $this->plugin_timestamp );
+
+		/**
+		 * Show some stats.
+		 */
+		$this->log( '[Info] File size: ' . $this->filesize_formatted( $mp_file ) );
+		$this->log( '[Info] Hashes: ' . $this->hashes( $mp_file ) );
 
 		/**
 		 * Cleanup
 		 */
 		shell_exec( "rm -fr $mp_dir" );
-
-		$this->remove_zip_extra( $mp_file, $this->plugin_timestamp );
-
-		$this->log( '[Info] File size: ' . $this->filesize_formatted( $mp_file ) );
-		$this->log( '[Info] Hashes: ' . $this->hashes( $mp_file ) );
 	}
 
 	/**
@@ -508,10 +524,11 @@ class Builder {
 	 */
 	private function remove_zip_extra( $file, $timestamp ) {
 
+		$cwd = getcwd();
+
 		$random = substr( str_shuffle( MD5( microtime() ) ), 0, 10 );
 		$tmp = sys_get_temp_dir() . DIRECTORY_SEPARATOR . basename( $file) . DIRECTORY_SEPARATOR;
-		$tmp_random = $tmp . DIRECTORY_SEPARATOR . $random . DIRECTORY_SEPARATOR;
-		$cwd = getcwd();
+		$tmp_random = $tmp . $random . DIRECTORY_SEPARATOR;
 
 		/**
 		 * Create $tmp.
@@ -524,7 +541,7 @@ class Builder {
 		shell_exec( "unzip $file -d $tmp_random" );
 
 		/**
-		 * cd into newly created random temporary directory.
+		 * cd into newly created random temporary directory to get a proper structure on the zip file.
 		 */
 		chdir( $tmp_random );
 
