@@ -114,7 +114,7 @@ class Builder {
 		foreach ( $this->tasks as $task => $title ) {
 			if ( ! in_array( $task, explode( '|', $opts[ 'x' ] ) ) ) {
 				$this->task( [ $this, $task ], $title );
-			}			
+			}
 		}
 	}
 
