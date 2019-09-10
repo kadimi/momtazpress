@@ -450,12 +450,17 @@ class Builder {
 		$wp_url = sprintf( 'https://wordpress.org/wordpress-%s.tar.gz', $this->version );
 
 		/**
+		 * Preparation cleanup.
+		 */
+		shell_exec( "rm -fr $wp_dir $mp_dir");
+
+		/**
 		 * Download and uncompress WordPress.
 		 */
 		if ( ! file_exists( $wp_file ) ) {
 			file_put_contents( $wp_file, file_get_contents( $wp_url ) );
 		}
-		shell_exec( "rm -fr $wp_dir && mkdir $wp_dir && tar -xvzf $wp_file -C $wp_dir" );
+		shell_exec( "mkdir $wp_dir && tar -xvzf $wp_file -C $wp_dir" );
 
 		/**
 		 * Copy MomtazPress files into wp-includes excluding unnecessary files.
