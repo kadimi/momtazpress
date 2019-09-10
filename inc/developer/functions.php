@@ -25,18 +25,27 @@ function mp_get_filesystem() {
 function mp_update_pomo( $po_file, $po_url ) {
 
 	/**
-	 * Download .po file.
+	 * Temporary directories.
+	 *
+	 * @example /tmp/momtazpress-pomo/plugins
+	 * @example /tmp/momtazpress-pomo/themes
 	 */
-	$response = wp_remote_get( $po_url, [
-		'timeout' => 10,
-	] );
+	$tmp_dir = sys_get_temp_dir()
+		. DIRECTORY_SEPARATOR
+		. 'momtazpress-pomo'
+		. DIRECTORY_SEPARATOR
+		. preg_replace('/.*\//', '', dirname( $po_file ) )
+		. DIRECTORY_SEPARATOR
+	;
+	shell_exec( 'mkdir -p ' . sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'momtazpress-pomo' );
+	shell_exec( "mkdir -p $tmp_dir" );
 
 	/**
-	 * Exit if URL doesn't work.
+	 * Temporary file
+	 *
+	 * @example /tmp/momtazpress-pomo/plugins/akismet-xx_XX.po
 	 */
-	if ( ! $response || is_wp_error( $response ) || 200 !== $response[ 'response' ][ 'code' ] ) {
-		return false;
-	}
+	$tmp_file = $tmp_dir . basename( $po_file );
 
 	/**
 	 * Prepare filesystem.
@@ -44,14 +53,20 @@ function mp_update_pomo( $po_file, $po_url ) {
 	$filesystem = mp_get_filesystem();
 
 	/**
-	 * Helper file.
+	 * Get .po file from server of from cache.
 	 */
-	$tmp_file = MP_LANG_DIR . '/tmp-' . random_int( PHP_INT_MIN, PHP_INT_MAX ) . '.po';
-
-	/**
-	 * Save original file temporarily.
-	 */
-	$filesystem->put_contents( $tmp_file , $response[ 'body' ], 0644 );
+	if ( file_exists( $tmp_file ) ) {
+		$dl_contents = file_get_contents( $tmp_file );
+	} else {
+		$response = wp_remote_get( $po_url, [
+			'timeout' => 10,
+		] );
+		if ( ! $response || is_wp_error( $response ) || 200 !== $response[ 'response' ][ 'code' ] ) {
+			return false;
+		}
+		$dl_contents = $response[ 'body' ];
+		$filesystem->put_contents( $tmp_file , $dl_contents, 0644 );
+	}
 
 	/**
 	 * Handle downloaded file.
@@ -123,11 +138,6 @@ function mp_update_pomo( $po_file, $po_url ) {
 	$filesystem->put_contents( $po_file , $po_file_contents , 0644 );
 
 	/**
-	 * Delete helper file.
-	 */
-	$filesystem->delete( $tmp_file );
-
-	/**
 	 * Re-generate mo file.
 	 */
 	$mo_cmd = sprintf( 'msgfmt -o %s %s', preg_replace( '/po$/', 'mo', $po_file ), $po_file );
@@ -186,39 +196,61 @@ function mp_update_package_pomo( $slug, $type ) {
 /**
  * Get most popular plugins and themes.
  */
-function mp_get_popular_packages( $type, $number = 30 ) {
+function mp_get_popular_packages( $type, $number = 5 ) {
 
 	$packages = [];
 
 	/**
 	 * Prepare URL.
 	 */
-	$url = 'https://api.wordpress.org/' . $type . 's/info/1.1/';
-	$url .= '?action=query_' . $type . 's';
-	$url .= '&request[browse]=popular';
-	$url .= '&request[per_page]=' . $number ;
+	$url = 'https://api.wordpress.org/' . $type . 's/info/1.1/'
+		. '?action=query_' . $type . 's'
+		. '&request[fields][description]=0'
+		. '&request[fields][downloaded]=1'
+		. '&request[fields][homepage]=0'
+		. '&request[fields][last_updated]=1'
+		. '&request[fields][rating]=0'
+		. '&request[fields][screenshot_url]=0'
+		. '&request[fields][preview_url]=0'
+		. '&request[browse]=popular'
+		. '&request[per_page]=10'
+	;
 	if ( 'theme' === $type ) {
 		foreach ( explode( '|', MP_UPDATE_THEME_TAGS ) as $tag ) {
 			$url .= '&request[tag]=' . $tag;
 		}
 	}
-	// $url .= '&request[fields][downloaded]=1';
 
 	/**
-	 * Send request.
-	 * @var [type]
+	 * Get from cache if found, otherwise send request and cache it.
 	 */
-	$response = wp_remote_get( $url, [
-		'timeout' => 10,
-	] );
-	if ( ! $response || is_wp_error( $response ) || 200 !== $response[ 'response' ][ 'code' ] ) {
-		return false;
+	$cache_file = sys_get_temp_dir() . DIRECTORY_SEPARATOR . md5( $url ) . '.json';
+	if ( file_exists( $cache_file ) ) {
+		$dl_content = file_get_contents( $cache_file );
+	} else {
+		$response = wp_remote_get( $url, [
+			'timeout' => 30,
+		] );
+		if ( ! $response || is_wp_error( $response ) || 200 !== $response[ 'response' ][ 'code' ] ) {
+			return [];
+		}
+		$dl_content = $response[ 'body' ];
+		file_put_contents( $cache_file, $dl_content );
 	}
 
 	/**
-	 * Grab packages slugs.
+	 * Get packages sorted by download count.
 	 */
-	foreach ( json_decode( $response[ 'body' ] )->{ $type . 's' } as $package ) {
+	$packages_from_api = ( array ) json_decode( $dl_content )->{ $type . 's' };
+	usort( $packages_from_api, function( $a, $b ) {
+		return $a->downloaded < $b->downloaded;
+	} );
+
+	/**
+	 * Grab first `$number` packages.
+	 */
+	$packages_from_api = array_slice( $packages_from_api, 0, $number );
+	foreach ( $packages_from_api as $package ) {
 		$packages[] = $package->slug;
 	}
 
