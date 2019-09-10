@@ -188,48 +188,38 @@ function mp_update_package_pomo( $slug, $type ) {
  */
 function mp_get_popular_packages( $type, $number = 30 ) {
 
-	$url_format = 'https://wordpress.org/' . $type . 's/browse/popular/page/{{page}}/';
-	$regex = '/\"https\:\/\/wordpress\.org\/' . $type . 's\/([a-z0-9-]+)\/\"/';
 	$packages = [];
 
 	/**
-	 * Loop through pages.
+	 * Prepare URL.
 	 */
-	$page = 1;
-	while( true ) {
-
-		/**
-		 * Get page HTML.
-		 */
-		$page_url = str_replace( '{{page}}', $page, $url_format );
-		$response = wp_remote_get( $page_url, [
-			'timeout' => 10,
-		] );
-		if ( ! $response || is_wp_error( $response ) || 200 !== $response[ 'response' ][ 'code' ] ) {
-			return false;
+	$url = 'https://api.wordpress.org/' . $type . 's/info/1.1/';
+	$url .= '?action=query_' . $type . 's';
+	$url .= '&request[browse]=popular';
+	$url .= '&request[per_page]=' . $number ;
+	if ( 'theme' === $type ) {
+		foreach ( explode( '|', MP_UPDATE_THEME_TAGS ) as $tag ) {
+			$url .= '&request[tag]=' . $tag;
 		}
+	}
+	// $url .= '&request[fields][downloaded]=1';
 
-		/**
-		 * Get packages on page.
-		 */
-		preg_match_all( $regex, $response[ 'body' ], $matches );
-		$matches = array_unique( $matches[1] );
-		$matches = array_diff( $matches, [
-			'commercial',
-			'developers',
-			'getting-started',
-		] );
+	/**
+	 * Send request.
+	 * @var [type]
+	 */
+	$response = wp_remote_get( $url, [
+		'timeout' => 10,
+	] );
+	if ( ! $response || is_wp_error( $response ) || 200 !== $response[ 'response' ][ 'code' ] ) {
+		return false;
+	}
 
-		/**
-		 * Add packages up to `$number`
-		 */
-		while( $package = array_shift( $matches ) ) {
-			$packages[] = $package;
-			if ( count( $packages ) == $number ) {
-				break 2;
-			}
-		}
-		$page++;
+	/**
+	 * Grab packages slugs.
+	 */
+	foreach ( json_decode( $response[ 'body' ] )->{ $type . 's' } as $package ) {
+		$packages[] = $package->slug;
 	}
 
 	/**
