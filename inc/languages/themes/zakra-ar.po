@@ -1,0 +1,1402 @@
+# Translation of Themes - Zakra in Arabic
+# This file is distributed under the same license as the Themes - Zakra package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-08-07 10:21:26+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Zakra\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "Zakra is flexible, fast, lightweight and modern multipurpose theme that comes with many starter free sites (currently 10+ free starter sites and more will be added later) that you can use to make your site beautiful and professional. Check all the starter sites at https://demo.themegrill.com/zakra-demos/. Suitable for personal blog, portfolio, WooCommerce stores, business websites and niche-based sites (like Cafe, Spa, Charity, Yoga, Wedding, Dentist, Education etc) as well. Works with Elementor plus other major page builders so you can create any layout you want. The theme is responsive, Gutenberg compatible, SEO friendly, translation ready and major WordPress plugins compatible."
+msgstr "زكرا (Zakra) هو قالب متعدد الأغراض مرن وسريع وخفيف الوزن وحديث يأتي مع العديد من المواقع المجانية للمبتدئين (حاليًا يوجد أكثر من 10 مواقع للمبتدئين مجانا و سيتم إضافة المزيد في وقت لاحق) التي يمكنك استخدامها لجعل موقعك جميلًا واحترافيا. القي نظرة على كل المواقع للمبتدئين على https://demo.themegrill.com/zakra-demos/. مناسبة للمدونات الشخصية ، وقائمة المشاريع، ومحلات ووكومرس (WooCommerce) ،و كذلك مواقع الأعمال والمواقع المتخصصة (مثل المقاهي، والمنتجاعات الصحية، والجمعيات الخيرية، واليوغا ،والحفلات ،وطبيب الأسنان ،والتعليم، إلخ). يعمل مع المنتر (Elementor) بالإضافة إلى منشئ الصفحات المعروفة الأخرى بحيث يمكنك إنشاء أي تخطيط تريده. القالب مستجيب، متوافق مع غوتنبرغ (Gutenberg) و السيو(SEO)، و جاهز للترجمة و متوافق مع أكثر إضافات ووردبريس."
+
+#. Theme Name of the theme
+#: inc/admin/class-zakra-admin.php:292
+#: inc/helpers.php:89
+msgid "Zakra"
+msgstr "زكرا (Zakra)"
+
+#: inc/admin/class-zakra-admin.php:301
+msgid "Clicking the button below will install and activate the ThemeGrill demo importer plugin."
+msgstr "يؤدي النقر فوق الزر أدناه إلى تنصيب وتفعيل إضافة المستورد التجريبي من ThemeGrill."
+
+#: inc/admin/about-page/class-zakra-about-page.php:431
+msgid "Clicking the \"Import\" button in any of the demos below will install and activate the ThemeGrill demo importer plugin."
+msgstr "يؤدي النقر فوق الزر \"استيراد\" في أي من العروض التوضيحية أدناه إلى تنصيب وتفعيل إضافة المستورد التجريبي من ThemeGrill."
+
+#: inc/customizer/register-panels-and-sections.php:105
+msgid "Meta"
+msgstr "منوعات"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-meta-option.php:39
+msgid "Meta Style"
+msgstr "منوعات نمط"
+
+#: inc/admin/class-zakra-theme-review-notice.php:102
+msgid "I already did"
+msgstr "لقد قمت بفعلها"
+
+#: inc/admin/class-zakra-theme-review-notice.php:97
+msgid "Maybe later"
+msgstr "ربما لاحقًا"
+
+#: inc/admin/class-zakra-theme-review-notice.php:92
+msgid "Sure"
+msgstr "بالتأكيد"
+
+#. Translators: %1$s current user display name.
+#: inc/admin/class-zakra-theme-review-notice.php:79
+msgid "Howdy, %1$s! It seems that you have been using this theme for more than 15 days. We hope you are happy with everything that the theme has to offer. If you can spare a minute, please help us by leaving a 5-star review on WordPress.org.  By spreading the love, we can continue to develop new amazing features in the future, for free!"
+msgstr "مرحبا ،%1$s! يبدو أنك تستخدم هذا القالب لأكثر من 15 يومًا. نأمل أن تكون سعيدًا بكل ما يقدمه هذا القالب. إذا بإمكانكِ تخصيص دقيقة ، فالرجاء مساعدتنا عن طريق ترك مراجعة 5 نجوم على WordPress.org. من خلال نشر الحب، يمكننا الاستمرار في تطوير ميزات مذهلة جديدة في المستقبل، مجانًا!"
+
+#: inc/customizer/register-panels-and-sections.php:42
+msgid "Header Button"
+msgstr "زر الترويسة "
+
+#: inc/customizer/options/header/class-zakra-customize-header-button-option.php:69
+msgid "Open link in a new tab"
+msgstr "افتح الرابط في علامة تبويب جديدة"
+
+#: inc/customizer/options/header/class-zakra-customize-header-button-option.php:56
+msgid "Button Link"
+msgstr "زر الرابط"
+
+#: inc/customizer/options/header/class-zakra-customize-header-button-option.php:39
+msgid "Button Text"
+msgstr "زر النص"
+
+#: inc/customizer/options/menu/class-zakra-customize-primary-menu-option.php:55
+msgid "Keep Menu Items on One Line"
+msgstr "الحفاظ على عناصر القائمة في سطر واحد"
+
+#: inc/customizer/options/layout/class-zakra-customize-layout-general-option.php:154
+msgid "Single Product"
+msgstr "Single Product"
+
+#: inc/customizer/options/layout/class-zakra-customize-layout-general-option.php:131
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: functions.php:125
+msgid "WooCommerce Right Sidebar"
+msgstr "الشريط الجانبي الأيمن لWooCommerce"
+
+#: functions.php:124
+msgid "WooCommerce Left Sidebar"
+msgstr "الشريط الجانبي الأيسر لWooCommerce "
+
+#: inc/customizer/options/typography/class-zakra-customize-typography-option.php:176
+msgid "Dropdown"
+msgstr "القائمة المنسدلة"
+
+#: inc/customizer/register-panels-and-sections.php:238
+msgid "Blog/Archive Post Title"
+msgstr "مدونة / أرشيف عنوان المقالة "
+
+#: inc/customizer/register-panels-and-sections.php:230
+msgid "Post/Page Title"
+msgstr "عنوان المقالة / الصفحة  "
+
+#: inc/customizer/options/typography/class-zakra-customize-typography-option.php:126
+msgid "Tagline"
+msgstr "سطر الوصف"
+
+#: inc/customizer/options/typography/class-zakra-customize-typography-option.php:100
+msgid "Site Title"
+msgstr "عنوان الموقع"
+
+#: inc/customizer/register-panels-and-sections.php:254
+msgid "Widgets"
+msgstr "ودجات"
+
+#: inc/customizer/register-panels-and-sections.php:246
+msgid "Headings ( H1 - H6 )"
+msgstr "الترويسات ( H1 - H6 )"
+
+#: inc/customizer/register-panels-and-sections.php:206
+msgid "Site Identity"
+msgstr "هوية الموقع"
+
+#: inc/admin/class-zakra-admin.php:35
+msgid "Processing..."
+msgstr "جاري المعالجة..."
+
+#: inc/admin/about-page/class-zakra-site-library.php:111
+msgid "Import"
+msgstr "استيراد"
+
+#: functions.php:120
+msgid "Footer Bottom Bar Right Sidebar"
+msgstr "تذييل أسفل الشريط الشريط الجانبي الأيمن"
+
+#: functions.php:119
+msgid "Footer Bottom Bar Left Sidebar"
+msgstr "تذييل أسفل الشريط الشريط الجانبي الأيسر"
+
+#. Template Name of the theme
+msgid "Page Builder"
+msgstr "منشئ الصفحات"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s فكرة بشأن &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s أفكار بشأن &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s فكرتين بشأن &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s أفكار بشأن &ldquo;%2$s&rdquo;"
+msgstr[4] "%1$s أفكار بشأن &ldquo;%2$s&rdquo;"
+msgstr[5] "%1$s أفكار بشأن &ldquo;%2$s&rdquo;"
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "تعليق واحد على &ldquo;%1$s&rdquo;"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:37
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "تحرير <span class=\"screen-reader-text\">%s</span>"
+
+#: template-parts/content-none.php:46
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أنه لا يمكننا &rsquo; العثور على ما تبحث &rsquo; عنه. ربما البحث يمكن أن يساعد."
+
+#: template-parts/content-none.php:39
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرًا، ولكن لا شيء يقابل مصطلحات البحث التي استعملتها. يرجى المحاولة مجددا بإستخدام كلمات أساسية أخرى."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:26
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "هل أنت جاهز لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ هنا</a>."
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr "لم نجد شيئا"
+
+#: template-parts/content.php:103
+msgid "Read More"
+msgstr "اقرأ المزيد"
+
+#: template-parts/content-page.php:24
+#: template-parts/content-single.php:86
+#: template-parts/content.php:94
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:73
+#: template-parts/content.php:80
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "متابعة قراءة<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/template-functions.php:339
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عفوا! لا&rsquo; يمكن العثور على تلك الصفحة."
+
+#: inc/template-functions.php:239
+msgid "Search Results"
+msgstr "نتائج البحث"
+
+#: inc/template-functions.php:237
+msgid "Page Not Found"
+msgstr "الصفحة غير موجودة"
+
+#. translators: %s: year.
+#: inc/template-functions.php:226
+msgid "Year: %s"
+msgstr "السنة: %s"
+
+#. translators: %s: month
+#: inc/template-functions.php:222
+msgid "Month: %s"
+msgstr "الشهر: %s"
+
+#. translators: %s: day
+#: inc/template-functions.php:218
+msgid "Day: %s"
+msgstr "اليوم: %s"
+
+#. translators: %s: author.
+#: inc/template-functions.php:208
+msgid "Author: %s"
+msgstr "المؤلف: %s"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:126
+msgid "Tagged %1$s"
+msgstr "ذو علامة %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:131
+msgctxt "list item separator"
+msgid ", "
+msgstr "،"
+
+#. translators: %s: post title
+#: inc/template-tags.php:101
+msgid "No Comments<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "لا تعليقات<span class=\"screen-reader-text\"> على %s</span>"
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:75
+msgid "Posted in %1$s"
+msgstr "نشر في %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:80
+msgid ", "
+msgstr "،"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:53
+msgctxt "post author"
+msgid "By %s"
+msgstr "بواسطة %s"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:19
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "نشر على %s"
+
+#: inc/hooks/footer.php:255
+msgid "Scroll to top"
+msgstr "تمرير للأعلى"
+
+#: inc/hooks/header.php:50
+msgid "Skip to content"
+msgstr "تخطى إلى المحتوى"
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:144
+msgid "Ultra-Bold 900 Italic"
+msgstr "غامق تماماً 900 مائل"
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:142
+#: inc/customizer/controls/php/class-zakra-fonts.php:143
+msgid "Ultra-Bold 900"
+msgstr "غامق تماماً 900 "
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:141
+msgid "Extra-Bold 800 Italic"
+msgstr "غامق جداً 800 مائل"
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:139
+#: inc/customizer/controls/php/class-zakra-fonts.php:140
+msgid "Extra-Bold 800"
+msgstr "غامق جداً 800"
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:138
+msgid "Bold 700 Italic"
+msgstr "غامق 700 مائل"
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:137
+msgid "Bold 700"
+msgstr "غامق 700"
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:136
+msgid "Semi-Bold 600 Italic"
+msgstr "غامق قليلاً 600 مائل"
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:134
+#: inc/customizer/controls/php/class-zakra-fonts.php:135
+msgid "Semi-Bold 600"
+msgstr "غامق قليلاً 600 "
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:133
+msgid "Medium 500 Italic"
+msgstr "متوسط 500 مائل"
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:132
+msgid "Medium 500"
+msgstr "متوسط 500 "
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:131
+msgid "Normal 400 Italic"
+msgstr "عادي 400 مائل"
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:130
+msgid "Normal 400"
+msgstr "عادي 400 "
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:129
+msgid "Book 300 Italic"
+msgstr "بوك 300 مائل"
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:128
+msgid "Book 300"
+msgstr "بوك 300 "
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:127
+msgid "Light 200 Italic"
+msgstr "خفيف 200 مائل"
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:126
+msgid "Light 200"
+msgstr "خفيف 200 "
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:125
+msgid "Ultra-Light 100 Italic"
+msgstr "خفيف تماماً 100 مائل"
+
+#: inc/customizer/controls/php/class-zakra-fonts.php:123
+#: inc/customizer/controls/php/class-zakra-fonts.php:124
+msgid "Ultra-Light 100"
+msgstr "خفيف تماماً 100"
+
+#: inc/customizer/controls/php/class-zakra-customize-slider-control.php:70
+msgid "Reset"
+msgstr "إعادة ضبط"
+
+#: inc/customizer/controls/php/class-zakra-customize-dimensions-control.php:132
+msgid "Left"
+msgstr "اليسار"
+
+#: inc/customizer/controls/php/class-zakra-customize-dimensions-control.php:131
+msgid "Bottom"
+msgstr "السفلي"
+
+#: inc/customizer/controls/php/class-zakra-customize-dimensions-control.php:130
+msgid "Right"
+msgstr "اليمين"
+
+#: inc/customizer/controls/php/class-zakra-customize-dimensions-control.php:129
+msgid "Top"
+msgstr "الأعلى"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:152
+msgid "Fixed"
+msgstr "ثابت"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:147
+msgid "Scroll"
+msgstr "تمرير"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:142
+msgid "Background Attachment"
+msgstr "مرفق الخلفية"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:135
+msgid "Auto"
+msgstr "تلقائي"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:130
+msgid "Contain"
+msgstr "تحتوي "
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:125
+msgid "Cover"
+msgstr "الغلاف"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:120
+msgid "Background Size"
+msgstr "حجم الخلفية"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:114
+msgid "Center Bottom"
+msgstr "التوسيط السفلي"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:111
+msgid "Center Center"
+msgstr "توسيط التوسيط "
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:108
+msgid "Center Top"
+msgstr "التوسيط الأعلى"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:105
+msgid "Right Bottom"
+msgstr "اليمين السفلي"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:102
+msgid "Right Center"
+msgstr "توسيط اليمين "
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:99
+msgid "Right Top"
+msgstr "اليمين الأعلى"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:96
+msgid "Left Bottom"
+msgstr "اليسار السفلي"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:93
+msgid "Left Center"
+msgstr "توسيط اليسار "
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:90
+msgid "Left Top"
+msgstr "اليسار الأعلى"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:86
+msgid "Background Position"
+msgstr "موضع الخلفية"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:80
+msgid "Repeat Vertically"
+msgstr "التكرار عمودياً"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:77
+msgid "Repeat Horizontally"
+msgstr "التكرار أفقياً"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:74
+msgid "Repeat All"
+msgstr "تكرار الكل"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:71
+msgid "No Repeat"
+msgstr "لا تكرار"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:67
+msgid "Background Repeat"
+msgstr "تكرار الخلفية"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:60
+msgid "Select File"
+msgstr "تحديد الملف"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:58
+msgid "Remove"
+msgstr "إزالة"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:55
+msgid "No File Selected"
+msgstr "لم يتم تحديد أي ملف"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:49
+msgid "Background Image"
+msgstr "الصورة الخلفية"
+
+#: inc/customizer/controls/php/class-zakra-customize-typography-control.php:173
+msgid "Line Height"
+msgstr "إرتفاع السطر"
+
+#: inc/customizer/controls/php/class-zakra-customize-typography-control.php:157
+msgid "Font size"
+msgstr "حجم الخط"
+
+#: inc/customizer/controls/php/class-zakra-customize-typography-control.php:144
+msgid "Subset(s)"
+msgstr "مجموعة فرعية (مجموعات فرعية)"
+
+#: inc/customizer/controls/php/class-zakra-customize-typography-control.php:138
+msgid "Variant"
+msgstr "متغير"
+
+#: inc/customizer/controls/php/class-zakra-customize-typography-control.php:132
+msgid "Font family"
+msgstr "عائلة الخطوط"
+
+#: inc/customizer/options/menu/class-zakra-customize-primary-menu-option.php:39
+msgid "Disable Primary Menu"
+msgstr "تعطيل القائمة الأساسية"
+
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:243
+msgid "Header Top Text Color"
+msgstr "لون خط أعلى الترويسة"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:181
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:207
+msgid "Select a Menu for Right Content"
+msgstr "اختر القائمة للمحتوى على اليمين "
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:157
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:178
+msgid "Text/HTML for Right Content"
+msgstr "نص / HTML للمحتوى على اليمين"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:135
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:149
+msgid "Right Content"
+msgstr "محتوى على اليمين"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:107
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:117
+msgid "Select a Menu for Left Content"
+msgstr "اختر القائمة للمحتوى على اليسار"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:83
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:88
+msgid "Text/HTML for Left Content"
+msgstr "نص / HTML للمحتوى على اليسار"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:67
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:141
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:64
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:155
+msgid "Widget"
+msgstr "ودجت"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:65
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:139
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:62
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:153
+msgid "Text/HTML"
+msgstr "نص / HTML "
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:61
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:58
+msgid "Left Content"
+msgstr "محتوى على اليسار"
+
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:37
+msgid "Enable Header Top Bar"
+msgstr "تفعيل ترويسة الشريط العلوي"
+
+#: inc/customizer/options/header/class-zakra-customize-header-main-option.php:113
+#: inc/customizer/options/menu/class-zakra-customize-primary-menu-option.php:244
+msgid "Border Bottom Color"
+msgstr "لون الحد السفلي"
+
+#: inc/customizer/options/header/class-zakra-customize-header-main-option.php:85
+#: inc/customizer/options/menu/class-zakra-customize-primary-menu-option.php:210
+msgid "Border Bottom"
+msgstr "الحد السفلي"
+
+#: inc/customizer/options/header/class-zakra-customize-header-main-option.php:60
+msgid "Enable Search Icon"
+msgstr "فعّل أيقونة البحث "
+
+#: inc/customizer/options/layout/class-zakra-customize-layout-general-option.php:108
+msgid "Page"
+msgstr "صفحة"
+
+#: inc/customizer/options/styling/class-zakra-customize-base-colors-option.php:140
+msgid "Border Color"
+msgstr "لون الحد"
+
+#: inc/customizer/options/styling/class-zakra-customize-base-colors-option.php:79
+msgid "Primary Color"
+msgstr "اللون الأساسي"
+
+#: inc/customizer/options/header/class-zakra-customize-header-button-option.php:194
+#: inc/customizer/options/styling/class-zakra-customize-button-option.php:178
+msgid "Roundness"
+msgstr "الإسْتِدَارَة "
+
+#: inc/customizer/options/header/class-zakra-customize-header-button-option.php:116
+#: inc/customizer/options/styling/class-zakra-customize-button-option.php:82
+msgid "Text Hover Color"
+msgstr "لون المرور فوق النص"
+
+#: inc/customizer/options/typography/class-zakra-customize-typography-option.php:73
+msgid "Heading"
+msgstr "العنوان "
+
+#: inc/customizer/options/typography/class-zakra-customize-typography-option.php:48
+msgid "Body"
+msgstr "الجسد"
+
+#: inc/customizer/options/footer/class-zakra-customize-scroll-to-top-option.php:160
+#: inc/customizer/options/header/class-zakra-customize-header-button-option.php:166
+#: inc/customizer/options/styling/class-zakra-customize-button-option.php:144
+msgid "Background Hover Color"
+msgstr "لون المرور فوق الخلفية"
+
+#: inc/customizer/controls/php/class-zakra-customize-background-control.php:42
+#: inc/customizer/options/footer/class-zakra-customize-scroll-to-top-option.php:128
+#: inc/customizer/options/header/class-zakra-customize-header-button-option.php:141
+#: inc/customizer/options/styling/class-zakra-customize-button-option.php:113
+msgid "Background Color"
+msgstr "لون الخلفية"
+
+#: inc/customizer/options/footer/class-zakra-customize-scroll-to-top-option.php:96
+msgid "Hover Color"
+msgstr "لون المرور فوق "
+
+#: inc/customizer/controls/php/class-zakra-customize-typography-control.php:165
+#: inc/customizer/options/footer/class-zakra-customize-scroll-to-top-option.php:64
+msgid "Color"
+msgstr "اللون"
+
+#: inc/customizer/options/footer/class-zakra-customize-scroll-to-top-option.php:39
+msgid "Enable Scroll to Top"
+msgstr "فعّل التمرير لأعلى"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-widget-option.php:392
+msgid "List Item Border Bottom Color"
+msgstr "لون الحد السفلي لعنصر القائمة"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-widget-option.php:358
+msgid "List Item Border Bottom"
+msgstr "الحد السفلي لعنصر القائمة"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-widget-option.php:220
+msgid "Widget Title Color"
+msgstr "لون عنوان الودجت"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-widget-option.php:191
+msgid "Hide Widget Title"
+msgstr "إخفاء عنوان الودجت"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-widget-option.php:55
+msgid "Footer Widgets Style"
+msgstr "نمط ودجات التذييل"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-widget-option.php:39
+msgid "Enable Footer Widgets"
+msgstr "فعّل ودجات التذييل "
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:318
+#: inc/customizer/options/footer/class-zakra-customize-footer-widget-option.php:165
+msgid "Border Top Color"
+msgstr "لون الحد الأعلى"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:291
+#: inc/customizer/options/footer/class-zakra-customize-footer-widget-option.php:131
+msgid "Border Top"
+msgstr "الحد الأعلى"
+
+#: inc/customizer/options/general/class-zakra-customize-general-option.php:132
+msgid "Sidebar Width"
+msgstr "عرض الشريط الجانبي"
+
+#: inc/customizer/options/general/class-zakra-customize-general-option.php:102
+#: inc/customizer/options/general/class-zakra-customize-general-option.php:133
+msgid "Only works for left/ right sidebar layout"
+msgstr "يعمل فقط لتخطيط الشريط الجانبي الأيسر/ الأيمن "
+
+#: inc/customizer/options/general/class-zakra-customize-general-option.php:101
+msgid "Content Width"
+msgstr "عرض المحتوى"
+
+#: inc/customizer/options/general/class-zakra-customize-general-option.php:71
+msgid "Container Width"
+msgstr "عرض الحاوية"
+
+#: inc/customizer/options/general/class-zakra-customize-general-option.php:39
+msgid "Container Style"
+msgstr "نمط الحاوية "
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:141
+msgid "Read More Style"
+msgstr "قراءة المزيد النمط "
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:118
+msgid "Enable Read More"
+msgstr "فعّل قراءة المزيد"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:101
+msgid "Excerpt"
+msgstr "المقتطف"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:98
+msgid "Post Content"
+msgstr "مقالة المحتوى"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:44
+msgid "Post Content Order"
+msgstr "ترتيب مقالة المحتوى"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:419
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:263
+#: inc/customizer/options/footer/class-zakra-customize-footer-widget-option.php:323
+#: inc/customizer/options/styling/class-zakra-customize-link-option.php:70
+msgid "Link Hover Color"
+msgstr "لون المرور فوق الرابط"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:387
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:238
+#: inc/customizer/options/footer/class-zakra-customize-footer-widget-option.php:290
+#: inc/customizer/options/styling/class-zakra-customize-link-option.php:45
+msgid "Link Color"
+msgstr "لون الرابط"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:355
+msgid "Separator Color"
+msgstr "لون فاصل "
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:264
+msgid "Enable Breadcrumbs"
+msgstr "فعّل العناوين (Breadcrumbs)"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:206
+#: inc/customizer/options/header/class-zakra-customize-header-button-option.php:226
+#: inc/customizer/options/styling/class-zakra-customize-button-option.php:216
+msgid "Padding"
+msgstr "الهامش "
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:171
+msgid "Alignment"
+msgstr "المحاذاة"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:143
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:289
+msgid "Font Size"
+msgstr "حجم الخط"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:108
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:323
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:213
+#: inc/customizer/options/footer/class-zakra-customize-footer-widget-option.php:258
+#: inc/customizer/options/header/class-zakra-customize-header-button-option.php:91
+#: inc/customizer/options/styling/class-zakra-customize-base-colors-option.php:110
+#: inc/customizer/options/styling/class-zakra-customize-button-option.php:51
+msgid "Text Color"
+msgstr "لون النص"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:79
+msgid "Div"
+msgstr "Div"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:78
+msgid "Paragraph"
+msgstr "الفقرة"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:77
+msgid "Span"
+msgstr "تمديد (Span)"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:76
+#: inc/customizer/options/typography/class-zakra-customize-typography-option.php:407
+msgid "Heading 6"
+msgstr "العنوان 6"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:75
+#: inc/customizer/options/typography/class-zakra-customize-typography-option.php:381
+msgid "Heading 5"
+msgstr "العنوان 5"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:74
+#: inc/customizer/options/typography/class-zakra-customize-typography-option.php:355
+msgid "Heading 4"
+msgstr "العنوان 4"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:73
+#: inc/customizer/options/typography/class-zakra-customize-typography-option.php:329
+msgid "Heading 3"
+msgstr "العنوان 3"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:72
+#: inc/customizer/options/typography/class-zakra-customize-typography-option.php:303
+msgid "Heading 2"
+msgstr "العنوان 2"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:71
+#: inc/customizer/options/typography/class-zakra-customize-typography-option.php:277
+msgid "Heading 1"
+msgstr "العنوان 1"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:68
+msgid "Markup"
+msgstr "الترميز"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:52
+msgid "Content Area"
+msgstr "منطقة المحتوى"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:48
+msgid "Enable Page Title"
+msgstr "فعّل عنوان الصفحة"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:81
+#: inc/customizer/options/blog/class-zakra-customize-single-blog-post-option.php:81
+msgid "Tags"
+msgstr "الوسوم"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:80
+#: inc/customizer/options/blog/class-zakra-customize-single-blog-post-option.php:80
+msgid "Date"
+msgstr "التاريخ"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:79
+#: inc/customizer/options/blog/class-zakra-customize-single-blog-post-option.php:79
+msgid "Author"
+msgstr "المؤلف"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:78
+#: inc/customizer/options/blog/class-zakra-customize-single-blog-post-option.php:78
+msgid "Categories"
+msgstr "التصنيفات"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:77
+#: inc/customizer/options/blog/class-zakra-customize-single-blog-post-option.php:77
+msgid "Comments"
+msgstr "التعليقات"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:73
+#: inc/customizer/options/blog/class-zakra-customize-single-blog-post-option.php:73
+msgid "Meta Tags Order"
+msgstr "ترتيب العلامات الوصفية"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:51
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:102
+#: inc/customizer/options/blog/class-zakra-customize-single-blog-post-option.php:51
+#: inc/customizer/options/typography/class-zakra-customize-typography-option.php:460
+msgid "Content"
+msgstr "المحتوى"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:50
+#: inc/customizer/options/blog/class-zakra-customize-single-blog-post-option.php:50
+msgid "Meta Tags"
+msgstr "العلامات الوصفية"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:49
+#: inc/customizer/options/blog/class-zakra-customize-single-blog-post-option.php:49
+#: inc/customizer/options/typography/class-zakra-customize-typography-option.php:434
+msgid "Title"
+msgstr "العنوان"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:48
+#: inc/customizer/options/blog/class-zakra-customize-single-blog-post-option.php:48
+msgid "Featured Image"
+msgstr "الصورة المميزة"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:45
+#: inc/customizer/options/blog/class-zakra-customize-blog-archive-option.php:74
+#: inc/customizer/options/blog/class-zakra-customize-single-blog-post-option.php:45
+#: inc/customizer/options/blog/class-zakra-customize-single-blog-post-option.php:74
+msgid "Drag & Drop items to re-arrange the order"
+msgstr "سحب وإسقاط العناصر لإعادة ترتيب الترتيب"
+
+#: inc/customizer/options/blog/class-zakra-customize-single-blog-post-option.php:44
+msgid "Single Post Content Order"
+msgstr "ترتيب محتوى مقالة واحدة"
+
+#: inc/customizer/register-panels-and-sections.php:284
+msgid "Scroll to Top"
+msgstr "تمرير للأعلى"
+
+#: inc/customizer/register-panels-and-sections.php:277
+msgid "Footer Bottom Bar"
+msgstr "تذييل الشريط السفلي"
+
+#: inc/customizer/register-panels-and-sections.php:270
+msgid "Footer Widgets"
+msgstr "ودجات التذييل"
+
+#: inc/customizer/register-panels-and-sections.php:264
+msgid "Footer"
+msgstr "التذييل"
+
+#: inc/customizer/register-panels-and-sections.php:198
+msgid "Base Typography"
+msgstr "النص الأساسي"
+
+#: inc/customizer/register-panels-and-sections.php:191
+msgid "Typography"
+msgstr "أسلوب الطباعة"
+
+#: inc/customizer/register-panels-and-sections.php:181
+msgid "Button"
+msgstr "الزر"
+
+#: inc/customizer/register-panels-and-sections.php:174
+msgid "Link Colors"
+msgstr "ألوان الرابط"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:238
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:349
+#: inc/customizer/options/footer/class-zakra-customize-footer-widget-option.php:96
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:281
+#: inc/customizer/register-panels-and-sections.php:167
+msgid "Background"
+msgstr "الخلفية"
+
+#: inc/customizer/register-panels-and-sections.php:160
+msgid "Base Colors"
+msgstr "الألوان الأساسية"
+
+#: inc/customizer/register-panels-and-sections.php:154
+msgid "Styling"
+msgstr "التصميم"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:248
+#: inc/customizer/register-panels-and-sections.php:128
+#: inc/hooks/header.php:456
+msgid "Breadcrumbs"
+msgstr "العناوين (Breadcrumbs)"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:31
+#: inc/customizer/register-panels-and-sections.php:121
+msgid "Page Title"
+msgstr "عنوان الصفحة"
+
+#: inc/customizer/options/layout/class-zakra-customize-layout-general-option.php:85
+#: inc/customizer/register-panels-and-sections.php:98
+msgid "Single Post"
+msgstr "مقالة واحدة"
+
+#: inc/customizer/options/layout/class-zakra-customize-layout-general-option.php:62
+#: inc/customizer/register-panels-and-sections.php:91
+msgid "Blog/Archive"
+msgstr "المدونة/الأرشيف"
+
+#: inc/customizer/register-panels-and-sections.php:78
+msgid "Post/Page/Blog"
+msgstr "مقالة/صفحة/مدونة"
+
+#: inc/customizer/register-panels-and-sections.php:222
+msgid "Mobile Menu"
+msgstr "قائمة المحمول"
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:66
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:140
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:63
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:154
+#: inc/customizer/register-panels-and-sections.php:52
+msgid "Menu"
+msgstr "القائمة"
+
+#: inc/customizer/register-panels-and-sections.php:35
+msgid "Header Main Area"
+msgstr "ترويسة المنطقة الرئيسية"
+
+#: inc/customizer/register-panels-and-sections.php:28
+msgid "Header Top Bar"
+msgstr "ترويسة الشريط العلوي"
+
+#: inc/customizer/register-panels-and-sections.php:13
+msgid "Theme Options"
+msgstr "خيارات القالب"
+
+#: inc/admin/about-page/class-zakra-site-library.php:121
+msgid "Buy Now"
+msgstr "اشتري الآن"
+
+#: inc/admin/about-page/class-zakra-site-library.php:115
+msgid "Preview"
+msgstr "معاينة"
+
+#: inc/admin/about-page/class-zakra-site-library.php:92
+msgid "Pro"
+msgstr "احترافي"
+
+#: inc/admin/about-page/class-zakra-site-library.php:75
+msgid "Themes list"
+msgstr "قائمة القوالب"
+
+#: inc/admin/about-page/class-zakra-about-page.php:159
+#: inc/admin/about-page/class-zakra-plugin-install-helper.php:155
+msgid "Activating "
+msgstr "‏‏يتم التنشيط"
+
+#: inc/admin/about-page/class-zakra-plugin-install-helper.php:93
+msgid "Activate"
+msgstr "التنشيط"
+
+#: inc/admin/about-page/class-zakra-about-page.php:460
+msgid "View changelog below:"
+msgstr "عرض سجل التغيير أدناه:"
+
+#: inc/admin/about-page/class-zakra-about-page.php:427
+msgid "Want to import any of the demos below?"
+msgstr "هل تريد استيراد أي من العروض التوضيحية أدناه؟"
+
+#: inc/admin/about-page/class-zakra-about-page.php:186
+msgid "Activating"
+msgstr "‏‏يتم التنشيط"
+
+#: inc/admin/about-page/class-zakra-about-page.php:302
+#: inc/admin/class-zakra-admin.php:271
+#: inc/admin/class-zakra-admin.php:274
+#: inc/admin/class-zakra-admin.php:305
+msgid "Get started with Zakra"
+msgstr "ابدأ مع زكرا (Zakra)"
+
+#. translators: 1: welcome page link starting html tag, 2: welcome page link
+#. ending html tag.
+#: inc/admin/class-zakra-admin.php:298
+msgid "Welcome! Thank you for choosing Zakra! To fully take advantage of the best our theme can offer, please make sure you visit our %1$swelcome page%2$s."
+msgstr "أهلا! شكرا لاختيارك زكرا (Zakra)! للاستفادة بشكل كامل من أفضل ما يمكن أن يقدمه قالبنا، من فضلك تأكد من زيارة %1$s صفحة الترحيب %2$s."
+
+#: inc/admin/class-zakra-admin.php:288
+msgid "Dismiss"
+msgstr "تجاهل"
+
+#: inc/admin/class-zakra-admin.php:242
+msgid "Cheatin&#8217; huh?"
+msgstr "غش&#8217;اه؟"
+
+#: inc/admin/class-zakra-admin.php:238
+msgid "Action failed. Please refresh the page and retry."
+msgstr "فشل الإجراء. يرجى تحديث الصفحة و المحاولة من جديد."
+
+#: inc/admin/class-zakra-admin.php:201
+msgid "Support Forum"
+msgstr "منتدى الدعم"
+
+#: inc/admin/class-zakra-admin.php:200
+msgid "Please put it in our dedicated support forum."
+msgstr "يرجى وضعها في منتدى الدعم المخصص."
+
+#: inc/admin/class-zakra-admin.php:199
+#: inc/admin/class-zakra-theme-review-notice.php:108
+msgid "Got theme support question?"
+msgstr "لديك سؤال دعم يخص القالب؟"
+
+#: inc/admin/class-zakra-admin.php:146
+msgid "Customizer"
+msgstr "المخصص"
+
+#: inc/admin/class-zakra-admin.php:145
+msgid "All Theme Options are available via Customize screen."
+msgstr "جميع خيارات القالب متواجدة عبر شاشة التخصيص."
+
+#: inc/admin/class-zakra-admin.php:144
+msgid "Theme Customizer"
+msgstr "مخصص القالب"
+
+#: inc/admin/class-zakra-admin.php:152
+#: inc/admin/class-zakra-admin.php:193
+msgid "Please view our documentation page to setup the theme."
+msgstr "يرجى الاطلاع على صفحة الوثائق لدينا لإعداد القالب."
+
+#: inc/admin/class-zakra-admin.php:151
+#: inc/admin/class-zakra-admin.php:153
+#: inc/admin/class-zakra-admin.php:192
+#: inc/admin/class-zakra-admin.php:194
+msgid "Documentation"
+msgstr "الوثائق"
+
+#: inc/admin/class-zakra-admin.php:159
+msgid "Boost your site adding plugins."
+msgstr "عزز موقعك بإضافة الإضافات."
+
+#: inc/admin/class-zakra-admin.php:158
+#: inc/admin/class-zakra-admin.php:160
+msgid "Recommended plugins"
+msgstr "الإضافات الموصى بها"
+
+#: inc/admin/about-page/class-zakra-plugin-install-helper.php:89
+#: inc/admin/class-zakra-admin.php:138
+msgid "Install and Activate"
+msgstr "التنصيب و التنشيط"
+
+#: inc/admin/class-zakra-admin.php:137
+msgid "Get whole site on just one click."
+msgstr "احصل على موقع كامل بنقرة واحدة."
+
+#: inc/admin/class-zakra-admin.php:136
+msgid "One click demo import"
+msgstr "إسترادة العرض التوضيحي  بنقرة واحدة"
+
+#: inc/admin/class-zakra-admin.php:123
+msgid "Site Library"
+msgstr "مكتبة الموقع"
+
+#: inc/admin/class-zakra-admin.php:127
+msgid "Changelog"
+msgstr "سجل التغيير"
+
+#: inc/admin/class-zakra-admin.php:126
+msgid "Support"
+msgstr "الدعم"
+
+#: inc/admin/class-zakra-admin.php:125
+msgid "Recommended Plugins"
+msgstr "الإضافات الموصى بها"
+
+#: inc/admin/class-zakra-admin.php:124
+msgid "Getting Started"
+msgstr "بدء الاستخدام"
+
+#. translators: s - theme name
+#: inc/admin/class-zakra-admin.php:121
+msgid "Welcome to %s! : Version "
+msgstr "مرحبا بك في %s! : النسخة"
+
+#: inc/admin/class-zakra-admin.php:119
+msgid "Zakra is beautifully designed clean WordPress blog theme. Easy to setup and has a nice set of features that make your site stand out. It is suitable for personal, fashion, food, travel, business, professional, niche and any kind of blogging sites. Comes with various demos for various purposes, which you can easily import with the help of ThemeGrill Demo Importer plugin."
+msgstr "زكرا (Zakra) هو قالب ووردبريس مصقول و مصمم بأناقة. سهل الإعداد ويحتوي على مجموعة رائعة من الميزات التي تجعل موقعك بارزًا. وهي مناسبة للأشخاص، والمُوْضَة، والطعام، والسفر، والأعمال التجارية، والمحترفين، و المتخصصة وأي نوع من المدونات. يأتي مع مختلف العروض التوضيحية لأغراض مختلفة، التي يمكنك استيرادها بسهولة بمساعدة إضافة المستورد العرض التوضيحي لثيم جرل (ThemeGrill)."
+
+#: inc/admin/class-zakra-admin.php:117
+#: inc/admin/class-zakra-admin.php:118
+msgid "About Zakra"
+msgstr "حول زكرا (Zakra)"
+
+#: inc/class-breadcrumb-trail.php:782
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "أ"
+
+#: inc/class-breadcrumb-trail.php:755
+#: inc/class-breadcrumb-trail.php:1195
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "ي"
+
+#: inc/class-breadcrumb-trail.php:754
+#: inc/class-breadcrumb-trail.php:820
+#: inc/class-breadcrumb-trail.php:1193
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "ش"
+
+#: inc/class-breadcrumb-trail.php:753
+#: inc/class-breadcrumb-trail.php:781
+#: inc/class-breadcrumb-trail.php:819
+#: inc/class-breadcrumb-trail.php:845
+#: inc/class-breadcrumb-trail.php:1191
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "س"
+
+#: inc/class-breadcrumb-trail.php:737
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "س أ"
+
+#: inc/class-breadcrumb-trail.php:720
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "د"
+
+#: inc/class-breadcrumb-trail.php:703
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: inc/class-breadcrumb-trail.php:273
+msgid "Week %s"
+msgstr "أسبوع %s"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: inc/class-breadcrumb-trail.php:271
+msgid "Minute %s"
+msgstr "دقيقة %s"
+
+#. Translators: %s is the page number.
+#: inc/class-breadcrumb-trail.php:269
+msgid "Comment Page %s"
+msgstr "صفحة التعليقات %s"
+
+#. Translators: %s is the page number.
+#: inc/class-breadcrumb-trail.php:267
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#. Translators: %s is the search query.
+#: inc/class-breadcrumb-trail.php:265
+msgid "Search results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: inc/class-breadcrumb-trail.php:263
+#: inc/template-functions.php:233
+msgid "Archives"
+msgstr "أرشيفات "
+
+#: inc/class-breadcrumb-trail.php:262
+msgid "404 Not Found"
+msgstr "404 غير موجود"
+
+#: inc/class-breadcrumb-trail.php:261
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+#: inc/class-breadcrumb-trail.php:260
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "العناوين (Breadcrumbs)"
+
+#: inc/class-breadcrumb-trail.php:259
+msgid "Browse:"
+msgstr "استعراض:"
+
+#. translators: 1: Current Year, 2: Site Name, 3: Theme Name.
+#: inc/helpers.php:92
+msgid "Copyright &copy; %1$s %2$s. Theme: %3$s By ThemeGrill."
+msgstr "محفوظ الحقوق ونسَخ; %1$s %2$s. قالب: %3$s بواسطة ثيم جرل(ThemeGrill)."
+
+#: inc/meta-boxes/class-zakra-meta-box.php:39
+msgid "Page Settings"
+msgstr "إعدادات الصفحة"
+
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:312
+msgid "Enable Page Header"
+msgstr "فعّل ترويسة الصفحة"
+
+#: inc/customizer/options/menu/class-zakra-customize-primary-menu-option.php:178
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:299
+msgid "Right Border"
+msgstr "الحد الأيمن"
+
+#: inc/customizer/options/menu/class-zakra-customize-primary-menu-option.php:177
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:298
+msgid "Left Border"
+msgstr "الحد الأيسر"
+
+#: inc/customizer/options/menu/class-zakra-customize-primary-menu-option.php:176
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:297
+msgid "Underline Border"
+msgstr "تسطير الحد"
+
+#: inc/customizer/options/class-zakra-customize-base-option.php:76
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:64
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:138
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:61
+#: inc/customizer/options/header/class-zakra-customize-header-top-option.php:152
+#: inc/customizer/options/menu/class-zakra-customize-primary-menu-option.php:175
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:296
+msgid "None"
+msgstr "لا شيء"
+
+#: inc/customizer/options/menu/class-zakra-customize-primary-menu-option.php:172
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:291
+msgid "Active Menu Item Style"
+msgstr "القائمة النشطة لنمط العنصر"
+
+#: inc/customizer/options/menu/class-zakra-customize-primary-menu-option.php:145
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:281
+msgid "Menu Item Active Color"
+msgstr "اللون النشط لعنصر القائمة"
+
+#: inc/customizer/options/menu/class-zakra-customize-primary-menu-option.php:109
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:269
+msgid "Menu Item Hover Color"
+msgstr "لون المرور فوق عنصر القائمة "
+
+#: inc/customizer/options/menu/class-zakra-customize-primary-menu-option.php:77
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:257
+msgid "Menu Item Color"
+msgstr "لون عنصر القائمة "
+
+#: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:38
+#: inc/customizer/options/header/class-zakra-customize-header-main-option.php:38
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:220
+msgid "Style"
+msgstr "النمط "
+
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:208
+msgid "Remove Logo"
+msgstr "إزالة الشعار"
+
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:204
+msgid "Upload Logo"
+msgstr "رفع الشعار"
+
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:191
+msgid "Logo"
+msgstr "الشعار"
+
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:178
+msgid "Enable Transparent Header"
+msgstr "فعّل ترويسة شفافة"
+
+#: inc/customizer/options/layout/class-zakra-customize-layout-general-option.php:39
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:162
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:295
+msgid "Default"
+msgstr "افتراضي"
+
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:158
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:145
+msgid "Remove content margin"
+msgstr "إزالة هامش المحتوى"
+
+#: inc/customizer/register-panels-and-sections.php:138
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:111
+msgid "Layout"
+msgstr "التخطيط"
+
+#: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:51
+#: inc/customizer/register-panels-and-sections.php:115
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:88
+msgid "Page Header"
+msgstr "ترويسة الصفحة"
+
+#: inc/customizer/register-panels-and-sections.php:59
+#: inc/customizer/register-panels-and-sections.php:214
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:83
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: inc/customizer/register-panels-and-sections.php:21
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:78
+msgid "Header"
+msgstr "ترويسة"
+
+#: inc/customizer/register-panels-and-sections.php:69
+#: inc/customizer/register-panels-and-sections.php:84
+#: inc/customizer/register-panels-and-sections.php:144
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:73
+msgid "General"
+msgstr "عام"
+
+#: inc/woocommerce.php:112
+#: inc/woocommerce.php:146
+msgid "View your shopping cart"
+msgstr "عرض سلة التسوق الخاصة بك"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "يبدو أنه لم يتم العثور على شيء في هذا الموقع. ربما جرب أحد الروابط أدناه أو البحث؟"
+
+#. translators: %s: search query.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: functions.php:133
+msgid "Add widgets here."
+msgstr "أضف ودجات هنا."
+
+#: functions.php:118
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:168
+msgid "Footer Four"
+msgstr "التذييل أربعة"
+
+#: functions.php:117
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:167
+msgid "Footer Three"
+msgstr "التذييل ثلاثة"
+
+#: functions.php:116
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:166
+msgid "Footer Two"
+msgstr "التذييل إثنان"
+
+#: functions.php:115
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:165
+msgid "Footer One"
+msgstr "التذييل واحد"
+
+#: functions.php:114
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:164
+msgid "Sidebar Left"
+msgstr "الشريط الجانبي الأيسر"
+
+#: functions.php:113
+#: inc/meta-boxes/class-zakra-meta-box-page-settings.php:163
+msgid "Sidebar Right"
+msgstr "الشريط الجانبي الأيمن"
+
+#: functions.php:112
+msgid "Header Top Bar Right Sidebar"
+msgstr "ترويسة الشريط العلوي الشريط الجانبي الأيمن"
+
+#: functions.php:111
+msgid "Header Top Bar Left Sidebar"
+msgstr "ترويسة الشريط العلوي الشريط الجانبي الأيسر"
+
+#: functions.php:47
+msgid "Primary"
+msgstr "الأساسي"
+
+#. Theme URI of the theme
+msgid "https://zakratheme.com/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"
+
+#. Author of the theme
+msgid "ThemeGrill"
+msgstr "ثيم جرل(ThemeGrill)"

@@ -1,0 +1,614 @@
+# Translation of Themes - Maxwell in Arabic
+# This file is distributed under the same license as the Themes - Maxwell package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: +0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Maxwell\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "Maxwell is a minimalistic and elegant WordPress theme featuring an ultra clean magazine layout. With a beautiful typography, various post layouts and a gorgeous featured posts slideshow Maxwell truly helps you to stand out."
+msgstr ""
+
+#. translators: Theme Name and Link to ThemeZee.
+#: inc/template-tags.php:418
+msgid "WordPress Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:244
+msgid "Maxwell Thumbnail"
+msgstr ""
+
+#: functions.php:243
+msgid "Maxwell Magazine Post"
+msgstr ""
+
+#: functions.php:242
+msgid "Maxwell Single Post"
+msgstr ""
+
+#: functions.php:105
+msgctxt "Gutenberg Color Palette"
+msgid "Black"
+msgstr ""
+
+#: functions.php:100
+msgctxt "Gutenberg Color Palette"
+msgid "Dark Gray"
+msgstr ""
+
+#: functions.php:95
+msgctxt "Gutenberg Color Palette"
+msgid "Light Gray"
+msgstr ""
+
+#: functions.php:90
+msgctxt "Gutenberg Color Palette"
+msgid "White"
+msgstr ""
+
+#: functions.php:85
+msgctxt "Gutenberg Color Palette"
+msgid "Primary"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:159
+msgid "Display image on single posts"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:143
+msgid "Display images on blog and archives"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:117
+msgid "Display previous/next post navigation"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:101
+msgid "Display tags"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:85
+msgid "Display author"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:59
+msgid "Display categories"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:43
+msgid "Display date"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:27
+msgid "Post Details"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:114
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer/default-options.php:60
+#: inc/customizer/sections/customizer-blog.php:107
+msgid "Continue reading"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:127
+msgid "Featured Images"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:140
+msgid "Display Magazine widgets on blog index"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:124
+msgid "Magazine Widgets"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:77
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:19
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-grid.php:27
+msgid "Displays your posts from a selected category in a grid layout."
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-columns.php:42
+msgid "Right Category"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-columns.php:41
+msgid "Left Category"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-columns.php:27
+msgid "Displays your posts from two selected categories."
+msgstr ""
+
+#: inc/magazine.php:47
+msgid "Please go to Customize &#8594; Widgets and add at least one widget to the Magazine Homepage widget area."
+msgstr ""
+
+#: inc/customizer/functions/magazine-widget-area-control.php:33
+#: inc/customizer/sections/customizer-magazine.php:51
+msgid "Add Magazine Widget"
+msgstr ""
+
+#: functions.php:160
+msgid "Appears on blog index and Magazine Homepage template. You can use the Magazine widgets here."
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-grid.php:24
+#: inc/widgets/widget-magazine-posts-grid.php:39
+msgid "Magazine (Grid)"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-columns.php:24
+msgid "Magazine (Columns)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full-width Layout"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Centered Layout"
+msgstr ""
+
+#: inc/customizer/sections/customizer-upgrade.php:19
+msgid "More Features"
+msgstr ""
+
+#: inc/customizer/functions/custom-controls.php:123
+#: inc/theme-info.php:134
+msgid "Install Plugins"
+msgstr ""
+
+#. Theme Name of the theme
+#. translators: Theme Name and Link to ThemeZee.
+#: inc/template-tags.php:419
+msgid "Maxwell"
+msgstr ""
+
+#: template-parts/content-page.php:25
+#: template-parts/content-single.php:29
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-none.php:27
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: searchform.php:20
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:12
+#: searchform.php:16
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: search.php:24
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-grid.php:223
+msgid "Three Columns Grid"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-grid.php:222
+msgid "Two Columns Grid"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-grid.php:220
+msgid "Grid Layout:"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-grid.php:205
+msgid "Category:"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-grid.php:199
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-columns.php:298
+msgid "Highlight first post (big image + excerpt)"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-columns.php:290
+#: inc/widgets/widget-magazine-posts-grid.php:228
+msgid "Number of posts:"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-columns.php:275
+msgid "Right Category:"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-columns.php:269
+msgid "Right Category Title:"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-columns.php:254
+msgid "Left Category:"
+msgstr ""
+
+#: inc/widgets/widget-magazine-posts-columns.php:248
+msgid "Left Category Title:"
+msgstr ""
+
+#: inc/magazine.php:68
+msgid "View all posts from category %s"
+msgstr ""
+
+#: inc/theme-info.php:152
+msgid "rate it"
+msgstr ""
+
+#: inc/theme-info.php:152
+msgid "Review Maxwell"
+msgstr ""
+
+#: inc/theme-info.php:151
+msgid "https://themezee.com/"
+msgstr ""
+
+#: inc/theme-info.php:149
+msgid "%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)"
+msgstr ""
+
+#: inc/theme-info.php:103
+msgid "Get more features"
+msgstr ""
+
+#: inc/theme-info.php:83
+msgid "Customize Theme"
+msgstr ""
+
+#: inc/theme-info.php:80
+msgid "%s makes use of the Customizer for all theme settings. Click on \"Customize Theme\" to open the Customizer now."
+msgstr ""
+
+#: inc/theme-info.php:71
+msgid "View %s Documentation"
+msgstr ""
+
+#: inc/theme-info.php:67
+msgid "You need help to setup and configure this theme? We got you covered with an extensive theme documentation on our website."
+msgstr ""
+
+#: inc/theme-info.php:57
+msgid "Getting Started with %s"
+msgstr ""
+
+#: inc/theme-info.php:20
+msgid "Theme Info"
+msgstr ""
+
+#: inc/theme-info.php:19
+#: inc/theme-info.php:40
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: inc/template-tags.php:401
+msgctxt "pagination"
+msgid "Previous Posts"
+msgstr ""
+
+#: inc/template-tags.php:402
+msgctxt "pagination"
+msgid "Next Posts"
+msgstr ""
+
+#: inc/template-tags.php:348
+msgctxt "post navigation"
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-tags.php:347
+msgctxt "post navigation"
+msgid "Previous Post"
+msgstr ""
+
+#: inc/template-tags.php:283
+msgctxt "post author"
+msgid "Posted by %s"
+msgstr ""
+
+#: inc/template-tags.php:259
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:139
+msgid "Slider Speed (in ms)"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:125
+msgid "Fade Effect"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:124
+msgid "Slide Effect"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:117
+msgid "Slider Animation"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:99
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:82
+msgid "Slider Category"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:64
+msgid "Show Slider on posts page"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:49
+msgid "Show Slider on Magazine Homepage"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:35
+msgid "Activate Post Slider"
+msgstr ""
+
+#. Template Name of the theme
+#: inc/customizer/sections/customizer-slider.php:19
+msgid "Post Slider"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:69
+msgid "Single Posts"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:98
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:85
+msgid "Three Columns without Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:84
+msgid "Two Columns"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:83
+msgid "One Column"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:19
+msgid "Post Settings"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:55
+msgid "Blog Description"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:33
+msgid "Blog Title"
+msgstr ""
+
+#: inc/customizer/sections/customizer-general.php:40
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-general.php:39
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-general.php:33
+msgid "Theme Layout"
+msgstr ""
+
+#: inc/customizer/sections/customizer-general.php:19
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/functions/custom-controls.php:118
+#: inc/theme-info.php:130
+msgid "Extend the functionality of your WordPress website with our free and easy to use plugins."
+msgstr ""
+
+#: inc/customizer/functions/custom-controls.php:115
+#: inc/theme-info.php:127
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/customizer/functions/custom-controls.php:107
+#: inc/theme-info.php:117
+msgid "Learn more about %s Pro"
+msgstr ""
+
+#: inc/customizer/functions/custom-controls.php:106
+#: inc/theme-info.php:116
+msgid "https://themezee.com/addons/maxwell-pro/"
+msgstr ""
+
+#: inc/customizer/functions/custom-controls.php:102
+#: inc/theme-info.php:113
+msgid "Purchase the %s Pro Add-on and get additional features and advanced customization options."
+msgstr ""
+
+#: inc/customizer/functions/custom-controls.php:99
+#: inc/theme-info.php:110
+msgid "Pro Version Add-on"
+msgstr ""
+
+#: inc/customizer/customizer.php:193
+#: inc/theme-info.php:50
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/customizer/customizer.php:192
+#: inc/theme-info.php:50
+#: inc/theme-info.php:152
+msgid "https://wordpress.org/support/theme/maxwell/reviews/?filter=5"
+msgstr ""
+
+#: inc/customizer/customizer.php:187
+#: inc/theme-info.php:49
+#: inc/theme-info.php:64
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/customizer/customizer.php:186
+#: inc/theme-info.php:49
+#: inc/theme-info.php:70
+msgid "https://themezee.com/docs/maxwell-documentation/"
+msgstr ""
+
+#: inc/customizer/customizer.php:181
+#: inc/theme-info.php:48
+msgid "Theme Demo"
+msgstr ""
+
+#: inc/customizer/customizer.php:175
+#: inc/theme-info.php:47
+msgid "Theme Page"
+msgstr ""
+
+#: inc/customizer/customizer.php:171
+#: inc/theme-info.php:46
+msgid "Theme Links"
+msgstr ""
+
+#: inc/customizer/functions/custom-controls.php:65
+#: inc/widgets/widget-magazine-posts-columns.php:257
+#: inc/widgets/widget-magazine-posts-columns.php:278
+#: inc/widgets/widget-magazine-posts-grid.php:208
+msgid "All Categories"
+msgstr ""
+
+#: inc/customizer/customizer.php:116
+msgid "Hide header image on front page"
+msgstr ""
+
+#: inc/customizer/customizer.php:99
+msgid "Header Image Link"
+msgstr ""
+
+#: inc/customizer/customizer.php:82
+msgid "Display Tagline"
+msgstr ""
+
+#: inc/customizer/customizer.php:65
+msgid "Display Site Title"
+msgstr ""
+
+#: inc/customizer/customizer.php:40
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/customizer.php:34
+#: inc/theme-info.php:77
+msgid "Theme Options"
+msgstr ""
+
+#: inc/back-compat.php:42
+#: inc/back-compat.php:52
+#: inc/back-compat.php:65
+msgid "%1$s requires at least WordPress version %2$s. You are running version %3$s. Please upgrade and try again."
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: functions.php:192
+msgid "Navigation"
+msgstr ""
+
+#. Template Name of the theme
+#: functions.php:158
+msgid "Magazine Homepage"
+msgstr ""
+
+#: functions.php:150
+msgid "Appears on header area. You can use a search or ad widget here."
+msgstr ""
+
+#: functions.php:148
+msgid "Header"
+msgstr ""
+
+#: functions.php:140
+msgid "Appears on posts and pages except the full width template."
+msgstr ""
+
+#: functions.php:138
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:43
+msgid "Main Navigation"
+msgstr ""
+
+#: comments.php:59
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:30
+msgid "% comments"
+msgstr ""
+
+#: comments.php:30
+msgid "One comment"
+msgstr ""
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search or one of the links below?"
+msgstr ""
+
+#: 404.php:17
+msgid "404: Page not found"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themezee.com"
+msgstr ""
+
+#. Author of the theme
+msgid "ThemeZee"
+msgstr ""
+
+#. Theme URI of the theme
+#: inc/customizer/customizer.php:174
+#: inc/theme-info.php:47
+msgid "https://themezee.com/themes/maxwell/"
+msgstr ""

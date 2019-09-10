@@ -1,0 +1,591 @@
+# Translation of Themes - Ward in Arabic
+# This file is distributed under the same license as the Themes - Ward package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2016-03-17 14:21:21+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Ward\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the plugin/theme
+msgid "Create a truly unique design with Ward, a lightweight and fully responsive HTML5 theme based on the Gridiculous boilerplate. Use the new Theme Options customizer to add your own background, page layout, site width and more. Distinguish each post with one of the eight supported post formats, such as: Video, Image, Aside, Status, Audio, Quote, Link and Gallery. Install JetPack to display each of your galleries through a tiled view and jQuery carousel. Compatible with bbPress & BuddyPress. Built using SASS, Compass and Twitter Bootstrap. Ward uses Google Fonts for improved typeface readability and works perfectly in desktop browsers, tablets and handheld devices."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Ward"
+msgstr ""
+
+#: library/preview-pro.php:164
+msgid "Upgrade %s Now &rarr;"
+msgstr ""
+
+#: library/preview-pro.php:153
+msgid "Bootstrap Shortcodes"
+msgstr ""
+
+#: library/preview-pro.php:122
+msgid "Choose from over 670 Google Fonts to improve your site&rsquo;s typeface readability and make things look even more amazing."
+msgstr ""
+
+#: library/preview-pro.php:115
+msgid "Google Fonts Manager"
+msgstr ""
+
+#: library/preview-pro.php:98
+msgid "Easily add a social menu by creating links to the most popular social media websites."
+msgstr ""
+
+#: library/preview-pro.php:97
+msgid "Establish your online presence by letting your visitors join your social network. Help them stay up to date on everything you&rsquo;re doing"
+msgstr ""
+
+#: library/preview-pro.php:91
+msgid "Social Menu"
+msgstr "قائمة اجتماعية"
+
+#: library/preview-pro.php:79
+msgid "Take your site to the next level with the full version of <em>%s</em>. Check out some of the advanced features that&rsquo;ll give you more control over your site&rsquo;s layout and design."
+msgstr ""
+
+#: library/preview-pro.php:18
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: library/customizer.php:253
+msgid "Upgrade to premium version"
+msgstr ""
+
+#: library/about.php:196
+msgid "For more information, check out the %sDocumentation &amp; FAQs%s section on my site."
+msgstr ""
+
+#: library/about.php:192
+msgid "&lt;blockquote class=\"pullquote alignright\"&gt;This is a pull quote that will appear within your text.&lt;/blockquote&gt;"
+msgstr ""
+
+#: library/about.php:190
+msgid "You can also align it to the right with this code:"
+msgstr ""
+
+#: library/about.php:189
+msgid "&lt;blockquote class=\"pullquote\"&gt;This is a pull quote that will appear within your text.&lt;/blockquote&gt;"
+msgstr ""
+
+#: library/about.php:187
+msgid "You can easily include a pull quote within your text by using the following code within the Text/HTML editor:"
+msgstr ""
+
+#: library/about.php:181
+msgid "Pull Quotes"
+msgstr ""
+
+#: library/about.php:176
+msgid "With %sJetpack&rsquo;s Carousel%s, clicking on one of your gallery images will open up a featured lightbox slideshow. Turn it on by going to %sJetpack &rarr; Settings%s. "
+msgstr ""
+
+#: library/about.php:174
+msgid "Carousel"
+msgstr "معرض صور Carousel"
+
+#: library/about.php:172
+msgid "%sJetpack&rsquo;s Tiled Galleries%s will display your images in a beautiful mosaic layout. Go to %sJetpack &rarr; Settings%s to turn it on. "
+msgstr ""
+
+#: library/about.php:170
+msgid "Tiled Galleries"
+msgstr "Tiled Galleries"
+
+#: library/about.php:164
+msgid "Jetpack"
+msgstr "Jetpack"
+
+#: library/about.php:158
+msgid "Clicking on a top-level link in the primary navigation will open up the first dropdown list of sub-menu links."
+msgstr ""
+
+#: library/about.php:156
+msgid "To add a navigation menu to the header, go to %sAppearance &rarr; Menus%s. By default, a list of categories will appear in this location if no custom menu is set."
+msgstr ""
+
+#: library/about.php:154
+msgid "<em>%s</em> includes one Custom Menu locations: the Primary top menu."
+msgstr ""
+
+#: library/about.php:152
+msgid "Custom Menus"
+msgstr ""
+
+#: library/about.php:147
+msgid "The section where the four widgets appear on the homepage will only display once a widget is added to the Home Page Top Area in %sAppearance &rarr; Widgets%s. The demo uses the custom Icon & Text widget that comes with <em>%s</em> to display an icon accompanied by text. You can even have the icon and text link to a page or a post, by adding a URL in the field provided."
+msgstr ""
+
+#: library/about.php:136
+msgid "The Jumbo Headline is a large text area on the home page. Go to %sAppearance &rarr; Customizer%s to change the default text."
+msgstr ""
+
+#: library/about.php:125
+msgid "With the sidebar layout option, you can decide whether to display your sidebar on the left or right of your main content."
+msgstr ""
+
+#: library/about.php:123
+msgid "Sidebar Layout"
+msgstr ""
+
+#: library/about.php:121
+msgid "There are two width options for your site: 1200px &amp; 992px. You can select the width of your main content, based on a 12 column grid. Resizing your main content will also resize your sidebar."
+msgstr ""
+
+#: library/about.php:119
+msgid "Site &amp; Main Content Width"
+msgstr ""
+
+#: library/about.php:117
+msgid "All theme options for <em>%s</em> are controlled under %sAppearance &rarr; Customize%s. From there, you can modify layout, custom menus, and more."
+msgstr ""
+
+#: library/about.php:111
+msgid "The Customizer"
+msgstr ""
+
+#: library/about.php:107
+#: library/preview-pro.php:87
+msgid "Upgrade"
+msgstr "تحديث"
+
+#: library/about.php:106
+#: library/preview-pro.php:86
+msgid "Documentation"
+msgstr "مستندات المساعدة"
+
+#: library/about.php:99
+msgid "Read through the following documentation to learn more about <em>%s</em> and how to use the available theme options."
+msgstr ""
+
+#: library/about.php:41
+msgid "About %s"
+msgstr "حول %s"
+
+#: library/about.php:41
+#: library/preview-pro.php:18
+#: library/preview-pro.php:76
+msgid "Welcome to %s %s"
+msgstr ""
+
+#: library/about.php:28
+msgid "Learn more about %s"
+msgstr ""
+
+#: library/about.php:26
+msgid "Thanks for choosing %s! You can learn how to use the available theme options on the %sabout page%s."
+msgstr ""
+
+#: footer.php:33
+msgid "The %s Theme by %s."
+msgstr ""
+
+#: single.php:22
+msgid "%title &rarr;"
+msgstr ""
+
+#: single.php:21
+msgid "&larr; %title"
+msgstr ""
+
+#: single.php:19
+msgid "Next Image &rarr;"
+msgstr ""
+
+#: single.php:18
+msgid "&larr; Previous Image"
+msgstr ""
+
+#: single.php:16
+msgid "Post navigation"
+msgstr "تصفّح المقالات"
+
+#: sidebar.php:19
+msgid "Meta"
+msgstr "منوعات"
+
+#: sidebar.php:15
+msgid "Add your own widgets by going to the %sWidgets admin page%s."
+msgstr ""
+
+#: search.php:21
+msgid " search results for"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:85
+msgid "Automatically add paragraphs"
+msgstr "إضافة الفقرات آلياً."
+
+#: library/widgets/widget-image-icon.php:80
+msgid "URL:"
+msgstr "الرابط:"
+
+#: library/widgets/widget-image-icon.php:77
+msgid "Remove Image"
+msgstr "إزالة الصورة"
+
+#: library/widgets/widget-image-icon.php:77
+msgid "Select Image"
+msgstr "اختيار صورة"
+
+#: library/widgets/widget-image-icon.php:75
+msgid "Image:"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:72
+msgid "Title:"
+msgstr "العنوان:"
+
+#: library/widgets/widget-image-icon.php:11
+msgid "Image & Text"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:9
+msgid "Custom Text Widget with Image"
+msgstr ""
+
+#: library/customizer.php:222
+msgid "Display Comment Count"
+msgstr ""
+
+#: library/customizer.php:209
+msgid "Display Date"
+msgstr ""
+
+#: library/customizer.php:196
+msgid "Display Author"
+msgstr ""
+
+#: library/customizer.php:183
+msgid "Display Categories"
+msgstr ""
+
+#: library/customizer.php:172
+msgid "Posts"
+msgstr "مقالات"
+
+#: library/customizer.php:163
+msgid "Jumbo Headline Text"
+msgstr ""
+
+#: library/customizer.php:149
+msgid "Jumbo Headline Title"
+msgstr ""
+
+#: library/about.php:130
+#: library/customizer.php:138
+msgid "Jumbo Headline"
+msgstr ""
+
+#: library/customizer.php:132
+msgid "Full Content"
+msgstr ""
+
+#: library/customizer.php:131
+msgid "Teaser Excerpt"
+msgstr ""
+
+#: library/customizer.php:125
+msgid "Post Content Display"
+msgstr ""
+
+#: library/customizer.php:110
+msgid "Main Content"
+msgstr "المحتوى الرئيسي"
+
+#: library/customizer.php:86
+msgid "No Sidebars"
+msgstr ""
+
+#: library/customizer.php:85
+msgid "1 Sidebar - Right"
+msgstr ""
+
+#: library/customizer.php:84
+msgid "1 Sidebar - Left"
+msgstr ""
+
+#: library/customizer.php:78
+msgid "Site Layout"
+msgstr ""
+
+#: library/customizer.php:67
+msgid "992px"
+msgstr ""
+
+#: library/customizer.php:66
+msgid "1200px"
+msgstr ""
+
+#: library/customizer.php:60
+msgid "Site Width"
+msgstr ""
+
+#: library/customizer.php:49
+msgid "Layout"
+msgstr "الشكل العام"
+
+#: library/preview-pro.php:158
+msgid "Once you&rsquo;ve set up your site exactly how you want, you can easily export the Theme Options and Custom CSS for safe keeping."
+msgstr ""
+
+#: library/preview-pro.php:157
+msgid "Import/Export Tool"
+msgstr ""
+
+#: library/preview-pro.php:154
+msgid "Shortcodes are awesome and easy to use. That&rsquo;s why %s comes with a bunch, like a slideshow carousel, alert boxes and more."
+msgstr ""
+
+#: library/preview-pro.php:147
+msgid "Sometimes one sidebar just isn&rsquo;t enough, so add a second one and place it where you want."
+msgstr ""
+
+#: library/preview-pro.php:146
+msgid "Multiple Sidebar Layouts"
+msgstr ""
+
+#: library/preview-pro.php:143
+msgid "Each page/post has an option to remove both sidebars so you can use the full width of your site to display whatever you want."
+msgstr ""
+
+#: library/preview-pro.php:142
+msgid "Full Width Posts/Pages"
+msgstr ""
+
+#: library/preview-pro.php:139
+msgid "Even More Theme Options"
+msgstr ""
+
+#: library/preview-pro.php:134
+msgid "Use the Customizer to set the number of columns you want to appear. You can also customize your site&rsquo;s copyright notice."
+msgstr ""
+
+#: library/preview-pro.php:133
+msgid "If you need to include more widgets on your site, take advantage of the Extended Footer."
+msgstr ""
+
+#: library/preview-pro.php:127
+msgid "Extended Widgetized Footer"
+msgstr ""
+
+#: library/preview-pro.php:121
+msgid "Web-safe fonts are a thing of the past, so why not try to spice things up a bit?"
+msgstr ""
+
+#: library/preview-pro.php:110
+msgid "Easily select one of the eight preset colors or dive even deeper into your customization by using a more specific hex code."
+msgstr ""
+
+#: library/preview-pro.php:109
+msgid "Sometimes the default colors just aren&rsquo;t working for you. In %s you can use the advanced color picker to make sure you get the exact colors you want."
+msgstr ""
+
+#: library/preview-pro.php:103
+msgid "Advanced Color Picker"
+msgstr ""
+
+#: library/custom-metaboxes.php:27
+msgid "Right"
+msgstr "يمين"
+
+#: library/custom-metaboxes.php:25
+msgid "Left"
+msgstr "يسار"
+
+#: library/custom-metaboxes.php:16
+msgid "Home Page Alignment"
+msgstr ""
+
+#: header.php:36
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: header.php:35
+msgid "Main menu"
+msgstr "القائمة الرئيسية"
+
+#: functions.php:257
+msgid "Pingback:"
+msgstr "التنبيهات:"
+
+#: functions.php:238
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك بانتظار المراجعة."
+
+#: functions.php:233
+msgid "%1$s at %2$s"
+msgstr "%1$s الساعة %2$s"
+
+#: functions.php:189
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "المواضيع الأحدث <span class=\"meta-nav\">&larr;</span>"
+
+#: functions.php:185
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&rarr;</span> المواضيع الأقدم"
+
+#: functions.php:183
+msgid "Posts navigation"
+msgstr "تصفّح المقالات"
+
+#: functions.php:154
+msgid "Widgetized area on the home page directly below the navigation menu. Specifically designed for 4 text widgets. Must be turned on in the Layout options on the Theme Options admin page."
+msgstr ""
+
+#: functions.php:152
+#: library/about.php:141
+msgid "Home Page Top Area"
+msgstr ""
+
+#: functions.php:144
+msgid "This is the first sidebar widgetized area. All defaults widgets work great here."
+msgstr ""
+
+#: functions.php:142
+msgid "First Sidebar"
+msgstr ""
+
+#: functions.php:60
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: front-page.php:54
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "مستعد لنشر أول مقالة لك؟ <a href=\"%s\">ابدأ من هنا</a>."
+
+#: front-page.php:51
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: footer.php:32
+msgid "Copyright &copy; %s %s. All Rights Reserved."
+msgstr ""
+
+#: content-status.php:20
+msgid "Posted on %1$s at %2$s"
+msgstr ""
+
+#: content-status.php:14
+msgid "Status"
+msgstr "الحالة"
+
+#: content-none.php:17
+msgid "No results were found. Please try again."
+msgstr ""
+
+#: content-none.php:14
+msgid "Nothing found"
+msgstr "لم يتم العثور على شيء"
+
+#: content-link.php:14
+msgid "Link"
+msgstr "رابط"
+
+#: content-header.php:43
+msgid "% Comments"
+msgstr "% تعليقات"
+
+#: content-header.php:43
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: content-header.php:43
+msgid "0 Comments"
+msgstr ""
+
+#: content-header.php:33
+msgid "on"
+msgstr ""
+
+#: content-header.php:27
+msgid "Posts by %s"
+msgstr "مقالات %s"
+
+#: content-header.php:26
+msgid "by %s"
+msgstr "بواسطة %s"
+
+#: content-footer.php:13
+msgid "Tags:"
+msgstr "الوسوم:"
+
+#: content-footer.php:12
+#: functions.php:234
+#: functions.php:257
+msgid "(edit)"
+msgstr "(تحرير)"
+
+#: content-footer.php:11
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: content-aside.php:17
+#: content-audio.php:17
+#: content-image.php:21
+#: content-link.php:17
+#: content-page.php:20
+#: content-quote.php:16
+#: content-status.php:23
+#: content-video.php:17
+#: content.php:40
+#: functions.php:298
+msgid "Read more &rarr;"
+msgstr ""
+
+#: content-aside.php:14
+msgid "Aside"
+msgstr "ملاحظة"
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:41
+msgid "Newer Comments &rarr;"
+msgstr "التعليقات الأحدث &larr;"
+
+#: comments.php:40
+msgid "&larr; Older Comments"
+msgstr "&rarr; التعليقات الأقدم"
+
+#: comments.php:39
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: comments.php:28
+msgid "1 comment for &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments for &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: 404.php:16
+msgid "Sorry. We can't seem to find the page you're looking for."
+msgstr ""
+
+#: 404.php:13
+msgid "404 Error"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themes.bavotasan.com/themes/ward-pro-wordpress-theme/"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://bavotasan.com/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "c.bavota"
+msgstr ""

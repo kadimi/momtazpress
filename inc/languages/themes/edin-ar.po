@@ -1,0 +1,582 @@
+# Translation of Themes - Edin in Arabic
+# This file is distributed under the same license as the Themes - Edin package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-12-31 20:43:37+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Edin\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the plugin/theme
+msgid "Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Edin"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:171
+msgid "Tagged"
+msgstr ""
+
+#: inc/plugin-enhancements.php:405
+msgid "Your request was processed. See ya!"
+msgstr ""
+
+#: inc/plugin-enhancements.php:398
+msgid "Your request failed permission check."
+msgstr ""
+
+#: inc/plugin-enhancements.php:169
+msgid "Content Options"
+msgstr ""
+
+#: inc/plugin-enhancements.php:160
+msgid "Portfolios"
+msgstr ""
+
+#: inc/plugin-enhancements.php:142
+msgid "Comics"
+msgstr ""
+
+#: inc/plugin-enhancements.php:133
+msgid "Menus"
+msgstr ""
+
+#: inc/plugin-enhancements.php:124
+msgid "Social Menu"
+msgstr ""
+
+#: inc/plugin-enhancements.php:115
+msgid "Featured Content"
+msgstr ""
+
+#: inc/plugin-enhancements.php:106
+msgid "Site Logo"
+msgstr ""
+
+#: inc/plugin-enhancements.php:302
+msgid "To use %1$s, please activate the Jetpack plugin&rsquo;s %2$s."
+msgstr ""
+
+#: inc/plugin-enhancements.php:277
+msgid "Install"
+msgstr "تنزيل"
+
+#: inc/plugin-enhancements.php:275
+msgid " Please install %1$s. %2$s"
+msgstr ""
+
+#: inc/plugin-enhancements.php:267
+msgid "Activate"
+msgstr "تنشيط"
+
+#: inc/plugin-enhancements.php:265
+msgid " Please activate %1$s. %2$s"
+msgstr ""
+
+#: inc/plugin-enhancements.php:188
+msgid "Custom Content Types module"
+msgstr ""
+
+#: inc/plugin-enhancements.php:187
+msgid "no specific module needed"
+msgstr ""
+
+#: inc/plugin-enhancements.php:83
+msgid "Jetpack plugin"
+msgstr ""
+
+#: inc/plugin-enhancements.php:82
+msgid "The %1$s is necessary to use some of this theme&rsquo;s features, including: "
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Grid Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr "صفحة بعرض كامل"
+
+#. Template Name of the plugin/theme
+msgid "Front Page"
+msgstr "الصفحة الرئيسية"
+
+#. Template Name of the plugin/theme
+msgid "Alternate Sidebar Page"
+msgstr ""
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: inc/template-tags.php:176
+msgid "% Comments"
+msgstr "% تعليقات"
+
+#: inc/template-tags.php:176
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: inc/template-tags.php:176
+msgid "Leave a comment"
+msgstr "أضف تعليق"
+
+#: inc/template-tags.php:167
+msgid "Posted in %1$s"
+msgstr "نُشر في %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:165
+#: inc/template-tags.php:171
+msgid ", "
+msgstr "، "
+
+#: inc/template-tags.php:160
+msgid "All %s posts"
+msgstr "كل %s المقالات"
+
+#: inc/template-tags.php:103
+msgctxt "post author"
+msgid "by %s"
+msgstr "أضيف بواسطة %s"
+
+#: inc/template-tags.php:98
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "نشر في %s"
+
+#: inc/template-tags.php:72
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&larr;</span>"
+
+#: inc/template-tags.php:71
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&rarr;</span> %title"
+
+#: inc/template-tags.php:68
+msgid "Post navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/template-tags.php:42
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "المواضيع الأحدث <span class=\"meta-nav\">&larr;</span>"
+
+#: inc/template-tags.php:40
+msgid "Newer testimonials <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:30
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&rarr;</span> المواضيع الأقدم"
+
+#: inc/template-tags.php:28
+msgid "<span class=\"meta-nav\">&larr;</span> Older testimonials"
+msgstr ""
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/extras.php:104
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: inc/customizer.php:165
+msgid "Show 2 random testimonials on the Front Page Template "
+msgstr ""
+
+#: inc/customizer.php:153
+msgid "Front Page: Featured Page Three"
+msgstr ""
+
+#: inc/customizer.php:141
+msgid "Front Page: Featured Page Two"
+msgstr ""
+
+#: inc/customizer.php:129
+msgid "Front Page: Featured Page One"
+msgstr ""
+
+#: inc/customizer.php:117
+msgid "Front Page: Show title"
+msgstr ""
+
+#: inc/customizer.php:105
+msgid "Header: Show search form"
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Featured Image: remove filter"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Pages: Show breadcrumb navigation"
+msgstr ""
+
+#: inc/customizer.php:68
+msgid "Square (1:1)"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Landscape (4:3)"
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "Thumbnail Aspect Ratio"
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "Right"
+msgstr "يمين"
+
+#: inc/customizer.php:51
+msgid "Left"
+msgstr "يسار"
+
+#: inc/customizer.php:46
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:35
+msgid "Classic"
+msgstr ""
+
+#: inc/customizer.php:34
+msgid "Default"
+msgstr "افتراضي"
+
+#: inc/customizer.php:29
+msgid "Menu Style"
+msgstr ""
+
+#: inc/customizer.php:19
+msgid "Theme Options"
+msgstr "خيارات القالب"
+
+#: header.php:92
+msgid "Search"
+msgstr "بحث"
+
+#: header.php:61
+msgid "Menu"
+msgstr "القائمة"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: functions.php:314
+#: functions.php:330
+msgid "collapse child menu"
+msgstr "طي القائمة الفرعية"
+
+#: functions.php:313
+#: functions.php:329
+msgid "expand child menu"
+msgstr "توسيع القائمة الفرعية"
+
+#. translators: To add an additional PT Mono character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:274
+msgctxt "PT Mono font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by PT Mono, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:270
+msgctxt "PT Mono font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: To add an additional PT Serif character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:242
+msgctxt "PT Serif font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by PT Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:238
+msgctxt "PT Serif font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: To add an additional PT Sans character subset specific to your
+#. language, translate this to 'cyrillic'. Do not translate into your own
+#. language.
+#: functions.php:210
+msgctxt "PT Sans font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by PT Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:206
+msgctxt "PT Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:186
+msgid "Use this widget area to display widgets in the third column of your Front Page"
+msgstr ""
+
+#: functions.php:184
+msgid "Front Page Three"
+msgstr ""
+
+#: functions.php:177
+msgid "Use this widget area to display widgets in the second column of your Front Page"
+msgstr ""
+
+#: functions.php:175
+msgid "Front Page Two"
+msgstr ""
+
+#: functions.php:168
+msgid "Use this widget area to display widgets in the first column of your Front Page"
+msgstr ""
+
+#: functions.php:166
+msgid "Front Page One"
+msgstr ""
+
+#: functions.php:159
+msgid "Use this widget area to display widgets in the third column of the footer"
+msgstr ""
+
+#: functions.php:157
+msgid "Footer Three"
+msgstr ""
+
+#: functions.php:150
+msgid "Use this widget area to display widgets in the second column of the footer"
+msgstr ""
+
+#: functions.php:148
+msgid "Footer Two"
+msgstr ""
+
+#: functions.php:141
+msgid "Use this widget area to display widgets in the first column of the footer"
+msgstr ""
+
+#: functions.php:139
+msgid "Footer One"
+msgstr ""
+
+#: functions.php:131
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: functions.php:77
+msgid "Footer Menu"
+msgstr "القائمة السفلية"
+
+#: functions.php:76
+msgid "Secondary Menu"
+msgstr "القائمة الثانية"
+
+#: functions.php:75
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: footer.php:20
+msgid "Theme: %1$s by %2$s."
+msgstr "قالب: %1$s بواسطة %2$s."
+
+#: footer.php:18
+msgid "Proudly powered by %s"
+msgstr "الموقع يستخدم %s بكل فخر"
+
+#: footer.php:18
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#. translators: %s: Name of current post. Visible to screen readers only.
+#. translators: %s: Name of current post
+#: content.php:28
+#: inc/extras.php:161
+msgid "Continue reading %s"
+msgstr "متابعة قراءة %s"
+
+#: content-none.php:24
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أنه لا يمكن إيجاد ما تبحث عنه. قد تفيدك خاصية البحث."
+
+#: content-none.php:19
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
+
+#: content-none.php:15
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: content-hero.php:42
+#: content-page.php:15
+#: content-single.php:23
+#: content.php:33
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: content-hero.php:20
+#: inc/plugin-enhancements.php:151
+msgid "Testimonials"
+msgstr ""
+
+#: content-grid.php:24
+#: content-hero.php:49
+#: content-page.php:23
+#: content-testimonial.php:20
+#: eventbrite/eventbrite-index.php:52
+#: eventbrite/eventbrite-single.php:37
+#: inc/template-tags.php:180
+msgid "Edit"
+msgstr "تحرير"
+
+#. translators: %s: Name of page. Visible to screen readers only.
+#: content-grid.php:19
+msgid "Read more %s"
+msgstr ""
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:47
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "التعليقات الأحدث <span class=\"meta-nav\">&larr;</span>"
+
+#: comments.php:46
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&rarr;</span> التعليقات الأقدم"
+
+#: comments.php:45
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "لا توجد أراء حول &ldquo;%2$s&rdquo;"
+msgstr[1] "رأي واحد حول &ldquo;%2$s&rdquo;"
+msgstr[2] "رأيان حول &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+msgstr[4] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+msgstr[5] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+
+#: archive.php:81
+#: search.php:20
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: archive.php:64
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: archive.php:61
+msgid "Chats"
+msgstr "دردشات"
+
+#: archive.php:58
+msgid "Audios"
+msgstr "صوتيات"
+
+#: archive.php:55
+msgid "Statuses"
+msgstr "الحالات"
+
+#: archive.php:52
+msgid "Links"
+msgstr "روابط"
+
+#: archive.php:49
+msgid "Quotes"
+msgstr "الإقتباسات"
+
+#: archive.php:46
+msgid "Videos"
+msgstr "فيديو"
+
+#: archive.php:43
+msgid "Images"
+msgstr "صور"
+
+#: archive.php:40
+msgid "Galleries"
+msgstr "المعارض"
+
+#: archive.php:37
+msgid "Asides"
+msgstr "الملاحظات"
+
+#: archive.php:34
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:34
+msgid "Year: %s"
+msgstr "السنة: %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:31
+msgid "Month: %s"
+msgstr "الشهر: %s"
+
+#: archive.php:28
+msgid "Day: %s"
+msgstr "اليوم: %s"
+
+#: archive.php:25
+msgid "Author: %s"
+msgstr "الكاتب: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "حاول أن تبحث في الأرشيف الشهري. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "أكثر التصنيفات استخداماً"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+
+#: 404.php:11
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عذراً! لايمكن العثور على تلك الصفحة."
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.com/themes/edin/"
+msgstr ""

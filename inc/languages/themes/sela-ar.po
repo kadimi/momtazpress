@@ -1,0 +1,423 @@
+# Translation of Themes - Sela in Arabic
+# This file is distributed under the same license as the Themes - Sela package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-03-08 12:02:26+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Sela\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the plugin/theme
+msgid "Sela is not your typical business theme. Vibrant, bold, and clean, with lots of space for large images, this theme will look great on all devices, from desktop to mobile."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Sela"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/extras.php:145
+msgid "Continue reading %s"
+msgstr ""
+
+#: image.php:44
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a>"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Grid Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr "صفحة بعرض كامل"
+
+#. Template Name of the plugin/theme
+msgid "Front Page"
+msgstr "الصفحة الرئيسية"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: inc/template-tags.php:428
+msgid "Archives"
+msgstr "الأرشيف"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:426
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:422
+msgid "Archives: %s"
+msgstr "الآرشيفات: %s"
+
+#: inc/template-tags.php:419
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "المحادثات"
+
+#: inc/template-tags.php:417
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "الصوتيات"
+
+#: inc/template-tags.php:415
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "الحالات"
+
+#: inc/template-tags.php:413
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "الروابط"
+
+#: inc/template-tags.php:411
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "الإقتباسات"
+
+#: inc/template-tags.php:409
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "الفيديوهات"
+
+#: inc/template-tags.php:407
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "الصور"
+
+#: inc/template-tags.php:405
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "المعارض"
+
+#: inc/template-tags.php:403
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "الملاحظات"
+
+#: inc/template-tags.php:400
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F، Y"
+
+#: inc/template-tags.php:400
+msgid "Day: %s"
+msgstr "اليوم: %s"
+
+#: inc/template-tags.php:398
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:398
+msgid "Month: %s"
+msgstr "الشهر: %s"
+
+#: inc/template-tags.php:396
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:396
+msgid "Year: %s"
+msgstr "السنة: %s"
+
+#: inc/template-tags.php:394
+msgid "Author: %s"
+msgstr "الكاتب: %s"
+
+#: inc/template-tags.php:392
+msgid "Tag: %s"
+msgstr "الوسم: %s"
+
+#: inc/template-tags.php:390
+msgid "Category: %s"
+msgstr "التصنيف: %s"
+
+#: inc/template-tags.php:333
+#: inc/template-tags.php:335
+msgid "Posted in: %1$s"
+msgstr ""
+
+#: inc/template-tags.php:327
+msgid "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:325
+#: inc/template-tags.php:333
+msgid "Tagged: %2$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:317
+msgid ", "
+msgstr "، "
+
+#: inc/template-tags.php:200
+msgid "% Comments"
+msgstr "% تعليقات"
+
+#: inc/template-tags.php:200
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: inc/template-tags.php:200
+msgid "Leave a comment"
+msgstr "أضف تعليق"
+
+#: inc/template-tags.php:189
+msgid "Featured"
+msgstr "مميّز"
+
+#: inc/template-tags.php:95
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك بانتظار المراجعة."
+
+#: inc/template-tags.php:89
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s في %2$s"
+
+#: inc/template-tags.php:84
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">كتب:</span>"
+
+#: inc/template-tags.php:75
+msgid "Pingback:"
+msgstr "التنبيهات:"
+
+#: inc/template-tags.php:54
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:53
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\"></span>&nbsp;%title"
+msgstr ""
+
+#: inc/template-tags.php:50
+msgid "Post navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/template-tags.php:27
+msgid "Newer posts <span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "<span class=\"meta-nav\"></span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:19
+msgid "Posts navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/extras.php:117
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: image.php:33
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:22
+msgid "Next <span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: image.php:21
+msgid "<span class=\"meta-nav\"></span> Previous"
+msgstr ""
+
+#: header.php:37
+msgid "Menu"
+msgstr "القائمة"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: functions.php:169
+msgid "Third Front Page Widget Area"
+msgstr ""
+
+#: functions.php:161
+msgid "Second Front Page Widget Area"
+msgstr "منطقة الودجات الثانية في الصفحة الرئيسية"
+
+#: functions.php:153
+msgid "First Front Page Widget Area"
+msgstr "منطقة الودجات الأولى في الصفحة الرئيسية"
+
+#: functions.php:145
+msgid "Third Footer Widget Area"
+msgstr "المربع الجانبي الثالث في الفوتر"
+
+#: functions.php:137
+msgid "Second Footer Widget Area"
+msgstr "المربع الجانبي الثاني في الفوتر"
+
+#: functions.php:129
+msgid "First Footer Widget Area"
+msgstr "المربع الجانبي الأول في الفوتر"
+
+#: functions.php:121
+msgid "Main Sidebar"
+msgstr "الشريط الجانبي الرئيسي"
+
+#. translators: If there are characters in your language that are not supported
+#. by Oswald, translate this to 'off'. Do not translate into your own language.
+#: functions.php:92
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Droid Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:87
+msgctxt "Droid Serif font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Source Sans Pro, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:82
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "تفعيل"
+
+#: functions.php:49
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: footer.php:21
+msgid "Theme: %1$s by %2$s."
+msgstr "قالب: %1$s بواسطة %2$s."
+
+#: footer.php:19
+msgid "Proudly powered by %s"
+msgstr "الموقع يستخدم %s بكل فخر"
+
+#: footer.php:19
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: content-none.php:26
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أنه لا يمكن إيجاد ما تبحث عنه. قد تفيدك خاصية البحث."
+
+#: content-none.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
+
+#: content-none.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: content-grid.php:26
+#: content-page.php:25
+#: content-testimonial.php:21
+#: image.php:53
+#: inc/template-tags.php:75
+#: inc/template-tags.php:99
+#: inc/template-tags.php:205
+#: page-templates/front-page.php:28
+msgid "Edit"
+msgstr "تحرير"
+
+#: inc/template-tags.php:228
+msgid "Permalink to %s"
+msgstr "الرابط الدائم لـِ %s"
+
+#: content-aside.php:29
+#: content-gallery.php:30
+#: content-image.php:31
+#: content-link.php:28
+#: content-page.php:19
+#: content-quote.php:29
+#: content-video.php:29
+#: content.php:36
+#: image.php:73
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: content-aside.php:26
+#: content-gallery.php:27
+#: content-image.php:28
+#: content-link.php:25
+#: content-quote.php:26
+#: content-video.php:26
+#: content.php:33
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "أكمل قراءة المقالة <span class=\"meta-nav\">&larr;</span>"
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:26
+#: comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr "التعليقات الأحدث &larr;"
+
+#: comments.php:25
+#: comments.php:37
+msgid "&larr; Older Comments"
+msgstr "&rarr; التعليقات الأقدم"
+
+#: comments.php:24
+#: comments.php:36
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: comments.php:17
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "لا توجد أراء حول &ldquo;%2$s&rdquo;"
+msgstr[1] "رأي واحد حول &ldquo;%2$s&rdquo;"
+msgstr[2] "رأيان حول &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+msgstr[4] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+msgstr[5] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+
+#: archive-jetpack-testimonial.php:29
+msgid "Testimonials"
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عذراً! لايمكن العثور على تلك الصفحة."
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.com/themes/sela/"
+msgstr ""

@@ -1,0 +1,1527 @@
+# Translation of Themes - AccessPress Store in Arabic
+# This file is distributed under the same license as the Themes - AccessPress Store package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2017-01-29 01:39:59+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - AccessPress Store\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "AccessPress Store is free WordPress theme that work beautifully with WooCommerce. The theme is packed with lots of exciting feature that enhances the ecommerce experience. It features Product slider, advanced whistlist, Featured product show list, call to action and many more. With its advanced customizer options, setting up the ecommerce website has become much more easy. Great customer support via online chat, email, support forum. Official support forum: http://accesspressthemes.com/support/ View full demo here: http://demo.accesspressthemes.com/accesspress-store/"
+msgstr ""
+
+#. Theme Name of the theme
+msgid "AccessPress Store"
+msgstr ""
+
+#: inc/customizer/customizer.php:59
+msgid "Template Color"
+msgstr ""
+
+#: welcome/welcome.php:60
+msgid "More WordPress Stuff"
+msgstr ""
+
+#: welcome/sections/more_wp_stuff.php:32
+msgid "45+ premium WordPress plugins of many different types. High user ratings, great quality and best sellers in CodeCanyon marketplace."
+msgstr ""
+
+#: welcome/sections/more_wp_stuff.php:31
+msgid "Premium WordPress Plugins"
+msgstr ""
+
+#: welcome/sections/more_wp_stuff.php:26
+msgid "6 premium WordPress themes well suited for all sort of websites. Professional, well coded and highly configurable themes for you."
+msgstr ""
+
+#: welcome/sections/more_wp_stuff.php:25
+msgid "Premium WordPress Themes"
+msgstr ""
+
+#: welcome/sections/more_wp_stuff.php:16
+msgid "8Degree Themes offers 15+ free WordPress themes and 16+ premium WordPress themes  carefully crafted with creativity."
+msgstr ""
+
+#: welcome/sections/more_wp_stuff.php:15
+msgid "8Degree Themes"
+msgstr ""
+
+#: welcome/sections/more_wp_stuff.php:10
+msgid "AccessPress Themes has 50+ beautiful and elegant, fully responsive, multipurpose themes to meet your need for free and commercial basis."
+msgstr ""
+
+#: welcome/sections/more_wp_stuff.php:5
+#: welcome/sections/more_wp_stuff.php:11
+#: welcome/sections/more_wp_stuff.php:17
+#: welcome/sections/more_wp_stuff.php:27
+#: welcome/sections/more_wp_stuff.php:33
+msgid "Explore"
+msgstr ""
+
+#: welcome/sections/more_wp_stuff.php:4
+msgid "A complete WordPress resources club. WordPress tutorials, blogs, curated free and premium themes and plugins, WordPress deals, offers, hosting info and more."
+msgstr ""
+
+#: welcome/sections/more_wp_stuff.php:3
+msgid "WPAll Club"
+msgstr ""
+
+#: inc/custom-metabox.php:22
+msgid "Right sidebar (Default)"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/core/template-tags.php:117
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: inc/widgets/widget-product1.php:76
+msgid "Select Product Category (This category option does not work on Feature Product and On Sale Products)"
+msgstr ""
+
+#: inc/accesspress-function.php:679
+msgid "Create %s and set the menu to display at Primary Menu Location."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:302
+msgid "Fashstore Pro"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:299
+msgid "Upgrade to pro version of Fashstore for additional features and better supports."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:298
+msgid "Upgrade to Fashstore Pro ( Pro theme for the child theme ) "
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:293
+msgid "AccessPress Store Pro"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:289
+msgid "Upgrade to AccessPress Pro"
+msgstr ""
+
+#: welcome/welcome.php:59
+msgid "Free vs Pro"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:290
+msgid "Upgrade to pro version for additional features and better supports."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:278
+msgid "Google will love it."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:277
+msgid "SEO Optimized"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:266
+msgid "Yes - Stop your WooCommerce theme search here."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:265
+msgid "Fully WooCommerce Compatible"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:254
+msgid "Set your Site to Maintenance mode using the Countdown page."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:253
+msgid "Countdown Page Options"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:242
+msgid "Have Testimonial Slider in your Home Page."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:241
+msgid "Testimonial Slider"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:230
+msgid "Have a client logo slider in Home Page."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:229
+msgid "Client Logo Slider"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:218
+msgid "Have a team section in your home page."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:217
+msgid "Home Page Team Section"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:206
+msgid "High level of personalization for configuring all the home page components."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:194
+msgid "Configure unlimited slider options and promote your products, shop."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:193
+msgid "Unlimited Sliders"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:182
+msgid "Search products easily."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:170
+msgid "Have more flexibility in your menu with the added support for the Mega Menu."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:158
+msgid "Show youtube videos in your website."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:157
+msgid "Youtube Integration"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:146
+msgid "Configure a beautiful ticker the way you want."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:137
+#: welcome/sections/free_vs_pro.php:140
+msgid "4"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:133
+msgid "Multiple Blog Layout"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:110
+#: welcome/sections/free_vs_pro.php:122
+#: welcome/sections/free_vs_pro.php:134
+msgid "Have a smooth animation effects in website."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:109
+#: welcome/sections/free_vs_pro.php:121
+msgid "CSS3 Animation"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:86
+msgid "Choose any header layout from the multiple header layout options available."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:85
+msgid "Multiple Header Layout"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:74
+#: welcome/sections/free_vs_pro.php:98
+msgid "Choose either boxed layout or fullwidth layout for you website."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:73
+#: welcome/sections/free_vs_pro.php:97
+msgid "Website Layouts"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:62
+msgid "Choose any theme skin color you like."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:61
+msgid "Multiple Color Scheme"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:50
+msgid "Create the site in your own custom language."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:49
+msgid "Translation Ready"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:38
+msgid "Displays fine in device with screen sizes."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:37
+msgid "Responsive Design"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:26
+msgid "Tired of configuring site from scratch. Installation of demo is just one click away."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:25
+msgid "Demo Import."
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:21
+msgid "Pro"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:20
+msgid "Free"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:19
+msgid "Features"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:14
+msgid "Keep upto date"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:13
+msgid "FREE UPDATES FOR LIFE TIME"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:9
+msgid "Use in as many website as you need"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:8
+msgid "UNLIMITED DOMAIN LICENCE"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:4
+msgid "No renewal needed"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:3
+msgid "ONE TIME PAYMENT"
+msgstr ""
+
+#: inc/customizer/customizer.php:32
+msgid "Compare"
+msgstr ""
+
+#: inc/customizer/customizer.php:31
+msgid "Free Vs Pro"
+msgstr ""
+
+#: welcome/sections/getting_started.php:5
+msgid "Read the detailed documentation of the theme. The documentation contain all the necessary information required to setup the theme AccessPress Store."
+msgstr ""
+
+#: welcome/sections/getting_started.php:4
+msgid "Step 1 - Documentation"
+msgstr ""
+
+#: welcome/welcome.php:570
+msgid "AccessPres Store Demo"
+msgstr ""
+
+#: welcome/welcome.php:481
+msgid "There was an error activating $api->name"
+msgstr ""
+
+#: welcome/welcome.php:452
+msgid "Sorry, you are not allowed to activate plugins on this site."
+msgstr ""
+
+#: welcome/welcome.php:370
+#: welcome/welcome.php:459
+msgid "Error - unable to verify nonce, please try again."
+msgstr ""
+
+#: welcome/welcome.php:358
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: welcome/welcome.php:251
+msgid "Are you sure to import demo content ?"
+msgstr ""
+
+#: welcome/welcome.php:250
+msgid "Demo Installed"
+msgstr ""
+
+#: welcome/welcome.php:249
+msgid "Installing Demo"
+msgstr ""
+
+#: welcome/welcome.php:248
+msgid "Activated"
+msgstr ""
+
+#. translators: %s: theme name.
+#: welcome/welcome.php:200
+msgid "The %s is free WordPress theme that work beautifully with WooCommerce. The theme is packed with lots of exciting feature that enhances the ecommerce experience. It features Product slider, advanced whistlist, Featured product show list, call to action and many more."
+msgstr ""
+
+#. translators: %1$s: Theme Name, %2$s: Theme version.
+#: welcome/welcome.php:194
+msgid "Welcome to %1$s - Version %2$s"
+msgstr ""
+
+#: welcome/welcome.php:170
+msgid "Lets Get Started"
+msgstr ""
+
+#. translators: %1$s: Theme Name, %2$s: Welcome Page link.
+#: welcome/welcome.php:167
+msgid "Welcome! Thank you for choosing %1$s! Please make sure you visit our <a href=\"%2$s\">Welcome page</a> to get started with %1$s."
+msgstr ""
+
+#: welcome/welcome.php:58
+msgid "Support"
+msgstr ""
+
+#: welcome/welcome.php:57
+msgid "Recommended Plugins"
+msgstr ""
+
+#: welcome/welcome.php:56
+msgid "Getting Started"
+msgstr ""
+
+#: welcome/welcome.php:49
+msgid "Instant Demo Importer Plugin adds the feature to Import the Demo Conent with a single click."
+msgstr ""
+
+#: welcome/welcome.php:34
+msgid "WooCommerce is a free eCommerce plugin that allows you to sell anything, beautifully."
+msgstr ""
+
+#: welcome/welcome.php:29
+#: welcome/welcome.php:43
+msgid "Instant Demo Importer"
+msgstr ""
+
+#: welcome/sections/support.php:36
+msgid "View More"
+msgstr ""
+
+#: welcome/sections/support.php:35
+msgid "Want to learn some more on themes ? Visit the following link for more information on latest articles on themes and plugins."
+msgstr ""
+
+#: welcome/sections/support.php:34
+msgid "More WordPress Resources"
+msgstr ""
+
+#: welcome/sections/support.php:29
+msgid "Are you looking for securing your email address and other sensitive information from the viewers of your website. In such case, a rational person will check if your site is protected with SSL or not. Follow this article to learn more on securing your site with SSL"
+msgstr ""
+
+#: welcome/sections/support.php:28
+msgid "Make your secure website with an SSL certificate"
+msgstr ""
+
+#: welcome/sections/support.php:24
+#: welcome/sections/support.php:30
+msgid "Read Full Article"
+msgstr ""
+
+#: welcome/sections/support.php:23
+msgid "Looking for building a ecommerce based website ? A lot of efforts are put while designing and developing a ecommerce based websites. The article includes a lot of technical assistance to develop these websites. Follow the article for some tips and tricks."
+msgstr ""
+
+#: welcome/sections/support.php:22
+msgid "Protect Your WordPress Site From Hackers"
+msgstr ""
+
+#: welcome/sections/support.php:15
+msgid "Still having problem after reading all the documentation? No Problem!! Please create a support ticket. Our dedicated support team will help you to solve your problem"
+msgstr ""
+
+#: welcome/sections/support.php:14
+#: welcome/sections/support.php:16
+msgid "Create Support Tickets"
+msgstr ""
+
+#: welcome/sections/getting_started.php:6
+#: welcome/sections/support.php:10
+msgid "Read Full Documentation"
+msgstr ""
+
+#. translators: %s: Theme Name.
+#: welcome/sections/support.php:7
+msgid "Read the detailed documentation of the theme. The documentation contain all the necessary information required to setup the theme %s."
+msgstr ""
+
+#: welcome/sections/support.php:3
+msgid "Documentation"
+msgstr ""
+
+#: welcome/sections/recommended_plugins.php:67
+msgid "These Free Plugins might be handy for you."
+msgstr ""
+
+#: welcome/sections/recommended_plugins.php:66
+msgid "Free Plugins"
+msgstr ""
+
+#: welcome/sections/recommended_plugins.php:11
+msgid "Take Advantage of some of our Premium Plugins"
+msgstr ""
+
+#: welcome/sections/recommended_plugins.php:10
+msgid "Pro Plugins"
+msgstr ""
+
+#: welcome/sections/getting_started.php:12
+msgid "Go to Customizer Panels"
+msgstr ""
+
+#: welcome/sections/getting_started.php:11
+msgid "Using the WordPress Customizer you can easily customize every aspect of the theme."
+msgstr ""
+
+#: welcome/sections/getting_started.php:10
+msgid "Step 2 - Customizer Options Panel"
+msgstr ""
+
+#: welcome/sections/recommended_plugins.php:27
+#: welcome/sections/recommended_plugins.php:85
+msgid "Deactivate"
+msgstr ""
+
+#: welcome/sections/recommended_plugins.php:21
+#: welcome/sections/recommended_plugins.php:80
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:17
+msgid "Theme have two different widget title layout select layout as you want"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:16
+msgid "Widget Title Layout Type"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:5
+msgid "Widget Title Layout Settings"
+msgstr ""
+
+#: inc/customizer/accesspress-sanitizer.php:117
+#: inc/customizer/general-settings/general-setting.php:21
+msgid "Widget Title Style Two"
+msgstr ""
+
+#: inc/customizer/accesspress-sanitizer.php:116
+#: inc/customizer/general-settings/general-setting.php:20
+msgid "Widget Title Style One"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:37
+msgid "Theme have two different heder layout select you header layout as you want"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:36
+msgid "Header Layout Type"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:25
+msgid "Header Layout Settings"
+msgstr ""
+
+#: inc/customizer/accesspress-sanitizer.php:105
+#: inc/customizer/general-settings/general-setting.php:41
+msgid "Header Style Two"
+msgstr ""
+
+#: inc/customizer/accesspress-sanitizer.php:104
+#: inc/customizer/general-settings/general-setting.php:40
+msgid "Header Style One"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Blog Page Template"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:128
+msgid "Header Logo"
+msgstr ""
+
+#: inc/widgets/widget-cta-video.php:50
+msgid "Background Upload Image"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:145
+msgid "Promo Ticker"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:205
+msgid "Highly configurable Home Page"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:181
+msgid "Advanced Product Search"
+msgstr ""
+
+#: welcome/sections/free_vs_pro.php:169
+msgid "Mega Menu"
+msgstr ""
+
+#: woocommerce/content-feat-product.php:83
+#: woocommerce/content-product.php:62
+msgid "Wishlist"
+msgstr ""
+
+#: inc/custom-metabox.php:62
+msgid "here"
+msgstr "هنا"
+
+#: inc/custom-metabox.php:62
+msgid "You can set up the sidebar content"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:444
+msgid "Breadcrumb Post Options"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:413
+msgid "Breadcrumb Page Options"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:382
+msgid "WooCommerce Single Product Page"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:378
+#: inc/customizer/slider-settings/slider-setting.php:409
+#: inc/customizer/slider-settings/slider-setting.php:440
+#: inc/customizer/slider-settings/slider-setting.php:471
+msgid "Uplaod Breadcrumb Background Image, Breadcrumb Background Image Size of 2000 &times; 156 Pixels."
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:376
+#: inc/customizer/slider-settings/slider-setting.php:407
+#: inc/customizer/slider-settings/slider-setting.php:438
+#: inc/customizer/slider-settings/slider-setting.php:469
+msgid "Upload Background Image"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:363
+#: inc/customizer/slider-settings/slider-setting.php:394
+#: inc/customizer/slider-settings/slider-setting.php:425
+#: inc/customizer/slider-settings/slider-setting.php:456
+msgid "Enable/Disable Breadcrumb"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:351
+msgid "WooCommerce Archive Page"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:347
+msgid "This allows to upload breadcrumb background image"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:346
+msgid "Breadcrumb Setting"
+msgstr ""
+
+#: inc/widgets/widget-full-promo.php:58
+msgid "Sub Title"
+msgstr ""
+
+#: inc/widgets/widget-full-promo.php:51
+msgid "Select FullWidth Style"
+msgstr ""
+
+#: inc/widgets/widget-full-promo.php:26
+msgid "A widget that Gives Full Width Promo of the object"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:237
+msgid "Copyright Text"
+msgstr "Copyright Text"
+
+#: inc/customizer/general-settings/general-setting.php:225
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:216
+msgid "Custom CSS"
+msgstr "تخصيص CSS"
+
+#: inc/customizer/general-settings/general-setting.php:204
+msgid "Custom CSS Section"
+msgstr ""
+
+#: welcome/sections/recommended_plugins.php:33
+#: welcome/sections/recommended_plugins.php:90
+#: welcome/welcome.php:247
+msgid "Activate"
+msgstr "تنشيط"
+
+#. Template Name of the theme
+msgid "HomePage"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:27
+msgid "You may also like&hellip;"
+msgstr "قد يعجبك أيضاً&hellip;"
+
+#: searchform.php:8
+msgid "Search products"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: inc/widgets/widget-full-promo.php:77
+#: inc/widgets/widget-promo.php:64
+msgid "Enter Promo Link"
+msgstr ""
+
+#: inc/widgets/widget-full-promo.php:71
+#: inc/widgets/widget-promo.php:58
+msgid "Enter Promo Button Text"
+msgstr ""
+
+#: inc/widgets/widget-full-promo.php:64
+#: inc/widgets/widget-promo.php:51
+msgid "Enter Promo Desc"
+msgstr ""
+
+#: inc/widgets/widget-full-promo.php:45
+#: inc/widgets/widget-promo.php:45
+msgid "Upload Image"
+msgstr "حمل الصورة"
+
+#: inc/widgets/widget-promo.php:26
+msgid "A widget that Gives Promo of the object"
+msgstr ""
+
+#: inc/widgets/widget-product2.php:63
+msgid "Select the Display Style (Image Alignment)"
+msgstr ""
+
+#: inc/widgets/widget-product2.php:32
+msgid "Left Align With Category Image"
+msgstr ""
+
+#: inc/widgets/widget-product2.php:31
+msgid "Right Align With Category Image"
+msgstr ""
+
+#: inc/widgets/widget-product2.php:20
+msgid "This widgets show the Category Image its Description and Product of that Category"
+msgstr ""
+
+#: inc/widgets/widget-product1.php:112
+msgid "New!"
+msgstr ""
+
+#: inc/widgets/widget-product1.php:84
+msgid "Select the number of Product to show"
+msgstr ""
+
+#: inc/widgets/widget-product2.php:70
+msgid "Select Product Category"
+msgstr ""
+
+#: inc/widgets/widget-product1.php:69
+msgid "Select Product Type"
+msgstr ""
+
+#: inc/widgets/widget-product1.php:33
+msgid "On Sale Product"
+msgstr ""
+
+#: inc/widgets/widget-product1.php:32
+msgid "Feature Product"
+msgstr ""
+
+#: inc/widgets/widget-product1.php:31
+msgid "UpSell Product"
+msgstr ""
+
+#: inc/widgets/widget-product1.php:30
+msgid "Latest Product"
+msgstr ""
+
+#: inc/widgets/widget-product1.php:29
+msgid "Category"
+msgstr "الفئة"
+
+#: inc/widgets/widget-product1.php:17
+msgid "The Product Slide Choose your type"
+msgstr ""
+
+#: inc/widgets/widget-icon-text.php:63
+msgid "Read More Link"
+msgstr ""
+
+#: inc/widgets/widget-icon-text.php:58
+msgid "Leave Empty not to show"
+msgstr ""
+
+#: inc/widgets/widget-icon-text.php:57
+msgid "Read More Text"
+msgstr ""
+
+#: inc/widgets/widget-icon-text.php:52
+msgid "Icon"
+msgstr "أيقونة"
+
+#: inc/widgets/widget-icon-text.php:46
+msgid "Content"
+msgstr "المحتوي"
+
+#: inc/widgets/widget-icon-text.php:26
+msgid "A widget that shows Text with Icon"
+msgstr ""
+
+#: inc/widgets/widget-cta-video.php:55
+msgid "Video Iframe"
+msgstr ""
+
+#: inc/widgets/widget-cta-video.php:26
+msgid "A widget that shows Call to Action with Video"
+msgstr ""
+
+#: inc/widgets/widget-cta-simple.php:60
+#: inc/widgets/widget-cta-video.php:66
+msgid "Button Url"
+msgstr ""
+
+#: inc/widgets/widget-cta-simple.php:55
+msgid "Enter Fontawesome Class to show in button"
+msgstr ""
+
+#: inc/widgets/widget-cta-simple.php:50
+#: inc/widgets/widget-cta-video.php:61
+msgid "Button Text"
+msgstr "نص الزر"
+
+#: inc/widgets/widget-cta-simple.php:44
+#: inc/widgets/widget-cta-video.php:44
+msgid "Description"
+msgstr "الوصف"
+
+#: inc/widgets/widget-cta-simple.php:39
+#: inc/widgets/widget-cta-video.php:39
+#: inc/widgets/widget-full-promo.php:39
+#: inc/widgets/widget-icon-text.php:41
+#: inc/widgets/widget-product1.php:63
+#: inc/widgets/widget-promo.php:39
+msgid "Title"
+msgstr "العنوان"
+
+#: inc/widgets/widget-cta-simple.php:26
+msgid "A widget that shows Simple Call to Action"
+msgstr ""
+
+#: inc/core/template-tags.php:126
+msgid "% Comments"
+msgstr "% تعليقات"
+
+#: inc/core/template-tags.php:126
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: inc/core/template-tags.php:126
+msgid "Leave a comment"
+msgstr "اكتب تعليقُا"
+
+#. translators: 1: list of tags.
+#: inc/core/template-tags.php:120
+msgid "Tagged %1$s"
+msgstr "الموسومة %1$s"
+
+#. translators: 1: list of categories.
+#: inc/core/template-tags.php:113
+msgid "Posted in %1$s"
+msgstr "نُشر في %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/core/template-tags.php:110
+msgid ", "
+msgstr "، "
+
+#. translators: %s: post author.
+#: inc/core/template-tags.php:93
+msgctxt "post author"
+msgid "by %s"
+msgstr "أضيف بواسطة %s"
+
+#. translators: %s: post date.
+#: inc/core/template-tags.php:87
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "نشر في %s"
+
+#: inc/core/template-tags.php:56
+msgid "Post navigation"
+msgstr "التنقل بين المواضيع"
+
+#: inc/core/template-tags.php:31
+msgid "Newer posts"
+msgstr "مقالات أحدث"
+
+#: inc/core/template-tags.php:27
+msgid "Older posts"
+msgstr "المواضيع القديمة"
+
+#: inc/core/template-tags.php:23
+msgid "Posts navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/widgets/widget-fields.php:241
+msgid "View File"
+msgstr "View File"
+
+#: inc/widgets/widget-fields.php:221
+msgid "Upgrade your version of WordPress for full media support."
+msgstr "Upgrade your version of WordPress for full media support."
+
+#: functions.php:115
+#: inc/widgets/widget-fields.php:216
+#: inc/widgets/widget-fields.php:232
+msgid "Remove"
+msgstr "حذف"
+
+#: functions.php:114
+#: inc/widgets/widget-fields.php:212
+msgid "Upload"
+msgstr "تحميل"
+
+#: inc/widgets/widget-fields.php:207
+msgid "No file chosen"
+msgstr "No file chosen"
+
+#: inc/core/extras.php:60
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: inc/custom-metabox.php:32
+msgid "No sidebar"
+msgstr ""
+
+#: inc/custom-metabox.php:27
+msgid "Both Sidebar"
+msgstr ""
+
+#: inc/custom-metabox.php:17
+msgid "Left sidebar"
+msgstr "الشريط الجانبي (يسار)"
+
+#: inc/customizer/woocommerce-settings/woocommerce-setting.php:50
+msgid "Hide Header Product Search"
+msgstr ""
+
+#: inc/customizer/woocommerce-settings/woocommerce-setting.php:32
+msgid "Custom Placeholder"
+msgstr ""
+
+#: inc/customizer/woocommerce-settings/woocommerce-setting.php:9
+#: inc/customizer/woocommerce-settings/woocommerce-setting.php:16
+msgid "Woocommerce Setting"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:338
+msgid "Slider 5 Button Text"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:326
+msgid "Slider 5 Button Link"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:312
+msgid "Select Post For Slider Five"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:301
+msgid "Slider 4 Button Text"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:289
+msgid "Slider 4 Button Link"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:275
+msgid "Select Post For Slider Four"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:263
+msgid "Slider 3 Button Text"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:251
+msgid "Slider 3 Button Link"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:237
+msgid "Select Post For Slider Three"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:226
+msgid "Slider 2 Button Text"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:214
+msgid "Slider 2 Button Link"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:200
+msgid "Select Post For Slider Two"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:189
+msgid "Slider 1 Button Text"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:177
+msgid "Slider 1 Button Link"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:162
+msgid "Select Post For Slider One"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:150
+msgid "Select Slider Post"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:141
+msgid "Slider 5"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:135
+msgid "Slider 4"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:129
+msgid "Slider 3"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:123
+msgid "Slider 2"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:117
+msgid "Slider 1"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:111
+msgid "Show Caption"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:100
+msgid "Slider Pause"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:89
+msgid "Slider Speed"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:75
+msgid "Slider Transitions (Slide/Fade)"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:61
+msgid "Auto Transition"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:49
+msgid "Show Controls"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:37
+msgid "Show Pager"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:25
+msgid "Show Slider"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:13
+msgid "Basic Slider Settings"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:9
+msgid "This allows to edit the Slider"
+msgstr ""
+
+#: inc/customizer/slider-settings/slider-setting.php:8
+msgid "Slider Setting"
+msgstr ""
+
+#: inc/customizer/paymentlogo-settings/paymentlogo-setting.php:123
+#: inc/customizer/paymentlogo-settings/paymentlogo-setting.php:138
+msgid "Upload Other Seal 2 Image"
+msgstr ""
+
+#: inc/customizer/paymentlogo-settings/paymentlogo-setting.php:108
+msgid "Upload SSL Seal Image"
+msgstr ""
+
+#: inc/customizer/paymentlogo-settings/paymentlogo-setting.php:91
+msgid "Other Logo Images"
+msgstr ""
+
+#: inc/customizer/paymentlogo-settings/paymentlogo-setting.php:85
+msgid "Upload Payment Logo 4 Image"
+msgstr ""
+
+#: inc/customizer/paymentlogo-settings/paymentlogo-setting.php:68
+msgid "Upload Payment Logo 3 Image"
+msgstr ""
+
+#: inc/customizer/paymentlogo-settings/paymentlogo-setting.php:51
+msgid "Upload Payment Logo 2 Image"
+msgstr ""
+
+#: inc/customizer/paymentlogo-settings/paymentlogo-setting.php:34
+msgid "Upload Payment Logo 1 Image"
+msgstr ""
+
+#: inc/customizer/paymentlogo-settings/paymentlogo-setting.php:17
+msgid "Payment Logo Images"
+msgstr ""
+
+#: inc/customizer/paymentlogo-settings/paymentlogo-setting.php:10
+msgid "This allows to edit the paymentlogo"
+msgstr ""
+
+#: inc/customizer/paymentlogo-settings/paymentlogo-setting.php:9
+msgid "Payment/Certification Logo Setting"
+msgstr ""
+
+#: inc/customizer/layout-settings/pagepost-setting.php:100
+msgid "Archive Page Inner View"
+msgstr ""
+
+#: inc/customizer/layout-settings/pagepost-setting.php:76
+msgid "Archive Page Layout"
+msgstr ""
+
+#: inc/customizer/layout-settings/pagepost-setting.php:52
+msgid "Single Post Layout"
+msgstr ""
+
+#: inc/customizer/layout-settings/pagepost-setting.php:28
+msgid "Single Page Layout"
+msgstr ""
+
+#: inc/customizer/layout-settings/pagepost-setting.php:8
+msgid "If not defined from cutom metabox these settings will be applied."
+msgstr ""
+
+#: inc/customizer/layout-settings/pagepost-setting.php:7
+msgid "Page/Post Settings"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:196
+msgid "Boxed Layout"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:192
+msgid "Make your website either box layout or full width from click away"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:191
+msgid "Website Layout"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:179
+msgid "Layout Setting"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:166
+msgid "Background Pattern"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:148
+msgid "Select the Background type for your website"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:147
+msgid "Select the Background type"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:134
+msgid "Background"
+msgstr "خلفية"
+
+#: inc/customizer/general-settings/general-setting.php:121
+msgid "Ticker Text4"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:110
+msgid "Ticker Text3"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:99
+msgid "Ticker Text2"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:88
+msgid "Ticker Text 1"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:77
+msgid "Ticker Title"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:65
+msgid "Enable Disable Ticker"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:53
+msgid "Ticker Setting"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:49
+msgid "This allows to edit the header"
+msgstr ""
+
+#: inc/customizer/general-settings/general-setting.php:48
+msgid "General Setting"
+msgstr ""
+
+#: inc/customizer/blog-settings/blog-setting.php:24
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer/blog-settings/blog-setting.php:7
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/customizer/accesspress-sanitizer.php:141
+#: inc/customizer/custom-control-class.php:36
+msgid "No"
+msgstr "لا"
+
+#: inc/customizer/accesspress-sanitizer.php:140
+#: inc/customizer/custom-control-class.php:35
+msgid "Yes"
+msgstr "نعم"
+
+#: inc/customizer/accesspress-sanitizer.php:129
+#: inc/customizer/custom-control-class.php:18
+msgid "Disable"
+msgstr "تعطيل"
+
+#: inc/customizer/accesspress-sanitizer.php:128
+#: inc/customizer/custom-control-class.php:17
+msgid "Enable"
+msgstr "تفعيل"
+
+#: inc/customizer/accesspress-sanitizer.php:93
+#: inc/customizer/slider-settings/slider-setting.php:79
+msgid "Slide"
+msgstr "شريحة"
+
+#: inc/customizer/accesspress-sanitizer.php:92
+#: inc/customizer/slider-settings/slider-setting.php:78
+msgid "Fade"
+msgstr "تلاشي"
+
+#: inc/customizer/accesspress-sanitizer.php:49
+#: inc/customizer/general-settings/general-setting.php:154
+msgid "Pattern"
+msgstr ""
+
+#: inc/customizer/accesspress-sanitizer.php:48
+#: inc/customizer/general-settings/general-setting.php:153
+msgid "Image"
+msgstr "صورة"
+
+#: inc/customizer/accesspress-sanitizer.php:47
+#: inc/customizer/general-settings/general-setting.php:152
+msgid "Color"
+msgstr "اللون"
+
+#: inc/customizer/accesspress-sanitizer.php:36
+#: inc/customizer/blog-settings/blog-setting.php:30
+msgid "Blog Full Content"
+msgstr ""
+
+#: inc/customizer/accesspress-sanitizer.php:35
+#: inc/customizer/blog-settings/blog-setting.php:29
+msgid "Blog Image Medium Alternate"
+msgstr ""
+
+#: inc/customizer/accesspress-sanitizer.php:34
+#: inc/customizer/blog-settings/blog-setting.php:28
+msgid "Blog Image Medium"
+msgstr ""
+
+#: inc/customizer/accesspress-sanitizer.php:33
+#: inc/customizer/blog-settings/blog-setting.php:27
+msgid "Blog Image Large"
+msgstr ""
+
+#: inc/customizer/accesspress-sanitizer.php:22
+#: inc/customizer/layout-settings/pagepost-setting.php:104
+msgid "Grid"
+msgstr "شبكة"
+
+#: inc/customizer/accesspress-sanitizer.php:21
+#: inc/customizer/layout-settings/pagepost-setting.php:103
+msgid "List"
+msgstr "قائمة"
+
+#: inc/customizer/accesspress-sanitizer.php:10
+#: inc/customizer/general-settings/general-setting.php:197
+msgid "Full Width"
+msgstr "كامل العرض"
+
+#: inc/customizer/accesspress-sanitizer.php:9
+msgid "Boxed"
+msgstr ""
+
+#: inc/accesspress-function.php:578
+msgid "Page"
+msgstr "صفحة"
+
+#: inc/accesspress-function.php:570
+msgid "Articles posted by "
+msgstr ""
+
+#: inc/accesspress-function.php:566
+msgid "Posts tagged"
+msgstr "وظيفة معلم"
+
+#: inc/accesspress-function.php:508
+msgid "Search results for"
+msgstr ""
+
+#: inc/accesspress-function.php:506
+msgid "Archive by category"
+msgstr ""
+
+#: inc/accesspress-function.php:487
+msgid "Home"
+msgstr "الرئيسية"
+
+#: inc/accesspress-function.php:471
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "الرئيسية"
+
+#: inc/accesspress-function.php:368
+msgid "View your shopping cart"
+msgstr "عرض سلة التسوق "
+
+#: inc/accesspress-function.php:150
+msgid "Footer Area 4"
+msgstr ""
+
+#: inc/accesspress-function.php:140
+msgid "Footer Area 3"
+msgstr ""
+
+#: inc/accesspress-function.php:130
+msgid "Footer Area 2"
+msgstr ""
+
+#: inc/accesspress-function.php:120
+msgid "Footer Area 1"
+msgstr ""
+
+#: inc/accesspress-function.php:110
+msgid "AP: Promo Widget 3"
+msgstr ""
+
+#: inc/accesspress-function.php:10
+msgid "AP: Right Sidebar"
+msgstr ""
+
+#: inc/accesspress-function.php:20
+msgid "AP: Left Sidebar"
+msgstr ""
+
+#: inc/accesspress-function.php:100
+msgid "AP: Product Listing Widget 3"
+msgstr ""
+
+#: inc/accesspress-function.php:90
+msgid "AP: Video Call to Action"
+msgstr ""
+
+#: inc/accesspress-function.php:80
+msgid "AP: Product Listing Widget 2"
+msgstr ""
+
+#: inc/accesspress-function.php:70
+msgid "AP: Promo Widget 2"
+msgstr ""
+
+#: inc/accesspress-function.php:60
+msgid "AP: Product Listing Widget 1"
+msgstr ""
+
+#: inc/accesspress-function.php:50
+msgid "AP: Promo Widget 1"
+msgstr ""
+
+#: inc/accesspress-function.php:40
+msgid "Header Call To Box"
+msgstr ""
+
+#: inc/accesspress-function.php:30
+msgid "Shop Sidebar"
+msgstr ""
+
+#: header/header-one.php:102
+#: header/header-two.php:110
+msgid "Menu"
+msgstr "القائمة"
+
+#: header/header-one.php:66
+#: header/header-two.php:74
+msgid "Login"
+msgstr ""
+
+#: header/header-one.php:62
+#: header/header-two.php:68
+msgid " Logout"
+msgstr ""
+
+#: header/header-one.php:21
+#: header/header-two.php:21
+msgid "!"
+msgstr ""
+
+#: header/header-one.php:15
+#: header/header-two.php:15
+#: welcome/welcome.php:179
+msgid "Welcome"
+msgstr ""
+
+#: functions.php:66
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: footer.php:82
+msgid "Other Seal 2"
+msgstr ""
+
+#: footer.php:78
+msgid "Other Seal 1"
+msgstr ""
+
+#: footer.php:74
+msgid "SSL Seal"
+msgstr ""
+
+#: footer.php:70
+msgid "Partner Logo 4"
+msgstr ""
+
+#: footer.php:66
+msgid "Partner Logo 3"
+msgstr ""
+
+#: footer.php:62
+msgid "Partner Logo 2"
+msgstr ""
+
+#: footer.php:58
+msgid "Partner Logo 1"
+msgstr ""
+
+#: inc/core/template-tags.php:130
+msgid "Edit"
+msgstr "تعديل"
+
+#: content-none.php:43
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أننا لم نعثر على ما تطلب. لعل استعمال البحث قد يساعد."
+
+#: content-none.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
+
+#. translators: 1: link to WP admin new post page.
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "لم يتم العثور على نتائج"
+
+#: content-blog.php:86
+#: content-page.php:23
+#: content-single.php:30
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: content-blog.php:82
+#: content.php:35
+#: template-blog.php:125
+msgid "Read More"
+msgstr "قراءة المزيد"
+
+#: content-blog.php:65
+#: content-single.php:22
+#: content.php:24
+#: template-blog.php:108
+msgid "by"
+msgstr "بواسطة"
+
+#: content-blog.php:63
+#: content-single.php:20
+#: content.php:22
+#: template-blog.php:106
+msgid "at"
+msgstr ""
+
+#: content-blog.php:61
+#: content-single.php:18
+#: content.php:20
+#: template-blog.php:104
+msgid "Posted On"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: 404.php:18
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+
+#: 404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عذراً! لايمكن العثور على تلك الصفحة."
+
+#. Author URI of the theme
+msgid "http://accesspressthemes.com/"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://accesspressthemes.com/wordpress-themes/accesspress-store/"
+msgstr ""
+
+#. Author of the theme
+#: welcome/sections/more_wp_stuff.php:9
+msgid "AccessPress Themes"
+msgstr ""

@@ -1,0 +1,1446 @@
+# Translation of Themes - Responsive Mobile in Arabic
+# This file is distributed under the same license as the Themes - Responsive Mobile package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-23 11:04:17+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Responsive Mobile\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "Responsive II (codename Responsive Mobile) has a responsive, gutenberg compatible, mobile first grid system that adapts your website to mobile devices and the desktop or any other viewing environment. Theme features 9 Page Templates, 11 Widget Areas, 6 Template Layouts, 4 Menu Positions, Call-Out Section with a Call To Action Button, Custom fonts and Custom background image and more. Powerful but simple Theme Options for full CMS control with easy Logo Upload and Social Networking etc. Responsive II is WooCommerce Compatible, Multilingual Ready (WPML), RTL-Language Support, Retina-Ready, Search Engine Friendly and W3C Markup Validated. Cross-Browser compatible. Includes a team section to display your team members details. 3 different footer widget layout available. For Support - <a href=\"https://cyberchimps.com/forum/free/responsive-ii/\"> Support forum</a> (https://cyberchimps.com/forum/free/responsive-ii/). View <a href=\"http://demos.cyberchimps.com/responsive-mobile/\">Responsive Mobile Demo</a> (http://demos.cyberchimps.com/responsive-mobile/)"
+msgstr ""
+
+#. Theme Name of the theme
+msgid "Responsive Mobile"
+msgstr ""
+
+#: includes/functions-theme-options.php:63
+msgid "Footer 1 column"
+msgstr ""
+
+#: includes/functions-theme-options.php:62
+msgid "Footer 2 column"
+msgstr ""
+
+#: includes/functions-theme-options.php:61
+msgid "Footer 3 column"
+msgstr ""
+
+#: includes/customizer.php:89
+#: includes/functions-theme-options.php:150
+msgid "Choose Footer Widget Layout"
+msgstr ""
+
+#: includes/functions-theme-options-page.php:76
+#: includes/functions-theme-options-page.php:77
+msgid "Why Go Pro?"
+msgstr ""
+
+#: includes/functions-theme-options-page.php:74
+#: includes/functions-theme-options-page.php:75
+msgid "Theme Demo Data"
+msgstr ""
+
+#: includes/functions-theme-options-page.php:69
+#: includes/functions-theme-options-page.php:70
+msgid "Need Customization?"
+msgstr ""
+
+#: includes/customizer.php:421
+msgid "Please choose the post categories that should not be displayed on the blog page"
+msgstr ""
+
+#: includes/customizer.php:420
+msgid "Exclude Categories from Blog page"
+msgstr ""
+
+#: includes/customizer.php:410
+msgid "Blog page Settings"
+msgstr ""
+
+#: includes/admin-about.php:54
+#: includes/functions-theme-options-page.php:71
+#: includes/functions-theme-options-page.php:72
+msgid "Leave a star rating"
+msgstr ""
+
+#: functions.php:219
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: core/functions-demodata.php:83
+msgid "Please enter your email ID and click on Send to receive the demo data for Responsive Mobile (Responsive ii)."
+msgstr ""
+
+#: includes/functions-theme-options.php:81
+msgid "Three Column Posts"
+msgstr ""
+
+#: includes/functions-theme-options.php:375
+msgid "Select Category for Testimonial"
+msgstr ""
+
+#: includes/functions-theme-options.php:361
+msgid "The featured image, title and content from the selected post category will be used. Recommended image size for the featured images: 200 x 200px"
+msgstr ""
+
+#: includes/functions-theme-options.php:271
+msgid "Services Featured Image"
+msgstr ""
+
+#: includes/functions-theme-options.php:260
+msgid "Select Category for Services"
+msgstr ""
+
+#: includes/functions-theme-options.php:251
+msgid "Sevices Section Title"
+msgstr ""
+
+#: includes/functions-theme-options.php:246
+msgid "The featured image, title and content from the selected post category will be used. Recommended image size for the featured images: 64 x 64px"
+msgstr ""
+
+#: includes/functions-theme-options.php:146
+msgid "Check to enable"
+msgstr ""
+
+#: includes/functions-theme-options.php:143
+msgid "Sticky Header"
+msgstr ""
+
+#: includes/customizer.php:316
+#: includes/functions-theme-options.php:366
+msgid "Testimonial Section Title"
+msgstr ""
+
+#: includes/customizer.php:314
+msgid "Testimonial"
+msgstr ""
+
+#: includes/customizer.php:309
+#: includes/functions-theme-options.php:358
+msgid "Enable Testimonial Section"
+msgstr ""
+
+#: includes/customizer.php:201
+msgid "Services Featured Image "
+msgstr ""
+
+#: includes/customizer.php:183
+msgid "Services Section Title"
+msgstr ""
+
+#: includes/customizer.php:181
+msgid "Our Services"
+msgstr ""
+
+#: includes/customizer.php:176
+#: includes/functions-theme-options.php:243
+msgid "Enable Services Section"
+msgstr ""
+
+#: includes/customizer.php:82
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: includes/functions.php:228
+msgid "LinkedIn Link"
+msgstr ""
+
+#: includes/functions.php:224
+msgid "GooglePlus Link"
+msgstr ""
+
+#: includes/functions.php:220
+msgid "Twitter Link"
+msgstr ""
+
+#: includes/functions.php:216
+msgid "Facebook Link"
+msgstr ""
+
+#: includes/functions.php:212
+msgid "Member designation"
+msgstr ""
+
+#: includes/functions.php:209
+msgid "To use this post for front page's team section, please enter below details:"
+msgstr ""
+
+#: includes/functions-theme-options.php:406
+msgid "Select Category for team"
+msgstr ""
+
+#: includes/functions-theme-options.php:403
+msgid "Team"
+msgstr ""
+
+#: includes/functions-theme-options.php:402
+msgid "Enter your team title"
+msgstr ""
+
+#: includes/functions-theme-options.php:396
+msgid "Team Title"
+msgstr ""
+
+#: includes/functions-theme-options.php:392
+msgid "The featured image, title and content from the selected post category will be used. Recommended image size for the featured images: 164 x 164px"
+msgstr ""
+
+#: includes/functions-theme-options.php:386
+msgid "Enable Team Section"
+msgstr ""
+
+#: includes/customizer.php:195
+#: includes/customizer.php:328
+#: includes/customizer.php:355
+msgid "The featured image, title and content from the selected post caategory will be used. Recommended image size for the featured images: 164 x 164px"
+msgstr ""
+
+#: includes/customizer.php:191
+#: includes/customizer.php:324
+#: includes/customizer.php:351
+msgid "Select posts category"
+msgstr ""
+
+#: functions.php:376
+#: includes/customizer.php:100
+#: libraries/class-responsive-options.php:706
+msgid "Choose Category"
+msgstr ""
+
+#: includes/customizer.php:336
+msgid "Enable Team Section(on homepage)"
+msgstr ""
+
+#: includes/customizer.php:28
+msgid "Rate Us"
+msgstr ""
+
+#: includes/functions-theme-options.php:349
+msgid "Callout Background Image"
+msgstr ""
+
+#: includes/functions-theme-options.php:344
+msgid "Select color for button background"
+msgstr ""
+
+#: includes/functions-theme-options.php:341
+msgid "Callout Button Background Color"
+msgstr ""
+
+#: includes/functions-theme-options.php:336
+msgid "Select color for button text"
+msgstr ""
+
+#: includes/functions-theme-options.php:333
+msgid "Callout Button Text Color"
+msgstr ""
+
+#: includes/functions-theme-options.php:310
+msgid "Select color for your text"
+msgstr ""
+
+#: includes/functions-theme-options.php:307
+msgid "Content Text Color"
+msgstr ""
+
+#: includes/functions-theme-options.php:292
+msgid "Enter callout headline"
+msgstr ""
+
+#: includes/functions-theme-options.php:279
+msgid "Enable Callout element"
+msgstr ""
+
+#: includes/customizer.php:634
+msgid "Embeds to footer.php"
+msgstr ""
+
+#: includes/customizer.php:626
+msgid "Embeds to header.php"
+msgstr ""
+
+#: includes/customizer.php:570
+msgid "Foursquare"
+msgstr ""
+
+#: includes/customizer.php:561
+msgid "Yelp"
+msgstr ""
+
+#: includes/customizer.php:464
+msgid "Enter the URL to your account for each service for the icon to appear in the header."
+msgstr ""
+
+#: includes/customizer.php:293
+#: includes/customizer.php:300
+msgid "Callout background"
+msgstr ""
+
+#: includes/customizer.php:284
+msgid "Callout Button ( Background Color)"
+msgstr ""
+
+#: includes/customizer.php:270
+msgid "Callout Button ( Text Color)"
+msgstr ""
+
+#: includes/customizer.php:256
+msgid "Callout Button (Text)"
+msgstr ""
+
+#: includes/customizer.php:247
+msgid "Callout Button (URL)"
+msgstr ""
+
+#: includes/customizer.php:240
+msgid "Callout Text (Color)"
+msgstr ""
+
+#: includes/customizer.php:210
+msgid "Enable Callout Element"
+msgstr ""
+
+#: includes/customizer.php:133
+msgid "IS A WARM CUP"
+msgstr ""
+
+#: includes/customizer.php:126
+#: includes/customizer.php:216
+msgid "HAPPINESS"
+msgstr ""
+
+#: includes/customizer.php:124
+msgid "Overrides the WordPress front page option"
+msgstr ""
+
+#: includes/customizer.php:75
+#: includes/customizer.php:344
+msgid "Title Text"
+msgstr ""
+
+#: includes/customizer.php:67
+msgid "Enable Blog Title"
+msgstr ""
+
+#: includes/customizer.php:60
+msgid "Enable minified css?"
+msgstr ""
+
+#: includes/customizer.php:39
+msgid "Enable featured images?"
+msgstr ""
+
+#: includes/functions-theme-options-page.php:35
+msgid "Go Pro with the %s! - Get 30%% off using <span style=\"color:red\">PROPLUGIN30</span>"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Sitemap"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Sidebar/Content (half page)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Landing Page (no menu)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Blog (full posts)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Blog Excerpt (summary)"
+msgstr ""
+
+#: template-parts/content.php:86
+#: template-parts/post-data.php:57
+msgid "Edit"
+msgstr "تحرير"
+
+#: template-parts/post-data.php:47
+msgid "Tagged with %1$s"
+msgstr ""
+
+#: template-parts/post-data.php:33
+msgid "Posted in %1$s"
+msgstr "نُشر في %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: template-parts/post-data.php:26
+#: template-parts/post-data.php:39
+msgid ", "
+msgstr "، "
+
+#: template-parts/loop-nav.php:29
+msgid "&rarr;"
+msgstr ""
+
+#: template-parts/loop-nav.php:28
+msgid "&larr;"
+msgstr ""
+
+#: template-parts/loop-header.php:49
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: template-parts/content-sitemap.php:43
+msgid "Pages"
+msgstr "صفحات"
+
+#: template-parts/content-sitemap.php:36
+msgid "Permanent Link to %s"
+msgstr "الرابط الدائم نحو %s"
+
+#: template-parts/content-sitemap.php:32
+msgid "Latest Posts"
+msgstr "اخر المشاركات"
+
+#: template-parts/content-sitemap.php:27
+msgid "Categories"
+msgstr "تصنيفات"
+
+#: template-parts/content-none.php:63
+msgid "&larr; Home"
+msgstr "&larr; الرئيسية"
+
+#: template-parts/content-none.php:58
+msgid "You can return %s or search for the page you were looking for."
+msgstr "بإمكانك العودة إلى %s ، أو إستخدام خاصية البحث للحصول على الصفحة المطلوبة."
+
+#: template-parts/content-none.php:54
+msgid "The URL may be misspelled or the page you are looking for is no longer available."
+msgstr ""
+
+#: template-parts/content-none.php:53
+msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgstr "الصفحة المطلوبة غير موجودة، إستخدم المقترحات أدناه."
+
+#: template-parts/content-none.php:50
+msgid "404 &#8212; Fancy meeting you here!"
+msgstr "404 &#8212; مِنَ الغريب رؤيتك لهذه الصفحة!"
+
+#: template-parts/content-none.php:44
+msgid "Your search for \"%s\" did not match any entries."
+msgstr ""
+
+#: template-parts/content-none.php:41
+msgid "No results"
+msgstr ""
+
+#: template-parts/content-none.php:35
+msgid "Get started here"
+msgstr ""
+
+#: template-parts/content-none.php:34
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid "No posts published yet"
+msgstr ""
+
+#: sidebar-left-half.php:28
+#: sidebar-left.php:28
+#: sidebar-right-half.php:28
+#: sidebar-right.php:28
+#: sidebar.php:60
+msgid "In Archive"
+msgstr "بالأرشيف"
+
+#: sidebar-home.php:60
+msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area 8 called Home Widget 3. Title is also manageable from widgets as well."
+msgstr "هنا مربع الصفحة الرئيسية الثالث ، لتحريره يرجى الدخول إلى المظهر > المربعات الجانبية، ومن ثم اختر ثامن مربع من جهة الأعلى في المنطقة الثامنة. والعنوان أيضاً قابل للتحرير من \"المربعات الجانبية\"."
+
+#: sidebar-home.php:45
+msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area 7 called Home Widget 2. Title is also manageable from widgets as well."
+msgstr "هنا مربع الصفحة الرئيسية الثاني ، لتحريره يرجى الدخول إلى المظهر > المربعات الجانبية، ومن ثم اختر سابع مربع من جهة الأعلى في المنطقة السابعة. والعنوان أيضاً قابل للتحرير من \"المربعات الجانبية\"."
+
+#: sidebar-home.php:30
+msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area 6 called Home Widget 1. Title is also manageable from widgets as well."
+msgstr "هنا مربع الصفحة الرئيسية الأول ، لتحريره  يرجى الدخول إلى المظهر > المربعات الجانبية، ومن ثم اختر سادس مربع من جهة الأعلى في المنطقة السادسة. والعنوان أيضاً قابل للتحرير من \"المربعات الجانبية\"."
+
+#: sidebar-gallery.php:65
+msgid "Camera:"
+msgstr "الكاميرا :"
+
+#: sidebar-gallery.php:50
+msgid "Shutter:"
+msgstr "المغلاق:"
+
+#: sidebar-gallery.php:46
+msgid "ISO:"
+msgstr "آيزو:"
+
+#: sidebar-gallery.php:42
+msgid "mm"
+msgstr "مم"
+
+#: sidebar-gallery.php:42
+msgid "Focal Length:"
+msgstr "البعد البؤري:"
+
+#: sidebar-gallery.php:37
+msgid "Aperture: f&#47;"
+msgstr "فتحة العدسة: f&#47;"
+
+#: sidebar-gallery.php:33
+msgid "Full Size:"
+msgstr "الحجم الكامل:"
+
+#: sidebar-gallery.php:29
+msgid "Image Information"
+msgstr "معلومات الصورة"
+
+#: page-templates/blog-excerpt.php:55
+#: page-templates/blog.php:68
+msgid "Newer posts &#8250;"
+msgstr "تدوينات أحدث &#8250;"
+
+#: page-templates/blog-excerpt.php:54
+#: page-templates/blog.php:66
+msgid "&#8249; Older posts"
+msgstr "&#8249; تدوينات أقدم"
+
+#: libraries/class-responsive-options.php:587
+#: libraries/class-responsive-options.php:610
+msgid "Invalid Data for Import"
+msgstr ""
+
+#: libraries/class-responsive-options.php:582
+#: libraries/class-responsive-options.php:605
+msgid "Options Imported"
+msgstr ""
+
+#: libraries/class-responsive-options.php:416
+msgid "Restore Defaults"
+msgstr "إعادة إلى الوضع التلقائي"
+
+#: libraries/class-responsive-options.php:416
+msgid "Save Options"
+msgstr "حفظ الإعدادات"
+
+#: libraries/class-responsive-options.php:110
+msgid "Options Saved"
+msgstr "تم حفظ الخيارات"
+
+#: libraries/class-responsive-options.php:49
+msgid "Click OK to restore."
+msgstr ""
+
+#: libraries/class-responsive-options.php:49
+msgid "All theme settings will be lost!"
+msgstr ""
+
+#: libraries/class-responsive-options.php:49
+msgid "Do you want to restore the default settings?"
+msgstr ""
+
+#: libraries/class-meta-box.php:1944
+msgid "or enter URL"
+msgstr ""
+
+#: libraries/class-meta-box.php:1943
+msgid "Upload"
+msgstr "رفع"
+
+#: libraries/class-meta-box.php:1791
+#: libraries/class-meta-box.php:1801
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr ""
+
+#: includes/functions.php:76
+msgid "Footer Menu"
+msgstr "القائمة السفلية"
+
+#: includes/functions.php:75
+msgid "Sub-Header Menu"
+msgstr "قائمة الهيدر (الترويسة) الثانوية"
+
+#: includes/functions.php:74
+msgid "Header Menu"
+msgstr "قائمة الهيدر (الترويسة)"
+
+#: includes/functions.php:73
+msgid "Top Menu"
+msgstr "القائمة العليا"
+
+#: includes/functions-theme-options.php:642
+msgid "Enter your custom footer script."
+msgstr "ضع نصاً برمجياً لتخصيص ذيل الصفحة"
+
+#: includes/functions-theme-options.php:639
+msgid "Embeds to footer.php &darr;"
+msgstr "تضمينات في footer.php &darr;"
+
+#: includes/functions-theme-options.php:634
+msgid "Enter your custom header script."
+msgstr "ضع نصاً برمجياً لتخصيص رأس الصفحة"
+
+#: includes/functions-theme-options.php:631
+msgid "Embeds to header.php &darr;"
+msgstr "تضمينات في header.php &darr;"
+
+#: includes/functions-theme-options.php:630
+msgid "Quick Tutorial"
+msgstr "دورة تعليمية سريعة"
+
+#: includes/functions-theme-options.php:629
+msgid "Custom Scripts for Header and Footer"
+msgstr "نصوص برمجية لرأس الصفحة أو الذيل."
+
+#: includes/customizer.php:621
+#: includes/functions-theme-options.php:626
+msgid "Scripts"
+msgstr ""
+
+#: includes/functions-theme-options.php:619
+msgid "Enter your custom CSS styles."
+msgstr "أدخل كود الـ CSS الخاص بك"
+
+#: includes/functions-theme-options.php:616
+msgid "CSS Tutorial"
+msgstr "CSS Tutorial"
+
+#: includes/customizer.php:609
+#: includes/functions-theme-options.php:615
+msgid "Custom CSS Styles"
+msgstr "CSS مخصص"
+
+#: includes/customizer.php:604
+#: includes/functions-theme-options.php:612
+msgid "CSS Styles"
+msgstr ""
+
+#: includes/functions-theme-options.php:605
+msgid "Enter your foursquare URL"
+msgstr "أدخل رابط foursquare الخاص بك"
+
+#: includes/functions-theme-options.php:602
+msgid "foursquare"
+msgstr "foursquare"
+
+#: includes/functions-theme-options.php:597
+msgid "Enter your Vimeo URL"
+msgstr "أدخل رابط Vimeo الخاص بك"
+
+#: includes/customizer.php:552
+#: includes/functions-theme-options.php:594
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: includes/functions-theme-options.php:580
+msgid "Enter your Pinterest URL"
+msgstr "أدخل رابط Pinterest الخاص بك"
+
+#: includes/customizer.php:534
+#: includes/functions-theme-options.php:577
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/functions-theme-options.php:572
+msgid "Enter your Instagram URL"
+msgstr "أدخل رابط Instagram الخاص بك"
+
+#: includes/customizer.php:525
+#: includes/functions-theme-options.php:569
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/functions-theme-options.php:564
+msgid "Enter your Google+ URL"
+msgstr "أدخل رابط Google+ الخاص بك"
+
+#: includes/customizer.php:507
+#: includes/functions-theme-options.php:561
+msgid "Google+"
+msgstr "Google+"
+
+#: includes/functions-theme-options.php:556
+msgid "Enter your RSS Feed URL"
+msgstr "أدخل رابط تغذية RSS الخاص بك."
+
+#: includes/customizer.php:516
+#: includes/functions-theme-options.php:553
+msgid "RSS Feed"
+msgstr "خلاصة RSS"
+
+#: includes/functions-theme-options.php:548
+msgid "Enter your StumbleUpon URL"
+msgstr "أدخل رابط StumbleUpon الخاص بك"
+
+#: includes/customizer.php:543
+#: includes/functions-theme-options.php:545
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: includes/functions-theme-options.php:540
+msgid "Enter your YouTube URL"
+msgstr "أدخل رابط قناة الـ YouTube الخاصة بك"
+
+#: includes/customizer.php:498
+#: includes/functions-theme-options.php:537
+msgid "YouTube"
+msgstr "Youtube"
+
+#: includes/functions-theme-options.php:532
+msgid "Enter your LinkedIn URL"
+msgstr "أدخل رابط LinkedIn الخاص بك"
+
+#: includes/customizer.php:489
+#: includes/functions-theme-options.php:529
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: includes/functions-theme-options.php:524
+msgid "Enter your Facebook URL"
+msgstr "أدخل رابط Facebook الخاص بك"
+
+#: includes/customizer.php:480
+#: includes/functions-theme-options.php:521
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/functions-theme-options.php:516
+msgid "Enter your Twitter URL"
+msgstr "أدخل رابط Twitter الخاص بك"
+
+#: includes/customizer.php:471
+#: includes/functions-theme-options.php:513
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/customizer.php:462
+#: includes/functions-theme-options.php:510
+msgid "Social Icons"
+msgstr "أيقونات المواقع الإجتماعية"
+
+#: includes/customizer.php:450
+#: includes/functions-theme-options.php:500
+msgid "Default Blog Posts Index Layout"
+msgstr ""
+
+#: includes/customizer.php:442
+#: includes/functions-theme-options.php:492
+msgid "Default Single Blog Post Layout"
+msgstr ""
+
+#: includes/customizer.php:434
+#: includes/functions-theme-options.php:484
+msgid "Default Static Page Layout"
+msgstr ""
+
+#: includes/customizer.php:429
+#: includes/functions-theme-options.php:481
+msgid "Default Layouts"
+msgstr ""
+
+#: includes/customizer.php:170
+#: includes/functions-theme-options.php:236
+msgid "Paste your shortcode, video or image source"
+msgstr "الصق كوداً مختصراً أو مصدراً لفيديو أو لصورة"
+
+#: includes/functions-theme-options.php:232
+#: includes/functions-theme-options.php:233
+msgid "See Docs"
+msgstr "شاهد الشرح"
+
+#: includes/customizer.php:166
+#: includes/functions-theme-options.php:231
+msgid "Featured Content"
+msgstr "المحتوى المميز"
+
+#: includes/functions-theme-options.php:226
+#: includes/functions-theme-options.php:328
+#: template-parts/callout.php:78
+#: template-parts/featured-area.php:130
+#: template-parts/featured-area.php:195
+msgid "Call to Action"
+msgstr "ابدأ العمل!"
+
+#: includes/functions-theme-options.php:225
+#: includes/functions-theme-options.php:327
+msgid "Enter your call to action text"
+msgstr "إدخل النص المراد عرضه بدلاً من \"إبدأ العمل\""
+
+#: includes/customizer.php:157
+#: includes/functions-theme-options.php:222
+#: includes/functions-theme-options.php:324
+msgid "Call to Action (Text)"
+msgstr "نص \"ابدأ العمل\""
+
+#: includes/functions-theme-options.php:216
+#: includes/functions-theme-options.php:318
+msgid "Enter your call to action URL"
+msgstr "أدخل رابطاً (URL) لزر \"إبدأ العمل\""
+
+#: includes/customizer.php:149
+#: includes/functions-theme-options.php:213
+#: includes/functions-theme-options.php:315
+msgid "Call to Action (URL)"
+msgstr "رابط ابدأ العمل"
+
+#: includes/customizer.php:140
+#: includes/customizer.php:224
+#: includes/functions-theme-options.php:208
+#: includes/functions-theme-options.php:302
+#: template-parts/callout.php:59
+#: template-parts/featured-area.php:50
+#: template-parts/featured-area.php:116
+#: template-parts/featured-area.php:181
+msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
+msgstr "بإمكانك تعديل العنوان الرئيسي، والعنوان الفرعي، وهذه المساحة، من خلال المظهر > خيارات القالب. كذلك الحال مع زر \"إبدأ العمل\"؛ بإمكانك تعديل الصورة الظاهرة، وبإمكانك إستبدالها بمقطع فيديو من اليوتيوب إذا أردت."
+
+#: includes/functions-theme-options.php:207
+#: includes/functions-theme-options.php:301
+msgid "Enter your content"
+msgstr "اكتب محتوى الرئيسية"
+
+#: includes/customizer.php:142
+#: includes/customizer.php:226
+#: includes/functions-theme-options.php:204
+#: includes/functions-theme-options.php:298
+msgid "Content Area"
+msgstr "منطقة المحتوى"
+
+#: includes/functions-theme-options.php:199
+#: template-parts/featured-area.php:106
+#: template-parts/featured-area.php:171
+msgid "Your H2 subheadline here"
+msgstr "هنا عنوانك الفرعي!"
+
+#: includes/functions-theme-options.php:198
+msgid "Enter your subheadline"
+msgstr "أدخل العنوان الثانوي"
+
+#: includes/customizer.php:135
+#: includes/functions-theme-options.php:195
+msgid "Subheadline"
+msgstr "عنوان ثانوي"
+
+#: includes/functions-theme-options.php:190
+#: includes/functions-theme-options.php:293
+#: template-parts/callout.php:50
+#: template-parts/featured-area.php:32
+#: template-parts/featured-area.php:96
+#: template-parts/featured-area.php:161
+msgid "Hello, World!"
+msgstr "أهلاً بالعالَم!"
+
+#: includes/functions-theme-options.php:189
+msgid "Enter your headline"
+msgstr "أدخل العنوان الرئيسي"
+
+#: includes/customizer.php:128
+#: includes/customizer.php:218
+#: includes/functions-theme-options.php:184
+#: includes/functions-theme-options.php:287
+msgid "Headline"
+msgstr "عنوان رئيسى"
+
+#: includes/functions-theme-options.php:179
+msgid "Overrides the WordPress %1sfront page option%2s"
+msgstr ""
+
+#: includes/customizer.php:120
+#: includes/functions-theme-options.php:176
+msgid "Enable Custom Front Page"
+msgstr ""
+
+#: includes/customizer.php:115
+#: includes/functions-theme-options.php:173
+msgid "Home Page"
+msgstr "الصفحة الرئيسية"
+
+#: includes/functions-theme-options.php:166
+msgid "Click here"
+msgstr ""
+
+#: includes/functions-theme-options.php:166
+msgid "Need to replace or remove default logo?"
+msgstr "بحاجة لتغيير صورة اللوجو الإفتراضية أو حذفها؟"
+
+#: includes/functions-theme-options.php:163
+msgid "Custom Header"
+msgstr "ترويسة خاصة"
+
+#: includes/functions-theme-options.php:160
+msgid "Logo Upload"
+msgstr "رفع الشعار"
+
+#: includes/customizer.php:53
+#: includes/functions-theme-options.php:135
+msgid "Disable Call to Action Button?"
+msgstr "تعطيل زر \"إبدأ العمل\"؟"
+
+#: includes/functions-theme-options.php:127
+msgid "Use minified CSS"
+msgstr ""
+
+#: includes/functions-theme-options.php:122
+#: includes/functions-theme-options.php:130
+#: includes/functions-theme-options.php:138
+msgid "Check to disable"
+msgstr "Check to Disable"
+
+#: includes/customizer.php:46
+#: includes/functions-theme-options.php:119
+msgid "Disable breadcrumb list?"
+msgstr ""
+
+#: includes/customizer.php:33
+#: includes/functions-theme-options.php:116
+msgid "Theme Elements"
+msgstr "عناصر القالب"
+
+#. Template Name of the theme
+#: includes/functions-theme-options.php:52
+#: includes/functions-theme-options.php:80
+msgid "Full Width Page (no sidebar)"
+msgstr ""
+
+#: includes/functions-theme-options.php:51
+#: includes/functions-theme-options.php:79
+msgid "Sidebar/Content Half Page"
+msgstr ""
+
+#. Template Name of the theme
+#: includes/functions-theme-options.php:50
+#: includes/functions-theme-options.php:78
+msgid "Content/Sidebar Half Page"
+msgstr ""
+
+#. Template Name of the theme
+#: includes/functions-theme-options.php:49
+#: includes/functions-theme-options.php:77
+msgid "Sidebar/Content"
+msgstr ""
+
+#. Template Name of the theme
+#: includes/functions-theme-options.php:48
+#: includes/functions-theme-options.php:76
+msgid "Content/Sidebar"
+msgstr ""
+
+#: includes/functions-theme-options.php:47
+#: includes/functions-theme-options.php:75
+msgid "Default"
+msgstr "افتراضي"
+
+#: includes/functions-theme-options-page.php:99
+msgid "The Custom Front Page is disabled. You can enable it in the <a href=\"%1$s\">theme settings</a>."
+msgstr ""
+
+#: includes/functions-theme-options-page.php:97
+msgid "The Custom Front Page is enabled. You can disable it in the <a href=\"%1$s\">theme settings</a>."
+msgstr ""
+
+#: includes/functions-theme-options-page.php:63
+#: includes/functions-theme-options-page.php:64
+msgid "Showcase"
+msgstr "المعرض"
+
+#: includes/functions-theme-options-page.php:58
+msgid "Instructions"
+msgstr ""
+
+#: includes/functions-theme-options-page.php:57
+msgid "Guides"
+msgstr ""
+
+#: includes/functions-theme-options-page.php:30
+msgid "Welcome to %s!"
+msgstr ""
+
+#: includes/functions-template-tags.php:279
+msgid "Menu"
+msgstr "القائمة"
+
+#: includes/functions-template-tags.php:261
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: includes/functions-template-tags.php:258
+msgid "Chats"
+msgstr "دردشات"
+
+#: includes/functions-template-tags.php:255
+msgid "Audios"
+msgstr "صوتيات"
+
+#: includes/functions-template-tags.php:252
+msgid "Statuses"
+msgstr "الحالات"
+
+#: includes/functions-template-tags.php:249
+msgid "Links"
+msgstr "روابط"
+
+#: includes/functions-template-tags.php:246
+msgid "Quotes"
+msgstr "الإقتباسات"
+
+#: includes/functions-template-tags.php:243
+msgid "Videos"
+msgstr "فيديو"
+
+#: includes/functions-template-tags.php:240
+msgid "Images"
+msgstr "صور"
+
+#: includes/functions-template-tags.php:237
+msgid "Galleries"
+msgstr "المعارض"
+
+#: includes/functions-template-tags.php:234
+msgid "Asides"
+msgstr "الملاحظات"
+
+#: includes/functions-template-tags.php:231
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: includes/functions-template-tags.php:231
+msgid "Yearly Archives: %s"
+msgstr "الأرشيف السنوي: %s"
+
+#: includes/functions-template-tags.php:228
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: includes/functions-template-tags.php:228
+msgid "Monthly Archives: %s"
+msgstr "الأرشيف الشهري: %s"
+
+#: includes/functions-template-tags.php:225
+msgid "Daily Archives: %s"
+msgstr "الأرشيف اليومي: %s"
+
+#: includes/functions-template-tags.php:222
+msgid "Author: %s"
+msgstr "الكاتب: %s"
+
+#: includes/functions-template-tags.php:163
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\"> نشر في %1$s </ SPAN> <span class=\"byline\"> بواسطة %2$s </ SPAN>"
+
+#: includes/functions-template-tags.php:134
+msgid "by"
+msgstr "بقلم"
+
+#: includes/functions-template-tags.php:117
+msgid "Posted on"
+msgstr ""
+
+#. Translators: (Posted on )(Date)
+#. Translators: ( by )(Author)
+#: includes/functions-template-tags.php:116
+#: includes/functions-template-tags.php:133
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/functions-template-tags.php:74
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&larr;</span>"
+
+#: includes/functions-template-tags.php:73
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&rarr;</span> %title"
+
+#: includes/functions-template-tags.php:69
+#: template-parts/loop-nav.php:25
+msgid "Post navigation"
+msgstr "تصفّح المقالات"
+
+#: includes/functions-template-tags.php:43
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "المواضيع الأحدث <span class=\"meta-nav\">&larr;</span>"
+
+#: includes/functions-template-tags.php:39
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&rarr;</span> المواضيع الأقدم"
+
+#: includes/functions-template-tags.php:34
+#: page-templates/blog.php:62
+msgid "Posts navigation"
+msgstr "تصفّح المقالات"
+
+#: includes/functions-sidebar.php:137
+msgid "Area 12 - sidebar-footer.php - Maximum of 3 widgets per row"
+msgstr ""
+
+#: includes/functions-sidebar.php:136
+msgid "Footer Widget"
+msgstr ""
+
+#: includes/functions-sidebar.php:127
+msgid "Area 11 - sidebar-top.php - Displays on the right of the header"
+msgstr ""
+
+#: includes/functions-sidebar.php:126
+msgid "Top Widget"
+msgstr "مربع الأعلى"
+
+#: includes/functions-sidebar.php:117
+msgid "Area 10 - sidebar-colophon.php, 100% width Footer widgets"
+msgstr ""
+
+#: includes/functions-sidebar.php:116
+msgid "Colophon Widget"
+msgstr "مربع خاتم الإصدار"
+
+#: includes/functions-sidebar.php:107
+msgid "Area 9 - sidebar-gallery.php - Displays on the page after an image has been clicked in a Gallery"
+msgstr ""
+
+#: includes/functions-sidebar.php:106
+msgid "Gallery Sidebar"
+msgstr "قائمة عارض الصور"
+
+#: includes/functions-sidebar.php:97
+msgid "Area 8 - sidebar-home.php - Displays on the Home Page"
+msgstr ""
+
+#: includes/functions-sidebar.php:96
+#: sidebar-home.php:59
+msgid "Home Widget 3"
+msgstr "مربع الرئيسية الثالث"
+
+#: includes/functions-sidebar.php:87
+msgid "Area 7 - sidebar-home.php - Displays on the Home Page"
+msgstr ""
+
+#: includes/functions-sidebar.php:86
+#: sidebar-home.php:44
+msgid "Home Widget 2"
+msgstr "مربع الرئيسية الثاني"
+
+#: includes/functions-sidebar.php:77
+msgid "Area 6 - sidebar-home.php - Displays on the Home Page"
+msgstr ""
+
+#: includes/functions-sidebar.php:76
+#: sidebar-home.php:29
+msgid "Home Widget 1"
+msgstr "مربع الرئيسية الأول "
+
+#: includes/functions-sidebar.php:67
+msgid "Area 5 - sidebar-right-half.php - Displays on Content/Sidebar Half Page page templates"
+msgstr ""
+
+#: includes/functions-sidebar.php:66
+msgid "Right Sidebar Half Page"
+msgstr "القائمة الجانبية اليمنى بنصف الصفحة"
+
+#: includes/functions-sidebar.php:57
+msgid "Area 4 - sidebar-left-half.php - Displays on Sidebar Half Page/Content page templates"
+msgstr ""
+
+#: includes/functions-sidebar.php:56
+msgid "Left Sidebar Half Page"
+msgstr "القائمة الجانبية اليسرى بنصف الصفحة"
+
+#: includes/functions-sidebar.php:47
+msgid "Area 3 - sidebar-left.php - Displays on Sidebar/Content page templates"
+msgstr ""
+
+#: includes/functions-sidebar.php:46
+msgid "Left Sidebar"
+msgstr "الشريط الجانبي (يسار)"
+
+#: includes/functions-sidebar.php:37
+msgid "Area 2 - sidebar-right.php - Displays on Content/Sidebar page templates"
+msgstr ""
+
+#: includes/functions-sidebar.php:36
+msgid "Right Sidebar"
+msgstr "الشريط الجانبي (يمين)"
+
+#: includes/functions-sidebar.php:27
+msgid "Area 1 - sidebar.php - Displays on Default, Blog, Blog Excerpt page templates"
+msgstr ""
+
+#: includes/functions-sidebar.php:26
+msgid "Main Sidebar"
+msgstr "الشريط الجانبي الرئيسي"
+
+#: includes/functions-plugins.php:43
+msgid "Responsive Theme"
+msgstr "قالب Responsive"
+
+#: includes/functions-meta-box.php:42
+msgid "Page Options"
+msgstr ""
+
+#: includes/functions-meta-box.php:31
+msgid "Page Title"
+msgstr "عنوان الصفحة"
+
+#: includes/functions-layout.php:102
+msgid "Layout"
+msgstr "الشكل العام"
+
+#: includes/functions-extras.php:184
+msgid "Read more %s"
+msgstr ""
+
+#: includes/functions-extentions.php:206
+#: includes/functions-extras.php:71
+#: includes/functions-extras.php:105
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: includes/functions-extentions.php:59
+msgid "Error 404"
+msgstr "خطأ 404"
+
+#: includes/functions-extentions.php:58
+#: includes/functions-template-tags.php:138
+msgid "View all posts by %s"
+msgstr "عرض جميع المواضيع التي كتبها %s"
+
+#: includes/functions-extentions.php:57
+msgid "Posts tagged %s"
+msgstr "تدوينات تحت وسم %s"
+
+#: includes/functions-extentions.php:56
+msgid "Search results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: includes/functions-extentions.php:55
+msgid "Archive for %s"
+msgstr "أرشيف %s"
+
+#: includes/functions-extentions.php:54
+#: template-parts/content-none.php:62
+msgid "Home"
+msgstr "صفحة البداية"
+
+#: image.php:74
+msgid "Posted in %s"
+msgstr "داخل %s"
+
+#: image.php:73
+msgid "Tagged with:"
+msgstr "الوسوم:"
+
+#: image.php:61
+#: template-parts/content-excerpt.php:40
+#: template-parts/content-page.php:40
+#: template-parts/content-single.php:37
+#: template-parts/content-sitemap.php:48
+#: template-parts/content.php:67
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: image.php:59
+msgid "Read more &#8250;"
+msgstr "المزيد &#8250;"
+
+#: image.php:48
+#: template-parts/post-meta-page.php:33
+#: template-parts/post-meta.php:52
+msgid "% Comments &darr;"
+msgstr "% تعليقات &darr;"
+
+#: image.php:48
+#: template-parts/post-meta-page.php:33
+#: template-parts/post-meta.php:52
+msgid "1 Comment &darr;"
+msgstr "تعليق واحد &darr;"
+
+#: image.php:48
+#: template-parts/post-meta-page.php:33
+#: template-parts/post-meta.php:52
+msgid "No Comments &darr;"
+msgstr "لا يوجد تعليقات &darr;"
+
+#: image.php:37
+msgid "&#8249; Return to"
+msgstr "&#8249; العودة إلى"
+
+#: header.php:88
+msgid "Mobile menu toggle"
+msgstr ""
+
+#: header.php:48
+msgid "Skip to main menu"
+msgstr ""
+
+#: header.php:47
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: footer.php:81
+msgid "&uarr;"
+msgstr "&uarr;"
+
+#: footer.php:81
+msgid "scroll to top"
+msgstr "الانتقال إلى أعلى الصفحة"
+
+#: footer.php:73
+#: includes/functions-plugins.php:44
+msgid "WordPress"
+msgstr "ووردبريس"
+
+#: footer.php:72
+msgid "Responsive II"
+msgstr ""
+
+#. Translators: Responsive Theme powered by WordPress
+#: footer.php:71
+#: includes/functions-plugins.php:42
+msgid "%1$s powered by %2$s"
+msgstr ""
+
+#: core/functions-theme-upsell.php:157
+msgid "Live Preview"
+msgstr "معاينة"
+
+#: core/functions-theme-upsell.php:153
+msgid "Install Now"
+msgstr "التنصيب الآن"
+
+#: core/functions-theme-upsell.php:138
+msgid "Already installed"
+msgstr "مثبت حالياً"
+
+#: core/functions-theme-upsell.php:92
+msgid "Current theme"
+msgstr "القالب الحالي"
+
+#: core/functions-theme-upsell.php:57
+msgid "Themes You Can Trust"
+msgstr ""
+
+#: core/functions-theme-upsell.php:29
+#: core/functions-theme-upsell.php:30
+#: includes/functions-theme-options-page.php:66
+#: includes/functions-theme-options-page.php:67
+msgid "More Themes"
+msgstr "مزيد من القوالب"
+
+#: core/functions-install.php:155
+msgid "Hide Notice"
+msgstr ""
+
+#: core/functions-install.php:150
+msgid "%s is not installed. Please install this plugin manually."
+msgstr ""
+
+#: core/functions-install.php:145
+msgid "Install"
+msgstr "تنصيب"
+
+#: core/functions-install.php:140
+msgid "Activate"
+msgstr "تفعيل"
+
+#: core/functions-install.php:127
+msgid "This theme recommends the following plugins:"
+msgstr ""
+
+#: core/functions-install.php:38
+#: includes/functions-theme-options-page.php:60
+#: includes/functions-theme-options-page.php:61
+msgid "Help"
+msgstr "مساعدة"
+
+#: core/functions-install.php:37
+#: includes/functions-theme-options-page.php:117
+#: libraries/class-responsive-options.php:62
+#: libraries/class-responsive-options.php:63
+#: libraries/class-responsive-options.php:106
+msgid "Theme Options"
+msgstr "خيارات القالب"
+
+#: core/functions-install.php:35
+msgid "Visit site"
+msgstr "زيارة الموقع"
+
+#: core/functions-install.php:33
+msgid "%s activated successfully."
+msgstr ""
+
+#: core/functions-install.php:31
+msgid "Settings saved and %s activated successfully."
+msgstr ""
+
+#: comments.php:101
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+#: comments.php:99
+msgid "E-mail"
+msgstr "البريد الإلكتروني"
+
+#: comments.php:97
+msgid "Name"
+msgstr "الاسم"
+
+#: comments.php:82
+msgid "%1$d %2$s for \"%3$s\""
+msgstr "%1$d %2$s إلى  \"%3$s\""
+
+#: comments.php:79
+msgid "Pings&#47;Trackbacks"
+msgstr "تركبكس &#47; الأصوات"
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:46
+#: comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr "التعليقات الأحدث &larr;"
+
+#: comments.php:45
+#: comments.php:62
+msgid "&larr; Older Comments"
+msgstr "&rarr; التعليقات الأقدم"
+
+#: comments.php:44
+#: comments.php:61
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: comments.php:37
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: comments.php:27
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "هذه المقالة محمية بكلمة مرور. أدخل كلمة المرور لعرض التعليقات."
+
+#. Author URI of the theme
+msgid "http://cyberchimps.com"
+msgstr "http://cyberchimps.com"
+
+#. Author of the theme
+msgid "CyberChimps"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://cyberchimps.com/responsive-II/"
+msgstr ""

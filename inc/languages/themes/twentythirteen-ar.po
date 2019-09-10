@@ -1,0 +1,405 @@
+# Translation of Themes - Twenty Thirteen in Arabic
+# This file is distributed under the same license as the Themes - Twenty Thirteen package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-04-26 19:43:28+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Twenty Thirteen\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small."
+msgstr "قالب 2013 يعيدنا إلى المدونة ويضم مجموعة كبيرة من الصيغ الخاصة بالتدوينات، وكل منها يعرض بشكل جميل في طريقة فريدة خاصة به. تفاصيل التصميم كثيرة، بدءًا بألوان نابضة بالحياة، ترويسات متجانسة، خطوط وأيقونات جميلة، وتصميم مرن والذي يبدو رائعا على أي جهاز، سواءً كان كبيرًا أو صغيرًا."
+
+#. Theme Name of the theme
+msgid "Twenty Thirteen"
+msgstr "Twenty Thirteen"
+
+#. translators: %s: The post title.
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "تعليق واحد على &ldquo;%s&rdquo;"
+
+#: functions.php:147
+msgid "Off-white"
+msgstr "أبيض طبيعي"
+
+#: functions.php:142
+msgid "Beige"
+msgstr "بيج (رملي)"
+
+#: functions.php:137
+msgid "Light Brown"
+msgstr "بني فاتح"
+
+#: functions.php:132
+msgid "Medium Brown"
+msgstr "بني متوسط"
+
+#: functions.php:127
+msgid "Dark Brown"
+msgstr "بني داكن"
+
+#: functions.php:122
+msgid "White"
+msgstr "أبيض"
+
+#: functions.php:117
+msgid "Yellow"
+msgstr "أصفر"
+
+#: functions.php:112
+msgid "Light Orange"
+msgstr "برتقالي فاتح"
+
+#: functions.php:107
+msgid "Medium Orange"
+msgstr "برتقالي متوسط"
+
+#: functions.php:102
+msgid "Red"
+msgstr "أحمر"
+
+#: functions.php:97
+msgid "Dark Gray"
+msgstr "رمادي داكن"
+
+#: taxonomy-post_format.php:23
+msgid "%s Archives"
+msgstr "أرشيفات %s"
+
+#: tag.php:21
+msgid "Tag Archives: %s"
+msgstr "أرشيف الوسم: %s"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: inc/custom-header.php:60
+msgctxt "header image description"
+msgid "Star"
+msgstr "نجمة"
+
+#: inc/custom-header.php:55
+msgctxt "header image description"
+msgid "Diamond"
+msgstr "ماسة"
+
+#: inc/custom-header.php:50
+msgctxt "header image description"
+msgid "Circle"
+msgstr "دائرة"
+
+#: inc/back-compat.php:37
+#: inc/back-compat.php:48
+#: inc/back-compat.php:64
+msgid "Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr "قالب Twenty Thirteen يتطلّب على الأقل الإصدار 3.6 من ووردبريس. أنت تستخدم الإصدار %s. الرجاء الترقية والمحاولة من جديد."
+
+#: image.php:62
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "التالي <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:61
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> السابق"
+
+#: image.php:49
+msgid "Full resolution"
+msgstr "دقة كاملة"
+
+#: image.php:48
+msgid "Link to full-size image"
+msgstr "رابط الصورة بحجمها الأصلي"
+
+#: image.php:29
+msgid "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
+msgstr "<span class=\"attachment-meta\">تم نشره بتاريخ <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> في <a href=\"%3$s\" title=\"الرجوع إلى %4$s\" rel=\"gallery\">%5$s</a></span>"
+
+#: header.php:45
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: header.php:44
+msgid "Menu"
+msgstr "القائمة"
+
+#: functions.php:526
+msgid "Permalink to %s"
+msgstr "الرابط الدائم لـِ %s"
+
+#: functions.php:518
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr "%1$s في %2$s"
+
+#: functions.php:498
+msgid "View all posts by %s"
+msgstr "عرض جميع المواضيع التي كتبها %s"
+
+#. Translators: used between list items, there is a space after the comma.
+#: functions.php:482
+#: functions.php:488
+msgid ", "
+msgstr "، "
+
+#: functions.php:474
+msgid "Sticky"
+msgstr "مثبت"
+
+#: functions.php:456
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&larr;</span>"
+
+#: functions.php:455
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&rarr;</span> %title"
+
+#: functions.php:452
+msgid "Post navigation"
+msgstr "تصفّح المقالات"
+
+#: functions.php:425
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "المواضيع الأحدث <span class=\"meta-nav\">&larr;</span>"
+
+#: functions.php:421
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&rarr;</span> المواضيع الأقدم"
+
+#: functions.php:417
+msgid "Posts navigation"
+msgstr "تصفّح المقالات"
+
+#: functions.php:392
+msgid "Appears on posts and pages in the sidebar."
+msgstr "يظهر في المقالات والصفحات في الشريط الجانبي."
+
+#: functions.php:390
+msgid "Secondary Widget Area"
+msgstr "المربع الجانبي الثانوي"
+
+#: functions.php:380
+msgid "Appears in the footer section of the site."
+msgstr "يظهر في تذييل الصفحة (فوتر) في الموقع."
+
+#: functions.php:378
+msgid "Main Widget Area"
+msgstr "منطقة الودجات الرئيسية"
+
+#: functions.php:363
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#. Translators: If there are characters in your language that are not *
+#. supported by Bitter, translate this to 'off'. Do not translate into your *
+#. own language.
+#: functions.php:232
+msgctxt "Bitter font: on or off"
+msgid "on"
+msgstr "تفعيل"
+
+#. Translators: If there are characters in your language that are not *
+#. supported by Source Sans Pro, translate this to 'off'. Do not translate *
+#. into your own language.
+#: functions.php:226
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "تفعيل"
+
+#: functions.php:192
+msgid "Navigation Menu"
+msgstr "القوائم"
+
+#: footer.php:25
+msgid "Proudly powered by %s"
+msgstr "الموقع يستخدم %s بكل فخر"
+
+#: content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أنه لا يمكن إيجاد ما تبحث عنه. قد تفيدك خاصية البحث."
+
+#: content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
+
+#: content-none.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: content-gallery.php:52
+#: content-image.php:48
+#: content-quote.php:38
+#: content-video.php:48
+#: content.php:65
+msgid "View all % comments"
+msgstr "مشاهدة كافة التعليقات وعددها %"
+
+#: content-gallery.php:52
+#: content-image.php:48
+#: content-quote.php:38
+#: content-video.php:48
+#: content.php:65
+msgid "One comment so far"
+msgstr "تعليق واحد إلى الآن"
+
+#: content-gallery.php:52
+#: content-image.php:48
+#: content-quote.php:38
+#: content-video.php:48
+#: content.php:65
+msgid "Leave a comment"
+msgstr "أضف تعليق"
+
+#: content-aside.php:36
+#: content-aside.php:44
+#: content-audio.php:47
+#: content-chat.php:45
+#: content-gallery.php:55
+#: content-image.php:51
+#: content-link.php:19
+#: content-quote.php:41
+#: content-status.php:35
+#: content-video.php:51
+#: content.php:31
+#: image.php:54
+#: page.php:51
+msgid "Edit"
+msgstr "تحرير"
+
+#: content-aside.php:24
+#: content-audio.php:35
+#: content-chat.php:34
+#: content-gallery.php:35
+#: content-image.php:34
+#: content-link.php:35
+#: content-quote.php:24
+#: content-status.php:24
+#: content-video.php:34
+#: content.php:52
+#: image.php:83
+#: page.php:41
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#. translators: %s: Name of current post
+#: content-aside.php:17
+#: content-audio.php:28
+#: content-chat.php:27
+#: content-gallery.php:28
+#: content-image.php:27
+#: content-link.php:28
+#: content-quote.php:17
+#: content-status.php:17
+#: content-video.php:27
+#: content.php:45
+#: functions.php:640
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "متابعة قراءة %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:62
+msgid "Newer Comments &rarr;"
+msgstr "التعليقات الأحدث &larr;"
+
+#: comments.php:61
+msgid "&larr; Older Comments"
+msgstr "&rarr; التعليقات الأقدم"
+
+#: comments.php:60
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#. translators: %1$s: The number of comments. %2$s: The post title.
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s تعليق على &ldquo;%2$s&rdquo;"
+msgstr[1] "تعليق واحد (%1$s) على &ldquo;%2$s&rdquo;"
+msgstr[2] "تعليقان (%1$s) على &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s تعليقات على &ldquo;%2$s&rdquo;"
+msgstr[4] "%1$s تعليقا على &ldquo;%2$s&rdquo;"
+msgstr[5] "%1$s تعليق على &ldquo;%2$s&rdquo;"
+
+#: category.php:19
+msgid "Category Archives: %s"
+msgstr "أرشيف التصنيف: %s"
+
+#: author.php:31
+msgid "All posts by %s"
+msgstr "كل مقالات %s"
+
+#: author-bio.php:30
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "عرض جميع المقالات المكتوبة بواسطة %s <span class=\"meta-nav\">&larr;</span>"
+
+#: author-bio.php:26
+msgid "About %s"
+msgstr "عن %s"
+
+#: archive.php:36
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: archive.php:34
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:34
+msgid "Yearly Archives: %s"
+msgstr "الأرشيف السنوي: %s"
+
+#: archive.php:32
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:32
+msgid "Monthly Archives: %s"
+msgstr "الأرشيف الشهري: %s"
+
+#: archive.php:30
+msgid "Daily Archives: %s"
+msgstr "الأرشيف اليومي: %s"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "يبدو أنه لا يوجد شيء هنا. ربما حاول استعمال البحث؟"
+
+#: 404.php:21
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "هذا الأمر مربك بعض الشيء، أليس كذلك؟"
+
+#: 404.php:16
+msgid "Not Found"
+msgstr "غير موجود"
+
+#. Author URI of the theme
+#: footer.php:24
+msgid "https://wordpress.org/"
+msgstr "http://ar.wordpress.org/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "فريق ووردبريس"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentythirteen/"
+msgstr "https://wordpress.org/themes/twentythirteen/"

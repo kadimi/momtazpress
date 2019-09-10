@@ -1,0 +1,546 @@
+# Translation of Themes - Stargazer in Arabic
+# This file is distributed under the same license as the Themes - Stargazer package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-03-08 12:00:43+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Stargazer\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the plugin/theme
+msgid "Welcome to Stargazer, the most advanced theme ever created for WordPress without compromising standards. This is the only theme in the world that you'll find that extends WordPress' built-in theme features so robustly but naturally. The theme is built on the rock-solid Hybrid Core theme framework. It's built with search-engine optimization (SEO) in mind by utilizing the most current HTML5 conventions and <a href=\"http://schema.org\">Schema.org</a> microdata. It also integrates with useful theme add-on plugins like <a href=\"http://wordpress.org/plugins/custom-background-extended\">Custom Background Extended</a>, <a href=\"http://wordpress.org/plugins/custom-header-extended\">Custom Header Extended</a>, <a href=\"http://wordpress.org/plugins/whistles\">Whistles</a>, and more."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Stargazer"
+msgstr ""
+
+#. Translators: %s is the page number.
+#: library/ext/breadcrumb-trail.php:262
+msgid "Comment Page %s"
+msgstr ""
+
+#. Translators: %s is the search query.
+#: library/ext/breadcrumb-trail.php:258
+#: library/inc/template-general.php:424
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/customize/section-locked.php:90
+msgid "Back"
+msgstr ""
+
+#: inc/class-customize.php:222
+msgid "Instead, let me offer you a full year of dedicated support (forums and live chat). This includes support for all of my themes and plugins."
+msgstr ""
+
+#: inc/class-customize.php:221
+msgid "I have never been a fan of crippleware (i.e., \"lite\" themes) that upsell you all the cool stuff. With the Stargazer theme, you get the full theme."
+msgstr ""
+
+#: inc/class-customize.php:122
+msgid "Unlock"
+msgstr ""
+
+#: inc/class-customize.php:121
+#: inc/class-customize.php:179
+msgid "Go Pro"
+msgstr ""
+
+#: inc/class-customize.php:85
+msgid "Theme Options"
+msgstr ""
+
+#: inc/class-customize.php:223
+msgid "Join The Club"
+msgstr ""
+
+#: library/inc/template-general.php:59
+msgid "https://wordpress.org"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:253
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: content/attachment-audio.php:39
+#: content/attachment-image.php:72
+#: content/attachment-video.php:35
+msgid "Name"
+msgstr "اسم"
+
+#: content/attachment-audio.php:38
+#: content/attachment-image.php:71
+#: content/attachment-video.php:34
+msgid "Type"
+msgstr "الفئة"
+
+#: content/attachment-audio.php:34
+msgid "Album"
+msgstr "الألبوم"
+
+#: content/attachment-audio.php:33
+msgid "Artist"
+msgstr "فنّان"
+
+#: comment/comment.php:16
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك بأنتظار الموافقة بالنشر."
+
+#. Translators: %s is the sidebar name. This is the sidebar title shown to
+#. screen readers.
+#: sidebar/primary.php:7
+msgctxt "sidebar title"
+msgid "%s Sidebar"
+msgstr ""
+
+#: misc/loop-nav.php:13
+msgctxt "posts navigation"
+msgid "Next &rarr;"
+msgstr ""
+
+#: misc/loop-nav.php:12
+msgctxt "posts navigation"
+msgid "&larr; Previous"
+msgstr ""
+
+#: misc/loop-nav.php:5
+msgid "Next Post: %link"
+msgstr ""
+
+#: misc/loop-nav.php:4
+msgid "Previous Post: %link"
+msgstr ""
+
+#: misc/comments-nav.php:14
+msgctxt "comments navigation"
+msgid "Next &rarr;"
+msgstr ""
+
+#. Translators: Comments page numbers. 1 is current page and 2 is total pages.
+#: misc/comments-nav.php:11
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: misc/comments-nav.php:7
+msgctxt "comments navigation"
+msgid "&larr; Previous"
+msgstr ""
+
+#: misc/comments-nav.php:5
+msgid "Comments Navigation"
+msgstr ""
+
+#: misc/comments-error.php:13
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#. Translators: 1 and 2 are placeholders for HTML. The order can't be changed.
+#: misc/comments-error.php:6
+msgid "Comments are closed, but %1$strackbacks%2$s and pingbacks are open."
+msgstr ""
+
+#. Translators: Used as a placeholder for untitled posts on non-singular views.
+#: library/inc/functions-filters.php:206
+msgid "(Untitled)"
+msgstr ""
+
+#. Translators: Separates tags, categories, etc. when displaying a post.
+#: library/inc/template-post.php:148
+msgctxt "taxonomy terms separator"
+msgid ", "
+msgstr ""
+
+#: library/inc/template-general.php:326
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F، Y"
+
+#. Translators: 1 is the week number and 2 is the year.
+#: library/inc/template-general.php:302
+msgid "Week %1$s of %2$s"
+msgstr ""
+
+#: library/inc/template-general.php:59
+msgid "WordPress"
+msgstr "ووردبريس"
+
+#: content/attachment-audio.php:35
+msgid "Track"
+msgstr ""
+
+#: content/attachment-audio.php:36
+msgid "Year"
+msgstr "سنة"
+
+#: content/attachment-audio.php:37
+msgid "Genre"
+msgstr "نوع"
+
+#: content/attachment-audio.php:32
+#: content/attachment-video.php:32
+msgid "Run Time"
+msgstr ""
+
+#: content/attachment-audio.php:40
+#: content/attachment-image.php:73
+#: content/attachment-video.php:36
+msgid "Mime Type"
+msgstr ""
+
+#. Translators: Comment date/time "title" attribute.
+#: inc/functions-attr.php:554
+msgctxt "comment time format"
+msgid "l, F j, Y, g:i a"
+msgstr ""
+
+#. Translators: Post date/time "title" attribute.
+#: inc/functions-attr.php:429
+msgctxt "post time format"
+msgid "l, F j, Y, g:i a"
+msgstr ""
+
+#. Translators: The %s is the menu name. This is used for the 'aria-label'
+#. attribute.
+#: inc/functions-attr.php:188
+msgctxt "nav menu aria label"
+msgid "%s Menu"
+msgstr ""
+
+#. Translators: The %s is the sidebar name. This is used for the 'aria-label'
+#. attribute.
+#: inc/functions-attr.php:155
+msgctxt "sidebar aria label"
+msgid "%s Sidebar"
+msgstr ""
+
+#: library/inc/functions-customize.php:97
+msgid "Global Layout"
+msgstr ""
+
+#: library/admin/class-post-layout.php:83
+#: library/admin/class-term-layout.php:117
+#: library/admin/class-term-layout.php:135
+#: library/inc/functions-customize.php:74
+msgid "Layout"
+msgstr "الشكل العام"
+
+#. Translators: Default theme layout option.
+#: library/inc/functions-layouts.php:50
+msgctxt "theme layout"
+msgid "Default"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:806
+#: library/inc/template-general.php:302
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:778
+#: library/ext/breadcrumb-trail.php:1207
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:777
+#: library/ext/breadcrumb-trail.php:833
+#: library/ext/breadcrumb-trail.php:1203
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:776
+#: library/ext/breadcrumb-trail.php:805
+#: library/ext/breadcrumb-trail.php:832
+#: library/ext/breadcrumb-trail.php:859
+#: library/ext/breadcrumb-trail.php:1199
+#: library/inc/template-general.php:277
+#: library/inc/template-general.php:302
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: library/ext/breadcrumb-trail.php:760
+#: library/inc/template-general.php:350
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:743
+#: library/inc/template-general.php:375
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:726
+#: library/inc/template-general.php:399
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: library/ext/breadcrumb-trail.php:266
+msgid "Week %s"
+msgstr ""
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: library/ext/breadcrumb-trail.php:264
+#: library/inc/template-general.php:375
+msgid "Minute %s"
+msgstr ""
+
+#. Translators: %s is the page number.
+#: library/ext/breadcrumb-trail.php:260
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: library/ext/breadcrumb-trail.php:256
+#: library/inc/template-general.php:229
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: library/ext/breadcrumb-trail.php:255
+#: library/inc/template-general.php:448
+msgid "404 Not Found"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:254
+msgid "Home"
+msgstr "صفحة البداية"
+
+#: library/ext/breadcrumb-trail.php:252
+msgid "Browse:"
+msgstr ""
+
+#: content/attachment-image.php:70
+msgid "Shutter Speed"
+msgstr ""
+
+#: content/attachment-image.php:70
+msgid "%s sec"
+msgstr ""
+
+#: content/attachment-image.php:69
+msgid "ISO"
+msgstr ""
+
+#: content/attachment-image.php:68
+msgid "Focal Length"
+msgstr ""
+
+#: content/attachment-image.php:68
+msgid "%s mm"
+msgstr ""
+
+#: content/attachment-image.php:67
+msgid "Aperture"
+msgstr ""
+
+#: content/attachment-image.php:66
+msgid "Camera"
+msgstr ""
+
+#: content/attachment-image.php:65
+msgid "Date"
+msgstr "التاريخ"
+
+#: content/attachment-image.php:64
+#: content/attachment-video.php:33
+msgid "Dimensions"
+msgstr "أبعاد"
+
+#. Translators: Media dimensions - 1 is width and 2 is height.
+#: library/inc/class-media-meta.php:245
+#: library/inc/template-media.php:237
+msgid "%1$s &#215; %2$s"
+msgstr ""
+
+#: functions.php:379
+msgid "Expand Search Form"
+msgstr ""
+
+#: functions.php:341
+msgid "A sidebar located in the footer of the site. Optimized for one, two, or three widgets (and multiples thereof)."
+msgstr ""
+
+#: functions.php:340
+msgctxt "sidebar"
+msgid "Subsidiary"
+msgstr ""
+
+#: functions.php:333
+msgid "The main sidebar. It is displayed on either the left or right side of the page based on the chosen layout."
+msgstr ""
+
+#: functions.php:332
+msgctxt "sidebar"
+msgid "Primary"
+msgstr ""
+
+#: functions.php:301
+msgctxt "nav menu location"
+msgid "Social"
+msgstr ""
+
+#: functions.php:300
+msgctxt "nav menu location"
+msgid "Secondary"
+msgstr ""
+
+#: functions.php:299
+msgctxt "nav menu location"
+msgid "Primary"
+msgstr ""
+
+#. Translators: Header image description.
+#: functions.php:265
+msgid "Space Splatters"
+msgstr ""
+
+#. Translators: Header image description.
+#: functions.php:259
+msgid "Planet Burst"
+msgstr ""
+
+#. Translators: Header image description.
+#: functions.php:253
+msgid "Blue Planets"
+msgstr ""
+
+#. Translators: Header image description.
+#: functions.php:247
+msgid "Orange Burn"
+msgstr ""
+
+#. Translators: Header image description.
+#: functions.php:241
+msgid "Horizon"
+msgstr ""
+
+#: inc/class-custom-colors.php:239
+msgid "Primary Color"
+msgstr "اللون الرئيسي"
+
+#: header.php:13
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: functions.php:358
+msgid "2 Columns: Sidebar / Content"
+msgstr ""
+
+#: functions.php:357
+msgid "2 Columns: Content / Sidebar"
+msgstr ""
+
+#: functions.php:356
+msgid "1 Column Narrow"
+msgstr ""
+
+#: functions.php:355
+msgid "1 Column Wide"
+msgstr ""
+
+#. Translators: 1 is current year, 2 is site name/link, 3 is WordPress
+#. name/link, and 4 is theme name/link. */
+#: footer.php:18
+msgid "Copyright &#169; %1$s %2$s. Powered by %3$s and %4$s."
+msgstr ""
+
+#: content/gallery.php:51
+#: embed/gallery.php:12
+msgid "This gallery contains %s item."
+msgid_plural "This gallery contains %s items."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: content/error.php:8
+#: embed/error.php:8
+msgid "Apologies, but no entries were found."
+msgstr ""
+
+#: content/error.php:4
+#: embed/error.php:4
+msgid "Nothing found"
+msgstr "لم يتم العثور على شيء"
+
+#: content/attachment-video.php:28
+msgid "Video Info"
+msgstr ""
+
+#: content/attachment-image.php:83
+msgid "Gallery"
+msgstr "معرض"
+
+#: content/attachment-image.php:60
+msgid "Image Info"
+msgstr ""
+
+#: content/attachment-image.php:22
+msgid "Sizes: %s"
+msgstr ""
+
+#: content/attachment-audio.php:28
+msgid "Audio Info"
+msgstr ""
+
+#: content/aside.php:27
+#: content/audio.php:29
+#: content/chat.php:35
+#: content/content.php:26
+#: content/gallery.php:27
+#: content/image.php:29
+#: content/link.php:27
+#: content/quote.php:17
+#: content/status.php:25
+#: content/video.php:29
+msgid "Tagged %s"
+msgstr ""
+
+#: content/aside.php:26
+#: content/audio.php:28
+#: content/chat.php:34
+#: content/content.php:25
+#: content/gallery.php:26
+#: content/image.php:28
+#: content/link.php:26
+#: content/quote.php:16
+#: content/status.php:24
+#: content/video.php:28
+msgid "Posted in %s"
+msgstr "داخل %s"
+
+#: comment/comment.php:8
+#: comment/ping.php:6
+#: content/link.php:39
+#: content/quote.php:29
+#: content/status.php:47
+msgid "Permalink"
+msgstr "الرابط الدائم:"
+
+#: comment/comment.php:7
+#: comment/ping.php:5
+msgid "%s ago"
+msgstr " منذ %s "
+
+#. Author URI of the plugin/theme
+msgid "https://themehybrid.com"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Justin Tadlock"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themehybrid.com/themes/stargazer"
+msgstr ""

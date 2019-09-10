@@ -1,0 +1,726 @@
+# Translation of Themes - Awaken in Arabic
+# This file is distributed under the same license as the Themes - Awaken package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-11-27 10:22:19+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Awaken\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "Awaken WordPress theme is an elegant magazine/news WordPress theme. It has a magazine layout with two main widget areas. And the theme is featured with three post widgets to display posts in different styles. This theme consists with a responsive layout which is created using twitter bootstrap. Some of the main features of this theme are theme customizer, featured slider, ad widgets, youtube video widget and social media. Find more information about this theme at http://www.themezhut.com/themes/awaken. View the demonstration at http://www.themezhut.com/demo/awaken."
+msgstr ""
+
+#. Theme Name of the theme
+msgid "Awaken"
+msgstr ""
+
+#: inc/widgets/dual-category.php:68
+#: inc/widgets/dual-category.php:92
+#: inc/widgets/three-block-posts.php:60
+msgid "Ignore sticky posts."
+msgstr ""
+
+#: inc/customizer/customizer.php:77
+msgid "Display site title and tagline only."
+msgstr ""
+
+#: layouts/magazine.php:29
+msgid "Please go to Appearance &#8594; Widgets and add Awaken post widgets to \"Magazine 1\" and \"Magazine 2\" widget areas. You can use posts widgets to set up the theme like the demo website."
+msgstr ""
+
+#: functions.php:276
+msgid "Shop Page Sidebar"
+msgstr ""
+
+#: footer.php:60
+msgid "Copyright &#169; %1$s %2$s."
+msgstr ""
+
+#: footer.php:66
+msgid "WordPress"
+msgstr ""
+
+#: inc/customizer/customizer.php:148
+msgid "Show search box on navigation?"
+msgstr ""
+
+#: functions.php:242
+msgid "728px x 90px Ad area. Use default text widget to put ad codes like google."
+msgstr ""
+
+#: functions.php:240
+msgid "Header Ad Area"
+msgstr ""
+
+#: inc/theme-info.php:65
+msgid "Click here to go to add your review."
+msgstr ""
+
+#: inc/theme-info.php:64
+msgid "Do you love awaken theme? Were you using it for a while? Then please just take 5 minutes to review it. It will be a very big help for us and it will be a very nice incentive for its further development, if you can give it a <b><u>Five Star</u></b> rating. If you have any problem with it please contact us. We will be happy to help you."
+msgstr ""
+
+#: inc/customizer/customizer.php:274
+msgid "Display sticky posts."
+msgstr ""
+
+#: inc/customizer/customizer.php:273
+msgid "Display posts from a selected category"
+msgstr ""
+
+#: inc/customizer/customizer.php:271
+msgid "Featured posts are the two posts just next to the slider."
+msgstr ""
+
+#: inc/customizer/customizer.php:270
+msgid "Select featured posts display method."
+msgstr ""
+
+#: inc/theme-info.php:60
+msgid "Awaken Pro Demo"
+msgstr ""
+
+#: inc/theme-info.php:52
+msgid "Customize Site"
+msgstr ""
+
+#: inc/theme-info.php:48
+msgid "Get Support"
+msgstr "الحصول على الدعم."
+
+#: inc/theme-info.php:44
+msgid "Documentation"
+msgstr "مستندات المساعدة"
+
+#: inc/theme-info.php:40
+msgid "View Demo"
+msgstr ""
+
+#: inc/customizer/customizer.php:611
+msgid "Then consider buying <a href=\"http://themezhut.com/themes/awaken-pro/\" target=\"_blank\">Awaken Pro.</a><h4>Awaken Pro Features.</h4><ol><li>Ajaxified Post Widgets.</li><li>Google Fonts.</li><li>Unlimited Colors.</li><li>Boxed and Wide Layouts.</li><li>More Customizer Options.</li><li>Custom slider.</li><li>Different sidebars for articles and pages.</li><li>Released under GPL.</li></ol>And more..<p><a class=\"button\" href=\"http://themezhut.com/demo/awaken-pro/\" target=\"_blank\">Awaken Pro Demo</a><a class=\"button button-primary\" href=\"http://themezhut.com/themes/awaken-pro/\" target=\"_blank\">Awaken Pro Details</a></p>"
+msgstr ""
+
+#: inc/customizer/customizer.php:610
+msgid "Do you want more features?"
+msgstr ""
+
+#: inc/customizer/customizer.php:591
+#: inc/theme-info.php:56
+msgid "Awaken Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:584
+msgid "Youtube URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:566
+msgid "Flickr URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:548
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:530
+msgid "RSS URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:512
+msgid "Linkedin URL"
+msgstr "لابط لينكد ان"
+
+#: inc/customizer/customizer.php:494
+msgid "Google Plus URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:476
+msgid "Twitter URL"
+msgstr "رابط تويتر"
+
+#: inc/customizer/customizer.php:458
+msgid "Facebook URL"
+msgstr "رابط فيسبوك"
+
+#: inc/customizer/customizer.php:440
+msgid "Display social icons?"
+msgstr ""
+
+#: inc/customizer/customizer.php:411
+msgid "Define custom CSS be used for your site. Do not enclose in script tags."
+msgstr ""
+
+#: inc/customizer/customizer.php:389
+#: inc/customizer/customizer.php:410
+msgid "Custom CSS"
+msgstr "نمط مخصص"
+
+#: inc/customizer/customizer.php:377
+msgid "Site Styling"
+msgstr ""
+
+#: inc/customizer/customizer.php:367
+msgid "Mark the checkbox if you want to show featured image on single post article."
+msgstr ""
+
+#: inc/customizer/customizer.php:347
+msgid "Mark the checkbox if you want to display comments on pages."
+msgstr ""
+
+#: inc/customizer/customizer.php:346
+msgid "Display page comments."
+msgstr ""
+
+#: inc/customizer/customizer.php:328
+msgid "Mark the checkbox if you want to display comments on post articles."
+msgstr ""
+
+#: inc/customizer/customizer.php:327
+msgid "Display post comments."
+msgstr ""
+
+#: inc/customizer/customizer.php:308
+msgid "Post / Page Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:293
+msgid "Select the category for featured posts."
+msgstr ""
+
+#: inc/customizer/customizer.php:247
+msgid "Select the category for slider."
+msgstr ""
+
+#: inc/customizer/customizer.php:230
+msgid "Display slider on homepage ?"
+msgstr ""
+
+#: inc/customizer/customizer.php:211
+#: inc/customizer/customizer.php:378
+msgid "Use this section to setup the homepage slider and featured posts."
+msgstr ""
+
+#: inc/customizer/customizer.php:210
+msgid "Feartured Slider"
+msgstr ""
+
+#: inc/customizer/customizer.php:199
+msgid "Use this panel to set your home page settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:198
+msgid "Homepage Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:187
+msgid "Copyright or other text to be displayed in the site footer. HTML allowed."
+msgstr ""
+
+#: inc/customizer/customizer.php:186
+msgid "Footer copyright text"
+msgstr ""
+
+#: inc/customizer/customizer.php:176
+msgid "Copyright %s. All rights reserved."
+msgstr ""
+
+#: inc/customizer/customizer.php:167
+msgid "Give a read more text for posts. HTML allowed."
+msgstr ""
+
+#: inc/customizer/customizer.php:131
+msgid "Use this section to set general settings of the site."
+msgstr ""
+
+#: inc/customizer/customizer.php:119
+msgid "Display site favicon?"
+msgstr ""
+
+#: inc/customizer/customizer.php:100
+msgid "Upload a favicon for your website."
+msgstr ""
+
+#: inc/customizer/customizer.php:80
+msgid "Display none"
+msgstr ""
+
+#: inc/customizer/customizer.php:79
+msgid "Display both site title and logo image."
+msgstr ""
+
+#: inc/customizer/customizer.php:78
+msgid "Display site logo image only."
+msgstr ""
+
+#: inc/customizer/customizer.php:52
+msgid "Site Logo"
+msgstr "شعار الموقع"
+
+#: inc/customizer/customizer.php:34
+msgid "Use this panel to set your header settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:33
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/custom-controls/control-category-dropdown.php:13
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; حدد &mdash;"
+
+#. Template Name of the theme
+msgid "Magazine Template"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width Template"
+msgstr "صفحة عريضة"
+
+#: search.php:18
+msgid "<span class=\"search-title-span\">Search Results for : </span> %s"
+msgstr ""
+
+#: inc/widgets/video-widget.php:43
+msgid "Youtube Video ID"
+msgstr ""
+
+#: inc/widgets/video-widget.php:31
+msgid "Featured Video"
+msgstr ""
+
+#: inc/widgets/video-widget.php:15
+msgid "Displays a youtube video."
+msgstr ""
+
+#: inc/widgets/video-widget.php:14
+msgid "Awaken: Youtube Video"
+msgstr ""
+
+#: inc/widgets/three-block-posts.php:14
+msgid "Displays posts by three blocks per row."
+msgstr ""
+
+#: inc/widgets/three-block-posts.php:13
+msgid "Awaken: Three Block Posts Widget"
+msgstr ""
+
+#: inc/widgets/single-category.php:15
+msgid "Displays latest posts or posts from a choosen category."
+msgstr ""
+
+#: inc/widgets/single-category.php:14
+msgid "Awaken: Single Category Posts"
+msgstr ""
+
+#: inc/widgets/popular-tags-comments.php:163
+msgid "No tags created."
+msgstr ""
+
+#: inc/widgets/popular-tags-comments.php:88
+msgid "Comments"
+msgstr "تعليقات"
+
+#: inc/widgets/popular-tags-comments.php:87
+msgid "Popular"
+msgstr "شعبية"
+
+#: inc/widgets/popular-tags-comments.php:40
+msgid "Number of comments:"
+msgstr ""
+
+#: inc/widgets/popular-tags-comments.php:36
+msgid "Number of popular posts:"
+msgstr ""
+
+#: inc/widgets/popular-tags-comments.php:16
+msgid "Displays popular posts, comments, tags in a tabbed pane."
+msgstr ""
+
+#: inc/widgets/popular-tags-comments.php:15
+msgid "Awaken: Popular Posts, Tags, Comments"
+msgstr ""
+
+#: inc/widgets/medium-rectangle.php:48
+msgid "Destination Link"
+msgstr ""
+
+#: inc/widgets/medium-rectangle.php:44
+msgid "Image Link"
+msgstr ""
+
+#: inc/widgets/medium-rectangle.php:31
+msgid "Advertisement"
+msgstr "إعلان"
+
+#: inc/widgets/medium-rectangle.php:15
+msgid "Displays a 300x250 ad unit."
+msgstr ""
+
+#: inc/widgets/medium-rectangle.php:14
+msgid "Awaken: 300x250 Ad"
+msgstr ""
+
+#: inc/widgets/dual-category.php:63
+#: inc/widgets/dual-category.php:87
+#: inc/widgets/three-block-posts.php:55
+msgid "Number of posts to skip:"
+msgstr ""
+
+#: inc/widgets/dual-category.php:59
+#: inc/widgets/dual-category.php:83
+#: inc/widgets/three-block-posts.php:51
+msgid "Number of posts:"
+msgstr ""
+
+#: inc/widgets/dual-category.php:55
+#: inc/widgets/dual-category.php:79
+#: inc/widgets/single-category.php:43
+#: inc/widgets/three-block-posts.php:47
+msgid "Select a post category"
+msgstr ""
+
+#: inc/widgets/dual-category.php:51
+#: inc/widgets/dual-category.php:75
+#: inc/widgets/medium-rectangle.php:40
+#: inc/widgets/single-category.php:39
+#: inc/widgets/three-block-posts.php:43
+#: inc/widgets/video-widget.php:39
+msgid "Title:"
+msgstr "العنوان:"
+
+#: inc/widgets/dual-category.php:30
+#: inc/widgets/dual-category.php:35
+#: inc/widgets/dual-category.php:142
+#: inc/widgets/dual-category.php:147
+#: inc/widgets/single-category.php:31
+#: inc/widgets/single-category.php:84
+#: inc/widgets/three-block-posts.php:30
+#: inc/widgets/three-block-posts.php:105
+msgid "Latest Posts"
+msgstr "اخر المشاركات"
+
+#: inc/widgets/dual-category.php:14
+msgid "Displays posts in a full width layout"
+msgstr ""
+
+#: inc/widgets/dual-category.php:13
+msgid "Awaken: Two Block Posts Widget"
+msgstr ""
+
+#: inc/template-tags.php:78
+msgctxt "Next post link"
+msgid "%title"
+msgstr ""
+
+#: inc/template-tags.php:77
+msgctxt "Previous post link"
+msgid "%title"
+msgstr ""
+
+#: inc/template-tags.php:74
+msgid "Post navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/template-tags.php:52
+msgid "Posts navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/template-tags.php:44
+msgid "Next <span class=\"meta-nav-next\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgid "<span class=\"meta-nav-prev\"></span> Previous"
+msgstr ""
+
+#: inc/customizer/customizer.php:421
+msgid "Social Media"
+msgstr ""
+
+#: inc/customizer/customizer.php:366
+msgid "Display featured image inside the single post article."
+msgstr ""
+
+#: inc/customizer/customizer.php:248
+#: inc/customizer/customizer.php:294
+msgid "Featured images of the posts from selected category will be displayed in the slider"
+msgstr ""
+
+#: inc/customizer/customizer.php:97
+msgid "Upload a favicon"
+msgstr ""
+
+#: inc/customizer/customizer.php:75
+msgid "Choose your preferred option."
+msgstr ""
+
+#: inc/customizer/customizer.php:166
+msgid "Read more text"
+msgstr ""
+
+#: inc/customizer/customizer.php:72
+msgid "Display site title / logo."
+msgstr ""
+
+#: inc/customizer/customizer.php:55
+msgid "Upload a logo for your website. Recommended height for your logo is 135px."
+msgstr ""
+
+#: inc/customizer/customizer.php:130
+msgid "General Settings"
+msgstr "إعدادات عامة"
+
+#: inc/widgets/popular-tags-comments.php:89
+msgid "Tags"
+msgstr "وسوم"
+
+#: header.php:106
+msgid "Search"
+msgstr "بحث"
+
+#: functions.php:137
+#: header.php:97
+msgid "Main Menu"
+msgstr "القائمة الرئيسية"
+
+#: functions.php:146
+#: header.php:39
+msgid "Top Menu"
+msgstr "القائمة العليا"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:340
+msgctxt "Roboto Condensed font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:334
+msgctxt "Ubuntu font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Lora, translate this to 'off'. Do not translate into your own language.
+#: functions.php:328
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "تفعيل"
+
+#: functions.php:267
+msgid "Footer Right Sidebar"
+msgstr ""
+
+#: functions.php:258
+msgid "Footer Mid Sidebar"
+msgstr ""
+
+#: functions.php:249
+msgid "Footer Left Sidebar"
+msgstr ""
+
+#: functions.php:231
+msgid "Magazine 2"
+msgstr ""
+
+#: functions.php:222
+msgid "Magazine 1"
+msgstr ""
+
+#: functions.php:213
+msgid "Main Sidebar"
+msgstr "الشريط الجانبي الرئيسي"
+
+#: functions.php:52
+msgid "Top Navigation"
+msgstr ""
+
+#: functions.php:49
+msgid "Main Navigation"
+msgstr ""
+
+#: footer.php:67
+msgid "Proudly powered by %s."
+msgstr ""
+
+#: footer.php:72
+msgid "Theme: %1$s by %2$s."
+msgstr "قالب: %1$s بواسطة %2$s."
+
+#: content-single.php:47
+msgid "Tagged"
+msgstr ""
+
+#: content-single.php:39
+msgid "Posted Under"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:32
+#: content-single.php:35
+msgid " "
+msgstr ""
+
+#: content-search.php:31
+#: content.php:29
+#: inc/widgets/dual-category.php:206
+#: inc/widgets/dual-category.php:266
+#: inc/widgets/single-category.php:125
+#: inc/widgets/three-block-posts.php:149
+msgid "Comment"
+msgstr "تعليق"
+
+#: content-page.php:24
+#: content-single.php:13
+msgid "Edit"
+msgstr "تحرير"
+
+#: content-page.php:18
+#: content-single.php:23
+#: content.php:41
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أنه لا يمكن إيجاد ما تبحث عنه. قد تفيدك خاصية البحث."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:37
+#: comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "التعليقات الأحدث &larr;"
+
+#: comments.php:36
+#: comments.php:54
+msgid "&larr; Older Comments"
+msgstr "&rarr; التعليقات الأقدم"
+
+#: comments.php:35
+#: comments.php:53
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "لا توجد أراء حول &ldquo;%2$s&rdquo;"
+msgstr[1] "رأي واحد حول &ldquo;%2$s&rdquo;"
+msgstr[2] "رأيان حول &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+msgstr[4] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+msgstr[5] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+
+#: archive.php:80
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: archive.php:77
+msgid "Chats"
+msgstr "دردشات"
+
+#: archive.php:74
+msgid "Audios"
+msgstr "صوتيات"
+
+#: archive.php:71
+msgid "Statuses"
+msgstr "الحالات"
+
+#: archive.php:68
+msgid "Links"
+msgstr "روابط"
+
+#: archive.php:65
+msgid "Quotes"
+msgstr "الإقتباسات"
+
+#: archive.php:62
+msgid "Videos"
+msgstr "فيديو"
+
+#: archive.php:59
+msgid "Images"
+msgstr "صور"
+
+#: archive.php:56
+msgid "Galleries"
+msgstr "المعارض"
+
+#: archive.php:53
+msgid "Asides"
+msgstr "الملاحظات"
+
+#: archive.php:50
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:48
+msgid "Year"
+msgstr "سنة"
+
+#: archive.php:44
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:42
+msgid "Month"
+msgstr "شهر"
+
+#: archive.php:36
+msgid "Date"
+msgstr "التاريخ"
+
+#: archive.php:30
+msgid "Author"
+msgstr "كاتب"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عذراً! لايمكن العثور على تلك الصفحة."
+
+#. Author URI of the theme
+msgid "http://themezhut.com/"
+msgstr ""
+
+#. Author of the theme
+msgid "ThemezHut"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://themezhut.com/themes/awaken"
+msgstr ""

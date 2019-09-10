@@ -1,0 +1,502 @@
+# Translation of Themes - Simplify in Arabic
+# This file is distributed under the same license as the Themes - Simplify package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-23 11:04:16+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Simplify\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "Simplify was listed among the top 5 most popular Themes many days. Simplify is a CSS3 Powered and WordPress Latest Version Ready Responsive Theme for Small Business Companies to any purposes. Exciting Slide, 02 Rows of Featured Boxes, Customizable Background and other options will give the WordPress Driven Site an attractive look.  Simplify is super Elegant and Professional Responsive Theme which will be adjusted automatically with all smart devices. First and Second Row Featured Boxes can show your company's Featured Items, Services etc.  Right and Footer Sidebar will be usable for showing the widgets. Full Wide Template can be used for showing showcase or other pages. Simplify is Translation Ready. You can Visit the Simplify Demo Here: http://demo.d5creation.com/themes/?theme=Simplify and can visit the Theme page here: https://d5creation.com/theme/simplify"
+msgstr ""
+
+#. Theme Name of the theme
+msgid "Simplify"
+msgstr ""
+
+#: inc/customize.php:475
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/customize.php:460
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/customize.php:446
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Social Links"
+msgstr ""
+
+#: inc/customize.php:270
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Second Row Featured Boxes"
+msgstr ""
+
+#: inc/customize.php:256
+#: inc/customize.php:388
+msgid "Link URL"
+msgstr ""
+
+#: inc/customize.php:158
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - First Row Featured Boxes"
+msgstr ""
+
+#: inc/customize.php:132
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Front Page Quote"
+msgstr ""
+
+#: inc/customize.php:85
+msgid "Banner Image/ Slide Image 01"
+msgstr ""
+
+#: inc/customize.php:69
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Front Page Slide"
+msgstr ""
+
+#: inc/customize.php:26
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Front Page Heading"
+msgstr ""
+
+#: inc/customize.php:102
+msgid "Banner Image/ Slide Image 02"
+msgstr ""
+
+#: inc/customize.php:364
+msgid "Simplify is super elegant and Professional Responsive Theme which will create the business widely expressed. The Color changing options of Simplify will give the WordPress Driven Site an attractive look"
+msgstr ""
+
+#: inc/customize.php:343
+msgid "Upload an image for the Featured Box. 50px X 50px image is recommended"
+msgstr ""
+
+#: inc/customize.php:318
+msgid "Second Row Description"
+msgstr ""
+
+#: inc/customize.php:310
+msgid "Simplify is super elegant and Professional Responsive Theme which will create the business widely expressed"
+msgstr ""
+
+#: inc/customize.php:302
+msgid "Second Row Subject"
+msgstr ""
+
+#: inc/customize.php:232
+msgid "The Color changing options of Simplify will give the WordPress Driven Site an attractive look. Simplify is super elegant and Professional Responsive Theme which will create the business widely expressed"
+msgstr ""
+
+#: inc/customize.php:211
+msgid "Upload an image for the Featured Box. 200px X 100px image is recommended"
+msgstr ""
+
+#: inc/customize.php:188
+msgid "First Row Description"
+msgstr ""
+
+#: inc/customize.php:180
+msgid "The Color changing options of Simplify will give the WordPress Driven Site an attractive look"
+msgstr ""
+
+#: inc/customize.php:172
+msgid "First Row Subject"
+msgstr ""
+
+#: inc/customize.php:48
+msgid "WordPress is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time"
+msgstr ""
+
+#: inc/customize.php:16
+msgid "Demo Here"
+msgstr ""
+
+#: inc/customize.php:13
+msgid "SIMPLIFY Extend"
+msgstr ""
+
+#: inc/customize.php:12
+msgid "Need More Features and Options including Exciting Slide and 100+ Advanced Features? Try "
+msgstr ""
+
+#: inc/customize.php:10
+msgid "of this Theme if you Love our Work"
+msgstr ""
+
+#: inc/customize.php:10
+msgid "Honest Review"
+msgstr ""
+
+#: inc/customize.php:10
+msgid "We appreciate an"
+msgstr ""
+
+#: inc/customize.php:9
+msgid "SIMPLIFY OPTIONS"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width"
+msgstr "كامل العرض"
+
+#: sidebar.php:19
+msgid "Meta"
+msgstr "منوعات"
+
+#: sidebar.php:12
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: searchform.php:13
+msgid "Search"
+msgstr "بحث"
+
+#: searchform.php:12
+msgid "Search Text Here"
+msgstr ""
+
+#: search.php:22
+msgid "Entry Date: "
+msgstr ""
+
+#: search.php:18
+msgid "Number of Results:"
+msgstr ""
+
+#: search.php:17
+msgid "Search Term:"
+msgstr ""
+
+#: search.php:12
+msgid "Search Results"
+msgstr "نتائج البحث"
+
+#: page.php:28
+msgid "Sorry, no pages matched your criteria."
+msgstr ""
+
+#: page.php:20
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: inc/customize.php:551
+msgid "Feed or Blog Link"
+msgstr ""
+
+#: inc/customize.php:536
+msgid "Linked In Link"
+msgstr ""
+
+#: inc/customize.php:521
+msgid "Picassa Web Album Link"
+msgstr ""
+
+#: inc/customize.php:505
+msgid "Google Plus Link"
+msgstr ""
+
+#: inc/customize.php:490
+msgid "You Tube Channel Link"
+msgstr ""
+
+#: inc/customize.php:436
+msgid "Check the Box if you want the Responsive Layout of your Website"
+msgstr ""
+
+#: inc/customize.php:433
+msgid "Use Responsive Layout"
+msgstr ""
+
+#: inc/customize.php:419
+msgid "Check the Box if you do not want to show any Posts or Page in the Front Page"
+msgstr ""
+
+#: inc/customize.php:416
+msgid "Do not show any Posts or Page in the Front Page"
+msgstr ""
+
+#: inc/customize.php:287
+msgid "Uncheck this if you do not want to show the Second Row Featured Boxs"
+msgstr ""
+
+#: inc/customize.php:284
+msgid "Show Second Row Featured Boxs"
+msgstr ""
+
+#: inc/customize.php:340
+msgid "Second Row Featured Image"
+msgstr ""
+
+#: inc/customize.php:240
+#: inc/customize.php:372
+msgid "Description"
+msgstr "الوصف"
+
+#: inc/customize.php:224
+#: inc/customize.php:356
+msgid "Title"
+msgstr "العنوان"
+
+#: inc/customize.php:191
+#: inc/customize.php:321
+msgid "Input the description of Featured Areas. Please limit the words within 30 so that the layout should be clean and attractive"
+msgstr ""
+
+#: inc/customize.php:175
+#: inc/customize.php:305
+msgid "Input your Row Title Here"
+msgstr ""
+
+#: inc/customize.php:208
+msgid "First Row Featured Image"
+msgstr ""
+
+#: inc/customize.php:146
+msgid "Quote Text"
+msgstr ""
+
+#: inc/customize.php:88
+#: inc/customize.php:105
+#: inc/customize.php:122
+msgid "Upload an image for the Front Page Banner. 930px X 350px image is recommended"
+msgstr ""
+
+#: inc/customize.php:119
+msgid "Banner Image/ Slide Image 03"
+msgstr ""
+
+#: inc/customize.php:56
+msgid "Front Page Heading Description"
+msgstr ""
+
+#: inc/customize.php:41
+msgid "Front Page Heading"
+msgstr ""
+
+#: inc/customize.php:16
+msgid "You can Visit the SIMPLIFY Extend "
+msgstr ""
+
+#: functions.php:173
+msgid "Footer Area Four"
+msgstr ""
+
+#: functions.php:162
+msgid "Footer Area Three"
+msgstr "ذيل الصفحة (فوتر) - المنطقة الثالثة"
+
+#: functions.php:152
+msgid "Footer Area Two"
+msgstr "ذيل الصفحة (فوتر) - المنطقة الثانية"
+
+#: functions.php:142
+msgid "Footer Area One"
+msgstr "ذيل الصفحة (فوتر) - المنطقة الأولى"
+
+#: functions.php:133
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: functions.php:124
+msgid "Primary Sidebar"
+msgstr "الشريط الجانبي - الأساسي"
+
+#: functions.php:118
+msgid "Powered by: "
+msgstr ""
+
+#: functions.php:118
+msgid "Theme by: "
+msgstr ""
+
+#: functions.php:117
+msgid "Read More..."
+msgstr "قراءة المزيد..."
+
+#: functions.php:104
+msgid "You can also Visit the Following. These are the Featured Contents"
+msgstr ""
+
+#: functions.php:103
+msgid "&laquo; Or Return to the Home Page"
+msgstr ""
+
+#: functions.php:103
+msgid "Browse the Home Page"
+msgstr ""
+
+#: functions.php:101
+msgid "You Can Try the Search..."
+msgstr ""
+
+#: functions.php:100
+msgid "Sorry, we could not find anything that matched..."
+msgstr ""
+
+#: functions.php:28
+msgid "Main Menu"
+msgstr "القائمة الرئيسية"
+
+#: fullwidth.php:20
+#: page.php:25
+msgid "Edit This Entry"
+msgstr "حرر الموضوع"
+
+#: front-page.php:46
+#: inc/customize.php:138
+msgid "All the developers of D5 Creation have come from the disadvantaged part or group of the society. All have established themselves after a long and hard struggle in their life ----- D5 Creation Team"
+msgstr ""
+
+#: front-page.php:15
+msgid "WordPress is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time."
+msgstr ""
+
+#: front-page.php:13
+#: inc/customize.php:33
+msgid "Welcome to the World of Creativity!"
+msgstr ""
+
+#: front-page-blog.php:9
+msgid "<<< Show Posts/ Page >>>"
+msgstr ""
+
+#: featured-box.php:34
+msgid "Simplify is super elegant and Professional Responsive Theme which will create the business widely expressed. The Color changing options of Simplify will give the WordPress Driven Site an attractive look."
+msgstr ""
+
+#: featured-box.php:31
+#: inc/customize.php:348
+msgid "Simplify Theme for Business"
+msgstr ""
+
+#: featured-box.php:26
+msgid "Simplify is super elegant and Professional Responsive Theme which will create the business widely expressed."
+msgstr ""
+
+#: featured-box.php:26
+#: inc/customize.php:294
+msgid "Our Services"
+msgstr ""
+
+#: featured-box.php:19
+msgid "The Color changing options of Simplify will give the WordPress Driven Site an attractive look. Simplify is super elegant and Professional Responsive Theme which will create the business widely expressed."
+msgstr ""
+
+#: featured-box.php:16
+#: inc/customize.php:216
+msgid "Simplify Theme for Small Business"
+msgstr ""
+
+#: featured-box.php:10
+msgid "The Color changing options of Simplify will give the WordPress Driven Site an attractive look."
+msgstr ""
+
+#: featured-box.php:10
+#: inc/customize.php:164
+msgid "Recent Works"
+msgstr ""
+
+#: comments.php:28
+msgid "Comments are Closed"
+msgstr ""
+
+#: comments.php:13
+msgid "% Comments"
+msgstr "% تعليقات"
+
+#: comments.php:13
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:13
+msgid "No Comments"
+msgstr "لا توجد تعليقات"
+
+#: archive.php:40
+#: front-page-blog.php:30
+#: index.php:29
+#: search.php:38
+msgid "Next Entries &raquo;"
+msgstr ""
+
+#: archive.php:39
+#: front-page-blog.php:29
+#: index.php:28
+#: search.php:37
+msgid "&laquo; Previous Entries"
+msgstr ""
+
+#: archive.php:30
+#: front-page-blog.php:22
+#: index.php:21
+#: search.php:30
+#: single.php:27
+msgid "Tags: "
+msgstr "الوسوم:"
+
+#: archive.php:30
+#: front-page-blog.php:22
+#: index.php:21
+#: search.php:30
+#: single.php:27
+msgid "% Comments &#187;"
+msgstr "% تعليقات &#187;"
+
+#: archive.php:30
+#: front-page-blog.php:22
+#: index.php:21
+#: search.php:30
+#: single.php:27
+msgid "1 Comment &#187;"
+msgstr "تعليق واحد &#187;"
+
+#: archive.php:30
+#: front-page-blog.php:22
+#: index.php:21
+#: search.php:30
+#: single.php:27
+msgid "No Comments &#187;"
+msgstr "لا تعليقات  &#187;"
+
+#: archive.php:30
+#: front-page-blog.php:22
+#: index.php:21
+#: search.php:30
+#: single.php:27
+msgid "Edit"
+msgstr "تحرير"
+
+#: archive.php:30
+#: front-page-blog.php:22
+#: index.php:21
+#: search.php:30
+#: single.php:27
+msgid "Posted in"
+msgstr ""
+
+#: archive.php:22
+#: front-page-blog.php:14
+#: index.php:13
+#: single.php:17
+msgid " on"
+msgstr ""
+
+#: archive.php:22
+#: front-page-blog.php:14
+#: index.php:13
+#: single.php:17
+msgid "Posted by:"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://d5creation.com/"
+msgstr ""
+
+#. Author of the theme
+msgid "D5 Creation"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://d5creation.com/themes/simplify"
+msgstr ""

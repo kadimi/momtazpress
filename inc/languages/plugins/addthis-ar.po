@@ -1,0 +1,54 @@
+# Translation of Plugins - WordPress Share Buttons Plugin – AddThis - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - WordPress Share Buttons Plugin – AddThis - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: +0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Plugins - WordPress Share Buttons Plugin – AddThis - Stable (latest release)\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the plugin
+msgid "Set up sharing tools from AddThis right in WordPress. With AddThis you can see how your users are engaging with your content, provide a personalized experience for each user and encourage them to share your content in their social networks. Follow tools, recommended content, conversion tools and social analytics available to registered accounts at addthis.com."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.addthis.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "The AddThis Team"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/addthis/"
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "Share Buttons by AddThis"
+msgstr ""
+
+#: backend/AddThisWidgetByDomClass.php:242
+msgid "Tool: "
+msgstr ""
+
+#: backend/AddThisWidgetByDomClass.php:200
+#: backend/AddThisWidgetByDomClass.php:498
+msgid "Title: "
+msgstr ""
+
+#: backend/AddThisGlobalOptionsFeature.php:976
+msgid "Terms of Service"
+msgstr ""
+
+#: backend/AddThisGlobalOptionsFeature.php:971
+msgid "Privacy Policy"
+msgstr ""
+
+#: backend/AddThisGlobalOptionsFeature.php:931
+#: backend/AddThisWidgetByDomClass.php:491
+msgid "the plugin's settings"
+msgstr ""

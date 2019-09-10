@@ -1,0 +1,1660 @@
+# Translation of Themes - Gridsby in Arabic
+# This file is distributed under the same license as the Themes - Gridsby package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-03-08 12:00:46+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Gridsby\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "Gridsby is a pinterest style gallery theme which is a simple way to showcase a beautiful photo collection. Gridsby is responsive and retina ready, and includes an easy method for posting photos to a front page gallery. You can check out the demo at https://modernthemes.net/theme-demos/?theme=Gridsby for a closer look."
+msgstr ""
+
+#. Theme Name of the theme
+msgid "Gridsby"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:171
+msgid "1.3.0 - Update: FontAwesome icons"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:175
+msgid "1.2.9 - Fix: PHP 7.2 fixes"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:179
+msgid "1.2.8 - Fix: minor CSS edits"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:183
+msgid "1.2.7 - Fix: number input bug in theme customizer"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:187
+msgid "1.2.6 - Fix: removed http from Skype social icons"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:191
+msgid "1.2.5 - Update: Tested with WordPress 4.5, Updating Font Awesome icons to 4.6, Added Snapchat and Weibo social icon options"
+msgstr ""
+
+#: inc/customizer.php:1220
+msgid "Full content"
+msgstr ""
+
+#: inc/customizer.php:1219
+msgid "Excerpts"
+msgstr "مقتطفات"
+
+#: inc/customizer.php:865
+msgid "Weibo URL:"
+msgstr ""
+
+#: inc/customizer.php:579
+msgid "Snapchat URL:"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:195
+msgid "1.2.4 - Update: Added an option for pagination in Gallery and Fullwidth Gallery pages. Go to Appearance => Gallery Page Pagination to set bottom pagination for gallery pages."
+msgstr ""
+
+#: inc/use-child-theme.php:149
+msgid "Error: theme folder not writable"
+msgstr ""
+
+#: inc/use-child-theme.php:128
+msgid "All done!"
+msgstr "اكتمل!"
+
+#: inc/use-child-theme.php:81
+msgid "Activate now"
+msgstr "فعّل الان"
+
+#: inc/use-child-theme.php:80
+msgid "Please use a %s child theme to make changes"
+msgstr ""
+
+#: inc/customizer.php:1297
+msgid "Choose the number of photos to display with the pagination option in the gallery pages. Default is set to 15."
+msgstr ""
+
+#: inc/customizer.php:1296
+msgid "Number of Pagination Images"
+msgstr ""
+
+#: inc/customizer.php:1279
+msgid "All Photos"
+msgstr ""
+
+#: inc/customizer.php:1273
+msgid "Set a pagination option for gallery or fullwidth gallery pages."
+msgstr ""
+
+#: inc/customizer.php:1272
+#: inc/customizer.php:1280
+msgid "Pagination"
+msgstr "تعدد الصفحات"
+
+#: inc/customizer.php:1262
+msgid "Gallery Page Pagination"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:199
+msgid "1.2.3 - Update: blog will go fullwidth if no sidebar is active"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:203
+msgid "1.2.2 - Update: added many new social icon options to theme customizer"
+msgstr ""
+
+#: inc/customizer.php:852
+msgid "StumbleUpon URL:"
+msgstr ""
+
+#: inc/customizer.php:839
+msgid "lastFM URL:"
+msgstr ""
+
+#: inc/customizer.php:826
+msgid "SoundCloud URL:"
+msgstr ""
+
+#: inc/customizer.php:813
+msgid "Spotify URL:"
+msgstr ""
+
+#: inc/customizer.php:800
+msgid "Codepen URL:"
+msgstr ""
+
+#: inc/customizer.php:787
+msgid "Github URL:"
+msgstr ""
+
+#: inc/customizer.php:774
+msgid "Reddit URL:"
+msgstr ""
+
+#: inc/customizer.php:761
+msgid "DeviantArt URL:"
+msgstr ""
+
+#: inc/customizer.php:748
+msgid "Skype URL:"
+msgstr ""
+
+#: inc/customizer.php:735
+msgid "Xing URL:"
+msgstr ""
+
+#: inc/customizer.php:592
+msgid "Vine URL:"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:207
+msgid "1.2.0 - Update: added new social icon links"
+msgstr ""
+
+#: inc/customizer.php:683
+msgid "Behance URL:"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:211
+msgid "1.1.10 - Fix: minor bug fixes and improvements"
+msgstr ""
+
+#: inc/customizer.php:891
+msgid "Email:"
+msgstr "البريد الإلكتروني:"
+
+#: inc/customizer.php:878
+msgid "Phone Number:"
+msgstr ""
+
+#: inc/customizer.php:722
+msgid "Yelp URL:"
+msgstr ""
+
+#: inc/customizer.php:476
+msgid "Open links in new window?"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:215
+msgid "1.1.8 - Update: updated demo link in description"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:219
+msgid "1.1.7 - new Font Awesome 4.5 icons added"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:223
+msgid "1.1.6 - added VK to social media section"
+msgstr ""
+
+#: inc/customizer.php:709
+msgid "VK URL:"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:227
+msgid "1.1.5 - 4.3 update bug fixes"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:342
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "هذا الثيم ينصح بالإضافات التالية: %1$s."
+msgstr[1] "هذا الثيم ينصح بالإضافة التالية: %1$s."
+msgstr[2] "هذا الثيم ينصح بالإضافات التالية: %1$s."
+msgstr[3] "هذا الثيم ينصح بالإضافات التالية: %1$s."
+msgstr[4] "هذا الثيم ينصح بالإضافات التالية: %1$s."
+msgstr[5] "هذا الثيم ينصح بالإضافات التالية: %1$s."
+
+#: panel/gridsby-admin_page.php:231
+msgid "1.1.4 - minor bug fixes"
+msgstr ""
+
+#: inc/customizer.php:696
+msgid "500px URL:"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:235
+msgid "1.1.3 - added 500px social media option"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:239
+msgid "1.1.2 - updated Font Awesome icons"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:243
+msgid "1.1.1 - added Japanese and Brazilian language translation"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:162
+msgid "Get Premium Membership"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:157
+msgid "New themes added monthly! When you purchase a premium membership you get access to all premium themes, with new themes added monthly."
+msgstr ""
+
+#: panel/gridsby-admin_page.php:153
+msgid "Access to New Themes"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:149
+msgid "We have options to fit every budget. Choose between a single theme, or access to all current and future themes for a year, or forever!"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:145
+msgid "Membership Options"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:141
+msgid "Look as good as can be with our new premium themes. Each one is agency designed with modern styles and professional layouts."
+msgstr ""
+
+#: panel/gridsby-admin_page.php:137
+msgid "Agency Designed Themes"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:133
+msgid "Use our new free plugins with this theme to add functionality for things like projects, clients, team members and more. Compatible with all premium themes!"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:129
+msgid "Plugin Compatibility"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:125
+msgid "Premium Membership. Premium Experience."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Left Sidebar"
+msgstr "الشريط الجانبي (يسار)"
+
+#. Template Name of the theme
+msgid "Home Page"
+msgstr "الصفحة الرئيسية"
+
+#. Template Name of the theme
+msgid "Gallery Page"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Fullwidth Page"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Fullwidth Gallery Page"
+msgstr ""
+
+#: widgets/video-widget.php:151
+msgid "Video"
+msgstr "فيديو"
+
+#: widgets/video-widget.php:57
+msgid "Paste the URL of the video (only from a network that supports oEmbed, like Youtube, Vimeo etc.):"
+msgstr ""
+
+#: widgets/video-widget.php:15
+msgid "MT: Video Widget"
+msgstr ""
+
+#: widgets/video-widget.php:13
+msgid "Video for your sidebar."
+msgstr ""
+
+#: widgets/contact-info.php:215
+msgid "Email: "
+msgstr "البريد الإلكتروني:"
+
+#: widgets/contact-info.php:205
+msgid "Phone: "
+msgstr ""
+
+#: widgets/contact-info.php:195
+msgid "Address: "
+msgstr ""
+
+#: widgets/contact-info.php:171
+msgid "Contact info"
+msgstr "معلومات الإتصال"
+
+#: widgets/contact-info.php:73
+msgid "Enter your email address"
+msgstr ""
+
+#: widgets/contact-info.php:67
+msgid "Enter your phone number"
+msgstr ""
+
+#: widgets/contact-info.php:61
+msgid "Enter your address"
+msgstr ""
+
+#: widgets/contact-info.php:53
+#: widgets/video-widget.php:49
+msgid "Title"
+msgstr "العنوان"
+
+#: widgets/contact-info.php:15
+msgid "MT: Contact Info Widget"
+msgstr ""
+
+#: widgets/contact-info.php:13
+msgid "Display your contact info"
+msgstr ""
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: panel/gridsby-admin_page.php:251
+msgid "1.0.38 - minor menu bug fixes for category posts"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:247
+msgid "1.0.39 - updated Suggested Plugins files"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:167
+msgid "Changelog"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:120
+msgid "View Pro Version"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:116
+msgid "Call on us to help you out. Premium themes come with free support that goes directly to our support staff."
+msgstr ""
+
+#: panel/gridsby-admin_page.php:112
+msgid "Free Support"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:108
+msgid "Premium versions include PSD files. Preview your own content or showcase a customized version for your clients."
+msgstr ""
+
+#: panel/gridsby-admin_page.php:104
+msgid "PSD Files"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:100
+msgid "Access an additional 65 Google fonts with Gridsby Pro right in the back-end of the WordPress customizer."
+msgstr ""
+
+#: panel/gridsby-admin_page.php:96
+msgid "Sometimes you need different sidebars for different pages. We got you covered, offering up to 5 different sidebars."
+msgstr ""
+
+#: panel/gridsby-admin_page.php:92
+msgid "More Sidebars"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:88
+msgid "Want more content for your footer? Gridsby Pro has three footer widget areas to populate with any content you want."
+msgstr ""
+
+#: panel/gridsby-admin_page.php:84
+msgid "Footer Widget Areas"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:80
+msgid "Control the number of photos in your home page gallery. You can put up to 200 photos right on your front page for greater visbility."
+msgstr ""
+
+#: panel/gridsby-admin_page.php:76
+msgid "Home Gallery Options"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:72
+msgid "Control more options of your website including scroll animations and hover effects for your photos, as well as a home page slider template."
+msgstr ""
+
+#: panel/gridsby-admin_page.php:68
+msgid "More Theme Options"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:64
+msgid "Make your website a powerful eCommerce machine. Gridsby Pro includes Easy Digital Downloads to turn photos into profit."
+msgstr ""
+
+#: panel/gridsby-admin_page.php:60
+msgid "Sell Your Photos"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:56
+msgid "Want more features? Go Pro."
+msgstr ""
+
+#: panel/gridsby-admin_page.php:52
+msgid "About Us"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:48
+msgid "Want to learn more about ModernThemes? Let us help you at modernthemes.net."
+msgstr ""
+
+#: panel/gridsby-admin_page.php:44
+msgid "About ModernThemes"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:40
+msgid "Read Docs"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:36
+msgid "Check out our Gridsby documentation to learn how to use Gridsby and for tutorials on theme functions. Click the link below."
+msgstr ""
+
+#: panel/gridsby-admin_page.php:32
+msgid "Documentation"
+msgstr "وثائق المساعدة"
+
+#: panel/gridsby-admin_page.php:28
+msgid "View Video"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:24
+msgid "We created a quick theme setup video to help you get started with Gridsby. Watch the video with the link below"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:20
+msgid "Gridsby Theme Setup"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:16
+msgid "Thank you for using Gridsby!"
+msgstr ""
+
+#: panel/gridsby-admin_page.php:7
+msgid "Gridsby Theme Details"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:3378
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت الإضافة %1$s (%2$d/%3$d)"
+
+#: panel/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr "تم الانتهاء من التثبيت"
+
+#: panel/class-tgm-plugin-activation.php:3376
+msgid "%1$s installed successfully."
+msgstr "%1$s تم تثبيتها بنجاح"
+
+#: panel/class-tgm-plugin-activation.php:3375
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "بدء معالج التثبيت ، قد تستغرق العملية بعض الوقت، يرجى الانتظار."
+
+#: panel/class-tgm-plugin-activation.php:3372
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت وتفعيل الإضافة %1$s (%2$d/%3$d)"
+
+#: panel/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr "تم الانتهاء من جميع التثبيتات والتفعيلات "
+
+#: panel/class-tgm-plugin-activation.php:3370
+#: panel/class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr "إخفاء التفاصيل"
+
+#: panel/class-tgm-plugin-activation.php:3370
+#: panel/class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr "مشاهدة التفاصيل"
+
+#: panel/class-tgm-plugin-activation.php:3370
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s تم تثبيتها و تفعيلها بنجاح"
+
+#: panel/class-tgm-plugin-activation.php:3369
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "بدء معالج التثبيت والتفعيل، قد تستغرق العملية بعض الوقت، يرجى الانتظار."
+
+#: panel/class-tgm-plugin-activation.php:3365
+msgid "The installation of %1$s failed."
+msgstr "فشل تنصيب %1$s."
+
+#: panel/class-tgm-plugin-activation.php:3364
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "حدث خطأ غير متوقع  أثناء التثبيت  %1$s: <strong>%2$s</strong>."
+
+#: panel/class-tgm-plugin-activation.php:3362
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "جاري تحديث الإضافة <span dir=\"ltr\">(%2$d/%3$d)</span> %1$s"
+
+#: panel/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr "فشل تفعيل الإضافة."
+
+#: panel/class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr "تفعيل"
+
+#: panel/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr "تحديث"
+
+#: panel/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr "تنصيب"
+
+#: panel/class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2500
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2495
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2491
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr "الحالة"
+
+#: panel/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr "الإصدار"
+
+#: panel/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr "النوع"
+
+#: panel/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr "المصدر"
+
+#: panel/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr "الإضافة"
+
+#: panel/class-tgm-plugin-activation.php:2422
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2371
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2289
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: panel/class-tgm-plugin-activation.php:2286
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "تحديثات متوفّرة <span class=\"count\">(%s)</span>"
+msgstr[1] "تحديثات متوفّرة <span class=\"count\">(%s)</span>"
+msgstr[2] "تحديثات متوفّرة <span class=\"count\">(%s)</span>"
+msgstr[3] "تحديثات متوفّرة <span class=\"count\">(%s)</span>"
+msgstr[4] "تحديثات متوفّرة <span class=\"count\">(%s)</span>"
+msgstr[5] "تحديثات متوفّرة <span class=\"count\">(%s)</span>"
+
+#: panel/class-tgm-plugin-activation.php:2283
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: panel/class-tgm-plugin-activation.php:2280
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "الكل <span class=\"count\">(%s)</span>"
+msgstr[1] "الكل <span class=\"count\">(%s)</span>"
+msgstr[2] "الكل <span class=\"count\">(%s)</span>"
+msgstr[3] "الكل <span class=\"count\">(%s)</span>"
+msgstr[4] "الكل <span class=\"count\">(%s)</span>"
+msgstr[5] "الكل <span class=\"count\">(%s)</span>"
+
+#: panel/class-tgm-plugin-activation.php:2235
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr "نشط"
+
+#: panel/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr "مثبتة ولكن غير مفعلة"
+
+#: panel/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr "غير مثبت"
+
+#: panel/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr "تم تحزيمه مسبقاً"
+
+#: panel/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr "مستودع ووردبرس"
+
+#: panel/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr "موصى به"
+
+#: panel/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr "مطلوب"
+
+#: panel/class-tgm-plugin-activation.php:1881
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:1116
+#: panel/class-tgm-plugin-activation.php:2828
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:938
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:935
+#: panel/class-tgm-plugin-activation.php:938
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:935
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:828
+#: panel/class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr "عودة للرئيسية"
+
+#: panel/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "إخفاء هذه الملاجظة"
+
+#: panel/class-tgm-plugin-activation.php:403
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "تم تثبيت وتفعيل جميع الإضافات بنجاح. %1$s"
+
+#: panel/class-tgm-plugin-activation.php:402
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:401
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:400
+#: panel/class-tgm-plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "تم تفعيل الإضافة أدناه بنجاح:"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: panel/class-tgm-plugin-activation.php:399
+#: panel/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr "تم تفعيل الإضافة بنجاح"
+
+#: panel/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr "عودة للرئيسية"
+
+#: panel/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr "عودة لبرنامج تثبيت الإضافات المطلوبة"
+
+#: panel/class-tgm-plugin-activation.php:392
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "إبدأ في تفعيل الإضافات"
+msgstr[1] "إبدأ في تفعيل الإضافة"
+msgstr[2] "إبدأ في تفعيل الإضافات"
+msgstr[3] "إبدأ في تفعيل الإضافات"
+msgstr[4] "إبدأ في تفعيل الإضافات"
+msgstr[5] "إبدأ في تفعيل الإضافات"
+
+#: panel/class-tgm-plugin-activation.php:387
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: panel/class-tgm-plugin-activation.php:382
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "إبدأ في تثبيت الإضافات"
+msgstr[1] "إبدأ في تثبيت الإضافة"
+msgstr[2] "إبدأ في تثبيت الإضافات"
+msgstr[3] "إبدأ في تثبيت الإضافات"
+msgstr[4] "إبدأ في تثبيت الإضافات"
+msgstr[5] "إبدأ في تثبيت الإضافات"
+
+#: panel/class-tgm-plugin-activation.php:377
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: panel/class-tgm-plugin-activation.php:372
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "الإضافات التالية ينصح بها و لكنها غير مفعلة: %1$s."
+msgstr[1] "الإضافة التالية ينصح بها و لكنها غير مفعلة: %1$s."
+msgstr[2] "الإضافات التالية ينصح بها و لكنها غير مفعلة: %1$s."
+msgstr[3] "الإضافات التالية ينصح بها و لكنها غير مفعلة: %1$s."
+msgstr[4] "الإضافات التالية ينصح بها و لكنها غير مفعلة: %1$s."
+msgstr[5] "الإضافات التالية ينصح بها و لكنها غير مفعلة: %1$s."
+
+#: panel/class-tgm-plugin-activation.php:367
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "الإضافات التالية مطلوبة و لكنها غير مفعلة: %1$s."
+msgstr[1] "الإضافة التالية مطلوبة و لكنها غير مفعلة: %1$s."
+msgstr[2] "الإضافات التالية مطلوبة و لكنها غير مفعلة: %1$s."
+msgstr[3] "الإضافات التالية مطلوبة و لكنها غير مفعلة: %1$s."
+msgstr[4] "الإضافات التالية مطلوبة و لكنها غير مفعلة: %1$s."
+msgstr[5] "الإضافات التالية مطلوبة و لكنها غير مفعلة: %1$s."
+
+#: panel/class-tgm-plugin-activation.php:362
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: panel/class-tgm-plugin-activation.php:357
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: panel/class-tgm-plugin-activation.php:352
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "الإضافات التالية تحتاج للتحديث إلي أحدث نسخة لتعمل بشكل جيد مع الثيم: %1$s."
+msgstr[1] "الإضافة التالية تحتاج للتحديث إلي أحدث نسخة لتعمل بشكل جيد مع الثيم: %1$s."
+msgstr[2] "الإضافات التالية تحتاج للتحديث إلي أحدث نسخة لتعمل بشكل جيد مع الثيم: %1$s."
+msgstr[3] "الإضافات التالية تحتاج للتحديث إلي أحدث نسخة لتعمل بشكل جيد مع الثيم: %1$s."
+msgstr[4] "الإضافات التالية تحتاج للتحديث إلي أحدث نسخة لتعمل بشكل جيد مع الثيم: %1$s."
+msgstr[5] "الإضافات التالية تحتاج للتحديث إلي أحدث نسخة لتعمل بشكل جيد مع الثيم: %1$s."
+
+#: panel/class-tgm-plugin-activation.php:347
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: panel/class-tgm-plugin-activation.php:337
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "هذا الثيم يحتاج للإضافات التالية: %1$s."
+msgstr[1] "هذا الثيم يحتاج للإضافة التالية: %1$s."
+msgstr[2] "هذا الثيم يحتاج للإضافات التالية: %1$s."
+msgstr[3] "هذا الثيم يحتاج للإضافات التالية: %1$s."
+msgstr[4] "هذا الثيم يحتاج للإضافات التالية: %1$s."
+msgstr[5] "هذا الثيم يحتاج للإضافات التالية: %1$s."
+
+#: panel/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr "حدث خطأ بواجهة برمجة الإضافة API"
+
+#: panel/class-tgm-plugin-activation.php:335
+msgid "Installing Plugin: %s"
+msgstr "تنصيب الإضافة: %s"
+
+#: panel/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr "الإضافات المثبّتة"
+
+#: panel/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr "تثبيت الإضافات المطلوبة"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:179
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:175
+msgid "Archives: %s"
+msgstr "الآرشيفات: %s"
+
+#: inc/template-tags.php:172
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "المحادثات"
+
+#: inc/template-tags.php:170
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "الصوتيات"
+
+#: inc/template-tags.php:168
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "الحالات"
+
+#: inc/template-tags.php:166
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "الروابط"
+
+#: inc/template-tags.php:164
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "الإقتباسات"
+
+#: inc/template-tags.php:162
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "الفيديوهات"
+
+#: inc/template-tags.php:160
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "الصور"
+
+#: inc/template-tags.php:158
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "المعارض"
+
+#: inc/template-tags.php:156
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "الملاحظات"
+
+#: inc/template-tags.php:153
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F، Y"
+
+#: inc/template-tags.php:145
+msgid "Tag: %s"
+msgstr "الوسم: %s"
+
+#: inc/template-tags.php:143
+msgid "Category: %s"
+msgstr "التصنيف: %s"
+
+#: inc/template-tags.php:122
+msgid "% Comments"
+msgstr "% تعليقات"
+
+#: inc/template-tags.php:122
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: inc/template-tags.php:122
+msgid "Leave a comment"
+msgstr "أضف تعليق"
+
+#: inc/template-tags.php:116
+msgid "Tagged %1$s"
+msgstr "الموسومة %1$s"
+
+#: inc/template-tags.php:110
+msgid "Posted in %1$s"
+msgstr "نُشر في %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:108
+#: inc/template-tags.php:114
+msgid ", "
+msgstr "، "
+
+#: inc/template-tags.php:91
+msgctxt "post author"
+msgid "by %s"
+msgstr "أضيف بواسطة %s"
+
+#: inc/template-tags.php:86
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "نشر في %s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "مقالات أحدث"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "مقالات أقدم"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/extras.php:52
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: inc/customizer.php:1361
+msgid "Choose the number of posts to display on your category pages (0 shows all)"
+msgstr ""
+
+#: inc/customizer.php:1360
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/customizer.php:1345
+msgid "Hide Category Title"
+msgstr ""
+
+#: inc/customizer.php:1344
+msgid "Show Category Title"
+msgstr ""
+
+#: inc/customizer.php:1338
+msgid "Title Display"
+msgstr ""
+
+#: inc/customizer.php:1327
+msgid "Page with Sidebar"
+msgstr ""
+
+#: inc/customizer.php:1326
+msgid "Full-width Page"
+msgstr ""
+
+#: inc/customizer.php:1320
+msgid "(Note: only for image gallery layouts)"
+msgstr ""
+
+#: inc/customizer.php:1319
+msgid "Category Gallery Layout"
+msgstr ""
+
+#: inc/customizer.php:1309
+msgid "Select the layout of your category pages."
+msgstr ""
+
+#: inc/customizer.php:1307
+msgid "Category Pages"
+msgstr ""
+
+#: inc/customizer.php:1253
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer.php:1237
+msgid "Choose your excerpt length here. Default: 30 words"
+msgstr ""
+
+#: inc/customizer.php:1236
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/customizer.php:1214
+msgid "Post content"
+msgstr ""
+
+#: inc/customizer.php:1205
+msgid "Change how gridsby displays posts"
+msgstr ""
+
+#: inc/customizer.php:1203
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer.php:1195
+msgid "Footer Byline Text"
+msgstr ""
+
+#: inc/customizer.php:1182
+msgid "Footer Email"
+msgstr ""
+
+#: inc/customizer.php:1169
+msgid "Footer Phone Number"
+msgstr ""
+
+#: inc/customizer.php:1159
+msgid "Customize your footer area"
+msgstr ""
+
+#: inc/customizer.php:1157
+msgid "Footer"
+msgstr "أسفل الصفحة (الفوتر)"
+
+#: inc/customizer.php:1149
+msgid "If you use an external URL, leave the Widget Button Link above empty. Must include http:// before any URL."
+msgstr ""
+
+#: inc/customizer.php:1148
+msgid "External URL Option"
+msgstr ""
+
+#: inc/customizer.php:1133
+msgid "Widget Button URL"
+msgstr ""
+
+#: inc/customizer.php:1120
+msgid "Widget Button Text"
+msgstr ""
+
+#: inc/customizer.php:1108
+msgid "Widget Background Image"
+msgstr ""
+
+#: inc/customizer.php:1096
+msgid "4 Columns"
+msgstr ""
+
+#: inc/customizer.php:1095
+msgid "3 Columns"
+msgstr ""
+
+#: inc/customizer.php:1094
+msgid "2 Columns"
+msgstr ""
+
+#: inc/customizer.php:1093
+msgid "1 Column"
+msgstr ""
+
+#: inc/customizer.php:1087
+msgid "Select the number of widget columns to use. 1 Column will take up the entire widget area, while 4 columns will give space to use 4 widgets for content."
+msgstr ""
+
+#: inc/customizer.php:1086
+msgid "Number of Widget Columns"
+msgstr ""
+
+#: inc/customizer.php:1073
+msgid "Hide Widget Section"
+msgstr ""
+
+#: inc/customizer.php:1059
+msgid "Customize the home widget area. The main body of the widget area can be edited under the Widgets section."
+msgstr ""
+
+#: inc/customizer.php:1052
+msgid "Edit your home page widget settings"
+msgstr ""
+
+#: inc/customizer.php:1051
+#: inc/customizer.php:1057
+msgid "Home Widget Section"
+msgstr ""
+
+#: inc/customizer.php:1040
+msgid "Blog Title"
+msgstr ""
+
+#: inc/customizer.php:1026
+msgid "Gallery Button URL"
+msgstr ""
+
+#: inc/customizer.php:1013
+msgid "View More Button Text"
+msgstr ""
+
+#: inc/customizer.php:1001
+msgid "Hide Blog Section"
+msgstr ""
+
+#: inc/customizer.php:986
+msgid "Hide Gallery Section"
+msgstr ""
+
+#: inc/customizer.php:972
+msgid "Customize your Gridsby home page."
+msgstr ""
+
+#: inc/customizer.php:965
+msgid "Edit your home page settings"
+msgstr ""
+
+#: inc/customizer.php:964
+#: inc/customizer.php:970
+msgid "Home Section"
+msgstr ""
+
+#: inc/customizer.php:955
+msgid "Descending"
+msgstr "تنازلي"
+
+#: inc/customizer.php:954
+msgid "Ascending"
+msgstr "تصاعدي"
+
+#: inc/customizer.php:948
+msgid "Select to display your posts in ascending or descending order."
+msgstr ""
+
+#: inc/customizer.php:938
+msgid "Customize your photo posts options"
+msgstr ""
+
+#: inc/customizer.php:936
+msgid "Photo Post Options"
+msgstr ""
+
+#: inc/customizer.php:930
+msgid "Direct Link to Post"
+msgstr ""
+
+#: inc/customizer.php:929
+msgid "Animated Lightbox"
+msgstr ""
+
+#: inc/customizer.php:924
+msgid "If you do not want the default animated lightbox effect, you can change to link directly to the post."
+msgstr ""
+
+#: inc/customizer.php:913
+msgid "Photo Post Method"
+msgstr ""
+
+#: inc/customizer.php:904
+msgid "RSS URL:"
+msgstr ""
+
+#: inc/customizer.php:670
+msgid "Dribbble URL:"
+msgstr ""
+
+#: inc/customizer.php:657
+msgid "Tumblr URL:"
+msgstr ""
+
+#: inc/customizer.php:644
+msgid "Vimeo URL:"
+msgstr ""
+
+#: inc/customizer.php:631
+msgid "YouTube URL:"
+msgstr ""
+
+#: inc/customizer.php:618
+msgid "Pinterest URL:"
+msgstr ""
+
+#: inc/customizer.php:605
+msgid "Flickr URL:"
+msgstr ""
+
+#: inc/customizer.php:566
+msgid "Instagram URL:"
+msgstr ""
+
+#: inc/customizer.php:553
+msgid "Google Plus URL:"
+msgstr ""
+
+#: inc/customizer.php:540
+msgid "LinkedIn URL:"
+msgstr ""
+
+#: inc/customizer.php:527
+msgid "Twitter URL:"
+msgstr ""
+
+#: inc/customizer.php:514
+msgid "Facebook URL:"
+msgstr ""
+
+#: inc/customizer.php:500
+msgid "Social Icon Hover Color"
+msgstr ""
+
+#: inc/customizer.php:488
+msgid "Social Icon Color"
+msgstr ""
+
+#: inc/customizer.php:460
+msgid "Hide Footer Social Section"
+msgstr ""
+
+#: inc/customizer.php:445
+msgid "Hide Header Social Section"
+msgstr ""
+
+#: inc/customizer.php:430
+msgid "Social Media Icons"
+msgstr ""
+
+#: inc/customizer.php:425
+msgid "Edit your home page social media icons"
+msgstr ""
+
+#: inc/customizer.php:424
+msgid "Social Media Section"
+msgstr ""
+
+#: inc/customizer.php:410
+msgid "Upload your Apple Touch Icon (57x57 pixels)"
+msgstr ""
+
+#: inc/customizer.php:389
+msgid "Upload your Apple Touch Icon (72x72 pixels)"
+msgstr ""
+
+#: inc/customizer.php:368
+msgid "Upload your Apple Touch Icon (114x114 pixels)"
+msgstr ""
+
+#: inc/customizer.php:347
+msgid "Upload your Apple Touch Icon (144x144 pixels)"
+msgstr ""
+
+#: inc/customizer.php:326
+msgid "Upload your favicon (16x16 pixels)"
+msgstr ""
+
+#: inc/customizer.php:310
+msgid "Only enter numeric value"
+msgstr ""
+
+#: inc/customizer.php:309
+msgid "Change the width of the Logo in PX."
+msgstr ""
+
+#: inc/customizer.php:290
+msgid "Logo"
+msgstr "شعار"
+
+#: inc/customizer.php:282
+msgid "Upload a logo to replace the default site name and description in the header. Also, upload your site favicon and Apple Icons."
+msgstr ""
+
+#: inc/customizer.php:280
+msgid "Logo and Icons"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Page Navigation Border Color"
+msgstr ""
+
+#: inc/customizer.php:259
+msgid "Page Navigation Link Color"
+msgstr ""
+
+#: inc/customizer.php:247
+msgid "Page Navigation Background Color"
+msgstr ""
+
+#: inc/customizer.php:235
+msgid "Blockquote Accent Color"
+msgstr ""
+
+#: inc/customizer.php:223
+msgid "Blockquote Text"
+msgstr ""
+
+#: inc/customizer.php:211
+msgid "Theme Color"
+msgstr ""
+
+#: inc/customizer.php:199
+msgid "Site Title Color"
+msgstr "لون عنوان الموقع"
+
+#: inc/customizer.php:187
+msgid "Hover Color"
+msgstr ""
+
+#: inc/customizer.php:175
+msgid "Link Color"
+msgstr "لون الرابط"
+
+#: inc/customizer.php:163
+msgid "Text Color"
+msgstr "لون النص"
+
+#: inc/customizer.php:151
+msgid "Page Title Background"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Select your desired font for the body. Open Sans is the default Body font."
+msgstr ""
+
+#: inc/customizer.php:120
+msgid "Select your desired font for the headings. Open Sans is the default Heading font."
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "Body Font Size"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/customizer.php:27
+msgid "Want to sell your photos? Need a little bit more customization for Gridsby? If you want to see what additional features <a href=\"http://modernthemes.net/wordpress-themes/gridsby-pro/\" target=\"_blank\">Gridsby Pro</a> has, check them all out right <a href=\"http://modernthemes.net/wordpress-themes/gridsby-pro/\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: inc/customizer.php:25
+msgid "Gridsby Pro"
+msgstr ""
+
+#: header.php:73
+msgid "Menu"
+msgstr "القائمة"
+
+#: header.php:46
+msgid "145"
+msgstr ""
+
+#: header.php:25
+msgid "Close Menu"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: functions.php:102
+msgid "The widget area for your home page."
+msgstr ""
+
+#: functions.php:100
+msgid "Home Widget"
+msgstr ""
+
+#: functions.php:90
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: functions.php:57
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: footer.php:37
+msgid "Theme: %1$s by %2$s"
+msgstr ""
+
+#: content.php:45
+#: inc/customizer.php:1248
+msgid "Read More"
+msgstr "اقرأ المزيد"
+
+#: content.php:27
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "متابعة قراءة %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:26
+#: inc/template-tags.php:126
+msgid "Edit"
+msgstr "تحرير"
+
+#: content-page.php:19
+#: content-single.php:25
+#: content.php:35
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أنه لا يمكن إيجاد ما تبحث عنه. قد تفيدك خاصية البحث."
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:37
+#: comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr "التعليقات الأحدث &larr;"
+
+#: comments.php:36
+#: comments.php:53
+msgid "&larr; Older Comments"
+msgstr "&rarr; التعليقات الأقدم"
+
+#: comments.php:35
+#: comments.php:52
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "لا توجد أراء حول &ldquo;%2$s&rdquo;"
+msgstr[1] "رأي واحد حول &ldquo;%2$s&rdquo;"
+msgstr[2] "رأيان حول &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+msgstr[4] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+msgstr[5] "%1$s رأي حول &ldquo;%2$s&rdquo;"
+
+#: archive.php:74
+#: inc/template-tags.php:181
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: archive.php:71
+msgid "Chats"
+msgstr "دردشات"
+
+#: archive.php:68
+msgid "Audios"
+msgstr "صوتيات"
+
+#: archive.php:65
+msgid "Statuses"
+msgstr "الحالات"
+
+#: archive.php:62
+msgid "Links"
+msgstr "روابط"
+
+#: archive.php:59
+msgid "Quotes"
+msgstr "الإقتباسات"
+
+#: archive.php:56
+msgid "Videos"
+msgstr "فيديو"
+
+#: archive.php:53
+msgid "Images"
+msgstr "صور"
+
+#: archive.php:50
+msgid "Galleries"
+msgstr "المعارض"
+
+#: archive.php:47
+msgid "Asides"
+msgstr "الملاحظات"
+
+#: archive.php:44
+#: inc/template-tags.php:149
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:44
+#: inc/template-tags.php:149
+msgid "Year: %s"
+msgstr "السنة: %s"
+
+#: archive.php:41
+#: inc/template-tags.php:151
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:41
+#: inc/template-tags.php:151
+msgid "Month: %s"
+msgstr "الشهر: %s"
+
+#: archive.php:38
+#: inc/template-tags.php:153
+msgid "Day: %s"
+msgstr "اليوم: %s"
+
+#: archive.php:35
+#: inc/template-tags.php:147
+msgid "Author: %s"
+msgstr "الكاتب: %s"
+
+#: archive-image.php:39
+#: category.php:32
+msgid "%s"
+msgstr "%s"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عذراً! لايمكن العثور على تلك الصفحة."
+
+#. Theme URI of the theme
+msgid "https://modernthemes.net/wordpress-demo/gridsby/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://modernthemes.net/"
+msgstr ""
+
+#. Author of the theme
+msgid "ModernThemes"
+msgstr ""

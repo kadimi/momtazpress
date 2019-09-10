@@ -6,7 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"PO-Revision-Date: 2019-09-05 06:07:08+0000\n"
+"PO-Revision-Date: 2019-09-09 19:55:35+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -2924,7 +2924,7 @@ msgstr "إذا لم تُقدِّم هذا الطلب، فما عليك سوى ت
 #: templates/emails/customer-reset-password.php:29
 #: templates/emails/plain/customer-reset-password.php:27
 msgid "Someone has requested a new password for the following account on %s:"
-msgstr "طلب أحد الأشخاص كلمة مرور جديدة للحساب التالي بتاريخ %s:"
+msgstr "طلب أحد الأشخاص كلمة مرور جديدة للحساب التالي على %s:"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:230
 msgid "We hope to see you again soon."
@@ -2934,13 +2934,13 @@ msgstr "نأمل أن نراك قريبًا مرة أخرى."
 #: templates/emails/customer-refunded-order.php:35
 #: templates/emails/plain/customer-refunded-order.php:31
 msgid "Your order on %s has been refunded. There are more details below for your reference:"
-msgstr "تم استرداد طلبك بتاريخ %s. يرد أدناه المزيد من التفاصيل للرجوع إليها:"
+msgstr "تم استرداد طلبك على %s. هناك المزيد من التفاصيل أدناه للرجوع إليها:"
 
 #. translators: %s: Site title
 #: templates/emails/customer-refunded-order.php:32
 #: templates/emails/plain/customer-refunded-order.php:28
 msgid "Your order on %s has been partially refunded. There are more details below for your reference:"
-msgstr "تم استرداد طلبك بشكل جزئي بتاريخ %s. يرد أدناه المزيد من التفاصيل للرجوع إليها:"
+msgstr "تم استرداد طلبك بشكل جزئي على %s. هناك المزيد من التفاصيل أدناه للرجوع إليها:"
 
 #: includes/emails/class-wc-email-customer-on-hold-order.php:142
 msgid "We look forward to fulfilling your order soon."

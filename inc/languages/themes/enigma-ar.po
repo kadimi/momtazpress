@@ -1,0 +1,1606 @@
+# Translation of Themes - Enigma in Arabic
+# This file is distributed under the same license as the Themes - Enigma package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2016-04-08 12:19:33+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Enigma\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "Enigma  is an outstanding superfine creation from weblizar, Enigma has become one of the most popular superfine multipurpose responsive theme with WPMLlovers by many professionals for its amazing capabilities and great designs. Enigma is multi function free WordPress theme with responsive and flexible light-weighted WooCommerce theme built by using core WordPress functions (BOOTSTRAP CSS framework) that works on All leading web browsers weather its mobile device or any other this makes it fast, simple and easy to customize! It has a promising design and powerful features with page layouts and sidebar widget that let your websites easy to design. This theme can be used for different kinds of websites including business, blogging, portfolio, agency, landing page etc. Enigma has Filkr as a custom widget to showing up your Flickr Photos .Enigma provide you a platform for business template, awesome BOOTSTRAP Carousel slider for full CMS control option to match your logo & website, wide layout and many more."
+msgstr ""
+
+#. Theme Name of the theme
+#: core/admin/admin-themes.php:200
+msgid "Enigma"
+msgstr ""
+
+#: functions.php:541
+msgid "Current WPORG Rating"
+msgstr ""
+
+#: customizer.php:924
+msgid "Service Three Embed Youtube URL"
+msgstr ""
+
+#: customizer.php:869
+msgid "Service Two Embed Youtube URL"
+msgstr ""
+
+#: customizer.php:813
+msgid "Service One Embed Youtube URL"
+msgstr ""
+
+#: core/admin/admin-themes.php:246
+msgid "Visit Demo"
+msgstr ""
+
+#: core/admin/admin-themes.php:246
+msgid "http://demo.weblizar.com/enigma-premium/enigma-select/"
+msgstr ""
+
+#: core/admin/admin-themes.php:234
+msgid "Enigma Pro"
+msgstr ""
+
+#: core/admin/admin-themes.php:206
+msgid "Mega Menu Support"
+msgstr ""
+
+#: core/admin/admin-themes.php:203
+msgid "Parallax Design"
+msgstr ""
+
+#: core/admin/admin-themes.php:195
+msgid "Weblizar Offers"
+msgstr ""
+
+#: core/admin/admin-themes.php:178
+msgid "Healthcare Premium"
+msgstr ""
+
+#: core/admin/admin-themes.php:178
+msgid "https://weblizar.com/themes/healthcare/"
+msgstr ""
+
+#: core/admin/admin-themes.php:169
+msgid "Beautyspa Premium"
+msgstr ""
+
+#: core/admin/admin-themes.php:169
+msgid "https://weblizar.com/themes/beautyspa-premium/"
+msgstr ""
+
+#: core/admin/admin-themes.php:159
+msgid "Construction Premium"
+msgstr ""
+
+#: core/admin/admin-themes.php:159
+msgid "https://weblizar.com/themes/construction-premium-wordpress-theme/"
+msgstr ""
+
+#: core/admin/admin-themes.php:147
+msgid "Detail"
+msgstr ""
+
+#: core/admin/admin-themes.php:141
+msgid "USD"
+msgstr ""
+
+#: core/admin/admin-themes.php:136
+msgid "clean, responsive, portfolio, blog, e-commerce, Business, WordPress, Corporate, dark, real estate, shop, restaurant."
+msgstr ""
+
+#: core/admin/admin-themes.php:136
+msgid "Tags:"
+msgstr ""
+
+#: core/admin/admin-themes.php:134
+msgid "Enigma is an elegant versatile theme that gives you the tools you need to express who you are and what your business does in a professional and coherent manner. To help you get started with your website we have made sure to include 4 homepage layouts 10 unique heros and some 50+ content blocks that you can use to tailor Enigma to your needs and preferences."
+msgstr ""
+
+#: core/admin/admin-themes.php:134
+msgid "Description:"
+msgstr ""
+
+#: core/admin/admin-themes.php:109
+#: core/admin/admin-themes.php:188
+msgid "Visit Themes"
+msgstr ""
+
+#: core/admin/admin-themes.php:109
+#: core/admin/admin-themes.php:188
+msgid "https://weblizar.com/themes/"
+msgstr ""
+
+#: core/admin/admin-themes.php:108
+#: core/admin/admin-themes.php:187
+msgid "We have put in a lot of effort in all our themes, free and premium both. Each of our Premium themes has a corresponding free version so that you can try out the theme before you decide to purchase it."
+msgstr ""
+
+#: core/admin/admin-themes.php:107
+#: core/admin/admin-themes.php:186
+msgid "Visit Our Latest Pro Themes & See Demos"
+msgstr ""
+
+#: core/admin/admin-themes.php:101
+msgid "Go to Customizer"
+msgstr ""
+
+#: core/admin/admin-themes.php:99
+msgid "Home Page Layout Option - use for front page section order and box layout option. "
+msgstr ""
+
+#: core/admin/admin-themes.php:98
+msgid "Footer Options - Use to add Customization text, developed by text and developed by link. "
+msgstr ""
+
+#: core/admin/admin-themes.php:97
+msgid "Footer Call-Out Options - use to add Footer callout Title, Footer callout Button Text, Footer callout Button Link and Footer callout Icon "
+msgstr ""
+
+#: core/admin/admin-themes.php:96
+msgid "Social Options - enable/disable social option on header and footer, add social links, phone number, address and Email-ID."
+msgstr ""
+
+#: core/admin/admin-themes.php:95
+msgid "Typography Settings - use to change the font of the site. "
+msgstr ""
+
+#: core/admin/admin-themes.php:94
+msgid "Home Blog Options - Use to add blog title, description, blog excerpt length and enable/disable blog section on homepage and select category."
+msgstr ""
+
+#: core/admin/admin-themes.php:93
+msgid "Portfolio Options - It is use to add portfolio image, title, link and enable/disable portfolio on homepage."
+msgstr ""
+
+#: core/admin/admin-themes.php:92
+msgid "Service Options - It is use to add service icon, title, description and enable/disable service on homepage."
+msgstr ""
+
+#: core/admin/admin-themes.php:91
+msgid "Theme Slider Options - It is use to add slider image, title, description and enable/disable slider on homepage."
+msgstr ""
+
+#: core/admin/admin-themes.php:90
+msgid "Theme General Options - Theme General Options use for logo width and height, and add custom css."
+msgstr ""
+
+#: core/admin/admin-themes.php:89
+msgid "Go to Appearance -> Customize > Theme Options"
+msgstr ""
+
+#: core/admin/admin-themes.php:87
+msgid "Step 2: Customizer Options Panel"
+msgstr ""
+
+#: core/admin/admin-themes.php:73
+msgid "Add New Page"
+msgstr ""
+
+#: core/admin/admin-themes.php:71
+msgid "Save changes"
+msgstr ""
+
+#: core/admin/admin-themes.php:70
+msgid "select Show Front Page option"
+msgstr ""
+
+#: core/admin/admin-themes.php:69
+msgid "Now Go to Customize -> Theme Options -> Theme General Options."
+msgstr ""
+
+#: core/admin/admin-themes.php:68
+msgid "In \"Homepage\", select the page that you created as a home page."
+msgstr ""
+
+#: core/admin/admin-themes.php:67
+msgid "Go to Appearance -> Customize > Homepage Settings -> select A static page option."
+msgstr ""
+
+#: core/admin/admin-themes.php:66
+msgid "Create a new page -> home and publish."
+msgstr ""
+
+#: core/admin/admin-themes.php:64
+msgid "Step 1: Create a Homepage"
+msgstr ""
+
+#: core/admin/admin-themes.php:48
+msgid "Free Vs Pro"
+msgstr ""
+
+#: core/admin/admin-themes.php:46
+msgid "Getting Started"
+msgstr ""
+
+#: core/admin/admin-themes.php:37
+msgid "Get Pro In $39"
+msgstr ""
+
+#: core/admin/admin-themes.php:37
+#: core/admin/admin-themes.php:147
+msgid "https://weblizar.com/themes/enigma-premium/"
+msgstr ""
+
+#: core/admin/admin-themes.php:36
+msgid " Upgrade Pro"
+msgstr ""
+
+#: core/admin/admin-themes.php:29
+msgid "Enigma  is an outstanding superfine creation from weblizar, Enigma has become one of the most popular superfine multipurpose responsive theme with WPMLlovers by many professionals for its amazing capabilities and great designs. Enigma is multi function free WordPress theme with responsive and flexible light-weighted WooCommerce theme built by using core WordPress functions (BOOTSTRAP CSS framework) that works on All leading web browsers weather its mobile device or any other this makes it fast, simple and easy to customize! It has a promising design and powerful features with page layouts and sidebar widget that let your websites easy to design."
+msgstr ""
+
+#: core/admin/admin-themes.php:28
+msgid "Welcome to Enigma - Version"
+msgstr ""
+
+#: functions.php:536
+msgid "Go Pro Version"
+msgstr ""
+
+#: functions.php:534
+msgid "Rate"
+msgstr ""
+
+#: functions.php:532
+msgid " Big thanks in advance. "
+msgstr ""
+
+#: functions.php:531
+msgid " Rating "
+msgstr ""
+
+#: functions.php:530
+msgid " theme, please leave us a "
+msgstr ""
+
+#: functions.php:529
+msgid " If you like this "
+msgstr ""
+
+#: customizer.php:1546
+msgid "Show/Hide Footer Widgets"
+msgstr ""
+
+#: functions.php:524
+msgid "Thank you for installing"
+msgstr ""
+
+#: customizer.php:115
+msgid "Enable Breadcrumb Title"
+msgstr ""
+
+#: core/admin/hire-us.php:3
+msgid "<span style=\"color:#ffc94a\">Hire Us</span>"
+msgstr ""
+
+#: home-slideshow.php:39
+msgid "bounceInLeft"
+msgstr ""
+
+#: home-slideshow.php:35
+msgid "bounceInRight"
+msgstr ""
+
+#: home-slideshow.php:4
+msgid "slide"
+msgstr ""
+
+#: home-slideshow.php:4
+msgid "fadein"
+msgstr ""
+
+#. translators: %1$s: plugin name(s).
+#: class-tgm-plugin-activation.php:365
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %1$s: plugin name(s).
+#: class-tgm-plugin-activation.php:359
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %1$s: plugin name(s).
+#: class-tgm-plugin-activation.php:353
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %1$s: plugin name(s).
+#: class-tgm-plugin-activation.php:347
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %1$s: plugin name(s).
+#: class-tgm-plugin-activation.php:341
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %1$s: plugin name(s).
+#: class-tgm-plugin-activation.php:335
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: customizer.php:1680
+msgid "Boxed"
+msgstr ""
+
+#: customizer.php:1679
+msgid "Full-Width"
+msgstr ""
+
+#: customizer.php:1675
+msgid "Boxed Layout"
+msgstr ""
+
+#: customizer.php:232
+msgid "Fade"
+msgstr ""
+
+#: customizer.php:231
+msgid "Slide"
+msgstr ""
+
+#: customizer.php:226
+msgid "Slider Animation"
+msgstr ""
+
+#: customizer.php:99
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: customizer.php:1147
+msgid "Blog AutoPlay"
+msgstr ""
+
+#: customizer.php:1132
+msgid "Blog Read More Button"
+msgstr ""
+
+#: customizer.php:1118
+msgid "Blog Category"
+msgstr ""
+
+#: customizer.php:261
+msgid "Animation for Slider Description"
+msgstr ""
+
+#: customizer.php:245
+msgid "Animation for Slider Title"
+msgstr ""
+
+#: customizer.php:573
+msgid "Enable Search Box in header"
+msgstr ""
+
+#: customizer.php:557
+msgid "Here you can Search Box in header"
+msgstr ""
+
+#: customizer.php:556
+msgid "Search Box"
+msgstr ""
+
+#: customizer.php:1660
+msgid "Home Portfolio"
+msgstr ""
+
+#: customizer.php:1655
+msgid "Front Page Layout Option"
+msgstr ""
+
+#: customizer.php:1642
+msgid "Home Page Layout Option"
+msgstr ""
+
+#: customizer.php:1636
+msgid "Excerpt length only for home blog section."
+msgstr ""
+
+#: customizer.php:1633
+msgid "Excerpt length blog section"
+msgstr ""
+
+#: customizer.php:1620
+msgid "Excerpt Option"
+msgstr ""
+
+#: customizer.php:1101
+msgid "Blog Speed Option"
+msgstr ""
+
+#: customizer.php:599
+msgid "Product Title"
+msgstr ""
+
+#: customizer.php:582
+msgid "Product Options"
+msgstr ""
+
+#: customizer.php:83
+msgid "Show Site Title in Center"
+msgstr ""
+
+#: customizer.php:207
+#: customizer.php:1086
+msgid "Slider Speed Option"
+msgstr ""
+
+#: customizer.php:1432
+msgid "WhatsApp"
+msgstr ""
+
+#: customizer.php:1417
+msgid "QQ"
+msgstr ""
+
+#: customizer.php:1402
+msgid "VK"
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3509
+#: class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3509
+#: class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: install status, 2: update status
+#: class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#. translators: %s: version number
+#: class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1121
+#: class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:934
+#: class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:388
+#: class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-tgm-plugin-activation.php:387
+#: class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:386
+#: class-tgm-plugin-activation.php:827
+#: class-tgm-plugin-activation.php:2533
+#: class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: customizer.php:1213
+msgid "Theme Description Font Style"
+msgstr ""
+
+#: customizer.php:1199
+msgid "Theme Title Font Style"
+msgstr ""
+
+#: customizer.php:1185
+msgid "Header Menu Font Style"
+msgstr ""
+
+#: customizer.php:1171
+msgid "Logo Font Style"
+msgstr ""
+
+#: customizer.php:1156
+msgid "Typography Settings"
+msgstr ""
+
+#: customizer.php:1524
+msgid "Footer callout Icon"
+msgstr ""
+
+#: customizer.php:907
+msgid "Service Three Link"
+msgstr ""
+
+#: customizer.php:853
+msgid "Service Two Link"
+msgstr ""
+
+#: customizer.php:799
+msgid "Service One Link"
+msgstr ""
+
+#: customizer.php:754
+msgid "Enable Service on Home"
+msgstr ""
+
+#: core/admin/admin-themes.php:211
+msgid "Custom Shortcodes"
+msgstr ""
+
+#: core/admin/admin-themes.php:209
+msgid "Contact Page Template"
+msgstr ""
+
+#: core/admin/admin-themes.php:210
+msgid "About Us Page Template"
+msgstr ""
+
+#: core/admin/admin-themes.php:207
+msgid "Multilingual"
+msgstr "متعدد اللغات"
+
+#: core/admin/admin-themes.php:208
+msgid "10 Page Layout"
+msgstr ""
+
+#: core/admin/admin-themes.php:205
+msgid "Unlimited Color Skins"
+msgstr ""
+
+#: core/admin/admin-themes.php:204
+msgid "Theme Option Panel"
+msgstr ""
+
+#: core/admin/admin-themes.php:202
+msgid "Front Page"
+msgstr "الصفحة الرئيسية"
+
+#: core/admin/admin-themes.php:3
+#: functions.php:538
+msgid "About Enigma"
+msgstr ""
+
+#: core/admin/admin-themes.php:47
+msgid " Enigma premium"
+msgstr ""
+
+#: customizer.php:1386
+msgid "Instagram"
+msgstr "Instagram"
+
+#: customizer.php:1371
+msgid "Youtube"
+msgstr "Youtube"
+
+#: customizer.php:1036
+msgid "Home Blog Options"
+msgstr ""
+
+#: customizer.php:637
+msgid "Home Service Title"
+msgstr ""
+
+#: customizer.php:500
+msgid "Slider Button Link Two"
+msgstr ""
+
+#: customizer.php:454
+msgid "Slider Button Link One"
+msgstr ""
+
+#: core/admin/admin-themes.php:3
+#: core/admin/hire-us.php:3
+msgid "Welcome to Enigma"
+msgstr ""
+
+#: searchform.php:3
+msgid "What do you want to find?"
+msgstr ""
+
+#. translators: %s: search item.
+#: search.php:10
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: post-content.php:63
+msgid "Previous page"
+msgstr "الصفحة السابقة"
+
+#: post-content.php:62
+msgid "Next page"
+msgstr "الصفحة التالية"
+
+#: post-content.php:56
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: post-content.php:49
+msgid "Category : "
+msgstr ""
+
+#: post-content.php:44
+msgid "Tags : "
+msgstr ""
+
+#: nocontent.php:4
+msgid "Whoops... Post Not Found !!!"
+msgstr ""
+
+#: home-blog.php:91
+msgid "10"
+msgstr ""
+
+#: home-blog.php:90
+msgid " November 9 2013"
+msgstr ""
+
+#: home-blog.php:89
+msgid "By Admin"
+msgstr ""
+
+#: home-blog.php:85
+msgid "Add You Post To show post here.."
+msgstr ""
+
+#: home-blog.php:82
+msgid "HTML5"
+msgstr ""
+
+#: home-blog.php:81
+msgid "Bootstrap"
+msgstr ""
+
+#: home-blog.php:80
+msgid "Tags :&nbsp;"
+msgstr ""
+
+#: home-blog.php:77
+msgid "NO Post"
+msgstr ""
+
+#: header.php:93
+msgid "Toggle navigation"
+msgstr ""
+
+#: functions.php:413
+msgid "Linkedin Profile URL"
+msgstr ""
+
+#: functions.php:412
+msgid "Facebook Profile URL"
+msgstr ""
+
+#: functions.php:411
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: functions.php:410
+msgid "Youtube Profile URL"
+msgstr ""
+
+#: functions.php:399
+msgid "Error 404"
+msgstr "خطأ 404"
+
+#: functions.php:397
+msgid "Articles posted by"
+msgstr ""
+
+#: functions.php:393
+msgid "Tag"
+msgstr ""
+
+#: functions.php:390
+msgid "Search results for"
+msgstr ""
+
+#: functions.php:316
+msgid "footer widget area"
+msgstr "الودجات في الفوتر"
+
+#: functions.php:314
+msgid "Footer Widget Area"
+msgstr "الودجات في الفوتر"
+
+#: functions.php:306
+msgid "The primary widget area"
+msgstr "المربع الجانبي الرئيسي"
+
+#: functions.php:304
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: functions.php:201
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: functions.php:140
+msgid "Latest Blog"
+msgstr ""
+
+#: functions.php:136
+msgid "randomised"
+msgstr ""
+
+#: functions.php:133
+msgid "dictionary"
+msgstr ""
+
+#: functions.php:130
+msgid "Content"
+msgstr "المحتوى "
+
+#: functions.php:127
+msgid "Bonorum"
+msgstr ""
+
+#: functions.php:125
+msgid "Recent Works"
+msgstr ""
+
+#: functions.php:116
+msgid "WordPress"
+msgstr "ووردبريس"
+
+#: functions.php:111
+msgid "Records"
+msgstr ""
+
+#: functions.php:108
+#: functions.php:113
+#: functions.php:118
+msgid "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in."
+msgstr ""
+
+#: functions.php:106
+msgid "Idea"
+msgstr ""
+
+#: functions.php:105
+msgid "Our Services"
+msgstr ""
+
+#: functions.php:102
+msgid "Weblizar Themes"
+msgstr ""
+
+#: functions.php:101
+msgid "Theme Developed By"
+msgstr ""
+
+#: functions.php:100
+msgid " &#169; 2016 Enigma Theme"
+msgstr ""
+
+#: functions.php:81
+msgid "More Features"
+msgstr ""
+
+#: functions.php:80
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+msgstr ""
+
+#: functions.php:68
+msgid "Aldus PageMaker including versions of Lorem Ipsum, rutrum turpi"
+msgstr ""
+
+#: functions.php:67
+msgid "Contrary to popular "
+msgstr ""
+
+#: functions.php:63
+msgid "Contrary to popular belief, Lorem Ipsum is not simply random text"
+msgstr ""
+
+#: functions.php:62
+msgid "variations of passages"
+msgstr ""
+
+#: functions.php:49
+#: functions.php:59
+#: functions.php:64
+#: functions.php:69
+#: functions.php:236
+#: home-blog.php:86
+#: post-content.php:54
+#: post-page.php:13
+msgid "Read More"
+msgstr "اقرأ المزيد"
+
+#: functions.php:58
+msgid "Lorem Ipsum is simply dummy text of the printing"
+msgstr ""
+
+#: functions.php:57
+msgid "Slide Title"
+msgstr ""
+
+#: customizer.php:1612
+msgid "Developed By Link"
+msgstr ""
+
+#: customizer.php:1597
+msgid "Developed By Link Text"
+msgstr ""
+
+#: customizer.php:1582
+msgid "Developed By Text"
+msgstr ""
+
+#: customizer.php:1562
+msgid "Footer Customization Text"
+msgstr ""
+
+#: customizer.php:1532
+msgid "Footer Options"
+msgstr "خيارات التذييل"
+
+#: customizer.php:1509
+msgid "Footer callout Button Link"
+msgstr ""
+
+#: customizer.php:1489
+msgid "Footer callout Button Text"
+msgstr ""
+
+#: customizer.php:1469
+msgid "Footer callout Title"
+msgstr ""
+
+#: customizer.php:1454
+msgid "Enable Footer callout on HOme"
+msgstr ""
+
+#: customizer.php:1439
+msgid "Footer Call-Out Options"
+msgstr ""
+
+#: customizer.php:1356
+msgid "Goole+"
+msgstr ""
+
+#: customizer.php:1340
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: customizer.php:1325
+msgid "Facebook"
+msgstr "Facebook"
+
+#: customizer.php:1310
+msgid "Twitter"
+msgstr "Twitter"
+
+#: customizer.php:1295
+msgid "Phone Number"
+msgstr ""
+
+#: customizer.php:1275
+msgid "Email ID"
+msgstr ""
+
+#: customizer.php:1255
+msgid "Enable Social Media Icons in Footer"
+msgstr ""
+
+#: customizer.php:1051
+#: customizer.php:1235
+msgid "Enable Social Media Icons in Header"
+msgstr ""
+
+#: customizer.php:1220
+msgid "Social Options"
+msgstr ""
+
+#: customizer.php:1027
+msgid "Portfolio Link"
+msgstr ""
+
+#: customizer.php:1016
+msgid "Portfolio Title"
+msgstr ""
+
+#: customizer.php:1011
+msgid "Portfolio Image"
+msgstr ""
+
+#: customizer.php:998
+msgid "Portfolio Heading"
+msgstr ""
+
+#: customizer.php:934
+msgid "Here you can add Portfolio title,description and even portfolios"
+msgstr ""
+
+#: customizer.php:933
+msgid "Portfolio Options"
+msgstr ""
+
+#: customizer.php:899
+msgid "Service Three Text"
+msgstr ""
+
+#: customizer.php:892
+msgid "Service Icon Three"
+msgstr ""
+
+#: customizer.php:882
+msgid "Service Three Title"
+msgstr ""
+
+#: customizer.php:845
+msgid "Service Two Text"
+msgstr ""
+
+#: customizer.php:838
+msgid "Service Icon Two"
+msgstr ""
+
+#: customizer.php:827
+msgid "Service Two Title"
+msgstr ""
+
+#: customizer.php:791
+msgid "Service One Text"
+msgstr ""
+
+#: customizer.php:783
+msgid "Service Icon One"
+msgstr ""
+
+#: customizer.php:771
+msgid "Service One Title"
+msgstr ""
+
+#: customizer.php:609
+msgid "Service Options"
+msgstr ""
+
+#: customizer.php:545
+msgid "Slider Button Link Three"
+msgstr ""
+
+#: customizer.php:534
+msgid "Slider Button Text Three"
+msgstr ""
+
+#: customizer.php:522
+msgid "Slider Description Three"
+msgstr ""
+
+#: customizer.php:511
+msgid "Slider Title Three"
+msgstr ""
+
+#: customizer.php:506
+msgid "Slider Image Three"
+msgstr ""
+
+#: customizer.php:489
+msgid "Slider Button Text Two"
+msgstr ""
+
+#: customizer.php:477
+msgid "Slider Description Two"
+msgstr ""
+
+#: customizer.php:466
+msgid "Slider Title Two"
+msgstr ""
+
+#: customizer.php:460
+msgid "Slider Image Two "
+msgstr ""
+
+#: customizer.php:443
+msgid "Slider Button Text One"
+msgstr ""
+
+#: customizer.php:431
+msgid "Slider description one"
+msgstr ""
+
+#: customizer.php:420
+msgid "Slider title one"
+msgstr ""
+
+#: customizer.php:415
+msgid "Slider Image One"
+msgstr ""
+
+#: customizer.php:186
+msgid "Theme Slider Options"
+msgstr ""
+
+#: customizer.php:1066
+msgid "Home Blog Title"
+msgstr ""
+
+#: customizer.php:51
+msgid "Show Front Page"
+msgstr ""
+
+#: customizer.php:32
+msgid "Theme General Options"
+msgstr ""
+
+#: customizer.php:25
+msgid "Theme Options"
+msgstr "خيارات القالب"
+
+#: core/admin/admin-themes.php:217
+msgid "Free"
+msgstr ""
+
+#: customizer.php:177
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: core/admin/admin-themes.php:201
+msgid "Features"
+msgstr ""
+
+#: customizer.php:1661
+msgid "Home Blog"
+msgstr ""
+
+#: customizer.php:1659
+msgid "Home Services"
+msgstr ""
+
+#: customizer.php:992
+msgid "Enable Portfolio on Home"
+msgstr ""
+
+#: customizer.php:159
+msgid "Logo Width"
+msgstr ""
+
+#: customizer.php:143
+msgid "Logo Height"
+msgstr ""
+
+#: core/comment-function.php:33
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك بانتظار المراجعة."
+
+#: core/comment-function.php:25
+msgid "at"
+msgstr ""
+
+#: core/comment-function.php:10
+msgid "Reply"
+msgstr "رد"
+
+#: comments.php:38
+msgid "Leave a Reply"
+msgstr "أضف تعليقاً"
+
+#: comments.php:35
+msgid "Post Comment"
+msgstr "إرســال التعليق"
+
+#. translators: %s: reply to name
+#: comments.php:33
+msgid "Leave a Reply to %s"
+msgstr "اترك رداً على %s"
+
+#: comments.php:31
+msgid " Log out?"
+msgstr ""
+
+#: comments.php:31
+msgid "Logged in as "
+msgstr ""
+
+#: comments.php:21
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: comments.php:20
+msgid "Name"
+msgstr "الاسم"
+
+#: comments.php:12
+msgid "Newer Comments &rarr;"
+msgstr "التعليقات الأحدث &larr;"
+
+#: comments.php:11
+msgid "&larr; Older Comments"
+msgstr "&rarr; التعليقات الأقدم"
+
+#: comments.php:10
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: comments.php:6
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: comments.php:6
+msgid "No Comments"
+msgstr "لا توجد تعليقات"
+
+#: comments.php:2
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "هذه المقالة محمية بكلمة مرور. أدخل كلمة المرور لعرض التعليقات."
+
+#. translators: %s: category name.
+#: category.php:10
+msgid "Category Archives: %s"
+msgstr "أرشيف التصنيف: %s"
+
+#. translators: %s: author name.
+#: author.php:10
+msgid "Author Archives: %s"
+msgstr "أرشيف الكاتب: %s"
+
+#: author-intro.php:4
+msgid "About Author"
+msgstr ""
+
+#: archive.php:19
+msgid "Archives"
+msgstr "الأرشيف"
+
+#. translators: %s: year.
+#: archive.php:17
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#. translators: %s: year.
+#: archive.php:17
+msgid "Yearly Archives: %s"
+msgstr "الأرشيف السنوي: %s"
+
+#. translators: %s: month.
+#: archive.php:14
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#. translators: %s: month.
+#: archive.php:14
+msgid "Monthly Archives: %s"
+msgstr "الأرشيف الشهري: %s"
+
+#. translators: %s: date.
+#: archive.php:11
+msgid "Daily Archives: %s"
+msgstr "الأرشيف اليومي: %s"
+
+#: 404.php:32
+#: nocontent.php:6
+msgid "Go To Homepage"
+msgstr ""
+
+#: 404.php:31
+#: nocontent.php:5
+msgid "We`re sorry, but the page you are looking for doesn`t exist."
+msgstr ""
+
+#: 404.php:30
+msgid "Whoops... Page Not Found !!!"
+msgstr ""
+
+#: 404.php:29
+#: nocontent.php:3
+msgid "404"
+msgstr "صفحة الخطأ"
+
+#: 404.php:10
+#: core/menu/default_menu_walker.php:23
+#: functions.php:327
+msgid "Home"
+msgstr "صفحة البداية"
+
+#: 404.php:8
+#: 404.php:11
+msgid "404 Error"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://weblizar.com/"
+msgstr ""
+
+#. Author of the theme
+msgid "weblizar"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://weblizar.com/themes/enigma/"
+msgstr ""

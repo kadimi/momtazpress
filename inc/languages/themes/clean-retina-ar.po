@@ -1,0 +1,1028 @@
+# Translation of Themes - Clean Retina in Arabic
+# This file is distributed under the same license as the Themes - Clean Retina package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-02-28 01:10:02+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Clean Retina\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "Clean Retina is a Simple, Clean and Responsive Retina Ready WordPress Theme which adapts automatically to your tablets and mobile devices. Along with the elegant design the theme is easily customizable with numerous theme options. Some of the highlighted options are 9 home page layouts(corporate layout also included), 5 layouts for every post, featured slider to highlight your post and page, 11 social icons, webmaster tools, custom background, custom header, custom menu, custom favicon, custom CSS, custom webclip icon and many more.  Also supports some of the popular plugins like WooCommerce, bbPress, Breadcrumb NavXT, WP-PageNavi and Contact Form 7. Currently translated in Polish, Romanian, French, Swedish, German, Spanish, Persian and Russian. Get free support at https://www.themehorse.com/support-forum/ and view beautiful demo site at https://www.themehorse.com/preview/clean-retina"
+msgstr ""
+
+#. Theme Name of the theme
+msgid "Clean Retina"
+msgstr ""
+
+#: library/admin/theme-info/info.php:105
+msgid "Advance Corporate Template"
+msgstr ""
+
+#: library/admin/theme-info/info.php:104
+msgid "Additional Page Template"
+msgstr ""
+
+#: library/admin/theme-info/info.php:103
+msgid "Menu Position Options"
+msgstr ""
+
+#: library/admin/theme-info/info.php:101
+msgid "30+ Social Profiles"
+msgstr ""
+
+#: library/admin/theme-info/info.php:97
+msgid "Unlock all the Features with %1$s Pro"
+msgstr ""
+
+#: library/admin/theme-info/info.php:72
+msgid "Rate This Theme"
+msgstr ""
+
+#: library/admin/theme-info/info.php:72
+msgid "Theme Details"
+msgstr ""
+
+#: library/admin/theme-info/info.php:68
+msgid "%1$s is now installed and all of it's features are now ready to use. Here, we have the following information and helpful links for your better experience with %1$s. %2$sThank you very much for installing and activating our theme! %2$sLet's get start setting up your site now... :)"
+msgstr ""
+
+#. translators: 1-theme name
+#: library/admin/theme-info/info.php:66
+msgid "Welcome to %1$s"
+msgstr ""
+
+#: library/admin/theme-info/info.php:56
+msgid "About Clean Retina"
+msgstr ""
+
+#: library/admin/theme-info/info.php:48
+msgid "Get started with %1$s"
+msgstr ""
+
+#: library/admin/theme-info/info.php:47
+msgid "Welcome! Thank you for choosing %1$s. Please make sure you visit our %2$stheme details%3$s page to get started with %1$s theme."
+msgstr ""
+
+#: library/admin/theme-info/info.php:28
+msgid "Free Vs Pro"
+msgstr ""
+
+#: library/admin/theme-info/info.php:27
+msgid "Support"
+msgstr ""
+
+#: library/admin/theme-info/info.php:25
+msgid "Getting Started"
+msgstr ""
+
+#: library/admin/theme-info/sections/support.php:23
+msgid "Still need support? Please create a support ticket in our dedicated forum and one of our support member will get back to you ASAP."
+msgstr ""
+
+#: library/admin/theme-info/sections/support.php:22
+#: library/admin/theme-info/sections/support.php:24
+msgid "Contact Support"
+msgstr ""
+
+#: library/admin/theme-info/sections/support.php:16
+msgid "View Changelog"
+msgstr ""
+
+#: library/admin/theme-info/sections/support.php:15
+msgid "See the list on the latest version changes. Just see the changelog to get complete list of recent fixes and new features."
+msgstr ""
+
+#: library/admin/theme-info/sections/support.php:14
+msgid "Changelog"
+msgstr ""
+
+#: library/admin/theme-info/sections/support.php:8
+msgid "Read Documentation"
+msgstr ""
+
+#: library/admin/theme-info/sections/support.php:4
+msgid "Documentation"
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:42
+msgid "Theme uses customizer API for theme options. All settings and theme options are available via %1$s\"Appearance > Customize\"%2$s where you can easily customize different aspects of the theme."
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:39
+msgid "Step 4:"
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:35
+msgid "Go to Customize"
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:33
+msgid "Click on Save"
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:32
+msgid "Select the pages that you want to show in %1$sCorporate page template %2$s from the dropdown option."
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:31
+msgid "Go to %1$s\"Appearance > Customize > Advanced Options > Corporate Page Template Option\"%2$s."
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:29
+msgid "Now set \"Pages\" to \"Corporate Page Template\""
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:27
+msgid "Step 3:"
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:23
+msgid "Assign Static Page"
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:20
+msgid "Select the page that you have created in the %1$s\"Step 1\"%2$s for %1$s\"Homepage\"%2$s."
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:19
+msgid "Set %1$s\"Your homepage displays\"%2$s to %1$s\"A Static Page\"%2$s."
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:18
+msgid "Go to %1$s\"Appearance > Customize > Homepage Settings\"%2$s."
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:16
+msgid "Set \"Your homepage displays\" to \"A Static Page\""
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:14
+msgid "Step 2:"
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:10
+msgid "Create New Page"
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:8
+#: library/admin/theme-info/sections/recommended_actions.php:21
+msgid "Click on Publish"
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:7
+msgid "Select %1$s\"Corporate Template\"%2$s for the option %1$sPage Attributes > Template%2$s which you can find it from the right section of the page editor."
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:6
+msgid "Create a new page with any title."
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:4
+msgid "Create a new page with \"Front Page Template\""
+msgstr ""
+
+#: library/admin/theme-info/sections/recommended_actions.php:2
+msgid "Step 1:"
+msgstr ""
+
+#: library/admin/theme-info/info.php:113
+#: library/admin/theme-info/sections/free_vs_pro.php:136
+msgid "Footer Editor"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:129
+msgid "Background Patterns"
+msgstr ""
+
+#: library/admin/theme-info/info.php:112
+#: library/admin/theme-info/sections/free_vs_pro.php:122
+msgid "Custom Widgets"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:115
+msgid "Excerpt More Text Modification"
+msgstr ""
+
+#: library/admin/theme-info/info.php:111
+#: library/admin/theme-info/sections/free_vs_pro.php:108
+msgid "Color Elements"
+msgstr ""
+
+#: library/admin/theme-info/info.php:110
+#: library/admin/theme-info/sections/free_vs_pro.php:101
+msgid "Color Scheme"
+msgstr ""
+
+#: library/admin/theme-info/info.php:109
+#: library/admin/theme-info/sections/free_vs_pro.php:94
+msgid "Color Options"
+msgstr ""
+
+#: library/admin/theme-info/info.php:108
+#: library/admin/theme-info/sections/free_vs_pro.php:87
+msgid "Font Color"
+msgstr ""
+
+#: library/admin/theme-info/info.php:107
+#: library/admin/theme-info/sections/free_vs_pro.php:80
+msgid "Font Size"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:75
+msgid "500+ Google Fonts"
+msgstr ""
+
+#: library/admin/theme-info/info.php:106
+#: library/admin/theme-info/sections/free_vs_pro.php:73
+msgid "Font Family"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:68
+msgid "2/3/4 Column"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:66
+msgid "Gallery"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:61
+msgid "Advance"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:60
+msgid "Simple"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:52
+msgid "Page Templates"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:45
+msgid "Revolution Slider Compatible"
+msgstr ""
+
+#: library/admin/theme-info/info.php:102
+#: library/admin/theme-info/sections/free_vs_pro.php:38
+msgid "Image Slider"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:31
+msgid "Social Proflies"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:26
+msgid "Left/Center/Right"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:24
+msgid "Menu Position"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:19
+msgid "Wide/Narrow"
+msgstr ""
+
+#: library/admin/theme-info/info.php:100
+#: library/admin/theme-info/sections/free_vs_pro.php:17
+msgid "Site Layout"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:12
+msgid "PRO"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:11
+msgid "FREE"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:10
+msgid "LIST OF FEATURES"
+msgstr ""
+
+#: library/admin/theme-info/sections/free_vs_pro.php:4
+#: library/admin/theme-info/sections/free_vs_pro.php:143
+msgid "Unlock all the features with %s Pro"
+msgstr ""
+
+#: library/admin/theme-info/sections/getting_started.php:24
+#: library/admin/theme-info/sections/recommended_actions.php:43
+msgid "Go to Theme Options"
+msgstr ""
+
+#: library/admin/theme-info/sections/getting_started.php:23
+msgid "All settings and theme options are available via \"Customizer\" where you can easily customize different aspects of the theme."
+msgstr ""
+
+#. translators: Theme Name
+#: library/admin/theme-info/sections/getting_started.php:15
+#: library/admin/theme-info/sections/support.php:7
+msgid "Read our full documentation for all the detailed information on how to setup and use %s theme."
+msgstr ""
+
+#: library/admin/theme-info/sections/getting_started.php:12
+#: library/admin/theme-info/sections/getting_started.php:16
+msgid "Read Full Documentation"
+msgstr ""
+
+#: library/admin/theme-info/sections/getting_started.php:5
+msgid "Complete the list of steps so that you can set up your site same like our demo which is very easy to follow."
+msgstr ""
+
+#: library/admin/theme-info/info.php:26
+#: library/admin/theme-info/sections/getting_started.php:4
+#: library/admin/theme-info/sections/getting_started.php:6
+msgid "Recommended Actions"
+msgstr ""
+
+#: library/structure/header-extensions.php:92
+msgid "Responsive Menu"
+msgstr ""
+
+#: library/functions/customizer.php:774
+msgid "Clean Retina Pro"
+msgstr ""
+
+#: library/functions/customizer.php:570
+msgid "Shuffle"
+msgstr "مراوغة (Shuffle)"
+
+#: library/functions/customizer.php:569
+msgid "Cover"
+msgstr "التفاف"
+
+#: library/functions/customizer.php:568
+msgid "Blind Z"
+msgstr ""
+
+#: library/functions/customizer.php:567
+msgid "Blind Y"
+msgstr ""
+
+#: library/functions/customizer.php:566
+msgid "Blind X"
+msgstr ""
+
+#: library/functions/customizer.php:565
+msgid "Scroll Right"
+msgstr ""
+
+#: library/functions/customizer.php:564
+msgid "Scroll Left"
+msgstr ""
+
+#: library/functions/customizer.php:563
+msgid "Scroll Down"
+msgstr ""
+
+#: library/functions/customizer.php:562
+msgid "Scroll Up"
+msgstr ""
+
+#: library/functions/customizer.php:561
+msgid "Wipe"
+msgstr "مسح"
+
+#: library/functions/customizer.php:560
+msgid "Fade"
+msgstr "Fade"
+
+#: library/functions/customizer.php:542
+msgid "Please refresh the page to display effect on Slider Quantity"
+msgstr ""
+
+#: library/functions/customizer.php:490
+msgid "Only posts that belong to the categories selected here will be displayed on the front page. ( You may select multiple categories by holding down the CTRL key. ) "
+msgstr ""
+
+#: library/functions/customizer.php:263
+msgid "Blog Full Content"
+msgstr ""
+
+#: library/functions/customizer.php:262
+msgid "Blog Image Medium"
+msgstr ""
+
+#: library/functions/customizer.php:261
+msgid "Blog Image Large"
+msgstr ""
+
+#: library/functions/customizer.php:230
+msgid "Layout Display Type on Home Page"
+msgstr ""
+
+#: library/functions/customizer.php:154
+msgid "Clean Retina Support"
+msgstr ""
+
+#: library/functions/customizer.php:167
+msgid "Clean Retina Upgrade"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:38
+msgid "Customizer"
+msgstr "مخصّص"
+
+#. Template Name of the theme
+#: library/admin/theme-info/sections/free_vs_pro.php:59
+msgid "Corporate Template"
+msgstr ""
+
+#: library/widgets/cleanretina_widgets.php:107
+msgid "Title:"
+msgstr "العنوان:"
+
+#: library/widgets/cleanretina_widgets.php:55
+msgid "Theme Horse: Custom Tag Cloud"
+msgstr ""
+
+#: library/widgets/cleanretina_widgets.php:53
+msgid "Displays Custom Tag Cloud"
+msgstr ""
+
+#: library/widgets/cleanretina_widgets.php:30
+msgid "Shows widgets at footer."
+msgstr ""
+
+#: library/widgets/cleanretina_widgets.php:28
+msgid "Footer Sidebar"
+msgstr ""
+
+#: library/widgets/cleanretina_widgets.php:19
+msgid "Shows widgets at side."
+msgstr ""
+
+#: library/widgets/cleanretina_widgets.php:17
+msgid "Side Sidebar"
+msgstr ""
+
+#: library/structure/searchform-extensions.php:20
+#: library/structure/searchform-extensions.php:21
+msgid "Search"
+msgstr "بحث"
+
+#: library/structure/header-extensions.php:294
+msgid "Continue Reading"
+msgstr "متابعة القراءة"
+
+#: library/structure/header-extensions.php:208
+msgid "%1$s on %2$s"
+msgstr "%1$s على %2$s"
+
+#: library/structure/footer-extensions.php:62
+msgid "Powered by:"
+msgstr ""
+
+#: library/structure/footer-extensions.php:62
+msgid "Theme by:"
+msgstr ""
+
+#: library/structure/footer-extensions.php:62
+msgid "Copyright &copy;"
+msgstr ""
+
+#: library/footer_info/cleanretina-footer_info.php:34
+msgid "WordPress"
+msgstr "WordPress"
+
+#: library/functions/functions.php:748
+msgid "Check for a mis-typed URL error, then press the refresh button on your browser."
+msgstr ""
+
+#: library/functions/functions.php:747
+msgid "Please try the following instead:"
+msgstr ""
+
+#: library/functions/functions.php:746
+msgid "You have typed the web address incorrectly, or the page you were looking for may have been moved, updated or deleted."
+msgstr "قمت بكتابة عنوان غير صحيح ، أو قد يكون تم نقل الصفحة أو حذفها "
+
+#: library/functions/functions.php:745
+msgid "This might be because:"
+msgstr "قد يكون بسبب :"
+
+#: library/functions/functions.php:744
+msgid "It seems we can't find what you're looking for."
+msgstr ""
+
+#: library/functions/functions.php:741
+msgid "Error 404-Page NOT Found"
+msgstr ""
+
+#: library/functions/functions.php:722
+msgid "Reply <span>&darr;</span>"
+msgstr "رد <span>&darr;</span>"
+
+#: library/functions/functions.php:718
+msgid "Edit"
+msgstr "تحرير"
+
+#: library/functions/functions.php:713
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك بأنتظار الموافقة بالنشر."
+
+#. translators: 1: date, 2: time
+#: library/functions/functions.php:707
+msgid "%1$s at %2$s"
+msgstr "%1$s الساعة %2$s"
+
+#: library/functions/functions.php:701
+msgid "Post author"
+msgstr "كاتب المقال"
+
+#: library/functions/functions.php:686
+msgid "(Edit)"
+msgstr "(تحرير)"
+
+#: library/functions/functions.php:686
+msgid "Pingback:"
+msgstr "التنبيه:"
+
+#: library/functions/functions.php:510
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: library/functions/functions.php:509
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: library/functions/functions.php:502
+msgid "Next &rarr;"
+msgstr "التالي &larr;"
+
+#: library/functions/functions.php:501
+msgid "&larr; Previous"
+msgstr "&rarr; السابق"
+
+#: library/functions/functions.php:484
+msgid "Next &raquo;"
+msgstr "التالي &raquo;"
+
+#: library/functions/functions.php:483
+msgid "&laquo; Previous"
+msgstr "&laquo; الصفحة السابقة"
+
+#: library/functions/functions.php:461
+msgid "Try a new search."
+msgstr ""
+
+#: library/functions/functions.php:460
+msgid "No Posts Found."
+msgstr "لا توجد مقالات."
+
+#: library/functions/functions.php:422
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: library/functions/functions.php:414
+msgid "Tagged on: "
+msgstr ""
+
+#: library/functions/functions.php:408
+msgid ", "
+msgstr "، "
+
+#: library/functions/functions.php:396
+msgid "Read more"
+msgstr "اقرأ المزيد"
+
+#: library/functions/functions.php:369
+#: library/functions/functions.php:375
+msgid "Permalink to "
+msgstr ""
+
+#: library/functions/functions.php:350
+msgid "Comments Off"
+msgstr "التعليقات مغلقة"
+
+#: library/functions/functions.php:350
+msgid "% Comments"
+msgstr "% تعليقات"
+
+#: library/functions/functions.php:350
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: library/functions/functions.php:350
+msgid "No Comments"
+msgstr "لا توجد تعليقات"
+
+#: library/functions/functions.php:344
+msgid "By"
+msgstr "بقلم"
+
+#: library/functions/customizer.php:710
+msgid "Note: Enter your custom footer script."
+msgstr ""
+
+#: library/functions/customizer.php:709
+msgid "Code to display on Footer"
+msgstr "Code to display on Footer"
+
+#: library/functions/customizer.php:697
+msgid "Note: Enter your custom header script."
+msgstr ""
+
+#: library/functions/customizer.php:696
+msgid "Code to display on Header"
+msgstr "Code to display on Header"
+
+#: library/functions/customizer.php:652
+#: library/structure/header-extensions.php:189
+msgid "RSS"
+msgstr "RSS"
+
+#: library/functions/customizer.php:651
+#: library/structure/header-extensions.php:188
+msgid "Myspace"
+msgstr "MySpace"
+
+#: library/functions/customizer.php:650
+#: library/structure/header-extensions.php:187
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: library/functions/customizer.php:649
+#: library/structure/header-extensions.php:186
+msgid "Flickr"
+msgstr "Flickr"
+
+#: library/functions/customizer.php:648
+#: library/structure/header-extensions.php:185
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: library/functions/customizer.php:647
+#: library/structure/header-extensions.php:184
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: library/functions/customizer.php:646
+#: library/structure/header-extensions.php:183
+msgid "Youtube"
+msgstr "Youtube"
+
+#: library/functions/customizer.php:645
+#: library/structure/header-extensions.php:182
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: library/functions/customizer.php:644
+#: library/structure/header-extensions.php:181
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: library/functions/customizer.php:643
+#: library/structure/header-extensions.php:180
+msgid "Twitter"
+msgstr "Twitter"
+
+#: library/functions/customizer.php:642
+#: library/structure/header-extensions.php:179
+msgid "Facebook"
+msgstr "فيس بوك"
+
+#: library/functions/customizer.php:628
+msgid " Featured Slider Post/Page #"
+msgstr ""
+
+#: library/functions/customizer.php:613
+msgid "Exclude Slider post from Homepage posts?"
+msgstr ""
+
+#: library/functions/customizer.php:601
+msgid "Featured Post/ Page Slider Options"
+msgstr ""
+
+#: library/functions/customizer.php:594
+msgid "Transition Length"
+msgstr "طول الانتظار"
+
+#: library/functions/customizer.php:581
+msgid "Transition Delay"
+msgstr "تأخير التحويل"
+
+#: library/functions/customizer.php:555
+msgid "Transition Effect"
+msgstr ""
+
+#: library/functions/customizer.php:541
+msgid "Number of Slides"
+msgstr "عدد السلايدر"
+
+#: library/functions/customizer.php:528
+msgid "Disable Slider"
+msgstr "تعطيل عارض الشرائح"
+
+#: library/functions/customizer.php:45
+msgid "--Disabled--"
+msgstr ""
+
+#: library/functions/customizer.php:505
+msgid "Front page posts categories"
+msgstr ""
+
+#: library/functions/customizer.php:489
+msgid "Homepage / Frontpage Category Setting"
+msgstr ""
+
+#: library/functions/customizer.php:481
+msgid "Feed Redirect URL"
+msgstr "Feed Redirect URL"
+
+#: library/functions/customizer.php:470
+msgid "Feed Redirect"
+msgstr ""
+
+#: library/functions/customizer.php:463
+msgid "Default value for excerpt length is 30 words."
+msgstr ""
+
+#: library/functions/customizer.php:462
+msgid "Excerpt Length"
+msgstr ""
+
+#: library/functions/customizer.php:451
+msgid "Excerpt Options"
+msgstr ""
+
+#: library/functions/customizer.php:443
+msgid "Page #"
+msgstr ""
+
+#: library/functions/customizer.php:429
+msgid "Settings used on pages that use the \"Corporate Template\" page template. This template must be assigned to a page before its settings take effect."
+msgstr ""
+
+#: library/functions/customizer.php:428
+msgid "Corporate Page Template Options"
+msgstr ""
+
+#: library/functions/customizer.php:420
+msgid "Description"
+msgstr "توصيف"
+
+#: library/functions/customizer.php:407
+msgid "Title"
+msgstr "العنوان"
+
+#: library/functions/customizer.php:394
+msgid "Redirect Link"
+msgstr ""
+
+#: library/functions/customizer.php:380
+msgid "Upload Icon Image"
+msgstr ""
+
+#: library/functions/customizer.php:379
+msgid "Featured Box #"
+msgstr ""
+
+#: library/functions/customizer.php:360
+msgid "Corporate Content Title"
+msgstr ""
+
+#: library/functions/customizer.php:348
+msgid "Homes Corporate Type Layout Options"
+msgstr ""
+
+#: library/functions/customizer.php:340
+msgid "Home Page Slogan2"
+msgstr ""
+
+#: library/functions/customizer.php:328
+#: library/functions/customizer.php:341
+msgid "The appropriate length of the slogan is around 10 words."
+msgstr ""
+
+#: library/functions/customizer.php:327
+msgid "Home Page Slogan1"
+msgstr ""
+
+#: library/functions/customizer.php:317
+msgid "Below Slider"
+msgstr ""
+
+#: library/functions/customizer.php:316
+msgid "Above Slider"
+msgstr ""
+
+#: library/functions/customizer.php:310
+msgid "Slogan Position"
+msgstr ""
+
+#: library/functions/customizer.php:298
+msgid "Disable Slogan Part"
+msgstr ""
+
+#: library/functions/customizer.php:287
+msgid "Home Slogan Options"
+msgstr ""
+
+#: library/functions/customizer.php:269
+msgid "This CSS will overwrite the CSS of style.css file."
+msgstr ""
+
+#: library/functions/customizer.php:268
+msgid "Custom CSS"
+msgstr "تخصيص CSS"
+
+#: library/functions/customizer.php:254
+msgid "Blog Display Type on Home Page"
+msgstr ""
+
+#: library/functions/customizer.php:243
+msgid "Corporate Layout"
+msgstr ""
+
+#: library/functions/customizer.php:231
+msgid "If you chose the corporate layout then you will have to add corporate layout content from Home Corporate Layout option under Advanced Options Tab."
+msgstr ""
+
+#: library/functions/customizer.php:231
+msgid "To select one of these layouts, Latest Posts should be checked in Reading sub-menu of Settings menu. Go to Settings->Reading->Check on Your Latest Posts"
+msgstr ""
+
+#: library/functions/customizer.php:219
+msgid "Home Page Layout Options"
+msgstr ""
+
+#: library/functions/customizer.php:214
+#: library/functions/customizer.php:242
+msgid "Right Sidebar"
+msgstr "الشريط الجانبي (يمين)"
+
+#: library/functions/customizer.php:213
+#: library/functions/customizer.php:241
+msgid "Left Sidebar"
+msgstr "الشريط الجانبي (يسار)"
+
+#: library/functions/customizer.php:211
+#: library/functions/customizer.php:239
+msgid "No Sidebar, Full Width"
+msgstr ""
+
+#: library/functions/customizer.php:210
+#: library/functions/customizer.php:238
+msgid "No Sidebar"
+msgstr ""
+
+#: library/functions/customizer.php:194
+msgid "Default Layout Options"
+msgstr ""
+
+#: library/functions/customizer.php:187
+msgid "Hide Searchform from Header"
+msgstr ""
+
+#: library/functions/customizer.php:176
+msgid "Custom Header"
+msgstr "ترويسة خاصة"
+
+#: library/functions/customizer.php:686
+msgid "Webmaster Tools"
+msgstr "ادوات مشرفي المواقع"
+
+#: library/functions/customizer.php:637
+msgid "Social Links"
+msgstr "الشبكات الاجتماعية"
+
+#: library/functions/customizer.php:148
+#: library/functions/customizer.php:516
+msgid "Featured Post/ Page Slider"
+msgstr ""
+
+#: library/functions/customizer.php:142
+msgid "Advanced Options"
+msgstr ""
+
+#: library/functions/customizer.php:136
+msgid "Design Options"
+msgstr ""
+
+#: library/admin/theme-info/info.php:72
+#: library/functions/customizer.php:24
+msgid "View Demo"
+msgstr ""
+
+#: library/functions/customizer.php:23
+msgid "Clean Retina Demo"
+msgstr ""
+
+#: library/functions/customizer.php:20
+#: library/functions/customizer.php:21
+msgid "Support Forum"
+msgstr "Support Forum"
+
+#: library/functions/customizer.php:18
+msgid "Theme Instructions"
+msgstr "Theme Instructions"
+
+#: library/functions/customizer.php:17
+msgid "Clean Retina Theme Instructions"
+msgstr ""
+
+#: library/functions/customizer.php:15
+msgid "Rate Clean Retina"
+msgstr ""
+
+#: library/functions/customizer.php:14
+msgid "Review Clean Retina"
+msgstr ""
+
+#: library/admin/theme-info/info.php:72
+#: library/admin/theme-info/info.php:118
+#: library/admin/theme-info/info.php:120
+#: library/admin/theme-info/sections/free_vs_pro.php:4
+#: library/admin/theme-info/sections/free_vs_pro.php:5
+#: library/admin/theme-info/sections/free_vs_pro.php:143
+#: library/admin/theme-info/sections/free_vs_pro.php:144
+#: library/functions/customizer.php:775
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: library/admin/theme-info/sections/getting_started.php:22
+#: library/admin/theme-info/sections/recommended_actions.php:41
+msgid "Theme Options"
+msgstr "خيارات القالب"
+
+#: library/admin/cleanretina-metaboxes.php:68
+msgid "Right sidebar"
+msgstr "الشريط الجانبي (يمين)"
+
+#: library/admin/cleanretina-metaboxes.php:62
+msgid "Left sidebar"
+msgstr "الشريط الجانبي (يسار)"
+
+#: library/admin/cleanretina-metaboxes.php:56
+#: library/functions/customizer.php:212
+#: library/functions/customizer.php:240
+msgid "No Sidebar, One Column"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:50
+msgid "No sidebar, Full Width"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:44
+msgid "No sidebar"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:38
+msgid "Default Layout Set in"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:25
+msgid "Select layout for this specific Post only"
+msgstr ""
+
+#: library/admin/cleanretina-metaboxes.php:19
+msgid "Select layout for this specific Page only ( Note: This setting only reflects if page Template is set as Default Template.)"
+msgstr ""
+
+#: functions.php:132
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة"
+
+#: comments.php:48
+msgid "Newer Comments &rarr;"
+msgstr "تعليقات أقدم &larr;"
+
+#: comments.php:47
+msgid "&larr; Older Comments"
+msgstr "&rarr; تعليقات أقدم"
+
+#: comments.php:46
+msgid "Comment navigation"
+msgstr "استعراض التعليق"
+
+#: comments.php:35
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:32
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.themehorse.com"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://www.themehorse.com/themes/clean-retina"
+msgstr ""
+
+#. Author of the theme
+#: library/footer_info/cleanretina-footer_info.php:42
+msgid "Theme Horse"
+msgstr ""

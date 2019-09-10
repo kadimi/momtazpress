@@ -1,0 +1,320 @@
+# Translation of Plugins - Photo Gallery by 10Web &#8211; Mobile-Friendly Image Gallery - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - Photo Gallery by 10Web &#8211; Mobile-Friendly Image Gallery - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-04-29 02:06:05+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Plugins - Photo Gallery by 10Web &#8211; Mobile-Friendly Image Gallery - Stable (latest release)\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: addons/addons.php:69
+msgid "GET THIS ADD ON"
+msgstr "الحصول على الملحقات الإضافية"
+
+#: addons/addons.php:34
+msgid "Add-ons are supported by premium version of Photo Gallery"
+msgstr "الملحقات الإضافية Add-ons مدعومة بواسطة الإصدار المدفوع premium من Photo Gallery"
+
+#: addons/addons.php:33
+msgid "Attention"
+msgstr "انتباه"
+
+#: addons/addons.php:30
+msgid "Photo Gallery Add-ons"
+msgstr "ملحقات Photo Gallery الإضافية"
+
+#: addons/addons.php:21
+msgid "Photo Gallery Export/Import helps to move created galleries and albums from one site to another. This way you can save the gallery/album options and manual modifications."
+msgstr ""
+
+#: addons/addons.php:19
+msgid "Photo Gallery Export / Import"
+msgstr "تصدير / استيراد Photo Gallery"
+
+#: addons/addons.php:14
+msgid "This addon integrates NextGen with Photo Gallery allowing to import images and related data from NextGen to use with Photo Gallery"
+msgstr "هذا الملحق يدمج NextGen مع Photo Gallery مما يسمح باستيراد الصور والبيانات ذات الصلة من NextGen لاستخدامها مع Photo Gallery"
+
+#: addons/addons.php:12
+msgid "NextGen Gallery Import to Photo Gallery"
+msgstr "استيراد NextGen Gallery إلى Photo Gallery"
+
+#: addons/addons.php:7
+msgid "Photo Gallery Facebook is an add-on, which helps to display Facebook photos and videos within Photo Gallery plugin. You can create Facebook-only galleries, embed individual images and videos or include Facebook albums within mixed type albums."
+msgstr ""
+
+#: addons/addons.php:5
+msgid "Photo Gallery Facebook"
+msgstr "ألبوم صور فيسبوك"
+
+#. Author URI of the plugin/theme
+msgid "https://web-dorado.com/"
+msgstr "https://web-dorado.com/"
+
+#. Author of the plugin/theme
+msgid "WebDorado"
+msgstr "WebDorado"
+
+#. Description of the plugin/theme
+msgid "This plugin is a fully responsive gallery plugin with advanced functionality.  It allows having different image galleries for your posts and pages. You can create unlimited number of galleries, combine them into albums, and provide descriptions and tags."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://web-dorado.com/products/wordpress-photo-gallery-plugin.html"
+msgstr "https://web-dorado.com/products/wordpress-photo-gallery-plugin.html"
+
+#. Plugin Name of the plugin/theme
+msgid "Photo Gallery"
+msgstr "Photo Gallery"
+
+#: photo-gallery.php:2564
+msgid "This is not a valid email address."
+msgstr "هذا ليس عنوان بريد إلكتروني صحيح."
+
+#: photo-gallery.php:2563
+msgid "field is required."
+msgstr "الحقل مطلوب."
+
+#: photo-gallery-notices.php:192
+msgid "Maybe Later"
+msgstr "ربما لاحقًا"
+
+#: photo-gallery-notices.php:191
+msgid "I've already left a review"
+msgstr "لقد تركت مراجعة بالفعل"
+
+#: photo-gallery-notices.php:190
+msgid "Sure! I'd love to!"
+msgstr "بالتأكيد! أودّ ذلك!"
+
+#: photo-gallery-notices.php:189
+msgid "We hope you've enjoyed using WordPress %s! Would you consider leaving us a review on WordPress.org?"
+msgstr "نأمل بأنك مستمتع باستخدامك لـ ووردبريس %s! هل تفكر في ترك مراجعة لنا  WordPress.org؟"
+
+#: photo-gallery-notices.php:188
+msgid "Leave A Review?"
+msgstr "ترك مراجعة؟"
+
+#: photo-gallery-notices.php:193
+#: photo-gallery-notices.php:203
+msgid "Never show again"
+msgstr "عدم الإظهار مرة أخرى"
+
+#: photo-gallery-notices.php:202
+msgid "Get Some Help"
+msgstr "احصل على بعض المساعدة"
+
+#: photo-gallery-notices.php:201
+msgid "Check out User Guide"
+msgstr "تحقق من دليل المستخدم"
+
+#: photo-gallery-notices.php:200
+msgid "Thank you for using WordPress %s! We hope that you've found everything you need, but if you have any questions:"
+msgstr "شكرًا لك على استخدام ووردبريس %s! نأمل أن تجد كل ماتحتاجه، ولكن إذا كانت لديك أسئلة:"
+
+#: photo-gallery-notices.php:199
+msgid "Hey! How's It Going?"
+msgstr "مرحبًا! ماذا يحدث؟"
+
+#: frontend/views/BWGViewImage_browser.php:77
+#: frontend/views/BWGViewSlideshow.php:124
+#: frontend/views/BWGViewThumbnails.php:161
+msgid "There is no gallery selected or the gallery was deleted."
+msgstr "لا توجد المعرض المحددة أو تم حذف المعرض"
+
+#: frontend/views/BWGViewGalleryBox.php:2189
+#: frontend/views/BWGViewGalleryBox.php:2204
+#: frontend/views/BWGViewSlideshow.php:1433
+#: frontend/views/BWGViewSlideshow.php:1451
+msgid "Pause"
+msgstr "وقفة"
+
+#: frontend/views/BWGViewGalleryBox.php:2175
+msgid "Exit Fullscreen"
+msgstr "خروج ملء الشاشة"
+
+#: frontend/views/BWGViewGalleryBox.php:2064
+#: frontend/views/BWGViewGalleryBox.php:2264
+msgid "Restore"
+msgstr "استعادة"
+
+#: frontend/views/BWGViewGalleryBox.php:1909
+msgid "Hide info"
+msgstr "إخفاء المعلومات"
+
+#: frontend/views/BWGViewGalleryBox.php:1765
+msgid "Hide Comments"
+msgstr "إخفاء التعليقات"
+
+#: frontend/views/BWGViewGalleryBox.php:1722
+msgid "Show Comments"
+msgstr " عرض التعليقات"
+
+#: frontend/views/BWGViewGalleryBox.php:871
+msgid "Download original image"
+msgstr "تحميل الصورة الأصلية"
+
+#: frontend/views/BWGViewGalleryBox.php:850
+msgid "Open image in original size."
+msgstr "صورة مفتوحة في حجمها الأصلي"
+
+#: frontend/views/BWGViewGalleryBox.php:844
+#: frontend/views/BWGViewGalleryBox.php:1913
+msgid "Show info"
+msgstr "تظهر المعلومات"
+
+#: frontend/views/BWGViewGalleryBox.php:842
+#: frontend/views/BWGViewGalleryBox.php:1576
+#: frontend/views/BWGViewGalleryBox.php:2125
+msgid "Fullscreen"
+msgstr "ملء الشاشة"
+
+#: frontend/views/BWGViewGalleryBox.php:838
+#: frontend/views/BWGViewGalleryBox.php:1574
+#: frontend/views/BWGViewGalleryBox.php:2027
+#: frontend/views/BWGViewGalleryBox.php:2123
+msgid "Maximize"
+msgstr "تعظيم"
+
+#: frontend/views/BWGViewGalleryBox.php:814
+msgid "The image has been deleted."
+msgstr "تم حذف الصورة"
+
+#: frontend/views/BWGViewAlbum_extended_preview.php:807
+msgid "Hide"
+msgstr "إخفاء"
+
+#: frontend/views/BWGViewAlbum_extended_preview.php:689
+#: frontend/views/BWGViewAlbum_extended_preview.php:812
+msgid "More"
+msgstr "المزيد"
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:798
+#: frontend/views/BWGViewAlbum_extended_preview.php:768
+#: frontend/views/BWGViewGalleryBox.php:834
+#: frontend/views/BWGViewGalleryBox.php:2195
+#: frontend/views/BWGViewSlideshow.php:1442
+#: frontend/views/BWGViewThumbnails.php:448
+msgid "Play"
+msgstr "تشغيل"
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:742
+#: frontend/views/BWGViewAlbum_extended_preview.php:724
+msgid "Gallery is empty."
+msgstr "المعرض فارغ"
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:737
+#: frontend/views/BWGViewAlbum_extended_preview.php:719
+#: photo-gallery.php:2565
+msgid "There are no images matching your search."
+msgstr "لا توجد صور تتوافق مع البحث."
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:619
+#: frontend/views/BWGViewAlbum_extended_preview.php:588
+msgid "Album is empty."
+msgstr "الألبوم فارغ."
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:596
+#: frontend/views/BWGViewAlbum_extended_preview.php:577
+msgid "Back"
+msgstr "العودة"
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:177
+#: frontend/views/BWGViewAlbum_extended_preview.php:122
+#: frontend/views/BWGViewImage_browser.php:83
+#: frontend/views/BWGViewSlideshow.php:129
+#: frontend/views/BWGViewThumbnails.php:169
+msgid "There are no images in this gallery."
+msgstr "ا توجد صور في هذا الألبوم"
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:155
+#: frontend/views/BWGViewAlbum_compact_preview.php:189
+#: frontend/views/BWGViewAlbum_extended_preview.php:100
+#: frontend/views/BWGViewAlbum_extended_preview.php:134
+msgid "There is no album selected or the album was deleted."
+msgstr "  لا يوجد ألبوم المحددة أو تم حذف الألبوم"
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:148
+#: frontend/views/BWGViewAlbum_extended_preview.php:93
+#: frontend/views/BWGViewImage_browser.php:72
+#: frontend/views/BWGViewSlideshow.php:46
+#: frontend/views/BWGViewSlideshow.php:86
+#: frontend/views/BWGViewThumbnails.php:150
+msgid "There is no theme selected or the theme was deleted."
+msgstr " . لا يوجد أي موضوع المحددة أو تم حذف الموضوع"
+
+#: framework/WDWLibrary.php:772
+msgid "Random"
+msgstr "عشوائية"
+
+#: framework/WDWLibrary.php:771
+msgid "Size"
+msgstr "حجم"
+
+#: framework/WDWLibrary.php:770
+msgid "Filename"
+msgstr "اسم الملف"
+
+#: framework/WDWLibrary.php:769
+msgid "Default"
+msgstr "افتراضي"
+
+#: framework/WDWLibrary.php:767
+msgid "Order by: "
+msgstr "ترتيب حسب:"
+
+#: framework/WDWLibrary.php:725
+msgid "Search"
+msgstr "البحث"
+
+#: framework/WDWLibrary.php:722
+msgid "Reset"
+msgstr "إعادة تعيين"
+
+#: framework/WDWLibrary.php:562
+msgid "Load More..."
+msgstr "تحميل المزيد..."
+
+#: framework/WDWLibrary.php:550
+msgid "Go to the last page"
+msgstr "الانتقال إلى الصفحة الأخيرة"
+
+#: framework/WDWLibrary.php:549
+msgid "Go to the next page"
+msgstr "الانتقال إلى الصفحة التالية"
+
+#: framework/WDWLibrary.php:545
+msgid "of"
+msgstr "من"
+
+#: framework/WDWLibrary.php:543
+msgid "Go to the previous page"
+msgstr "الانتقال إلى الصفحة السابقة"
+
+#: framework/WDWLibrary.php:542
+msgid "Go to the first page"
+msgstr "  انتقل إلى الصفحة الأولى"
+
+#: framework/WDWLibrary.php:524
+msgid "Last"
+msgstr "آخر"
+
+#: framework/WDWLibrary.php:523
+msgid "Next"
+msgstr "التالي"
+
+#: framework/WDWLibrary.php:522
+msgid "Previous"
+msgstr "السابق"
+
+#: framework/WDWLibrary.php:521
+msgid "First"
+msgstr " أولا"
+
+#: framework/WDWLibrary.php:516
+msgid " item(s)"
+msgstr "البند (ق)"

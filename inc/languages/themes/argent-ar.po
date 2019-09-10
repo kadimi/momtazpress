@@ -1,0 +1,495 @@
+# Translation of Themes - Argent in Arabic
+# This file is distributed under the same license as the Themes - Argent package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-03-08 12:03:49+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Argent\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Theme Name of the plugin/theme
+msgid "Argent"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Argent is a clean and modern portfolio theme, geared towards creative professionals like designers, artists, and photographers. With its simple homepage template featuring portfolio projects, Argent aims to draw viewers right at what matters most: your wonderful work."
+msgstr ""
+
+#: inc/template-tags.php:181
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:126
+msgid "Tagged"
+msgstr ""
+
+#: inc/plugin-enhancements.php:405
+msgid "Your request was processed. See ya!"
+msgstr ""
+
+#: inc/plugin-enhancements.php:398
+msgid "Your request failed permission check."
+msgstr ""
+
+#: inc/plugin-enhancements.php:169
+msgid "Content Options"
+msgstr ""
+
+#: content-portfolio-archive.php:30
+msgid "Portfolio navigation"
+msgstr ""
+
+#: content-portfolio-archive.php:29
+msgid "Newer projects"
+msgstr ""
+
+#: content-portfolio-archive.php:28
+#: inc/jetpack.php:39
+msgid "Older projects"
+msgstr ""
+
+#: inc/plugin-enhancements.php:160
+msgid "Portfolios"
+msgstr ""
+
+#: inc/plugin-enhancements.php:151
+msgid "Testimonials"
+msgstr ""
+
+#: inc/plugin-enhancements.php:142
+msgid "Comics"
+msgstr ""
+
+#: inc/plugin-enhancements.php:133
+msgid "Menus"
+msgstr ""
+
+#: inc/plugin-enhancements.php:124
+msgid "Social Menu"
+msgstr ""
+
+#: inc/plugin-enhancements.php:115
+msgid "Featured Content"
+msgstr ""
+
+#: inc/plugin-enhancements.php:106
+msgid "Site Logo"
+msgstr ""
+
+#: content-front-portfolio.php:9
+msgid "Recent Projects"
+msgstr ""
+
+#: inc/plugin-enhancements.php:302
+msgid "To use %1$s, please activate the Jetpack plugin&rsquo;s %2$s."
+msgstr ""
+
+#: inc/plugin-enhancements.php:277
+msgid "Install"
+msgstr "تنزيل"
+
+#: inc/plugin-enhancements.php:275
+msgid " Please install %1$s. %2$s"
+msgstr ""
+
+#: inc/plugin-enhancements.php:267
+msgid "Activate"
+msgstr "تنشيط"
+
+#: inc/plugin-enhancements.php:265
+msgid " Please activate %1$s. %2$s"
+msgstr ""
+
+#: inc/plugin-enhancements.php:188
+msgid "Custom Content Types module"
+msgstr ""
+
+#: inc/plugin-enhancements.php:187
+msgid "no specific module needed"
+msgstr ""
+
+#: inc/plugin-enhancements.php:83
+msgid "Jetpack plugin"
+msgstr ""
+
+#: inc/plugin-enhancements.php:82
+msgid "The %1$s is necessary to use some of this theme&rsquo;s features, including: "
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page"
+msgstr "الصفحة الرئيسية"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: inc/template-tags.php:283
+msgid "Projects"
+msgstr "مشاريع"
+
+#: inc/template-tags.php:261
+msgid "Archives"
+msgstr "الآرشيفات"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:259
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:252
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "المحادثات"
+
+#: inc/template-tags.php:255
+msgid "Archives: %s"
+msgstr "الآرشيفات: %s"
+
+#: inc/template-tags.php:250
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "الصوتيات"
+
+#: inc/template-tags.php:246
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "الروابط"
+
+#: inc/template-tags.php:248
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "الحالات"
+
+#: inc/template-tags.php:244
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "الإقتباسات"
+
+#: inc/template-tags.php:242
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "الفيديوهات"
+
+#: inc/template-tags.php:240
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "الصور"
+
+#: inc/template-tags.php:238
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "المعارض"
+
+#: inc/template-tags.php:236
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "الملاحظات"
+
+#: inc/template-tags.php:233
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F، Y"
+
+#: inc/template-tags.php:233
+msgid "Day: %s"
+msgstr "اليوم: %s"
+
+#: inc/template-tags.php:231
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:231
+msgid "Month: %s"
+msgstr "الشهر: %s"
+
+#: inc/template-tags.php:229
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:229
+msgid "Year: %s"
+msgstr "السنة: %s"
+
+#: inc/template-tags.php:227
+msgid "Author: %s"
+msgstr "الكاتب: %s"
+
+#: inc/template-tags.php:223
+msgid "Category: %s"
+msgstr "التصنيف: %s"
+
+#: inc/template-tags.php:225
+msgid "Tag: %s"
+msgstr "الوسم: %s"
+
+#: inc/template-tags.php:193
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك بأنتظار الموافقة بالنشر."
+
+#: inc/template-tags.php:166
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s في %2$s"
+
+#: inc/template-tags.php:150
+msgid "Pingback:"
+msgstr "التنبيه:"
+
+#: inc/template-tags.php:131
+msgid "% Comments"
+msgstr "% تعليقات"
+
+#: inc/template-tags.php:131
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: inc/template-tags.php:98
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "نشر في %s"
+
+#: inc/template-tags.php:131
+msgid "Leave a comment"
+msgstr "اكتب تعليقُا"
+
+#: inc/template-tags.php:103
+msgctxt "post author"
+msgid "by %s"
+msgstr "أضيف بواسطة %s"
+
+#: inc/template-tags.php:68
+msgid "Post navigation"
+msgstr "التنقل بين المواضيع"
+
+#: inc/template-tags.php:43
+msgid "Next"
+msgstr "التالي"
+
+#: inc/template-tags.php:39
+msgid "Previous"
+msgstr "السابق"
+
+#: inc/template-tags.php:35
+msgid "Posts navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/extras.php:88
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: inc/customizer.php:32
+msgid "Show Portfolio Section"
+msgstr ""
+
+#: inc/customizer.php:43
+msgid "Portfolio Section Title"
+msgstr ""
+
+#: inc/extras.php:36
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: inc/customizer.php:54
+msgid "Number of Projects to display"
+msgstr ""
+
+#: inc/customizer.php:23
+msgid "Front Page Portfolio section settings"
+msgstr ""
+
+#: inc/customizer.php:22
+msgid "Theme Options"
+msgstr "خيارات القالب"
+
+#: header.php:27
+msgid "Menu"
+msgstr "القائمة"
+
+#: functions.php:107
+msgid "Use this widget area to display widgets in the first column of the footer."
+msgstr ""
+
+#: functions.php:114
+msgid "Footer Two"
+msgstr ""
+
+#: functions.php:116
+msgid "Use this widget area to display widgets in the second column of the footer."
+msgstr ""
+
+#: functions.php:123
+msgid "Footer Three"
+msgstr ""
+
+#: functions.php:125
+msgid "Use this widget area to display widgets in the third column of the footer."
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:146
+msgctxt ""
+"Cabin\n"
+"\t font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:155
+msgctxt "Alegreya font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: functions.php:163
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: functions.php:221
+msgid "Read more <span class=\"screen-reader-text\">%1$s</span>"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "التجاوز إلى المحتوى"
+
+#: functions.php:105
+msgid "Footer One"
+msgstr ""
+
+#: functions.php:70
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "قالب: %1$s بواسطة %2$s."
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "مدعوم بواسطة %s"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://ar.wordpress.org"
+
+#: content-portfolio-single.php:50
+msgid "Tagged %1$s"
+msgstr "الموسومة %1$s"
+
+#: content-portfolio-single.php:44
+#: inc/template-tags.php:122
+msgid "Posted in %1$s"
+msgstr "نُشر في %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: content-portfolio-single.php:42
+#: content-portfolio-single.php:48
+#: inc/template-tags.php:120
+#: inc/template-tags.php:126
+msgid ", "
+msgstr "، "
+
+#: content-page.php:19
+#: content-portfolio-single.php:54
+#: inc/template-tags.php:134
+#: inc/template-tags.php:150
+#: inc/template-tags.php:201
+msgid "Edit"
+msgstr "تحرير"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أننا لم نعثر على ما تطلب. لعل استعمال البحث قد يساعد."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: content-front-portfolio.php:61
+msgid "No Projects Found"
+msgstr ""
+
+#: content-front-portfolio.php:64
+msgid "This section will display your latest projects. It can be disabled via the Customizer."
+msgstr ""
+
+#: content-front-portfolio.php:65
+msgid "Ready to publish your first project? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "لم يتم العثور على نتائج"
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:42
+#: comments.php:65
+msgid "Newer Comments &raquo;"
+msgstr "التعليقات الأحدث &raquo;"
+
+#: comments.php:41
+#: comments.php:64
+msgid "&laquo; Older Comments"
+msgstr "&laquo; التعليقات الأقدم"
+
+#: comments.php:38
+#: comments.php:61
+msgid "Comment navigation"
+msgstr "استعراض التعليق"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+
+#: 404.php:34
+msgid "Popular Categories"
+msgstr ""
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "لا رأي على &ldquo;%2$s&rdquo;"
+msgstr[1] "رأي واحد على &ldquo;%2$s&rdquo;"
+msgstr[2] "رأيان على &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s آراء على &ldquo;%2$s&rdquo;"
+msgstr[4] "%1$s رأي على &ldquo;%2$s&rdquo;"
+msgstr[5] "%1$s رأي على &ldquo;%2$s&rdquo;"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عذراً! لايمكن العثور على تلك الصفحة."
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.com/themes/argent/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"

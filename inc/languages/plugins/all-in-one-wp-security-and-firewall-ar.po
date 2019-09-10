@@ -1,0 +1,12 @@
+# Translation of Plugins - All In One WP Security &amp; Firewall - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - All In One WP Security &amp; Firewall - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: +0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Plugins - All In One WP Security &amp; Firewall - Stable (latest release)\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"

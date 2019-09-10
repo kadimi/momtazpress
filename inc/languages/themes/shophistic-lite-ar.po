@@ -1,0 +1,983 @@
+# Translation of Themes - Shophistic Lite in Arabic
+# This file is distributed under the same license as the Themes - Shophistic Lite package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2017-01-29 03:53:43+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Shophistic Lite\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "Shophistic Lite is the perfect theme for your online shop. With a beautiful and unique design, is responsive and fully compatible with WooCommerce. The easiest way to create your online store and customize it with no coding skills required!"
+msgstr ""
+
+#. Theme Name of the theme
+msgid "Shophistic Lite"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:19
+msgid "Go Pro"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:18
+msgid "Shophistic"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:87
+msgid "Awaiting product image"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/functions/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/functions/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/functions/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: framework/functions/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: %s: version number
+#: framework/functions/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#. translators: %s: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:125
+msgid "Leave a review (it help us)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width"
+msgstr "حجم كامل "
+
+#: templates/content-page.php:26
+#: templates/content.php:26
+msgid "Page"
+msgstr "صفحة"
+
+#: templates/content-none.php:2
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "يبدو انه لا يمكن العثور عن طلبك"
+
+#: templates/beforeloop-search.php:4
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: pagination.php:12
+msgid "Next page"
+msgstr "الصفحة التالية"
+
+#: pagination.php:11
+msgid "Previous page"
+msgstr "الصفحة السابقة"
+
+#: options.php:476
+msgid "Sidebars"
+msgstr "جوانب"
+
+#: options.php:472
+msgid "Sidebars Generator"
+msgstr ""
+
+#: options.php:447
+msgid "Use a font system (Google Fonts)"
+msgstr ""
+
+#: options.php:441
+#: options.php:446
+msgid "Font Systems"
+msgstr ""
+
+#: options.php:433
+msgid "Select the font wheight for your links."
+msgstr ""
+
+#: options.php:432
+msgid "Links Font Weight"
+msgstr ""
+
+#: options.php:425
+msgid "Select the color for your links."
+msgstr ""
+
+#: options.php:424
+msgid "Links Font Color"
+msgstr ""
+
+#: options.php:416
+msgid "Select the font for your links."
+msgstr ""
+
+#: options.php:415
+msgid "Links Font"
+msgstr ""
+
+#: options.php:410
+msgid "Links Typography"
+msgstr ""
+
+#: options.php:406
+#: options.php:438
+msgid "Bold"
+msgstr "غامق"
+
+#: options.php:406
+#: options.php:438
+msgid "Normal"
+msgstr "Normal"
+
+#: options.php:401
+msgid "Select the font weight for your text."
+msgstr ""
+
+#: options.php:400
+msgid "Content Font Weight"
+msgstr ""
+
+#: options.php:393
+msgid "Select the color for your text."
+msgstr ""
+
+#: options.php:392
+msgid "Content Font Color"
+msgstr ""
+
+#: options.php:384
+msgid "Select the font for your text."
+msgstr ""
+
+#: options.php:383
+msgid "Content Font"
+msgstr ""
+
+#: options.php:378
+msgid "Content Typography"
+msgstr ""
+
+#: options.php:373
+msgid "Typography"
+msgstr "أسلوب الطباعة"
+
+#: options.php:351
+msgid "Select if you want the Shop Sidebar on your single product page."
+msgstr ""
+
+#: options.php:350
+msgid "Show sidebar on Single Products page"
+msgstr ""
+
+#: options.php:346
+msgid "Shop"
+msgstr ""
+
+#: options.php:333
+msgid "Show Visa Icon"
+msgstr ""
+
+#: options.php:332
+msgid "Visa"
+msgstr ""
+
+#: options.php:326
+msgid "Show Stripe Icon"
+msgstr ""
+
+#: options.php:325
+msgid "Stripe"
+msgstr ""
+
+#: options.php:319
+msgid "Show Master Card Icon"
+msgstr ""
+
+#: options.php:318
+msgid "Master Card"
+msgstr ""
+
+#: options.php:312
+msgid "Show Discover Icon"
+msgstr ""
+
+#: options.php:311
+msgid "Discover"
+msgstr ""
+
+#: options.php:305
+msgid "Show American Express Icon"
+msgstr ""
+
+#: options.php:304
+msgid "American Express"
+msgstr ""
+
+#: options.php:298
+msgid "Show Paypal Icon"
+msgstr ""
+
+#: options.php:297
+msgid "Paypal"
+msgstr ""
+
+#: options.php:292
+msgid "Payment Methods Icons"
+msgstr ""
+
+#: options.php:286
+msgid "If you are happy with the Theme you can give us credit just by adding a small link."
+msgstr ""
+
+#: options.php:285
+msgid "Designed by Quema Labs"
+msgstr ""
+
+#: options.php:279
+msgid "Custom HTML and Text that will appear at the bottom of your site."
+msgstr ""
+
+#: options.php:278
+msgid "Footer Text"
+msgstr ""
+
+#: options.php:257
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: options.php:256
+msgid "Custom CSS"
+msgstr "نمط مخصص"
+
+#: options.php:244
+msgid "Select the color for links in the header (not main menu)."
+msgstr ""
+
+#: options.php:243
+msgid "Links Color"
+msgstr ""
+
+#: options.php:236
+msgid "Select the color for text in the header."
+msgstr ""
+
+#: options.php:235
+msgid "Text Color"
+msgstr "لون الخط"
+
+#: options.php:223
+msgid "Select the background color for the Theme."
+msgstr ""
+
+#: options.php:222
+msgid "Headings Color"
+msgstr ""
+
+#: options.php:214
+msgid "This color should contrast with the Featured Color."
+msgstr ""
+
+#: options.php:213
+msgid "Contrast Color"
+msgstr ""
+
+#: options.php:206
+msgid "Select the featured color for the Theme."
+msgstr ""
+
+#: options.php:205
+msgid "Featured Color"
+msgstr ""
+
+#: options.php:200
+msgid "Styling"
+msgstr ""
+
+#: options.php:190
+msgid "Upload the logo for retina screens. (Same logo, twice the size)"
+msgstr ""
+
+#: options.php:189
+msgid "Custom Logo Retina size"
+msgstr ""
+
+#: options.php:184
+msgid "Upload a logo for your theme, or specify the image address of your online logo. (http://yoursite.com/logo.png)"
+msgstr ""
+
+#: options.php:183
+msgid "Custom Logo"
+msgstr ""
+
+#: options.php:179
+#: options.php:230
+msgid "Header"
+msgstr "ترويسة"
+
+#: options.php:163
+msgid "Select if you want the Sidebar on the right or left."
+msgstr ""
+
+#: options.php:162
+msgid "Sidebar side"
+msgstr ""
+
+#: options.php:136
+msgid "Theme Info"
+msgstr ""
+
+#: options.php:131
+msgid "General Settings"
+msgstr "إعدادات عامة"
+
+#: options.php:56
+msgid "Waffle"
+msgstr ""
+
+#: options.php:55
+msgid "Crepe"
+msgstr ""
+
+#: options.php:54
+msgid "Omelette"
+msgstr ""
+
+#: options.php:53
+msgid "Pancake"
+msgstr ""
+
+#: options.php:52
+msgid "French Toast"
+msgstr ""
+
+#: options.php:46
+msgid "Five"
+msgstr ""
+
+#: options.php:45
+msgid "Four"
+msgstr ""
+
+#: options.php:44
+msgid "Three"
+msgstr "ثلاثة"
+
+#: options.php:43
+msgid "Two"
+msgstr ""
+
+#: options.php:42
+msgid "One"
+msgstr "واحد"
+
+#: meta.php:10
+msgid "% Comments"
+msgstr "% تعليق"
+
+#: meta.php:10
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: meta.php:10
+msgid "No Comments"
+msgstr "لا توجد تعليقات"
+
+#: header.php:95
+msgid "Login"
+msgstr "تسجيل دخول"
+
+#: header.php:92
+msgid "My Account"
+msgstr "حسابي"
+
+#: framework/functions/theme_customizer.php:137
+msgid "Left"
+msgstr "شمال"
+
+#: framework/functions/theme_customizer.php:136
+msgid "Right"
+msgstr "يسار الرقم"
+
+#: framework/functions/theme_customizer.php:124
+msgid "Documentation"
+msgstr "مستندات المساعدة"
+
+#: framework/functions/theme_customizer.php:90
+msgid "Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to add widgets in the footer of your site."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:89
+msgid "Footer Widgets"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:80
+msgid "Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to create mega menus."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:79
+msgid "Mega Menus"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:70
+msgid "Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to choose the side of the sidebar."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:69
+msgid "Sidebar Side"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:60
+msgid "Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to create an awesome home page."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:59
+msgid "Home Page"
+msgstr "الصفحة الرئيسية"
+
+#: framework/functions/theme_customizer.php:50
+msgid "Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to change logo."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:49
+msgid "Logo"
+msgstr "الشعار"
+
+#: framework/functions/custom_functions.php:21
+msgid "Read more"
+msgstr "قراءة المزيد"
+
+#: framework/functions/custom_comments.php:40
+msgid "(Edit)"
+msgstr "(تحرير)"
+
+#: framework/functions/custom_comments.php:38
+msgid "%1$s at %2$s"
+msgstr "%1$s الساعة %2$s"
+
+#: framework/functions/custom_comments.php:26
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك بأنتظار الموافقة بالنشر."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/functions/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت الإضافة %1$s (%2$d/%3$d)"
+
+#: framework/functions/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "تم الانتهاء من التثبيت"
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s تم تثبيتها بنجاح"
+
+#: framework/functions/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "بدء معالج التثبيت ، قد تستغرق العملية بعض الوقت، يرجى الانتظار."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/functions/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت وتفعيل الإضافة %1$s (%2$d/%3$d)"
+
+#: framework/functions/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "تم الانتهاء من جميع التثبيتات والتفعيلات "
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:3509
+#: framework/functions/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "إخفاء التفاصيل"
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:3509
+#: framework/functions/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "عرض التفاصيل"
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s تم تثبيتها و تفعيلها بنجاح"
+
+#: framework/functions/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "بدء معالج التثبيت والتفعيل، قد تستغرق العملية بعض الوقت، يرجى الانتظار."
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "فشل تنصيب %1$s."
+
+#. translators: 1: plugin name, 2: error message.
+#: framework/functions/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "حدث خطأ غير متوقع  أثناء التثبيت  %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/functions/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "جاري تحديث الإضافة <span dir=\"ltr\">(%2$d/%3$d)</span> %1$s"
+
+#: framework/functions/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "فشل تفعيل الإضافة."
+
+#: framework/functions/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "تنشيط"
+
+#: framework/functions/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "حدث"
+
+#: framework/functions/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "تنزيل"
+
+#: framework/functions/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "وضعیة"
+
+#: framework/functions/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Версія"
+
+#: framework/functions/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "الفئة"
+
+#: framework/functions/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "مصدر"
+
+#: framework/functions/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "اضافة"
+
+#: framework/functions/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: framework/functions/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: number of plugins.
+#: framework/functions/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "تحديثات متوفّرة <span class=\"count\">(%s)</span>"
+msgstr[1] "تحديثات متوفّرة <span class=\"count\">(%s)</span>"
+msgstr[2] "تحديثات متوفّرة <span class=\"count\">(%s)</span>"
+msgstr[3] "تحديثات متوفّرة <span class=\"count\">(%s)</span>"
+msgstr[4] "تحديثات متوفّرة <span class=\"count\">(%s)</span>"
+msgstr[5] "تحديثات متوفّرة <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: framework/functions/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: number of plugins.
+#: framework/functions/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "الكل <span class=\"count\">(%s)</span>"
+msgstr[1] "الكل <span class=\"count\">(%s)</span>"
+msgstr[2] "الكل <span class=\"count\">(%s)</span>"
+msgstr[3] "الكل <span class=\"count\">(%s)</span>"
+msgstr[4] "الكل <span class=\"count\">(%s)</span>"
+msgstr[5] "الكل <span class=\"count\">(%s)</span>"
+
+#: framework/functions/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "تفعيل"
+
+#: framework/functions/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "مثبتة ولكن غير مفعلة"
+
+#: framework/functions/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "غير منصب"
+
+#: framework/functions/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "تم تحزيمه مسبقاً"
+
+#: framework/functions/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "مستودع ووردبرس"
+
+#: framework/functions/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "موصى به"
+
+#: framework/functions/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "يجب إكمالة"
+
+#: framework/functions/class-tgm-plugin-activation.php:1121
+#: framework/functions/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:934
+#: framework/functions/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:386
+#: framework/functions/class-tgm-plugin-activation.php:827
+#: framework/functions/class-tgm-plugin-activation.php:2533
+#: framework/functions/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "عودة للرئيسية"
+
+#: framework/functions/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "إقالة هذا الإشعار"
+
+#. translators: 1: dashboard link.
+#: framework/functions/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "تم تثبيت وتفعيل جميع الإضافات بنجاح. %1$s"
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:388
+#: framework/functions/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "تم تفعيل الإضافة أدناه بنجاح:"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:387
+#: framework/functions/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "تم تفعيل الإضافة بنجاح"
+
+#: framework/functions/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "عودة لبرنامج تثبيت الإضافات المطلوبة"
+
+#: framework/functions/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "إبدأ في تفعيل الإضافات"
+msgstr[1] "إبدأ في تفعيل الإضافة"
+msgstr[2] "إبدأ في تفعيل الإضافات"
+msgstr[3] "إبدأ في تفعيل الإضافات"
+msgstr[4] "إبدأ في تفعيل الإضافات"
+msgstr[5] "إبدأ في تفعيل الإضافات"
+
+#: framework/functions/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "إبدأ في تثبيت الإضافات"
+msgstr[1] "إبدأ في تثبيت الإضافة"
+msgstr[2] "إبدأ في تثبيت الإضافات"
+msgstr[3] "إبدأ في تثبيت الإضافات"
+msgstr[4] "إبدأ في تثبيت الإضافات"
+msgstr[5] "إبدأ في تثبيت الإضافات"
+
+#. translators: 1: plugin name(s).
+#: framework/functions/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "الإضافات التالية ينصح بها و لكنها غير مفعلة: %1$s."
+msgstr[1] "الإضافة التالية ينصح بها و لكنها غير مفعلة: %1$s."
+msgstr[2] "الإضافات التالية ينصح بها و لكنها غير مفعلة: %1$s."
+msgstr[3] "الإضافات التالية ينصح بها و لكنها غير مفعلة: %1$s."
+msgstr[4] "الإضافات التالية ينصح بها و لكنها غير مفعلة: %1$s."
+msgstr[5] "الإضافات التالية ينصح بها و لكنها غير مفعلة: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/functions/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "الإضافات التالية مطلوبة و لكنها غير مفعلة: %1$s."
+msgstr[1] "الإضافة التالية مطلوبة و لكنها غير مفعلة: %1$s."
+msgstr[2] "الإضافات التالية مطلوبة و لكنها غير مفعلة: %1$s."
+msgstr[3] "الإضافات التالية مطلوبة و لكنها غير مفعلة: %1$s."
+msgstr[4] "الإضافات التالية مطلوبة و لكنها غير مفعلة: %1$s."
+msgstr[5] "الإضافات التالية مطلوبة و لكنها غير مفعلة: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/functions/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: plugin name(s).
+#: framework/functions/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "الإضافات التالية تحتاج للتحديث إلي أحدث نسخة لتعمل بشكل جيد مع الثيم: %1$s."
+msgstr[1] "الإضافة التالية تحتاج للتحديث إلي أحدث نسخة لتعمل بشكل جيد مع الثيم: %1$s."
+msgstr[2] "الإضافات التالية تحتاج للتحديث إلي أحدث نسخة لتعمل بشكل جيد مع الثيم: %1$s."
+msgstr[3] "الإضافات التالية تحتاج للتحديث إلي أحدث نسخة لتعمل بشكل جيد مع الثيم: %1$s."
+msgstr[4] "الإضافات التالية تحتاج للتحديث إلي أحدث نسخة لتعمل بشكل جيد مع الثيم: %1$s."
+msgstr[5] "الإضافات التالية تحتاج للتحديث إلي أحدث نسخة لتعمل بشكل جيد مع الثيم: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/functions/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "هذا الثيم ينصح بالإضافات التالية: %1$s."
+msgstr[1] "هذا الثيم ينصح بالإضافة التالية: %1$s."
+msgstr[2] "هذا الثيم ينصح بالإضافات التالية: %1$s."
+msgstr[3] "هذا الثيم ينصح بالإضافات التالية: %1$s."
+msgstr[4] "هذا الثيم ينصح بالإضافات التالية: %1$s."
+msgstr[5] "هذا الثيم ينصح بالإضافات التالية: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/functions/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "هذا الثيم يحتاج للإضافات التالية: %1$s."
+msgstr[1] "هذا الثيم يحتاج للإضافة التالية: %1$s."
+msgstr[2] "هذا الثيم يحتاج للإضافات التالية: %1$s."
+msgstr[3] "هذا الثيم يحتاج للإضافات التالية: %1$s."
+msgstr[4] "هذا الثيم يحتاج للإضافات التالية: %1$s."
+msgstr[5] "هذا الثيم يحتاج للإضافات التالية: %1$s."
+
+#: framework/functions/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "حدث خطأ بواجهة برمجة الإضافة API"
+
+#. translators: %s: plugin name.
+#: framework/functions/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "تنصيب الإضافة: %s"
+
+#: framework/functions/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "الإضافات المنصّبة"
+
+#: framework/functions/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "تثبيت الإضافات المطلوبة"
+
+#: framework/Theme.php:166
+msgid "Social"
+msgstr "اجتماعي"
+
+#: framework/Theme.php:165
+msgid "Navigation Menu"
+msgstr "قائمة التصفح"
+
+#: footer.php:8
+msgid "Theme: %1$s by %2$s."
+msgstr "قالب: %1$s بواسطة %2$s."
+
+#: footer.php:8
+msgid "WordPress"
+msgstr "وردبريس"
+
+#: footer.php:8
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: footer.php:8
+msgid "Powered by "
+msgstr "تدعمه"
+
+#: comments.php:104
+msgid "Website"
+msgstr "الموقع الالكترونى"
+
+#: comments.php:95
+msgid "Email"
+msgstr "البريد الالكترونى"
+
+#: comments.php:86
+msgid "Name"
+msgstr "الأسم"
+
+#: comments.php:74
+msgid "Comment"
+msgstr "التعليقات"
+
+#: comments.php:16
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:16
+msgid "One Response"
+msgstr ""
+
+#: comments.php:16
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "هذه المقالة محمية بكلمة مرور. لمشاهدة التعليقات، قم بكتابة كلمة المرور."
+
+#: 404.php:8
+msgid "Sorry, but the requested resource was not found on this site. Please try again or contact the administrator for assistance."
+msgstr ""
+
+#: 404.php:7
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.quemalabs.com/"
+msgstr ""
+
+#. Author of the theme
+msgid "Quema Labs"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://www.quemalabs.com/theme/shophistic-lite/"
+msgstr ""

@@ -19,6 +19,11 @@ msgstr ""
 msgid "Futurio"
 msgstr ""
 
+#: lib/customizer/customizer-notice/class-customizer-notice.php:144
+#: lib/customizer/plugin-install/class-plugin-install-helper.php:110
+msgid "Activating"
+msgstr ""
+
 #: comments.php:55
 msgid "Comments are closed."
 msgstr ""
@@ -54,86 +59,86 @@ msgstr ""
 msgid "Search Results for: %s"
 msgstr ""
 
-#: functions.php:618
+#: functions.php:623
 msgid "My Account"
 msgstr ""
 
-#: functions.php:568
+#: functions.php:573
 msgid "View your shopping cart"
 msgstr ""
 
-#: functions.php:552
+#: functions.php:557
 msgid "By"
 msgstr ""
 
-#: functions.php:537
+#: functions.php:542
 msgid "Next"
 msgstr ""
 
-#: functions.php:537
+#: functions.php:542
 msgid "Next Post"
 msgstr ""
 
-#: functions.php:536
+#: functions.php:541
 msgid "Previous"
 msgstr ""
 
-#: functions.php:536
+#: functions.php:541
 msgid "Previous Post"
 msgstr ""
 
-#: functions.php:397
+#: functions.php:402
 msgid "Comment on "
 msgstr ""
 
-#: functions.php:392
+#: functions.php:397
 msgid "Off"
 msgstr ""
 
 #. translators: %1$s: Futurio name with futuriowp.com URL
-#: functions.php:361
+#: functions.php:366
 msgid "Theme: %1$s"
 msgstr ""
 
 #. translators: %s: WordPress name with wordpress.org URL
-#: functions.php:356
+#: functions.php:361
 msgid "https://wordpress.org/"
 msgstr ""
 
 #. translators: %s: WordPress name with wordpress.org URL
-#: functions.php:356
+#: functions.php:361
 msgid "Proudly powered by %s"
 msgstr ""
 
-#: functions.php:332
+#: functions.php:337
 msgid "Tags"
 msgstr ""
 
-#: functions.php:328
+#: functions.php:333
 msgid "Posted in"
 msgstr ""
 
-#: functions.php:270
+#: functions.php:275
 msgid "WooCommerce archive sidebar"
 msgstr ""
 
-#: functions.php:260
+#: functions.php:265
 msgid "WooCommerce Sidebar"
 msgstr ""
 
-#: functions.php:249
+#: functions.php:254
 msgid "Footer Section"
 msgstr ""
 
-#: functions.php:239
+#: functions.php:244
 msgid "Menu Section"
 msgstr ""
 
-#: functions.php:229
+#: functions.php:234
 msgid "Archive sidebar"
 msgstr ""
 
-#: functions.php:219
+#: functions.php:224
 msgid "Sidebar"
 msgstr ""
 
@@ -162,23 +167,26 @@ msgstr ""
 msgid "Nothing Found"
 msgstr ""
 
-#: lib/dashboard.php:126
+#: lib/dashboard.php:129
 msgid "Install"
 msgstr ""
 
 #. translators: %s: Plugin name string
-#: lib/dashboard.php:123
+#: lib/customizer-plugin-recommend.php:20
+#: lib/dashboard.php:76
+#: lib/dashboard.php:126
 msgid "To take full advantage of all the features this theme has to offer, please install and activate the %s plugin."
 msgstr ""
 
 #. translators: %s: Theme name
-#: lib/dashboard.php:80
+#: lib/dashboard.php:83
 msgid "Get started with %s"
 msgstr ""
 
 #. translators: %s: Theme name
-#: lib/dashboard.php:73
-#: lib/dashboard.php:117
+#: lib/customizer-plugin-recommend.php:24
+#: lib/dashboard.php:70
+#: lib/dashboard.php:120
 msgid "Thank you for installing %s."
 msgstr ""
 
@@ -186,16 +194,20 @@ msgstr ""
 msgid "Learn more"
 msgstr ""
 
+#: lib/customizer-plugin-recommend.php:25
 #: lib/futurio-plugin-install.php:55
 msgid "Install now"
 msgstr ""
 
-#: lib/dashboard.php:126
+#: lib/customizer-plugin-recommend.php:26
+#: lib/customizer/plugin-install/class-plugin-install-helper.php:59
+#: lib/customizer/plugin-install/class-plugin-install-helper.php:75
+#: lib/dashboard.php:129
 #: lib/futurio-plugin-install.php:40
 msgid "Activate"
 msgstr ""
 
-#: lib/dashboard.php:126
+#: lib/dashboard.php:129
 #: lib/futurio-plugin-install.php:29
 msgid "Activated"
 msgstr ""

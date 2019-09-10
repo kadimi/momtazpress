@@ -1,0 +1,204 @@
+# Translation of Plugins - WP-PageNavi - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - WP-PageNavi - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-03-28 11:12:15+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Plugins - WP-PageNavi - Stable (latest release)\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: core.php:128
+#: core.php:147
+#: core.php:159
+msgid "Page %s"
+msgstr "الصفحة %s"
+
+#. Author URI of the plugin/theme
+msgid "https://lesterchan.net"
+msgstr "https://lesterchan.net"
+
+#. Author of the plugin/theme
+msgid "Lester 'GaMerZ' Chan"
+msgstr "Lester 'GaMerZ' Chan"
+
+#. Description of the plugin/theme
+msgid "Adds a more advanced paging navigation to your WordPress blog"
+msgstr "إضافة المزيد من الخيارات المتقدمة لترقيم الصفحات لمدونة ووردبريس الخاصة بك"
+
+#. Plugin URI of the plugin/theme
+msgid "https://lesterchan.net/portfolio/programming/php/"
+msgstr "https://lesterchan.net/portfolio/programming/php/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP-PageNavi"
+msgstr "إضافة WP-PageNavi"
+
+#: wp-pagenavi.php:27
+#: wp-pagenavi.php:28
+msgid "..."
+msgstr "..."
+
+#: wp-pagenavi.php:26
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-pagenavi.php:25
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wp-pagenavi.php:24
+msgid "Last &raquo;"
+msgstr "الأخير &raquo;"
+
+#: wp-pagenavi.php:23
+msgid "&laquo; First"
+msgstr "&laquo; الأولى"
+
+#: wp-pagenavi.php:20
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "الصفحة %CURRENT_PAGE% من %TOTAL_PAGES%"
+
+#: scb/AdminPage.php:516
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: scb/AdminPage.php:259
+msgid "Settings <strong>saved</strong>."
+msgstr "<strong>تمّ حفظ</strong> الإعدادات."
+
+#: admin.php:158
+msgid "Page Navigation Options"
+msgstr "إعدادات ترقيم الصفحات"
+
+#: admin.php:153
+msgid "For example, if mutiple is 5, it will show: 5, 10, 15, 20, 25"
+msgstr "مثال: إذا اخترت عرض مضاعفات الـ 5، سيعرض لك: 5، 10، 15، 20، 25"
+
+#: admin.php:148
+msgid "Show Larger Page Numbers In Multiples Of"
+msgstr "عرض عدد الصفحات الأكبر بمضاعفات الرقم"
+
+#: admin.php:144
+msgid "Enter 0 to disable."
+msgstr "أدخل 0 للتعطيل."
+
+#: admin.php:143
+msgid "For example, WP-PageNavi will display: Pages 1, 2, 3, 4, 5, 10, 20, 30, 40, 50."
+msgstr "مقال: ستقوم الإضافة WP-PageNavi بعرض الصفحات هكذا: 1، 2، 3، 4، 5، 10، 20، 30، 40، 50."
+
+#: admin.php:142
+msgid "Larger page numbers are in addition to the normal page numbers. They are useful when there are many pages of posts."
+msgstr "أكبر عدد من الصفحات الذي سيعرض بشكل عادي وتسلسلي. سيكون مناسباً عندما يكون هناك عدد كبير من الصفحات ."
+
+#: admin.php:137
+msgid "Number Of Larger Page Numbers To Show"
+msgstr "عدد الصفحات الأكبر المراد عرضها"
+
+#: admin.php:130
+msgid "Number Of Pages To Show"
+msgstr "عدد الصفحات المراد عرضها"
+
+#: admin.php:126
+msgid "Show navigation even if there's only one page."
+msgstr "إظهار ترقيم الصفحات حتى لو كانت صفحة واحدة."
+
+#: admin.php:122
+msgid "Always Show Page Navigation"
+msgstr "عرض ترقيم الصفحات دائمًا"
+
+#: admin.php:117
+msgid "Drop-down List"
+msgstr "قائمة منسدلة"
+
+#: admin.php:117
+msgid "Normal"
+msgstr "عادي"
+
+#: admin.php:114
+msgid "Page Navigation Style"
+msgstr "تنسيق منطقة التنقل بين الصفحات"
+
+#: admin.php:110
+#: admin.php:125
+msgid "No"
+msgstr "لا"
+
+#: admin.php:110
+#: admin.php:125
+msgid "Yes"
+msgstr "نعم"
+
+#: admin.php:107
+msgid "Use pagenavi-css.css"
+msgstr "استخدم pagenavi-css.css"
+
+#: admin.php:101
+msgid "Leaving a field blank will hide that part of the navigation."
+msgstr "ترك الحقل فارغاً سيؤدي إلى اخفاءه."
+
+#: admin.php:100
+msgid "Page Navigation Text"
+msgstr "نص ترقيم الصفحات"
+
+#: admin.php:93
+msgid "Text For Next ..."
+msgstr "نص (التالي ...)"
+
+#: admin.php:87
+msgid "Text For Previous ..."
+msgstr "نص (السابق ...)"
+
+#: admin.php:81
+msgid "Text For Next Page"
+msgstr "نص الصفحة التالية"
+
+#: admin.php:75
+msgid "Text For Previous Page"
+msgstr "نص الصفحة السابقة"
+
+#: admin.php:67
+msgid "Text For Last Page"
+msgstr "نص الصفحة الأخيرة"
+
+#: admin.php:59
+msgid "Text For First Page"
+msgstr "نص الصفحة الأولى"
+
+#: admin.php:51
+msgid "Text For Page"
+msgstr "النص للصفحة"
+
+#: admin.php:47
+#: admin.php:55
+msgid "The page number."
+msgstr "رقم الصفحة."
+
+#: admin.php:43
+msgid "Text For Current Page"
+msgstr "النص للصفحة الحالية"
+
+#: admin.php:39
+#: admin.php:63
+#: admin.php:71
+msgid "The total number of pages."
+msgstr "إجمالي عدد الصفحات."
+
+#: admin.php:38
+msgid "The current page number."
+msgstr "رقم الصفحة الحالية."
+
+#: admin.php:33
+msgid "Text For Number Of Pages"
+msgstr "نص عدد الصفحات"
+
+#: admin.php:10
+msgid "PageNavi"
+msgstr "إضافة PageNavi"
+
+#: admin.php:9
+msgid "PageNavi Settings"
+msgstr "إعدادات PageNavi"

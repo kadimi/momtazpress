@@ -1,0 +1,552 @@
+# Translation of Themes - Twenty Fourteen in Arabic
+# This file is distributed under the same license as the Themes - Twenty Fourteen package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-04-26 19:30:58+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Twenty Fourteen\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier."
+msgstr "في 2014، قالبنا الافتراضي يمكّنك من إنشاء موقع مجلة بتصميم متجاوب، انسيابي وعصري. اعرض المحتوى المفضل لديك على صفحتك الرئيسية إما بشكل شبكة أو عارض شرائح. استخدم أماكن الودجات الثلاثة لتخصيص موقعك، وغير تخطيط المحتوى بنموذج صفحة العرض الكامل و نموذج صفحة المساهمين لعرض قائمة الكُتاب. إنشاء موقع مجلة باستخدام ووردبريس أصبح أسهل من ذي قبل."
+
+#. Theme Name of the theme
+#: inc/customizer.php:159
+msgid "Twenty Fourteen"
+msgstr "Twenty Fourteen"
+
+#: functions.php:112
+msgid "White"
+msgstr "أبيض"
+
+#: functions.php:107
+msgid "Light Gray"
+msgstr "رمادي فاتح"
+
+#: functions.php:102
+msgid "Medium Gray"
+msgstr "رمادي متوسط"
+
+#: functions.php:97
+msgid "Dark Gray"
+msgstr "رمادي داكن"
+
+#: functions.php:92
+msgid "Black"
+msgstr "أسود"
+
+#: functions.php:87
+msgid "Green"
+msgstr "أخضر"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:34
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s تعليق على &ldquo;%2$s&rdquo;"
+msgstr[1] "تعليق واحد (%1$s) على &ldquo;%2$s&rdquo;"
+msgstr[2] "تعليقان (%1$s) على &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s تعليقات على &ldquo;%2$s&rdquo;"
+msgstr[4] "%1$s تعليقا على &ldquo;%2$s&rdquo;"
+msgstr[5] "%1$s تعليق على &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "تعليق واحد على  &ldquo;%s&rdquo;"
+
+#. Template Name of the theme
+msgid "Full Width Page"
+msgstr "صفحة بعرض كامل"
+
+#. Template Name of the theme
+msgid "Contributor Page"
+msgstr "صفحة المساهمين"
+
+#: tag.php:22
+msgid "Tag Archives: %s"
+msgstr "أرشيف الوسم: %s"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: inc/widgets.php:292
+msgid "Post format to show:"
+msgstr "بنية المقالة للعرض:"
+
+#: inc/widgets.php:289
+msgid "Number of posts to show:"
+msgstr "عدد المقالات:"
+
+#: inc/widgets.php:286
+msgid "Title:"
+msgstr "العنوان:"
+
+#. translators: used with More archives link
+#: inc/widgets.php:237
+msgid "%s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s <span class=\"meta-nav\">&larr;</span>"
+
+#: inc/widgets.php:192
+msgid "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
+msgid_plural "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photos</a>."
+msgstr[0] "هذا المعرض يحتوي على <a href=\"%1$s\" rel=\"bookmark\">%2$s صورة</a>"
+msgstr[1] "هذا المعرض يحتوي على <a href=\"%1$s\" rel=\"bookmark\">صورة واحدة</a>"
+msgstr[2] "هذا المعرض يحتوي على <a href=\"%1$s\" rel=\"bookmark\">صورتين</a>"
+msgstr[3] "هذا المعرض يحتوي على <a href=\"%1$s\" rel=\"bookmark\">%2$s صور</a>"
+msgstr[4] "هذا المعرض يحتوي على <a href=\"%1$s\" rel=\"bookmark\">%2$s صورة</a>"
+msgstr[5] "هذا المعرض يحتوي على <a href=\"%1$s\" rel=\"bookmark\">%2$s صورة</a>"
+
+#: inc/widgets.php:153
+#: inc/widgets.php:202
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "أكمل قراءة المقالة <span class=\"meta-nav\">&larr;</span>"
+
+#: inc/widgets.php:104
+msgid "More asides"
+msgstr "ملاحظات أكثر"
+
+#: inc/widgets.php:103
+#: taxonomy-post_format.php:30
+msgid "Asides"
+msgstr "الملاحظات"
+
+#: inc/widgets.php:99
+msgid "More galleries"
+msgstr "المزيد من المعارض"
+
+#: inc/widgets.php:98
+#: taxonomy-post_format.php:48
+msgid "Galleries"
+msgstr "المعارض"
+
+#: inc/widgets.php:95
+msgid "More links"
+msgstr "روابط أكثر"
+
+#: inc/widgets.php:94
+#: taxonomy-post_format.php:45
+msgid "Links"
+msgstr "روابط"
+
+#: inc/widgets.php:91
+msgid "More quotes"
+msgstr "إقتباسات أكثر"
+
+#: inc/widgets.php:90
+#: taxonomy-post_format.php:42
+msgid "Quotes"
+msgstr "الإقتباسات"
+
+#: inc/widgets.php:87
+msgid "More audio"
+msgstr "صوتيات أكثر"
+
+#: inc/widgets.php:86
+#: taxonomy-post_format.php:39
+msgid "Audio"
+msgstr "صوت"
+
+#: inc/widgets.php:83
+msgid "More videos"
+msgstr "مشاهد فيديو أكثر"
+
+#: inc/widgets.php:82
+#: taxonomy-post_format.php:36
+msgid "Videos"
+msgstr "فيديو"
+
+#: inc/widgets.php:79
+msgid "More images"
+msgstr "صور أكثر"
+
+#: inc/widgets.php:78
+#: taxonomy-post_format.php:33
+msgid "Images"
+msgstr "صور"
+
+#: inc/widgets.php:38
+msgid "Use this widget to list your recent Aside, Quote, Video, Audio, Image, Gallery, and Link posts."
+msgstr "استخدم هذا الودجت لعرض قائمة أحدث المقالات من نوع ملاحظة، اقتباس، فيديو، صوت، صورة، معرض و رابط."
+
+#: inc/widgets.php:35
+msgid "Twenty Fourteen Ephemera"
+msgstr "المحفوظات المؤقتة (Ephemera)"
+
+#: inc/template-tags.php:111
+msgid "Sticky"
+msgstr "مثبت"
+
+#: inc/template-tags.php:94
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr "<span class=\"meta-nav\">المقالة التالية</span>%title"
+
+#: inc/template-tags.php:93
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr "<span class=\"meta-nav\">التدوينة السابقة</span>%title"
+
+#: inc/template-tags.php:91
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr "<span class=\"meta-nav\">منشور في</span>%title"
+
+#: inc/template-tags.php:87
+msgid "Post navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/template-tags.php:60
+msgid "Posts navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/template-tags.php:52
+msgid "Next &rarr;"
+msgstr "التالي &larr;"
+
+#: inc/template-tags.php:51
+msgid "&larr; Previous"
+msgstr "&rarr; السابق"
+
+#: inc/featured-content.php:422
+msgid "Don&rsquo;t display tag on front end."
+msgstr "لا تظهر الوسم في الواجهة."
+
+#: inc/featured-content.php:414
+msgid "Tag Name"
+msgstr "اسم الوسم"
+
+#: inc/customizer.php:164
+msgid "For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s\">Twenty Fourteen documentation</a>."
+msgstr "لشرح مفصل وللمزيد من التلميحات والحيل، قم بالاطلاع على <a href=\"%s\">توثيق قالب Twenty Fourteen</a>."
+
+#: inc/customizer.php:163
+msgid "Enhance your site design by using <a href=\"%s\">Featured Images</a> for posts you&rsquo;d like to stand out (also known as post thumbnails). This allows you to associate an image with your post without inserting it. Twenty Fourteen uses featured images for posts and pages&mdash;above the title&mdash;and in the Featured Content area on the home page."
+msgstr "عزّز تصميم موقعك باستخدام <a href=\"%s\">الصور البارزة</a> للمقالات التي تريد أن تبرزها (تُعرف أيضاً بالصور المصغرة). يتيح لك هذا أن تربط صورة بمقالتك بدون إدراجها في المحتوى. قالب Twenty Fourteen يستخدم الصور البارزة للمقالات والصفحات &mdash;فوق العنوان&mdash; وفي منطقة المحتوى المميز في الصفحة الرئيسية."
+
+#: inc/customizer.php:162
+msgid "The home page features your choice of up to 6 posts prominently displayed in a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed instead."
+msgstr "تتيح لك الصفحة الرئيسية أن تختار حتى 6 مقالات مميزة ليتم عرضهم بوضوح على شكل شبكة أو عارض شرائح، متحكماً بهم عن طريق <a href=\"%1$s\">هذا الوسم</a>؛ يمكنك تغيير الوسم والتخطيط في نافذة <a href=\"%2$s\">المظهر &larr; تخصيص</a>. في حالة عدم وجود مقالات متعلقة بهذا الوسم، سيتم عرض <a href=\"%3$s\">المقالات المثبتة</a> كبديل."
+
+#: inc/customizer.php:89
+msgid "Slider"
+msgstr "عارض الشرائح"
+
+#: inc/customizer.php:88
+msgid "Grid"
+msgstr "شبكة"
+
+#: inc/customizer.php:84
+msgid "Layout"
+msgstr "الشكل العام"
+
+#: inc/customizer.php:64
+#: inc/customizer.php:162
+#: inc/featured-content.php:384
+#: inc/featured-content.php:396
+#: inc/featured-content.php:462
+msgctxt "featured content default tag slug"
+msgid "featured"
+msgstr "مميز"
+
+#: inc/customizer.php:63
+#: inc/featured-content.php:383
+msgid "Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr "استخدم <a href=\"%1$s\">هذا الوسم</a> لتمييز مقالاتك. في حالة عدم وجود مقالات متعلقة بالوسم، سيتم عرض <a href=\"%2$s\">المقالات المثبتة</a> كبديل."
+
+#: inc/customizer.php:61
+#: inc/featured-content.php:381
+msgid "Featured Content"
+msgstr "المحتوى المميز"
+
+#: inc/customizer.php:53
+#: inc/customizer.php:54
+msgid "Background may only be visible on wide screens."
+msgstr "ربما تظهر الخلفية فقط على الشاشات العريضة."
+
+#: inc/customizer.php:50
+#: inc/customizer.php:51
+msgid "May only be visible on wide screens."
+msgstr "قد تكون فقط مرئية على الشاشات الواسعة."
+
+#: inc/customizer.php:46
+msgid "Display Site Title &amp; Tagline"
+msgstr "أظهر عنوان و شعار الموقع"
+
+#: inc/customizer.php:43
+msgid "Site Title Color"
+msgstr "لون عنوان الموقع"
+
+#: inc/back-compat.php:37
+#: inc/back-compat.php:48
+#: inc/back-compat.php:64
+msgid "Twenty Fourteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr "قالب Twenty Fourteen يتطلب نسخة ووردبريس 3.6 على الأقل. أنت تستخدم النسخة %s. من فضلك قم بالترقية وحاول مرة أخرى."
+
+#: image.php:69
+msgid "Next Image"
+msgstr "الصورة التالية"
+
+#: image.php:68
+msgid "Previous Image"
+msgstr "الصورة السابقة"
+
+#: header.php:54
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: header.php:53
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: header.php:49
+msgid "Search"
+msgstr "بحث"
+
+#: functions.php:625
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: functions.php:506
+msgid "%d Article"
+msgid_plural "%d Articles"
+msgstr[0] "%d مقالة"
+msgstr[1] "مقالة واحدة"
+msgstr[2] "مقالتان"
+msgstr[3] "%d مقالات"
+msgstr[4] "%d مقالة"
+msgstr[5] "%d مقالة"
+
+#: functions.php:347
+msgid "Next"
+msgstr "التالي"
+
+#: functions.php:346
+msgid "Previous"
+msgstr "السابق"
+
+#: functions.php:295
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "مفعل"
+
+#: functions.php:272
+msgid "Appears in the footer section of the site."
+msgstr "يظهر في تذييل الصفحة (فوتر) في الموقع."
+
+#: functions.php:270
+msgid "Footer Widget Area"
+msgstr "الودجات في الفوتر"
+
+#: functions.php:261
+msgid "Additional sidebar that appears on the right."
+msgstr "شريط جانبي إضافي يظهر على اليسار."
+
+#: functions.php:259
+msgid "Content Sidebar"
+msgstr "الشريط الجانبي - المحتوى"
+
+#: functions.php:250
+msgid "Main sidebar that appears on the left."
+msgstr "الشريط الجانبي الأساسي يظهر على اليمين."
+
+#: functions.php:248
+msgid "Primary Sidebar"
+msgstr "الشريط الجانبي - الأساسي"
+
+#: functions.php:131
+msgid "Secondary menu in left sidebar"
+msgstr "القائمة الثانوية في الشريط الجانبي على اليمين"
+
+#: functions.php:130
+msgid "Top primary menu"
+msgstr "القائمة الأساسية العلوية"
+
+#: footer.php:27
+msgid "Proudly powered by %s"
+msgstr "الموقع يستخدم %s بكل فخر"
+
+#: content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أنه لا يمكن إيجاد ما تبحث عنه. قد تفيدك خاصية البحث."
+
+#: content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
+
+#: content-none.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: content-aside.php:56
+#: content-audio.php:56
+#: content-gallery.php:56
+#: content-image.php:56
+#: content-link.php:56
+#: content-page.php:23
+#: content-quote.php:56
+#: content-video.php:56
+#: content.php:65
+#: image.php:56
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#. translators: %s: Name of current post
+#: content-aside.php:49
+#: content-audio.php:49
+#: content-gallery.php:49
+#: content-image.php:49
+#: content-link.php:49
+#: content-quote.php:49
+#: content-video.php:49
+#: content.php:58
+#: inc/template-tags.php:229
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "متابعة قراءة %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:40
+#: content-audio.php:40
+#: content-gallery.php:40
+#: content-image.php:40
+#: content-link.php:40
+#: content-page.php:30
+#: content-quote.php:40
+#: content-video.php:40
+#: content.php:43
+#: image.php:35
+#: page-templates/contributors.php:36
+msgid "Edit"
+msgstr "تحرير"
+
+#: content-aside.php:37
+#: content-audio.php:37
+#: content-gallery.php:37
+#: content-image.php:37
+#: content-link.php:37
+#: content-quote.php:37
+#: content-video.php:37
+#: content.php:39
+#: inc/widgets.php:225
+msgid "% Comments"
+msgstr "% تعليقات"
+
+#: content-aside.php:37
+#: content-audio.php:37
+#: content-gallery.php:37
+#: content-image.php:37
+#: content-link.php:37
+#: content-quote.php:37
+#: content-video.php:37
+#: content.php:39
+#: inc/widgets.php:225
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: content-aside.php:37
+#: content-audio.php:37
+#: content-gallery.php:37
+#: content-image.php:37
+#: content-link.php:37
+#: content-quote.php:37
+#: content-video.php:37
+#: content.php:39
+#: inc/widgets.php:225
+msgid "Leave a comment"
+msgstr "أضف تعليق"
+
+#: content-aside.php:17
+#: content-audio.php:17
+#: content-featured-post.php:28
+#: content-gallery.php:17
+#: content-image.php:17
+#: content-link.php:17
+#: content-quote.php:17
+#: content-video.php:17
+#: content.php:19
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:52
+#: comments.php:72
+msgid "Newer Comments &rarr;"
+msgstr "التعليقات الأحدث &larr;"
+
+#: comments.php:51
+#: comments.php:71
+msgid "&larr; Older Comments"
+msgstr "&rarr; التعليقات الأقدم"
+
+#: comments.php:50
+#: comments.php:70
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: category.php:20
+msgid "Category Archives: %s"
+msgstr "أرشيف التصنيف: %s"
+
+#: author.php:31
+msgid "All posts by %s"
+msgstr "كل مقالات %s"
+
+#: archive.php:40
+#: taxonomy-post_format.php:51
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: archive.php:37
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:37
+msgid "Yearly Archives: %s"
+msgstr "الأرشيف السنوي: %s"
+
+#: archive.php:34
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:34
+msgid "Monthly Archives: %s"
+msgstr "الأرشيف الشهري: %s"
+
+#: archive.php:31
+msgid "Daily Archives: %s"
+msgstr "الأرشيف اليومي: %s"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "يبدو أنه لا يوجد شيء هنا. ربما حاول استعمال البحث؟"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "غير موجود"
+
+#. Author URI of the theme
+#: footer.php:26
+msgid "https://wordpress.org/"
+msgstr "http://ar.wordpress.org/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "فريق ووردبريس"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentyfourteen/"
+msgstr "https://wordpress.org/themes/twentyfourteen/"

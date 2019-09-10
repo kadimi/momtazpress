@@ -1,0 +1,733 @@
+# Translation of Themes - Arcade Basic in Arabic
+# This file is distributed under the same license as the Themes - Arcade Basic package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-19 17:49:24+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Arcade Basic\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the plugin/theme
+msgid "Create a truly unique design with Arcade, a lightweight and fully responsive HTML5 theme. Use the theme customizer to add your own header image, page layout, site width and more. Distinguish each post with one of the eight supported post formats, such as: Video, Image, Aside, Status, Audio, Quote, Link and Gallery. Install JetPack to display each of your galleries through a tiled view and jQuery carousel. Compatible with bbPress, BuddyPress, WPML & Woocommerce. Uses Google Fonts for improved typeface readability and works perfectly in desktop browsers, tablets and handheld devices."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Arcade Basic"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:120
+msgid "Text:"
+msgstr ""
+
+#: library/preview-pro.php:102
+msgid "Easily go to the Customizer and select a YouTube video or upload your own."
+msgstr ""
+
+#: library/preview-pro.php:101
+msgid "Having is full size header image is great, but why not step it up a notch with a video instead?"
+msgstr ""
+
+#: library/preview-pro.php:96
+msgid "<strong style=\"color: #ff0000;\">NEW</strong> - Header Video"
+msgstr ""
+
+#: library/customizer.php:317
+msgid "Upgrade to Arcade"
+msgstr ""
+
+#: library/about.php:41
+#: library/preview-pro.php:18
+#: library/preview-pro.php:81
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Post Block"
+msgstr ""
+
+#: single.php:19
+msgid "%title &rarr;"
+msgstr ""
+
+#: single.php:18
+msgid "&larr; %title"
+msgstr ""
+
+#: sidebar.php:21
+msgid "List item four"
+msgstr ""
+
+#: sidebar.php:20
+msgid "List item three"
+msgstr ""
+
+#: sidebar.php:19
+msgid "List item two"
+msgstr ""
+
+#: sidebar.php:18
+msgid "List item one"
+msgstr ""
+
+#: sidebar.php:16
+msgid "Below is an example of an unordered list."
+msgstr ""
+
+#: sidebar.php:14
+msgid "This is just a default widget. It'll disappear as soon as you add your own widgets on the %1$sWidgets admin page%2$s."
+msgstr ""
+
+#: sidebar.php:13
+msgid "Default Widget"
+msgstr ""
+
+#: search.php:19
+msgid " search results for"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:123
+msgid "Automatically add paragraphs"
+msgstr "إضافة الفقرات آلياً."
+
+#: library/widgets/widget-image-icon.php:103
+msgid "Button & Icon Color:"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:100
+msgid "Button Text:"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:97
+msgid "URL:"
+msgstr "الرابط:"
+
+#: library/widgets/widget-image-icon.php:91
+msgid "Icon:"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:88
+msgid "Title:"
+msgstr "العنوان:"
+
+#: library/widgets/widget-image-icon.php:10
+msgid "Icon & Text"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:9
+msgid "Custom Text Widget with Icon"
+msgstr ""
+
+#: library/preview-pro.php:187
+msgid "Buy %s Now &rarr;"
+msgstr ""
+
+#: library/preview-pro.php:181
+msgid "Once you&rsquo;ve set up your site exactly how you want, you can easily export the Theme Options and Custom CSS for safe keeping."
+msgstr ""
+
+#: library/preview-pro.php:180
+msgid "Import/Export Tool"
+msgstr ""
+
+#: library/preview-pro.php:177
+msgid "Shortcodes are awesome and easy to use. That&rsquo;s why %s comes with a bunch, like a slideshow carousel, alert boxes and more."
+msgstr ""
+
+#: library/preview-pro.php:176
+msgid "Bootstrap Shortcodes"
+msgstr ""
+
+#: library/preview-pro.php:170
+msgid "Sometimes one sidebar just isn&rsquo;t enough, so add a second one and place it where you want."
+msgstr ""
+
+#: library/preview-pro.php:169
+msgid "Multiple Sidebar Layouts"
+msgstr ""
+
+#: library/preview-pro.php:166
+msgid "Each page/post has an option to remove both sidebars so you can use the full width of your site to display whatever you want."
+msgstr ""
+
+#: library/preview-pro.php:165
+msgid "Full Width Posts/Pages"
+msgstr ""
+
+#: library/preview-pro.php:162
+msgid "Even More Theme Options"
+msgstr ""
+
+#: library/preview-pro.php:157
+msgid "Use the Theme Options customizer to set the number of columns you want to appear. You can also customize your site&rsquo;s copyright notice."
+msgstr ""
+
+#: library/preview-pro.php:156
+msgid "If you need to include more widgets on your site, take advantage of the Extended Footer."
+msgstr ""
+
+#: library/preview-pro.php:151
+msgid "Extended Widgetized Footer"
+msgstr ""
+
+#: library/preview-pro.php:146
+msgid "Choose from some of Google Fonts&rsquo; most popular fonts to improve your site&rsquo;s typeface readability and make things look even more amazing."
+msgstr ""
+
+#: library/preview-pro.php:145
+msgid "Web-safe fonts are a thing of the past, so why not try to spice things up a bit?"
+msgstr ""
+
+#: library/preview-pro.php:140
+msgid "Google Fonts"
+msgstr ""
+
+#: library/preview-pro.php:135
+msgid "Easily select one of the eight preset colors or dive even deeper into your customization by using a more specific hex code."
+msgstr ""
+
+#: library/preview-pro.php:134
+msgid "Sometimes the default colors just aren&rsquo;t working for you. In %s you can use the advanced color picker to make sure you get the exact colors you want."
+msgstr ""
+
+#: library/preview-pro.php:129
+msgid "Advanced Color Picker"
+msgstr ""
+
+#: library/preview-pro.php:124
+msgid "Easily add a social menu by creating links to the most popular social media websites."
+msgstr ""
+
+#: library/preview-pro.php:123
+msgid "Establish your online presence by letting your visitors join your social network. Help them stay up to date on everything you&rsquo;re doing"
+msgstr ""
+
+#: library/preview-pro.php:118
+msgid "Social Menu"
+msgstr ""
+
+#: library/preview-pro.php:113
+msgid "Each post will appear as part of the three columns grid."
+msgstr ""
+
+#: library/preview-pro.php:112
+msgid "Why display your posts in a single column when you can take advantage of the included grid page template?"
+msgstr ""
+
+#: library/preview-pro.php:107
+msgid "Grid Page Template"
+msgstr ""
+
+#: library/preview-pro.php:84
+msgid "Take your site to the next level with the full version of %s. Check out some of the advanced features that&rsquo;ll give you more control over your site&rsquo;s layout and design."
+msgstr ""
+
+#: library/preview-pro.php:18
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: library/customizer.php:308
+msgid "Display Comment Count"
+msgstr ""
+
+#: library/customizer.php:296
+msgid "Display Categories"
+msgstr ""
+
+#: library/customizer.php:284
+msgid "Display Date"
+msgstr ""
+
+#: library/customizer.php:272
+msgid "Display Author"
+msgstr ""
+
+#: library/customizer.php:263
+msgid "These options do not affect the Post Block page template."
+msgstr ""
+
+#: library/customizer.php:261
+msgid "Posts"
+msgstr "مقالات"
+
+#: library/customizer.php:256
+#: library/widgets/widget-image-icon.php:112
+msgid "Green"
+msgstr "أخضر"
+
+#: library/customizer.php:255
+#: library/widgets/widget-image-icon.php:111
+msgid "Yellow"
+msgstr "أصفر"
+
+#: library/customizer.php:254
+#: library/widgets/widget-image-icon.php:110
+msgid "Red"
+msgstr "أحمر"
+
+#: library/customizer.php:253
+#: library/widgets/widget-image-icon.php:109
+msgid "Blue"
+msgstr "أزرق"
+
+#: library/customizer.php:252
+#: library/widgets/widget-image-icon.php:108
+msgid "Light Blue"
+msgstr ""
+
+#: library/customizer.php:251
+#: library/widgets/widget-image-icon.php:107
+msgid "Default"
+msgstr "افتراضي"
+
+#: library/customizer.php:239
+msgid "Right"
+msgstr "يمين"
+
+#: library/customizer.php:238
+msgid "Left"
+msgstr "يسار"
+
+#: library/customizer.php:225
+msgid "Main Content Width"
+msgstr ""
+
+#: library/customizer.php:203
+msgid "992px"
+msgstr ""
+
+#: library/customizer.php:202
+msgid "1200px"
+msgstr ""
+
+#: library/customizer.php:197
+msgid "Site Width"
+msgstr ""
+
+#: library/customizer.php:187
+msgid "Layout"
+msgstr "الشكل العام"
+
+#: library/customizer.php:180
+msgid "Header Icon"
+msgstr ""
+
+#: library/customizer.php:168
+msgid "Use Fittext for long site title"
+msgstr ""
+
+#: library/customizer.php:158
+msgid "The space and rotation for each letter will be calculated using the arc radius and the width of the site title. Leave blank for no arc."
+msgstr ""
+
+#: library/customizer.php:156
+msgid "Arc Radius (Inner Pages)"
+msgstr ""
+
+#: library/customizer.php:145
+msgid "Arc Radius"
+msgstr ""
+
+#: library/customizer.php:84
+msgid "The sidebar will not appear on the Post Block page template."
+msgstr ""
+
+#: library/customizer.php:57
+#: library/widgets/widget-image-icon.php:93
+msgid "Remove Icon"
+msgstr ""
+
+#: library/customizer.php:57
+#: library/widgets/widget-image-icon.php:93
+msgid "View Icons"
+msgstr ""
+
+#: library/custom-metaboxes.php:43
+msgid "Set a custom image for the header if you want to use something other than the featured image."
+msgstr ""
+
+#: library/custom-metaboxes.php:42
+msgid "Remove Image"
+msgstr "إزالة الصورة"
+
+#: library/custom-metaboxes.php:42
+msgid "Set Image"
+msgstr "تعيين صورة"
+
+#: library/about.php:232
+msgid "For more information, check out the %1$sDocumentation &amp; FAQs%2$s section on my site."
+msgstr ""
+
+#: library/about.php:228
+msgid "&lt;blockquote class=\"pullquote alignright\"&gt;This is a pull quote that will appear within your text.&lt;/blockquote&gt;"
+msgstr ""
+
+#: library/about.php:226
+msgid "You can also align it to the right with this code:"
+msgstr ""
+
+#: library/about.php:225
+msgid "&lt;blockquote class=\"pullquote\"&gt;This is a pull quote that will appear within your text.&lt;/blockquote&gt;"
+msgstr ""
+
+#: library/about.php:223
+msgid "You can easily include a pull quote within your text by using the following code within the Text/HTML editor:"
+msgstr ""
+
+#: library/about.php:217
+msgid "Pull Quotes"
+msgstr ""
+
+#: library/about.php:212
+msgid "With %1$sJetpack&rsquo;s Carousel%2$s, clicking on one of your gallery images will open up a featured lightbox slideshow. Turn it on by going to %3$sJetpack &rarr; Settings%4$s. "
+msgstr ""
+
+#: library/about.php:210
+msgid "Carousel"
+msgstr ""
+
+#: library/about.php:208
+msgid "%1$sJetpack&rsquo;s Tiled Galleries%2%s will display your images in a beautiful mosaic layout. Go to %3$sJetpack &rarr; Settings%4$s to turn it on. "
+msgstr ""
+
+#: library/about.php:206
+msgid "Tiled Galleries"
+msgstr ""
+
+#: library/about.php:204
+msgid "%1$sJetpack&rsquo;s Infinite Scroll%2$s allows your visitors to view all your posts without having to click through to the next page. As they scroll, new posts will be added. To activate go to %3$sJetpack &rarr; Settings%4$s. "
+msgstr ""
+
+#: library/about.php:202
+msgid "Infinite Scroll"
+msgstr ""
+
+#: library/about.php:196
+msgid "Jetpack"
+msgstr ""
+
+#: library/about.php:191
+msgid "If you don&rsquo;t set a custom header on a page or post, your default header image will be displayed instead, if you selected one."
+msgstr ""
+
+#: library/about.php:185
+msgid "You have an option to display a custom header image on each of your posts and pages, through the Custom Header Image panel. Click <strong>Set Image</strong> to open the media library and select an image or upload a new one. Click <strong>Update</strong> or <strong>Publish</strong> when you&rsquo;re done."
+msgstr ""
+
+#: library/about.php:183
+#: library/custom-metaboxes.php:29
+#: library/custom-metaboxes.php:30
+msgid "Custom Header Image"
+msgstr ""
+
+#: library/about.php:178
+msgid "On the homepage of the demo, the lower section is comprised of four posts displayed in a grid block. You can create this look on your homepage by creating a static front page and assigning the Post Block page template to it."
+msgstr ""
+
+#: library/about.php:172
+msgid "Post Block Page Template"
+msgstr ""
+
+#: library/about.php:167
+msgid "The section where the four widgets appear on the homepage will only display once a widget is added to the Homepage Top Area in %1$sAppearance &rarr; Widgets%2$s. The demo uses the custom Icon & Text widget that comes with <em>%3$s</em> to display an icon accompanied by text. You can even have the icon and text link to a page or a post, by adding a URL in the field provided."
+msgstr ""
+
+#: library/about.php:156
+msgid "The Jumbo Headline is a widgetized area on the home page designed for a Text widget. Go to %1$sAppearance &rarr; Widgets%2$s to add the widget and customize the text."
+msgstr ""
+
+#: library/about.php:144
+msgid "Clicking on a top-level link in the primary navigation will open up the first dropdown list of sub-menu links."
+msgstr ""
+
+#: library/about.php:142
+msgid "To add a navigation menu to the header, go to %1$sAppearance &rarr; Menus%2$s. By default, a list of categories will appear in this location if no custom menu is set."
+msgstr ""
+
+#: library/about.php:140
+msgid "<em>%s</em> includes one Custom Menu locations: the Primary top menu."
+msgstr ""
+
+#: library/about.php:138
+msgid "Custom Menus"
+msgstr ""
+
+#: library/about.php:133
+msgid "With the sidebar layout option, you can decide whether to display your sidebar on the left or right of your main content."
+msgstr ""
+
+#: library/about.php:131
+#: library/customizer.php:243
+msgid "Sidebar Layout"
+msgstr ""
+
+#: library/about.php:129
+msgid "There are two width options for your site: 1200px &amp; 992px. You can select the width of your main content, based on a 12 column grid. Resizing your main content will also resize your sidebar."
+msgstr ""
+
+#: library/about.php:127
+msgid "Site &amp; Main Content Width"
+msgstr ""
+
+#: library/about.php:125
+msgid "<em>%s</em> uses Arctext.js to create a cool curved effect on your site title. The space and rotation for each letter is calculated using the Arc Radius and the width of the site title. If you don&rsquo;t want your site title to arc, leave the field blank."
+msgstr ""
+
+#: library/about.php:124
+msgid "Site Title Arc"
+msgstr ""
+
+#: library/about.php:122
+msgid "All theme options for <em>%1$s</em> are controlled under %2$sAppearance &rarr; Customize%3$s. From there, you can modify layout, custom menus, and more."
+msgstr ""
+
+#: library/about.php:116
+msgid "The Customizer"
+msgstr ""
+
+#: library/about.php:112
+#: library/preview-pro.php:92
+msgid "Upgrade"
+msgstr "ترقية"
+
+#: library/about.php:111
+#: library/preview-pro.php:91
+msgid "Documentation"
+msgstr "وثائق المساعدة"
+
+#: library/about.php:104
+msgid "Read through the following documentation to learn more about <em>%s</em> and how to use the available theme options."
+msgstr ""
+
+#: library/about.php:41
+msgid "About %s"
+msgstr "عن %s"
+
+#: library/about.php:28
+msgid "Learn more about %s"
+msgstr ""
+
+#: library/about.php:26
+msgid "Thanks for choosing %1$s! You can learn how to use the available theme options on the %2$sabout page%3$s."
+msgstr ""
+
+#: image.php:60
+msgid "Next Image &rarr;"
+msgstr ""
+
+#: image.php:59
+msgid "&larr; Previous Image"
+msgstr ""
+
+#: image.php:58
+#: single.php:17
+msgid "Post navigation"
+msgstr "تصفّح المقالات"
+
+#: header.php:71
+msgid "See More"
+msgstr ""
+
+#: header.php:30
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: header.php:29
+msgid "Main menu"
+msgstr "القائمة الرئيسية"
+
+#: functions.php:339
+msgid "Read more &rarr;"
+msgstr ""
+
+#: functions.php:296
+msgid "Pingback:"
+msgstr "التنبيهات:"
+
+#: functions.php:277
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك بانتظار المراجعة."
+
+#: functions.php:272
+msgid "%1$s at %2$s"
+msgstr "%1$s الساعة %2$s"
+
+#: functions.php:229
+msgid "Area on the home page above the main content. Designed specifically for four Icon & Text widgets. Add at least one widget to make it appear."
+msgstr ""
+
+#: functions.php:227
+#: library/about.php:161
+msgid "Home Page Top Area"
+msgstr ""
+
+#: functions.php:219
+msgid "Area on the home page below the large header image. Designed specifically for one text widget. "
+msgstr ""
+
+#: functions.php:217
+#: library/about.php:150
+msgid "Jumbo Headline"
+msgstr ""
+
+#: functions.php:209
+msgid "This is the first sidebar. It won't appear on the home page unless you set a static front page."
+msgstr ""
+
+#: functions.php:207
+msgid "First Sidebar"
+msgstr ""
+
+#: functions.php:89
+msgid "Default Header 1"
+msgstr ""
+
+#: functions.php:64
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: front-page.php:79
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "مستعد لنشر أول مقالة لك؟ <a href=\"%s\">ابدأ من هنا</a>."
+
+#: front-page.php:76
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: footer.php:18
+msgid "The %1$s Theme by %2$s."
+msgstr ""
+
+#: footer.php:17
+msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
+msgstr ""
+
+#: template-parts/content-status.php:15
+msgid "Posted on %1$s at %2$s"
+msgstr ""
+
+#: template-parts/content-status.php:9
+msgid "<i class=\"fa fa-plus-square\"></i> Status"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid "No results were found. Please try again."
+msgstr ""
+
+#: template-parts/content-none.php:9
+msgid "Nothing found"
+msgstr "لم يتم العثور على شيء"
+
+#: template-parts/content-link.php:9
+msgid "<i class=\"fa fa-link\"></i> Link"
+msgstr ""
+
+#: template-parts/content-header.php:49
+msgid "% Comments"
+msgstr "% تعليقات"
+
+#: template-parts/content-header.php:49
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: template-parts/content-header.php:49
+msgid "0 Comments"
+msgstr ""
+
+#: template-parts/content-header.php:39
+msgid "in"
+msgstr ""
+
+#: template-parts/content-header.php:31
+msgid "on"
+msgstr ""
+
+#: template-parts/content-header.php:25
+msgid "Posts by %s"
+msgstr "مقالات %s"
+
+#: template-parts/content-header.php:24
+msgid "by %s"
+msgstr "بواسطة %s"
+
+#: template-parts/content-footer.php:13
+msgid "Tags:"
+msgstr "الوسوم:"
+
+#: functions.php:273
+#: functions.php:296
+#: image.php:52
+#: template-parts/content-footer.php:12
+msgid "(edit)"
+msgstr "(تحرير)"
+
+#: image.php:51
+#: template-parts/content-footer.php:11
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: page.php:33
+#: template-parts/content-aside.php:12
+#: template-parts/content-audio.php:12
+#: template-parts/content-gallery.php:12
+#: template-parts/content-image.php:16
+#: template-parts/content-link.php:12
+#: template-parts/content-quote.php:12
+#: template-parts/content-status.php:18
+#: template-parts/content-video.php:12
+#: template-parts/content.php:20
+msgid "Read more"
+msgstr "اقرأ المزيد"
+
+#: template-parts/content-aside.php:9
+msgid "<i class=\"fa fa-asterisk\"></i> Aside"
+msgstr ""
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:42
+msgid "Newer Comments &rarr;"
+msgstr "التعليقات الأحدث &larr;"
+
+#: comments.php:41
+msgid "&larr; Older Comments"
+msgstr "&rarr; التعليقات الأقدم"
+
+#: comments.php:40
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: comments.php:29
+msgid "1 comment for &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments for &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: 404.php:18
+msgid "Sorry. We can't seem to find the page you're looking for."
+msgstr ""
+
+#: 404.php:15
+msgid "404 Error"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themes.bavotasan.com/themes/arcade-wordpress-theme/"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://bavotasan.com/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "c.bavota"
+msgstr ""

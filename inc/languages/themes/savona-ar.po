@@ -1,0 +1,875 @@
+# Translation of Themes - Savona in Arabic
+# This file is distributed under the same license as the Themes - Savona package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: +0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Savona\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the plugin/theme
+msgid "Savona is a free multi-purpose Wordpress Blog theme. Its perfect for any kind of blog or website: fashion, travel, health, fitness, beauty, lifestyle, food, news, magazine, blogging, personal, professional, tech, etc. Its fully Responsive and Retina Display ready, clean, modern and minimal design. Savona is WooCommerce compatible, SEO friendly and also has RTL(Right To Left) support. Demo: https://optimathemes.com/savona-free/demo?ref=demo"
+msgstr ""
+
+#: templates/single/post-content.php:71
+msgid "By"
+msgstr ""
+
+#: templates/header/featured-slider.php:112
+msgid "read more"
+msgstr ""
+
+#: templates/grid/blog-pagination.php:76
+msgid "Load More"
+msgstr ""
+
+#: templates/grid/blog-pagination.php:70
+msgid "Newer Posts"
+msgstr ""
+
+#: templates/grid/blog-pagination.php:64
+msgid "Older Posts"
+msgstr ""
+
+#: templates/grid/blog-pagination.php:31
+msgid "Loading..."
+msgstr ""
+
+#: templates/grid/blog-grid.php:114
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: templates/grid/blog-grid.php:113
+msgid "Nothing Found!"
+msgstr ""
+
+#: templates/grid/blog-grid.php:87
+#: templates/single/post-content.php:77
+msgid "Comments"
+msgstr ""
+
+#: templates/grid/blog-grid.php:87
+#: templates/single/post-content.php:77
+msgid "1 Comment"
+msgstr ""
+
+#: page.php:41
+#: templates/single/post-content.php:48
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer/customizer.php:883
+msgid "Preloading Animation"
+msgstr ""
+
+#: inc/customizer/customizer.php:877
+msgid "Preloader"
+msgstr ""
+
+#: inc/customizer/customizer.php:863
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:853
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer/customizer.php:845
+msgid "Page Footer"
+msgstr ""
+
+#: inc/customizer/customizer.php:815
+#: inc/customizer/customizer.php:821
+#: inc/customizer/customizer.php:827
+#: inc/customizer/customizer.php:833
+msgid "Select Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:753
+msgid "Show Social Icons in New Window"
+msgstr ""
+
+#: inc/customizer/customizer.php:747
+msgid "Social Media"
+msgstr ""
+
+#: inc/customizer/customizer.php:738
+msgid "Related Posts - Display"
+msgstr ""
+
+#: inc/customizer/customizer.php:735
+msgid "Show Author Description"
+msgstr ""
+
+#: inc/customizer/customizer.php:717
+msgid "Single Page"
+msgstr ""
+
+#: inc/customizer/customizer.php:702
+msgid "Blog Options "
+msgstr ""
+
+#: inc/customizer/customizer.php:692
+msgid "Related Posts Display"
+msgstr ""
+
+#: inc/customizer/customizer.php:688
+msgid "Related"
+msgstr ""
+
+#: inc/customizer/customizer.php:684
+#: inc/customizer/customizer.php:732
+msgid "Show Author"
+msgstr ""
+
+#: inc/customizer/customizer.php:681
+msgid "Show Drop Caps"
+msgstr ""
+
+#: inc/customizer/customizer.php:678
+#: inc/customizer/customizer.php:729
+msgid "Show Comments"
+msgstr ""
+
+#: inc/customizer/customizer.php:675
+#: inc/customizer/customizer.php:726
+msgid "Show Date"
+msgstr ""
+
+#: inc/customizer/customizer.php:672
+#: inc/customizer/customizer.php:723
+msgid "Show Categories"
+msgstr ""
+
+#: inc/customizer/customizer.php:669
+msgid "Post Pagination"
+msgstr ""
+
+#: inc/customizer/customizer.php:665
+msgid "Numeric"
+msgstr ""
+
+#: inc/customizer/customizer.php:664
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/customizer.php:661
+msgid "Post Description"
+msgstr ""
+
+#: inc/customizer/customizer.php:657
+msgid "Post Content"
+msgstr ""
+
+#: inc/customizer/customizer.php:656
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/customizer/customizer.php:655
+#: inc/customizer/customizer.php:687
+msgid "None"
+msgstr ""
+
+#: inc/customizer/customizer.php:649
+msgid "Blog Page"
+msgstr ""
+
+#: inc/customizer/customizer.php:622
+#: inc/customizer/customizer.php:631
+#: inc/customizer/customizer.php:640
+msgid "Image"
+msgstr ""
+
+#: inc/customizer/customizer.php:619
+#: inc/customizer/customizer.php:628
+#: inc/customizer/customizer.php:637
+#: inc/customizer/customizer.php:818
+#: inc/customizer/customizer.php:824
+#: inc/customizer/customizer.php:830
+#: inc/customizer/customizer.php:836
+msgid "URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:616
+#: inc/customizer/customizer.php:625
+#: inc/customizer/customizer.php:634
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/customizer.php:607
+#: inc/customizer/customizer.php:613
+msgid "Featured Links"
+msgstr ""
+
+#: inc/customizer/customizer.php:593
+msgid "Slider Options "
+msgstr ""
+
+#: inc/customizer/customizer.php:562
+msgid "Show Pagination Dots"
+msgstr ""
+
+#: inc/customizer/customizer.php:559
+msgid "Show Navigation Arrows"
+msgstr ""
+
+#: inc/customizer/customizer.php:554
+msgid "Number of Slides"
+msgstr ""
+
+#: inc/customizer/customizer.php:551
+msgid "Select Category"
+msgstr ""
+
+#: inc/customizer/customizer.php:542
+msgid "Display Posts"
+msgstr ""
+
+#: inc/customizer/customizer.php:528
+#: inc/customizer/customizer.php:534
+msgid "Featured Slider"
+msgstr ""
+
+#: inc/customizer/customizer.php:519
+msgid "Show Sidebar Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:516
+msgid "Show Search Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:512
+msgid "Below Page Header"
+msgstr ""
+
+#: inc/customizer/customizer.php:511
+msgid "Above Page Header"
+msgstr ""
+
+#: inc/customizer/customizer.php:508
+msgid "Align"
+msgstr ""
+
+#: inc/customizer/customizer.php:504
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/customizer.php:503
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/customizer.php:502
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/customizer.php:493
+#: inc/customizer/customizer.php:499
+msgid "Main Navigation"
+msgstr ""
+
+#: inc/customizer/customizer.php:482
+msgid "Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:468
+#: inc/customizer/customizer.php:474
+msgid "Top Bar"
+msgstr ""
+
+#: inc/customizer/customizer.php:454
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:444
+msgid "Footer Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:441
+msgid "Single Content Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:438
+msgid "Content Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:435
+msgid "Featured Links Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:432
+msgid "Featured Slider Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:424
+msgid "Header Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:420
+#: inc/customizer/customizer.php:428
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/customizer.php:419
+msgid "Contained"
+msgstr ""
+
+#: inc/customizer/customizer.php:418
+#: inc/customizer/customizer.php:427
+msgid "Full"
+msgstr ""
+
+#: inc/customizer/customizer.php:415
+msgid "Enable Sticky Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer.php:412
+msgid "Sidebar Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:406
+msgid "General Layouts"
+msgstr ""
+
+#: inc/customizer/customizer.php:365
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:358
+msgid "Accent"
+msgstr ""
+
+#: inc/customizer/customizer.php:352
+#: inc/customizer/customizer.php:393
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/customizer.php:311
+msgid "Download Demo Content"
+msgstr ""
+
+#: inc/customizer/customizer.php:310
+msgid "You can download and import our demo file to get the same demo content as shown on our website. For more details please read theme documentation."
+msgstr ""
+
+#: inc/customizer/customizer.php:309
+msgid "Demo Content"
+msgstr ""
+
+#: inc/customizer/customizer.php:305
+msgid "Read how to customize the theme, set up widgets, and learn all the possible options available to you."
+msgstr ""
+
+#: inc/customizer/customizer.php:300
+msgid "Upgrade to Pro version for Demo Content, unlimited custom Colors, rich Typography options, multiple variation of Blog Feed layout and way much more. Also Premium Support included."
+msgstr ""
+
+#: inc/customizer/customizer.php:299
+msgid "Upgrade"
+msgstr ""
+
+#: inc/customizer/customizer.php:286
+msgid "See Savona PRO"
+msgstr ""
+
+#: inc/about/about-savona.php:383
+msgid "Install Now"
+msgstr ""
+
+#: inc/about/about-savona.php:380
+msgid "Installed"
+msgstr ""
+
+#: inc/about/about-savona.php:330
+msgid "Savona Author, Ads &amp; Social Icons widgets included."
+msgstr ""
+
+#: inc/about/about-savona.php:329
+msgid "Savona Pro Widgets"
+msgstr ""
+
+#: inc/about/about-savona.php:322
+msgid "Jetpack is the ultimate toolkit for WordPress. It gives you everything you need to design, secure, and grow your site in one bundle."
+msgstr ""
+
+#: inc/about/about-savona.php:321
+msgid "Integration with JetPack"
+msgstr ""
+
+#: inc/about/about-savona.php:314
+msgid "This plugin helps you add more subscribers to your MailChimp lists using various methods."
+msgstr ""
+
+#: inc/about/about-savona.php:313
+msgid "Integration with MailChimp"
+msgstr ""
+
+#: inc/about/about-savona.php:306
+msgid "Showcase your Instagram photos on your website footer area."
+msgstr ""
+
+#: inc/about/about-savona.php:305
+msgid "Instagram Widget Area"
+msgstr ""
+
+#: inc/about/about-savona.php:298
+msgid "Fix the main navigation to the page, it will be always visible at the top."
+msgstr ""
+
+#: inc/about/about-savona.php:297
+msgid "Sticky Navigation"
+msgstr ""
+
+#: inc/about/about-savona.php:290
+msgid "Ability to share your Blog Posts on the most popular social media: Facebook, Twitter, Pinterest, Google Plus, Linkedin, Reddit, Tumblr."
+msgstr ""
+
+#: inc/about/about-savona.php:289
+msgid "Post Sharing Icons"
+msgstr ""
+
+#: inc/about/about-savona.php:282
+msgid "Rich Typography options. Choose from more than 800 Google Fonts, adjust Size, Line Height, Font Weight, etc..."
+msgstr ""
+
+#: inc/about/about-savona.php:281
+msgid "800+ Google Fonts"
+msgstr ""
+
+#: inc/about/about-savona.php:274
+msgid "Tons of color options. You can customize your Header, Content and Footer separately as much as possible."
+msgstr ""
+
+#: inc/about/about-savona.php:273
+msgid "Unlimited Colors"
+msgstr ""
+
+#: inc/about/about-savona.php:266
+msgid "Just a Single Click and you will get the same content as shown on our Demo website. Menus, Posts, Pages, Widgets, etc... will be imported."
+msgstr ""
+
+#: inc/about/about-savona.php:265
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/about/about-savona.php:256
+msgid "Stylish and modern Alternative Widgetised area, which is hidden by default and pops up on click."
+msgstr ""
+
+#: inc/about/about-savona.php:255
+msgid "Alternative Sidebar"
+msgstr ""
+
+#: inc/about/about-savona.php:247
+msgid "Left and Right Widgetised areas. Could be globally Enabled/Disabled."
+msgstr ""
+
+#: inc/about/about-savona.php:245
+msgid "Left &amp; Right Sidebars"
+msgstr ""
+
+#: inc/about/about-savona.php:238
+msgid "Unlimited level of sub menus. Add as much as you need."
+msgstr ""
+
+#: inc/about/about-savona.php:237
+msgid "Multi-level Sub Menu Support"
+msgstr ""
+
+#: inc/about/about-savona.php:230
+msgid "Standard one column Blog Feed layout."
+msgstr ""
+
+#: inc/about/about-savona.php:229
+msgid "Classic Layout"
+msgstr ""
+
+#: inc/about/about-savona.php:221
+msgid "Set the custom body Background image or Color."
+msgstr ""
+
+#: inc/about/about-savona.php:220
+msgid "Background Image/Color"
+msgstr ""
+
+#: inc/about/about-savona.php:212
+msgid "You can have 5 Featured Links."
+msgstr ""
+
+#: inc/about/about-savona.php:210
+msgid "Display up to 3 eye-catching linked images under header area, which could be a Custom Page Links or Banners(ads)."
+msgstr ""
+
+#: inc/about/about-savona.php:208
+msgid "Featured Links (Promo Boxes)"
+msgstr ""
+
+#: inc/about/about-savona.php:200
+msgid "Unlimited number of Slides. Feature specific(custom) posts and order them by date or even random. Set Autoplay and enable/disable any element."
+msgstr ""
+
+#: inc/about/about-savona.php:198
+msgid "Showcase up to 3 most recent Blog Posts in header area."
+msgstr ""
+
+#: inc/about/about-savona.php:196
+msgid "Featured Posts Slider"
+msgstr ""
+
+#: inc/about/about-savona.php:189
+msgid "Adjust Logo position to fit your custom header design."
+msgstr ""
+
+#: inc/about/about-savona.php:189
+#: inc/about/about-savona.php:200
+#: inc/about/about-savona.php:212
+msgid "Pro Version:"
+msgstr ""
+
+#: inc/about/about-savona.php:189
+msgid "Upload your logo image(set the size) or simply type your text logo."
+msgstr ""
+
+#: inc/about/about-savona.php:188
+msgid "Image &amp; Text Logos"
+msgstr ""
+
+#: inc/about/about-savona.php:181
+msgid "The most popular contact form plugin. You can build almost any kind of contact form. Very simple but super flexible."
+msgstr ""
+
+#: inc/about/about-savona.php:180
+msgid "Contact Form 7 Support"
+msgstr ""
+
+#: inc/about/about-savona.php:171
+msgid "The best eCommerce solution for Wordpress websites. Add your own Shop and sell anything from digital Goods to Coconuts."
+msgstr ""
+
+#: inc/about/about-savona.php:169
+msgid "WooCommerce Integration"
+msgstr ""
+
+#: inc/about/about-savona.php:162
+msgid "RTL stylesheet for languages that are read from right to left like Arabic, Hebrew, etc... Your content will adapt to RTL direction."
+msgstr ""
+
+#: inc/about/about-savona.php:161
+msgid "RTL Support"
+msgstr ""
+
+#: inc/about/about-savona.php:154
+msgid "Each hard-coded string is ready for translation, means you can translate everything. Language \"savona.pot\" file included."
+msgstr ""
+
+#: inc/about/about-savona.php:153
+msgid "Translation Ready"
+msgstr ""
+
+#: inc/about/about-savona.php:146
+msgid "Theme adapts to any kind of device screen, from mobile phones to high resolution Retina displays."
+msgstr ""
+
+#: inc/about/about-savona.php:145
+msgid "100% Responsive and Retina Ready"
+msgstr ""
+
+#: inc/about/about-savona.php:139
+msgid "Savona Pro"
+msgstr ""
+
+#. #-#-#-#-#  savona.pot (Savona 1.0.21)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: inc/about/about-savona.php:138
+msgid "Savona"
+msgstr ""
+
+#: inc/about/about-savona.php:135
+#: inc/about/about-savona.php:341
+#: inc/customizer/customizer.php:301
+msgid "Get Savona Pro"
+msgstr ""
+
+#: inc/about/about-savona.php:120
+msgid "Donate with PayPal"
+msgstr ""
+
+#: inc/about/about-savona.php:118
+msgid "Even a small sum can help us a lot with theme development. If the Savona theme is useful and our support is helpful, please don't hesitate to donate a little bit, at least buy us a Coffee :)"
+msgstr ""
+
+#: inc/about/about-savona.php:115
+msgid "Donation"
+msgstr ""
+
+#: inc/about/about-savona.php:108
+msgid "Read Full Documentation"
+msgstr ""
+
+#: inc/about/about-savona.php:106
+msgid "Need more details? Please check our full documentation for detailed information on how to use Savona."
+msgstr ""
+
+#: inc/about/about-savona.php:103
+#: inc/customizer/customizer.php:304
+#: inc/customizer/customizer.php:306
+msgid "Documentation"
+msgstr ""
+
+#: inc/about/about-savona.php:87
+msgid "This widget adds a Simple Facebook Page Like Widget into your wordpress website sidebar within few minutes."
+msgstr ""
+
+#: inc/about/about-savona.php:87
+msgid "Facebook Widget"
+msgstr ""
+
+#: inc/about/about-savona.php:84
+msgid "A WordPress widget for showing your latest Instagram photos."
+msgstr ""
+
+#: inc/about/about-savona.php:84
+msgid "WP Instagram Widget"
+msgstr ""
+
+#: inc/about/about-savona.php:81
+msgid "Small and fast plugin to display in the sidebar a list of linked titles and thumbnails of the most recent postings."
+msgstr ""
+
+#: inc/about/about-savona.php:81
+msgid "Recent Posts Widget With Thumbnails"
+msgstr ""
+
+#: inc/about/about-savona.php:78
+msgid "Just another contact form plugin. Simple but flexible."
+msgstr ""
+
+#: inc/about/about-savona.php:78
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/about/about-savona.php:75
+msgid "Create and send newsletters or automated emails. Capture subscribers with a widget. Import and manage your lists. MailPoet is made with love."
+msgstr ""
+
+#: inc/about/about-savona.php:75
+msgid "MailPoet 2"
+msgstr ""
+
+#: inc/about/about-savona.php:72
+msgid "WooCommerce is a powerful, extendable eCommerce plugin that helps you sell anything. Beautifully."
+msgstr ""
+
+#: inc/about/about-savona.php:72
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/about/about-savona.php:66
+msgid "Recommended Plugins are fully supported by Savona theme, they are styled to fit the theme design and performing well. Not mandatory, but may be usefl."
+msgstr ""
+
+#: inc/about/about-savona.php:56
+msgid "Customize Your Site"
+msgstr ""
+
+#: inc/about/about-savona.php:54
+msgid "All theme options are located here. After reading the Theme Documentation we recommend you to open the Theme Customizer and play with some options. You will enjoy it."
+msgstr ""
+
+#: inc/about/about-savona.php:52
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/about/about-savona.php:48
+msgid "Read Documentation"
+msgstr ""
+
+#: inc/about/about-savona.php:46
+msgid "Highly recommended to begin with this, read the full theme documentation to understand the basics and even more details about how to use Savona. It is worth to spend 10 minutes and know almost everything about the theme."
+msgstr ""
+
+#: inc/about/about-savona.php:44
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/about/about-savona.php:32
+msgid "Free vs Pro"
+msgstr ""
+
+#: inc/about/about-savona.php:29
+msgid "Support"
+msgstr ""
+
+#: inc/about/about-savona.php:26
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/about/about-savona.php:23
+msgid "Getting Started"
+msgstr ""
+
+#: inc/about/about-savona.php:15
+msgid "Savona is a free multi-purpose Wordpress Blog theme. It's perfect for any kind of blog or website: personal, professional, tech, fashion, travel, health, lifestyle, food, blogging etc. Its fully Responsive and Retina Display ready, clean, modern and minimal design. Savona is WooCommerce compatible, SEO friendly and also has RTL support."
+msgstr ""
+
+#: inc/about/about-savona.php:13
+msgid "Welcome to Savona!"
+msgstr ""
+
+#: inc/about/about-savona.php:5
+#: inc/customizer/customizer.php:326
+msgid "About Savona"
+msgstr ""
+
+#: functions.php:521
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:489
+#: functions.php:512
+msgid "[Edit]"
+msgstr ""
+
+#: functions.php:488
+#: functions.php:509
+msgid "&nbsp;at&nbsp;"
+msgstr ""
+
+#: functions.php:486
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:462
+msgid "Type & hit enter..."
+msgstr ""
+
+#: functions.php:462
+msgid "Search..."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: functions.php:256
+#: functions.php:272
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: functions.php:223
+#: functions.php:237
+msgid "Set up Menu"
+msgstr ""
+
+#: functions.php:197
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:195
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:187
+msgid "Add widgets here to appear in your alternative/fixed sidebar."
+msgstr ""
+
+#: functions.php:185
+msgid "Slide Out Sidebar"
+msgstr ""
+
+#: functions.php:175
+msgid "Sidebar Left"
+msgstr ""
+
+#: functions.php:167
+#: functions.php:177
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:165
+msgid "Sidebar Right"
+msgstr ""
+
+#: functions.php:138
+#: functions.php:146
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:78
+msgid "Get Started with Savona"
+msgstr ""
+
+#: functions.php:77
+msgid "Thank you for choosing Savona! Now, we higly recommend you to visit our welcome page."
+msgstr ""
+
+#: functions.php:47
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:46
+msgid "Top Menu"
+msgstr ""
+
+#: footer.php:37
+msgid "Optima Themes"
+msgstr ""
+
+#: footer.php:35
+msgid "Savona Theme by "
+msgstr ""
+
+#: footer.php:25
+msgid "Y"
+msgstr ""
+
+#: comments.php:31
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:27
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:13
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:13
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:13
+#: templates/grid/blog-grid.php:87
+#: templates/single/post-content.php:77
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view the comments."
+msgstr ""
+
+#: 404.php:10
+msgid "Homepage"
+msgstr ""
+
+#: 404.php:9
+msgid "It seems we can't find what you're looking for. Perhaps searching can help or go back to "
+msgstr ""
+
+#: 404.php:6
+msgid "Page not found!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Aslam"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://optimathemes.com/"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://optimathemes.com/savona-theme/"
+msgstr ""

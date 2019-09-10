@@ -1,0 +1,5299 @@
+# Translation of Plugins - Elementor Page Builder - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - Elementor Page Builder - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-08-22 12:31:58+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Plugins - Elementor Page Builder - Stable (latest release)\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: core/debug/classes/htaccess.php:29
+msgid "File Path: %s"
+msgstr ""
+
+#: includes/editor-templates/panel.php:171
+msgid "Need Help"
+msgstr ""
+
+#: includes/controls/groups/background.php:583
+msgid "Play Once"
+msgstr ""
+
+#: includes/controls/icons.php:80
+msgid "Upload SVG"
+msgstr "رفع SVG"
+
+#: includes/controls/media.php:153
+msgid "Choose Video"
+msgstr ""
+
+#: includes/admin-templates/beta-tester.php:40
+msgid "By clicking Sign Up, you agree to Elementor's <a href=\"%1$s\">Terms of Service</a> and <a href=\"%2$s\">Privacy Policy</a>"
+msgstr ""
+
+#: includes/admin-templates/beta-tester.php:31
+msgid "Your Email"
+msgstr "بريدك الإلكتروني"
+
+#: includes/admin-templates/beta-tester.php:29
+msgid "As a beta tester, you’ll receive an update that includes a testing version of Elementor and its content directly to your Email"
+msgstr ""
+
+#: includes/admin-templates/beta-tester.php:28
+msgid "Get Beta Updates"
+msgstr ""
+
+#: includes/settings/settings.php:613
+msgid "We recommend you only enable this feature if you understand the security risks involved."
+msgstr "نوصيك بتمكين هذه الميزة فقط إذا فهمت مخاطر الأمان التي تصاحبها."
+
+#: includes/settings/settings.php:613
+msgid "Elementor will try to sanitize the SVG files, removing potential malicious code and scripts."
+msgstr "سيحاول Elementor تنظيف ملفات SVG، وإزالة الأكواد والبرامج الضارة المحتملة."
+
+#: includes/settings/settings.php:613
+msgid "Please note! Allowing uploads of any files (SVG included) is a potential security risk."
+msgstr "يرجى الملاحظة! يعد السماح بتحميل أي ملفات (بما في ذلك SVG) مخاطرة أمنية محتملة."
+
+#: includes/settings/tools.php:246
+msgid "Click <a id=\"beta-tester-first-to-know\" href=\"%s\">here</a> to join our First-To-Know email updates"
+msgstr ""
+
+#: includes/template-library/sources/local.php:528
+msgid "Template not exist."
+msgstr ""
+
+#: includes/elements/column.php:849
+#: includes/elements/section.php:1284
+#: includes/widgets/common.php:712
+msgid "Responsive visibility will take effect only on preview or live page, and not while editing in Elementor."
+msgstr ""
+
+#: includes/base/widget-base.php:787
+msgid "Deprecated"
+msgstr ""
+
+#: includes/managers/icons.php:413
+msgid "Font Awesome 5 Migration"
+msgstr ""
+
+#: includes/managers/icons.php:412
+msgid "I acknowledge that some changes may affect my website and that this action cannot be undone."
+msgstr ""
+
+#: includes/managers/icons.php:412
+msgid "I understand that by upgrading to Font Awesome 5,"
+msgstr ""
+
+#: includes/managers/icons.php:383
+msgid "Hurray! The upgrade process to Font Awesome 5 was completed successfully."
+msgstr ""
+
+#: includes/managers/icons.php:367
+msgid "Upgrade To Font Awesome 5"
+msgstr ""
+
+#: includes/managers/icons.php:356
+msgid "This action is not reversible and cannot be undone by rolling back to previous versions."
+msgstr ""
+
+#: includes/managers/icons.php:354
+msgid "Please note that the upgrade process may cause some of the previously used Font Awesome 4 icons to look a bit different due to minor design changes made by Font Awesome."
+msgstr ""
+
+#: includes/managers/icons.php:352
+msgid "By upgrading, whenever you edit a page containing a Font Awesome 4 icon, Elementor will convert it to the new Font Awesome 5 icon."
+msgstr ""
+
+#: includes/managers/icons.php:351
+msgid "Access 1,500+ amazing Font Awesome 5 icons and enjoy faster performance and design flexibility."
+msgstr "يمكنك الوصول إلى أكثر من 1500 أيقونة من Font Awesome 5 والتمتع بأداء أسرع ومرونة في التصميم."
+
+#: includes/managers/icons.php:345
+#: includes/managers/icons.php:349
+#: includes/managers/icons.php:361
+msgid "Font Awesome Upgrade"
+msgstr "ترقية Font Awesome"
+
+#: includes/managers/icons.php:338
+msgid "Font Awesome 4 support script (shim.js) is a script that makes sure all previously selected Font Awesome 4 icons are displayed correctly while using Font Awesome 5 library."
+msgstr ""
+
+#: includes/managers/icons.php:330
+msgid "Load Font Awesome 4 Support"
+msgstr "تحميل دعم Font Awesome 4"
+
+#: includes/managers/icons.php:175
+msgid "All Icons"
+msgstr "جميع الأيقونات"
+
+#: includes/managers/icons.php:113
+msgid "Font Awesome - Brands"
+msgstr ""
+
+#: includes/managers/icons.php:101
+msgid "Font Awesome - Solid"
+msgstr ""
+
+#: includes/managers/icons.php:89
+msgid "Font Awesome - Regular"
+msgstr ""
+
+#: core/debug/classes/htaccess.php:11
+msgid "Your site's .htaccess file appears to be missing."
+msgstr "يبدو أن ملف .htaccess الخاص بالموقع مفقود."
+
+#: core/debug/classes/theme-missing.php:22
+msgid "Some of your theme files are missing."
+msgstr "بعض ملفات القوالب الخاصة بك مفقودة."
+
+#: core/files/assets/svg/svg-handler.php:159
+msgid "Invalid SVG Format, file not uploaded for security reasons"
+msgstr "تنسيق SVG غير صالح، لم يتم تحميل الملف لأسباب أمنية"
+
+#: core/files/assets/svg/svg-handler.php:154
+msgid "SVG file is not allowed for security reasons"
+msgstr ""
+
+#: core/files/assets/svg/svg-handler.php:149
+msgid "The uploaded %s file is not supported. Please upload a valid SVG file"
+msgstr ""
+
+#: core/admin/admin.php:798
+msgid "Don't Show Again"
+msgstr "لا تظهر مرة أخرى"
+
+#: core/admin/admin.php:797
+#: includes/admin-templates/beta-tester.php:36
+msgid "Sign Up"
+msgstr "التسجيل"
+
+#: core/editor/notice-bar.php:25
+msgid "Get Pro"
+msgstr "الحصول على Pro"
+
+#: core/editor/notice-bar.php:24
+msgid "Love using Elementor? <a href=\"%s\">Learn how you can build better sites with Elementor Pro.</a>"
+msgstr "هل تحب استخدام Elementor ؟ <a href=\"%s\"> تعرف على كيفية إنشاء مواقع أفضل باستخدام Elementor Pro.</a>"
+
+#: core/editor/editor.php:719
+msgid "Become a Pro user to upload unlimited font icon folders to your website."
+msgstr ""
+
+#: core/editor/editor.php:718
+msgid "Upload"
+msgstr "رفع"
+
+#: core/editor/editor.php:717
+msgid "My Libraries"
+msgstr ""
+
+#: core/editor/editor.php:716
+#: includes/controls/icons.php:79
+msgid "Icon Library"
+msgstr ""
+
+#: core/editor/editor.php:714
+msgid "Click here for preview debug"
+msgstr "اضغط هنا لمعاينة التصحيح"
+
+#: core/editor/editor.php:711
+msgid "Note that %1$s will be completely removed once %2$s %3$s is released."
+msgstr "لاحظ أنه ستتم إزالة %1$s تمامًا بمجرد أن يتم إصدار %2$s %3$s."
+
+#: core/editor/editor.php:710
+msgid "It has been replaced by <strong>%1$s</strong>."
+msgstr "تم استبداله بـ <strong>%1$s</strong>."
+
+#: core/editor/editor.php:709
+msgid "The <strong>%1$s</strong> widget has been deprecated since %2$s %3$s."
+msgstr ""
+
+#: core/editor/editor.php:602
+msgid "Elementor v2.6 includes an upgrade from Font Awesome 4 to 5. In order to continue using icons, be sure to click \"Upgrade\"."
+msgstr ""
+
+#: core/editor/editor.php:601
+msgid "Elementor's New Icon Library"
+msgstr "مكتبة أيقونات Elementor"
+
+#: core/editor/editor.php:598
+msgid "Before you enable SVG upload, note that SVG files include a security risk. Elementor does run a process to remove possible malicious code, but there is still risk involved when using such files."
+msgstr ""
+
+#: core/editor/editor.php:597
+#: includes/settings/settings.php:605
+msgid "Enable SVG Uploads"
+msgstr "تمكين رفع ملفات SVG"
+
+#: core/editor/editor.php:202
+msgid "Document not found."
+msgstr "المستند غير موجود."
+
+#: core/editor/editor.php:571
+msgid "Elementor 2.5 introduces key changes to the layout using CSS Flexbox. Your existing pages might have been affected, please review your page before publishing."
+msgstr "يقدم Elementor 2.5 تغييرات أساسية في التخطيط باستخدام CSS Flexbox. قد تتأثر صفحاتك الحالية، يرجى مراجعة صفحتك قبل النشر."
+
+#: core/editor/editor.php:570
+msgid "Note: Flexbox Changes"
+msgstr "ملاحظة: تغييرات Flexbox"
+
+#: includes/widgets/common.php:601
+msgid "Vertical Orientation"
+msgstr "الاتجاه العمودي"
+
+#: includes/widgets/common.php:523
+#: includes/widgets/common.php:562
+#: includes/widgets/common.php:626
+#: includes/widgets/common.php:664
+msgid "Offset"
+msgstr ""
+
+#: includes/widgets/common.php:497
+msgid "Horizontal Orientation"
+msgstr "الاتجاه الأفقي"
+
+#: includes/widgets/common.php:484
+msgid "Fixed"
+msgstr "ثابت"
+
+#: includes/widgets/common.php:483
+msgid "Absolute"
+msgstr "مطلق"
+
+#: includes/widgets/common.php:465
+msgid "Custom positioning is not considered best practice for responsive web design and should not be used too frequently."
+msgstr ""
+
+#: includes/widgets/common.php:465
+msgid "Please note!"
+msgstr "يرجى الملاحظة!"
+
+#: includes/widgets/common.php:398
+msgid "Custom Width"
+msgstr "عرض مخصص"
+
+#: core/editor/editor.php:721
+#: includes/widgets/common.php:368
+msgid "Custom Positioning"
+msgstr "موضع مخصص"
+
+#: includes/settings/controls.php:227
+msgid "Super Admin"
+msgstr "المدير العام"
+
+#: includes/settings/settings.php:257
+msgid "Get the Full Guide"
+msgstr "الحصول على الدليل الكامل"
+
+#: includes/settings/settings.php:177
+msgid "Get Help"
+msgstr "الحصول على مساعدة "
+
+#: includes/elements/section.php:442
+msgid "Hidden"
+msgstr "مخفي"
+
+#: includes/elements/section.php:437
+msgid "Overflow"
+msgstr ""
+
+#: includes/elements/column.php:788
+#: includes/elements/section.php:1191
+#: includes/widgets/common.php:145
+msgid "Motion Effects"
+msgstr "تأثيرات الحركة"
+
+#: includes/elements/column.php:182
+msgid "Horizontal Align"
+msgstr "محاذاة أفقية"
+
+#: includes/elements/column.php:166
+#: includes/elements/column.php:192
+msgid "Space Evenly"
+msgstr "ضع مسافة بالتساوي"
+
+#: includes/elements/column.php:165
+#: includes/elements/column.php:191
+msgid "Space Around"
+msgstr ""
+
+#: includes/elements/column.php:156
+#: includes/elements/section.php:421
+#: includes/widgets/common.php:435
+#: includes/widgets/image-carousel.php:505
+msgid "Vertical Align"
+msgstr "محاذاة عمودية"
+
+#: core/common/modules/connect/apps/connect.php:25
+msgid "Connected to Elementor as %s"
+msgstr "متصل بـ Elementor كـ%s"
+
+#: modules/safe-mode/module.php:339
+msgid "Having problems loading Elementor? Please enable Safe Mode to troubleshoot."
+msgstr "هل تواجه مشاكل في تحميل Elementor؟ يرجى تمكين الوضع الآمن لاستكشاف الأخطاء وإصلاحها."
+
+#: modules/safe-mode/module.php:266
+msgid "The issue was probably caused by one of your plugins or theme."
+msgstr "ربما كان سبب المشكلة أحد الإضافات أو القالب الخاص بك."
+
+#: includes/widgets/menu-anchor.php:105
+msgid "Note: The ID link ONLY accepts these chars: %s"
+msgstr ""
+
+#: includes/widgets/video.php:199
+msgid "Choose File"
+msgstr "اختيار ملف"
+
+#: includes/widgets/video.php:188
+msgid "External URL"
+msgstr "رابط خارجي"
+
+#: includes/widgets/image-gallery.php:173
+msgid "Order By"
+msgstr "الترتيب حسب"
+
+#: includes/widgets/read-more.php:101
+msgid "Read More Text"
+msgstr "قراءة المزيد"
+
+#: includes/widgets/read-more.php:93
+msgid "Note: This widget only affects themes that use `%s` in archive pages."
+msgstr ""
+
+#: includes/widgets/read-more.php:87
+msgid "Continue reading"
+msgstr "متابعة القراءة"
+
+#: includes/widgets/read-more.php:41
+#: includes/widgets/read-more.php:83
+msgid "Read More"
+msgstr "قراءة المزيد"
+
+#: includes/widgets/google-maps.php:111
+msgid "Location"
+msgstr "الموقع الجغرافي"
+
+#. translators: %s: Name of current post
+#: includes/frontend.php:1194
+msgid "Continue reading %s"
+msgstr "متابعة قراءة %s"
+
+#: includes/frontend.php:1187
+msgid "(more&hellip;)"
+msgstr "(المزيد&hellip;)"
+
+#: includes/template-library/sources/local.php:1283
+msgctxt "Template Library"
+msgid "Filter by category"
+msgstr "تصفية حسب التصنيف"
+
+#: includes/template-library/sources/local.php:298
+msgctxt "Template Library"
+msgid "All Categories"
+msgstr "كل التصنيفات"
+
+#: includes/template-library/sources/local.php:297
+msgctxt "Template Library"
+msgid "Category"
+msgstr "تصنيف"
+
+#: includes/template-library/sources/local.php:296
+msgctxt "Template Library"
+msgid "Categories"
+msgstr "تصنيفات"
+
+#: includes/template-library/sources/local.php:230
+msgctxt "Template Library"
+msgid "Templates"
+msgstr "قوالب"
+
+#: includes/controls/groups/background.php:355
+msgctxt "Background Control"
+msgid "Y Position"
+msgstr "موضع Y"
+
+#: includes/controls/groups/background.php:289
+msgctxt "Background Control"
+msgid "X Position"
+msgstr "موضع X"
+
+#: includes/controls/groups/background.php:276
+#: includes/controls/groups/background.php:481
+msgctxt "Background Control"
+msgid "Custom"
+msgstr "مخصص"
+
+#: includes/settings/settings.php:322
+msgid "Theme Builder is the industry leading all-in-one solution that lets you customize every part of your WordPress theme visually: Header, Footer, Single, Archive & WooCommerce."
+msgstr "مصمم القوالب هو الحل الشامل الكل في واحد والذي يتيح لك تخصيص كل جزء من قالب ووردبريس الخاص بك بصريًا: رأس وتذييل أحادي وأرشيف و ووكومرس."
+
+#: includes/settings/settings.php:321
+msgid "Get Theme Builder"
+msgstr "الحصول على مصمم القوالب"
+
+#: includes/settings/settings.php:301
+msgid "Popup Builder lets you take advantage of all the amazing features in Elementor, so you can build beautiful & highly converting popups. Go pro and start designing your popups today."
+msgstr "يتيح لك مصمم النوافذ المنبثقة الاستفادة من جميع الميزات المدهشة في Elementor، حتى تتمكن من إنشاء نوافذ منبثقة جميلة للغاية. اذهب لباقة المحترفين وابدأ في تصميم النوافذ المنبثقة الخاصة بك اليوم."
+
+#: includes/settings/settings.php:300
+msgid "Get Popup Builder"
+msgstr "الحصول على مصمم النوافذ المنبثقة"
+
+#: includes/settings/settings.php:151
+#: includes/template-library/sources/local.php:1581
+msgid "Popups"
+msgstr "النوافذ المنبثقة"
+
+#: includes/settings/settings.php:150
+#: includes/template-library/sources/local.php:1580
+msgid "Theme Builder"
+msgstr "مصمم القوالب"
+
+#: includes/settings/settings.php:150
+msgid "Theme Templates"
+msgstr "نماذج القالب"
+
+#: modules/safe-mode/module.php:335
+msgid "Enable Safe Mode"
+msgstr "تمكين الوضع الآمن"
+
+#: modules/safe-mode/module.php:333
+msgid "Can't Edit?"
+msgstr "لا تستطيع التعديل؟"
+
+#: modules/safe-mode/module.php:277
+msgid "Please note! We couldn't deactivate all of your plugins on Safe Mode. Please <a href=\"%s\" target=\"_blank\">read more</a> about this issue."
+msgstr "يرجى الملاحظة! لم نتمكن من تعطيل جميع الإضافات في الوضع الآمن. يرجى <a href=\"%s\" target=\"_blank\"> قراءة المزيد </a> حول هذه المشكلة."
+
+#: modules/safe-mode/module.php:266
+#: modules/safe-mode/module.php:270
+msgid "<a href=\"%s\" target=\"_blank\">Click here</a> to troubleshoot"
+msgstr ""
+
+#: modules/safe-mode/module.php:269
+msgid "Still experiencing issues?"
+msgstr "لا تزال تواجه مشاكل؟"
+
+#: modules/safe-mode/module.php:265
+msgid "Editor successfully loaded?"
+msgstr "تم تحميل المحرر بنجاح؟"
+
+#: modules/safe-mode/module.php:258
+#: modules/safe-mode/module.php:439
+msgid "Disable Safe Mode"
+msgstr "تعطيل الوضع الآمن"
+
+#: modules/safe-mode/module.php:256
+msgid "Safe Mode ON"
+msgstr "تشغيل الوضع الآمن "
+
+#: modules/safe-mode/module.php:89
+msgid "Cannot enable Safe Mode"
+msgstr "لا يمكن تشغيل الوضع الآمن"
+
+#: modules/safe-mode/module.php:49
+msgid "Safe Mode allows you to troubleshoot issues by only loading the editor, without loading the theme or any other plugin."
+msgstr "يسمح لك الوضع الآمن باستكشاف المشكلات وإصلاحها عن طريق تحميل المحرر فقط، دون تحميل السمة أو أي مكون إضافي آخر."
+
+#: modules/safe-mode/module.php:40
+msgid "Safe Mode"
+msgstr "الوضع الآمن"
+
+#: core/admin/admin.php:795
+msgid "Please note that you are switching to WordPress default editor. Your current layout, design and content might break."
+msgstr ""
+
+#: core/admin/admin.php:792
+msgid "Continue"
+msgstr "المتابعة"
+
+#: core/upgrade/manager.php:38
+msgid "Elementor Data Updater"
+msgstr "محدث بيانات Elementor"
+
+#: core/common/modules/finder/categories/general.php:44
+msgctxt "Template Library"
+msgid "Saved Templates"
+msgstr "القوالب المحفوظة"
+
+#. translators: %d: interval
+#: core/base/background-task.php:314
+msgid "Every %d minutes"
+msgstr "كل %d دقيقة"
+
+#: core/base/db-upgrades-manager.php:92
+msgid "%s The database update process is now complete. Thank you for updating to the latest version!"
+msgstr "%s اكتملت الآن عملية تحديث قاعدة البيانات. شكرًا لك على التحديث إلى أحدث إصدار!"
+
+#: core/base/db-upgrades-manager.php:83
+msgid "%s Database update process is running in the background."
+msgstr "%s عملية تحديث قاعدة البيانات قيد التشغيل في الخلفية."
+
+#: core/base/db-upgrades-manager.php:75
+msgid "%s Your site database needs to be updated to the latest version."
+msgstr "%s يجب تحديث قاعدة بيانات موقعك إلى أحدث إصدار."
+
+#: includes/libraries/wp-background-process/wp-background-process.php:432
+msgid "Every %d Minutes"
+msgstr "كل %d دقيقة"
+
+#: modules/library/documents/not-supported.php:68
+msgid "Not Supported"
+msgstr "غير مدعوم"
+
+#: core/common/modules/finder/categories/site.php:80
+msgid "Users"
+msgstr "المستخدمون"
+
+#: core/common/modules/finder/categories/site.php:74
+msgid "Plugins"
+msgstr "إضافات"
+
+#: includes/widgets/video.php:387
+msgid "Any Video"
+msgstr "أي فيديو"
+
+#: includes/widgets/video.php:386
+msgid "Current Video Channel"
+msgstr "قناة الفيديو الحالية"
+
+#: includes/widgets/star-rating.php:303
+msgid "Unmarked Color"
+msgstr ""
+
+#: includes/widgets/star-rating.php:248
+msgid "Stars"
+msgstr "نجوم"
+
+#: includes/widgets/star-rating.php:141
+msgid "Outline"
+msgstr ""
+
+#: includes/widgets/star-rating.php:132
+msgid "Unmarked Style"
+msgstr ""
+
+#: includes/widgets/star-rating.php:91
+msgid "Rating Scale"
+msgstr "مقياس التصنيف"
+
+#: includes/widgets/star-rating.php:84
+#: includes/widgets/star-rating.php:104
+msgid "Rating"
+msgstr "التقييم"
+
+#: includes/widgets/star-rating.php:41
+msgid "Star Rating"
+msgstr "التقييم بالنجوم"
+
+#: includes/widgets/image.php:161
+#: includes/widgets/image.php:170
+msgid "Custom Caption"
+msgstr "تسمية توضيحية مخصصة"
+
+#: includes/widgets/image.php:160
+msgid "Attachment Caption"
+msgstr "تسمية توضيحية للمرفق"
+
+#: includes/editor-templates/hotkeys.php:152
+msgid "Quit"
+msgstr "إنهاء"
+
+#: core/editor/editor.php:706
+#: includes/editor-templates/hotkeys.php:144
+msgid "Keyboard Shortcuts"
+msgstr "اختصارات لوحة المفاتيح"
+
+#: includes/editor-templates/hotkeys.php:100
+msgid "Show / Hide Panel"
+msgstr "إظهار / إخفاء اللوحة"
+
+#: core/editor/editor.php:581
+#: includes/editor-templates/hotkeys.php:88
+msgid "Go To"
+msgstr "اذهب إلى"
+
+#: includes/editor-templates/hotkeys.php:26
+msgid "Redo"
+msgstr "إلغاء التراجع"
+
+#: includes/editor-templates/hotkeys.php:18
+msgid "Undo"
+msgstr "تراجع"
+
+#: core/common/modules/finder/template.php:13
+msgid "Type to find anything in Elementor"
+msgstr "اكتب للبحث على أي شيء في Elementor"
+
+#: core/common/modules/finder/module.php:115
+#: includes/editor-templates/hotkeys.php:92
+msgid "Finder"
+msgstr "Finder"
+
+#: core/common/modules/finder/categories/site.php:68
+msgid "Customizer"
+msgstr "أداة التخصيص"
+
+#: core/common/modules/finder/categories/site.php:56
+msgid "Menus"
+msgstr "قوائم"
+
+#: core/common/modules/finder/categories/site.php:50
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: core/common/modules/finder/categories/site.php:44
+msgid "Homepage"
+msgstr "الصفحة الرئيسية"
+
+#: core/common/modules/finder/categories/create.php:28
+msgid "Create"
+msgstr "إنشاء"
+
+#: core/common/modules/connect/apps/connect.php:30
+msgid "Connect to Elementor"
+msgstr "الاتصال بـ Elementor"
+
+#: core/common/modules/connect/apps/connect.php:26
+msgid "Disconnect"
+msgstr "قطع الاتصال"
+
+#: core/common/modules/connect/apps/base-app.php:143
+msgid "Disconnected Successfully."
+msgstr "تم قطع الاتصال بنجاح."
+
+#: core/common/modules/connect/apps/base-app.php:131
+msgid "Connected Successfully."
+msgstr "متصل بنجاح."
+
+#: core/common/modules/connect/admin.php:24
+#: core/common/modules/connect/admin.php:25
+#: core/common/modules/connect/apps/connect.php:31
+#: core/common/modules/connect/apps/connect.php:36
+msgid "Connect"
+msgstr "اتصال"
+
+#: core/base/document.php:470
+msgid "Future"
+msgstr "المستقبل"
+
+#: includes/widgets/video.php:454
+msgid "Poster"
+msgstr "ملصق"
+
+#: includes/widgets/video.php:510
+msgid "Lazy Load"
+msgstr "تحميل بطيئ"
+
+#: includes/widgets/video.php:134
+#: includes/widgets/video.php:155
+#: includes/widgets/video.php:176
+#: includes/widgets/video.php:232
+msgid "Enter your URL"
+msgstr "أدخل عنوان ويب URL الخاص بك"
+
+#: includes/settings/settings.php:601
+msgid "Show editing handles when hovering over the element edit button"
+msgstr ""
+
+#: includes/settings/settings.php:593
+msgid "Editing Handles"
+msgstr ""
+
+#. translators: %d: Breakpoint value
+#: includes/settings/settings.php:543
+msgid "Sets the breakpoint between tablet and mobile devices. Below this breakpoint mobile layout will appear (Default: %dpx)."
+msgstr ""
+
+#. translators: %d: Breakpoint value
+#: includes/settings/settings.php:528
+msgid "Sets the breakpoint between desktop and tablet devices. Below this breakpoint tablet layout will appear (Default: %dpx)."
+msgstr ""
+
+#: includes/settings/settings.php:245
+msgid "We recommend you watch this 2 minute getting started video, and then try the editor yourself by dragging and dropping elements to create your first page."
+msgstr "نوصيك بمشاهدة الفيديو لمدة دقيقتين لبدء التشغيل، ثم تجربة المحرر بنفسك عن طريق سحب العناصر وإفلاتها لإنشاء صفحتك الأولى."
+
+#: includes/settings/settings.php:244
+msgid "Welcome to Elementor"
+msgstr "مرحبًا بكم في Elementor"
+
+#: includes/settings/settings.php:223
+msgid "Create Your First Post"
+msgstr "إنشاء أول مقالة"
+
+#: includes/settings/settings.php:220
+msgid "Create Your First Page"
+msgstr "أنشئ صفحتك الأولى "
+
+#: includes/settings/settings.php:168
+#: includes/settings/settings.php:235
+msgid "Getting Started"
+msgstr "البدء"
+
+#: core/editor/editor.php:586
+msgid "Inner Section"
+msgstr "قسم داخلي"
+
+#: includes/editor-templates/navigator.php:52
+msgid "Once you fill your page with content, this window will give you an overview display of all the page elements. This way, you can easily move around any section, column, or widget."
+msgstr "بمجرد تعبئة صفحتك بالمحتوى، ستمنحك هذه النافذة عرضًا عامًا لجميع عناصر الصفحة. بهذه الطريقة، يمكنك التنقل بسهولة في أي قسم أو عمود أو ودجت."
+
+#: includes/editor-templates/navigator.php:51
+msgid "Easy Navigation is Here!"
+msgstr "سهولة التنقل هنا!"
+
+#: includes/editor-templates/navigator.php:46
+msgid "Empty"
+msgstr "فارغ"
+
+#: core/editor/editor.php:699
+#: includes/editor-templates/hotkeys.php:126
+#: includes/editor-templates/navigator.php:12
+#: includes/editor-templates/panel.php:61
+#: includes/editor-templates/panel.php:63
+msgid "Navigator"
+msgstr ""
+
+#: includes/editor-templates/library-layout.php:13
+#: includes/settings/settings.php:238
+#: includes/settings/settings.php:239
+msgid "Skip"
+msgstr "تخطي"
+
+#: includes/controls/url.php:68
+msgid "Paste URL or type"
+msgstr "لصق عنوان ويب URL أو النوع"
+
+#: includes/controls/groups/css-filter.php:132
+msgctxt "Filter Control"
+msgid "Hue"
+msgstr "Hue"
+
+#: core/debug/inspector.php:49
+msgid "Debug Bar"
+msgstr "شريط التصحيح"
+
+#: core/admin/feedback.php:237
+msgid "Hide Notification"
+msgstr "إخفاء الإشعارات"
+
+#: core/admin/feedback.php:236
+msgid "Happy To Help"
+msgstr "مسرور بالمساعدة"
+
+#: core/admin/feedback.php:234
+msgid "You created over 10 pages with Elementor. Great job! If you can spare a minute, please help us by leaving a five star review on WordPress.org."
+msgstr "قمت بإنشاء أكثر من 10 صفحات مع Elementor. عمل عظيم! إذا أمكنك أن تدخر دقيقة، فالرجاء مساعدتنا عن طريق ترك تعليق خمس نجوم على WordPress.org."
+
+#: core/admin/feedback.php:234
+msgid "Congrats!"
+msgstr "تهانينا!"
+
+#: includes/widgets/google-maps.php:128
+msgid "Zoom"
+msgstr "تكبير"
+
+#: core/debug/inspector.php:57
+msgid "Debug Bar adds an admin bar menu that lists all the templates that are used on a page that is being displayed."
+msgstr "يضيف شريط التصحيح قائمة في شريط يسرد جميع القوالب المستخدمة في الصفحة التي يتم عرضها."
+
+#: core/document-types/post.php:43
+msgid "Single"
+msgstr "أحادي"
+
+#: modules/history/module.php:61
+msgid "All Content"
+msgstr "كل المحتوى"
+
+#: modules/history/module.php:60
+msgid "Style Reset"
+msgstr "إعادة تعيين النمط"
+
+#: modules/history/module.php:59
+msgid "Style Pasted"
+msgstr "تم لصق النمط "
+
+#: includes/widgets/video.php:344
+msgid "Logo"
+msgstr "الشعار"
+
+#: includes/widgets/video.php:332
+msgid "Modest Branding"
+msgstr ""
+
+#: includes/widgets/video.php:318
+msgid "Video Info"
+msgstr "معلومات الفيديو"
+
+#: includes/widgets/video.php:218
+msgid "URL"
+msgstr "عنوان ويب URL"
+
+#: includes/widgets/video.php:117
+msgid "Self Hosted"
+msgstr "مستضاف ذاتيا"
+
+#: includes/widgets/video.php:116
+msgid "Dailymotion"
+msgstr "Dailymotion"
+
+#: includes/widgets/video.php:110
+msgid "Source"
+msgstr "المصدر"
+
+#: includes/widgets/button.php:260
+msgid "Please make sure the ID is unique and not used elsewhere on the page this form is displayed. This field allows <code>A-z 0-9</code> & underscore chars without spaces."
+msgstr ""
+
+#: includes/widgets/button.php:252
+msgid "Button ID"
+msgstr "معرف الزر"
+
+#: includes/widgets/audio.php:185
+msgid "Artwork"
+msgstr ""
+
+#: includes/settings/settings.php:532
+msgid "Mobile Breakpoint"
+msgstr ""
+
+#: includes/settings/settings.php:517
+msgid "Tablet Breakpoint"
+msgstr ""
+
+#: includes/managers/elements.php:287
+msgid "WooCommerce"
+msgstr "ووكومرس"
+
+#: core/common/modules/finder/categories/site.php:28
+#: includes/managers/elements.php:283
+msgid "Site"
+msgstr "الموقع"
+
+#: includes/managers/elements.php:276
+msgid "Pro"
+msgstr "Pro"
+
+#: includes/elements/column.php:369
+#: includes/elements/section.php:635
+#: includes/widgets/heading.php:255
+msgid "Blend Mode"
+msgstr ""
+
+#: core/editor/editor.php:561
+msgid "Got It"
+msgstr "فهمت"
+
+#: core/editor/editor.php:703
+msgid "Now you can access all editing actions using right click."
+msgstr "يمكنك الآن الوصول إلى جميع إجراءات التحرير عبر النقر بالزر الأيمن."
+
+#: core/editor/editor.php:702
+msgid "Meet Right Click"
+msgstr ""
+
+#: core/editor/editor.php:697
+msgid "Copy All Content"
+msgstr "نسخ كل المحتوى"
+
+#: core/editor/editor.php:694
+msgid "Save as a Global"
+msgstr ""
+
+#: core/editor/editor.php:693
+msgid "Reset Style"
+msgstr "إعادة تعيين النمط"
+
+#: core/editor/editor.php:691
+msgid "Copy Style"
+msgstr "نسخ النمط"
+
+#: core/editor/editor.php:689
+#: includes/editor-templates/hotkeys.php:35
+msgid "Copy"
+msgstr "نسخ"
+
+#: includes/editor-templates/panel.php:85
+#: includes/editor-templates/panel.php:90
+msgid "Preview for %s"
+msgstr "معاينة ل%s"
+
+#: includes/editor-templates/global.php:31
+msgid "Drag widget here"
+msgstr "اسحب ودجت هنا"
+
+#: includes/controls/groups/css-filter.php:166
+msgctxt "Filter Control"
+msgid "CSS Filters"
+msgstr ""
+
+#: includes/controls/groups/css-filter.php:115
+msgctxt "Filter Control"
+msgid "Saturation"
+msgstr "التشبع"
+
+#: includes/controls/groups/css-filter.php:98
+msgctxt "Filter Control"
+msgid "Contrast"
+msgstr "التباين"
+
+#: includes/controls/groups/css-filter.php:81
+msgctxt "Filter Control"
+msgid "Brightness"
+msgstr "السطوع"
+
+#: includes/controls/groups/css-filter.php:62
+msgctxt "Filter Control"
+msgid "Blur"
+msgstr ""
+
+#: includes/controls/groups/background.php:574
+#: includes/widgets/video.php:257
+msgid "Specify an end time (in seconds)"
+msgstr "تحديد وقت الانتهاء (بالثواني)"
+
+#: includes/controls/groups/background.php:572
+#: includes/widgets/video.php:255
+msgid "End Time"
+msgstr "وقت الانتهاء"
+
+#: includes/controls/groups/background.php:563
+#: includes/widgets/video.php:245
+msgid "Specify a start time (in seconds)"
+msgstr "تحديد وقت البدء (بالثواني)"
+
+#: includes/controls/groups/background.php:561
+#: includes/widgets/video.php:243
+msgid "Start Time"
+msgstr "وقت البدء"
+
+#: core/admin/feedback.php:119
+msgid "Wait! Don't deactivate Elementor. You have to activate both Elementor and Elementor Pro in order for the plugin to work."
+msgstr "انتظر! لا تقم بتعطيل Elementor. يجب عليك تفعيل كل من Elementor و Elementor Pro حتى تعمل الإضافة."
+
+#: core/admin/feedback.php:117
+msgid "I have Elementor Pro"
+msgstr "لدي Elementor Pro"
+
+#: core/debug/inspector.php:115
+msgid "Elementor Debugger"
+msgstr "مصحح Elementor"
+
+#: core/admin/admin.php:151
+#: core/admin/admin.php:796
+msgid "Back to WordPress Editor"
+msgstr "الرجوع الى محرر وردبرس"
+
+#. translators: %s: Document title
+#: core/documents-manager.php:355
+msgid "Elementor %s"
+msgstr "Elementor %s"
+
+#. translators: %s the title of the post type
+#. translators: %s: Template type label.
+#: core/common/modules/finder/categories/create.php:62
+#: includes/template-library/sources/local.php:1255
+msgid "Add New %s"
+msgstr "أضف %s"
+
+#. translators: %d: Number of rows
+#: includes/utils.php:245
+msgid "%d row affected."
+msgid_plural "%d rows affected."
+msgstr[0] "%d صف متأثر."
+msgstr[1] "%d صف متأثر."
+msgstr[2] "%d صفوف مؤثرة."
+msgstr[3] "%d صفوف مؤثرة."
+msgstr[4] "%d صف مؤثر."
+msgstr[5] "%d صف مؤثر."
+
+#: modules/page-templates/module.php:145
+msgctxt "Page Template"
+msgid "Elementor Full Width"
+msgstr "البعد الكامل لعرض الشاشة لـ Elementor"
+
+#: modules/page-templates/module.php:144
+msgctxt "Page Template"
+msgid "Elementor Canvas"
+msgstr "لوحة Elementor "
+
+#: includes/elements/column.php:338
+#: includes/elements/column.php:409
+#: includes/elements/section.php:604
+#: includes/elements/section.php:675
+#: includes/widgets/image-box.php:297
+#: includes/widgets/image-box.php:351
+#: includes/widgets/image.php:330
+#: includes/widgets/image.php:364
+msgid "Opacity"
+msgstr "الشفافية"
+
+#: core/base/module.php:124
+#: core/base/module.php:137
+#: includes/plugin.php:423
+#: includes/plugin.php:436
+msgid "Something went wrong."
+msgstr "لقد حدث شئ خاطئ"
+
+#: includes/widgets/image.php:287
+msgid "Max Width"
+msgstr "الحد الأقصى للعرض"
+
+#: includes/widgets/common.php:478
+#: includes/widgets/image-carousel.php:383
+#: includes/widgets/image-carousel.php:445
+msgid "Position"
+msgstr "موضع"
+
+#: includes/admin-templates/new-template.php:41
+msgid "Templates Help You <span>Work Efficiently</span>"
+msgstr "قوالب تساعدك على <span>العمل بكفاءة</span>"
+
+#: core/admin/admin.php:794
+msgid "New Template"
+msgstr "قالب جديد"
+
+#. translators: %s: Element type.
+#: core/editor/editor.php:569
+msgid "Delete %s"
+msgstr "حذف %s"
+
+#. translators: 1: Elementor, 2: Link to plugin review
+#: core/admin/admin.php:424
+msgid "Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your support!"
+msgstr "استمتعت %1$s? المرجو أن تترك لنا %2$s تقييما. نحن نقدر دعمكم!"
+
+#: core/common/modules/finder/categories/general.php:62
+msgid "Knowledge Base"
+msgstr "قاعدة المعرفة"
+
+#: modules/page-templates/module.php:311
+msgid "This template includes the header, full-width content and footer"
+msgstr "يتضمن هذا القالب الرأس والمحتوى ذي العرض الكامل والتذييل"
+
+#: modules/page-templates/module.php:298
+msgid "No header, no footer, just Elementor"
+msgstr "لا رأس ، لا تذييل ، فقط Elementor."
+
+#: modules/page-templates/module.php:285
+msgid "Default Page Template from your theme"
+msgstr "قالب الصفحة الافتراضي من الثيم الخاص بك"
+
+#: modules/page-templates/module.php:274
+msgid "Page Layout"
+msgstr "تخطيط الصفحة"
+
+#: modules/history/views/revisions-panel-template.php:53
+msgid "Current"
+msgstr "الحالي"
+
+#: includes/widgets/video.php:865
+msgid "Play Video"
+msgstr "تشغيل الفيديو"
+
+#: includes/widgets/common.php:382
+#: includes/widgets/icon-list.php:101
+msgid "Inline"
+msgstr "مضمن"
+
+#: includes/widgets/counter.php:166
+msgid "Separator"
+msgstr "فاصل"
+
+#: includes/template-library/sources/local.php:1251
+msgid "Add templates and reuse them across your website. Easily export and import them to any other project, for an optimized workflow."
+msgstr "أضف القوالب وأعد استخدامها على موقعك الإلكتروني. بسهولة يمكنك تصدير واستيراد القوالب إلى أي مشروع آخر، لسير عمل محسن."
+
+#. translators: %s: Template type label.
+#: includes/template-library/sources/local.php:1248
+msgid "Create Your First %s"
+msgstr "اضافة %s الأول الخاص بك"
+
+#: includes/template-library/sources/local.php:1159
+msgid "All"
+msgstr "الكل"
+
+#: includes/template-library/sources/local.php:218
+msgctxt "Template Library"
+msgid "My Templates"
+msgstr "قوالبي"
+
+#: includes/admin-templates/new-template.php:89
+msgid "Create Template"
+msgstr "أصنع قالباً"
+
+#: includes/admin-templates/new-template.php:86
+msgid "Enter template name (optional)"
+msgstr "أدخل أسم القالب ( إختياري )"
+
+#: includes/admin-templates/new-template.php:83
+msgid "Name your template"
+msgstr "تسمية القالب"
+
+#: includes/admin-templates/new-template.php:58
+msgid "Select the type of template you want to work on"
+msgstr "أختر القالب الذي تريد العمل به"
+
+#: includes/admin-templates/new-template.php:56
+msgid "Choose Template Type"
+msgstr "أختر نوع القالب"
+
+#: includes/admin-templates/new-template.php:42
+msgid "Use templates to create the different pieces of your site, and reuse them with one click whenever needed."
+msgstr "استخدم النماذج لإنشاء أجزاء مختلفة من موقعك ، وإعادة استخدامها بنقرة واحدة كلما دعت الحاجة."
+
+#: includes/settings/settings.php:280
+msgid "Custom Fonts allows you to add your self-hosted fonts and use them on your Elementor projects to create a unique brand language."
+msgstr "الخطوط المخصصة تسمح لك بإضافة خطوط مستضافة لديك واستخدامها في مشاريعك المصممة عن طريق اليمينتور لعمل تصاميم فريدة"
+
+#: includes/settings/settings.php:279
+msgid "Add Your Custom Fonts"
+msgstr "اضافة خطوط مخصصة خاصتك"
+
+#: includes/settings/settings.php:134
+#: includes/settings/settings.php:135
+msgid "Custom Fonts"
+msgstr "الخطوط المخصصة"
+
+#: core/editor/editor.php:613
+msgid "Category"
+msgstr "تصنيف"
+
+#: includes/editor-templates/templates.php:177
+msgid "More actions"
+msgstr "مزيد من الإجراءات"
+
+#: includes/editor-templates/templates.php:100
+msgid "Search Templates:"
+msgstr "البحث في القوالب"
+
+#: core/editor/editor.php:635
+msgid "Pages"
+msgstr "صفحات"
+
+#: core/editor/editor.php:634
+msgid "Blocks"
+msgstr "المكوّنات"
+
+#: includes/editor-templates/panel.php:255
+msgid "Dynamic"
+msgstr "متغيّر"
+
+#: includes/editor-templates/global.php:52
+msgid "This tag has no settings."
+msgstr "هذه الوسم لا يوجد لديه إعدادات."
+
+#: includes/controls/groups/border.php:68
+msgctxt "Border Control"
+msgid "Groove"
+msgstr "أخدود"
+
+#. translators: %s: Document title
+#: core/base/document.php:834
+#: core/settings/page/model.php:126
+#: includes/editor-templates/panel.php:59
+msgid "%s Settings"
+msgstr "%s الإعدادات"
+
+#: core/role-manager/role-manager.php:167
+msgid "Want to give access only to content?"
+msgstr "تريد منح حق الوصول إلى المحتوى فقط؟"
+
+#: core/role-manager/role-manager.php:132
+msgid "No access to editor"
+msgstr "لا يمكن الوصول إلى المحرر"
+
+#: core/role-manager/role-manager.php:125
+msgid "Role Excluded"
+msgstr "دور مستبعد"
+
+#: core/role-manager/role-manager.php:89
+msgid "Manage What Your Users Can Edit In Elementor"
+msgstr "إدارة ما يمكن للمستخدمين تحريره في Elementor"
+
+#: core/common/modules/finder/categories/general.php:56
+#: core/role-manager/role-manager.php:31
+msgid "Role Manager"
+msgstr "مدير الصلاحيات"
+
+#: core/dynamic-tags/tag.php:107
+msgid "Fallback"
+msgstr "تراجع"
+
+#: core/document-types/post.php:207
+msgid "Featured Image"
+msgstr "صورة مميزة"
+
+#: core/document-types/post.php:140
+msgid "Body Style"
+msgstr "نمط الجسم"
+
+#: core/base/document.php:108
+msgid "Document"
+msgstr "وثيقة"
+
+#: core/common/modules/ajax/module.php:161
+msgid "Action not found."
+msgstr "الإجراء غير موجود"
+
+#: includes/template-library/manager.php:543
+msgid "Post not found."
+msgstr "لا توجد مقالات"
+
+#: core/common/modules/ajax/module.php:130
+msgid "Token Expired."
+msgstr "انتهت صلاحية الرمز المميز"
+
+#: includes/widgets/image-carousel.php:145
+msgid "Set how many slides are scrolled per swipe."
+msgstr "حدد عدد الشرائح لكل حركة سحب"
+
+#: includes/controls/groups/background.php:441
+msgid "Note: Attachment Fixed works only on desktop."
+msgstr "ملاحظة: مرفق ثابت يعمل فقط على سطح المكتب."
+
+#: core/admin/admin.php:485
+msgid "Create New Post"
+msgstr "إنشاء مقالة جديدة"
+
+#: includes/fonts.php:69
+msgid "Google Early Access"
+msgstr "الوصول المبكر لـGoogle"
+
+#: core/editor/editor.php:685
+msgid "Unknown Error"
+msgstr "حدث خطأ غير معروف"
+
+#: core/editor/editor.php:680
+msgid "Saving has been disabled until you’re reconnected."
+msgstr "خاصية الحفظ معطلة لحين إعادة الإتصال مرة اخرى"
+
+#: core/editor/editor.php:683
+msgid "Server Error"
+msgstr "حدث خطأ فى السيرفر (الخادم)"
+
+#: core/editor/editor.php:684
+msgid "Connection Lost"
+msgstr "تم فقد الإتصال"
+
+#: modules/history/revisions-manager.php:376
+msgid "There is an autosave of this post that is more recent than the version below. You can restore the saved data fron the Revisions panel"
+msgstr "هناك نسخة من هذا البوست محفوطة أوتوماتيكا احدث من هذه النسخة أدناة. يمكنك إستعادة البيانات المحفوظة من قائمة المراجعات"
+
+#: modules/history/revisions-manager.php:375
+msgid "Restore Auto Saved Data"
+msgstr "إستعادة البيانات المحفوظة أوتوماتيكيا"
+
+#: modules/history/revisions-manager.php:374
+msgid "Restore"
+msgstr "إستعادة"
+
+#: modules/history/revisions-manager.php:373
+msgid "Current Version"
+msgstr "الإصدار الحالى"
+
+#: modules/history/revisions-manager.php:370
+msgid "Edit Published"
+msgstr "تعديل المنشور"
+
+#: modules/history/revisions-manager.php:369
+msgid "Edit Draft"
+msgstr "تعديل المسودة"
+
+#: includes/widgets/video.php:373
+msgid "When you turn on privacy mode, YouTube won't store information about visitors on your website unless they play the video."
+msgstr "عندما تقوم بتفعيل وضع الخصوصية. فإن موقع اليوتيوب لا يمكنه تخزين او حفظ معلومات زوار موقعك مالم يقوموا بتشغيل الفيديو."
+
+#: includes/widgets/video.php:371
+msgid "Privacy Mode"
+msgstr "وضع الخصوصية"
+
+#: includes/widgets/shortcode.php:106
+msgid "Enter your shortcode"
+msgstr "أدخل الرمز الخاص بك"
+
+#: includes/widgets/image.php:173
+msgid "Enter your image caption"
+msgstr "أدخل عنونا او شرحا موجزا للصورة"
+
+#: includes/widgets/html.php:95
+msgid "Enter your code"
+msgstr "أدخل الكود الخاص بك"
+
+#: includes/widgets/heading.php:114
+msgid "Add Your Heading Text Here"
+msgstr "أضف النص الخاص بالعنوان هنا"
+
+#: includes/widgets/alert.php:302
+#: includes/widgets/alert.php:334
+msgid "Dismiss alert"
+msgstr "تجاهل التنبيهات"
+
+#: includes/widgets/alert.php:122
+#: includes/widgets/icon-box.php:158
+#: includes/widgets/image-box.php:135
+msgid "Enter your description"
+msgstr "أدخل الوصف الخاص بك"
+
+#: includes/widgets/alert.php:112
+msgid "This is an Alert"
+msgstr "هذا تنبية. أنتبه."
+
+#: includes/widgets/accordion.php:161
+#: includes/widgets/toggle.php:158
+msgid "Active Icon"
+msgstr "رمز نشط"
+
+#. translators: 1: Editing date, 2: Author display name
+#: core/base/document.php:1090
+msgid "Last edited on %1$s by %2$s"
+msgstr "أخر تعديل تم  %1$s بواسطة %2$s"
+
+#. translators: 1: Saving date, 2: Author display name
+#: core/base/document.php:1087
+msgid "Draft saved on %1$s by %2$s"
+msgstr "تم حفظ المسودة %1$s بواسطة %2$s"
+
+#: core/base/document.php:1082
+msgctxt "revision date format"
+msgid "M j, H:i"
+msgstr "M j, H:i"
+
+#: core/common/modules/connect/apps/base-app.php:75
+#: core/editor/editor.php:679
+msgid "Dismiss"
+msgstr "رفض. تجاهل"
+
+#: core/editor/editor.php:678
+msgid "View All Revisions"
+msgstr "عرض جميع المراجعات"
+
+#: core/editor/editor.php:677
+msgid "Have a look"
+msgstr "إلق نظرة"
+
+#: core/editor/editor.php:676
+msgid "Keep Editing"
+msgstr "إستمر فى التعديل"
+
+#: core/editor/editor.php:675
+msgid "This is just a draft. Play around and when you're done - click update."
+msgstr "إنها مجرد مسودة. يمكنك العمل وعندما تنتهى. اضغط على تعديل"
+
+#. translators: %s: the document title.
+#: core/base/document.php:91
+msgid "Hurray! Your %s is live."
+msgstr "أهلا بك. صفحتك أصبحت منشورة أونلاين"
+
+#: core/editor/editor.php:674
+msgid "Submit"
+msgstr "أرسال. موافقة"
+
+#: core/editor/editor.php:672
+msgid "Update"
+msgstr "تعديل"
+
+#: core/editor/editor.php:668
+msgid "Published"
+msgstr "نشر"
+
+#: core/editor/editor.php:641
+msgid "Proceed Anyway"
+msgstr "أستمر مهما حدث"
+
+#: core/editor/editor.php:640
+msgid "Your browser isn't compatible with all of Elementor's editing features. We recommend you switch to another browser like Chrome or Firefox."
+msgstr "المتصفح الذى تستخدمة غير متوافق مع أمكانية تعديل كل العناصر. يفضل إستخدام متصفح أخر مثل كروم او فايرفوكس."
+
+#: core/editor/editor.php:639
+msgid "Your browser isn't compatible"
+msgstr "المتصفح الذى تستخدمة غير متوافق وغير مدعوم"
+
+#: core/common/modules/finder/template.php:19
+#: core/editor/editor.php:631
+msgid "No Results Found"
+msgstr "لا توجد نتائج"
+
+#: core/editor/editor.php:630
+msgid "Please make sure your search is spelled correctly or try a different words."
+msgstr "برجاء التأكد من أن كلمات البحث صحيحة او أستخدم كلمات اخرى"
+
+#: core/editor/editor.php:629
+msgid "No Favorite Templates"
+msgstr "لا يوجد قوالب مفضلة لديك"
+
+#: core/editor/editor.php:628
+msgid "You can mark any pre-designed template as a favorite."
+msgstr "يمكنك تحديد اى قالب جاهز كمفضل لديك"
+
+#: core/editor/editor.php:616
+msgid "Import Document Settings"
+msgstr "إستيراد إعدادات المستند"
+
+#: core/editor/editor.php:605
+msgid "Show Panel"
+msgstr "إظهار القائمة"
+
+#: core/editor/editor.php:576
+msgid "Dashboard Settings"
+msgstr "إعدادات اللوحة الرئيسية"
+
+#: includes/editor-templates/templates.php:239
+msgid "Select File"
+msgstr "أختر ملف"
+
+#: includes/editor-templates/templates.php:238
+msgid "or"
+msgstr "أو"
+
+#: includes/editor-templates/templates.php:237
+msgid "Drag & drop your .JSON or .zip template file"
+msgstr "أسحب وضع ملف القالب الخاص بك بصيغة .JSON أو .zip فقط"
+
+#: includes/editor-templates/templates.php:236
+msgid "Import Template to Your Library"
+msgstr "إستيراد القالب الخاص بك من المكتبة"
+
+#: includes/editor-templates/templates.php:227
+#: includes/editor-templates/templates.php:243
+#: includes/editor-templates/templates.php:256
+#: includes/widgets/button.php:138
+#: includes/widgets/button.php:139
+msgid "Click here"
+msgstr "أضغط هنا"
+
+#: includes/editor-templates/templates.php:226
+#: includes/editor-templates/templates.php:242
+#: includes/editor-templates/templates.php:255
+msgid "Want to learn more about the Elementor library?"
+msgstr "هل تريد معرفة المزيد عن مكتبة العناصر؟"
+
+#: includes/editor-templates/templates.php:155
+msgid "Favorite"
+msgstr "المفضلة"
+
+#: includes/editor-templates/templates.php:121
+msgid "Creation Date"
+msgstr "تاريخ الإنشاء"
+
+#: includes/editor-templates/templates.php:117
+msgid "Created By"
+msgstr "أنشئت بواسطة"
+
+#: includes/editor-templates/templates.php:101
+msgid "Search"
+msgstr "البحث"
+
+#: includes/editor-templates/templates.php:92
+msgid "My Favorites"
+msgstr "المفضلة لدى"
+
+#: includes/editor-templates/templates.php:70
+msgid "Popular"
+msgstr "شائع"
+
+#: includes/editor-templates/templates.php:68
+msgid "Trend"
+msgstr "إتجاة"
+
+#: includes/editor-templates/templates.php:66
+msgid "New"
+msgstr "جديد"
+
+#: includes/editor-templates/templates.php:10
+#: includes/editor-templates/templates.php:11
+msgid "Import Template"
+msgstr "إستيراد القالب"
+
+#: includes/controls/icons.php:73
+#: includes/controls/media.php:139
+#: includes/editor-templates/repeater.php:27
+msgid "Remove"
+msgstr "إزالة"
+
+#: core/editor/editor.php:688
+#: includes/editor-templates/hotkeys.php:67
+#: includes/editor-templates/repeater.php:21
+msgid "Duplicate"
+msgstr "تكرار"
+
+#: includes/editor-templates/repeater.php:14
+msgid "Drag & Drop"
+msgstr "أسحب وضع هنا"
+
+#: core/editor/editor.php:606
+#: includes/editor-templates/panel.php:142
+#: includes/editor-templates/panel.php:143
+msgid "Hide Panel"
+msgstr "إخفاء اللوحة"
+
+#: core/editor/editor.php:695
+#: includes/editor-templates/panel.php:132
+msgid "Save as Template"
+msgstr "حفظ القالب"
+
+#: includes/editor-templates/panel.php:128
+msgid "Save Draft"
+msgstr "حفظ المسودة"
+
+#: includes/editor-templates/panel.php:112
+#: includes/editor-templates/panel.php:114
+msgid "Save Options"
+msgstr "حفظ الخصائص"
+
+#: core/editor/editor.php:669
+#: includes/editor-templates/panel.php:107
+msgid "Publish"
+msgstr "نشر"
+
+#: includes/editor-templates/panel.php:95
+#: includes/editor-templates/panel.php:98
+msgid "Preview Changes"
+msgstr "معاينة التغيرات"
+
+#: core/editor/editor.php:583
+msgid "Exit To Dashboard"
+msgstr "تعديل لوحة التحكم"
+
+#: includes/editor-templates/panel-elements.php:36
+msgid "Search Widget:"
+msgstr "البحث عن القطع"
+
+#: includes/controls/popover-toggle.php:72
+#: includes/controls/popover-toggle.php:74
+msgid "Back to default"
+msgstr "الرجوع إلى الإعدادات الإفتراضية"
+
+#: includes/controls/groups/typography.php:171
+msgctxt "Typography Control"
+msgid "Line Through"
+msgstr "خلالها خط"
+
+#: includes/controls/groups/typography.php:170
+msgctxt "Typography Control"
+msgid "Overline"
+msgstr "فوق الخط"
+
+#: includes/controls/groups/typography.php:169
+msgctxt "Typography Control"
+msgid "Underline"
+msgstr "تحت الخط"
+
+#: includes/controls/groups/typography.php:164
+msgctxt "Typography Control"
+msgid "Decoration"
+msgstr "زخرفة"
+
+#: includes/controls/dimensions.php:128
+msgid "Unlinked values"
+msgstr "قيم غير مرتبطة"
+
+#: core/admin/admin.php:569
+msgid "Blog"
+msgstr "مدونة"
+
+#: core/admin/admin.php:550
+msgid "(opens in a new window)"
+msgstr "(افتح فى نافذة أخرى)"
+
+#: core/admin/admin.php:531
+msgid "News & Updates"
+msgstr "الأخبار والتحديثات"
+
+#: core/admin/admin.php:520
+msgctxt "Dashboard Overview Widget Recently Date"
+msgid "M jS"
+msgstr "M jS"
+
+#: core/admin/admin.php:513
+msgid "Recently Edited"
+msgstr "تم تعديلها مؤخرا"
+
+#: core/admin/admin.php:482
+msgid "Create New Page"
+msgstr "أنشاء صفحة جديدة"
+
+#: core/admin/admin.php:444
+msgid "Elementor Overview"
+msgstr "نظرة عامة Elementor"
+
+#: core/admin/admin.php:387
+msgid "Update Elementor Now"
+msgstr "تحديث Elementor الآن"
+
+#: core/document-types/post.php:195
+msgid "Excerpt"
+msgstr "مقتطف"
+
+#: includes/template-library/sources/local.php:447
+#: includes/template-library/sources/local.php:522
+#: includes/template-library/sources/local.php:660
+#: modules/history/revisions-manager.php:248
+#: modules/history/revisions-manager.php:280
+msgid "Access denied."
+msgstr "غير مصرح بالدخول"
+
+#: includes/settings/settings.php:429
+msgid "Disable Default Fonts"
+msgstr "تعطيل الخطوط الإفتراضية"
+
+#: includes/elements/column.php:189
+#: includes/widgets/accordion.php:331
+#: includes/widgets/common.php:448
+#: includes/widgets/image-carousel.php:518
+#: includes/widgets/toggle.php:351
+msgid "End"
+msgstr "النهاية"
+
+#: includes/elements/column.php:187
+#: includes/widgets/accordion.php:327
+#: includes/widgets/common.php:440
+#: includes/widgets/image-carousel.php:510
+#: includes/widgets/toggle.php:347
+msgid "Start"
+msgstr "البداية"
+
+#: core/editor/editor.php:609
+msgid "Type Here"
+msgstr "أكتب هنا"
+
+#: core/editor/editor.php:726
+msgid "Reload Page"
+msgstr "إعادة تحميل الصفحة"
+
+#: core/editor/editor.php:728
+msgid "Your session has expired. Please reload the page to continue editing."
+msgstr "انتهت صلاحية جلسة العمل الخاصة بك. الرجاء إعادة تحميل الصفحة لمتابعة التعديل."
+
+#: core/editor/editor.php:727
+msgid "Timeout"
+msgstr "نفذ الوقت"
+
+#: core/debug/loading-inspection-manager.php:36
+msgid "We're sorry, but something went wrong. Click on 'Learn more' and follow each of the steps to quickly solve it."
+msgstr "نحن نعتذر، ولكن حدث خطأ ما. انقر على \"مزيد من المعلومات\" واتبع كل خطوة من خطوات لحلها بسرعة."
+
+#: core/debug/classes/inspection-base.php:25
+#: core/debug/loading-inspection-manager.php:37
+msgid "The preview could not be loaded"
+msgstr "لا يمكن تحميل المعاينة"
+
+#: core/editor/editor.php:577
+msgid "Default Colors"
+msgstr "الألوان الافتراضية"
+
+#: core/admin/admin.php:373
+msgid "Update Notification"
+msgstr "تحديث الاشعارات"
+
+#: core/editor/editor.php:730
+msgid "Unknown Value"
+msgstr "قيمة غير معروفة"
+
+#. Author URI of the plugin
+msgid "https://elementor.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Plugin URI of the plugin
+msgid "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+
+#: modules/history/views/history-panel-template.php:23
+msgid "Once you start working, you'll be able to redo / undo any action you make in the editor."
+msgstr "بعد بدء العمل، ستتمكن من إعادة / التراجع عن أي إجراء تقوم به في المحرر."
+
+#: modules/history/views/history-panel-template.php:22
+msgid "No History Yet"
+msgstr "لا يوجد تاريخ بعد"
+
+#: modules/history/views/history-panel-template.php:17
+msgid "Switch to Revisions tab for older versions"
+msgstr "التبديل إلى علامة التبويب المراجعات للإصدارات الأقدم"
+
+#: modules/history/views/history-panel-template.php:10
+#: modules/history/views/revisions-panel-template.php:26
+msgid "Revisions"
+msgstr "المراجعات"
+
+#: includes/editor-templates/hotkeys.php:14
+#: includes/editor-templates/templates.php:124
+#: modules/history/views/history-panel-template.php:9
+msgid "Actions"
+msgstr "الأعمال"
+
+#: modules/history/module.php:57
+msgid "Moved"
+msgstr "انتقل"
+
+#: modules/history/module.php:54
+msgid "Added"
+msgstr "أضف"
+
+#: core/editor/editor.php:725
+msgid "Documentation"
+msgstr "المستندات"
+
+#: includes/editor-templates/hotkeys.php:117
+#: includes/editor-templates/panel.php:65
+#: includes/editor-templates/panel.php:67
+#: modules/history/module.php:52
+msgid "History"
+msgstr "التاريخ"
+
+#: core/settings/general/model.php:168
+#: includes/widgets/video.php:703
+msgid "UI Hover Color"
+msgstr "UI Hover Color"
+
+#: core/settings/general/model.php:161
+#: includes/widgets/video.php:692
+msgid "UI Color"
+msgstr "UI لون"
+
+#: modules/history/module.php:56
+msgid "Edited"
+msgstr "تم تعديلة"
+
+#: modules/history/module.php:58
+msgid "Editing Started"
+msgstr "تم بدء التعديل"
+
+#: includes/widgets/video.php:653
+msgctxt "Text Shadow Control"
+msgid "Shadow"
+msgstr "الظل"
+
+#: includes/widgets/video.php:285
+msgid "Mute"
+msgstr "كتم الصوت"
+
+#: includes/template-library/sources/local.php:893
+msgid "Choose an Elementor template JSON file or a .zip archive of Elementor templates, and add them to the list of templates available in your library."
+msgstr "أختر قالب عنصر بصيغة JSON او ZIP واضف إلى قائمة العناصر المتاحة فى المكتبة"
+
+#: includes/settings/settings.php:553
+msgid "You can customize the lightbox design by going to: Top-left hamburger icon > Global Settings > Lightbox."
+msgstr "You can customize the lightbox design by going to: Top-left hamburger icon > Global Settings > Lightbox."
+
+#: includes/controls/groups/text-shadow.php:61
+#: includes/controls/groups/text-shadow.php:85
+msgctxt "Text Shadow Control"
+msgid "Text Shadow"
+msgstr "ظل النص"
+
+#: core/settings/general/model.php:148
+msgid "Enable In Editor"
+msgstr "تشغيل في المحرر"
+
+#: core/settings/general/model.php:144
+#: includes/settings/settings.php:552
+msgid "Open all image links in a lightbox popup window. The lightbox will automatically work on any link that leads to an image file."
+msgstr "أفتح كل روابط الصور عبر نافذة بوب أب ، سيعمل البرنامج تلقائياً على اي رابط يؤدي الى الصورة"
+
+#: core/settings/general/model.php:141
+#: includes/settings/settings.php:547
+msgid "Image Lightbox"
+msgstr "صورة بتقنية Lightbox"
+
+#: core/settings/general/model.php:67
+msgid "Global Settings"
+msgstr "الإعدادات الشاملة"
+
+#: includes/settings/tools.php:261
+msgid "Please Note: We do not recommend updating to a beta version on production sites."
+msgstr "يرجى الملاحظة : أننا لا ننصح بالتحديث لبرنامج البيتا على المواقع المنتجة للمحتوى ."
+
+#: includes/settings/tools.php:253
+msgid "Beta Tester"
+msgstr "مجرب البيتا"
+
+#: includes/settings/tools.php:244
+msgid "Turn-on Beta Tester, to get notified when a new beta version of Elementor or E-Pro is available. The Beta version will not install automatically. You always have the option to ignore it."
+msgstr "Turn-on Beta Tester, to get notified when a new beta version of Elementor or E-Pro is available. The Beta version will not install automatically. You always have the option to ignore it."
+
+#: includes/settings/tools.php:242
+msgid "Become a Beta Tester"
+msgstr "كُن مجرب بيتا"
+
+#: includes/settings/tools.php:236
+msgid "Warning: Please backup your database before making the rollback."
+msgstr "تحذير : يرجى أخذ نسخة احتياطية لقاعدة البيانات الخاصة بكل قبل التراجع."
+
+#. translators: %s: Elementor previous stable version
+#: includes/settings/tools.php:232
+msgid "Reinstall v%s"
+msgstr "إعادة التثبيت v%s"
+
+#: includes/settings/tools.php:224
+msgid "Rollback Version"
+msgstr "الرجوع إلى نسخة أقدم"
+
+#. translators: %s: Elementor version
+#: includes/settings/tools.php:215
+msgid "Experiencing an issue with Elementor version %s? Rollback to a previous version before the issue appeared."
+msgstr "Experiencing an issue with Elementor version %s? Rollback to a previous version before the issue appeared."
+
+#: core/common/modules/finder/categories/tools.php:59
+#: includes/settings/tools.php:208
+msgid "Version Control"
+msgstr "التحكم في النسخة"
+
+#: includes/settings/settings.php:582
+msgid "Switch Editor Loader Method"
+msgstr "Switch Editor Loader Method"
+
+#: includes/settings/settings.php:561
+msgid "Integrations"
+msgstr "التكامل"
+
+#: core/settings/general/model.php:113
+#: includes/settings/settings.php:491
+msgid "Sets the default space between widgets (Default: 20)"
+msgstr "ضع المسافة الإفتراضية بين القطع (القيمة الإفتراضية:20)"
+
+#: includes/settings/settings.php:483
+msgid "Space Between Widgets"
+msgstr "المسافة بين القطع"
+
+#: core/admin/admin.php:791
+#: includes/rollback.php:165
+#: includes/settings/tools.php:115
+#: includes/settings/tools.php:211
+msgid "Rollback to Previous Version"
+msgstr "الرجوع إلى النسخة السابقة"
+
+#: includes/elements/column.php:823
+#: includes/elements/section.php:1226
+#: includes/widgets/common.php:180
+msgid "Animation Delay"
+msgstr "تأخر الرسوم المتحركة"
+
+#: includes/elements/column.php:721
+#: includes/elements/section.php:1144
+#: includes/widgets/common.php:99
+msgid "Z-Index"
+msgstr "Z-الفهرس"
+
+#: includes/elements/column.php:284
+#: includes/elements/column.php:440
+#: includes/elements/column.php:547
+#: includes/elements/section.php:550
+#: includes/elements/section.php:706
+#: includes/elements/section.php:812
+#: includes/widgets/common.php:240
+#: includes/widgets/common.php:344
+#: includes/widgets/google-maps.php:214
+#: includes/widgets/image-box.php:315
+#: includes/widgets/image.php:390
+msgid "Transition Duration"
+msgstr "مدة الانتقال"
+
+#: core/settings/general/model.php:109
+#: includes/elements/column.php:203
+msgid "Widgets Space"
+msgstr "مسافات القطع"
+
+#. translators: %s: Element type.
+#: core/editor/editor.php:563
+msgid "Add %s"
+msgstr "أضف %s"
+
+#: core/editor/editor.php:618
+msgid "Attention: Importing may override previous settings."
+msgstr "تنبيه: قد يؤدي الاستيراد إلى تجاوز الإعدادات السابقة."
+
+#: core/editor/editor.php:617
+msgid "Do you want to also import the document settings of the template?"
+msgstr "هل تريد أيضا استيراد إعدادات المستند للقالب؟"
+
+#: includes/controls/url.php:114
+msgid "Add nofollow"
+msgstr "أضف لا اتباع"
+
+#: includes/controls/url.php:110
+msgid "Open in new window"
+msgstr "فتح في نافذة جديدة"
+
+#: includes/controls/url.php:103
+msgid "Link Options"
+msgstr "خيارات الرابط"
+
+#: includes/controls/groups/box-shadow.php:72
+msgctxt "Box Shadow Control"
+msgid "Outline"
+msgstr "الخطوط العريضة"
+
+#: includes/controls/groups/box-shadow.php:69
+msgctxt "Box Shadow Control"
+msgid "Position"
+msgstr "موقع"
+
+#. translators: %s: Element name.
+#: core/editor/editor.php:565
+msgid "Edit %s"
+msgstr "تحرير %s"
+
+#. translators: %s: Element type.
+#: core/editor/editor.php:567
+msgid "Duplicate %s"
+msgstr "تكرار %s"
+
+#: core/admin/admin.php:790
+msgid "Are you sure you want to reinstall previous version?"
+msgstr "هل تريد بالتأكيد إعادة تثبيت الإصدار السابق؟"
+
+#. translators: %s: WordPress version
+#: elementor.php:97
+msgid "Elementor requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING."
+msgstr "إضافة Elementor تتطلب إصدار ووردبريس %s أو أعلى. ولأنك تستخدم إصدار سابق، الإضافة لا تعمل حاليًا."
+
+#: includes/settings/settings.php:578
+msgid "Use internal CSS that is embedded in the head of the page. For troubleshooting server configuration conflicts and managing development environments."
+msgstr "استخدام css الداخلية المضمنة في رأس الصفحة. لاستكشاف أخطاء تكوين الملقم وإصلاحها وإدارة بيئات التطوير."
+
+#: includes/settings/settings.php:578
+msgid "Use external CSS files for all generated stylesheets. Choose this setting for better performance (recommended)."
+msgstr "استخدام ملفات css الخارجية لجميع أوراق الأنماط التي تم إنشاؤها. اختر هذا الإعداد للحصول على أداء أفضل (موصى به)."
+
+#: includes/settings/settings.php:576
+msgid "Internal Embedding"
+msgstr "التضمين الداخلي"
+
+#: includes/settings/settings.php:575
+msgid "External File"
+msgstr "ملف خارجي"
+
+#: includes/settings/settings.php:570
+msgid "CSS Print Method"
+msgstr "طريقة طباعة css"
+
+#: includes/settings/settings.php:589
+msgid "For troubleshooting server configuration conflicts."
+msgstr "لحل مشكلات تعارض تكوين الخادم."
+
+#: core/debug/inspector.php:55
+#: core/editor/editor.php:673
+#: includes/settings/settings.php:587
+#: includes/settings/settings.php:611
+#: includes/settings/tools.php:259
+#: modules/safe-mode/module.php:46
+msgid "Enable"
+msgstr "تفعيل"
+
+#: core/debug/inspector.php:54
+#: includes/settings/settings.php:586
+#: includes/settings/settings.php:610
+#: includes/settings/tools.php:258
+#: modules/safe-mode/module.php:45
+msgid "Disable"
+msgstr "تعطيل"
+
+#: core/base/document.php:476
+msgid "Status"
+msgstr "الحالة"
+
+#: includes/widgets/spacer.php:108
+#: includes/widgets/text-editor.php:328
+msgid "Space"
+msgstr "مسافة"
+
+#: includes/widgets/text-editor.php:120
+#: includes/widgets/text-editor.php:243
+msgid "Drop Cap"
+msgstr "الحرف الكبير"
+
+#: core/settings/general/model.php:130
+#: includes/settings/settings.php:513
+msgid "Elementor lets you hide the page title. This works for themes that have \"h1.entry-title\" selector. If your theme's selector is different, please enter it above."
+msgstr "إليمنتور يتيح لك إخفاء عنوان الصفحة. هذا يعمل للمواضيع التي لديها \"h1.entry-title\" محدد. إذا كان المحدد مختلفا، فالرجاء إدخاله أعلاه."
+
+#: core/settings/general/model.php:127
+#: includes/settings/settings.php:506
+msgid "Page Title Selector"
+msgstr "محدد عنوان الصفحة"
+
+#: includes/admin-templates/new-template.php:61
+#: includes/settings/controls.php:156
+msgid "Select"
+msgstr "تحديد"
+
+#: core/editor/editor.php:692
+#: includes/editor-templates/hotkeys.php:51
+msgid "Paste Style"
+msgstr "نمط الصفحة"
+
+#: core/common/modules/finder/categories/edit.php:115
+#: modules/history/module.php:53
+msgid "Template"
+msgstr "قالب"
+
+#. translators: %s: Setting page link
+#: core/document-types/post.php:118
+msgid "Not working? You can set a different selector for the title in the <a href=\"%s\" target=\"_blank\">Settings page</a>."
+msgstr "لايعمل? يمكنك تعيين محدد مختلف للعنوان في  <a href=\"%s\" target=\"_blank\">صفحة الإعدادات</a>."
+
+#: core/document-types/post.php:114
+msgid "Hide Title"
+msgstr "اخفاء العنوان"
+
+#: includes/maintenance-mode.php:270
+msgid "Maintenance Mode ON"
+msgstr "وضع الصيانة يعمل"
+
+#: includes/maintenance-mode.php:239
+msgid "Choose Template"
+msgstr "اختيار القالب"
+
+#: includes/maintenance-mode.php:358
+msgid "Select one or go ahead and <a target=\"_blank\" href=\"%s\">create one</a> now."
+msgstr "اختر واحد او استمر وقم بـ <a target=\"_blank\" href=\"%s\">انشاء واحد</a> now."
+
+#: includes/maintenance-mode.php:357
+msgid "To enable maintenance mode you have to set a template for the maintenance mode page."
+msgstr "لتمكين وضع الصيانة لديك يجب تعيين قالب لصفحة وضع الصيانة."
+
+#: includes/maintenance-mode.php:279
+#: includes/maintenance-mode.php:356
+msgid "Edit Template"
+msgstr "تحرير القالب"
+
+#: includes/maintenance-mode.php:231
+msgid "Roles"
+msgstr "الشروط"
+
+#: includes/maintenance-mode.php:225
+msgid "Logged In"
+msgstr "تم تسجيل الدخول"
+
+#: includes/maintenance-mode.php:219
+msgid "Who Can Access"
+msgstr "من لديه صلاحية الوصول"
+
+#: includes/maintenance-mode.php:214
+msgid "Coming Soon returns HTTP 200 code, meaning the site is ready to be indexed."
+msgstr "وضع Coming Soon يرد بكود HTTP 200 والذي يعني ان الموقع جاهز للفهرسة"
+
+#: includes/maintenance-mode.php:211
+msgid "Maintenance Mode returns HTTP 503 code, so search engines know to come back a short time later. It is not recommended to use this mode for more than a couple of days."
+msgstr "يقوم وضع الصيانة بإرجاع HTTP 503 code، لذلك تعرف محركات البحث أنك ستعود بعد وقت قصير. لا ينصح باستخدام هذا الوضع لأكثر من بضعة أيام."
+
+#: includes/maintenance-mode.php:208
+msgid "Choose between Coming Soon mode (returning HTTP 200 code) or Maintenance Mode (returning HTTP 503 code)."
+msgstr "الاختيار بين وضع قريبا (returning HTTP200) أو وضع الصيانة (returning HTTP503)."
+
+#: includes/maintenance-mode.php:205
+msgid "Maintenance"
+msgstr "صيانة"
+
+#: includes/maintenance-mode.php:204
+msgid "Coming Soon"
+msgstr "قريبا"
+
+#: includes/maintenance-mode.php:203
+msgid "Disabled"
+msgstr "معطّل"
+
+#: includes/maintenance-mode.php:199
+msgid "Choose Mode"
+msgstr "اختر وضع"
+
+#: includes/maintenance-mode.php:195
+msgid "Set your entire website as MAINTENANCE MODE, meaning the site is offline temporarily for maintenance, or set it as COMING SOON mode, meaning the site is offline until it is ready to be launched."
+msgstr "ضع موقعك بالكامل في وضع الصيانة، مما يعني أن الموقع غير متصل مؤقتا للصيانة، أو تعيينه على قريبا، مما يعني أن الموقع غير متصل حتى يصبح جاهزا للإطلاق."
+
+#: core/common/modules/finder/categories/tools.php:65
+#: includes/maintenance-mode.php:190
+#: includes/maintenance-mode.php:194
+msgid "Maintenance Mode"
+msgstr "وضع الصيانة"
+
+#: includes/elements/section.php:987
+msgid "Bring to Front"
+msgstr "اجلب للمقدمة"
+
+#: core/settings/general/manager.php:208
+#: core/settings/general/model.php:138
+#: includes/widgets/image-carousel.php:215
+#: includes/widgets/image-gallery.php:156
+#: includes/widgets/image.php:216
+#: includes/widgets/video.php:547
+#: includes/widgets/video.php:668
+msgid "Lightbox"
+msgstr "الصندوق المضئ"
+
+#: includes/elements/column.php:164
+#: includes/elements/column.php:190
+#: includes/widgets/icon-list.php:202
+#: includes/widgets/toggle.php:233
+msgid "Space Between"
+msgstr "المسافة بين"
+
+#: includes/widgets/icon-list.php:194
+msgid "List"
+msgstr "قائمة"
+
+#: includes/shapes.php:208
+msgctxt "Shapes"
+msgid "Book"
+msgstr "كتاب"
+
+#: includes/shapes.php:204
+msgctxt "Shapes"
+msgid "Split"
+msgstr "تقسيم"
+
+#: includes/shapes.php:200
+msgctxt "Shapes"
+msgid "Arrow"
+msgstr "سهم"
+
+#: includes/shapes.php:196
+msgctxt "Shapes"
+msgid "Waves Pattern"
+msgstr "نمط الموجات"
+
+#: includes/shapes.php:192
+msgctxt "Shapes"
+msgid "Waves Brush"
+msgstr "فرشاة مموجه"
+
+#: includes/shapes.php:187
+msgctxt "Shapes"
+msgid "Waves"
+msgstr "مموج"
+
+#: includes/shapes.php:182
+msgctxt "Shapes"
+msgid "Curve Asymmetrical"
+msgstr "منحنى غير متناظر"
+
+#: includes/shapes.php:178
+msgctxt "Shapes"
+msgid "Curve"
+msgstr "منحنى"
+
+#: includes/shapes.php:175
+msgctxt "Shapes"
+msgid "Fan Opacity"
+msgstr "وضوح المروحة"
+
+#: includes/shapes.php:171
+msgctxt "Shapes"
+msgid "Tilt Opacity"
+msgstr "وضوح الامالة"
+
+#: includes/shapes.php:166
+msgctxt "Shapes"
+msgid "Tilt"
+msgstr "امالة"
+
+#: includes/shapes.php:161
+msgctxt "Shapes"
+msgid "Triangle Asymmetrical"
+msgstr "مثلث غير متناظر"
+
+#: includes/shapes.php:157
+msgctxt "Shapes"
+msgid "Triangle"
+msgstr "مثلث"
+
+#: includes/shapes.php:152
+msgctxt "Shapes"
+msgid "Pyramids"
+msgstr "أهرام"
+
+#: includes/shapes.php:149
+msgctxt "Shapes"
+msgid "Zigzag"
+msgstr "متعرج"
+
+#: includes/shapes.php:143
+msgctxt "Shapes"
+msgid "Clouds"
+msgstr "سحاب"
+
+#: includes/shapes.php:137
+msgctxt "Shapes"
+msgid "Drops"
+msgstr "قطرات"
+
+#: includes/shapes.php:133
+msgctxt "Shapes"
+msgid "Mountains"
+msgstr "جبال"
+
+#: includes/elements/section.php:974
+msgid "Invert"
+msgstr "عكس"
+
+#: includes/elements/section.php:960
+msgid "Flip"
+msgstr "قلب"
+
+#: includes/elements/section.php:856
+msgid "Shape Divider"
+msgstr "مقسم الشكل"
+
+#: includes/elements/column.php:602
+#: includes/elements/section.php:1019
+msgid "Note: The following colors won't work if Default Colors are enabled."
+msgstr "ملاحظة: لن تعمل الألوان التالية إذا تم تمكين الألوان الافتراضية."
+
+#: includes/widgets/tabs.php:171
+msgid "Navigation Width"
+msgstr "عرض المستكشف"
+
+#: includes/elements/column.php:269
+#: includes/elements/column.php:394
+#: includes/elements/column.php:512
+#: includes/elements/section.php:535
+#: includes/elements/section.php:660
+#: includes/elements/section.php:777
+#: includes/widgets/button.php:334
+#: includes/widgets/common.php:225
+#: includes/widgets/common.php:309
+#: includes/widgets/google-maps.php:199
+#: includes/widgets/icon-box.php:300
+#: includes/widgets/icon-list.php:399
+#: includes/widgets/icon-list.php:484
+#: includes/widgets/icon.php:247
+#: includes/widgets/image-box.php:336
+#: includes/widgets/image.php:357
+msgid "Hover"
+msgstr "مرور فوق العنصر"
+
+#: includes/elements/column.php:740
+#: includes/elements/section.php:1163
+#: includes/widgets/button.php:258
+#: includes/widgets/common.php:119
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr "اضف المعرف الخاص بدون المفتاح . مثال : my-id"
+
+#: includes/elements/column.php:734
+#: includes/elements/section.php:1157
+#: includes/widgets/common.php:113
+msgid "CSS ID"
+msgstr "معرف الـ ID"
+
+#: includes/controls/groups/background.php:196
+msgctxt "Background Control"
+msgid "Angle"
+msgstr "زاوية"
+
+#: includes/controls/groups/background.php:185
+msgctxt "Background Control"
+msgid "Radial"
+msgstr "شعاعي"
+
+#: includes/controls/groups/background.php:184
+msgctxt "Background Control"
+msgid "Linear"
+msgstr "خطي"
+
+#: includes/controls/groups/background.php:181
+msgctxt "Background Control"
+msgid "Type"
+msgstr "اكتب"
+
+#: includes/controls/groups/background.php:155
+msgctxt "Background Control"
+msgid "Second Color"
+msgstr "اللون الثاني"
+
+#: includes/controls/groups/background.php:140
+#: includes/controls/groups/background.php:166
+msgctxt "Background Control"
+msgid "Location"
+msgstr "موقع"
+
+#: includes/controls/groups/background.php:96
+msgctxt "Background Control"
+msgid "Gradient"
+msgstr "تدرج"
+
+#: includes/settings/settings.php:433
+msgid "Checking this box will disable Elementor's Default Fonts, and make Elementor inherit the fonts from your theme."
+msgstr "سيؤدي تحديد هذا المربع إلى تعطيل خطوط إليمنتور الافتراضية، وجعل إليمنتور يستقبل الخطوط من الثيم."
+
+#: includes/settings/settings.php:425
+msgid "Checking this box will disable Elementor's Default Colors, and make Elementor inherit the colors from your theme."
+msgstr "هذا الاختيار يمنع المحرر من استخدام الالوان الافتراضية وسيجعله يأخذ الالوان من الثيم الخاص بك"
+
+#: core/admin/admin.php:300
+msgid "Video Tutorials"
+msgstr "دروس الفيديو"
+
+#: core/admin/admin.php:300
+msgid "View Elementor Video Tutorials"
+msgstr "عرض الفيديو التعليمي لإليمنتور"
+
+#: core/admin/admin.php:299
+msgid "Docs & FAQs"
+msgstr "المستندات والأسئلة الشائعة"
+
+#: core/admin/admin.php:299
+msgid "View Elementor Documentation"
+msgstr "مشاهدة مستندات اليمنتور"
+
+#: includes/utils.php:220
+msgid "The `from` and `to` URL's must be different"
+msgstr "عنوان `من` و `إلى` يجب أن يكون مختلفا"
+
+#: includes/utils.php:225
+msgid "The `from` and `to` URL's must be valid URL's"
+msgstr "روابط الـ `from` و`to` يجب أن يكون الرابط صحيحًا"
+
+#: includes/settings/tools.php:200
+msgid "Enter your old and new URLs for your WordPress installation, to update all Elementor data (Relevant for domain transfers or move to 'HTTPS')."
+msgstr "ضع الروابط القديمة والجديدة الخاصة بتثبيت وردبريس . لتحديث كافة بيانات Elementor ( مناسب في حالة تغيير الدومين او الانتقال الى HTTPS )"
+
+#: includes/settings/tools.php:196
+msgid "Update Site Address (URL)"
+msgstr "تحديث عنوان الموقع (URL)"
+
+#. translators: %s: Codex URL
+#: includes/settings/tools.php:186
+msgid "<strong>Important:</strong> It is strongly recommended that you <a target=\"_blank\" href=\"%s\">backup your database</a> before using Replace URL."
+msgstr "<strong>هام:</strong> من الضروري جدا ان تقوم بعمل <a target=\"_blank\" href=\"%s\">نسخة احتياطية</a> قبل استخدام تغيير الروابط"
+
+#: core/common/modules/finder/categories/tools.php:53
+#: includes/settings/tools.php:180
+#: includes/settings/tools.php:191
+#: includes/settings/tools.php:199
+msgid "Replace URL"
+msgstr "استبدال رابط الموقع"
+
+#. translators: 1: Minimum recommended_memory, 2: Codex URL
+#: includes/settings/system-info/classes/wordpress.php:91
+msgctxt "System Info"
+msgid "We recommend setting memory to at least %1$s. For more information, read about <a href=\"%2$s\">how to Increase memory allocated to PHP</a>."
+msgstr "ننصحك بجعل اعدادات الميموري على الاقل %1$s. لمزيد من المعلومات اقرأ عن <a href=\"%2$s\">كيفية رفع الميموري الخاصة بالـ PHP</a>."
+
+#: modules/history/revisions-manager.php:286
+msgid "Cannot delete this revision."
+msgstr "لا يمكن حذف هذه النسخة"
+
+#. translators: 1: Human readable time difference, 2: Date
+#: modules/history/revisions-manager.php:171
+msgid "%1$s ago (%2$s)"
+msgstr "%1$s منذ (%2$s)"
+
+#: modules/history/revisions-manager.php:146
+msgctxt "revision date format"
+msgid "M j @ H:i"
+msgstr "M j @ H:i"
+
+#: core/editor/editor.php:724
+msgid "Autosave"
+msgstr "حفظ تلقائي"
+
+#: modules/history/revisions-manager.php:377
+msgid "Revision"
+msgstr "مراجعة"
+
+#. translators: %s: Codex URL
+#: modules/history/revisions-manager.php:382
+msgid "Learn more about <a target=\"_blank\" href=\"%s\">WordPress revisions</a>"
+msgstr "معرفة المزيد عن <a target=\"_blank\" href=\"%s\">مراجعات ووردبريس</a>"
+
+#: modules/history/revisions-manager.php:379
+msgid "It looks like the post revision feature is unavailable in your website."
+msgstr "يبدو ان ميزة مراجعة المقالات غير متوفرة في موقعك"
+
+#: modules/history/revisions-manager.php:372
+msgid "Start designing your page and you'll be able to see the entire revision history here."
+msgstr "ابدأ بتصميم صفحتك وسوف تجد كل تاريخ المراجعات هنا"
+
+#: modules/history/revisions-manager.php:371
+msgid "Revision history lets you save your previous versions of your work, and restore them any time."
+msgstr "تاريخ المراجعات يمكنك من حفظ النسخ السابقة من عملك ، واعادتها في اي وقت"
+
+#: modules/history/views/revisions-panel-template.php:48
+msgid "By"
+msgstr "بواسطة"
+
+#: modules/history/views/revisions-panel-template.php:34
+msgid "No Revisions Saved Yet"
+msgstr "لا توجد مراجعات محفوظة حتى الان"
+
+#: includes/widgets/counter.php:155
+msgid "Thousand Separator"
+msgstr "فاصلة الالاف"
+
+#: includes/controls/groups/background.php:266
+#: includes/controls/groups/background.php:425
+#: includes/controls/groups/background.php:456
+#: includes/controls/groups/background.php:477
+msgctxt "Background Control"
+msgid "Default"
+msgstr "إفتراضي"
+
+#: includes/managers/controls.php:902
+msgid "Custom CSS lets you add CSS code to any widget, and see it render live right in the editor."
+msgstr "أكواد CSS  المخصصة تتيح لك إضافة أكواد CSS  لأى ودجت، ورؤيتها تعمل مباشرة داخل المحرر."
+
+#: includes/managers/controls.php:899
+msgid "Meet Our Custom CSS"
+msgstr "قابل منسق الـ CSS الخاص"
+
+#: includes/managers/controls.php:887
+msgid "Custom CSS"
+msgstr "كود CSS  مخصص"
+
+#: includes/editor-templates/panel-elements.php:57
+#: includes/managers/controls.php:905
+msgid "This feature is only available on Elementor Pro."
+msgstr "هذه الميزة متوفرة فقط فى Elementor Pro."
+
+#: includes/editor-templates/panel-elements.php:56
+msgid "With this feature, you can save a widget as global, then add it to multiple areas. All areas will be editable from one single place."
+msgstr "مع هذه الميزة، يمكنك حفظ ودجت كنموذج عام، ثم إضافتها إلى مناطق متعددة. وجميع المناطق ستكون قابلة للتحرير من مكان واحد."
+
+#: includes/editor-templates/panel-elements.php:55
+msgid "Meet Our Global Widget"
+msgstr "قابل اضافتنا الشاملة"
+
+#: core/admin/admin.php:274
+#: core/admin/admin.php:580
+#: core/editor/editor.php:720
+#: core/role-manager/role-manager.php:168
+#: includes/editor-templates/panel-elements.php:26
+#: includes/editor-templates/panel-elements.php:58
+#: includes/editor-templates/templates.php:204
+#: includes/managers/controls.php:908
+#: includes/settings/settings.php:144
+#: includes/settings/settings.php:281
+#: includes/settings/settings.php:302
+#: includes/settings/settings.php:323
+msgid "Go Pro"
+msgstr "الذهاب الى النسخة المدفوعة"
+
+#: includes/editor-templates/panel-elements.php:25
+msgid "Get more with Elementor Pro"
+msgstr "احصل على المزيد بالنسخة المدفوعة من Elementor"
+
+#: includes/editor-templates/panel-elements.php:14
+msgid "Global"
+msgstr "الشامل"
+
+#: includes/widgets/icon-list.php:248
+#: includes/widgets/text-editor.php:122
+#: includes/widgets/video.php:550
+msgid "Off"
+msgstr "أيقاف"
+
+#: includes/widgets/icon-list.php:249
+#: includes/widgets/text-editor.php:123
+#: includes/widgets/video.php:551
+msgid "On"
+msgstr "تشغيل"
+
+#: includes/widgets/button.php:93
+msgid "Extra Large"
+msgstr "كبير جدا"
+
+#: includes/widgets/button.php:89
+msgid "Extra Small"
+msgstr "صغير جدا"
+
+#: includes/settings/tools.php:164
+msgid "Styles set in Elementor are saved in CSS files in the uploads folder. Recreate those files, according to the most recent settings."
+msgstr "التنسيقات التي يتم توليدها من خلال Elementor يتم حفظها في ملفات CSS في مجلد الملفات المرفوعة. إعادة توليد (إنشاء) هذه الملفات (ملفات CSS) إعتمادا على أحدث الإعدادات."
+
+#: includes/settings/tools.php:163
+msgid "Regenerate Files"
+msgstr "إعادة توليد الملفات"
+
+#: includes/settings/tools.php:160
+msgid "Regenerate CSS"
+msgstr "إعادة توليد CSS"
+
+#: includes/settings/settings.php:439
+msgid "Improve Elementor"
+msgstr "تطوير Elementor"
+
+#: includes/frontend.php:987
+msgid "Invalid Data: The Template ID cannot be the same as the currently edited template. Please choose a different one."
+msgstr "بيانات غير صالحة: معرف القالب (ID) لا يمكن أن يكون مثل الخاص بالقالب المحرر حاليا. الرجاء اختيار واحد مختلف."
+
+#: includes/base/widget-base.php:256
+#: includes/base/widget-base.php:265
+msgid "Skin"
+msgstr "النمط"
+
+#: includes/schemes/color-picker.php:66
+msgid "Choose which colors appear in the editor's color picker. This makes accessing the colors you chose for the site much easier."
+msgstr "اختر اي الالوان تود ظهورها في محرر انتقاء الالوان . هذا يعني ان الوصول الى الالوان التي تختارها على الموقع أكثر سهولة"
+
+#: core/editor/editor.php:590
+msgid "Descending order"
+msgstr "ترتيب تنازلي"
+
+#: core/editor/editor.php:589
+msgid "Ascending order"
+msgstr "ترتيب تصاعدي"
+
+#: core/editor/editor.php:594
+msgid "Attention: We are going to DELETE ALL CONTENT from this page. Are you sure you want to do that?"
+msgstr "احذر : نحن على وشك حذف كل المحتوى من هذه الصفحة. هل انت واثق من فعل هذا؟"
+
+#: core/editor/editor.php:593
+#: core/editor/editor.php:698
+msgid "Delete All Content"
+msgstr "حذف كل المحتوى"
+
+#: includes/editor-templates/panel.php:180
+msgid "%s are disabled"
+msgstr "%s غير ممكنة"
+
+#: includes/editor-templates/panel.php:161
+msgid "Update changes to page"
+msgstr "تحديث التغييرات للصفحة"
+
+#: core/editor/editor.php:575
+#: includes/schemes/color-picker.php:228
+msgid "Color Picker"
+msgstr "منتقي الالوان"
+
+#: includes/tracker.php:294
+msgid "No thanks"
+msgstr "لا شكراً."
+
+#: core/settings/general/model.php:122
+#: includes/settings/settings.php:502
+msgid "Enter parent element selector to which stretched sections will fit to (e.g. #primary / .wrapper / main etc). Leave blank to fit to page width."
+msgstr "ضع محدد العنصر الرئيسي الذي تود تمديد المحتوى اليه ؟ (مثال: #primary / .wrapper / main ... الخ). اتركه فارغاً حتى يتناسق مع عرض الصفحة."
+
+#: core/settings/general/model.php:119
+#: includes/settings/settings.php:495
+msgid "Stretched Section Fit To"
+msgstr "المحتوى المتمدد يتناسق مع"
+
+#: core/settings/general/model.php:103
+#: includes/settings/settings.php:479
+msgid "Sets the default width of the content area (Default: 1140)"
+msgstr "حدد العرض الافتراضي من منطقة المحتوى ( الافتراضي 1140 )"
+
+#: includes/elements/section.php:251
+msgid "Stretch the section to the full width of the page using JS."
+msgstr "تمديد الجزء الى العرض الكامل للصفحة باستخدام الجافاسكربت"
+
+#: includes/elements/section.php:245
+msgid "Stretch Section"
+msgstr "تمديد القسم"
+
+#: includes/controls/groups/background.php:593
+msgid "This cover image will replace the background video on mobile and tablet devices."
+msgstr "صورة الغلاف هذه سوف تستبدل خلفية الفيديو على الجوال أو الكمبيوتر اللوحي."
+
+#: includes/elements/section.php:251
+#: includes/settings/settings.php:447
+#: includes/tracker.php:292
+msgid "Learn more."
+msgstr "اعرف المزيد"
+
+#: includes/elements/section.php:1253
+#: includes/elements/section.php:1264
+msgid "Reverse Columns"
+msgstr "عكس الأعمدة"
+
+#: includes/editor-templates/panel.php:89
+#: includes/elements/section.php:1264
+msgid "Mobile"
+msgstr "جوال"
+
+#: includes/editor-templates/panel.php:79
+msgid "Default Preview"
+msgstr "المعاينة الإفتراضية"
+
+#: includes/controls/dimensions.php:121
+#: includes/controls/dimensions.php:124
+msgid "Link values together"
+msgstr "ربط القيم مع بعضها"
+
+#: includes/widgets/shortcode.php:42
+#: includes/widgets/shortcode.php:99
+msgid "Shortcode"
+msgstr "الكود المختصر"
+
+#: includes/template-library/sources/remote.php:46
+msgid "Remote"
+msgstr "Remote"
+
+#: includes/template-library/sources/local.php:900
+msgid "Import Now"
+msgstr "الاستيراد الآن"
+
+#: includes/template-library/sources/local.php:891
+msgid "Import Templates"
+msgstr "إستيراد النماذج"
+
+#: includes/template-library/sources/local.php:863
+msgid "Export Template"
+msgstr "تصدير النموذج"
+
+#: includes/template-library/sources/local.php:451
+msgid "(no title)"
+msgstr "(غير معنون)"
+
+#: includes/template-library/sources/local.php:268
+msgctxt "Template Library"
+msgid "Type"
+msgstr "النوع"
+
+#: includes/template-library/sources/local.php:228
+msgctxt "Template Library"
+msgid "No Templates found in Trash"
+msgstr "لا توجد نماذج في سلة المهملات"
+
+#: includes/template-library/sources/local.php:227
+msgctxt "Template Library"
+msgid "No Templates found"
+msgstr "لا توجد نماذج"
+
+#: includes/template-library/sources/local.php:226
+msgctxt "Template Library"
+msgid "Search Template"
+msgstr "البحث في النماذج"
+
+#: includes/template-library/sources/local.php:225
+msgctxt "Template Library"
+msgid "View Template"
+msgstr "عرض النموذج"
+
+#: includes/template-library/sources/local.php:224
+msgctxt "Template Library"
+msgid "All Templates"
+msgstr "جميع النماذج"
+
+#: includes/template-library/sources/local.php:223
+msgctxt "Template Library"
+msgid "New Template"
+msgstr "نموذج جديد"
+
+#: includes/template-library/sources/local.php:222
+msgctxt "Template Library"
+msgid "Edit Template"
+msgstr "تحرير النموذج"
+
+#: includes/template-library/sources/local.php:221
+msgctxt "Template Library"
+msgid "Add New Template"
+msgstr "اضافة نموذج جديد"
+
+#: includes/template-library/sources/local.php:220
+msgctxt "Template Library"
+msgid "Add New"
+msgstr "اضافة جديد"
+
+#: includes/template-library/sources/local.php:219
+msgctxt "Template Library"
+msgid "Template"
+msgstr "النموذج"
+
+#: includes/template-library/sources/local.php:200
+msgid "Local"
+msgstr "محلي"
+
+#: includes/settings/tools.php:172
+msgid "Elementor Library automatically updates on a daily basis. You can also manually update it by clicking on the sync button."
+msgstr "مكتبة Elementor يتم تحديثها بشكل يومي، يمكنك التحديث يدوياً بالنقر على زر المزامنة."
+
+#: includes/editor-templates/templates.php:14
+#: includes/editor-templates/templates.php:15
+#: includes/settings/tools.php:168
+#: includes/settings/tools.php:171
+msgid "Sync Library"
+msgstr "مزامنة المكتبة"
+
+#: core/common/modules/finder/categories/tools.php:29
+#: core/common/modules/finder/categories/tools.php:47
+#: includes/settings/tools.php:36
+#: includes/settings/tools.php:37
+#: includes/settings/tools.php:282
+msgid "Tools"
+msgstr "أدوات"
+
+#: core/editor/editor.php:615
+msgid "Are you sure you want to delete this template?"
+msgstr "هل أنت متأكد من رغبتك من حذف هذا النموذج؟"
+
+#: core/editor/editor.php:614
+msgid "Delete Template"
+msgstr "حذف النموذج"
+
+#: core/document-types/post.php:64
+#: core/editor/editor.php:621
+#: modules/library/documents/page.php:65
+msgid "Page"
+msgstr "صفحة"
+
+#. translators: %s: Template type.
+#: core/editor/editor.php:623
+msgid "Save Your %s to Library"
+msgstr "احفظ %s للمكتبة"
+
+#: core/editor/editor.php:632
+msgid "The following error(s) occurred while processing the request:"
+msgstr "حدث الخطأ (الأخطاء) التالية أثناء معالجة الطلب:"
+
+#: core/editor/editor.php:612
+#: includes/utils.php:238
+msgid "An error occurred"
+msgstr "لقد حدث خطأ"
+
+#: core/editor/editor.php:626
+msgid "This is where your templates should be. Design it. Save it. Reuse it."
+msgstr "هنا حيث يجب أن تتواجد نماذجك. صممها، احفظها، واعد استخدامها."
+
+#: core/editor/editor.php:627
+msgid "Haven’t Saved Templates Yet?"
+msgstr "هل قمت بحفظ النماذج بعد ؟"
+
+#: includes/editor-templates/templates.php:217
+msgid "Enter Template Name"
+msgstr "أدخل اسم النموذج"
+
+#: core/editor/editor.php:624
+msgid "Your designs will be available for export and reuse on any page or website"
+msgstr "تصاميمك ستكون قابلة للتصدير واعادة استخدامها مرة أخرى في أي صفحة وموقع"
+
+#: includes/editor-templates/templates.php:187
+#: includes/template-library/sources/local.php:1078
+msgid "Export"
+msgstr "تصدير"
+
+#: includes/editor-templates/templates.php:132
+msgid "Stay tuned! More awesome templates coming real soon."
+msgstr "كن بالقرب! المزيد من النماذج الرائعة ستتوفر قريباً."
+
+#: includes/editor-templates/templates.php:37
+msgid "Back to Library"
+msgstr "العودة للمكتبة"
+
+#: includes/editor-templates/templates.php:173
+#: includes/editor-templates/templates.php:197
+msgid "Insert"
+msgstr "ادراج"
+
+#: core/editor/editor.php:636
+msgid "My Templates"
+msgstr "نماذجي"
+
+#: core/editor/editor.php:619
+msgid "Library"
+msgstr "مكتبة"
+
+#: includes/editor-templates/global.php:22
+#: includes/editor-templates/library-layout.php:15
+#: includes/editor-templates/library-layout.php:16
+msgid "Close"
+msgstr "اغلاق"
+
+#: includes/template-library/sources/local.php:363
+#: includes/template-library/sources/local.php:1579
+msgid "Saved Templates"
+msgstr "حفظ النماذج"
+
+#: includes/editor-templates/hotkeys.php:135
+msgid "Template Library"
+msgstr "مكتبة النماذج"
+
+#: includes/editor-templates/global.php:34
+msgid "Select your Structure"
+msgstr "حدد الهيكل الخاص بك"
+
+#: includes/editor-templates/global.php:28
+msgid "Add Template"
+msgstr "اضافة نموذج"
+
+#. translators: %s: Codex URL
+#: includes/settings/system-info/classes/theme.php:192
+msgctxt "System Info"
+msgid "If you want to modify the source code of your theme, we recommend using a <a href=\"%s\">child theme</a>."
+msgstr "اذا كنت ترغب في التعديل على الكود الخاص بقالبك، ننصحك باستخدام <a href=\"%s\">قالب ابن</a> ."
+
+#: core/editor/editor.php:602
+#: core/editor/editor.php:644
+#: modules/safe-mode/module.php:340
+#: modules/safe-mode/mu-plugin/elementor-safe-mode.php:88
+msgid "Learn More"
+msgstr "اعرف المزيد"
+
+#: includes/widgets/button.php:378
+#: includes/widgets/icon-box.php:336
+#: includes/widgets/icon.php:285
+#: includes/widgets/image-box.php:273
+#: includes/widgets/image.php:407
+#: includes/widgets/social-icons.php:501
+msgid "Hover Animation"
+msgstr "الحركة أثناء التمرير"
+
+#: includes/controls/groups/background.php:480
+msgctxt "Background Control"
+msgid "Contain"
+msgstr "احتواء"
+
+#: includes/elements/column.php:811
+#: includes/elements/section.php:1214
+#: includes/widgets/common.php:168
+msgid "Fast"
+msgstr "سريع"
+
+#: includes/elements/column.php:809
+#: includes/elements/section.php:1212
+#: includes/widgets/common.php:166
+msgid "Slow"
+msgstr "بطئ"
+
+#: core/admin/feedback.php:82
+msgid "Submit & Deactivate"
+msgstr "التسجيل وإلغاء التنشيط"
+
+#: includes/settings/settings.php:421
+msgid "Disable Default Colors"
+msgstr "تعطيل الألوان الإفتراضية"
+
+#: core/editor/editor.php:578
+#: includes/schemes/typography.php:78
+msgid "Default Fonts"
+msgstr "الخطوط الافتراضية"
+
+#: includes/schemes/color.php:78
+msgid "Color Palettes"
+msgstr "لوحات الألوان"
+
+#: includes/elements/column.php:796
+#: includes/elements/section.php:1199
+#: includes/widgets/common.php:153
+#: includes/widgets/video.php:753
+msgid "Entrance Animation"
+msgstr "حركة الدخول"
+
+#: includes/editor-templates/panel.php:181
+msgid "You can enable it from the <a href=\"%s\" target=\"_blank\">Elementor settings page</a>."
+msgstr "يمكنك تنشيطة  <a href=\"%s\" target=\"_blank\">من صفحة إعدادات العناصر</a>."
+
+#: includes/controls/groups/box-shadow.php:73
+msgctxt "Box Shadow Control"
+msgid "Inset"
+msgstr "إدراج"
+
+#: includes/controls/groups/box-shadow.php:61
+#: includes/controls/groups/box-shadow.php:96
+msgctxt "Box Shadow Control"
+msgid "Box Shadow"
+msgstr "الظل"
+
+#: includes/controls/box-shadow.php:73
+#: includes/controls/text-shadow.php:76
+#: includes/widgets/tabs.php:151
+msgid "Vertical"
+msgstr "رأسي"
+
+#: includes/controls/box-shadow.php:68
+#: includes/controls/text-shadow.php:71
+#: includes/widgets/tabs.php:150
+msgid "Horizontal"
+msgstr "أفقي"
+
+#: includes/controls/box-shadow.php:83
+msgid "Spread"
+msgstr "الانتشار"
+
+#: includes/controls/box-shadow.php:78
+#: includes/controls/text-shadow.php:66
+msgid "Blur"
+msgstr "الضبابية"
+
+#: core/admin/feedback.php:83
+msgid "Skip & Deactivate"
+msgstr "تخطي وإلغاء التنشيط"
+
+#: includes/widgets/testimonial.php:168
+msgid "Aside"
+msgstr "بجانب"
+
+#: includes/widgets/testimonial.php:42
+#: includes/widgets/testimonial.php:85
+msgid "Testimonial"
+msgstr "تزكية"
+
+#: includes/widgets/social-icons.php:192
+#: includes/widgets/social-icons.php:324
+msgid "Official Color"
+msgstr "اللون الرسمي"
+
+#: includes/widgets/social-icons.php:264
+msgid "Rounded"
+msgstr "مستديرة"
+
+#: includes/widgets/social-icons.php:42
+#: includes/widgets/social-icons.php:85
+#: includes/widgets/social-icons.php:230
+msgid "Social Icons"
+msgstr "أيقونات الشبكات الاجتماعية"
+
+#: includes/widgets/progress.php:98
+msgid "My Skill"
+msgstr "مهارتي"
+
+#: includes/widgets/audio.php:232
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: includes/widgets/audio.php:221
+msgid "Play Counts"
+msgstr "مرات التشغيل"
+
+#: includes/widgets/audio.php:210
+msgid "Comments"
+msgstr "تعليقات"
+
+#: includes/widgets/audio.php:199
+msgid "Share Button"
+msgstr "زر المشاركة"
+
+#: includes/widgets/audio.php:174
+#: includes/widgets/video.php:441
+msgid "Download Button"
+msgstr "زر التنزيل"
+
+#: includes/widgets/audio.php:163
+msgid "Like Button"
+msgstr "زر الاعجاب"
+
+#: includes/widgets/audio.php:152
+msgid "Buy Button"
+msgstr "زر الشراء"
+
+#: includes/widgets/audio.php:122
+msgid "Visual Player"
+msgstr "المشغل المرئي"
+
+#: includes/widgets/audio.php:53
+#: includes/widgets/audio.php:96
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: includes/elements/column.php:310
+#: includes/elements/section.php:576
+msgid "Background Overlay"
+msgstr "غطاء الخلفية"
+
+#: includes/elements/section.php:303
+msgid "Extended"
+msgstr "ممتد"
+
+#: core/admin/feedback.php:139
+msgid "If you have a moment, please share why you are deactivating Elementor:"
+msgstr "إذا كان لديك بعض الوقت، فالمرجو مشاركتنا بسبب إلغائك تفعيل Elementor:"
+
+#: core/admin/feedback.php:131
+msgid "Quick Feedback"
+msgstr "تغذية راجعة سريعة"
+
+#: core/admin/feedback.php:123
+msgid "Please share the reason"
+msgstr "من فضلك، شاركنا السبب"
+
+#: core/admin/feedback.php:122
+msgid "Other"
+msgstr "سبب آخر"
+
+#: core/admin/feedback.php:113
+msgid "It's a temporary deactivation"
+msgstr "إنه إلغاء مؤقت"
+
+#: core/admin/feedback.php:109
+msgid "I couldn't get the plugin to work"
+msgstr "لم أستطع جعل الإضافة تعمل"
+
+#: core/admin/feedback.php:106
+msgid "Please share which plugin"
+msgstr "من فضلك، شاركنا باسم الإضافة"
+
+#: core/admin/feedback.php:105
+msgid "I found a better plugin"
+msgstr "عثرت على إضافة أفضل"
+
+#: core/admin/feedback.php:101
+msgid "I no longer need the plugin"
+msgstr "لم أعد في حاجة إلى هذه الإضافة"
+
+#: core/admin/admin.php:395
+#: core/base/db-upgrades-manager.php:76
+msgid "Update Now"
+msgstr "التحديث الآن"
+
+#. translators: %s: Elementor version
+#: core/admin/admin.php:382
+msgid "View Elementor version %s details"
+msgstr "مشاهدة تفاصيل النسخة %s من Elementor"
+
+#. translators: 1: Details URL, 2: Accessibility text, 3: Version number, 4:
+#. Update URL, 5: Accessibility text
+#: core/admin/admin.php:378
+msgid "There is a new version of Elementor Page Builder available. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">update now</a>."
+msgstr "هناك نسخة جديدة متاحة من مصمم الصفحات Elementor. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">مشاهدة تفاصيل النسخة %3$s </a> أو <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">قم بالتحديث الآن</a>."
+
+#: includes/widgets/image-carousel.php:194
+#: includes/widgets/image.php:192
+msgid "Custom URL"
+msgstr "رابط مخصص"
+
+#: core/editor/editor.php:690
+#: includes/editor-templates/hotkeys.php:43
+msgid "Paste"
+msgstr "لصق"
+
+#: includes/elements/column.php:242
+#: includes/elements/section.php:491
+#: includes/widgets/accordion.php:248
+#: includes/widgets/accordion.php:396
+#: includes/widgets/common.php:198
+#: includes/widgets/toggle.php:268
+#: includes/widgets/toggle.php:416
+msgid "Background"
+msgstr "خلفية"
+
+#: includes/elements/section.php:305
+msgid "Wider"
+msgstr "أعرض"
+
+#: core/common/modules/finder/categories/general.php:28
+#: core/role-manager/role-manager.php:57
+#: includes/managers/elements.php:279
+#: includes/settings/settings.php:400
+#: includes/settings/tools.php:155
+msgid "General"
+msgstr "عام"
+
+#: includes/widgets/video.php:427
+msgid "Intro Byline"
+msgstr "مقدمة"
+
+#: includes/widgets/accordion.php:368
+#: includes/widgets/icon-box.php:348
+#: includes/widgets/icon-box.php:515
+#: includes/widgets/image-box.php:222
+#: includes/widgets/image-box.php:436
+#: includes/widgets/image-carousel.php:534
+#: includes/widgets/image-gallery.php:205
+#: includes/widgets/image.php:538
+#: includes/widgets/social-icons.php:407
+#: includes/widgets/star-rating.php:273
+#: includes/widgets/toggle.php:388
+msgid "Spacing"
+msgstr "التباعد"
+
+#: includes/widgets/image-carousel.php:388
+#: includes/widgets/image-carousel.php:449
+msgid "Outside"
+msgstr "بالخارج"
+
+#: includes/widgets/image-carousel.php:387
+#: includes/widgets/image-carousel.php:450
+msgid "Inside"
+msgstr "بالداخل"
+
+#: includes/widgets/image-carousel.php:344
+msgid "Direction"
+msgstr "الاتجاه"
+
+#: includes/widgets/audio.php:135
+#: includes/widgets/image-carousel.php:258
+msgid "Additional Options"
+msgstr "خيارات اضافية"
+
+#: includes/widgets/image-carousel.php:176
+msgid "Arrows and Dots"
+msgstr "الأسهم والنقاط"
+
+#: includes/widgets/alert.php:186
+msgid "Left Border Width"
+msgstr "عرض الاطار الأيسر"
+
+#: includes/elements/column.php:805
+#: includes/elements/section.php:1208
+#: includes/widgets/common.php:162
+#: includes/widgets/counter.php:144
+msgid "Animation Duration"
+msgstr "مدة التأثير"
+
+#: includes/widgets/image-carousel.php:159
+msgid "Image Stretch"
+msgstr "تمديد الصورة"
+
+#: includes/widgets/image-carousel.php:43
+#: includes/widgets/image-carousel.php:100
+msgid "Image Carousel"
+msgstr "عارض الصور"
+
+#: includes/widgets/image-carousel.php:334
+msgid "Animation Speed"
+msgstr "سرعة الحركة"
+
+#: includes/controls/groups/image-size.php:276
+msgid "You can crop the original image size to any custom size. You can also set a single value for height or width in order to keep the original size ratio."
+msgstr "يمكنك اقتصاص حجم الصورة الأصلي إلى أي حجم مخصص. يمكنك أيضا تعيين قيمة واحدة للارتفاع أو عرض من اجل الحفاظ على نسبة الحجم الأصلي."
+
+#: core/editor/editor.php:646
+msgid "You must call 'the_content' function in the current template, in order for Elementor to work on this page."
+msgstr "يجب استدعاء دالة 'the_content'  في القالب الحالي، لكى يعمل Elementor فى هذه الصفحة."
+
+#: core/editor/editor.php:645
+msgid "Sorry, the content area was not found in your page."
+msgstr "عذراً، لم يتم العثور على منطقة المحتوى في الصفحة الخاصة بك."
+
+#: includes/widgets/audio.php:243
+#: includes/widgets/video.php:358
+msgid "Controls Color"
+msgstr "التحكم باللون"
+
+#: includes/widgets/video.php:413
+msgid "Intro Portrait"
+msgstr "صورة المقدمة"
+
+#: includes/widgets/video.php:399
+msgid "Intro Title"
+msgstr "عنوان المقدمة"
+
+#: includes/widgets/video.php:293
+msgid "Loop"
+msgstr "تكرار"
+
+#: includes/widgets/video.php:268
+msgid "Video Options"
+msgstr "خيارات الفيديو"
+
+#: includes/widgets/video.php:115
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: includes/widgets/video.php:44
+#: includes/widgets/video.php:103
+#: includes/widgets/video.php:565
+msgid "Video"
+msgstr "فيديو"
+
+#: includes/widgets/image-gallery.php:277
+msgid "Display"
+msgstr "عرض"
+
+#: includes/controls/image-dimensions.php:81
+msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for WordPress to be able to resize images. Please contact your server administrator to enable this before continuing."
+msgstr "يبدو ان  ImageMagick or GD غير مثبتين او مفعلين على الخادم ، اي من هذه المكتبات ضروري لوردبريس حتى يتمكن من تغير حجم الصور . من فضلك اتصل بمسئول الخادم لتمكين الخدمة قبل الاستمرار."
+
+#: core/editor/editor.php:654
+msgid "Insert Media"
+msgstr "اضافة وسائط"
+
+#. translators: %s: The number of images.
+#: core/editor/editor.php:652
+msgid "%s Images Selected"
+msgstr "%s صورة تم تحديدها"
+
+#: includes/controls/groups/image-size.php:274
+msgctxt "Image Size Control"
+msgid "Image Dimension"
+msgstr "ابعاد الصورة"
+
+#: includes/controls/groups/image-size.php:357
+msgctxt "Image Size Control"
+msgid "Custom"
+msgstr "مخصص"
+
+#: includes/controls/groups/border.php:67
+msgctxt "Border Control"
+msgid "Dashed"
+msgstr "شريط متقطع"
+
+#: includes/controls/groups/border.php:66
+msgctxt "Border Control"
+msgid "Dotted"
+msgstr "منقط"
+
+#: includes/controls/groups/border.php:65
+msgctxt "Border Control"
+msgid "Double"
+msgstr "مزدوج"
+
+#: includes/controls/groups/border.php:64
+msgctxt "Border Control"
+msgid "Solid"
+msgstr "عادي"
+
+#: core/editor/editor.php:653
+msgid "No Images Selected"
+msgstr "لم يتم تحديد صور"
+
+#: includes/widgets/image-carousel.php:322
+msgid "Fade"
+msgstr "تلاشي"
+
+#: includes/widgets/image-carousel.php:317
+msgid "Effect"
+msgstr "تأثير"
+
+#: core/editor/editor.php:650
+msgid "Are you sure you want to reset this gallery?"
+msgstr "هل أنت متأكد من رغبتك في إستعادة خيارات المعرض؟"
+
+#: includes/controls/groups/image-size.php:354
+msgctxt "Image Size Control"
+msgid "Full"
+msgstr "الكامل"
+
+#: core/editor/editor.php:649
+msgid "Reset Gallery"
+msgstr "استعادة وضع المعرض"
+
+#: includes/widgets/icon-box.php:491
+#: includes/widgets/image-box.php:412
+msgid "Vertical Alignment"
+msgstr "تعيين رأسي"
+
+#: includes/widgets/image-carousel.php:303
+msgid "Infinite Loop"
+msgstr "التكرار اللا نهائي"
+
+#: includes/widgets/image-carousel.php:178
+#: includes/widgets/image-carousel.php:433
+msgid "Dots"
+msgstr "نقاط"
+
+#: includes/controls/structure.php:54
+msgid "Reset Structure"
+msgstr "اعادة تعيين الهيكل"
+
+#: includes/controls/groups/image-size.php:268
+msgctxt "Image Size Control"
+msgid "Image Size"
+msgstr "حجم الصورة"
+
+#: includes/controls/groups/typography.php:172
+msgctxt "Typography Control"
+msgid "None"
+msgstr "لا شئ"
+
+#: includes/widgets/accordion.php:177
+#: includes/widgets/icon-box.php:216
+#: includes/widgets/image-box.php:183
+#: includes/widgets/toggle.php:174
+msgid "Title HTML Tag"
+msgstr "وسم عنوان HTML"
+
+#: includes/widgets/accordion.php:124
+#: includes/widgets/accordion.php:128
+#: includes/widgets/icon-box.php:157
+#: includes/widgets/image-box.php:134
+#: includes/widgets/tabs.php:123
+#: includes/widgets/tabs.php:127
+#: includes/widgets/text-editor.php:114
+#: includes/widgets/toggle.php:121
+#: includes/widgets/toggle.php:125
+msgid "Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr "اضغط علي زر التعديل لتغيير هذا النص. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+
+#: includes/widgets/icon-box.php:143
+#: includes/widgets/image-box.php:120
+msgid "This is the heading"
+msgstr "هذه هي الترويسة"
+
+#: includes/elements/column.php:757
+#: includes/elements/section.php:1180
+#: includes/widgets/common.php:135
+msgid "Add your custom class WITHOUT the dot. e.g: my-class"
+msgstr "اضف ال class الخاص بك بدون النقط. مثال my-class"
+
+#: core/settings/general/model.php:96
+#: includes/settings/settings.php:466
+msgid "The list of fonts used if the chosen font is not available."
+msgstr "قائمة الخطوط تستخدم في حالة عدم اتاحة الخط المحدد"
+
+#: core/settings/general/model.php:93
+#: includes/settings/settings.php:461
+msgid "Default Generic Fonts"
+msgstr "الخطوط العامة الافتراضية"
+
+#: includes/managers/elements.php:308
+msgid "Pojo Themes"
+msgstr "قوالب Pojo"
+
+#: includes/widgets/wordpress.php:225
+msgid "Form"
+msgstr "نموذج"
+
+#: includes/settings/system-info/classes/server.php:122
+msgctxt "System Info"
+msgid "We recommend to use php 5.4 or higher"
+msgstr "نحن ننصحك باستخدام اصدار PHP 5.4 أو أحدث"
+
+#: includes/controls/groups/background.php:551
+msgid "YouTube link or video file (mp4 is recommended)."
+msgstr "رابط فيديو او يوتيوب (يُفضل بصيغة mp4)"
+
+#: includes/editor-templates/panel-elements.php:13
+msgid "Elements"
+msgstr "العناصر"
+
+#. Description of the plugin
+msgid "The most advanced frontend drag & drop page builder. Create high-end, pixel perfect websites at record speeds. Any theme, any page, any design."
+msgstr "باني الصفحات الاكثر تقدماً ، انشئ مواقع بدقة عالية وتكامل عالي وبسرعات خارقة. اي قالب اي صفحة واي تصميم"
+
+#: includes/settings/settings.php:447
+msgid "Opt-in to our anonymous plugin data collection and to updates. We guarantee no sensitive data is collected."
+msgstr "ساعدنا في تطوير الاضافة عن طريق تجميع البيانات والتحديثات بشكل خفي ، نحن نضمن لك ألا نجمع اي بيانات حساسة على الاطلاق"
+
+#: core/admin/admin.php:270
+#: core/common/modules/finder/categories/settings.php:28
+#: core/dynamic-tags/base-tag.php:170
+#: core/editor/editor.php:580
+#: includes/editor-templates/panel.php:57
+#: includes/managers/controls.php:304
+#: includes/settings/settings.php:363
+msgid "Settings"
+msgstr "الاعدادات"
+
+#: includes/controls/groups/typography.php:159
+msgctxt "Typography Control"
+msgid "Oblique"
+msgstr "مائل"
+
+#: includes/controls/groups/typography.php:158
+msgctxt "Typography Control"
+msgid "Italic"
+msgstr "مائل"
+
+#: includes/controls/groups/typography.php:147
+#: includes/controls/groups/typography.php:157
+msgctxt "Typography Control"
+msgid "Normal"
+msgstr "عادي"
+
+#: includes/controls/groups/typography.php:146
+msgctxt "Typography Control"
+msgid "Capitalize"
+msgstr "احرف كبيرة"
+
+#: includes/controls/groups/typography.php:145
+msgctxt "Typography Control"
+msgid "Lowercase"
+msgstr "أحرف صغيرة"
+
+#: includes/controls/groups/typography.php:144
+msgctxt "Typography Control"
+msgid "Uppercase"
+msgstr "أحرف كبيرة"
+
+#. Author of the plugin
+msgid "Elementor.com"
+msgstr "Elementor.com"
+
+#: includes/widgets/video.php:534
+#: includes/widgets/video.php:600
+msgid "Play Icon"
+msgstr "أيقونة التشغيل"
+
+#: includes/widgets/video.php:476
+#: includes/widgets/video.php:483
+msgid "Image Overlay"
+msgstr "غطاء الصورة"
+
+#: includes/widgets/video.php:304
+msgid "Player Controls"
+msgstr "أدوات التحكم بالمشغّل"
+
+#: includes/widgets/video.php:383
+msgid "Suggested Videos"
+msgstr "الفيديوهات المقترحة"
+
+#: includes/widgets/video.php:573
+msgid "Aspect Ratio"
+msgstr "ابعاد متزنة"
+
+#: includes/widgets/video.php:114
+msgid "YouTube"
+msgstr "يوتيوب"
+
+#: includes/widgets/toggle.php:107
+msgid "Toggle Content"
+msgstr "تبديل المحتوى"
+
+#: includes/widgets/toggle.php:97
+msgid "Toggle Title"
+msgstr "تبديل العنوان"
+
+#: includes/widgets/toggle.php:124
+msgid "Toggle #2"
+msgstr "تبديل #2"
+
+#: includes/widgets/toggle.php:120
+msgid "Toggle #1"
+msgstr "تبديل #1"
+
+#: includes/widgets/toggle.php:115
+msgid "Toggle Items"
+msgstr "تبديل العناصر"
+
+#: includes/widgets/toggle.php:43
+#: includes/widgets/toggle.php:86
+#: includes/widgets/toggle.php:195
+msgid "Toggle"
+msgstr "تبديل"
+
+#: includes/widgets/text-editor.php:43
+#: includes/widgets/text-editor.php:102
+#: includes/widgets/text-editor.php:134
+msgid "Text Editor"
+msgstr "محرر النصوص"
+
+#: includes/widgets/tabs.php:107
+#: includes/widgets/tabs.php:108
+msgid "Tab Content"
+msgstr "محتوى علامة التبويب"
+
+#: includes/widgets/tabs.php:97
+#: includes/widgets/tabs.php:98
+msgid "Tab Title"
+msgstr "عنوان علامة التبويب"
+
+#: includes/widgets/tabs.php:126
+msgid "Tab #2"
+msgstr "علامة التبويب #2"
+
+#: includes/widgets/tabs.php:122
+msgid "Tab #1"
+msgstr "تبويب #1"
+
+#: includes/widgets/tabs.php:117
+msgid "Tabs Items"
+msgstr "عناصر التبويبات"
+
+#: includes/widgets/tabs.php:43
+#: includes/widgets/tabs.php:86
+#: includes/widgets/tabs.php:163
+msgid "Tabs"
+msgstr "تبويبات"
+
+#: includes/widgets/image-carousel.php:265
+msgid "Pause on Hover"
+msgstr "ايقاف عند التمرير"
+
+#: includes/widgets/image-carousel.php:293
+msgid "Autoplay Speed"
+msgstr "سرعة التشغيل التلقائي"
+
+#: includes/widgets/image-carousel.php:177
+#: includes/widgets/image-carousel.php:371
+msgid "Arrows"
+msgstr "الأسهم"
+
+#: includes/widgets/image-carousel.php:321
+msgid "Slide"
+msgstr "شريحة"
+
+#: includes/widgets/sidebar.php:89
+#: includes/widgets/sidebar.php:107
+msgid "Choose Sidebar"
+msgstr "اختر شريط جانبي"
+
+#: includes/widgets/sidebar.php:87
+msgid "No sidebars were found"
+msgstr "لا توجد أشرطة جانبية"
+
+#: includes/widgets/sidebar.php:42
+#: includes/widgets/sidebar.php:102
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: includes/widgets/progress.php:260
+msgid "Title Style"
+msgstr "نسق العنوان"
+
+#: includes/widgets/progress.php:151
+msgid "Web Designer"
+msgstr "مصمم مواقع"
+
+#: includes/widgets/progress.php:150
+msgid "e.g. Web Designer"
+msgstr "مثلاً \"مصمم مواقع\""
+
+#: includes/widgets/progress.php:145
+#: includes/widgets/progress.php:227
+msgid "Inner Text"
+msgstr "النص الداخلى"
+
+#: includes/widgets/progress.php:133
+msgid "Display Percentage"
+msgstr "عرض النسبة المئوية"
+
+#: includes/widgets/progress.php:122
+msgid "Percentage"
+msgstr "نسبة مئوية"
+
+#: includes/widgets/progress.php:42
+#: includes/widgets/progress.php:85
+#: includes/widgets/progress.php:170
+msgid "Progress Bar"
+msgstr "شريط التقدم"
+
+#: includes/widgets/menu-anchor.php:95
+msgid "For Example: About"
+msgstr "كمثال: من نحن"
+
+#: includes/widgets/menu-anchor.php:93
+msgid "The ID of Menu Anchor."
+msgstr "رقم ID للمرساة"
+
+#: includes/widgets/menu-anchor.php:96
+msgid "This ID will be the CSS ID you will have to use in your own page, Without #."
+msgstr "هذا المعرف سيكون معرف الـ CSS الذي ستحصل عليه في صفحتك بدون الـ #"
+
+#: includes/widgets/menu-anchor.php:86
+msgid "Anchor"
+msgstr "مرتكز"
+
+#: includes/widgets/menu-anchor.php:43
+msgid "Menu Anchor"
+msgstr "تركيز القائمة"
+
+#: includes/widgets/image-box.php:158
+#: includes/widgets/testimonial.php:164
+msgid "Image Position"
+msgstr "موضع الصورة"
+
+#: includes/widgets/image-carousel.php:550
+#: includes/widgets/image-gallery.php:222
+msgid "Image Spacing"
+msgstr "تباعد الصورة"
+
+#: includes/widgets/testimonial.php:266
+msgid "Image Size"
+msgstr "حجم الصورة"
+
+#: includes/widgets/image-box.php:42
+#: includes/widgets/image-box.php:85
+msgid "Image Box"
+msgstr "صندوق الصورة"
+
+#: includes/widgets/social-icons.php:447
+msgid "Icon Hover"
+msgstr "تأثير مؤشر الماوس على الايقونة"
+
+#: includes/widgets/accordion.php:206
+#: includes/widgets/icon-box.php:423
+#: includes/widgets/icon.php:356
+#: includes/widgets/tabs.php:194
+#: includes/widgets/text-editor.php:367
+#: includes/widgets/toggle.php:203
+msgid "Border Width"
+msgstr "عرض الأطار"
+
+#: includes/widgets/icon-box.php:408
+#: includes/widgets/icon.php:334
+msgid "Rotate"
+msgstr "تدوير"
+
+#: includes/widgets/icon-box.php:282
+#: includes/widgets/icon-box.php:320
+#: includes/widgets/icon.php:228
+#: includes/widgets/icon.php:268
+#: includes/widgets/social-icons.php:215
+#: includes/widgets/social-icons.php:347
+#: includes/widgets/social-icons.php:470
+#: includes/widgets/text-editor.php:291
+msgid "Secondary Color"
+msgstr "اللون الثانوي"
+
+#: includes/widgets/icon-box.php:265
+#: includes/widgets/icon-box.php:307
+#: includes/widgets/icon.php:210
+#: includes/widgets/icon.php:254
+#: includes/widgets/social-icons.php:201
+#: includes/widgets/social-icons.php:333
+#: includes/widgets/social-icons.php:455
+#: includes/widgets/text-editor.php:272
+msgid "Primary Color"
+msgstr "اللون الأساسي"
+
+#: includes/widgets/icon-box.php:124
+#: includes/widgets/icon.php:140
+#: includes/widgets/social-icons.php:265
+msgid "Square"
+msgstr "مربع"
+
+#: includes/widgets/icon-box.php:123
+#: includes/widgets/icon.php:139
+#: includes/widgets/social-icons.php:266
+msgid "Circle"
+msgstr "دائرة"
+
+#: includes/widgets/icon-box.php:120
+#: includes/widgets/icon.php:136
+#: includes/widgets/social-icons.php:260
+msgid "Shape"
+msgstr "شكل"
+
+#: includes/widgets/icon-box.php:110
+#: includes/widgets/icon.php:126
+#: includes/widgets/text-editor.php:259
+msgid "Framed"
+msgstr "مؤطر"
+
+#: includes/widgets/icon-box.php:109
+#: includes/widgets/icon.php:125
+#: includes/widgets/text-editor.php:258
+msgid "Stacked"
+msgstr "مرصوص"
+
+#: includes/widgets/icon-list.php:496
+msgid "Text Indent"
+msgstr "المسافة البادئة للنص"
+
+#: includes/widgets/icon-list.php:121
+#: includes/widgets/icon-list.php:122
+msgid "List Item"
+msgstr "بند القائمة"
+
+#: includes/widgets/icon-list.php:178
+msgid "List Item #3"
+msgstr "بند القائمة #3"
+
+#: includes/widgets/icon-list.php:171
+msgid "List Item #2"
+msgstr "بند القائمة #2"
+
+#: includes/widgets/icon-list.php:164
+msgid "List Item #1"
+msgstr "بند القائمة #1"
+
+#: includes/widgets/icon-list.php:42
+#: includes/widgets/icon-list.php:85
+msgid "Icon List"
+msgstr "قائمة الايقونة"
+
+#: includes/widgets/button.php:151
+#: includes/widgets/icon-box.php:173
+#: includes/widgets/icon-list.php:152
+#: includes/widgets/icon.php:158
+#: includes/widgets/image-box.php:150
+#: includes/widgets/image-carousel.php:204
+#: includes/widgets/image.php:205
+#: includes/widgets/social-icons.php:181
+#: includes/widgets/testimonial.php:157
+msgid "https://your-link.com"
+msgstr "https://your-link.com"
+
+#: includes/widgets/button.php:226
+msgid "Icon Spacing"
+msgstr "مسافة الأيقونة"
+
+#: includes/widgets/icon-box.php:42
+#: includes/widgets/icon-box.php:85
+msgid "Icon Box"
+msgstr "أيقونة الصندوق"
+
+#: includes/widgets/html.php:85
+msgid "HTML Code"
+msgstr "كود HTML"
+
+#: includes/widgets/html.php:42
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/elements/column.php:230
+#: includes/elements/section.php:468
+#: includes/widgets/heading.php:153
+msgid "HTML Tag"
+msgstr "وسم HTML"
+
+#: includes/widgets/alert.php:111
+#: includes/widgets/heading.php:113
+#: includes/widgets/icon-box.php:144
+#: includes/widgets/image-box.php:121
+#: includes/widgets/progress.php:97
+msgid "Enter your title"
+msgstr "أدخل العنوان الخاص بك"
+
+#: includes/widgets/heading.php:42
+msgid "Heading"
+msgstr "ترويسة"
+
+#: includes/widgets/google-maps.php:107
+msgid "London Eye, London, United Kingdom"
+msgstr "لندن، الممكلة المتحدة"
+
+#: includes/widgets/google-maps.php:103
+#: includes/widgets/google-maps.php:174
+msgid "Map"
+msgstr "خريطة"
+
+#: includes/widgets/google-maps.php:44
+msgid "Google Maps"
+msgstr "خرائظ قوقل"
+
+#: includes/widgets/image-carousel.php:232
+#: includes/widgets/image-carousel.php:238
+#: includes/widgets/image-carousel.php:598
+#: includes/widgets/image-gallery.php:269
+#: includes/widgets/image.php:156
+#: includes/widgets/image.php:453
+msgid "Caption"
+msgstr "شرح"
+
+#: includes/widgets/image-gallery.php:197
+msgid "Images"
+msgstr "الصور"
+
+#: includes/widgets/image-gallery.php:177
+msgid "Random"
+msgstr "عشوائي"
+
+#: includes/widgets/image-carousel.php:193
+#: includes/widgets/image-gallery.php:146
+#: includes/widgets/image.php:191
+msgid "Media File"
+msgstr "ملف وسائط"
+
+#: includes/widgets/image-gallery.php:147
+msgid "Attachment Page"
+msgstr "صفحة المرفق"
+
+#: includes/controls/gallery.php:86
+#: includes/widgets/image-carousel.php:107
+#: includes/widgets/image-gallery.php:108
+msgid "Add Images"
+msgstr "اضافة صور"
+
+#: includes/widgets/image-gallery.php:42
+#: includes/widgets/image-gallery.php:101
+msgid "Image Gallery"
+msgstr "معرض الصور"
+
+#: includes/widgets/divider.php:216
+#: includes/widgets/star-rating.php:228
+msgid "Gap"
+msgstr "فراغ"
+
+#: includes/controls/box-shadow.php:110
+#: includes/controls/text-shadow.php:103
+#: includes/elements/section.php:898
+#: includes/widgets/accordion.php:259
+#: includes/widgets/accordion.php:344
+#: includes/widgets/accordion.php:407
+#: includes/widgets/divider.php:147
+#: includes/widgets/icon-box.php:532
+#: includes/widgets/icon-box.php:566
+#: includes/widgets/icon-list.php:353
+#: includes/widgets/icon-list.php:382
+#: includes/widgets/image-box.php:453
+#: includes/widgets/image-box.php:487
+#: includes/widgets/image-carousel.php:419
+#: includes/widgets/image-carousel.php:481
+#: includes/widgets/progress.php:178
+#: includes/widgets/progress.php:236
+#: includes/widgets/social-icons.php:188
+#: includes/widgets/social-icons.php:320
+#: includes/widgets/star-rating.php:291
+#: includes/widgets/tabs.php:246
+#: includes/widgets/tabs.php:294
+#: includes/widgets/toggle.php:279
+#: includes/widgets/toggle.php:364
+#: includes/widgets/toggle.php:427
+#: includes/widgets/video.php:613
+msgid "Color"
+msgstr "لون"
+
+#: includes/widgets/divider.php:127
+#: includes/widgets/icon-list.php:282
+msgid "Weight"
+msgstr "العرض"
+
+#: includes/widgets/spacer.php:42
+#: includes/widgets/spacer.php:101
+msgid "Spacer"
+msgstr "مساحة"
+
+#: includes/widgets/divider.php:43
+#: includes/widgets/divider.php:102
+#: includes/widgets/icon-list.php:246
+msgid "Divider"
+msgstr "الفاصل"
+
+#: includes/widgets/counter.php:204
+msgid "Number"
+msgstr "رقم"
+
+#: includes/widgets/counter.php:185
+#: includes/widgets/counter.php:186
+msgid "Cool Number"
+msgstr "الرقم"
+
+#: includes/widgets/counter.php:137
+msgid "Plus"
+msgstr "زائد"
+
+#: includes/widgets/counter.php:134
+msgid "Number Suffix"
+msgstr "لاحقة الرقم"
+
+#: includes/widgets/counter.php:124
+msgid "Number Prefix"
+msgstr "سابقة الرقم"
+
+#: includes/widgets/counter.php:115
+msgid "Ending Number"
+msgstr "رقم النهاية"
+
+#: includes/widgets/counter.php:106
+msgid "Starting Number"
+msgstr "رقم البداية"
+
+#: includes/widgets/counter.php:42
+#: includes/widgets/counter.php:99
+msgid "Counter"
+msgstr "عداد"
+
+#: includes/widgets/audio.php:144
+#: includes/widgets/image-carousel.php:279
+#: includes/widgets/video.php:277
+msgid "Autoplay"
+msgstr "تشغيل تلقائي"
+
+#: includes/widgets/image-carousel.php:143
+msgid "Slides to Scroll"
+msgstr "سلايدر عند عمل سكرول"
+
+#: includes/widgets/image-carousel.php:131
+msgid "Slides to Show"
+msgstr "الشرائح المراد عرضها"
+
+#: includes/controls/media.php:151
+#: includes/widgets/image-box.php:92
+#: includes/widgets/image.php:108
+#: includes/widgets/testimonial.php:105
+#: includes/widgets/video.php:493
+msgid "Choose Image"
+msgstr "اختر صورة"
+
+#: includes/widgets/image-box.php:214
+#: includes/widgets/image-carousel.php:497
+#: includes/widgets/image.php:42
+#: includes/widgets/image.php:101
+#: includes/widgets/image.php:244
+#: includes/widgets/testimonial.php:255
+msgid "Image"
+msgstr "صورة"
+
+#: includes/elements/column.php:465
+#: includes/elements/section.php:732
+#: includes/widgets/common.php:262
+msgid "Border"
+msgstr "الاطار"
+
+#: core/dynamic-tags/tag.php:100
+#: includes/widgets/button.php:215
+msgid "After"
+msgstr "بعد"
+
+#: core/dynamic-tags/tag.php:93
+#: includes/widgets/button.php:214
+msgid "Before"
+msgstr "قبل"
+
+#: includes/widgets/button.php:210
+#: includes/widgets/icon-box.php:181
+msgid "Icon Position"
+msgstr "موضع الأيقونة"
+
+#: includes/widgets/accordion.php:147
+#: includes/widgets/accordion.php:312
+#: includes/widgets/button.php:200
+#: includes/widgets/icon-box.php:92
+#: includes/widgets/icon-box.php:238
+#: includes/widgets/icon-list.php:132
+#: includes/widgets/icon-list.php:374
+#: includes/widgets/icon.php:42
+#: includes/widgets/icon.php:101
+#: includes/widgets/icon.php:108
+#: includes/widgets/icon.php:193
+#: includes/widgets/social-icons.php:94
+#: includes/widgets/social-icons.php:312
+#: includes/widgets/star-rating.php:116
+#: includes/widgets/toggle.php:144
+#: includes/widgets/toggle.php:332
+msgid "Icon"
+msgstr "ايقونة"
+
+#: includes/widgets/button.php:189
+#: includes/widgets/heading.php:136
+#: includes/widgets/icon-box.php:371
+#: includes/widgets/icon-list.php:412
+#: includes/widgets/icon.php:297
+#: includes/widgets/image-carousel.php:399
+#: includes/widgets/image-carousel.php:461
+#: includes/widgets/social-icons.php:362
+#: includes/widgets/star-rating.php:256
+#: includes/widgets/text-editor.php:306
+#: includes/widgets/video.php:628
+msgid "Size"
+msgstr "حجم"
+
+#: includes/widgets/button.php:177
+#: includes/widgets/heading.php:189
+#: includes/widgets/icon-box.php:478
+#: includes/widgets/image-box.php:399
+#: includes/widgets/image-carousel.php:625
+#: includes/widgets/image-gallery.php:309
+#: includes/widgets/image.php:480
+#: includes/widgets/star-rating.php:177
+#: includes/widgets/text-editor.php:158
+msgid "Justified"
+msgstr "معتدل"
+
+#: includes/widgets/accordion.php:323
+#: includes/widgets/button.php:161
+#: includes/widgets/divider.php:190
+#: includes/widgets/heading.php:173
+#: includes/widgets/icon-box.php:462
+#: includes/widgets/icon-list.php:223
+#: includes/widgets/icon-list.php:432
+#: includes/widgets/icon.php:165
+#: includes/widgets/image-box.php:383
+#: includes/widgets/image-carousel.php:609
+#: includes/widgets/image-gallery.php:293
+#: includes/widgets/image.php:131
+#: includes/widgets/image.php:464
+#: includes/widgets/social-icons.php:275
+#: includes/widgets/star-rating.php:161
+#: includes/widgets/testimonial.php:182
+#: includes/widgets/text-editor.php:142
+#: includes/widgets/toggle.php:343
+msgid "Alignment"
+msgstr "تنظيم"
+
+#: includes/widgets/heading.php:145
+msgid "XXL"
+msgstr "XXL"
+
+#: includes/widgets/heading.php:144
+msgid "XL"
+msgstr "XL"
+
+#: includes/widgets/button.php:92
+#: includes/widgets/heading.php:143
+msgid "Large"
+msgstr "كبير"
+
+#: includes/widgets/button.php:91
+#: includes/widgets/heading.php:142
+msgid "Medium"
+msgstr "متوسط"
+
+#: includes/widgets/button.php:90
+#: includes/widgets/heading.php:141
+msgid "Small"
+msgstr "صغير"
+
+#: includes/widgets/button.php:43
+#: includes/widgets/button.php:109
+#: includes/widgets/button.php:271
+msgid "Button"
+msgstr "زر"
+
+#: core/common/modules/finder/categories/edit.php:30
+#: includes/controls/popover-toggle.php:69
+msgid "Edit"
+msgstr "تحرير"
+
+#: includes/elements/column.php:884
+#: includes/elements/section.php:1319
+#: includes/widgets/common.php:747
+msgid "Hide On Mobile"
+msgstr "الاخفاء على الهاتف"
+
+#: includes/elements/column.php:871
+#: includes/elements/section.php:1306
+#: includes/widgets/common.php:734
+msgid "Hide On Tablet"
+msgstr "الاخفاء على الكمبيوتر اللوحي"
+
+#: includes/elements/column.php:858
+#: includes/elements/section.php:1293
+#: includes/widgets/common.php:721
+msgid "Hide On Desktop"
+msgstr "الاخفاء على الجهاز المكتبي"
+
+#: includes/elements/column.php:490
+#: includes/elements/column.php:527
+#: includes/elements/section.php:756
+#: includes/elements/section.php:792
+#: includes/widgets/button.php:399
+#: includes/widgets/common.php:287
+#: includes/widgets/common.php:324
+#: includes/widgets/icon-box.php:437
+#: includes/widgets/icon.php:370
+#: includes/widgets/image-carousel.php:584
+#: includes/widgets/image-gallery.php:255
+#: includes/widgets/image.php:428
+#: includes/widgets/progress.php:215
+#: includes/widgets/social-icons.php:433
+#: includes/widgets/testimonial.php:293
+#: includes/widgets/text-editor.php:348
+msgid "Border Radius"
+msgstr "الحواف الدائرية"
+
+#: includes/compatibility.php:162
+#: includes/widgets/alert.php:235
+#: includes/widgets/icon-box.php:557
+#: includes/widgets/image-box.php:478
+#: includes/widgets/image-carousel.php:239
+msgid "Description"
+msgstr "وصف"
+
+#: core/base/document.php:453
+#: includes/elements/column.php:119
+#: includes/elements/section.php:236
+#: includes/widgets/accordion.php:240
+#: includes/widgets/alert.php:205
+#: includes/widgets/common.php:66
+#: includes/widgets/counter.php:182
+#: includes/widgets/counter.php:238
+#: includes/widgets/heading.php:101
+#: includes/widgets/heading.php:108
+#: includes/widgets/heading.php:214
+#: includes/widgets/icon-box.php:506
+#: includes/widgets/image-box.php:427
+#: includes/widgets/image-carousel.php:237
+#: includes/widgets/progress.php:92
+#: includes/widgets/star-rating.php:152
+#: includes/widgets/star-rating.php:193
+#: includes/widgets/tabs.php:237
+#: includes/widgets/testimonial.php:140
+#: includes/widgets/testimonial.php:344
+#: includes/widgets/toggle.php:260
+msgid "Title"
+msgstr "عنوان"
+
+#: core/settings/general/model.php:154
+#: includes/widgets/alert.php:164
+#: includes/widgets/button.php:317
+#: includes/widgets/button.php:353
+#: includes/widgets/image.php:510
+#: includes/widgets/progress.php:193
+#: includes/widgets/tabs.php:225
+#: includes/widgets/video.php:681
+msgid "Background Color"
+msgstr "لون الخلفية"
+
+#: includes/elements/section.php:1297
+#: includes/elements/section.php:1310
+#: includes/elements/section.php:1323
+#: includes/settings/settings.php:598
+#: includes/widgets/alert.php:137
+#: includes/widgets/audio.php:154
+#: includes/widgets/audio.php:165
+#: includes/widgets/audio.php:176
+#: includes/widgets/audio.php:187
+#: includes/widgets/audio.php:201
+#: includes/widgets/audio.php:212
+#: includes/widgets/audio.php:223
+#: includes/widgets/audio.php:234
+#: includes/widgets/counter.php:159
+#: includes/widgets/image-gallery.php:282
+#: includes/widgets/progress.php:138
+#: includes/widgets/video.php:306
+#: includes/widgets/video.php:320
+#: includes/widgets/video.php:346
+#: includes/widgets/video.php:401
+#: includes/widgets/video.php:415
+#: includes/widgets/video.php:429
+#: includes/widgets/video.php:443
+#: includes/widgets/video.php:485
+msgid "Hide"
+msgstr "اخفاء"
+
+#: includes/elements/section.php:1298
+#: includes/elements/section.php:1311
+#: includes/elements/section.php:1324
+#: includes/settings/settings.php:599
+#: includes/widgets/alert.php:136
+#: includes/widgets/audio.php:155
+#: includes/widgets/audio.php:166
+#: includes/widgets/audio.php:177
+#: includes/widgets/audio.php:188
+#: includes/widgets/audio.php:202
+#: includes/widgets/audio.php:213
+#: includes/widgets/audio.php:224
+#: includes/widgets/audio.php:235
+#: includes/widgets/counter.php:158
+#: includes/widgets/image-gallery.php:281
+#: includes/widgets/progress.php:137
+#: includes/widgets/video.php:307
+#: includes/widgets/video.php:321
+#: includes/widgets/video.php:347
+#: includes/widgets/video.php:402
+#: includes/widgets/video.php:416
+#: includes/widgets/video.php:430
+#: includes/widgets/video.php:444
+#: includes/widgets/video.php:486
+msgid "Show"
+msgstr "اظهار"
+
+#: includes/widgets/alert.php:132
+msgid "Dismiss Button"
+msgstr "تجاهل الزر"
+
+#: includes/widgets/alert.php:123
+msgid "I am a description. Click the edit button to change this text."
+msgstr "هنا الوصف. اضغط على زر التعديل لتغير هذا النص"
+
+#: includes/widgets/accordion.php:95
+#: includes/widgets/alert.php:109
+#: includes/widgets/icon-box.php:138
+#: includes/widgets/image-box.php:115
+#: includes/widgets/tabs.php:95
+#: includes/widgets/toggle.php:95
+msgid "Title & Description"
+msgstr "العنوان والوصف"
+
+#: includes/widgets/alert.php:100
+#: includes/widgets/button.php:124
+#: includes/widgets/progress.php:114
+msgid "Danger"
+msgstr "خطر"
+
+#: includes/widgets/alert.php:99
+#: includes/widgets/button.php:123
+#: includes/widgets/progress.php:113
+msgid "Warning"
+msgstr "تحذير"
+
+#: includes/widgets/alert.php:98
+#: includes/widgets/button.php:122
+#: includes/widgets/progress.php:112
+msgid "Success"
+msgstr "ناجح"
+
+#: includes/widgets/alert.php:97
+#: includes/widgets/button.php:121
+#: includes/widgets/progress.php:111
+msgid "Info"
+msgstr "معلومات"
+
+#: includes/editor-templates/templates.php:113
+#: includes/elements/section.php:887
+#: includes/template-library/sources/local.php:1550
+#: includes/widgets/alert.php:93
+#: includes/widgets/button.php:116
+#: includes/widgets/progress.php:106
+#: includes/widgets/tabs.php:146
+msgid "Type"
+msgstr "نوع"
+
+#: includes/widgets/alert.php:43
+#: includes/widgets/alert.php:86
+#: includes/widgets/alert.php:156
+msgid "Alert"
+msgstr "تنبيه"
+
+#: includes/widgets/accordion.php:274
+#: includes/widgets/accordion.php:356
+#: includes/widgets/tabs.php:261
+#: includes/widgets/toggle.php:294
+#: includes/widgets/toggle.php:376
+msgid "Active Color"
+msgstr "اللون النشط"
+
+#: includes/widgets/accordion.php:225
+#: includes/widgets/alert.php:175
+#: includes/widgets/button.php:364
+#: includes/widgets/social-icons.php:486
+#: includes/widgets/tabs.php:214
+#: includes/widgets/toggle.php:221
+msgid "Border Color"
+msgstr "لون الاطار"
+
+#: includes/widgets/accordion.php:138
+#: includes/widgets/alert.php:145
+#: includes/widgets/audio.php:251
+#: includes/widgets/button.php:243
+#: includes/widgets/counter.php:193
+#: includes/widgets/divider.php:236
+#: includes/widgets/google-maps.php:163
+#: includes/widgets/heading.php:203
+#: includes/widgets/icon-box.php:105
+#: includes/widgets/icon.php:121
+#: includes/widgets/image-box.php:203
+#: includes/widgets/image-carousel.php:247
+#: includes/widgets/image-gallery.php:186
+#: includes/widgets/image.php:233
+#: includes/widgets/progress.php:159
+#: includes/widgets/social-icons.php:301
+#: includes/widgets/spacer.php:128
+#: includes/widgets/tabs.php:137
+#: includes/widgets/testimonial.php:207
+#: includes/widgets/text-editor.php:254
+#: includes/widgets/toggle.php:135
+#: includes/widgets/video.php:465
+msgid "View"
+msgstr "عرض"
+
+#: includes/widgets/accordion.php:110
+msgid "Accordion Content"
+msgstr "محتوى أكورديون"
+
+#: includes/widgets/accordion.php:97
+msgid "Accordion Title"
+msgstr "عنوان الأكورديون"
+
+#: includes/widgets/accordion.php:127
+msgid "Accordion #2"
+msgstr "أكورديون #2"
+
+#: includes/widgets/accordion.php:123
+msgid "Accordion #1"
+msgstr "أكورديون #1"
+
+#: includes/widgets/accordion.php:118
+msgid "Accordion Items"
+msgstr "أكورديون #1"
+
+#: includes/widgets/accordion.php:43
+#: includes/widgets/accordion.php:86
+#: includes/widgets/accordion.php:198
+msgid "Accordion"
+msgstr "أكورديون"
+
+#: includes/tracker.php:294
+msgid "Sure! I'd love to help"
+msgstr "طبعاً! أحب تقديم المساعدة"
+
+#: includes/tracker.php:271
+msgid "Love using Elementor? Become a super contributor by opting in to our anonymous plugin data collection and to our updates. We guarantee no sensitive data is collected."
+msgstr "هل تحب Elementor ؟ كُن مساعداً لنا عبر السماح لنا بجمع البيانات بغرض التطوير ونحن نعدك أننا لن نأخذ معلومات حساسة."
+
+#: includes/settings/system-info/main.php:196
+msgid "You don't have permissions to download this file"
+msgstr "ليست لديك صلاحيات كافية لتنزيل هذا الملف"
+
+#: includes/settings/system-info/main.php:178
+msgid "Download System Info"
+msgstr "نزل معلومات النظام"
+
+#: includes/settings/system-info/main.php:157
+msgid "You can copy the below info as simple text with Ctrl+C / Ctrl+V:"
+msgstr "يمكنك نسخ المعلومات أدناه كنص بسيط باستخدام Ctrl+C / Ctrl+V:"
+
+#: includes/settings/system-info/main.php:155
+msgid "Copy & Paste Info"
+msgstr "نسخ ولصق المعلومات"
+
+#: core/common/modules/finder/categories/general.php:50
+#: includes/settings/system-info/main.php:153
+#: includes/settings/system-info/main.php:318
+msgid "System Info"
+msgstr "معلومات النظام"
+
+#: includes/editor-templates/templates.php:109
+#: includes/widgets/testimonial.php:128
+#: includes/widgets/testimonial.php:308
+msgid "Name"
+msgstr "اسم"
+
+#: core/common/modules/finder/categories/site.php:62
+msgid "Themes"
+msgstr "قوالب"
+
+#: core/editor/editor.php:620
+#: includes/controls/switcher.php:74
+#: includes/managers/icons.php:335
+#: includes/widgets/audio.php:127
+#: includes/widgets/image-carousel.php:163
+#: includes/widgets/image-carousel.php:221
+#: includes/widgets/image-carousel.php:270
+#: includes/widgets/image-carousel.php:284
+#: includes/widgets/image-carousel.php:308
+#: includes/widgets/image-gallery.php:162
+#: includes/widgets/image.php:222
+msgid "No"
+msgstr "لا"
+
+#: core/editor/editor.php:633
+#: includes/controls/switcher.php:75
+#: includes/managers/icons.php:336
+#: includes/widgets/audio.php:126
+#: includes/widgets/image-carousel.php:164
+#: includes/widgets/image-carousel.php:220
+#: includes/widgets/image-carousel.php:269
+#: includes/widgets/image-carousel.php:283
+#: includes/widgets/image-carousel.php:307
+#: includes/widgets/image-gallery.php:161
+#: includes/widgets/image.php:221
+msgid "Yes"
+msgstr "نعم"
+
+#: includes/settings/settings.php:442
+msgid "Usage Data Tracking"
+msgstr "استخدام تتبع البيانات"
+
+#: core/role-manager/role-manager.php:62
+msgid "Exclude Roles"
+msgstr "استثناء الادوار"
+
+#: includes/settings/settings.php:412
+msgid "Post Types"
+msgstr "أنواع المقالات"
+
+#: core/base/document.php:445
+#: core/common/modules/finder/categories/settings.php:46
+msgid "General Settings"
+msgstr "الاعدادات العامة"
+
+#: includes/schemes/typography.php:96
+msgid "Accent Text"
+msgstr "لهجة النص"
+
+#: includes/schemes/typography.php:95
+msgid "Body Text"
+msgstr "نص الجسم"
+
+#: includes/schemes/typography.php:94
+msgid "Secondary Headline"
+msgstr "العنوان الثانوي"
+
+#: includes/schemes/typography.php:93
+msgid "Primary Headline"
+msgstr "العنوان الابتدائي"
+
+#: includes/schemes/color.php:96
+msgid "Accent"
+msgstr "أملاء"
+
+#: includes/schemes/color.php:95
+#: includes/widgets/button.php:133
+#: includes/widgets/icon-list.php:118
+#: includes/widgets/icon-list.php:460
+msgid "Text"
+msgstr "أملاء"
+
+#: includes/schemes/color.php:94
+msgid "Secondary"
+msgstr "فرعي"
+
+#: includes/schemes/color.php:93
+msgid "Primary"
+msgstr "أساسي"
+
+#: includes/managers/elements.php:313
+msgid "WordPress"
+msgstr "ووردبريس"
+
+#: includes/widgets/image-carousel.php:172
+#: includes/widgets/image-carousel.php:360
+msgid "Navigation"
+msgstr "القائمة العلوية"
+
+#: includes/managers/elements.php:272
+msgid "Basic"
+msgstr "أساسي"
+
+#: includes/elements/section.php:1275
+msgid "Visibility"
+msgstr "الظهور"
+
+#: includes/widgets/video.php:734
+msgid "Content Position"
+msgstr "موضع المحتوى"
+
+#: includes/elements/column.php:162
+#: includes/elements/section.php:408
+#: includes/elements/section.php:427
+#: includes/widgets/icon-box.php:495
+#: includes/widgets/image-box.php:416
+msgid "Middle"
+msgstr "وسط"
+
+#: includes/elements/section.php:406
+msgid "Stretch"
+msgstr "متمدد"
+
+#: includes/elements/section.php:402
+msgid "Column Position"
+msgstr "موضع العمود"
+
+#: includes/elements/section.php:329
+#: includes/elements/section.php:378
+msgid "Minimum Height"
+msgstr "أقل ارتفاع"
+
+#: includes/elements/section.php:319
+#: includes/elements/section.php:368
+msgid "Min Height"
+msgstr "أقل ارتفاع"
+
+#: includes/elements/section.php:318
+msgid "Fit To Screen"
+msgstr "متناسب مع مقاس الشاشة"
+
+#: includes/controls/image-dimensions.php:102
+#: includes/elements/section.php:313
+#: includes/elements/section.php:363
+#: includes/elements/section.php:941
+#: includes/widgets/google-maps.php:146
+#: includes/widgets/icon-list.php:324
+#: includes/widgets/progress.php:204
+msgid "Height"
+msgstr "ارتفاع"
+
+#: includes/elements/section.php:304
+msgid "Wide"
+msgstr "عريض"
+
+#: includes/elements/section.php:302
+msgid "Narrow"
+msgstr "ضيق"
+
+#: includes/elements/section.php:301
+msgid "No Gap"
+msgstr "بدون فجوة"
+
+#: includes/elements/section.php:296
+#: includes/widgets/text-editor.php:212
+msgid "Columns Gap"
+msgstr "الفجوة بين الأعمدة"
+
+#: core/settings/general/model.php:100
+#: includes/elements/section.php:260
+#: includes/elements/section.php:274
+#: includes/settings/settings.php:470
+#: includes/widgets/video.php:715
+msgid "Content Width"
+msgstr "عرض المحتوى"
+
+#: includes/elements/section.php:265
+#: includes/widgets/common.php:381
+msgid "Full Width"
+msgstr "عرض كامل"
+
+#: includes/elements/section.php:264
+msgid "Boxed"
+msgstr "معلّب (صندوق)"
+
+#: includes/controls/image-dimensions.php:96
+#: includes/elements/section.php:912
+#: includes/widgets/common.php:376
+#: includes/widgets/divider.php:163
+#: includes/widgets/icon-list.php:306
+#: includes/widgets/image-box.php:245
+#: includes/widgets/image.php:252
+msgid "Width"
+msgstr "العرض"
+
+#: includes/elements/column.php:111
+#: includes/elements/section.php:228
+#: includes/managers/controls.php:303
+#: includes/widgets/icon-list.php:92
+msgid "Layout"
+msgstr "النسق"
+
+#: core/editor/editor.php:696
+msgid "Add New Column"
+msgstr "اضافة عمود جديد"
+
+#: includes/elements/column.php:128
+msgid "Column Width"
+msgstr "عرض العمود"
+
+#: includes/elements/column.php:750
+#: includes/elements/section.php:1173
+#: includes/widgets/common.php:129
+msgid "CSS Classes"
+msgstr "كلاس css"
+
+#: core/document-types/post.php:163
+#: includes/elements/column.php:709
+#: includes/elements/section.php:1132
+#: includes/widgets/accordion.php:298
+#: includes/widgets/accordion.php:431
+#: includes/widgets/button.php:419
+#: includes/widgets/common.php:87
+#: includes/widgets/icon-box.php:388
+#: includes/widgets/icon.php:314
+#: includes/widgets/social-icons.php:379
+#: includes/widgets/toggle.php:318
+#: includes/widgets/toggle.php:451
+msgid "Padding"
+msgstr "الهامش الداخلي"
+
+#: includes/elements/column.php:697
+#: includes/elements/section.php:1113
+#: includes/widgets/common.php:75
+msgid "Margin"
+msgstr "الهامش"
+
+#: includes/elements/column.php:188
+#: includes/elements/column.php:668
+#: includes/elements/section.php:1085
+#: includes/widgets/button.php:169
+#: includes/widgets/common.php:444
+#: includes/widgets/divider.php:198
+#: includes/widgets/heading.php:181
+#: includes/widgets/icon-box.php:470
+#: includes/widgets/icon-list.php:231
+#: includes/widgets/icon-list.php:440
+#: includes/widgets/icon.php:173
+#: includes/widgets/image-box.php:391
+#: includes/widgets/image-carousel.php:514
+#: includes/widgets/image-carousel.php:617
+#: includes/widgets/image-gallery.php:301
+#: includes/widgets/image.php:139
+#: includes/widgets/image.php:472
+#: includes/widgets/social-icons.php:283
+#: includes/widgets/star-rating.php:169
+#: includes/widgets/testimonial.php:191
+#: includes/widgets/text-editor.php:150
+#: includes/widgets/video.php:738
+msgid "Center"
+msgstr "توسيط"
+
+#: includes/elements/column.php:660
+#: includes/elements/section.php:1077
+msgid "Text Align"
+msgstr "محاذاة النص"
+
+#: includes/elements/column.php:648
+#: includes/elements/section.php:1065
+msgid "Link Hover Color"
+msgstr "لون الرابط عند التمرير"
+
+#: includes/elements/column.php:636
+#: includes/elements/section.php:1053
+msgid "Link Color"
+msgstr "لون الرابط"
+
+#: includes/elements/column.php:611
+#: includes/elements/section.php:1028
+msgid "Heading Color"
+msgstr "لون الترويسة"
+
+#: includes/elements/column.php:624
+#: includes/elements/section.php:1041
+#: includes/widgets/alert.php:213
+#: includes/widgets/alert.php:243
+#: includes/widgets/button.php:305
+#: includes/widgets/button.php:341
+#: includes/widgets/counter.php:212
+#: includes/widgets/counter.php:246
+#: includes/widgets/heading.php:222
+#: includes/widgets/icon-list.php:468
+#: includes/widgets/image-carousel.php:639
+#: includes/widgets/image-gallery.php:326
+#: includes/widgets/image.php:494
+#: includes/widgets/progress.php:268
+#: includes/widgets/star-rating.php:204
+#: includes/widgets/testimonial.php:227
+#: includes/widgets/testimonial.php:316
+#: includes/widgets/testimonial.php:352
+#: includes/widgets/text-editor.php:171
+msgid "Text Color"
+msgstr "لون النص"
+
+#: includes/elements/column.php:591
+#: includes/elements/section.php:1009
+#: includes/schemes/typography.php:64
+msgid "Typography"
+msgstr "الخط"
+
+#: modules/history/module.php:55
+msgid "Removed"
+msgstr "إزاله"
+
+#: includes/elements/column.php:58
+msgid "Column"
+msgstr "عمود"
+
+#: core/editor/editor.php:625
+#: includes/elements/section.php:78
+#: modules/library/documents/section.php:44
+msgid "Section"
+msgstr "قسم"
+
+#: includes/controls/structure.php:47
+#: includes/elements/section.php:478
+msgid "Structure"
+msgstr "هيكلة"
+
+#: includes/elements/column.php:841
+#: includes/elements/section.php:1245
+#: includes/managers/controls.php:302
+#: includes/widgets/common.php:704
+msgid "Responsive"
+msgstr "متجاوب"
+
+#: core/common/modules/finder/categories/settings.php:56
+#: core/dynamic-tags/tag.php:86
+#: includes/elements/column.php:688
+#: includes/elements/section.php:1105
+#: includes/managers/controls.php:301
+#: includes/settings/settings.php:565
+#: includes/widgets/common.php:58
+msgid "Advanced"
+msgstr "متقدم"
+
+#: core/common/modules/finder/categories/settings.php:51
+#: core/editor/editor.php:579
+#: core/settings/general/model.php:90
+#: includes/managers/controls.php:300
+#: includes/settings/settings.php:456
+#: includes/widgets/divider.php:109
+#: includes/widgets/icon-list.php:260
+msgid "Style"
+msgstr "تنسيق"
+
+#: includes/managers/controls.php:299
+#: includes/widgets/accordion.php:108
+#: includes/widgets/accordion.php:388
+#: includes/widgets/alert.php:120
+#: includes/widgets/icon-box.php:454
+#: includes/widgets/image-box.php:129
+#: includes/widgets/image-box.php:375
+#: includes/widgets/tabs.php:106
+#: includes/widgets/tabs.php:285
+#: includes/widgets/testimonial.php:92
+#: includes/widgets/testimonial.php:219
+#: includes/widgets/toggle.php:105
+#: includes/widgets/toggle.php:408
+msgid "Content"
+msgstr "محتوى"
+
+#: includes/widgets/image-gallery.php:132
+#: includes/widgets/text-editor.php:199
+msgid "Columns"
+msgstr "أعمدة"
+
+#: core/editor/editor.php:574
+msgid "About Elementor"
+msgstr "عن Elementor"
+
+#: modules/history/revisions-manager.php:378
+msgid "Revision History"
+msgstr "مراجعة التاريخ"
+
+#: core/editor/editor.php:729
+msgid "Soon"
+msgstr "قريباً"
+
+#: includes/schemes/color.php:64
+msgid "Colors"
+msgstr "الألوان"
+
+#: core/editor/editor.php:667
+msgid "Please note: All unsaved changes will be lost."
+msgstr "رجاء انتبه: كل التغييرات غير المحفوظة سيتم فقدانها."
+
+#: core/editor/editor.php:671
+msgid "Saved"
+msgstr "تم الحفظ"
+
+#: core/editor/editor.php:659
+msgid "Go Back"
+msgstr "الرجوع للخلف"
+
+#: core/editor/editor.php:660
+msgid "Take Over"
+msgstr "استولى"
+
+#: core/admin/admin.php:793
+#: core/editor/editor.php:560
+msgid "Cancel"
+msgstr "الغاء"
+
+#. translators: %s: User name.
+#: core/editor/editor.php:658
+msgid "%s has taken over and is currently editing. Do you want to take over this page editing?"
+msgstr "%s قد استولى على الصفحة وحالياً يعدل عليها . هل تريد الاستيلاء على تعديل الصفحة ؟"
+
+#. translators: %s: Template type.
+#: core/editor/editor.php:664
+msgid "Are you sure you want to remove this %s?"
+msgstr "هل أنت متأكد من رغبتك في حذف %s ؟"
+
+#: includes/schemes/color.php:145
+msgid "More Palettes"
+msgstr "المزيد من اللوحات"
+
+#: includes/schemes/color.php:284
+msgid "Color Palette"
+msgstr "علبة الألوان"
+
+#: includes/controls/image-dimensions.php:104
+#: includes/editor-templates/panel.php:163
+#: includes/schemes/base.php:172
+#: modules/history/views/revisions-panel-template.php:18
+msgid "Apply"
+msgstr "تطبيق"
+
+#: includes/schemes/base.php:168
+#: modules/history/views/revisions-panel-template.php:13
+msgid "Discard"
+msgstr "تجاهل"
+
+#: includes/schemes/base.php:162
+msgid "Reset"
+msgstr "إعادة تعيين"
+
+#: includes/editor-templates/templates.php:169
+msgid "Preview"
+msgstr "معاينة"
+
+#: core/editor/editor.php:670
+#: includes/editor-templates/hotkeys.php:75
+#: includes/editor-templates/templates.php:18
+#: includes/editor-templates/templates.php:19
+#: includes/editor-templates/templates.php:211
+#: includes/editor-templates/templates.php:222
+msgid "Save"
+msgstr "حفظ"
+
+#: core/admin/admin.php:573
+msgid "Help"
+msgstr "مساعدة"
+
+#: includes/editor-templates/panel.php:83
+#: includes/elements/section.php:1253
+msgid "Tablet"
+msgstr "تابلت"
+
+#: includes/editor-templates/panel.php:78
+msgid "Desktop"
+msgstr "سطح المكتب"
+
+#: includes/editor-templates/hotkeys.php:108
+#: includes/editor-templates/panel.php:70
+#: includes/editor-templates/panel.php:72
+msgid "Responsive Mode"
+msgstr "الوضع المتجاوب"
+
+#: core/editor/editor.php:582
+msgid "View Page"
+msgstr "عرض الصفحة"
+
+#: includes/editor-templates/panel.php:51
+#: includes/editor-templates/panel.php:52
+msgid "Widgets Panel"
+msgstr "لوحة الودجات"
+
+#: includes/editor-templates/panel.php:46
+#: includes/editor-templates/panel.php:47
+msgid "Menu"
+msgstr "قائمة"
+
+#: includes/editor-templates/panel-elements.php:37
+msgid "Search Widget..."
+msgstr "البحث في الودجات..."
+
+#: includes/editor-templates/global.php:25
+msgid "Add New Section"
+msgstr "اضافة قسم جديد"
+
+#: core/admin/admin.php:174
+#: includes/editor-templates/editor-wrapper.php:53
+#: includes/editor-templates/templates.php:50
+#: modules/gutenberg/module.php:115
+msgid "Loading"
+msgstr "جاري التحميل"
+
+#. Plugin Name of the plugin
+#: core/admin/admin.php:222
+#: core/admin/admin.php:425
+#: core/admin/admin.php:493
+#: core/documents-manager.php:351
+#: core/editor/editor.php:558
+#: core/upgrade/manager.php:34
+#: includes/editor-templates/editor-wrapper.php:33
+#: includes/plugin.php:655
+#: includes/settings/settings.php:74
+#: includes/settings/settings.php:75
+#: includes/settings/settings.php:634
+msgid "Elementor"
+msgstr "Elementor"
+
+#: includes/controls/structure.php:60
+msgid "More Structures"
+msgstr "المزيد من الهياكل"
+
+#: includes/controls/repeater.php:172
+msgid "Add Item"
+msgstr "اضافة عنصر"
+
+#: core/editor/editor.php:559
+#: includes/editor-templates/hotkeys.php:60
+#: includes/editor-templates/templates.php:182
+#: modules/history/views/revisions-panel-template.php:56
+msgid "Delete"
+msgstr "حذف"
+
+#: includes/controls/icon.php:872
+#: includes/controls/icon.php:873
+msgid "Select Icon"
+msgstr "اختر أيقونة"
+
+#: includes/maintenance-mode.php:226
+#: includes/widgets/common.php:383
+#: includes/widgets/image-carousel.php:538
+#: includes/widgets/image-gallery.php:209
+#: includes/widgets/social-icons.php:193
+#: includes/widgets/social-icons.php:325
+msgid "Custom"
+msgstr "مخصص"
+
+#: includes/controls/groups/typography.php:289
+msgctxt "Typography Control"
+msgid "Typography"
+msgstr "الخط"
+
+#: includes/controls/groups/typography.php:199
+msgctxt "Typography Control"
+msgid "Letter Spacing"
+msgstr "تباعد الأحرف"
+
+#: includes/controls/groups/typography.php:177
+msgctxt "Typography Control"
+msgid "Line-Height"
+msgstr "ارتفاع النص"
+
+#: includes/elements/column.php:252
+#: includes/elements/column.php:323
+#: includes/elements/column.php:372
+#: includes/elements/column.php:475
+#: includes/elements/column.php:810
+#: includes/elements/section.php:501
+#: includes/elements/section.php:589
+#: includes/elements/section.php:638
+#: includes/elements/section.php:742
+#: includes/elements/section.php:1213
+#: includes/widgets/button.php:298
+#: includes/widgets/common.php:167
+#: includes/widgets/common.php:208
+#: includes/widgets/common.php:272
+#: includes/widgets/google-maps.php:183
+#: includes/widgets/heading.php:258
+#: includes/widgets/icon-box.php:258
+#: includes/widgets/icon.php:203
+#: includes/widgets/image-box.php:282
+#: includes/widgets/image.php:323
+msgid "Normal"
+msgstr "عادي"
+
+#: includes/controls/groups/typography.php:152
+msgctxt "Typography Control"
+msgid "Style"
+msgstr "نمط"
+
+#: includes/controls/groups/typography.php:139
+msgctxt "Typography Control"
+msgid "Transform"
+msgstr "تحويل"
+
+#: includes/controls/groups/typography.php:132
+msgctxt "Typography Control"
+msgid "Weight"
+msgstr "السماكة"
+
+#: includes/controls/groups/typography.php:98
+msgctxt "Typography Control"
+msgid "Family"
+msgstr "عائلة الخط"
+
+#: includes/controls/groups/typography.php:105
+msgctxt "Typography Control"
+msgid "Size"
+msgstr "الحجم"
+
+#: includes/controls/groups/border.php:88
+msgctxt "Border Control"
+msgid "Color"
+msgstr "اللون"
+
+#: includes/controls/groups/border.php:76
+msgctxt "Border Control"
+msgid "Width"
+msgstr "العرض"
+
+#: includes/widgets/divider.php:115
+#: includes/widgets/icon-list.php:266
+msgid "Dashed"
+msgstr "متقطع"
+
+#: includes/widgets/divider.php:114
+#: includes/widgets/icon-list.php:265
+msgid "Dotted"
+msgstr "منقط"
+
+#: includes/widgets/divider.php:113
+#: includes/widgets/icon-list.php:264
+msgid "Double"
+msgstr "مزدوج"
+
+#: includes/widgets/divider.php:112
+#: includes/widgets/icon-list.php:263
+#: includes/widgets/star-rating.php:137
+msgid "Solid"
+msgstr "خط مستقيم"
+
+#: includes/controls/animation.php:149
+#: includes/controls/groups/border.php:63
+#: includes/controls/hover-animation.php:119
+#: includes/elements/section.php:864
+#: includes/widgets/image-carousel.php:179
+#: includes/widgets/image-carousel.php:192
+#: includes/widgets/image-carousel.php:236
+#: includes/widgets/image-gallery.php:148
+#: includes/widgets/image.php:159
+#: includes/widgets/image.php:190
+msgid "None"
+msgstr "بدون"
+
+#: includes/controls/groups/border.php:60
+msgctxt "Border Control"
+msgid "Border Type"
+msgstr "نوع الإطار"
+
+#: includes/controls/groups/background.php:592
+msgctxt "Background Control"
+msgid "Background Fallback"
+msgstr "الخلفية"
+
+#: includes/controls/groups/background.php:548
+msgctxt "Background Control"
+msgid "Video Link"
+msgstr "رابط الفيديو"
+
+#: includes/controls/groups/background.php:479
+msgctxt "Background Control"
+msgid "Cover"
+msgstr "غلاف"
+
+#: includes/controls/groups/background.php:478
+msgctxt "Background Control"
+msgid "Auto"
+msgstr "تلقائي"
+
+#: includes/controls/groups/background.php:472
+msgctxt "Background Control"
+msgid "Size"
+msgstr "الحجم"
+
+#: includes/controls/groups/background.php:460
+msgctxt "Background Control"
+msgid "Repeat-y"
+msgstr "تكرار عمودي (y)"
+
+#: includes/controls/groups/background.php:459
+msgctxt "Background Control"
+msgid "Repeat-x"
+msgstr "تكرار أفقي (x)"
+
+#: includes/controls/groups/background.php:457
+msgctxt "Background Control"
+msgid "No-repeat"
+msgstr "بدون تكرار"
+
+#: includes/controls/groups/background.php:451
+#: includes/controls/groups/background.php:458
+msgctxt "Background Control"
+msgid "Repeat"
+msgstr "تكرار"
+
+#: includes/controls/groups/background.php:427
+msgctxt "Background Control"
+msgid "Fixed"
+msgstr "ثابت"
+
+#: includes/controls/groups/background.php:426
+msgctxt "Background Control"
+msgid "Scroll"
+msgstr "تمرير"
+
+#: includes/controls/groups/background.php:421
+msgctxt "Background Control"
+msgid "Attachment"
+msgstr "المرفق"
+
+#: includes/controls/groups/background.php:230
+#: includes/controls/groups/background.php:275
+msgctxt "Background Control"
+msgid "Bottom Right"
+msgstr "أسفل يمين"
+
+#: includes/controls/groups/background.php:228
+#: includes/controls/groups/background.php:274
+msgctxt "Background Control"
+msgid "Bottom Center"
+msgstr "أسفل وسط"
+
+#: includes/controls/groups/background.php:229
+#: includes/controls/groups/background.php:273
+msgctxt "Background Control"
+msgid "Bottom Left"
+msgstr "أسفل يسار"
+
+#: includes/controls/groups/background.php:224
+#: includes/controls/groups/background.php:272
+msgctxt "Background Control"
+msgid "Center Right"
+msgstr "وسط يمين"
+
+#: includes/controls/groups/background.php:222
+#: includes/controls/groups/background.php:271
+msgctxt "Background Control"
+msgid "Center Center"
+msgstr "وسط وسط"
+
+#: includes/controls/groups/background.php:223
+#: includes/controls/groups/background.php:270
+msgctxt "Background Control"
+msgid "Center Left"
+msgstr "وسط يسار"
+
+#: includes/controls/groups/background.php:227
+#: includes/controls/groups/background.php:269
+msgctxt "Background Control"
+msgid "Top Right"
+msgstr "أعلى يمين"
+
+#: includes/controls/groups/background.php:225
+#: includes/controls/groups/background.php:268
+msgctxt "Background Control"
+msgid "Top Center"
+msgstr "أعلى وسط"
+
+#: includes/controls/groups/background.php:226
+#: includes/controls/groups/background.php:267
+msgctxt "Background Control"
+msgid "Top Left"
+msgstr "أعلى يسار"
+
+#: includes/controls/groups/background.php:219
+#: includes/controls/groups/background.php:261
+msgctxt "Background Control"
+msgid "Position"
+msgstr "الموضع"
+
+#: includes/controls/groups/background.php:250
+msgctxt "Background Control"
+msgid "Background Image"
+msgstr "صورة الخلفية"
+
+#: includes/controls/groups/background.php:244
+msgctxt "Background Control"
+msgid "Image"
+msgstr "صورة"
+
+#: includes/controls/groups/background.php:130
+msgctxt "Background Control"
+msgid "Background Color"
+msgstr "لون الخلفية"
+
+#: includes/controls/groups/background.php:127
+msgctxt "Background Control"
+msgid "Color"
+msgstr "اللون"
+
+#: includes/controls/groups/background.php:120
+msgctxt "Background Control"
+msgid "Background Type"
+msgstr "نوع الخلفية"
+
+#: includes/controls/groups/background.php:493
+msgctxt "Background Control"
+msgid "Width"
+msgstr "العرض"
+
+#: includes/controls/groups/background.php:100
+msgctxt "Background Control"
+msgid "Background Video"
+msgstr "فيديو الخلفية"
+
+#: includes/controls/groups/background.php:92
+msgctxt "Background Control"
+msgid "Classic"
+msgstr "كلاسيكي"
+
+#: includes/fonts.php:68
+msgid "Google"
+msgstr "Google"
+
+#: includes/fonts.php:67
+msgid "System"
+msgstr "نظام"
+
+#: includes/widgets/audio.php:103
+#: includes/widgets/button.php:146
+#: includes/widgets/heading.php:121
+#: includes/widgets/icon-box.php:168
+#: includes/widgets/icon-list.php:146
+#: includes/widgets/icon.php:153
+#: includes/widgets/image-box.php:145
+#: includes/widgets/image-carousel.php:188
+#: includes/widgets/image-carousel.php:202
+#: includes/widgets/image-gallery.php:142
+#: includes/widgets/image.php:186
+#: includes/widgets/image.php:200
+#: includes/widgets/social-icons.php:172
+#: includes/widgets/testimonial.php:152
+#: includes/widgets/video.php:125
+#: includes/widgets/video.php:146
+#: includes/widgets/video.php:167
+msgid "Link"
+msgstr "رابط"
+
+#: includes/controls/dimensions.php:91
+#: includes/elements/column.php:664
+#: includes/elements/section.php:1081
+#: includes/widgets/button.php:165
+#: includes/widgets/common.php:491
+#: includes/widgets/common.php:492
+#: includes/widgets/divider.php:194
+#: includes/widgets/heading.php:177
+#: includes/widgets/icon-box.php:186
+#: includes/widgets/icon-box.php:466
+#: includes/widgets/icon-list.php:227
+#: includes/widgets/icon-list.php:436
+#: includes/widgets/icon.php:169
+#: includes/widgets/image-box.php:163
+#: includes/widgets/image-box.php:387
+#: includes/widgets/image-carousel.php:348
+#: includes/widgets/image-carousel.php:613
+#: includes/widgets/image-gallery.php:297
+#: includes/widgets/image.php:135
+#: includes/widgets/image.php:468
+#: includes/widgets/social-icons.php:279
+#: includes/widgets/star-rating.php:165
+#: includes/widgets/testimonial.php:187
+#: includes/widgets/text-editor.php:146
+msgid "Left"
+msgstr "يسار"
+
+#: includes/controls/dimensions.php:90
+#: includes/elements/column.php:163
+#: includes/elements/section.php:409
+#: includes/elements/section.php:428
+#: includes/elements/section.php:873
+#: includes/widgets/common.php:612
+#: includes/widgets/icon-box.php:496
+#: includes/widgets/image-box.php:417
+msgid "Bottom"
+msgstr "أسفل"
+
+#: includes/controls/dimensions.php:89
+#: includes/elements/column.php:672
+#: includes/elements/section.php:1089
+#: includes/widgets/button.php:173
+#: includes/widgets/common.php:491
+#: includes/widgets/common.php:492
+#: includes/widgets/divider.php:202
+#: includes/widgets/heading.php:185
+#: includes/widgets/icon-box.php:194
+#: includes/widgets/icon-box.php:474
+#: includes/widgets/icon-list.php:235
+#: includes/widgets/icon-list.php:444
+#: includes/widgets/icon.php:177
+#: includes/widgets/image-box.php:171
+#: includes/widgets/image-box.php:395
+#: includes/widgets/image-carousel.php:349
+#: includes/widgets/image-carousel.php:621
+#: includes/widgets/image-gallery.php:305
+#: includes/widgets/image.php:143
+#: includes/widgets/image.php:476
+#: includes/widgets/social-icons.php:287
+#: includes/widgets/star-rating.php:173
+#: includes/widgets/testimonial.php:195
+#: includes/widgets/text-editor.php:154
+msgid "Right"
+msgstr "يمين"
+
+#: includes/controls/dimensions.php:88
+#: includes/elements/column.php:161
+#: includes/elements/section.php:407
+#: includes/elements/section.php:426
+#: includes/elements/section.php:872
+#: includes/widgets/common.php:608
+#: includes/widgets/icon-box.php:190
+#: includes/widgets/icon-box.php:494
+#: includes/widgets/image-box.php:167
+#: includes/widgets/image-box.php:415
+#: includes/widgets/testimonial.php:169
+#: includes/widgets/video.php:739
+msgid "Top"
+msgstr "أعلى"
+
+#: includes/base/widget-base.php:241
+#: includes/controls/animation.php:148
+#: includes/controls/font.php:67
+#: includes/controls/groups/typography.php:124
+#: includes/controls/groups/typography.php:143
+#: includes/controls/groups/typography.php:156
+#: includes/controls/groups/typography.php:168
+#: includes/editor-templates/panel.php:220
+#: includes/elements/column.php:160
+#: includes/elements/column.php:186
+#: includes/elements/column.php:224
+#: includes/elements/section.php:300
+#: includes/elements/section.php:317
+#: includes/elements/section.php:367
+#: includes/elements/section.php:425
+#: includes/elements/section.php:441
+#: includes/elements/section.php:462
+#: includes/widgets/button.php:120
+#: includes/widgets/common.php:380
+#: includes/widgets/common.php:482
+#: includes/widgets/heading.php:140
+#: includes/widgets/icon-box.php:108
+#: includes/widgets/icon-list.php:97
+#: includes/widgets/icon.php:124
+#: includes/widgets/image-carousel.php:134
+#: includes/widgets/image-carousel.php:147
+#: includes/widgets/image-carousel.php:219
+#: includes/widgets/image-carousel.php:537
+#: includes/widgets/image-gallery.php:160
+#: includes/widgets/image-gallery.php:176
+#: includes/widgets/image-gallery.php:208
+#: includes/widgets/image.php:220
+#: includes/widgets/progress.php:110
+#: includes/widgets/text-editor.php:194
+#: includes/widgets/text-editor.php:257
+#: modules/page-templates/module.php:259
+msgid "Default"
+msgstr "افتراضي"
+
+#: includes/controls/gallery.php:83
+msgid "Clear"
+msgstr "مسح"
+
+#: core/admin/admin.php:155
+#: core/admin/admin.php:163
+#: core/base/document.php:400
+#: includes/frontend.php:941
+#: modules/gutenberg/module.php:94
+#: modules/gutenberg/module.php:104
+msgid "Edit with Elementor"
+msgstr "التحرير بواسطة Elementor"
+
+#: modules/gutenberg/module.php:91
+msgid "&#8592; Back to WordPress Editor"
+msgstr "&#8592; العودة لمحرر ووردبريس"
+
+#. translators: %s: PHP version
+#: elementor.php:81
+msgid "Elementor requires PHP version %s+, plugin is currently NOT RUNNING."
+msgstr "إضافة Elementor تتطلب إصدار PHP %s أو أعلى، الإضافة لا تعمل حاليًا."
