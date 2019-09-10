@@ -213,7 +213,7 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 		. '&request[fields][screenshot_url]=0'
 		. '&request[fields][preview_url]=0'
 		. '&request[browse]=popular'
-		. '&request[per_page]=10'
+		. '&request[per_page]=250'
 	;
 	if ( 'theme' === $type ) {
 		foreach ( explode( '|', MP_UPDATE_THEME_TAGS ) as $tag ) {
