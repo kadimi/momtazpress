@@ -613,7 +613,7 @@ class Builder {
 		/**
 		 * Set files timestamps.
 		 */
-		echo shell_exec( '
+		shell_exec( '
 			find -print | while read filename; do
 				touch -t ' . $timestamp . ' "$filename"
 			done
