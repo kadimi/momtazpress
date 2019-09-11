@@ -1,5 +1,5 @@
-# Translation of Plugins - Mailchimp for WordPress - Stable (latest release) in Arabic
-# This file is distributed under the same license as the Plugins - Mailchimp for WordPress - Stable (latest release) package.
+# Translation of Plugins - MC4WP: Mailchimp for WordPress - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - MC4WP: Mailchimp for WordPress - Stable (latest release) package.
 msgid ""
 msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
@@ -8,26 +8,30 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "PO-Revision-Date: 2019-08-14 12:29:22+0000\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"Project-Id-Version: Plugins - Mailchimp for WordPress - Stable (latest release)\n"
+"Project-Id-Version: Plugins - MC4WP: Mailchimp for WordPress - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
-#: includes/forms/class-google-recaptcha.php:176
+#. Plugin Name of the plugin
+msgid "MC4WP: Mailchimp for WordPress"
+msgstr ""
+
+#: includes/forms/class-google-recaptcha.php:175
 msgid "Google reCAPTCHA Secret Key"
 msgstr ""
 
-#: includes/forms/class-google-recaptcha.php:170
+#: includes/forms/class-google-recaptcha.php:169
 msgid "Enter your Google reCAPTCHA keys here. You can <a href=\"%s\">retrieve your keys in the Google reCAPTCHA admin console</a> or read our help article on <a href=\"%s\">how to configure Google reCAPTCHA</a>."
 msgstr ""
 
-#: includes/forms/class-google-recaptcha.php:166
+#: includes/forms/class-google-recaptcha.php:165
 msgid "Google reCAPTCHA Site Key"
 msgstr ""
 
-#: includes/forms/class-google-recaptcha.php:160
+#: includes/forms/class-google-recaptcha.php:159
 msgid "Select \"yes\" to enable Google reCAPTCHA spam protection for this form."
 msgstr ""
 
-#: includes/forms/class-google-recaptcha.php:154
+#: includes/forms/class-google-recaptcha.php:153
 msgid "Enable Google reCaptcha"
 msgstr ""
 
@@ -81,7 +85,7 @@ msgstr ""
 msgid "After order notes"
 msgstr ""
 
-#: includes/views/general-settings.php:64
+#: includes/views/general-settings.php:60
 msgid "You defined your Mailchimp API key using the <code>MC4WP_API_KEY</code> constant."
 msgstr ""
 
@@ -124,16 +128,16 @@ msgstr ""
 msgid "Add-ons"
 msgstr ""
 
-#: includes/views/parts/lists-overview.php:98
+#: includes/views/parts/lists-overview.php:102
 msgid "Interests"
 msgstr ""
 
-#: includes/views/parts/lists-overview.php:92
+#: includes/views/parts/lists-overview.php:96
 msgid "Interest Categories"
 msgstr ""
 
 #: includes/views/parts/lists-overview.php:61
-#: includes/views/parts/lists-overview.php:97
+#: includes/views/parts/lists-overview.php:101
 msgid "Type"
 msgstr ""
 
@@ -659,10 +663,6 @@ msgstr ""
 msgid "Allow us to anonymously track how this plugin is used to help us make it better fit your needs."
 msgstr ""
 
-#: includes/views/general-settings.php:18
-msgid "General Settings"
-msgstr "إعدادات عامة"
-
 #: includes/integrations/views/integrations.php:16
 msgid "Configure this integration"
 msgstr ""
@@ -673,7 +673,7 @@ msgstr " الوصف"
 
 #: includes/integrations/views/integrations.php:55
 #: includes/views/parts/lists-overview.php:59
-#: includes/views/parts/lists-overview.php:96
+#: includes/views/parts/lists-overview.php:100
 msgid "Name"
 msgstr "الأسم"
 
@@ -949,12 +949,12 @@ msgstr "مستندات المساعدة"
 msgid "Please select at least one list."
 msgstr ""
 
-#: includes/views/general-settings.php:59
+#: includes/views/general-settings.php:55
 msgid "The API key for connecting with your Mailchimp account."
 msgstr ""
 
 #: includes/integrations/views/integrations.php:57
-#: includes/views/general-settings.php:38
+#: includes/views/general-settings.php:34
 msgid "Status"
 msgstr ""
 
@@ -1232,27 +1232,30 @@ msgstr ""
 msgid "Renew Mailchimp lists"
 msgstr ""
 
-#: includes/views/general-settings.php:60
+#: includes/views/general-settings.php:56
 msgid "Get your API key here."
 msgstr ""
 
-#: includes/views/general-settings.php:57
+#: includes/views/general-settings.php:53
 msgid "Your Mailchimp API key"
 msgstr ""
 
-#: includes/views/general-settings.php:55
+#: includes/views/general-settings.php:51
 msgid "API Key"
 msgstr "مفتاح الـ API"
 
-#: includes/views/general-settings.php:47
+#: includes/views/general-settings.php:43
 msgid "NOT CONNECTED"
 msgstr ""
 
-#: includes/views/general-settings.php:43
+#: includes/views/general-settings.php:39
 msgid "CONNECTED"
 msgstr ""
 
-#. Plugin Name of the plugin
+#: includes/views/general-settings.php:18
+msgid "API Settings"
+msgstr ""
+
 #: integrations/gravity-forms/class-field.php:40
 msgid "Mailchimp for WordPress"
 msgstr ""
@@ -1261,7 +1264,7 @@ msgstr ""
 msgid "Email Address"
 msgstr "عنوان البريد الإلكتروني"
 
-#: includes/forms/class-google-recaptcha.php:158
+#: includes/forms/class-google-recaptcha.php:157
 #: includes/forms/views/tabs/form-settings.php:49
 #: includes/forms/views/tabs/form-settings.php:64
 #: includes/forms/views/tabs/form-settings.php:80
@@ -1280,7 +1283,7 @@ msgstr "عنوان البريد الإلكتروني"
 msgid "No"
 msgstr ""
 
-#: includes/forms/class-google-recaptcha.php:156
+#: includes/forms/class-google-recaptcha.php:155
 #: includes/forms/views/tabs/form-settings.php:45
 #: includes/forms/views/tabs/form-settings.php:60
 #: includes/forms/views/tabs/form-settings.php:76
@@ -1393,7 +1396,6 @@ msgid "Mailchimp"
 msgstr ""
 
 #: includes/admin/class-admin.php:355
-#: includes/views/general-settings.php:31
 msgid "Mailchimp API Settings"
 msgstr ""
 

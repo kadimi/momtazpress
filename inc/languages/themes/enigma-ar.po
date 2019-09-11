@@ -20,6 +20,14 @@ msgstr ""
 msgid "Enigma"
 msgstr ""
 
+#: core/admin/admin-themes.php:159
+msgid "Eatos Premium"
+msgstr ""
+
+#: core/admin/admin-themes.php:159
+msgid "https://weblizar.com/themes/eatos-premium-restaurant-theme/"
+msgstr ""
+
 #: functions.php:541
 msgid "Current WPORG Rating"
 msgstr ""
@@ -74,14 +82,6 @@ msgstr ""
 
 #: core/admin/admin-themes.php:169
 msgid "https://weblizar.com/themes/beautyspa-premium/"
-msgstr ""
-
-#: core/admin/admin-themes.php:159
-msgid "Construction Premium"
-msgstr ""
-
-#: core/admin/admin-themes.php:159
-msgid "https://weblizar.com/themes/construction-premium-wordpress-theme/"
 msgstr ""
 
 #: core/admin/admin-themes.php:147
