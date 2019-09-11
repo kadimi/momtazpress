@@ -119,7 +119,9 @@ msgstr ""
 msgid "%s Options Updated."
 msgstr ""
 
-#: modules/aioseop_performance.php:425
+#. translators: This is the text of a button that can be clicked. Therefore,
+#. "E-mail" is used as a verb in this context.
+#: modules/aioseop_performance.php:465
 msgid "Enter the email address provided by Semper Plugins Support to send your debug information"
 msgstr ""
 
@@ -139,11 +141,11 @@ msgstr ""
 msgid "Delete this rule"
 msgstr ""
 
-#: modules/aioseop_sitemap.php:687
+#: modules/aioseop_sitemap.php:688
 msgid "Delete this additional URL"
 msgstr ""
 
-#: aioseop_class.php:5681
+#: aioseop_class.php:5740
 msgid "Banner advert for free Wincher rank checker plugin"
 msgstr ""
 
@@ -200,23 +202,23 @@ msgid "-- Select --"
 msgstr ""
 
 #: aioseop_class.php:672
-msgid "Type of Contact:"
+msgid "Type of Contact"
 msgstr ""
 
 #: aioseop_class.php:663
-msgid "Phone Number:"
+msgid "Phone Number"
 msgstr ""
 
 #: aioseop_class.php:653
-msgid "Person's Username:"
+msgid "Person's Username"
 msgstr ""
 
 #: aioseop_class.php:644
-msgid "Organization Logo:"
+msgid "Organization Logo"
 msgstr ""
 
 #: aioseop_class.php:635
-msgid "Organization Name:"
+msgid "Organization Name"
 msgstr ""
 
 #: inc/commonstrings.php:91
@@ -719,30 +721,29 @@ msgstr ""
 msgid "Dismiss"
 msgstr ""
 
-#: modules/aioseop_sitemap.php:342
+#: modules/aioseop_sitemap.php:343
 msgid "Excluded Terms"
 msgstr ""
 
-#. translators: %s is a placeholder, which means that it should not be
-#. translated. It will be replaced with the name of the plugin, All in One SEO
-#. Pack.
-#: modules/aioseop_importer_exporter.php:540
-#: modules/aioseop_performance.php:383
+#. translators: %s is a placeholder so it should not be translated. It will be
+#. replaced with the name of the plugin, All in One SEO Pack.
+#: modules/aioseop_importer_exporter.php:543
+#: modules/aioseop_performance.php:410
 msgid "Settings export file for %s"
 msgstr ""
 
-#. translators: %s is a placeholder, which means that it should not be
-#. translated. It will be replaced with the name of the premium version of the
-#. plugin, All in One SEO Pack Pro.
-#: modules/aioseop_performance.php:345
+#. translators: "%s" is a placeholder so it should not be translated. It will
+#. be replaced with the name of the premium version of the plugin, All in One
+#. SEO Pack Pro.
+#: modules/aioseop_performance.php:369
 msgid "%s Debug Info"
 msgstr ""
 
-#: modules/aioseop_performance.php:341
+#: modules/aioseop_performance.php:364
 msgid "Inactive Plugins"
 msgstr "الإضافات الغير نشطة"
 
-#: modules/aioseop_performance.php:331
+#: modules/aioseop_performance.php:352
 msgid "Active Plugins"
 msgstr "الإضافات النشطة"
 
@@ -753,14 +754,14 @@ msgstr ""
 #. translators: The complete string is: "All in One SEO Pack by Michael Torbert
 #. of Semper Fi Web Design". The placeholders shouldn't be altered; only the
 #. words "by" and "of" should be translated.
-#: aioseop_class.php:4263
+#: aioseop_class.php:4306
 msgid "%1$s by %2$s of %3$s"
 msgstr ""
 
 #. translators: %1$s, %2$s and %3$s are placeholders and should not be
 #. translated. %1$s expands to the name of the plugin, All in One SEO Pack,
 #. %2$s to the name of a filter function and %3$s is replaced with a number.
-#: aioseop_class.php:4243
+#: aioseop_class.php:4286
 msgid "Debug Warning: %1$s meta data was included again from %2$s filter. Called %3$s times!"
 msgstr ""
 
@@ -959,12 +960,12 @@ msgid "Content Type Settings"
 msgstr "إعدادات نوع المحتوى"
 
 #. translators: Link to sitemap within current site.
-#: modules/aioseop_sitemap.php:957
+#: modules/aioseop_sitemap.php:959
 msgid "Click here to %1$sview your RSS sitemap%2$s."
 msgstr ""
 
 #. translators: Link to documentation.
-#: modules/aioseop_sitemap.php:951
+#: modules/aioseop_sitemap.php:953
 msgid "view your XML sitemap"
 msgstr "شاهد خريطة XML لموقعك"
 
@@ -1041,7 +1042,7 @@ msgid "Edit your .htaccess file to fine-tune your site."
 msgstr ""
 
 #. translators: Shows which sitemap files were renamed.
-#: modules/aioseop_sitemap.php:1286
+#: modules/aioseop_sitemap.php:1288
 msgid "Renamed %1$s to %2$s."
 msgstr "تم إعادة تسمية %1$s إلى %2$s."
 
@@ -1103,7 +1104,7 @@ msgstr "استبعاد الصور"
 msgid "Exclude Images in your sitemap."
 msgstr "استبعاد الصور في ملف sitemap الخاص بك."
 
-#: modules/aioseop_sitemap.php:952
+#: modules/aioseop_sitemap.php:954
 msgid "Your sitemap has been created with content and images."
 msgstr ""
 
@@ -1235,7 +1236,7 @@ msgstr "رفع صورة"
 
 #. translators: This is an action link users can click to open a feature
 #. request/bug report on GitHub.
-#: all_in_one_seo_pack.php:327
+#: all_in_one_seo_pack.php:328
 msgid "Feature Request/Bug Report"
 msgstr "طلب ميزة/الإبلاغ عن أخطاء"
 
@@ -1243,23 +1244,29 @@ msgstr "طلب ميزة/الإبلاغ عن أخطاء"
 msgid "Enable Facebook Meta for Post Types"
 msgstr "تفعيل Facebook Meta لأنواع المقالات"
 
-#: modules/aioseop_performance.php:329
+#. translators: This is a label that shows what the current permalink structure
+#. is. The permalink structure is the way that the URLs of the website are
+#. formatted, e.g. "examplesite.com/?p=123" or
+#. "examplesite.com/1970/01/01/sample-post/".
+#: modules/aioseop_performance.php:350
 msgid "Permalink Setting"
 msgstr "خصائص الرابط الدائم"
 
-#: modules/aioseop_performance.php:328
+#: modules/aioseop_performance.php:348
 msgid "Search Engine Visibility"
 msgstr "الظهور لمحركات البحث"
 
-#: modules/aioseop_performance.php:327
+#. translators: This is a label that shows what page is used as the
+#. homepage/front page.
+#: modules/aioseop_performance.php:347
 msgid "Front Page Displays"
 msgstr "عرض الصفحة الرئيسية"
 
-#: modules/aioseop_performance.php:326
+#: modules/aioseop_performance.php:345
 msgid "Site Language"
 msgstr "لغة الموقع"
 
-#: modules/aioseop_performance.php:325
+#: modules/aioseop_performance.php:344
 msgid "Site Title"
 msgstr "عنوان الموقع"
 
@@ -1272,7 +1279,7 @@ msgstr ""
 msgid "https://semperplugins.com/all-in-one-seo-pack-pro-version/"
 msgstr "https://semperplugins.com/all-in-one-seo-pack-pro-version/"
 
-#: modules/aioseop_importer_exporter.php:40
+#: modules/aioseop_importer_exporter.php:42
 msgid "Post Data"
 msgstr "بيانات المقالة"
 
@@ -1338,8 +1345,8 @@ msgstr ""
 #. use the content of the post/page to automatically populate the meta
 #. description tag, instead of the excerpt.
 #: aioseop_class.php:764
-msgid "Use Content For Autogenerated Descriptions:"
-msgstr "استخدام المحتوى لتوليد الوصف التلقائي:"
+msgid "Use Content For Autogenerated Descriptions"
+msgstr ""
 
 #: admin/class-aioseop-helper.php:443
 msgid "This option will auto generate your meta descriptions from your post content instead of your post excerpt. This is useful if you want to use your content for your autogenerated meta descriptions instead of the excerpt. WooCommerce users should read the documentation regarding this setting."
@@ -1365,7 +1372,7 @@ msgid "CLICK HERE"
 msgstr "إضغط هنا"
 
 #. translators: Shows which files were removed.
-#: modules/aioseop_sitemap.php:1400
+#: modules/aioseop_sitemap.php:1402
 msgid "Removed empty file %s."
 msgstr "حذف الملف الفارغ %s."
 
@@ -1377,12 +1384,12 @@ msgstr "هذا الخيار يقوم بعرض ودجت أخبار SEO عبر و�
 msgid "Show SEO News"
 msgstr "عرض جديد السيو"
 
-#: modules/aioseop_sitemap.php:961
+#: modules/aioseop_sitemap.php:963
 msgid "Changes are automatically submitted to search engines."
 msgstr "يتم إرسال التغييرات تلقائيًا إلى محركات البحث."
 
 #. translators: Link to documentation.
-#: modules/aioseop_sitemap.php:951
+#: modules/aioseop_sitemap.php:953
 msgid "Click here to %s."
 msgstr "أنقر هنا لـ %s."
 
@@ -1504,8 +1511,8 @@ msgstr "يسمح لك هذا الخيار بتحميل صورة بارزة مخ�
 #. redirect attachment page requests to the post parent, or in other words, the
 #. post/page where the media is embedded.
 #: aioseop_class.php:791
-msgid "Redirect Attachments to Post Parent:"
-msgstr "إعادة توجيه المرفقات الى الموضوع الأصلي"
+msgid "Redirect Attachments to Post Parent"
+msgstr ""
 
 #: admin/class-aioseop-helper.php:448
 msgid "Redirect attachment pages to post parent."
@@ -1516,7 +1523,7 @@ msgstr "إعادة توجيه صفحة المرفقات الى الموضوع ا
 msgid "Dynamically creates the XML sitemap instead of using a static file."
 msgstr "توليد الخرائط بشكل الي بدل ملفات تابثة."
 
-#: modules/aioseop_importer_exporter.php:591
+#: modules/aioseop_importer_exporter.php:590
 msgid "<b>Security warning:</b> Your file looks compromised. Please check the file for any script-injection."
 msgstr "<b> تحذير أمني: </b>هذا الملف يبدو خطرا على الموقع. يرجى التحقق من عدم وجود أي برمجيات خبيثة."
 
@@ -1696,56 +1703,56 @@ msgstr "عرض فقط المواضيع التي تحتوي على فيديوها
 #. translators: This is an action link users can click to purchase a license
 #. for All in One SEO Pack Pro.
 #: admin/display/menu.php:48
-#: all_in_one_seo_pack.php:385
+#: all_in_one_seo_pack.php:386
 msgid "Upgrade to Pro"
 msgstr "الترقية إلى Pro"
 
 #. translators: This is an action link users can click to open our general
 #. documentation page.
-#: all_in_one_seo_pack.php:373
+#: all_in_one_seo_pack.php:374
 msgid "Documentation"
 msgstr "مستندات المساعدة"
 
 #. translators: This is an action link users can click to open the General
 #. Settings menu.
-#: all_in_one_seo_pack.php:361
+#: all_in_one_seo_pack.php:362
 msgid "SEO Settings"
 msgstr "إعدادات SEO"
 
-#: aioseop_class.php:5401
-#: aioseop_class.php:5410
+#: aioseop_class.php:5460
+#: aioseop_class.php:5469
 msgid "About"
 msgstr "حول"
 
-#: aioseop_class.php:4271
+#: aioseop_class.php:4314
 msgid "Debug String"
 msgstr "تصحيح الوصلات"
 
 #. translators: The taxonomy title format is the template that is used to
 #. format the title for each taxonomy term of a certain taxonomy (Categories,
 #. Tags, etc.).
-#: aioseop_class.php:3546
+#: aioseop_class.php:3570
 msgid "Taxonomy Title Format:"
 msgstr "شكل عنوان التصنيف"
 
 #. translators: This is an action link users can click to open our premium
 #. support forum.
 #: aioseop_class.php:899
-#: all_in_one_seo_pack.php:367
+#: all_in_one_seo_pack.php:368
 msgid "Support Forum"
 msgstr "منتدى الدعم"
 
 #. translators: This is a setting where users can indicate which taxonomies
 #. they want to use All in One SEO Pack with.
 #: aioseop_class.php:405
-msgid "SEO on only these taxonomies:"
-msgstr "السيو فقط على هذه التصنيفات :"
+msgid "SEO on only these taxonomies"
+msgstr ""
 
 #. translators: This is a setting where users can enter their license code for
 #. All in One SEO Pack Pro.
 #: aioseop_class.php:234
-msgid "License Key:"
-msgstr "رمز التفعيل"
+msgid "License Key"
+msgstr ""
 
 #: inc/commonstrings.php:26
 msgid "This will be the license key received when the product was purchased. This is used for automatic upgrades."
@@ -1779,140 +1786,140 @@ msgstr ""
 
 #. translators: Notifies the admin which sitemaps failed to notify with which
 #. search engine(s).
-#: modules/aioseop_sitemap.php:1799
+#: modules/aioseop_sitemap.php:1801
 msgid "Failed to notify %1$s about changes to your sitemap at %2$s, unable to access via wp_remote_get()."
 msgstr ""
 
 #. translators: Notifies the admin which sitemaps failed to notify with which
 #. search engine(s), and display the error code.
-#: modules/aioseop_sitemap.php:1795
+#: modules/aioseop_sitemap.php:1797
 msgid "Failed to notify %1$s about changes to your sitemap at %2$s, error code %3$s."
 msgstr ""
 
-#: modules/aioseop_sitemap.php:1601
+#: modules/aioseop_sitemap.php:1603
 msgid "static"
 msgstr "ثابت"
 
-#: modules/aioseop_sitemap.php:1603
+#: modules/aioseop_sitemap.php:1605
 msgid "dynamic"
 msgstr "عملي"
 
-#: modules/aioseop_sitemap.php:1440
+#: modules/aioseop_sitemap.php:1442
 msgid "Delete Conflicting Files"
 msgstr "حذف الملفات المتضاربة"
 
-#: modules/aioseop_sitemap.php:1441
+#: modules/aioseop_sitemap.php:1443
 msgid "Rename Conflicting Files"
 msgstr "تضارب في تسمية الملفات"
 
 #. translators: Shows which 'unknown' file is conflicting with the current
 #. sitemap settings.
-#: modules/aioseop_sitemap.php:1394
+#: modules/aioseop_sitemap.php:1396
 msgid "Potential conflict with unknown file %s."
 msgstr "مشكل محتمل مع ملف غير معروف %s."
 
-#: modules/aioseop_sitemap.php:1383
+#: modules/aioseop_sitemap.php:1385
 msgid "Warning: a static sitemap '%1$s' generated by %2$s %3$s on %4$s already exists that may conflict with dynamic sitemap generation."
 msgstr ""
 
 #. translators: Shows which sitemap files couldn't be found.
-#: modules/aioseop_sitemap.php:1291
+#: modules/aioseop_sitemap.php:1293
 msgid "Couldn't find file %s!"
 msgstr "لا يمكن العثور على الملف %s!"
 
 #. translators: Shows which sitemap files couldn't be renamed.
-#: modules/aioseop_sitemap.php:1281
+#: modules/aioseop_sitemap.php:1283
 msgid "Couldn't rename file %s!"
 msgstr "لا يمكن اعادة تسمية ملف %s!"
 
 #. translators: Shows which sitemap files have been deleted.
-#: modules/aioseop_sitemap.php:1270
+#: modules/aioseop_sitemap.php:1272
 msgid "Deleted %s."
 msgstr "تم حذف %s"
 
-#: modules/aioseop_sitemap.php:1249
+#: modules/aioseop_sitemap.php:1251
 msgid "Warning: dynamic sitemap generation must have permalinks enabled."
 msgstr "تحذير: خريطة الموقع المتغيرة يجب أن تكون فيها روابط دائمة مفعلة."
 
 #. translators: Link to settings to disable "Discourage search engines from
 #. indexing this site".
-#: modules/aioseop_sitemap.php:975
+#: modules/aioseop_sitemap.php:977
 msgid "Warning: your privacy settings are configured to ask search engines to not index your site; you can change this under %s for your site."
 msgstr ""
 
 #: admin/display/notices/blog-visibility-notice.php:21
-#: modules/aioseop_sitemap.php:973
+#: modules/aioseop_sitemap.php:975
 msgid "Reading Settings"
 msgstr "اعدادات القراءة"
 
-#: modules/aioseop_sitemap.php:969
+#: modules/aioseop_sitemap.php:971
 msgid "Dynamic sitemap generation does not appear to be using the correct rewrite rules; please disable any other sitemap plugins or functionality on your site and reset your permalinks."
 msgstr "يبدو ان خريطة الموقع المتغيرة لا تستخدم قواعد إعادة الكتابة صحيحة. رجاءا قم بتعطيل الاضافات الاخرى لخريطة الموقع. يرجى تعطيل أي إضافات أخرى لخريطة الموقع أو وظيفة في موقعك وإعادة تعيين الروابط الدائمة الخاصة بك"
 
-#: modules/aioseop_sitemap.php:855
+#: modules/aioseop_sitemap.php:857
 msgid "Update Sitemap"
 msgstr "تحديث خريطة الموقع"
 
 #: inc/commonstrings.php:52
-#: modules/aioseop_sitemap.php:760
+#: modules/aioseop_sitemap.php:762
 msgid "Taxonomy"
 msgstr "الفئة"
 
-#: modules/aioseop_sitemap.php:759
+#: modules/aioseop_sitemap.php:761
 msgid "Post Type"
 msgstr ""
 
-#: modules/aioseop_sitemap.php:724
+#: modules/aioseop_sitemap.php:725
 msgid "All Taxonomies"
 msgstr "جميع التصنيفات"
 
-#: modules/aioseop_sitemap.php:723
+#: modules/aioseop_sitemap.php:724
 msgid "All Post Types"
 msgstr "كل انواع التدوينات"
 
 #. translators: This refers to entries in the Media Library (images, videos,
 #. recordings and other files) and their attachment pages.
 #: admin/aioseop_module_class.php:1118
-#: aioseop_class.php:3472
-#: aioseop_class.php:3475
-#: modules/aioseop_sitemap.php:721
+#: aioseop_class.php:3496
+#: aioseop_class.php:3499
+#: modules/aioseop_sitemap.php:722
 msgid "Media / Attachments"
 msgstr "الوسائط / المرفقات"
 
-#: modules/aioseop_sitemap.php:546
+#: modules/aioseop_sitemap.php:547
 msgid "Daily scheduled sitemap check has finished."
 msgstr "تم الإنتهاء من التحقق اليومي من خريطة الموقع"
 
-#: modules/aioseop_sitemap.php:519
+#: modules/aioseop_sitemap.php:520
 msgid "Once Monthly"
 msgstr "مرة واحدة شهريا"
 
-#: modules/aioseop_sitemap.php:515
+#: modules/aioseop_sitemap.php:516
 msgid "Once Weekly"
 msgstr "مرة وحدة بالأسبوع"
 
-#: modules/aioseop_sitemap.php:372
+#: modules/aioseop_sitemap.php:373
 msgid "Frequencies"
 msgstr "الترددات"
 
-#: modules/aioseop_sitemap.php:365
+#: modules/aioseop_sitemap.php:366
 msgid "Priorities"
 msgstr "الأولوية"
 
-#: modules/aioseop_sitemap.php:359
+#: modules/aioseop_sitemap.php:360
 msgid "Excluded Items"
 msgstr "استبعاد اشياء"
 
-#: modules/aioseop_sitemap.php:347
+#: modules/aioseop_sitemap.php:348
 msgid "Excluded Pages"
 msgstr "استبعاد صفحات"
 
-#: modules/aioseop_sitemap.php:332
+#: modules/aioseop_sitemap.php:333
 msgid "Add URL"
 msgstr "اضف الرابط"
 
-#: modules/aioseop_sitemap.php:325
-#: modules/aioseop_sitemap.php:353
+#: modules/aioseop_sitemap.php:326
+#: modules/aioseop_sitemap.php:354
 msgid "Additional Pages"
 msgstr "صفحات اضافية"
 
@@ -2146,164 +2153,197 @@ msgstr "مسار المجلد"
 msgid "User Agent"
 msgstr "وكيل المستخدم"
 
-#: modules/aioseop_performance.php:427
+#: modules/aioseop_performance.php:467
 msgid "Submit"
 msgstr "إرسال"
 
-#: modules/aioseop_performance.php:425
+#. translators: This is the text of a button that can be clicked. Therefore,
+#. "E-mail" is used as a verb in this context.
+#: modules/aioseop_performance.php:465
 msgid "E-mail debug information"
 msgstr "معلومات التصحيح البريد الإلكتروني"
 
-#: modules/aioseop_performance.php:406
+#: modules/aioseop_performance.php:444
 msgid "Error: please enter an e-mail address before submitting."
 msgstr "خطأ: المرجوا إدخال بريد إلكتروني قبل التقديم."
 
-#: modules/aioseop_performance.php:403
+#. translators: %s is a placeholder and should not be translated. It will be
+#. replaced with an e-mail address.
+#: modules/aioseop_performance.php:441
 msgid "Failed to send to %s."
 msgstr "فشل الإرسال إلى %s."
 
-#: modules/aioseop_performance.php:401
+#. translators: %s is a placeholder and should not be translated. It will be
+#. replaced with an e-mail address.
+#: modules/aioseop_performance.php:437
 msgid "Sent to %s."
 msgstr "إرسال إلى %s."
 
-#: modules/aioseop_performance.php:400
+#: modules/aioseop_performance.php:430
 msgid "SFWD Debug Mail From Site %s."
 msgstr "SFWD تصحيح البريد من الموقع %s."
 
-#: modules/aioseop_performance.php:363
+#. translators: This message is shown when a form could not be submitted due to
+#. a verification error (e.g. when a field is required and is still blank).
+#: modules/aioseop_performance.php:389
 msgid "Form submission error: verification check failed."
 msgstr "استمارة إرسال الأخطاء : فشل في التحقق"
 
-#: modules/aioseop_performance.php:324
+#: modules/aioseop_performance.php:343
 msgid "Active Theme"
 msgstr "القالب المفعل"
 
-#: modules/aioseop_performance.php:323
+#. translators: "Multisite" or "WordPress Multisite" is a feature that allows
+#. users to create a network of websites. Leave this in English if there is no
+#. translation for this in your locale glossary.
+#: modules/aioseop_performance.php:342
 msgid "Multisite"
 msgstr "مواقع متعددة"
 
-#: modules/aioseop_performance.php:322
+#. translators: "DB" is an abbreviation for "Database".
+#: modules/aioseop_performance.php:340
 msgid "WordPress DB Version"
 msgstr "نسخة قاعدة بيانات الووردبرس"
 
-#: modules/aioseop_performance.php:321
+#: modules/aioseop_performance.php:338
 msgid "WordPress Version"
 msgstr "نسخة الووردبرس"
 
-#: modules/aioseop_performance.php:320
+#. translators: This is the URL of the homepage (e.g.
+#. "examplewebsite.com/home") of the website.
+#: modules/aioseop_performance.php:337
 msgid "Home URL"
 msgstr "رابط الصفحة الرئيسية"
 
-#: modules/aioseop_performance.php:319
+#. translators: This is the base URL (e.g. "examplewebsite.com") of the
+#. website.
+#: modules/aioseop_performance.php:335
 msgid "Site URL"
 msgstr "رابط الموقع"
 
-#: modules/aioseop_performance.php:318
+#. translators: The "PHP XML" part should not be translated.
+#: modules/aioseop_performance.php:333
 msgid "PHP XML support"
 msgstr "دعم PHP XML "
 
-#: modules/aioseop_performance.php:317
+#. translators: The "PHP IPTC" part should not be translated.
+#: modules/aioseop_performance.php:331
 msgid "PHP IPTC support"
 msgstr "دعم PHP IPTC "
 
-#: modules/aioseop_performance.php:316
+#. translators: The "PHP Exif" part should not be translated.
+#: modules/aioseop_performance.php:329
 msgid "PHP Exif support"
 msgstr "دعم PHP"
 
-#: modules/aioseop_performance.php:315
+#: modules/aioseop_performance.php:327
 msgid "PHP Max Script Execute Time"
 msgstr "PHP الوقت الاقصى لتنفيذ السكريبت"
 
-#: modules/aioseop_performance.php:314
+#: modules/aioseop_performance.php:326
 msgid "PHP Max Post Size"
 msgstr "PHP الحجم الاقصى للمشاركة"
 
-#: modules/aioseop_performance.php:313
+#: modules/aioseop_performance.php:325
 msgid "PHP Max Upload Size"
 msgstr "PHP الحجم الاقصى للتحميل"
 
-#: modules/aioseop_performance.php:312
+#. translators: "Memory" in this context refers to RAM memory.
+#: modules/aioseop_performance.php:324
 msgid "PHP Memory Limit"
 msgstr "حد ذاكرة PHP"
 
-#: modules/aioseop_performance.php:311
+#. translators: This is a setting in the PHP interpreter of the server. Leave
+#. this untranslated if there's no proper translation for this.
+#: modules/aioseop_performance.php:322
 msgid "PHP Allow URL fopen"
 msgstr "PHP السماح لروابط fopen"
 
-#: modules/aioseop_performance.php:310
+#: modules/aioseop_performance.php:320
 msgid "PHP Version"
 msgstr "نسخة PHP "
 
-#: modules/aioseop_performance.php:309
+#. translators: "SQL" is a programming language that is used to store or
+#. retrieve data from databases and should not be translated.
+#: modules/aioseop_performance.php:319
 msgid "SQL Mode"
 msgstr "نسق SQL "
 
-#: modules/aioseop_performance.php:308
+#. translators: "MYSQL" is the name of a database software and should not be
+#. translated.
+#: modules/aioseop_performance.php:317
 msgid "MYSQL Version"
 msgstr "نسخة MYSQL"
 
-#: modules/aioseop_performance.php:307
+#. translators: "Memory" in this context refers to RAM memory.
+#: modules/aioseop_performance.php:315
 msgid "Memory usage"
 msgstr "استخدام الذاكرة"
 
-#: modules/aioseop_performance.php:306
+#: modules/aioseop_performance.php:313
 msgid "Server"
 msgstr "الخادم"
 
-#: modules/aioseop_performance.php:305
+#: modules/aioseop_performance.php:312
 msgid "Operating System"
 msgstr "نظام التشغيل"
 
-#: modules/aioseop_performance.php:266
-#: modules/aioseop_performance.php:271
-#: modules/aioseop_performance.php:276
-#: modules/aioseop_performance.php:285
+#: modules/aioseop_performance.php:273
+#: modules/aioseop_performance.php:278
+#: modules/aioseop_performance.php:283
+#: modules/aioseop_performance.php:292
 msgid "Yes"
 msgstr "نعم"
 
-#: modules/aioseop_performance.php:261
-msgid " MByte"
-msgstr "ميغا بيت"
-
-#: modules/aioseop_performance.php:243
-#: modules/aioseop_performance.php:248
-#: modules/aioseop_performance.php:253
-#: modules/aioseop_performance.php:258
-#: modules/aioseop_performance.php:263
-#: modules/aioseop_performance.php:290
+#. translators: "N/A" is an abbreviation for "Non Applicable".
+#: modules/aioseop_performance.php:250
+#: modules/aioseop_performance.php:255
+#: modules/aioseop_performance.php:260
+#: modules/aioseop_performance.php:265
+#: modules/aioseop_performance.php:270
+#: modules/aioseop_performance.php:297
 msgid "N/A"
 msgstr "N/A"
 
-#: modules/aioseop_performance.php:238
+#: modules/aioseop_performance.php:244
 msgid "Off"
 msgstr "إيقاف التشغيل"
 
-#: modules/aioseop_performance.php:236
+#: modules/aioseop_performance.php:242
 msgid "On"
 msgstr "تشغيل"
 
-#: modules/aioseop_performance.php:233
+#: modules/aioseop_performance.php:239
 msgid "Not set"
 msgstr "غير مضبوط"
 
-#: modules/aioseop_performance.php:103
+#. translators: This is the header of a table in which All in One SEO Pack
+#. displays data about the user's WordPress installation and server.
+#: modules/aioseop_performance.php:109
 msgid "System Status"
 msgstr "حالة النظام"
 
-#: modules/aioseop_performance.php:63
+#: modules/aioseop_performance.php:67
 msgid "No limit"
 msgstr "بدون حد"
 
-#: modules/aioseop_performance.php:54
+#. translators: This is the name of a setting which allows users to increase
+#. their PHP execution time limit.
+#: modules/aioseop_performance.php:58
 msgid "Raise execution time"
 msgstr "رفع وقت التنفيذ"
 
-#: modules/aioseop_performance.php:46
-#: modules/aioseop_performance.php:58
+#. translators: This a dropdown value for the "Raise memory limit" setting. If
+#. this is selected, All in One SEO Pack will not override the PHP memory limit
+#. and use the default system value.
+#: modules/aioseop_performance.php:49
+#: modules/aioseop_performance.php:62
 msgid "Use the system default"
 msgstr "استخدام النظام الافتراضي"
 
-#: modules/aioseop_performance.php:42
+#. translators: This is the name of a setting which allows users to increase
+#. their PHP memory limit.
+#: modules/aioseop_performance.php:44
 msgid "Raise memory limit"
 msgstr "رفع حد الذاكرة"
 
@@ -2323,19 +2363,20 @@ msgstr "يتيح لك هذا الإعداد رفع  ذاكرة PHP الخاصة 
 msgid "Choose a default value that best describes the content of your post type."
 msgstr "إختر قيمة افتراضية تصف جيدا محتوى نوع مشاركتك."
 
-#: modules/aioseop_opengraph.php:1697
+#: modules/aioseop_opengraph.php:1713
 msgid "Object Type"
 msgstr "نوع العنصر"
 
-#: modules/aioseop_opengraph.php:1007
+#: modules/aioseop_opengraph.php:1011
 msgid "Scan your site for duplicate social meta tags."
 msgstr "فحص الموقع للبحث عن عناصر ميتا مكررة"
 
-#: modules/aioseop_opengraph.php:1006
+#: modules/aioseop_opengraph.php:1008
+#: modules/aioseop_opengraph.php:1009
 msgid "Scan Now"
 msgstr "فحص الان"
 
-#: modules/aioseop_opengraph.php:852
+#: modules/aioseop_opengraph.php:853
 msgid "Default "
 msgstr "افتراضي"
 
@@ -2368,11 +2409,11 @@ msgid "Person"
 msgstr "شخص"
 
 #: aioseop_class.php:623
-msgid "Person or Organization:"
+msgid "Person or Organization"
 msgstr ""
 
 #: aioseop_class.php:614
-msgid "Social Profile Links:"
+msgid "Social Profile Links"
 msgstr ""
 
 #: modules/aioseop_opengraph.php:594
@@ -2533,10 +2574,16 @@ msgstr "إختيار OG: مصدر الصورة"
 msgid "Home Image"
 msgstr "صورة الصفحة الرئيسية "
 
+#. translators: This is a setting where users can enter the description for
+#. their homepage.
+#: aioseop_class.php:250
 #: modules/aioseop_opengraph.php:363
 msgid "Home Description"
 msgstr "وصف الصفحة الرئيسية "
 
+#. translators: This is a setting where users can enter the title for their
+#. homepage.
+#: aioseop_class.php:239
 #: modules/aioseop_opengraph.php:348
 msgid "Home Title"
 msgstr "عنوان الصفحة الرئيسية"
@@ -2874,7 +2921,7 @@ msgid "Options Reset."
 msgstr "خيارات إعادة تعيين."
 
 #: admin/aioseop_module_class.php:3024
-#: modules/aioseop_sitemap.php:1256
+#: modules/aioseop_sitemap.php:1258
 msgid "Security Check - If you receive this in error, log out and back in to WordPress"
 msgstr "تم التحقيق من الحماية - في حالة ظهور هذا عن طريق الخطأ، سجل الخروج أعد الدخول إلى  الووردبرس."
 
@@ -2890,29 +2937,29 @@ msgstr ""
 msgid "Click here for documentation on this setting"
 msgstr "انقر هنا للحصول على وثائق هذه الإعداد"
 
-#: modules/aioseop_importer_exporter.php:484
+#: modules/aioseop_importer_exporter.php:487
 msgid "<b>Warning:</b> This following post could not be found: <b>\"%s\"</b>"
 msgstr "<b>تحذير:</b> لم يتم العثور على هذا المقال: <b>\"%s\"</b>"
 
-#: modules/aioseop_importer_exporter.php:434
+#: modules/aioseop_importer_exporter.php:437
 msgid "<b>Warning:</b> Line not matched: <b>\"%1$s\"</b>, On Line: <b>%2$s</b>"
 msgstr ""
 
-#: modules/aioseop_importer_exporter.php:151
+#: modules/aioseop_importer_exporter.php:154
 msgid ""
 "You may change this by activating or deactivating\n"
 "\t\t\t\t\t\tmodules in the Feature Manager."
 msgstr "يمكنك تغيير ذلك عن طريق تفعيل او تعطيل موديلات في إدارة الخصائص."
 
-#: modules/aioseop_importer_exporter.php:144
+#: modules/aioseop_importer_exporter.php:147
 msgid "There are no other modules currently loaded!"
 msgstr "لا توجد موديلات أخرى يتم تحميلها حاليا!"
 
-#: modules/aioseop_importer_exporter.php:106
+#: modules/aioseop_importer_exporter.php:109
 msgid "Export"
 msgstr "تصدير"
 
-#: modules/aioseop_importer_exporter.php:57
+#: modules/aioseop_importer_exporter.php:59
 msgid ""
 "Note: If General Settings is checked, the\n"
 "\t\t\t\t\t\t\t\tGeneral Settings, the Feature Manager settings,\n"
@@ -2920,16 +2967,16 @@ msgid ""
 "\t\t\t\t\t\t\t\thave their settings data exported:"
 msgstr "ملاحظة: في حالة تحديد إعدادات عامة، فإن إلاعدادات العامة، إعدادات إدارة الميزة، والموديلات النشطة المتتابعة حاليا ستكون بيانات إعدادها مصدرة."
 
-#: modules/aioseop_importer_exporter.php:44
-msgid "Export Post Types:"
-msgstr "تصدير أنواع المقال"
+#: modules/aioseop_importer_exporter.php:46
+msgid "Export Post Types"
+msgstr ""
 
-#: modules/aioseop_importer_exporter.php:36
+#: modules/aioseop_importer_exporter.php:38
 msgid "Export Settings"
 msgstr "إعدادات التصدير"
 
-#: modules/aioseop_importer_exporter.php:29
-#: modules/aioseop_importer_exporter.php:100
+#: modules/aioseop_importer_exporter.php:31
+#: modules/aioseop_importer_exporter.php:103
 msgid "Import"
 msgstr "استيراد"
 
@@ -2975,10 +3022,10 @@ msgstr "دخول غير مرخص؛ حاول إعادة تحميل الصفحة."
 
 #: inc/aioseop_functions.php:418
 #: inc/aioseop_functions.php:848
-#: modules/aioseop_performance.php:268
-#: modules/aioseop_performance.php:273
-#: modules/aioseop_performance.php:278
-#: modules/aioseop_performance.php:287
+#: modules/aioseop_performance.php:275
+#: modules/aioseop_performance.php:280
+#: modules/aioseop_performance.php:285
+#: modules/aioseop_performance.php:294
 msgid "No"
 msgstr "لا"
 
@@ -3096,10 +3143,11 @@ msgstr "المستورد والمصدر"
 msgid "Optimize performance related to SEO and check your system status."
 msgstr "فحص النظام وتحسين اداء السيو"
 
+#. translators: This is the title of our Performance module.
 #. translators: the Performance module allows users to set certain performance
 #. related settings and check the status of their WordPress installation.
 #: modules/aioseop_feature_manager.php:74
-#: modules/aioseop_performance.php:35
+#: modules/aioseop_performance.php:36
 msgid "Performance"
 msgstr "الفعالية"
 
@@ -3154,7 +3202,7 @@ msgstr "إدارة الميزات"
 
 #. translators: This is the name of the main tab of the All in One SEO Pack
 #. meta box that appears on the Edit screen.
-#: aioseop_class.php:5065
+#: aioseop_class.php:5123
 msgid "Main Settings"
 msgstr "الإعدادات الرئيسية"
 
@@ -3163,38 +3211,42 @@ msgstr "الإعدادات الرئيسية"
 #: admin/aioseop_module_class.php:2443
 #: admin/aioseop_module_class.php:2820
 #: admin/aioseop_module_class.php:3166
-#: aioseop_class.php:5451
-#: aioseop_class.php:5474
+#: aioseop_class.php:5510
+#: aioseop_class.php:5533
 msgid "Help"
 msgstr "المساعدة"
 
-#: aioseop_class.php:5410
-#: aioseop_class.php:5419
+#: aioseop_class.php:5469
+#: aioseop_class.php:5478
 msgid "Version"
 msgstr "النسخة"
 
-#: aioseop_class.php:5419
+#: aioseop_class.php:5478
 msgid "Support"
 msgstr "الدعم"
 
-#: aioseop_class.php:5392
+#: aioseop_class.php:5451
 msgid "Join Our Mailing List"
 msgstr "انضم الى قائمتنا البريدية"
 
 #. translators: This is a CTA action link to upgrade to the premium version of
 #. the plugin.
-#: aioseop_class.php:5129
+#: aioseop_class.php:5187
 msgid "Upgrade To Pro"
 msgstr "الترقية إلى النسخة المتطورة"
 
-#: aioseop_class.php:5169
-#: aioseop_class.php:5183
+#: aioseop_class.php:5227
+#: aioseop_class.php:5241
 msgid "Edit SEO"
 msgstr "تعديل السيو"
 
-#: aioseop_class.php:5119
+#: aioseop_class.php:5177
 msgid "SEO"
 msgstr "السيو"
+
+#: aioseop_class.php:1007
+msgid "Google Analytics"
+msgstr "إحصائيات جوجل "
 
 #: admin/display/general-metaboxes.php:172
 msgid "Getting started? Read the Beginners Guide"
@@ -3240,51 +3292,51 @@ msgstr "النسخة الإحترافية"
 msgid "Reset Dismissed Notices"
 msgstr "إعادة التنبهات المتجاهلة"
 
-#: aioseop_class.php:3748
+#: aioseop_class.php:3772
 msgid "nofollow"
 msgstr "لا متابعة"
 
-#: aioseop_class.php:3747
+#: aioseop_class.php:3771
 msgid "follow"
 msgstr "متابعة"
 
 #. translators: This indicates that the current post/page is using the default
 #. value for its post type, which is NOFOLLOW.
-#: aioseop_class.php:3746
+#: aioseop_class.php:3770
 msgid "Default - nofollow"
 msgstr "الإفتراضي - لا متابعة"
 
-#: aioseop_class.php:3739
+#: aioseop_class.php:3763
 msgid "noindex"
 msgstr "noindex"
 
-#: aioseop_class.php:3738
+#: aioseop_class.php:3762
 msgid "index"
 msgstr "index"
 
 #. translators: This indicates that the current post/page is using the default
 #. value for its post type, which is NOINDEX.
-#: aioseop_class.php:3737
+#: aioseop_class.php:3761
 msgid "Default - noindex"
 msgstr "الافتراضي - منع الأرشفة"
 
 #. translators: This is the text of a button that allows users to reset all
 #. settings across the entire plugin to their default values.
-#: aioseop_class.php:3649
+#: aioseop_class.php:3673
 msgid "Reset ALL Settings to Defaults"
 msgstr "إعادة كافة الإعدادات إلى الإفتراضية"
 
 #. translators: This is the text of a button that allows users to reset the
 #. General Settings to their default values.
-#: aioseop_class.php:3643
+#: aioseop_class.php:3667
 msgid "Reset General Settings to Defaults"
 msgstr "إعادة الإعدادات العامة إلى الإفتراضية"
 
 #. translators: The title format is the template that is used to format the
 #. title for each post of a certain post type (Posts, Pages, etc.).
-#: aioseop_class.php:3514
-msgid "Title Format:"
-msgstr "شكل العنوان"
+#: aioseop_class.php:3538
+msgid "Title Format"
+msgstr ""
 
 #: aioseop_class.php:1056
 #: modules/aioseop_opengraph.php:696
@@ -3294,10 +3346,6 @@ msgstr "الاعدادات المتقدمة"
 #: aioseop_class.php:1039
 msgid "Noindex Settings"
 msgstr "اعدادات عدم الأرشفة"
-
-#: aioseop_class.php:1007
-msgid "Google Settings"
-msgstr "إعدادات جوجل"
 
 #. translators: This is the name of a settings section where users can add
 #. verification codes of webmaster platforms such as Google Search Console,
@@ -3372,48 +3420,48 @@ msgstr "قصاصة المعاينة"
 #. translators: This is a setting that enables All in One SEO Pack to log
 #. important events to help with debugging.
 #: aioseop_class.php:830
-msgid "Log important events:"
-msgstr "سجل الأحداث الهامة:"
+msgid "Log important events"
+msgstr ""
 
 #. translators: This is a setting that allows users to ouput additional HTML
 #. tags, such as references to stylesheets or JavaScript libraries, into the
 #. HEAD section of the static Posts page (see Settings > Reading).
 #: aioseop_class.php:823
-msgid "Additional Posts Page Headers:"
+msgid "Additional Posts Page Headers"
 msgstr ""
 
 #. translators: This is a setting that allows users to ouput additional HTML
 #. tags, such as references to stylesheets or JavaScript libraries, into the
 #. HEAD section of the frontpage/homepage.
 #: aioseop_class.php:816
-msgid "Additional Front Page Headers:"
-msgstr "عناوين إضافية للصفحة الرئيسية"
+msgid "Additional Front Page Headers"
+msgstr ""
 
 #. translators: This is a setting that allows users to ouput additional HTML
 #. tags, such as references to stylesheets or JavaScript libraries, into the
 #. HEAD section of each page.
 #: aioseop_class.php:809
-msgid "Additional Page Headers:"
-msgstr "عناوين إضافية للصفحة"
+msgid "Additional Page Headers"
+msgstr ""
 
 #. translators: This is a setting that allows users to ouput additional code,
 #. such as references to stylesheets or JavaScript libraries, into the HEAD
 #. section of each post.
 #: aioseop_class.php:802
-msgid "Additional Post Headers:"
-msgstr "عوناوين إضافية للمقال"
+msgid "Additional Post Headers"
+msgstr ""
 
 #. translators: This is a textarea setting where users can enter a list of
 #. pages that All in One SEO Pack should not affect.
 #: aioseop_class.php:796
-msgid "Exclude Pages:"
-msgstr "استبعاد الصفحات:"
+msgid "Exclude Pages"
+msgstr ""
 
 #. translators: This is a setting that allows users to unprotect internal
 #. postmeta fields for use with XML-RPC.
 #: aioseop_class.php:786
-msgid "Unprotect Post Meta Fields:"
-msgstr "إلغاء حماية حقول ميتا المشاركة:"
+msgid "Unprotect Post Meta Fields"
+msgstr ""
 
 #. translators: This is a setting that outputs basic Schema.org markup, also
 #. known as structured data, into the source code of each page.
@@ -3425,188 +3473,188 @@ msgstr "استخدام Schema.org"
 #. the meta description tag if it is longer than what All in One SEO Pack
 #. recommends.
 #: aioseop_class.php:781
-msgid "Never Shorten Long Descriptions:"
-msgstr "عدم تقصير الوصف الطويل:"
+msgid "Never Shorten Long Descriptions"
+msgstr ""
 
 #. translators: This is a setting that, if enabled, removes the meta
 #. description for paginated content (page 2 and higher).
 #: aioseop_class.php:776
-msgid "Remove Descriptions For Paginated Pages:"
-msgstr "إزالة الوصف من ترقيم الصفحات:"
+msgid "Remove Descriptions For Paginated Pages"
+msgstr ""
 
 #. translators: This is a setting that enables the plugin to execute shortcodes
 #. in the autogenerated descriptions. Shortcodes allow people to execute code
 #. inside WordPress posts, pages, and widgets without writing any code
 #. directly.
 #: aioseop_class.php:770
-msgid "Run Shortcodes In Autogenerated Descriptions:"
-msgstr "إستخدام الأكواد القصيرة في إنشاء الوصف تلقائيا :"
+msgid "Run Shortcodes In Autogenerated Descriptions"
+msgstr ""
 
 #. translators: This is a setting that allows the plugin to automatically
 #. populate the meta description tag based on the excerpt or content of the
 #. post/page.
 #: aioseop_class.php:759
-msgid "Autogenerate Descriptions:"
-msgstr "الإنشاء التلقائي للوصف:"
+msgid "Autogenerate Descriptions"
+msgstr ""
 
 #. translators: This is a global setting that allows you to NOFOLLOW all your
 #. paginated content.
 #: aioseop_class.php:754
-msgid "Use nofollow for paginated pages/posts:"
-msgstr "استخدام نوفولو لتريقم الصفحات / المقالات:"
+msgid "Use nofollow for paginated pages/posts"
+msgstr ""
 
 #. translators: This is a global setting that allows you to NOINDEX all your
 #. paginated content (page 2 and higher).
 #: aioseop_class.php:749
-msgid "Use noindex for paginated pages/posts:"
-msgstr "استخدام منع الفهرسة لترقيم الصفحات / المقالات:"
+msgid "Use noindex for paginated pages/posts"
+msgstr ""
 
 #. translators: This is a global setting that allows you to NOINDEX specific
 #. taxonomies.
 #: aioseop_class.php:743
-msgid "Use noindex for Taxonomy Archives:"
-msgstr "استخدام منع الفهرسة للتصنيف الأرشيف:"
+msgid "Use noindex for Taxonomy Archives"
+msgstr ""
 
 #. translators: This is a setting that allows you to NOINDEX your 404 Not Found
 #. page.
 #: aioseop_class.php:738
-msgid "Use noindex for the 404 page:"
-msgstr "استخدام منع الارشفة للصفحة الخطأ 404:"
+msgid "Use noindex for the 404 page"
+msgstr ""
 
 #. translators: This is a setting that allows you to NOINDEX your search
 #. results page.
 #: aioseop_class.php:733
-msgid "Use noindex for the Search page:"
-msgstr "استخدام منع الارشفة لصفحة البحث:"
+msgid "Use noindex for the Search page"
+msgstr ""
 
 #. translators: This is a global setting that allows you to NOINDEX all your
 #. tag archive pages.
 #: aioseop_class.php:728
-msgid "Use noindex for Tag Archives:"
-msgstr "استخدام منع الارشفة لوسوم الأرشيف:"
+msgid "Use noindex for Tag Archives"
+msgstr ""
 
 #. translators: This is a global setting that allows you to NOINDEX all your
 #. author archive pages.
 #: aioseop_class.php:723
-msgid "Use noindex for Author Archives:"
-msgstr "استخدام منع الفهرسة لمؤلف المحفوظات:"
+msgid "Use noindex for Author Archives"
+msgstr ""
 
 #. translators: This is a global setting that allows you to NOINDEX all your
 #. date archive pages.
 #: aioseop_class.php:718
-msgid "Use noindex for Date Archives:"
-msgstr "استخدام منع الفهرسة لتاريخ المحفوظات:"
+msgid "Use noindex for Date Archives"
+msgstr ""
 
 #. translators: This is a global setting that allows you to NOINDEX all your
 #. categories.
 #: aioseop_class.php:713
-msgid "Use noindex for Categories:"
-msgstr "استخدام منع الفهرسة القوائم :"
+msgid "Use noindex for Categories"
+msgstr ""
 
 #. translators: This a setting that allows you to dynamically output meta
 #. keywords on archive pages based on the keywords from the posts that are
 #. displayed by the archive page.
 #: aioseop_class.php:707
-msgid "Dynamically Generate Keywords for Posts Page/Archives:"
-msgstr "ديناميكيا توليد الكلمات المفتاحية لصفحة المشاركات / المحفوظات:"
+msgid "Dynamically Generate Keywords for Posts Page/Archives"
+msgstr ""
 
 #. translators: This is the name of a setting. By enabling it, the plugin will
 #. use the tags of the relevant post as meta keywords in addition to any
 #. user-specified keywords.
 #: aioseop_class.php:701
-msgid "Use Tags for META keywords:"
-msgstr "استخدام الاوسمة لميتا الكلمات المفتاحية : "
+msgid "Use Tags for META keywords"
+msgstr ""
 
 #. translators: This is the name of a setting. By enabling it, the plugin will
 #. use the categories of the relevant post as meta keywords in addition to any
 #. user-specified keywords.
 #: aioseop_class.php:695
-msgid "Use Categories for META keywords:"
-msgstr "استخدام القوائم  لميتا الكلمات المفتاحية :"
+msgid "Use Categories for META keywords"
+msgstr ""
 
 #. translators: This is a setting which tells Google Analytics to track your
 #. customers' path to purchase on your e-commerce website.
 #: aioseop_class.php:584
-msgid "Enhanced Ecommerce:"
-msgstr "تعزيز التجارة الإلكترونية:"
+msgid "Enhanced Ecommerce"
+msgstr ""
 
 #. translators: This is a setting for Google Analytics that allows you to tag
 #. your pages to implement enhanced link-tracking.
 #: aioseop_class.php:571
-msgid "Enhanced Link Attribution:"
-msgstr "تعزيز ارتباط النسبة:"
+msgid "Enhanced Link Attribution"
+msgstr ""
 
 #. translators: This is a setting that enables tracking of outbound/external
 #. links by Google Analytics.
 #: aioseop_class.php:558
-msgid "Track Outbound Links:"
-msgstr "تتبع الروابط الصادرة:"
+msgid "Track Outbound Links"
+msgstr ""
 
 #. translators: This is a setting that allows you to exclude certain WordPress
 #. user roles, e.g. Administrators, from Google Analytics tracking.
 #: aioseop_class.php:545
-msgid "Exclude Users From Tracking:"
-msgstr "استبعاد المستخدمين من التتبع:"
+msgid "Exclude Users From Tracking"
+msgstr ""
 
 #. translators: This is a setting that enables a collection of Google Analytics
 #. features so you can, for example, create segments based on demographic and
 #. interest data.
 #: aioseop_class.php:532
-msgid "Display Advertiser Tracking:"
-msgstr "عرض تتبع الإعلانات:"
+msgid "Display Advertiser Tracking"
+msgstr ""
 
 #. translators: This is a setting which tells Google Analytics not to track and
 #. store the IP addresses of website visitors.	This is required to be compliant
 #. with the GDPR for example.
 #: aioseop_class.php:519
-msgid "Anonymize IP Addresses:"
-msgstr "جعل عناوين IP مجهول:"
+msgid "Anonymize IP Addresses"
+msgstr ""
 
 #. translators: This is a setting which allows users to enter additional domain
 #. names used for Google Analytics cross-domain tracking -
 #. https://support.google.com/analytics/answer/1034342?hl=en.
 #: aioseop_class.php:505
-msgid "Additional Domains:"
-msgstr "نطاقات إضافية:"
+msgid "Additional Domains"
+msgstr ""
 
 #. translators: This is a setting which allows users to enable Google Analytics
 #. tracking for multiple domain names.
 #: aioseop_class.php:492
-msgid "Track Multiple Domains:"
-msgstr "تتبع نطاقات متعددة:"
+msgid "Track Multiple Domains"
+msgstr ""
 
 #. translators: This is a setting which allows users to set the cookie domain
 #. for their Google Analytics tracking code.
 #: aioseop_class.php:479
-msgid "Tracking Domain:"
-msgstr "تتبع النطاق:"
+msgid "Tracking Domain"
+msgstr ""
 
 #. translators: This is a setting users can enable to display more advanced
 #. options for Google Analytics.
 #: aioseop_class.php:462
-msgid "Advanced Analytics Options:"
-msgstr "خيارات التحليلات المتقدمة:"
+msgid "Advanced Analytics Options"
+msgstr ""
 
 #. translators: This is a setting where users can add their Google Analytics
 #. verification code. Leave this in English if there is no translation for
 #. "Google Analytics".
 #: aioseop_class.php:455
-msgid "Google Analytics ID:"
-msgstr "ID إحصائيات جوجل:"
+msgid "Google Analytics ID"
+msgstr ""
 
 #. translators: This is a setting users can enable to add the basic markup code
 #. to their source code that is needed for Google to generate a Sitelinks
 #. Search Box -
 #. https://developers.google.com/search/docs/data-types/sitelinks-searchbox.
 #: aioseop_class.php:608
-msgid "Display Sitelinks Search Box:"
-msgstr "عرض مربع البحث في روابط أقسام الموقع"
+msgid "Display Sitelinks Search Box"
+msgstr ""
 
 #. translators: This is a setting where users can add their Pinterest website
 #. verification code.
 #: aioseop_class.php:439
-msgid "Pinterest Site Verification:"
-msgstr "التحقق من موقع Pinterest :"
+msgid "Pinterest Site Verification"
+msgstr ""
 
 #: inc/commonstrings.php:92
 msgid "Display Menu At The Top:"
@@ -3617,42 +3665,42 @@ msgstr "عرض القائمة في الأعلى:"
 #. etc. list pages and allow users to quick-edit their title and description -
 #. https://semperplugins.com/documentation/display-settings/#show-column-labels-for-custom-post-types.
 #: aioseop_class.php:423
-msgid "Show Column Labels for Custom Post Types:"
-msgstr "إظهار خانات العمود لأنواع حقل المشاركة:"
+msgid "Show Column Labels for Custom Post Types"
+msgstr ""
 
 #. translators: This is a setting where users can indicate which post types
 #. they want to NOFOLLOW by default. NOFOLLOW is a value of the HTML robots
 #. meta tag that asks search engines not to follow any links on the page.
 #: aioseop_class.php:417
-msgid "Default to NOFOLLOW:"
-msgstr "من الافتراضي الى عدم التتبع"
+msgid "Default to NOFOLLOW"
+msgstr ""
 
 #. translators: This is a setting where users can indicate which post types
 #. they want to NOINDEX by default. NOINDEX is a value of the HTML robots meta
 #. tag that asks search engines not to index the page.
 #: aioseop_class.php:411
-msgid "Default to NOINDEX:"
-msgstr "من الافتراضي الى عدم الارشفة :"
+msgid "Default to NOINDEX"
+msgstr ""
 
 #. translators: This is a setting where users can indicate which post types
 #. they want to use All in One SEO Pack with.
 #: aioseop_class.php:399
-msgid "SEO on only these Content Types:"
+msgid "SEO on only these Content Types"
 msgstr ""
 
 #. translators: This is a setting where users can enter the title format for
 #. paginated pages. The title format is the format All in One SEO Pack uses to
 #. rewrite the title tag.
 #: aioseop_class.php:393
-msgid "Paged Format:"
-msgstr "تنسيق مقسم الصفحات:"
+msgid "Paged Format"
+msgstr ""
 
 #. translators: This is a setting where users can enter the title format for
 #. the 404 page. The title format is the format All in One SEO Pack uses to
 #. rewrite the title tag.
 #: aioseop_class.php:387
-msgid "404 Title Format:"
-msgstr "صيغة عنوان 404:"
+msgid "404 Title Format"
+msgstr ""
 
 #. translators: This is a setting where users can enter the description format.
 #. The description format is the format All in One SEO Pack uses to rewrite the
@@ -3665,78 +3713,80 @@ msgstr " تنسيق الوصف"
 #. the search page. The title format is the format All in One SEO Pack uses to
 #. rewrite the title tag.
 #: aioseop_class.php:375
-msgid "Search Title Format:"
-msgstr "بحث تنسيق عنوان:"
+msgid "Search Title Format"
+msgstr ""
 
 #. translators: This is a setting where users can enter the title format for
 #. tag archive pages. The title format is the format All in One SEO Pack uses
 #. to rewrite the title tag.
 #: aioseop_class.php:369
-msgid "Tag Title Format:"
-msgstr "شكل وسم العنوان"
+msgid "Tag Title Format"
+msgstr ""
 
 #. translators: This is a setting where users can enter the title format for
 #. author archive pages. The title format is the format All in One SEO Pack
 #. uses to rewrite the title tag.
 #: aioseop_class.php:363
-msgid "Author Archive Title Format:"
-msgstr "شكل عنوان كاتب الارشيف: "
+msgid "Author Archive Title Format"
+msgstr ""
 
 #. translators: This is a setting where users can enter the title format for
 #. date archive pages. The title format is the format All in One SEO Pack uses
 #. to rewrite the title tag.
 #: aioseop_class.php:357
-msgid "Date Archive Title Format:"
-msgstr "شكل تاريخ عنوان الارشيف: "
+msgid "Date Archive Title Format"
+msgstr ""
 
 #. translators: This is a setting where users can enter the title format for
 #. archive pages. The title format is the format All in One SEO Pack uses to
 #. rewrite the title tag.
 #: aioseop_class.php:351
-msgid "Archive Title Format:"
-msgstr "شكل عنوان الارشيف:"
+msgid "Archive Title Format"
+msgstr ""
 
 #. translators: This is a setting where users can enter the title format for
 #. categories. The title format is the format All in One SEO Pack uses to
 #. rewrite the title tag.
 #: aioseop_class.php:345
-msgid "Category Title Format:"
-msgstr "شكل تصنيف العنوان :"
+msgid "Category Title Format"
+msgstr ""
 
 #. translators: This is a setting where users can enter the title format for
 #. Posts. The title format is the format All in One SEO Pack uses to rewrite
 #. the title tag.
 #: aioseop_class.php:339
-msgid "Post Title Format:"
-msgstr "شكل مشاركة العنوان:"
+msgid "Post Title Format"
+msgstr ""
 
 #. translators: This is a setting where users can enter the title format for
 #. Pages. The title format is the format All in One SEO Pack uses to rewrite
 #. the title tag.
 #: aioseop_class.php:333
-msgid "Page Title Format:"
-msgstr " شكل عنوان الصفحة:"
+msgid "Page Title Format"
+msgstr ""
 
 #. translators: This is a setting where users can enter the title format for
 #. the homepage. The title format is the format All in One SEO Pack uses to
 #. rewrite the title tag.
 #: aioseop_class.php:326
-msgid "Home Page Title Format:"
-msgstr "تنسيق عنوان الصفحة الرئيسية :"
+msgid "Home Page Title Format"
+msgstr ""
 
 #. translators: This is the name of a setting. Enabling this option forces the
 #. plugin to use the wp_title() function to fetch the title tag.
 #: aioseop_class.php:316
-msgid "Use Original Title:"
-msgstr "استخدام العنوان الأصلي:"
+msgid "Use Original Title"
+msgstr ""
 
+#. translators: This is the name of a setting which forces the plugin to use
+#. output buffering to rewrite the title tag in the source code.
 #. translators: This is the name of a setting. Enabling this option forces the
 #. plugin to use output buffering to ensure that the title tag will be
 #. rewritten.
 #: aioseop_class.php:305
-#: modules/aioseop_performance.php:70
-msgid "Force Rewrites:"
-msgstr "قوة إعادة الكتابة:"
+#: modules/aioseop_performance.php:75
+msgid "Force Rewrites"
+msgstr ""
 
 #. translators: This is the name of a setting. Canonical URLs help users
 #. prevent duplicate content issues -
@@ -3745,16 +3795,16 @@ msgstr "قوة إعادة الكتابة:"
 #. means the plugin will use the URL of the first page as the canonical URL for
 #. all subsequent paginated pages.
 #: aioseop_class.php:299
-msgid "No Pagination for Canonical URLs:"
-msgstr "عدم ترقيم الصفحات للروابط القناتية:"
+msgid "No Pagination for Canonical URLs"
+msgstr ""
 
 #. translators: This is the name of a setting. Canonical URLs help users
 #. prevent duplicate content issues -
 #. https://en.wikipedia.org/wiki/Canonical_link_element. Leave "Canonical" in
 #. English if there is no such term in your language.
 #: aioseop_class.php:294
-msgid "Canonical URLs:"
-msgstr "الروابط القناتية:"
+msgid "Canonical URLs"
+msgstr ""
 
 #. translators: This is a setting where users can indicate that they are using
 #. a static page for their homepage.
@@ -3765,8 +3815,8 @@ msgstr "إستخدام الصفحة الامامية الثابتة بدلا م�
 #. translators: This is a setting where users can enter meta keywords for their
 #. homepage.
 #: aioseop_class.php:273
-msgid "Home Keywords (comma separated):"
-msgstr "الكلمات المفتاحية للصفحة الرئيسية  (مفصولة بفواصل):"
+msgid "Home Keywords (comma separated)"
+msgstr ""
 
 #. translators: Some settings are either 'Enabled' or 'Disabled'. 'Activated'
 #. and 'Deactivated' mean the same.
@@ -3776,7 +3826,7 @@ msgstr "الكلمات المفتاحية للصفحة الرئيسية  (مفص
 #: aioseop_class.php:321
 #: aioseop_class.php:467
 #: aioseop_class.php:602
-#: modules/aioseop_performance.php:75
+#: modules/aioseop_performance.php:80
 msgid "Disabled"
 msgstr "معطل"
 
@@ -3788,27 +3838,15 @@ msgstr "معطل"
 #: aioseop_class.php:320
 #: aioseop_class.php:466
 #: aioseop_class.php:601
-#: modules/aioseop_performance.php:74
+#: modules/aioseop_performance.php:79
 msgid "Enabled"
 msgstr "تمكين"
 
 #. translators: This is a setting where users can enable the use of meta
 #. keywords for their website.
 #: aioseop_class.php:261
-msgid "Use Keywords:"
-msgstr "إستعمال الكلمات المفتاحية:"
-
-#. translators: This is a setting where users can enter the description for
-#. their homepage.
-#: aioseop_class.php:250
-msgid "Home Description:"
-msgstr "وصف الصفحة الرئيسية: "
-
-#. translators: This is a setting where users can enter the title for their
-#. homepage.
-#: aioseop_class.php:239
-msgid "Home Title:"
-msgstr "عنوان الصفحة الرئيسية:"
+msgid "Use Keywords"
+msgstr ""
 
 #: admin/class-aioseop-helper.php:1052
 msgid "Disable Google Analytics on this page."
@@ -4056,7 +4094,7 @@ msgstr "التحقق من هذا الخيار، سيتم تعيين عنوان U
 #. translators: This is the name of the main menu.
 #: aioseop_class.php:222
 #: aioseop_class.php:960
-#: modules/aioseop_importer_exporter.php:39
+#: modules/aioseop_importer_exporter.php:41
 msgid "General Settings"
 msgstr "الإعدادات العامة"
 

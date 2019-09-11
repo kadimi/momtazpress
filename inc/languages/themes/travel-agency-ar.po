@@ -12,18 +12,255 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
 #. Description of the theme
-msgid "Travel Agency is a free WordPress theme to create travel online booking website for tour and travel operators and companies. You can add trips, destinations, and trip types, feature travel activities, highlight your specialties and allow visitors to book the trips. The stunning design combined with modern CSS effects and animation will make your visitors feel like they are already on a trip. Travel Agency WordPress theme is speed optimized, translation ready, SEO-friendly and mobile-friendly. Apart from travel booking companies, you can also use Travel Agency theme for travel blogging, hotel, spa, bed and breakfast, luxury resort, reservation, tour operator, tourism, transports and car booking. Check the demo at https://demo.rarathemes.com/travel-agency/, documentation at https://rarathemes.com/documentation/travel-agency-documentation/, and get support at https://rarathemes.com/support-ticket/."
+msgid "Travel Agency is a free WordPress theme to create travel online booking website for tour and travel operators and companies. You can add trips, destinations, and trip types, feature travel activities, highlight your specialties and allow visitors to book the trips. The stunning design combined with modern CSS effects and animation will make your visitors feel like they are already on a trip. Travel Agency WordPress theme is speed optimized, translation ready, SEO-friendly and mobile-friendly. Apart from travel booking companies, you can also use Travel Agency theme for travel blogging, hotel, spa, bed and breakfast, luxury resort, reservation, tour operator, tourism, transports and car booking. Check the demo at https://demo.rarathemes.com/travel-agency/, documentation at https://docs.rarathemes.com/docs/travel-agency/, and get support at https://rarathemes.com/support-ticket/."
 msgstr ""
 
 #. Theme Name of the theme
 msgid "Travel Agency"
 msgstr ""
 
-#: inc/template-functions.php:845
+#: inc/template-functions.php:42
+msgid "Skip to content (Press Enter)"
+msgstr ""
+
+#: inc/getting-started/tabs/free-vs-pro-panel.php:13
+msgid "View Pro"
+msgstr ""
+
+#: inc/getting-started/tabs/free-vs-pro-panel.php:11
+msgid "Free vs Pro"
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:23
+msgid "Visit the knowledge base"
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:21
+msgid "Our documentation comes with a step-by-step guide from installing WordPress to customizing our theme to creating an attractive and engaging website."
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:20
+msgid "Need help with WordPress and our theme as quickly as possible? Visit our well-organized documentation."
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:19
+#: inc/getting-started/tabs/link-panel.php:23
+msgid "Visit the Knowledge Base"
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:14
+msgid "Read more about the features here"
+msgstr ""
+
+#: inc/getting-started/tabs/free-vs-pro-panel.php:12
+#: inc/getting-started/tabs/link-panel.php:13
+msgid "View Premium Version"
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:12
+msgid "Also, the Pro version gets regular updates and has a dedicated support team to solve your queries."
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:11
+msgid "The Pro version of the theme allows you to change the look and feel of the website with just a few clicks. You can easily change the color, background image and pattern as well as fonts of the website with the Pro version. Also, the Pro theme features more homepage sections than free version to allow you to showcase your organization services in a better way boosting the growth of the organization. Furthermore, the premium theme comes with multiple predefined page templates."
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:10
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:54
+msgid "Also, when you submit the support ticket, please try to provide maximum details possible so that we can look into your issue in detail and solve it in minimum time. We recommend you to send us a screenshot(s) with issues explained and your website's address (URL)."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:53
+msgid "Please ensure that you have updated to the latest version of the theme before you submit a support ticket for any issue. We might have already fixed the bug in the previous theme update."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:51
+msgid "How can I solve my issues quickly and get faster support?"
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:46
+msgid "If this didn't help, please contact us via our %1$sSupport Ticket%2$s."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:45
+msgid "To solve the issue, deactivate all the plugins first, except the ones recommended by the theme. Then, hard reload your website using %1$s\"Ctrl+Shift+R\"%2$s on Windows and %1$s\"Cmd+Shift+R\"%2$s on Mac. If the issues are fixed, start activating the plugins one by one, and reload and check your site each time. This will help you find out the plugin that is causing the problem."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:44
+msgid "If your customizer is not loading properly or you are having issues with the theme, it might be due to the plugin conflict."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:42
+msgid "Why is my theme not working well?"
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:37
+msgid "You can change the copyright text going to %1$sAppearance > Customize > Footer Settings%2$s. However, if you want to hide the author credit text, please %3$supgrade to the Pro version%4$s."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:35
+msgid "How do I change the copyright text?"
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:30
+msgid "The Pro version is built with lots of flexibility in mind for future upgrades. Therefore, it is slightly different than the free theme but extremely flexible and easy-to-use."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:29
+msgid "However, since the Pro version comes with added features and settings, you will need to set up the additional features in the customizer. This process is simple and only takes a few minutes."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:28
+msgid "When you upgrade to the Pro theme, your posts, pages, media, categories, and other data will remain intact-- all your data is saved."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:26
+msgid "Upgrading to the Pro version- will I lose my changes?"
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:21
+msgid "Along with the additional features and regular updates, you get dedicated and quick support with the premium theme. If you run into any issue while creating a website with the premium theme, you will get a quicker response compared to the free support."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:19
+msgid "What are the perks of upgrading to the Premium version?"
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:14
+msgid "Overall, you will have more control over the customization and editing of your website with the Pro version."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:13
+msgid "Both the Free and Pro version of the themes are coded well and are developed with best coding practices. However, the Pro version of the theme comes with extended features and dedicated support team to help you solve your queries. The Pro theme comes with multiple homepage sections which you can sort and hide as per your requirements. Also, the Pro theme comes with several predefined page templates."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:11
+msgid "What is the difference between Free and Pro?"
+msgstr ""
+
+#: inc/getting-started/tabs/plugins-panel.php:48
+msgid "Version %s"
+msgstr ""
+
+#: inc/getting-started/tabs/plugins-panel.php:38
+msgid "These Free Plugins might be handy for you."
+msgstr ""
+
+#: inc/getting-started/tabs/plugins-panel.php:37
+msgid "Free Plugins"
+msgstr ""
+
+#: inc/getting-started/tabs/plugins-panel.php:12
+msgid "Here is a list of recommended plugins you should install to get most out of the %1$s. Though every plugin is optional, we recommend you to at least install %2$sTravel Agency Companion%3$s,%2$sWP Travel Engine%3$s, %2$sContact Form 7%3$s & %2$sRara One Click Demo Import%3$s to create a website similar to the %1$s demo and also to ensure every feature of the theme works correctly."
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:32
+msgid "View Demo"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:31
+msgid "Visit the Demo"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:30
+msgid "Visit the demo to get more idea about our theme design and its features."
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:29
+msgid "View Our %1$s Demo"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:24
+msgid "Contact Support"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:23
+msgid "Visit the Support"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:22
+msgid "If the Documentation Guide didn't help you, contact us via our %1$sSupport Ticket%2$s. We reply to all the support queries within one business day, except on the weekends."
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:21
+msgid "It's always better to visit our %1$sDocumentation Guide%2$s before you send us a support query."
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:20
+msgid "Support Ticket"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:15
+msgid "View Documentation"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:14
+msgid "Visit the Documentation"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:13
+msgid "Are you new to the WordPress world? Our step by step easy documentation guide will help you create an attractive and engaging website without any prior coding knowledge or experience."
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:12
+msgid "View Our Documentation Link"
+msgstr ""
+
+#: inc/getting-started/class-getting-start-plugin-helper.php:109
+msgid "Jetpack Portfolio"
+msgstr ""
+
+#: inc/getting-started/getting-started.php:145
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/getting-started/getting-started.php:136
+msgid "FAQ's &amp; Support"
+msgstr ""
+
+#: inc/getting-started/getting-started.php:118
+#: inc/getting-started/tabs/plugins-panel.php:10
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/getting-started/getting-started.php:106
+msgid "You will find everything you need to get started with %1$s below."
+msgstr ""
+
+#: inc/getting-started/getting-started.php:105
+msgid "Getting started with %1$s v%2$s"
+msgstr ""
+
+#: inc/getting-started/getting-started.php:16
+#: inc/getting-started/getting-started.php:17
+#: inc/getting-started/getting-started.php:127
+msgid "Getting Started"
+msgstr ""
+
+#: inc/custom-functions.php:528
+msgid "Dismiss"
+msgstr ""
+
+#: inc/custom-functions.php:527
+msgid "Go to the getting started."
+msgstr ""
+
+#: inc/custom-functions.php:526
+msgid "%1$s is now installed and ready to use. Click below to see theme documentation, plugins to install and other details to get started."
+msgstr ""
+
+#: inc/custom-functions.php:525
+msgid "Congratulations!"
+msgstr ""
+
+#: inc/template-functions.php:849
 msgid "Travel Agency | Developed By "
 msgstr ""
 
-#: inc/tgmpa/recommended-plugins.php:66
+#: inc/tgmpa/recommended-plugins.php:65
 msgid "Contact Form 7"
 msgstr ""
 
@@ -177,6 +414,7 @@ msgid "About Demo Import"
 msgstr ""
 
 #: inc/customizer/demo.php:26
+#: inc/customizer/demo.php:47
 #: inc/customizer/info.php:25
 #: inc/customizer/info.php:26
 #: inc/customizer/info.php:27
@@ -189,7 +427,7 @@ msgstr ""
 msgid "Demo Import Tutorial"
 msgstr ""
 
-#: inc/tgmpa/recommended-plugins.php:56
+#: inc/tgmpa/recommended-plugins.php:55
 msgid "WP Travel Engine"
 msgstr ""
 
@@ -198,15 +436,11 @@ msgid "Travel Agency Companion"
 msgstr ""
 
 #: inc/customizer/demo.php:47
-msgid "Click here"
-msgstr ""
-
-#: inc/customizer/demo.php:47
 msgid "Download Demo Content Zip File"
 msgstr ""
 
 #: inc/customizer/demo.php:44
-#: inc/tgmpa/recommended-plugins.php:61
+#: inc/tgmpa/recommended-plugins.php:60
 msgid "Rara One Click Demo Import"
 msgstr ""
 
@@ -679,111 +913,111 @@ msgstr ""
 msgid "Install Required Plugins"
 msgstr ""
 
-#: inc/template-functions.php:848
+#: inc/template-functions.php:852
 msgid "https://wordpress.org/"
 msgstr ""
 
-#: inc/template-functions.php:848
+#: inc/template-functions.php:852
 msgid " Powered by %s"
 msgstr ""
 
-#: inc/template-functions.php:674
+#: inc/template-functions.php:677
 msgid "Page"
 msgstr ""
 
-#: inc/template-functions.php:673
+#: inc/template-functions.php:676
 msgid "Next"
 msgstr ""
 
-#: inc/template-functions.php:672
+#: inc/template-functions.php:675
 msgid "Previous"
 msgstr ""
 
-#: inc/template-functions.php:660
+#: inc/template-functions.php:663
 msgid "Post Navigation"
 msgstr ""
 
-#: inc/template-functions.php:652
+#: inc/template-functions.php:655
 msgid "Next Post"
 msgstr ""
 
-#: inc/template-functions.php:644
+#: inc/template-functions.php:647
 msgid "Prev Post"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-functions.php:595
+#: inc/template-functions.php:598
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
-#: inc/template-functions.php:552
+#: inc/template-functions.php:555
 msgid "Pages:"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-functions.php:541
+#: inc/template-functions.php:544
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
-#: inc/template-functions.php:478
+#: inc/template-functions.php:481
 msgid "404"
 msgstr ""
 
 #. translators: %s: search query.
-#: inc/template-functions.php:469
+#: inc/template-functions.php:472
 msgid "Search Results for: %s"
 msgstr ""
 
-#: inc/template-functions.php:414
+#: inc/template-functions.php:415
 msgid ")"
 msgstr ""
 
-#: inc/template-functions.php:414
+#: inc/template-functions.php:415
 msgid " (Page"
 msgstr ""
 
-#: inc/template-functions.php:411
+#: inc/template-functions.php:412
 msgid "404 Error - Page Not Found"
 msgstr ""
 
-#: inc/template-functions.php:367
+#: inc/template-functions.php:368
 msgid "Page %s"
 msgstr ""
 
-#: inc/template-functions.php:249
+#: inc/template-functions.php:250
 msgid "d"
 msgstr ""
 
-#: inc/template-functions.php:247
-#: inc/template-functions.php:256
+#: inc/template-functions.php:248
+#: inc/template-functions.php:257
 msgid "F"
 msgstr ""
 
-#: inc/template-functions.php:247
-#: inc/template-functions.php:249
-#: inc/template-functions.php:256
+#: inc/template-functions.php:248
+#: inc/template-functions.php:250
+#: inc/template-functions.php:257
 msgid "m"
 msgstr ""
 
-#: inc/template-functions.php:240
+#: inc/template-functions.php:241
 msgid "\""
 msgstr ""
 
-#: inc/template-functions.php:240
+#: inc/template-functions.php:241
 msgid "Search Results for \""
 msgstr ""
 
-#: inc/template-functions.php:110
+#: inc/template-functions.php:111
 msgid "MENU"
 msgstr ""
 
 #: inc/partials.php:112
-#: inc/template-functions.php:245
-#: inc/template-functions.php:247
-#: inc/template-functions.php:249
-#: inc/template-functions.php:254
-#: inc/template-functions.php:256
-#: inc/template-functions.php:261
+#: inc/template-functions.php:246
+#: inc/template-functions.php:248
+#: inc/template-functions.php:250
+#: inc/template-functions.php:255
+#: inc/template-functions.php:257
+#: inc/template-functions.php:262
 msgid "Y"
 msgstr ""
 
@@ -847,6 +1081,7 @@ msgid ", "
 msgstr ""
 
 #: inc/customizer.php:75
+#: inc/getting-started/class-getting-start-plugin-helper.php:104
 msgid "Deactivate"
 msgstr ""
 
@@ -867,16 +1102,20 @@ msgid "To have access to other sections please install and configure Travel Agen
 msgstr ""
 
 #: inc/customizer-plugin-recommend/plugin-install/class-plugin-install-helper.php:110
+#: inc/getting-started/getting-started.php:40
 msgid "Activating "
 msgstr ""
 
 #: inc/customizer-plugin-recommend/plugin-install/class-plugin-install-helper.php:75
 #: inc/customizer.php:74
+#: inc/getting-started/class-getting-start-plugin-helper.php:89
+#: inc/getting-started/class-getting-start-plugin-helper.php:109
 #: inc/tgmpa/class-tgm-plugin-activation.php:2726
 msgid "Activate"
 msgstr ""
 
 #: inc/customizer-plugin-recommend/plugin-install/class-plugin-install-helper.php:59
+#: inc/getting-started/class-getting-start-plugin-helper.php:85
 msgid "Install and activate"
 msgstr ""
 
@@ -1046,7 +1285,7 @@ msgstr ""
 
 #: inc/customizer/header.php:72
 #: inc/partials.php:22
-#: inc/template-functions.php:53
+#: inc/template-functions.php:54
 msgid "Call us, we are open 24/7"
 msgstr ""
 
@@ -1060,7 +1299,7 @@ msgstr ""
 
 #: inc/customizer/header.php:47
 #: inc/partials.php:13
-#: inc/template-functions.php:52
+#: inc/template-functions.php:53
 msgid "(888) 123-45678"
 msgstr ""
 
@@ -1086,7 +1325,7 @@ msgid "Breadcrumb Separator"
 msgstr ""
 
 #: inc/customizer/general.php:153
-#: inc/template-functions.php:139
+#: inc/template-functions.php:140
 msgid ">"
 msgstr ""
 
@@ -1095,7 +1334,7 @@ msgid "Breadcrumb Home Text"
 msgstr ""
 
 #: inc/customizer/general.php:135
-#: inc/template-functions.php:138
+#: inc/template-functions.php:139
 msgid "Home"
 msgstr ""
 
@@ -1113,7 +1352,7 @@ msgstr ""
 
 #: inc/customizer/general.php:83
 #: inc/partials.php:88
-#: inc/template-functions.php:688
+#: inc/template-functions.php:691
 msgid "You may also like..."
 msgstr ""
 
@@ -1135,7 +1374,7 @@ msgstr ""
 
 #: inc/customizer/general.php:30
 #: inc/partials.php:97
-#: inc/template-functions.php:572
+#: inc/template-functions.php:575
 #: sections/blog.php:11
 msgid "Read More"
 msgstr ""
@@ -1156,19 +1395,19 @@ msgstr ""
 msgid "Footer Settings"
 msgstr ""
 
-#: inc/custom-functions.php:333
+#: inc/custom-functions.php:343
 msgid "Comment"
 msgstr ""
 
-#: inc/custom-functions.php:318
+#: inc/custom-functions.php:328
 msgid "Website"
 msgstr ""
 
-#: inc/custom-functions.php:316
+#: inc/custom-functions.php:326
 msgid "Email*"
 msgstr ""
 
-#: inc/custom-functions.php:314
+#: inc/custom-functions.php:324
 msgid "Name*"
 msgstr ""
 
@@ -1225,7 +1464,7 @@ msgid "https://rarathemes.com/"
 msgstr ""
 
 #. Author of the theme
-#: inc/template-functions.php:846
+#: inc/template-functions.php:850
 msgid "Rara Theme"
 msgstr ""
 

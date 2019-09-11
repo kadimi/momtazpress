@@ -15,7 +15,7 @@ msgstr ""
 msgid "A mandatory field is not filled in"
 msgstr ""
 
-#: includes/controls.php:797
+#: includes/controls.php:804
 msgid "Configure"
 msgstr ""
 
@@ -181,7 +181,7 @@ msgstr ""
 msgid "Read more about delivery issues"
 msgstr ""
 
-#: includes/controls.php:1496
+#: includes/controls.php:1503
 msgid "Install a multilanguage plugin."
 msgstr ""
 
@@ -205,11 +205,11 @@ msgstr ""
 msgid "Pre-assigned by language"
 msgstr ""
 
-#: includes/controls.php:1527
+#: includes/controls.php:1534
 msgid "Your multilanguage plugin is not supported or there are no languages defined"
 msgstr ""
 
-#: includes/controls.php:1520
+#: includes/controls.php:1527
 msgid "Install WPML or Polylang for multilanguage support"
 msgstr ""
 
@@ -274,8 +274,8 @@ msgstr ""
 msgid "Subscriber data export"
 msgstr ""
 
-#: includes/module.php:1043
-#: includes/module.php:1057
+#: includes/module.php:1115
+#: includes/module.php:1129
 msgid "No subscriber found."
 msgstr ""
 
@@ -295,7 +295,7 @@ msgstr ""
 msgid "Profile saved"
 msgstr ""
 
-#: includes/module.php:1803
+#: includes/module.php:1875
 msgid "Math question"
 msgstr ""
 
@@ -400,11 +400,11 @@ msgstr ""
 msgid "Subscriber not found, it probably has already been removed. No further actions are required."
 msgstr ""
 
-#: includes/controls.php:384
+#: includes/controls.php:391
 msgid "Deleted."
 msgstr ""
 
-#: includes/controls.php:391
+#: includes/controls.php:398
 msgid "Options reset."
 msgstr ""
 
@@ -1069,27 +1069,27 @@ msgstr ""
 msgid "Header Settings"
 msgstr ""
 
-#: includes/controls.php:1593
-#: includes/controls.php:1604
+#: includes/controls.php:1600
+#: includes/controls.php:1611
 msgid "Need help?"
 msgstr ""
 
 #: emails/emails.php:968
-#: includes/controls.php:1497
-#: includes/controls.php:1582
+#: includes/controls.php:1504
+#: includes/controls.php:1589
 #: main/status.php:120
 msgid "Read more"
 msgstr ""
 
-#: includes/controls.php:1419
+#: includes/controls.php:1426
 msgid "Center"
 msgstr ""
 
-#: includes/controls.php:1418
+#: includes/controls.php:1425
 msgid "Right"
 msgstr ""
 
-#: includes/controls.php:1418
+#: includes/controls.php:1425
 msgid "Left"
 msgstr ""
 
@@ -1196,7 +1196,7 @@ msgstr ""
 msgid "seconds"
 msgstr ""
 
-#: includes/controls.php:446
+#: includes/controls.php:453
 #: subscription/antibot.php:93
 #: subscription/antibot.php:106
 msgid "Disabled"
@@ -1237,7 +1237,7 @@ msgstr ""
 msgid "Toggle"
 msgstr ""
 
-#: includes/controls.php:429
+#: includes/controls.php:436
 #: subscription/options.php:158
 msgid "No"
 msgstr ""
@@ -1254,7 +1254,7 @@ msgstr ""
 msgid "Subscribe"
 msgstr ""
 
-#: includes/controls.php:817
+#: includes/controls.php:824
 msgid "Duplicate"
 msgstr ""
 
@@ -1316,7 +1316,7 @@ msgstr ""
 msgid "The tag {message} is missing in your template"
 msgstr ""
 
-#: includes/controls.php:398
+#: includes/controls.php:405
 msgid "Done."
 msgstr ""
 
@@ -1519,7 +1519,7 @@ msgstr ""
 msgid "Delete all not confirmed"
 msgstr ""
 
-#: includes/controls.php:844
+#: includes/controls.php:851
 msgid "Are you sure?"
 msgstr ""
 
@@ -1948,19 +1948,19 @@ msgstr ""
 msgid "Profile"
 msgstr "الملف الشخصى"
 
-#: includes/module.php:1020
+#: includes/module.php:1092
 msgid "BOUNCED"
 msgstr ""
 
-#: includes/module.php:1018
+#: includes/module.php:1090
 msgid "UNSUBSCRIBED"
 msgstr ""
 
-#: includes/module.php:1016
+#: includes/module.php:1088
 msgid "CONFIRMED"
 msgstr ""
 
-#: includes/module.php:1014
+#: includes/module.php:1086
 msgid "NOT CONFIRMED"
 msgstr ""
 
@@ -2035,32 +2035,32 @@ msgstr "لوحة القيادة"
 msgid "General Settings"
 msgstr "إعدادات عامة"
 
-#: includes/controls.php:451
+#: includes/controls.php:458
 #: subscription/antibot.php:94
 msgid "Enabled"
 msgstr "ممكن"
 
-#: includes/module.php:840
+#: includes/module.php:912
 msgid "Draft"
 msgstr "المسودة"
 
-#: includes/module.php:838
+#: includes/module.php:910
 msgid "Paused"
 msgstr ""
 
-#: includes/module.php:836
+#: includes/module.php:908
 msgid "Sent"
 msgstr ""
 
-#: includes/controls.php:830
+#: includes/controls.php:837
 msgid "Delete"
 msgstr ""
 
-#: includes/controls.php:804
+#: includes/controls.php:811
 msgid "Back"
 msgstr "العودة"
 
-#: includes/controls.php:788
+#: includes/controls.php:795
 msgid "Reset"
 msgstr "استعادة"
 
@@ -2068,16 +2068,16 @@ msgstr "استعادة"
 #: emails/editorhtml.php:100
 #: emails/editortinymce.php:114
 #: emails/tnp-composer/edit.php:8
-#: includes/controls.php:780
+#: includes/controls.php:787
 #: profile/defaults.php:13
 msgid "Save"
 msgstr ""
 
-#: includes/controls.php:750
+#: includes/controls.php:757
 msgid "Valid email address"
 msgstr ""
 
-#: includes/controls.php:377
+#: includes/controls.php:384
 msgid "Saved."
 msgstr ""
 
@@ -2116,23 +2116,23 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: includes/controls.php:434
+#: includes/controls.php:441
 #: subscription/options.php:158
 msgid "Yes"
 msgstr ""
 
-#: includes/module.php:870
-#: includes/module.php:876
-#: includes/module.php:911
+#: includes/module.php:942
+#: includes/module.php:948
+#: includes/module.php:983
 #: statistics/newsletters.php:64
 msgid "of"
 msgstr ""
 
-#: includes/module.php:832
+#: includes/module.php:904
 msgid "Sending"
 msgstr ""
 
-#: includes/module.php:834
+#: includes/module.php:906
 msgid "Scheduled"
 msgstr ""
 
@@ -2155,9 +2155,9 @@ msgstr ""
 msgid "Subject"
 msgstr ""
 
-#: includes/controls.php:785
-#: includes/controls.php:814
-#: includes/controls.php:827
+#: includes/controls.php:792
+#: includes/controls.php:821
+#: includes/controls.php:834
 msgid "Proceed?"
 msgstr ""
 
