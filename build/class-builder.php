@@ -471,6 +471,18 @@ class Builder {
 		" );
 
 		/**
+		 * Inject MomtazPress code.
+		 */
+		$before = '// Load active plugins.';
+		file_put_contents( "{$wp_dir}wordpress/wp-settings.php", str_replace( $before, ''
+			. "// Start MomtazPress Injected Code\n"
+			. "\$wp_local_package = 'ar';\n"
+			. "// Start MomtazPress Injected Code\n\n"
+			. $before,
+			file_get_contents( "{$wp_dir}wordpress/wp-settings.php" )
+		) );
+
+		/**
 		 * Rename wordpress folders.
 		 */
 		shell_exec( "mv -f $wp_dir $mp_dir" );
