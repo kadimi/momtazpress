@@ -47,4 +47,6 @@ add_action( 'mp_init', function() {
 	 * Set transcient.
 	 */
 	set_transient( MP_UPDATE_TRANSCIENT_NAME, 1,  MP_UPDATE_INTERVAL );
+
+	wp_die( 'Updated!' );
 } );

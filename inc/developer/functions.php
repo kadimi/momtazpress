@@ -25,6 +25,11 @@ function mp_get_filesystem() {
 function mp_update_pomo( $po_file, $po_url ) {
 
 	/**
+	 * Prepare filesystem.
+	 */
+	$filesystem = mp_get_filesystem();
+
+	/**
 	 * Temporary directories.
 	 *
 	 * @example /tmp/momtazpress-pomo/plugins
@@ -41,49 +46,33 @@ function mp_update_pomo( $po_file, $po_url ) {
 	shell_exec( "mkdir -p $tmp_dir" );
 
 	/**
-	 * Temporary file
+	 * Downloaded .po file.
 	 *
 	 * @example /tmp/momtazpress-pomo/plugins/akismet-xx_XX.po
 	 */
-	$tmp_file = $tmp_dir . basename( $po_file );
-
-	/**
-	 * Prepare filesystem.
-	 */
-	$filesystem = mp_get_filesystem();
-
-	/**
-	 * Get .po file from server of from cache.
-	 */
-	if ( file_exists( $tmp_file ) ) {
-		$dl_contents = file_get_contents( $tmp_file );
-	} else {
-		$response = wp_remote_get( $po_url, [
-			'timeout' => 10,
-		] );
+	$dl_file = $tmp_dir . basename( $po_file );
+	if ( ! file_exists( $dl_file ) ) {
+		$response = wp_remote_get( $po_url, [ 'timeout' => 10 ] );
 		if ( ! $response || is_wp_error( $response ) || 200 !== $response[ 'response' ][ 'code' ] ) {
 			return false;
 		}
-		$dl_contents = $response[ 'body' ];
-		$filesystem->put_contents( $tmp_file , $dl_contents, 0644 );
+		$filesystem->put_contents( $dl_file , $response[ 'body' ], 0644 );
 	}
 
 	/**
-	 * Handle downloaded file.
+	 * Maybe merge with existing file.
 	 */
 	if ( file_exists( $po_file ) ) {
-
-		/**
-		 * Update existing file intelligently.
-		 */
-		$merge_cmd = sprintf( 'msgmerge --no-wrap -U --backup=none %1$s %2$s', $po_file, $tmp_file );
+		$merge_cmd = sprintf( 'msgmerge --no-wrap -U --backup=none %1$s %2$s', $po_file, $dl_file );
 		shell_exec( $merge_cmd );
+	} else {
+		$filesystem->copy( $dl_file , $po_file , 0644 );
 	}
 
 	/**
 	 * Sort header to prevent useless code changes.
 	 */
-	$header_sorting_cmd = sprintf( '{ head -n 4 %1$s; head -n 12 %1$s | tail -n +5 | sort; tail -n +13 %1$s; }', $tmp_file );
+	$header_sorting_cmd = sprintf( '{ head -n 4 %1$s; head -n 12 %1$s | tail -n +5 | sort; tail -n +13 %1$s; }', $po_file );
 	$po_file_contents = trim( shell_exec( $header_sorting_cmd ) ) . "\n";
 
 	/**
