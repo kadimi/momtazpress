@@ -4,7 +4,7 @@
  * Plugin Name: MomtazPress
  * Description: MomtazPress.
  * Text Domain: mp
- * Version: 1.0.0
+ * Version: 5.2.3
  * Plugin URI: https://www.github.com/kadimi/starter
  * GitHub Plugin URI: https://github.com/kadimi/starter
  * Author: Nabil Kadimi
@@ -35,5 +35,5 @@ function mp( $args = [] ) {
  */
 mp( [
 	'slug' => 'mp',
-	'version' => '1.0.0',
+	'version' => '5.2.3',
 ] );
