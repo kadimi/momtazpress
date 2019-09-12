@@ -543,7 +543,7 @@ msgstr ""
 
 #: inc/settings.php:155
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: inc/settings.php:126
 msgid "Mobile Menu Search"

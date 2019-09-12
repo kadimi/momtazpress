@@ -2561,7 +2561,7 @@ msgstr "تعدد الصفحات"
 
 #: admin/main.php:159
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: admin/main.php:155
 msgid "Meta Area Background"

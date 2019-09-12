@@ -831,7 +831,7 @@ msgstr ""
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:265
 msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:264
 msgid "Browse:"

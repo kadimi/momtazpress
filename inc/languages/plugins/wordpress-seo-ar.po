@@ -5002,7 +5002,7 @@ msgstr "تغذية RSS"
 
 #: admin/pages/metas.php:26
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: admin/google_search_console/views/gsc-display.php:147
 msgid "or"

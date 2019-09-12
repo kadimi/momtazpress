@@ -596,7 +596,7 @@ msgstr ""
 
 #: inc/about-theme/news-portal-about.php:497
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: inc/about-theme/news-portal-about.php:544
 msgid "2"

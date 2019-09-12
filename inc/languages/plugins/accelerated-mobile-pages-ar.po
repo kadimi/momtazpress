@@ -2734,7 +2734,7 @@ msgstr ""
 #: includes/options/admin-config.php:5061
 #: includes/options/admin-config.php:6244
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: includes/options/admin-config.php:5049
 msgid "Published Date"

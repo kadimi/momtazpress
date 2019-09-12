@@ -2147,7 +2147,7 @@ msgstr ""
 
 #: lib/customize.php:2613
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: lib/customize.php:2592
 msgid "Value 20-400"

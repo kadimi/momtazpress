@@ -4577,7 +4577,7 @@ msgstr ""
 #: inc/customizer/settings/general.php:1335
 #: inc/customizer/settings/typography.php:167
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: inc/customizer/settings/general.php:1193
 #: inc/customizer/settings/header.php:127
@@ -5461,7 +5461,7 @@ msgstr ""
 #: inc/breadcrumbs.php:329
 msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: functions.php:620
 msgid "Widgets in this area are used in the fourth footer region."

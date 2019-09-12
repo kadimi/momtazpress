@@ -1922,7 +1922,7 @@ msgstr ""
 
 #: admin/options.php:1273
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: admin/options.php:1250
 msgid "Justify"

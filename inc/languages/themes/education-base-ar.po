@@ -1929,7 +1929,7 @@ msgstr ""
 #: acmethemes/library/breadcrumbs/breadcrumbs.php:265
 msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: acmethemes/library/breadcrumbs/breadcrumbs.php:264
 msgid "Browse:"

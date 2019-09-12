@@ -2759,7 +2759,7 @@ msgstr "تعدد الصفحات"
 
 #: admin/main.php:214
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: admin/main.php:210
 msgid "Caption type"

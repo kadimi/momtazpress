@@ -25186,7 +25186,7 @@ msgstr "تغيّرت حالة الطلب من %1$s إلى %2$s."
 #: packages/woocommerce-blocks/build/products-by-attribute.js:1
 #: templates/auth/header.php:32
 msgid "WooCommerce"
-msgstr "WooCommerce"
+msgstr "ووكومرس"
 
 #. translators: %d: downloads count
 #. translators: 1: current item count

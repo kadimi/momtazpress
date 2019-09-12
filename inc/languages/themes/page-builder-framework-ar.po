@@ -477,7 +477,7 @@ msgstr ""
 #: inc/customizer/wpbf-kirki.php:217
 #: inc/customizer/wpbf-kirki.php:311
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: inc/customizer/wpbf-kirki.php:203
 msgid "Theme Buttons"
@@ -528,7 +528,7 @@ msgstr ""
 #: inc/breadcrumbs.php:348
 msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: inc/customizer/wpbf-kirki.php:657
 #: inc/customizer/wpbf-kirki.php:696

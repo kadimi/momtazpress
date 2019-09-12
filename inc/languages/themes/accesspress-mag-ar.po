@@ -1178,7 +1178,7 @@ msgstr ""
 
 #: inc/accesspress-options.php:728
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: inc/accesspress-options.php:716
 msgid "Setting this option will make all post pages, that don't have a post sidebar associated to them, to be displayed using this sidebar. This option is OVERWRITTEN by the `Post sidebar` option from the backend - post add / edit page."

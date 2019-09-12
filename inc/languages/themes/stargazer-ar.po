@@ -66,7 +66,7 @@ msgstr ""
 #: library/ext/breadcrumb-trail.php:253
 msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: content/attachment-audio.php:39
 #: content/attachment-image.php:72

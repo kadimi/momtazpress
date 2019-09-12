@@ -1578,7 +1578,7 @@ msgstr ""
 
 #: inc/customizer/kirki-customizer.php:84
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: inc/customizer/kirki-customizer.php:66
 #: inc/kirki/controls/php/class-kirki-control-typography.php:227
@@ -1683,7 +1683,7 @@ msgstr ""
 #: inc/compatibility/class-breadcrumb-trail.php:265
 msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: inc/compatibility/class-breadcrumb-trail.php:264
 msgid "Browse:"

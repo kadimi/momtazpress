@@ -4552,7 +4552,7 @@ msgstr ""
 #: advance/theme-options.php:4486
 #: advance/theme-options.php:4939
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: advance/meta.php:267
 #: advance/meta.php:619

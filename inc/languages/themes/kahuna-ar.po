@@ -1459,7 +1459,7 @@ msgstr ""
 
 #: admin/options.php:1304
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: admin/options.php:1294
 msgid "Paragraph Indentation"

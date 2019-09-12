@@ -2292,7 +2292,7 @@ msgstr "تعدد الصفحات"
 
 #: admin/main.php:163
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسار التصفح"
 
 #: admin/main.php:160
 msgid "Footer Widget Hover Color"
