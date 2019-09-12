@@ -2,6 +2,11 @@
 
 add_action( 'mp_init', function() {
 
+	$number_of_packages = ! empty( $_GET[ 'mp_number' ] )
+		? empty( $_GET[ 'mp_number' ] )
+		: MP_UPDATE_PACKAGE_COUNT
+	;
+
 	/**
 	 * Check if we need an update.
 	 */
@@ -17,7 +22,7 @@ add_action( 'mp_init', function() {
 	/**
 	 * Update plugins.
 	 */
-	foreach ( mp_get_popular_packages( 'plugin', MP_UPDATE_PACKAGE_COUNT ) as $plugin_slug ) {
+	foreach ( mp_get_popular_packages( 'plugin', $number_of_packages ) as $plugin_slug ) {
 		mp_update_package_pomo( $plugin_slug, 'plugin' );
 	}
 
@@ -39,7 +44,7 @@ add_action( 'mp_init', function() {
 	/**
 	 * Update themes.
 	 */
-	foreach ( mp_get_popular_packages( 'theme', MP_UPDATE_PACKAGE_COUNT ) as $theme_slug ) {
+	foreach ( mp_get_popular_packages( 'theme', $number_of_packages ) as $theme_slug ) {
 		mp_update_package_pomo( $theme_slug, 'theme' );
 	}
 
