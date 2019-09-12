@@ -149,13 +149,11 @@ class Builder {
 			$this->find( '.git' ),
 			$this->find( 'build' ),
 			$this->find( 'inc/developer' ),
-			$this->find( 'vendor' ),
 			[
 				'.git/',
 				'composer.lock',
 				'build/',
 				'inc/developer/',
-				'vendor/',
 			]
 		);
 
@@ -465,27 +463,12 @@ class Builder {
 		/**
 		 * Copy MomtazPress files into wp-includes excluding unnecessary files.
 		 */
-		shell_exec( "rsync -av . {$wp_dir}wordpress/wp-includes/MomtazPress \
-			--exclude=\".*\"                                                \
-			--exclude='codesniffer.ruleset.xml'                             \
-			--exclude='LICENSE'                                             \
-			--exclude='README.md'                                           \
-			--exclude='wp'                                                  \
-			--exclude='build/'                                              \
-			--exclude='inc/developer/'                                      \
+		shell_exec( "rsync -av . {$wp_dir}wordpress/wp-content/plugins/MomtazPress \
+			--exclude='.git/'                                                      \
+			--exclude='build/'                                                     \
+			--exclude='inc/developer/'                                             \
+			--exclude='*.po'                                                       \
 		" );
-
-		/**
-		 * Inject MomtazPress code.
-		 */
-		$before = '// Load active plugins.';
-		file_put_contents( "{$wp_dir}wordpress/wp-settings.php", str_replace( $before, ''
-			. "// Load MomtazPress.\n"
-			. "\$wp_local_package = 'ar';\n"
-			. "include WPINC . '/' . 'MomtazPress/class-plugin.php';\n\n"
-			. $before,
-			file_get_contents( "{$wp_dir}wordpress/wp-settings.php" )
-		) );
 
 		/**
 		 * Rename wordpress folders.
