@@ -1750,7 +1750,7 @@ msgstr "تعديل الجدول"
 
 #: controllers/controller-admin.php:556
 msgid "Add New"
-msgstr "أضف جديد"
+msgstr "أضف جديداً"
 
 #: controllers/controller-admin.php:554
 #: controllers/controller-admin.php:555

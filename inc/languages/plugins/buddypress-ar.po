@@ -7416,7 +7416,7 @@ msgstr "أضف من الموجود"
 #: bp-members/classes/class-bp-members-admin.php:1976
 msgctxt "user"
 msgid "Add New"
-msgstr "أضف جديد"
+msgstr "أضف جديداً"
 
 #: bp-members/classes/class-bp-members-admin.php:940
 msgid "&larr; Back to Users"
@@ -9287,7 +9287,7 @@ msgstr "عام"
 #: bp-groups/bp-groups-admin.php:772
 #: bp-groups/bp-groups-admin.php:787
 msgid "Add New"
-msgstr "أضف جديد"
+msgstr "أضف جديداً"
 
 #: bp-members/classes/class-bp-members-admin.php:1951
 #: bp-members/classes/class-bp-members-admin.php:1972

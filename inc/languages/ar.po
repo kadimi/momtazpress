@@ -7523,7 +7523,7 @@ msgstr "إضافة حزمة تغييرات جديدة"
 #: wp-includes/post.php:179
 msgctxt "Customize Changeset"
 msgid "Add New"
-msgstr "أضف جديد"
+msgstr "أضف جديداً"
 
 #: wp-includes/post.php:178
 msgctxt "add new on admin bar"

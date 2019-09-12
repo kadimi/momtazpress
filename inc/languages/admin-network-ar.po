@@ -731,7 +731,7 @@ msgstr "النقر على العناوين البارزة يؤدي إلى إعا
 #: wp-admin/network/themes.php:272
 msgctxt "theme"
 msgid "Add New"
-msgstr "أضف جديد"
+msgstr "أضف جديداً"
 
 #: wp-admin/network/sites.php:30
 msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."

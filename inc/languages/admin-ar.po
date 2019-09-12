@@ -4817,7 +4817,7 @@ msgstr "التوقيت المحلي هو %s."
 #: wp-admin/my-sites.php:72
 msgctxt "site"
 msgid "Add New"
-msgstr "أضف جديد"
+msgstr "أضف جديداً"
 
 #: wp-admin/link-manager.php:77
 msgid "Links list"
@@ -6577,7 +6577,7 @@ msgstr "التحديث متوفر"
 #: wp-admin/themes.php:189
 msgctxt "Add new theme"
 msgid "Add New"
-msgstr "أضف جديد"
+msgstr "أضف جديداً"
 
 #: wp-admin/theme-install.php:55
 #: wp-admin/themes.php:167
@@ -9091,7 +9091,7 @@ msgstr "حذف"
 #: wp-admin/users.php:554
 msgctxt "user"
 msgid "Add New"
-msgstr "أضف جديد"
+msgstr "أضف جديداً"
 
 #: wp-admin/comment.php:55
 #: wp-admin/custom-background.php:98
@@ -11961,7 +11961,7 @@ msgstr "حسابك"
 #: wp-admin/plugins.php:580
 msgctxt "plugin"
 msgid "Add New"
-msgstr "أضف جديد"
+msgstr "أضف جديداً"
 
 #: wp-admin/menu.php:176
 msgid "Appearance"
@@ -11979,7 +11979,7 @@ msgstr "تعليقات %s"
 #: wp-admin/upload.php:270
 msgctxt "file"
 msgid "Add New"
-msgstr "أضف جديد"
+msgstr "أضف جديداً"
 
 #: wp-admin/menu.php:55
 msgid "Library"
@@ -12051,7 +12051,7 @@ msgstr[5] "%s رابط تم حذفه."
 #: wp-admin/menu.php:71
 msgctxt "link"
 msgid "Add New"
-msgstr "أضف جديد"
+msgstr "أضف جديداً"
 
 #: wp-admin/link-add.php:16
 msgid "Add New Link"
