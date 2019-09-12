@@ -5152,7 +5152,7 @@ msgstr "تُمكّنك إضافة PayFast في WooCommerce من قبول الم�
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1489
 msgid "WooCommerce PayFast Gateway"
-msgstr "بوابة عمليات الدفع PayFast لـ ووكومرس WooCommerce"
+msgstr "بوابة عمليات الدفع PayFast لـ WooCommerce"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1482
 msgid "The eWAY extension for WooCommerce allows you to take credit card payments directly on your store without redirecting your customers to a third party site to make payment."
@@ -5160,19 +5160,19 @@ msgstr "تسمح لك إضافة eWAY في WooCommerce بأخذ المدفوعا
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1481
 msgid "WooCommerce eWAY Gateway"
-msgstr "بوابة عمليات الدفع eWAY لـ ووكومرس WooCommerce"
+msgstr "بوابة عمليات الدفع eWAY لـ WooCommerce"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1473
 msgid "WooCommerce Square"
-msgstr "إضافة Square لـ ووكومرس WooCommerce"
+msgstr "إضافة Square لـ WooCommerce"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1465
 msgid "Klarna Payments for WooCommerce"
-msgstr "إضافة عمليات الدفع Klarna لـ ووكومرس WooCommerce"
+msgstr "إضافة عمليات الدفع Klarna لـ WooCommerce"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1457
 msgid "Klarna Checkout for WooCommerce"
-msgstr "إضافة عملية إنهاء الطلب Klarna لـ ووكومرس WooCommerce"
+msgstr "إضافة عملية إنهاء الطلب Klarna لـ WooCommerce"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1392
 msgid "WooCommerce Stripe Gateway"
@@ -15746,13 +15746,13 @@ msgstr "روابط المنتجات الدائمة"
 
 #: includes/admin/class-wc-admin-help.php:91
 msgid "If you need to access the setup wizard again, please click on the button below."
-msgstr "إذا كنت بحاجة إلى الوصول إلى معالج الإعداد مرة أخرى، الرجاء النقر على الزر أدناه."
+msgstr "إذا كنت بحاجة إلى الوصول إلى مساعد التهيئة مرة أخرى، الرجاء النقر على الزر أدناه."
 
 #: includes/admin/class-wc-admin-help.php:88
 #: includes/admin/class-wc-admin-help.php:90
 #: includes/admin/class-wc-admin-help.php:92
 msgid "Setup wizard"
-msgstr "معالج الإعداد"
+msgstr "مساعد التهيئة"
 
 #: includes/admin/class-wc-admin-addons.php:160
 msgid "View more Storefront child themes"
@@ -19657,7 +19657,7 @@ msgstr "تخطي عملية الإعداد"
 
 #: includes/admin/views/html-notice-install.php:13
 msgid "Run the Setup Wizard"
-msgstr "تشغيل معالج الإعداد"
+msgstr "تشغيل مساعد التهيئة"
 
 #: includes/admin/views/html-notice-install.php:12
 msgid "<strong>Welcome to WooCommerce</strong> &#8211; You&lsquo;re almost ready to start selling :)"
@@ -20924,7 +20924,7 @@ msgstr "اللون الأساسي"
 #. translators: %s: Available placeholders for use
 #: includes/admin/settings/class-wc-settings-emails.php:131
 msgid "The text to appear in the footer of all WooCommerce emails."
-msgstr "النص الظاهر في تذييل البريد الإلكتروني من ووكومرس."
+msgstr "النص الظاهر في تذييل البريد الإلكتروني من WooCommerce."
 
 #: includes/admin/settings/class-wc-settings-emails.php:117
 msgid "Header image"
@@ -23238,7 +23238,7 @@ msgstr "هيا بنا!"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:356
 msgid "WooCommerce &rsaquo; Setup Wizard"
-msgstr "WooCommerce &rsaquo; معالج الإعداد"
+msgstr "WooCommerce &rsaquo; مساعد التهيئة"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:280
 msgid "Ready!"
@@ -24300,7 +24300,7 @@ msgstr "الطلبات"
 
 #: includes/admin/class-wc-admin-menus.php:82
 msgid "WooCommerce settings"
-msgstr "إعدادات ووكومرس"
+msgstr "إعدادات WooCommerce"
 
 #: includes/admin/class-wc-admin-menus.php:74
 msgid "Sales reports"
@@ -25186,7 +25186,7 @@ msgstr "تغيّرت حالة الطلب من %1$s إلى %2$s."
 #: packages/woocommerce-blocks/build/products-by-attribute.js:1
 #: templates/auth/header.php:32
 msgid "WooCommerce"
-msgstr "ووكومرس"
+msgstr "WooCommerce"
 
 #. translators: %d: downloads count
 #. translators: 1: current item count
