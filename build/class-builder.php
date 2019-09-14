@@ -98,7 +98,7 @@ class Builder {
 		/**
 		 * Create releases dir.
 		 */
-		shell_exec( "mkdir -p {$this->releases_dir}" );
+		$this->cmd( "mkdir -p {$this->releases_dir}" );
 
 		/**
 		 * Parse options.
@@ -176,7 +176,7 @@ class Builder {
 		/**
 		 * Create plugin package.
 		 */
-		shell_exec( "rm -fr $filename" );
+		$this->cmd( "rm -fr $filename" );
 		$zip = new ZipArchive();
 		if ( $zip->open( $filename, ZipArchive::CREATE ) !== true ) {
 			$this->log_error( 'cannot open $filename.' );
@@ -311,7 +311,7 @@ class Builder {
 		/**
 		 * Run `composer install`.
 		 */
-		shell_exec( 'rm -fr vendor composer.lock && composer install' );
+		$this->cmd( 'rm -fr vendor composer.lock && composer install' );
 
 		/**
 		 * Rename composer classes.
@@ -347,7 +347,7 @@ class Builder {
 		/**
 		 * Prepare `lang`directory
 		 */
-		shell_exec( 'mkdir -p lang' );
+		$this->cmd( 'mkdir -p lang' );
 
 		/**
 		 * Prepare xgettext command.
@@ -392,7 +392,7 @@ class Builder {
 		/**
 		 * Run command and restaure old file if nothing changes except the creation date.
 		 */
-		shell_exec( $pot_command );
+		$this->cmd( $pot_command );
 
 		$this->do_preg_replace(
 			[
@@ -416,7 +416,7 @@ class Builder {
 	 * @return Boolean           True if the command exist or false oterwise.
 	 */
 	protected function shell_command_exists( $command ) {
-		$output = shell_exec( sprintf( 'which %s', escapeshellarg( $command ) ) );
+		$output = $this->cmd( sprintf( 'which %s', escapeshellarg( $command ) ) );
 		return ! empty( $output );
 	}
 
@@ -456,7 +456,7 @@ class Builder {
 		/**
 		 * Preparation cleanup.
 		 */
-		shell_exec( "rm -fr $wp_dir $mp_dir" );
+		$this->cmd( "rm -fr $wp_dir $mp_dir" );
 
 		/**
 		 * Download and uncompress WordPress.
@@ -464,12 +464,12 @@ class Builder {
 		if ( ! file_exists( $wp_file ) ) {
 			file_put_contents( $wp_file, file_get_contents( $wp_url ) );
 		}
-		shell_exec( "mkdir $wp_dir && tar -xvzf $wp_file -C $wp_dir" );
+		$this->cmd( "mkdir $wp_dir && tar -xvzf $wp_file -C $wp_dir" );
 
 		/**
 		 * Copy MomtazPress files into wp-includes excluding unnecessary files.
 		 */
-		shell_exec(
+		$this->cmd(
 			"rsync -av . {$wp_dir}wordpress/wp-content/plugins/MomtazPress         \
 			--exclude='.git/'                                                      \
 			--exclude='build/'                                                     \
@@ -498,9 +498,9 @@ class Builder {
 		/**
 		 * Rename WordPress folders.
 		 */
-		shell_exec( "mv -f $wp_dir $mp_dir" );
+		$this->cmd( "mv -f $wp_dir $mp_dir" );
 		// @codingStandardsIgnoreStart
-		shell_exec( "mv -f {$mp_dir}wordpress {$mp_dir}momtazpress" );
+		$this->cmd( "mv -f {$mp_dir}wordpress {$mp_dir}momtazpress" );
 		// @codingStandardsIgnoreEnd
 
 		/**
@@ -516,7 +516,7 @@ class Builder {
 		/**
 		 * Create distribution package.
 		 */
-		shell_exec( "rm -fr $mp_file" );
+		$this->cmd( "rm -fr $mp_file" );
 		$zip = new ZipArchive();
 		if ( $zip->open( $mp_file, ZipArchive::CREATE ) !== true ) {
 			$this->log_error( "cannot open $mp_file." );
@@ -552,7 +552,7 @@ class Builder {
 		/**
 		 * Cleanup
 		 */
-		shell_exec( "rm -fr $mp_dir" );
+		$this->cmd( "rm -fr $mp_dir" );
 	}
 
 	/**
@@ -610,12 +610,12 @@ class Builder {
 		/**
 		 * Create $tmp.
 		 */
-		shell_exec( "mkdir -p $tmp" );
+		$this->cmd( "mkdir -p $tmp" );
 
 		/**
 		 * Extract file to the random temporary directory.
 		 */
-		shell_exec( "unzip $file -d $tmp_random" );
+		$this->cmd( "unzip $file -d $tmp_random" );
 
 		/**
 		 * cd into newly created random temporary directory to get a proper structure on the zip file.
@@ -625,17 +625,17 @@ class Builder {
 		/**
 		 * Set files timestamps.
 		 */
-		shell_exec( 'find -print | while read filename; do touch -t ' . $timestamp . ' "$filename"; done' );
+		$this->cmd( 'find -print | while read filename; do touch -t ' . $timestamp . ' "$filename"; done' );
 
 		/**
 		 * Compress.
 		 */
-		shell_exec( "zip -X -r ../$random.zip ." );
+		$this->cmd( "zip -X -r ../$random.zip ." );
 
 		/**
 		 * Overwrite original file.
 		 */
-		shell_exec( "mv -f ../$random.zip $file" );
+		$this->cmd( "mv -f ../$random.zip $file" );
 
 		/**
 		 * cd back.
@@ -645,6 +645,12 @@ class Builder {
 		/**
 		 * Cleanup.
 		 */
-		shell_exec( "rm -fr $tmp_random" );
+		$this->cmd( "rm -fr $tmp_random" );
+	}
+
+	private function cmd( $command ) {
+		// @codingStandardsIgnoreStart
+		return shell_exec( $command );
+		// @codingStandardsIgnoreEnd
 	}
 }
