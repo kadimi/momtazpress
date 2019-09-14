@@ -22,7 +22,9 @@ function mp_get_filesystem() {
 	return $filesystem;
 }
 
-function mp_update_pomo( $po_file, $po_url ) {
+function mp_update_pomo( $po_file, $po_url, $use_cache ) {
+
+	$timer = microtime( true );
 
 	/**
 	 * Prepare filesystem.
@@ -51,8 +53,8 @@ function mp_update_pomo( $po_file, $po_url ) {
 	 * @example /tmp/momtazpress-pomo/plugins/akismet-xx_XX.po
 	 */
 	$dl_file = $tmp_dir . basename( $po_file );
-	if ( ! file_exists( $dl_file ) ) {
-		$response = wp_remote_get( $po_url, [ 'timeout' => 10 ] );
+	if ( ! $use_cache || ! file_exists( $dl_file ) ) {
+		$response = wp_remote_get( $po_url, [ 'timeout' => 60 ] );
 		if ( ! $response || is_wp_error( $response ) || 200 !== $response[ 'response' ][ 'code' ] ) {
 			return false;
 		}
@@ -70,70 +72,20 @@ function mp_update_pomo( $po_file, $po_url ) {
 	}
 
 	/**
-	 * Sort header to prevent useless code changes.
+	 * Organize po file to prevent useless code changess.
 	 */
-	$header_sorting_cmd = sprintf( '{ head -n 4 %1$s; head -n 12 %1$s | tail -n +5 | sort; tail -n +13 %1$s; }', $po_file );
-	$po_file_contents = trim( shell_exec( $header_sorting_cmd ) ) . "\n";
-
-	/**
-	 * Sort file paths in po file to prevent useless code changes.
-	 */
-	preg_match_all('/(?<unsorted>(?<paths>#: .+?)(?<cmd>[\n]msg(?:[a-z]+) "))/s', $po_file_contents, $chunks, PREG_SET_ORDER );
-	foreach ( $chunks as $chunk ) {
-		/**
-		 * Get paths (removes '#: ').
-		 */
-		preg_match_all( '/\b[\S]+\b/', $chunk[ 'paths' ], $paths );
-		$paths = $paths[0];
-
-		/**
-		 * Restore '#: '.
-		 */
-		array_walk( $paths, function( &$path ) {
-			$path = "#: $path";
-		} );
-
-		/**
-		 * Pad line numbers to 6 digits.
-		 */
-		array_walk( $paths, function( &$path ) {
-			preg_match_all( '/:(?<line>\d+)/', $path, $lines, PREG_SET_ORDER );
-			foreach ( $lines as $l) {
-				$l_orig = ':' . $l[ 'line' ];
-				$l_padded = ':' . str_pad( $l[ 'line' ], 6, '0', STR_PAD_LEFT );
-				$path = str_replace( $l_orig, $l_padded, $path );
-			}
-		} );
-
-		/**
-		 * Sort paths.
-		 */
-		sort( $paths );
-
-		/**
-		 * Unpad line numbers.
-		 */
-		array_walk( $paths, function( &$path ) {
-			$path = preg_replace( '/:0+/', ':', $path );
-		} );
-
-		$chunk['sorted'] = implode( "\n", $paths ) . $chunk[ 'cmd' ];
-		$po_file_contents = str_replace( $chunk[ 'unsorted' ], $chunk[ 'sorted' ], $po_file_contents );
-	}
-
-	/**
-	 * Save .po file.
-	 */
-	$filesystem->put_contents( $po_file , $po_file_contents , 0644 );
+	mp_organize_po( $po_file, $filesystem );
 
 	/**
 	 * Re-generate mo file.
 	 */
 	$mo_cmd = sprintf( 'msgfmt -o %s %s', preg_replace( '/po$/', 'mo', $po_file ), $po_file );
 	shell_exec( $mo_cmd );
+
+	printf( '%1$s updated in %2$.2fs' . "\n", basename( $po_file ), microtime( true ) - $timer );
 }
 
-function mp_update_core_pomo() {
+function mp_update_core_pomo( $use_cache) {
 
 	$core = [
 		'/' => '',
@@ -154,11 +106,11 @@ function mp_update_core_pomo() {
 	foreach ( $core as $path => $name ) {
 		$po_file = MP_LANG_DIR . ( $name ? "/$name-ar.po" : '/ar.po' );
 		$po_url = "https://translate.wordpress.org/projects/wp/dev" . $path . '/ar/default/export-translations?format=po';
-		mp_update_pomo( $po_file, $po_url );
+		mp_update_pomo( $po_file, $po_url, $use_cache );
 	}
 }
 
-function mp_update_package_pomo( $slug, $type ) {
+function mp_update_package_pomo( $slug, $type, $use_cache ) {
 
 	/**
 	 * Check type.
@@ -179,7 +131,7 @@ function mp_update_package_pomo( $slug, $type ) {
 	 */
 	$po_file = MP_LANG_DIR . "/{$type}s/$slug-ar.po";
 	$po_url = "https://translate.wordpress.org/projects/wp-{$type}s/" . $slug . ( 'plugin' === $type ? '/stable' : '' ) . '/ar/default/export-translations?format=po';
-	mp_update_pomo( $po_file, $po_url );
+	mp_update_pomo( $po_file, $po_url, $use_cache );
 }
 
 /**
@@ -247,4 +199,74 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 	 * Done.
 	 */
 	return $packages;
+}
+
+/**
+ * Organize po file.
+ *
+ * - Sort header lines
+ * - Make file paths one per line and sort them.
+ */
+function mp_organize_po( $file, $filesystem ) {
+
+	/**
+	 * Sort header.
+	 */
+	$header_sorting_cmd = sprintf( '{ head -n 4 %1$s; head -n 12 %1$s | tail -n +5 | sort; tail -n +13 %1$s; }', $file );
+	$file_contents = trim( shell_exec( $header_sorting_cmd ) ) . "\n";
+
+	/**
+	 * Sort file paths.
+	 */
+	preg_match_all('/(?<unsorted>(?<paths>#: .+?)(?<cmd>[\n]msg(?:[a-z]+) "))/s', $file_contents, $chunks, PREG_SET_ORDER );
+
+	$replacements = [];
+	foreach ( $chunks as $chunk ) {
+
+		/**
+		 * Get paths (removes '#: ').
+		 */
+		preg_match_all( '/\b[\S]+\b/', $chunk[ 'paths' ], $paths );
+		$paths = $paths[0];
+
+		/**
+		 * Restore '#: '.
+		 */
+		array_walk( $paths, function( &$path ) {
+			$path = "#: $path";
+		} );
+
+		/**
+		 * Pad line numbers to 6 digits.
+		 */
+		array_walk( $paths, function( &$path ) {
+			preg_match_all( '/:(?<line>\d+)/', $path, $lines, PREG_SET_ORDER );
+			foreach ( $lines as $l) {
+				$l_orig = ':' . $l[ 'line' ];
+				$l_padded = ':' . str_pad( $l[ 'line' ], 6, '0', STR_PAD_LEFT );
+				$path = str_replace( $l_orig, $l_padded, $path );
+			}
+		} );
+
+		/**
+		 * Sort paths.
+		 */
+		sort( $paths );
+
+		/**
+		 * Unpad line numbers.
+		 */
+		array_walk( $paths, function( &$path ) {
+			$path = trim( preg_replace( '/:0+/', ':', $path ) );
+		} );
+
+		$chunk['sorted'] = implode( "\n", $paths ) . $chunk[ 'cmd' ];
+		$replacements[ "\n" . $chunk[ 'unsorted' ] ] = "\n" . $chunk[ 'sorted' ];
+	}
+	$file_contents = str_replace( array_keys( $replacements ), array_values( $replacements ), $file_contents );
+
+	/**
+	 * Save file.
+	 */
+	$filesystem->put_contents( $file , $file_contents , 0644 );
 }
