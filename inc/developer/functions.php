@@ -3,7 +3,7 @@
 /**
  * Get the WP_Filesystem_Direct instance.
  *
- * @return WP_Filesystem_Direct	The instance.
+ * @return WP_Filesystem_Direct The instance.
  */
 function mp_get_filesystem() {
 	static $filesystem = false;
@@ -41,9 +41,8 @@ function mp_update_pomo( $po_file, $po_url, $use_cache ) {
 		. DIRECTORY_SEPARATOR
 		. 'momtazpress-pomo'
 		. DIRECTORY_SEPARATOR
-		. preg_replace('/.*\//', '', dirname( $po_file ) )
-		. DIRECTORY_SEPARATOR
-	;
+		. preg_replace( '/.*\//', '', dirname( $po_file ) )
+		. DIRECTORY_SEPARATOR;
 	shell_exec( 'mkdir -p ' . sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'momtazpress-pomo' );
 	shell_exec( "mkdir -p $tmp_dir" );
 
@@ -55,10 +54,10 @@ function mp_update_pomo( $po_file, $po_url, $use_cache ) {
 	$dl_file = $tmp_dir . basename( $po_file );
 	if ( ! $use_cache || ! file_exists( $dl_file ) ) {
 		$response = wp_remote_get( $po_url, [ 'timeout' => 60 ] );
-		if ( ! $response || is_wp_error( $response ) || 200 !== $response[ 'response' ][ 'code' ] ) {
+		if ( ! $response || is_wp_error( $response ) || 200 !== $response['response']['code'] ) {
 			return false;
 		}
-		$filesystem->put_contents( $dl_file , $response[ 'body' ], 0644 );
+		$filesystem->put_contents( $dl_file, $response['body'], 0644 );
 	}
 
 	/**
@@ -68,7 +67,7 @@ function mp_update_pomo( $po_file, $po_url, $use_cache ) {
 		$merge_cmd = sprintf( 'msgmerge --no-wrap -U --backup=none %1$s %2$s', $po_file, $dl_file );
 		shell_exec( $merge_cmd );
 	} else {
-		$filesystem->copy( $dl_file , $po_file , 0644 );
+		$filesystem->copy( $dl_file, $po_file, 0644 );
 	}
 
 	/**
@@ -85,13 +84,13 @@ function mp_update_pomo( $po_file, $po_url, $use_cache ) {
 	printf( '%1$s updated in %2$.2fs' . "\n", basename( $po_file ), microtime( true ) - $timer );
 }
 
-function mp_update_core_pomo( $use_cache) {
+function mp_update_core_pomo( $use_cache ) {
 
 	$core = [
-		'/' => '',
-		'/admin' => 'admin',
+		'/'              => '',
+		'/admin'         => 'admin',
 		'/admin/network' => 'admin-network',
-		'/cc' => 'continents-cities',
+		'/cc'            => 'continents-cities',
 	];
 
 	/**
@@ -105,7 +104,7 @@ function mp_update_core_pomo( $use_cache) {
 	 */
 	foreach ( $core as $path => $name ) {
 		$po_file = MP_LANG_DIR . ( $name ? "/$name-ar.po" : '/ar.po' );
-		$po_url = "https://translate.wordpress.org/projects/wp/dev" . $path . '/ar/default/export-translations?format=po';
+		$po_url  = 'https://translate.wordpress.org/projects/wp/dev' . $path . '/ar/default/export-translations?format=po';
 		mp_update_pomo( $po_file, $po_url, $use_cache );
 	}
 }
@@ -130,7 +129,7 @@ function mp_update_package_pomo( $slug, $type, $use_cache ) {
 	 * Update package.
 	 */
 	$po_file = MP_LANG_DIR . "/{$type}s/$slug-ar.po";
-	$po_url = "https://translate.wordpress.org/projects/wp-{$type}s/" . $slug . ( 'plugin' === $type ? '/stable' : '' ) . '/ar/default/export-translations?format=po';
+	$po_url  = "https://translate.wordpress.org/projects/wp-{$type}s/" . $slug . ( 'plugin' === $type ? '/stable' : '' ) . '/ar/default/export-translations?format=po';
 	mp_update_pomo( $po_file, $po_url, $use_cache );
 }
 
@@ -154,8 +153,7 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 		. '&request[fields][screenshot_url]=0'
 		. '&request[fields][preview_url]=0'
 		. '&request[browse]=popular'
-		. '&request[per_page]=250'
-	;
+		. '&request[per_page]=250';
 	if ( 'theme' === $type ) {
 		foreach ( explode( '|', MP_UPDATE_THEME_TAGS ) as $tag ) {
 			$url .= '&request[tag]=' . $tag;
@@ -169,23 +167,29 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 	if ( file_exists( $cache_file ) ) {
 		$dl_content = file_get_contents( $cache_file );
 	} else {
-		$response = wp_remote_get( $url, [
-			'timeout' => 30,
-		] );
-		if ( ! $response || is_wp_error( $response ) || 200 !== $response[ 'response' ][ 'code' ] ) {
+		$response = wp_remote_get(
+			$url,
+			[
+				'timeout' => 30,
+			]
+		);
+		if ( ! $response || is_wp_error( $response ) || 200 !== $response['response']['code'] ) {
 			return [];
 		}
-		$dl_content = $response[ 'body' ];
+		$dl_content = $response['body'];
 		file_put_contents( $cache_file, $dl_content );
 	}
 
 	/**
 	 * Get packages sorted by download count.
 	 */
-	$packages_from_api = ( array ) json_decode( $dl_content )->{ $type . 's' };
-	usort( $packages_from_api, function( $a, $b ) {
-		return $a->downloaded < $b->downloaded;
-	} );
+	$packages_from_api = (array) json_decode( $dl_content )->{ $type . 's' };
+	usort(
+		$packages_from_api,
+		function( $a, $b ) {
+			return $a->downloaded < $b->downloaded;
+		}
+	);
 
 	/**
 	 * Grab first `$number` packages.
@@ -213,12 +217,12 @@ function mp_organize_po( $file, $filesystem ) {
 	 * Sort header.
 	 */
 	$header_sorting_cmd = sprintf( '{ head -n 4 %1$s; head -n 12 %1$s | tail -n +5 | sort; tail -n +13 %1$s; }', $file );
-	$file_contents = trim( shell_exec( $header_sorting_cmd ) ) . "\n";
+	$file_contents      = trim( shell_exec( $header_sorting_cmd ) ) . "\n";
 
 	/**
 	 * Sort file paths.
 	 */
-	preg_match_all('/(?<unsorted>(?<paths>#: .+?)(?<cmd>[\n]msg(?:[a-z]+) "))/s', $file_contents, $chunks, PREG_SET_ORDER );
+	preg_match_all( '/(?<unsorted>(?<paths>#: .+?)(?<cmd>[\n]msg(?:[a-z]+) "))/s', $file_contents, $chunks, PREG_SET_ORDER );
 
 	$replacements = [];
 	foreach ( $chunks as $chunk ) {
@@ -226,27 +230,33 @@ function mp_organize_po( $file, $filesystem ) {
 		/**
 		 * Get paths (removes '#: ').
 		 */
-		preg_match_all( '/\b[\S]+\b/', $chunk[ 'paths' ], $paths );
+		preg_match_all( '/\b[\S]+\b/', $chunk['paths'], $paths );
 		$paths = $paths[0];
 
 		/**
 		 * Restore '#: '.
 		 */
-		array_walk( $paths, function( &$path ) {
-			$path = "#: $path";
-		} );
+		array_walk(
+			$paths,
+			function( &$path ) {
+				$path = "#: $path";
+			}
+		);
 
 		/**
 		 * Pad line numbers to 6 digits.
 		 */
-		array_walk( $paths, function( &$path ) {
-			preg_match_all( '/:(?<line>\d+)/', $path, $lines, PREG_SET_ORDER );
-			foreach ( $lines as $l) {
-				$l_orig = ':' . $l[ 'line' ];
-				$l_padded = ':' . str_pad( $l[ 'line' ], 6, '0', STR_PAD_LEFT );
-				$path = str_replace( $l_orig, $l_padded, $path );
+		array_walk(
+			$paths,
+			function( &$path ) {
+				preg_match_all( '/:(?<line>\d+)/', $path, $lines, PREG_SET_ORDER );
+				foreach ( $lines as $l ) {
+					$l_orig   = ':' . $l['line'];
+					$l_padded = ':' . str_pad( $l['line'], 6, '0', STR_PAD_LEFT );
+					$path     = str_replace( $l_orig, $l_padded, $path );
+				}
 			}
-		} );
+		);
 
 		/**
 		 * Sort paths.
@@ -256,17 +266,20 @@ function mp_organize_po( $file, $filesystem ) {
 		/**
 		 * Unpad line numbers.
 		 */
-		array_walk( $paths, function( &$path ) {
-			$path = trim( preg_replace( '/:0+/', ':', $path ) );
-		} );
+		array_walk(
+			$paths,
+			function( &$path ) {
+				$path = trim( preg_replace( '/:0+/', ':', $path ) );
+			}
+		);
 
-		$chunk['sorted'] = implode( "\n", $paths ) . $chunk[ 'cmd' ];
-		$replacements[ "\n" . $chunk[ 'unsorted' ] ] = "\n" . $chunk[ 'sorted' ];
+		$chunk['sorted']                           = implode( "\n", $paths ) . $chunk['cmd'];
+		$replacements[ "\n" . $chunk['unsorted'] ] = "\n" . $chunk['sorted'];
 	}
 	$file_contents = str_replace( array_keys( $replacements ), array_values( $replacements ), $file_contents );
 
 	/**
 	 * Save file.
 	 */
-	$filesystem->put_contents( $file , $file_contents , 0644 );
+	$filesystem->put_contents( $file, $file_contents, 0644 );
 }

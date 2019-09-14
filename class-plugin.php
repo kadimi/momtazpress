@@ -33,7 +33,9 @@ function mp( $args = [] ) {
 /**
  * Fire plugin.
  */
-mp( [
-	'slug' => 'mp',
-	'version' => '5.2.3',
-] );
+mp(
+	[
+		'slug'    => 'mp',
+		'version' => '5.2.3',
+	]
+);

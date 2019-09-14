@@ -41,9 +41,9 @@ class Builder {
 	 * @var array
 	 */
 	private $tasks = [
-		'composer_install' => 'Install dependencies',
-		'pot' => 'Create pot file',
-		'package_plugin' => 'Package plugin',
+		'composer_install'     => 'Install dependencies',
+		'pot'                  => 'Create pot file',
+		'package_plugin'       => 'Package plugin',
 		'package_distribution' => 'Package distribution',
 	];
 
@@ -83,14 +83,14 @@ class Builder {
 		/**
 		 * Parse options.
 		 */
-		$opts = getopt( 's:v:t:x::' );
+		$opts  = getopt( 's:v:t:x::' );
 		$opts += [
 			'x' => '',
 		];
 		if ( 0
-			|| empty( $opts[ 's' ] )
-			|| empty( $opts[ 'v' ] )
-			|| empty( $opts[ 't' ] )
+			|| empty( $opts['s'] )
+			|| empty( $opts['v'] )
+			|| empty( $opts['t'] )
 		) {
 			$this->log_error( "Missing parameters.\n- Usage: php -f build/build.php -s{slug} -v{version} -t{timestamp} [-x{task1|task2}]" );
 		}
@@ -103,16 +103,16 @@ class Builder {
 		/**
 		 * Parse options.
 		 */
-		$this->timer = microtime( true );
-		$this->slug = $opts[ 's' ];
-		$this->version = $opts[ 'v' ];
-		$this->timestamp =  $opts[ 't' ];
+		$this->timer     = microtime( true );
+		$this->slug      = $opts['s'];
+		$this->version   = $opts['v'];
+		$this->timestamp = $opts['t'];
 
 		/**
 		 * Run tasks.
 		 */
 		foreach ( $this->tasks as $task => $title ) {
-			if ( ! in_array( $task, explode( '|', $opts[ 'x' ] ) ) ) {
+			if ( ! in_array( $task, explode( '|', $opts['x'] ) ) ) {
 				$this->task( [ $this, $task ], $title );
 			}
 		}
@@ -163,16 +163,15 @@ class Builder {
 		 *   - .gitkeep
 		 *   - *.po
 		 */
-		$files = array_filter( $files, function( $file ) {
-			if ( 0
-				// || substr( $file, 0, 1 ) === '.'
-				// || substr( $file, -8 ) === '.gitkeep'
-				|| substr( $file, -3 ) === '.po'
-			) {
-				return false;
+		$files = array_filter(
+			$files,
+			function( $file ) {
+				if ( substr( $file, -3 ) === '.po' ) {
+					return false;
+				}
+				return true;
 			}
-			return true;
-		} );
+		);
 
 		/**
 		 * Create plugin package.
@@ -318,17 +317,19 @@ class Builder {
 		 * Rename composer classes.
 		 */
 		$prefix = md5( sprintf( '%s:%s', $this->slug, $this->version ) );
-		$this->do_preg_replace ( [
-			'vendor/autoload.php' => [
-				'/Composer([a-z]+)[0-9a-f]{32}/i' => 'Composer$1' . $prefix,
-			],
-			'vendor/composer/autoload_real.php' => [
-				'/Composer([a-z]+)[0-9a-f]{32}/i' => 'Composer$1' . $prefix,
-			],
-			'vendor/composer/autoload_static.php' => [
-				'/Composer([a-z]+)[0-9a-f]{32}/i' => 'Composer$1' . $prefix,
-			],
-		] );
+		$this->do_preg_replace(
+			[
+				'vendor/autoload.php'                 => [
+					'/Composer([a-z]+)[0-9a-f]{32}/i' => 'Composer$1' . $prefix,
+				],
+				'vendor/composer/autoload_real.php'   => [
+					'/Composer([a-z]+)[0-9a-f]{32}/i' => 'Composer$1' . $prefix,
+				],
+				'vendor/composer/autoload_static.php' => [
+					'/Composer([a-z]+)[0-9a-f]{32}/i' => 'Composer$1' . $prefix,
+				],
+			]
+		);
 	}
 
 	/**
@@ -393,16 +394,17 @@ class Builder {
 		 */
 		shell_exec( $pot_command );
 
-		$this->do_preg_replace ( [
-			$pot_filename => [
-				sprintf( "/\"%s:[^\n]+\n/", 'Language' ) => '',
-				sprintf( "/\"%s:[^\n]+\n/", 'Language-Team' ) => '',
-				sprintf( "/\"%s:[^\n]+\n/", 'Last-Translator') => '',
-				sprintf( "/\"%s:[^\n]+\n/", 'Plural-Forms' ) => '',
-				'/"(PO|POT)-([a-z]+)-Date: .*/i' => '"$1-$2-Date: YEAR-MO-DA HO:MI+ZONE\n"',
-			],
-		] );
-
+		$this->do_preg_replace(
+			[
+				$pot_filename => [
+					sprintf( "/\"%s:[^\n]+\n/", 'Language' ) => '',
+					sprintf( "/\"%s:[^\n]+\n/", 'Language-Team' ) => '',
+					sprintf( "/\"%s:[^\n]+\n/", 'Last-Translator' ) => '',
+					sprintf( "/\"%s:[^\n]+\n/", 'Plural-Forms' ) => '',
+					'/"(PO|POT)-([a-z]+)-Date: .*/i' => '"$1-$2-Date: YEAR-MO-DA HO:MI+ZONE\n"',
+				],
+			]
+		);
 
 		$this->log( 'Language file handled successfully.' );
 	}
@@ -425,24 +427,28 @@ class Builder {
 
 		$cwd = getcwd();
 
-		$mp_dir = sprintf( '%1$smomtazpress-distro-%2$s'
-			, sys_get_temp_dir() . DIRECTORY_SEPARATOR
-			, $this->version
+		$mp_dir = sprintf(
+			'%1$smomtazpress-distro-%2$s',
+			sys_get_temp_dir() . DIRECTORY_SEPARATOR,
+			$this->version
 		) . DIRECTORY_SEPARATOR;
 
-		$mp_file = sprintf( '%1$smomtazpress-distro-%2$s.zip'
-			, $this->releases_dir
-			, $this->version
+		$mp_file = sprintf(
+			'%1$smomtazpress-distro-%2$s.zip',
+			$this->releases_dir,
+			$this->version
 		);
 
-		$wp_dir = sprintf( '%1$swordpress-%2$s'
-			, sys_get_temp_dir() . DIRECTORY_SEPARATOR
-			, $this->version
+		$wp_dir = sprintf(
+			'%1$swordpress-%2$s',
+			sys_get_temp_dir() . DIRECTORY_SEPARATOR,
+			$this->version
 		) . DIRECTORY_SEPARATOR;
 
-		$wp_file = sprintf( '%1$swordpress-%2$s.tar.gz'
-			, sys_get_temp_dir() . DIRECTORY_SEPARATOR
-			, $this->version
+		$wp_file = sprintf(
+			'%1$swordpress-%2$s.tar.gz',
+			sys_get_temp_dir() . DIRECTORY_SEPARATOR,
+			$this->version
 		);
 
 		$wp_url = sprintf( 'https://wordpress.org/wordpress-%s.tar.gz', $this->version );
@@ -450,7 +456,7 @@ class Builder {
 		/**
 		 * Preparation cleanup.
 		 */
-		shell_exec( "rm -fr $wp_dir $mp_dir");
+		shell_exec( "rm -fr $wp_dir $mp_dir" );
 
 		/**
 		 * Download and uncompress WordPress.
@@ -463,30 +469,39 @@ class Builder {
 		/**
 		 * Copy MomtazPress files into wp-includes excluding unnecessary files.
 		 */
-		shell_exec( "rsync -av . {$wp_dir}wordpress/wp-content/plugins/MomtazPress \
+		shell_exec(
+			"rsync -av . {$wp_dir}wordpress/wp-content/plugins/MomtazPress         \
 			--exclude='.git/'                                                      \
 			--exclude='build/'                                                     \
 			--exclude='inc/developer/'                                             \
 			--exclude='*.po'                                                       \
-		" );
+		"
+		);
 
 		/**
 		 * Inject MomtazPress code.
 		 */
 		$before = '// Load active plugins.';
-		file_put_contents( "{$wp_dir}wordpress/wp-settings.php", str_replace( $before, ''
-			. "// Start MomtazPress Injected Code\n"
-			. "\$wp_local_package = 'ar';\n"
-			. "// Start MomtazPress Injected Code\n\n"
-			. $before,
-			file_get_contents( "{$wp_dir}wordpress/wp-settings.php" )
-		) );
+		file_put_contents(
+			"{$wp_dir}wordpress/wp-settings.php",
+			str_replace(
+				$before,
+				''
+				. "// Start MomtazPress Injected Code\n"
+				. "\$wp_local_package = 'ar';\n"
+				. "// Start MomtazPress Injected Code\n\n"
+				. $before,
+				file_get_contents( "{$wp_dir}wordpress/wp-settings.php" )
+			)
+		);
 
 		/**
-		 * Rename wordpress folders.
+		 * Rename WordPress folders.
 		 */
 		shell_exec( "mv -f $wp_dir $mp_dir" );
+		// @codingStandardsIgnoreStart
 		shell_exec( "mv -f {$mp_dir}wordpress {$mp_dir}momtazpress" );
+		// @codingStandardsIgnoreEnd
 
 		/**
 		 * Change working directory to `$mp_dir` to get a proper structure on the zip file.
@@ -549,13 +564,16 @@ class Builder {
 			$contents = file_get_contents( $file );
 			foreach ( $replacements as $regex => $replacement ) {
 				$contents = preg_replace( $regex, $replacement, $contents, -1, $sub_count );
-				$count += $sub_count;
+				$count   += $sub_count;
 			}
 			file_put_contents( $file, $contents );
-			$this->log( sprintf( '%d replacements made in %s.'
-				, $count
-				, $file
-			) );
+			$this->log(
+				sprintf(
+					'%d replacements made in %s.',
+					$count,
+					$file
+				)
+			);
 		}
 	}
 
@@ -565,15 +583,14 @@ class Builder {
 	 * @link https://stackoverflow.com/a/11860664
 	 */
 	private function filesize_formatted( $path ) {
-		$size = filesize( $path );
-		$units = array( 'B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB');
+		$size  = filesize( $path );
+		$units = array( 'B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB' );
 		$power = $size > 0 ? floor( log( $size, 1024 ) ) : 0;
 		return number_format( $size / pow( 1024, $power ), 2, '.', ',' ) . ' ' . $units[ $power ];
 	}
 
 	/**
 	 * Get hashes.
-	 *
 	 */
 	private function hashes( $path ) {
 		return 'MD5: ' . md5_file( $path );
@@ -586,8 +603,8 @@ class Builder {
 
 		$cwd = getcwd();
 
-		$random = substr( str_shuffle( MD5( microtime() ) ), 0, 10 );
-		$tmp = sys_get_temp_dir() . DIRECTORY_SEPARATOR . basename( $file) . DIRECTORY_SEPARATOR;
+		$random     = substr( str_shuffle( MD5( microtime() ) ), 0, 10 );
+		$tmp        = sys_get_temp_dir() . DIRECTORY_SEPARATOR . basename( $file ) . DIRECTORY_SEPARATOR;
 		$tmp_random = $tmp . $random . DIRECTORY_SEPARATOR;
 
 		/**
@@ -608,11 +625,7 @@ class Builder {
 		/**
 		 * Set files timestamps.
 		 */
-		shell_exec( '
-			find -print | while read filename; do
-				touch -t ' . $timestamp . ' "$filename"
-			done
-		' );
+		shell_exec( 'find -print | while read filename; do touch -t ' . $timestamp . ' "$filename"; done' );
 
 		/**
 		 * Compress.
