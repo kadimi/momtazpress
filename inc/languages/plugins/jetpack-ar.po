@@ -2314,9 +2314,9 @@ msgstr "يلزم وجود access_token"
 msgid "WooCommerce auth data is already set."
 msgstr "تم تعيين بيانات مصادقة WooCommerce بالفعل."
 
-#: extensions/blocks/business-hours/business-hours.php:129
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: extensions/blocks/business-hours/business-hours.php:129
 msgid "Closed"
 msgstr "مغلق"
 
@@ -3759,9 +3759,9 @@ msgstr "اختيار واحدة"
 msgid "Choose several"
 msgstr "اختيار متعدد"
 
-#: modules/contact-form/grunion-contact-form.php:2301
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: modules/contact-form/grunion-contact-form.php:2301
 msgid "Phone"
 msgstr "الهاتف"
 
@@ -5968,9 +5968,9 @@ msgstr "عرض رابط التعليق"
 msgid "Simple Payments products"
 msgstr "منتجات عمليات الدفع البسيطة"
 
-#: modules/simple-payments/simple-payments.php:502
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: modules/simple-payments/simple-payments.php:502
 msgid "Product"
 msgstr "المنتج"
 
@@ -7651,9 +7651,9 @@ msgstr "عرض الوسوم"
 msgid "Display categories"
 msgstr "عرض الفئات"
 
-#: modules/theme-tools/content-options/customizer.php:186
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: modules/theme-tools/content-options/customizer.php:186
 msgid "Display date"
 msgstr "عرض التاريخ"
 
@@ -10954,9 +10954,9 @@ msgctxt "placeholder: dropdown menu to select widget visibility; hide if or show
 msgid "%s if:"
 msgstr "%s لو:"
 
-#: modules/widget-visibility/widget-conditions.php:267
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: modules/widget-visibility/widget-conditions.php:267
 msgid "Visibility"
 msgstr "الظهور:"
 
@@ -11394,11 +11394,12 @@ msgstr "أحسن مشاركات"
 msgid "%1$s %2$s Views"
 msgstr "%1$s %2$s مشاهدة"
 
-#: modules/stats.php:1099 modules/contact-form/grunion-editor-view.php:92
-#: modules/contact-form/grunion-contact-form.php:1846
-#: modules/videopress/class.videopress-player.php:305
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: modules/contact-form/grunion-contact-form.php:1846
+#: modules/contact-form/grunion-editor-view.php:92
+#: modules/stats.php:1099
+#: modules/videopress/class.videopress-player.php:305
 msgid "Submit"
 msgstr "تنفيذ"
 
@@ -11516,9 +11517,10 @@ msgstr "تتطلب عرض الشرائح هذه للجافا سكريبت."
 msgid "Click to view slideshow."
 msgstr "اضغط لمشاهدة عرض الشرائح."
 
-#: modules/widgets/gallery.php:373 modules/shortcodes/slideshow.php:73
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: modules/shortcodes/slideshow.php:73
+#: modules/widgets/gallery.php:373
 msgid "Slideshow"
 msgstr "عرض شرائح"
 
@@ -12222,9 +12224,9 @@ msgstr "القوالب"
 msgid "Plugins"
 msgstr "إضافات"
 
-#: modules/related-posts/class.related-posts-customize.php:50
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: modules/related-posts/class.related-posts-customize.php:50
 msgid "Related Posts"
 msgstr "تدوينات ذات صلة"
 
@@ -12264,11 +12266,7 @@ msgstr ""
 msgid "LaTeX is a powerful markup language for writing complex mathematical equations and formulas."
 msgstr "LaTeX هي لغة ترميز قوية لكتابة المعادلات والصيغ الرياضية المعقدة."
 
-#: modules/masterbar/masterbar.php:371 modules/masterbar/masterbar.php:377
-#: modules/masterbar/masterbar.php:683 modules/notes.php:173
-#: _inc/blocks/editor-beta.js:24
-#: _inc/blocks/editor.js:24
-msgid "Notifications"
+Notifications"
 msgstr "الإشعارات"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:199
@@ -13870,11 +13868,12 @@ msgstr "الإضافة"
 msgid "Mode:"
 msgstr "النمط:"
 
-#: modules/custom-css/custom-css-4.7.php:757
-#: modules/custom-css/custom-css.php:1163
-#: modules/custom-css/custom-css.php:1168 modules/widgets/image-widget.php:243
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: modules/custom-css/custom-css-4.7.php:757
+#: modules/custom-css/custom-css.php:1163
+#: modules/custom-css/custom-css.php:1168
+#: modules/widgets/image-widget.php:243
 msgid "None"
 msgstr "بدون"
 
@@ -14045,25 +14044,25 @@ msgstr "الخيار الأول"
 msgid "Options"
 msgstr "إعدادات"
 
-#: modules/contact-form/grunion-form-view.php:219
-#: modules/contact-form/grunion-editor-view.php:222
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: modules/contact-form/grunion-editor-view.php:222
+#: modules/contact-form/grunion-form-view.php:219
 msgid "Textarea"
 msgstr "مربع نص"
 
-#: modules/contact-form/grunion-form-view.php:218
-#: modules/contact-form/grunion-editor-view.php:218
-#: modules/contact-form/grunion-contact-form.php:2291
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: modules/contact-form/grunion-contact-form.php:2291
+#: modules/contact-form/grunion-editor-view.php:218
+#: modules/contact-form/grunion-form-view.php:218
 msgid "Text"
 msgstr "نص"
 
-#: modules/contact-form/grunion-form-view.php:217
-#: modules/contact-form/grunion-editor-view.php:226
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: modules/contact-form/grunion-editor-view.php:226
+#: modules/contact-form/grunion-form-view.php:217
 msgid "Radio"
 msgstr "زر اختيار"
 
@@ -14072,11 +14071,11 @@ msgstr "زر اختيار"
 msgid "Drop down"
 msgstr "قائمة منسدلة"
 
-#: modules/contact-form/grunion-form-view.php:212
-#: modules/contact-form/grunion-editor-view.php:223
-#: modules/contact-form/grunion-contact-form.php:2305
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: modules/contact-form/grunion-contact-form.php:2305
+#: modules/contact-form/grunion-editor-view.php:223
+#: modules/contact-form/grunion-form-view.php:212
 msgid "Checkbox"
 msgstr "مربع اختيار"
 
@@ -14238,10 +14237,10 @@ msgstr "الاسم"
 msgid "Yes"
 msgstr "نعم"
 
-#: modules/contact-form/grunion-editor-view.php:94
-#: modules/contact-form/grunion-contact-form.php:3421
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: modules/contact-form/grunion-contact-form.php:3421
+#: modules/contact-form/grunion-editor-view.php:94
 msgid "(required)"
 msgstr "**مطلوب"
 
@@ -14418,13 +14417,13 @@ msgstr "أسترجع العنصر من سلة المهملات"
 msgid "Date"
 msgstr "التاريخ"
 
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
-#: modules/contact-form/admin.php:271
-#: modules/contact-form/grunion-editor-view.php:90
-#: modules/contact-form/grunion-contact-form.php:1870
-#: modules/contact-form/grunion-contact-form.php:2303
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
+#: modules/contact-form/admin.php:271
+#: modules/contact-form/grunion-contact-form.php:1870
+#: modules/contact-form/grunion-contact-form.php:2303
+#: modules/contact-form/grunion-editor-view.php:90
 msgid "Message"
 msgstr "رسالة"
 
@@ -14628,29 +14627,29 @@ msgstr "فشل التحقق من المناسبة الحالية."
 msgid "Missing attachment ID."
 msgstr "رقم المرفق مفقود."
 
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
-#: modules/carousel/jetpack-carousel.php:297
-#: modules/contact-form/grunion-form-view.php:220
-#: modules/contact-form/grunion-editor-view.php:89
-#: modules/contact-form/grunion-editor-view.php:221
-#: modules/contact-form/grunion-contact-form.php:1862
-#: modules/contact-form/grunion-contact-form.php:2297
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
+#: modules/carousel/jetpack-carousel.php:297
+#: modules/contact-form/grunion-contact-form.php:1862
+#: modules/contact-form/grunion-contact-form.php:2297
+#: modules/contact-form/grunion-editor-view.php:89
+#: modules/contact-form/grunion-editor-view.php:221
+#: modules/contact-form/grunion-form-view.php:220
 msgid "Website"
 msgstr "الموقع"
 
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
-#: modules/carousel/jetpack-carousel.php:293
-#: modules/widgets/simple-payments/form.php:147
-#: modules/widgets/social-icons.php:565
-#: modules/contact-form/grunion-form-view.php:215
-#: modules/contact-form/grunion-editor-view.php:88
-#: modules/contact-form/grunion-editor-view.php:220
-#: modules/contact-form/grunion-contact-form.php:1861
-#: modules/contact-form/grunion-contact-form.php:2295
 #: _inc/blocks/editor-beta.js:24
 #: _inc/blocks/editor.js:24
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1059
+#: modules/carousel/jetpack-carousel.php:293
+#: modules/contact-form/grunion-contact-form.php:1861
+#: modules/contact-form/grunion-contact-form.php:2295
+#: modules/contact-form/grunion-editor-view.php:88
+#: modules/contact-form/grunion-editor-view.php:220
+#: modules/contact-form/grunion-form-view.php:215
+#: modules/widgets/simple-payments/form.php:147
+#: modules/widgets/social-icons.php:565
 msgid "Email"
 msgstr "البريد الإلكتروني"
 
@@ -15592,14 +15591,15 @@ msgstr "الكل"
 msgid "View:"
 msgstr "عرض:"
 
+#: _inc/blocks/editor-beta.js:24
+#: _inc/blocks/editor.js:24
 #: _inc/jetpack-strings.php:154
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:92
-#: modules/masterbar/masterbar.php:461 modules/widgets/search.php:62
+#: modules/masterbar/masterbar.php:461
 #: modules/minileven/theme/pub/minileven/searchform.php:9
 #: modules/minileven/theme/pub/minileven/searchform.php:10
 #: modules/minileven/theme/pub/minileven/searchform.php:11
-#: _inc/blocks/editor-beta.js:24
-#: _inc/blocks/editor.js:24
+#: modules/widgets/search.php:62
 msgid "Search"
 msgstr "بحث"
 

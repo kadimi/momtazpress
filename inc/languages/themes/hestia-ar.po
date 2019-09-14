@@ -128,12 +128,12 @@ msgstr "أوّلاً "
 msgid "Display"
 msgstr "عَرْض"
 
-#: inc/customizer/controls/ui/subscribe-info/class-hestia-subscribe-info.php:159
+#: inc/customizer/controls/ui/subscribe-info/class-hestia-subscribe-info.php:155
 msgid "Create SendinBlue Account"
 msgstr "إنشاء حساب سندينبلو(SendinBlue)"
 
 #. translators: %1$s is Plugin name
-#: inc/customizer/controls/ui/class-hestia-contact-info.php:38
+#: inc/core/class-hestia-public.php:785
 msgid "In order to add a contact form to this section, you need to install the %1$s plugin. Then follow %2$sthis guide%3$s to create your form."
 msgstr "لإضافة نموذج المراسلة إلى هذا القسم ، يجب تنصيب %1$s الإضافة. ثم اتبع %2$sهذا الدليل%3$s لإنشاء النموذج الخاص بك."
 
@@ -216,12 +216,12 @@ msgstr "ستقوم هذه العملية بإعداد موقع الويب الخ
 msgid "Sites Library"
 msgstr "مكتبة المواقع"
 
-#: inc/customizer/controls/ui/subscribe-info/class-hestia-subscribe-info.php:113
-#: inc/customizer/controls/ui/subscribe-info/class-hestia-subscribe-info.php:134
+#: inc/customizer/controls/ui/subscribe-info/class-hestia-subscribe-info.php:109
+#: inc/customizer/controls/ui/subscribe-info/class-hestia-subscribe-info.php:130
 msgid "Here is where you must add the \"SendinBlue Newsletter\" widget."
 msgstr "هنا يجب عليك زِيَادَة ودجت \"الرسالة الإخبارية سندنبلو (SendinBlue) \"."
 
-#: inc/customizer/controls/ui/subscribe-info/class-hestia-subscribe-info.php:125
+#: inc/customizer/controls/ui/subscribe-info/class-hestia-subscribe-info.php:121
 msgid "SendinBlue > Home"
 msgstr "سندنبلو (SendinBlue) > الصفحة الرئيسية"
 
@@ -299,7 +299,7 @@ msgstr "فعّل البحث في القائمة "
 msgid "Enable Scroll to Top"
 msgstr "فعّل التمرير لأعلى"
 
-#: inc/customizer/controls/custom-controls/font-selector/class-hestia-font-selector.php:52
+#: inc/customizer/controls/custom-controls/font-selector/class-hestia-font-selector.php:48
 msgctxt "label"
 msgid "Search for:"
 msgstr "بحث عن:"
@@ -394,16 +394,16 @@ msgstr "المجموعات الفرعية للخط"
 msgid "Typography"
 msgstr "أسلوب الطباعة"
 
-#: inc/customizer/controls/custom-controls/font-selector/class-hestia-font-selector.php:59
+#: inc/customizer/controls/custom-controls/font-selector/class-hestia-font-selector.php:55
 msgid "Google Fonts"
 msgstr "خطوط قوقل"
 
-#: inc/customizer/controls/custom-controls/font-selector/class-hestia-font-selector.php:58
+#: inc/customizer/controls/custom-controls/font-selector/class-hestia-font-selector.php:54
 msgid "Standard Fonts"
 msgstr "الخطوط القياسية"
 
-#: inc/customizer/controls/custom-controls/font-selector/class-hestia-font-selector.php:47
-#: inc/customizer/controls/custom-controls/font-selector/class-hestia-font-selector.php:56
+#: inc/customizer/controls/custom-controls/font-selector/class-hestia-font-selector.php:43
+#: inc/customizer/controls/custom-controls/font-selector/class-hestia-font-selector.php:52
 msgid "Default"
 msgstr "افتراضي"
 
@@ -433,11 +433,11 @@ msgctxt "comments title"
 msgid "One comment"
 msgstr "تعليق واحد"
 
-#: inc/customizer/controls/ui/helper-plugin-install/class-hestia-plugin-install-helper.php:172
+#: inc/customizer/controls/ui/helper-plugin-install/class-hestia-plugin-install-helper.php:175
 msgid "Activating "
 msgstr "‏‏‏‏يتم التنشيط"
 
-#: inc/customizer/controls/ui/helper-plugin-install/class-hestia-plugin-install-helper.php:106
+#: inc/customizer/controls/ui/helper-plugin-install/class-hestia-plugin-install-helper.php:109
 msgid "Install and activate"
 msgstr "التنصيب و التنشيط "
 
@@ -617,7 +617,7 @@ msgstr "يجب أن تكون  <a href=\"%s\"> قد سجلت الدخول</a> ل�
 msgid "Reply"
 msgstr "الرد "
 
-#: inc/customizer/controls/custom-controls/customizer-page-editor/class-hestia-page-editor.php:58
+#: inc/customizer/controls/custom-controls/customizer-page-editor/class-hestia-page-editor.php:54
 #: inc/customizer/front-page/class-hestia-about-controls.php:161
 #: inc/helpers/layout-functions.php:177
 msgid "(Edit)"
@@ -712,7 +712,7 @@ msgstr "الإعدادات العامة"
 msgid "Contact Content"
 msgstr "محتوى الاتصال"
 
-#: inc/customizer/controls/ui/class-hestia-contact-info.php:35
+#: inc/customizer/controls/ui/class-hestia-contact-info.php:31
 #: inc/customizer/front-page/class-hestia-subscribe-controls.php:111
 msgid "Instructions"
 msgstr "الإرشادات"
@@ -829,12 +829,12 @@ msgstr "إذا ترغب في الاستفادة الكاملة من الخيار
 msgid "It is highly recommended that you install the companion plugin to have access to the Frontpage features, Team and Testimonials sections."
 msgstr "يوصى بشدة تنصيب الإضافة المرافقة للوصول إلى ميزات الصفحة الأمامية  و أقسام الفريق و الشهادات."
 
-#: inc/customizer/controls/ui/helper-plugin-install/class-hestia-plugin-install-helper.php:125
+#: inc/customizer/controls/ui/helper-plugin-install/class-hestia-plugin-install-helper.php:128
 msgid "Deactivate"
 msgstr "إلغاء التنشيط"
 
-#: inc/customizer/controls/ui/helper-plugin-install/class-hestia-plugin-install-helper.php:110
-#: inc/customizer/controls/ui/helper-plugin-install/class-hestia-plugin-install-helper.php:130
+#: inc/customizer/controls/ui/helper-plugin-install/class-hestia-plugin-install-helper.php:113
+#: inc/customizer/controls/ui/helper-plugin-install/class-hestia-plugin-install-helper.php:133
 msgid "Activate"
 msgstr "التنشيط"
 
@@ -950,7 +950,7 @@ msgstr "تريد معرفة جوهر أحدث تغييرات القالب؟ فق
 
 #: inc/core/class-hestia-admin.php:75
 #: inc/core/class-hestia-admin.php:142
-#: inc/customizer/controls/ui/subscribe-info/class-hestia-subscribe-info.php:137
+#: inc/customizer/controls/ui/subscribe-info/class-hestia-subscribe-info.php:133
 msgid "Read full documentation"
 msgstr "اقرأ الوثائق كاملة"
 
@@ -1050,7 +1050,7 @@ msgid "Pricing Plans Section"
 msgstr "قسم خطط التسعير"
 
 #: inc/core/class-hestia-admin.php:274
-#: inc/customizer/controls/ui/helper-plugin-install/class-hestia-plugin-install-helper.php:130
+#: inc/customizer/controls/ui/helper-plugin-install/class-hestia-plugin-install-helper.php:133
 #: inc/customizer/general/class-hestia-upsell-manager.php:61
 #: inc/customizer/general/class-hestia-upsell-manager.php:110
 msgid "Jetpack Portfolio"
@@ -1063,7 +1063,7 @@ msgid "Documentation"
 msgstr "الوثائق"
 
 #. translators: %s Path in plugin wrapped
-#: inc/customizer/controls/ui/subscribe-info/class-hestia-subscribe-info.php:121
+#: inc/customizer/controls/ui/subscribe-info/class-hestia-subscribe-info.php:117
 msgid "After installing the plugin, you need to navigate to %s and configure the plugin."
 msgstr "بعد تنصيب الإضافة، تحتاج إلى الانتقال إلى %s وتكوين الإضافة."
 
@@ -1071,113 +1071,113 @@ msgstr "بعد تنصيب الإضافة، تحتاج إلى الانتقال إ
 msgid "SendinBlue plugin"
 msgstr "إضافة  سندنبلو (SendinBlue)"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:793
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:831
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:789
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:827
 msgid "Add Icon"
 msgstr "إضافة أيقونة "
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:788
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:825
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:784
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:821
 msgid "Remove Icon"
 msgstr "إزالة الأيقونة"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:757
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:753
 msgid "Social icons"
 msgstr "الأيقونات الاجتماعية"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:743
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:739
 #: inc/customizer/general/class-hestia-blog-settings-controls.php:158
 msgid "None"
 msgstr "لا شيء"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:738
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:734
 msgid "Image type"
 msgstr " نوع الصورة"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:725
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:721
 msgid "Upload Image"
 msgstr "رفع الصورة"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:722
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:742
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:718
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:738
 #: inc/customizer/front-page/class-hestia-big-title-controls.php:97
 #: inc/customizer/front-page/class-hestia-big-title-controls.php:152
 msgid "Image"
 msgstr "الصورة"
 
 #. translators: Fontawesome link with full list of icons available
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:686
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:764
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:682
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:760
 msgid "http://fontawesome.io/icons/"
 msgstr "http://fontawesome.io/icons/"
 
 #. translators: Fontawesome link with full list of icons available
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:684
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:762
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:680
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:758
 msgid "Note: Some icons may not be displayed here. You can see the full list of icons at %1$s."
 msgstr "ملاحظة: قد لا يتم عرض بعض الأيقونات هنا. يمكنك رؤية القائمة الكاملة للأيقونات في %1$s."
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:678
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:741
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:674
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:737
 msgid "Icon"
 msgstr "أيقونة"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:490
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:606
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:486
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:602
 msgid "Delete field"
 msgstr "حذف الحقل"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:470
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:594
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:466
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:590
 #: inc/customizer/front-page/class-hestia-contact-controls.php:185
 msgid "Shortcode"
 msgstr "الكود القصير"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:438
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:459
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:567
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:585
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:785
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:811
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:434
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:455
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:563
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:581
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:781
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:807
 #: inc/views/class-hestia-tweaks.php:174
 msgid "Link"
 msgstr "الرابط"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:428
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:449
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:558
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:576
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:424
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:445
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:554
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:572
 #: inc/customizer/front-page/class-hestia-big-title-controls.php:200
 msgid "Text"
 msgstr "النص "
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:418
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:549
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:414
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:545
 msgid "Subtitle"
 msgstr "العنوان الفرعي"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:408
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:540
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:404
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:536
 #: inc/customizer/front-page/class-hestia-big-title-controls.php:75
 #: inc/customizer/front-page/class-hestia-big-title-controls.php:179
 #: inc/customizer/general/class-hestia-typography-controls.php:245
 msgid "Title"
 msgstr "العنوان"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:385
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:397
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:520
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:530
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:381
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:393
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:516
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:526
 #: inc/views/class-hestia-tweaks.php:162
 #: inc/views/class-hestia-tweaks.php:166
 msgid "Color"
 msgstr "اللون"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:148
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:144
 msgid "Customizer Repeater"
 msgstr "مردد المخصص"
 
-#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:143
+#: inc/customizer/controls/custom-controls/repeater/class-hestia-repeater.php:139
 msgid "Add new field"
 msgstr "إضافة حقل جديد"
 
@@ -1193,6 +1193,11 @@ msgstr "إضافة  ووكمرس (WooCommerce)"
 #: inc/customizer/class-hestia-customizer-notices.php:113
 msgid "To have access to a shop section please install and configure %1$s."
 msgstr "للوصول إلى قسم المتجر يرجى تنصيب وتكوين %1$s."
+
+#. translators: %1$s is Plugin name
+#: inc/helpers/layout-functions.php:770
+msgid "In order to add a contact form to this section, you need to install the %s plugin."
+msgstr "لإضافة نموذج المراسلة إلى هذا القسم ، يجب تنصيب %1$s الإضافة. ثم اتبع %2$sهذا الدليل%3$s لإنشاء النموذج الخاص بك."
 
 #: inc/views/main/class-hestia-header.php:111
 msgid "Toggle Navigation"

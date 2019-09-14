@@ -15,23 +15,23 @@ msgstr ""
 msgid "MC4WP: Mailchimp for WordPress"
 msgstr ""
 
-#: includes/forms/class-google-recaptcha.php:175
+#: includes/forms/class-google-recaptcha.php:180
 msgid "Google reCAPTCHA Secret Key"
 msgstr ""
 
-#: includes/forms/class-google-recaptcha.php:169
+#: includes/forms/class-google-recaptcha.php:174
 msgid "Enter your Google reCAPTCHA keys here. You can <a href=\"%s\">retrieve your keys in the Google reCAPTCHA admin console</a> or read our help article on <a href=\"%s\">how to configure Google reCAPTCHA</a>."
 msgstr ""
 
-#: includes/forms/class-google-recaptcha.php:165
+#: includes/forms/class-google-recaptcha.php:170
 msgid "Google reCAPTCHA Site Key"
 msgstr ""
 
-#: includes/forms/class-google-recaptcha.php:159
+#: includes/forms/class-google-recaptcha.php:164
 msgid "Select \"yes\" to enable Google reCAPTCHA spam protection for this form."
 msgstr ""
 
-#: includes/forms/class-google-recaptcha.php:153
+#: includes/forms/class-google-recaptcha.php:158
 msgid "Enable Google reCaptcha"
 msgstr ""
 
@@ -1264,7 +1264,7 @@ msgstr ""
 msgid "Email Address"
 msgstr "عنوان البريد الإلكتروني"
 
-#: includes/forms/class-google-recaptcha.php:157
+#: includes/forms/class-google-recaptcha.php:162
 #: includes/forms/views/tabs/form-settings.php:49
 #: includes/forms/views/tabs/form-settings.php:64
 #: includes/forms/views/tabs/form-settings.php:80
@@ -1283,7 +1283,7 @@ msgstr "عنوان البريد الإلكتروني"
 msgid "No"
 msgstr ""
 
-#: includes/forms/class-google-recaptcha.php:155
+#: includes/forms/class-google-recaptcha.php:160
 #: includes/forms/views/tabs/form-settings.php:45
 #: includes/forms/views/tabs/form-settings.php:60
 #: includes/forms/views/tabs/form-settings.php:76

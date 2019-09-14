@@ -274,8 +274,8 @@ msgstr ""
 msgid "Subscriber data export"
 msgstr ""
 
-#: includes/module.php:1115
-#: includes/module.php:1129
+#: includes/module.php:1138
+#: includes/module.php:1152
 msgid "No subscriber found."
 msgstr ""
 
@@ -295,7 +295,7 @@ msgstr ""
 msgid "Profile saved"
 msgstr ""
 
-#: includes/module.php:1875
+#: includes/module.php:1898
 msgid "Math question"
 msgstr ""
 
@@ -1948,19 +1948,19 @@ msgstr ""
 msgid "Profile"
 msgstr "الملف الشخصى"
 
-#: includes/module.php:1092
+#: includes/module.php:1115
 msgid "BOUNCED"
 msgstr ""
 
-#: includes/module.php:1090
+#: includes/module.php:1113
 msgid "UNSUBSCRIBED"
 msgstr ""
 
-#: includes/module.php:1088
+#: includes/module.php:1111
 msgid "CONFIRMED"
 msgstr ""
 
-#: includes/module.php:1086
+#: includes/module.php:1109
 msgid "NOT CONFIRMED"
 msgstr ""
 
@@ -2040,15 +2040,15 @@ msgstr "إعدادات عامة"
 msgid "Enabled"
 msgstr "ممكن"
 
-#: includes/module.php:912
+#: includes/module.php:933
 msgid "Draft"
 msgstr "المسودة"
 
-#: includes/module.php:910
+#: includes/module.php:931
 msgid "Paused"
 msgstr ""
 
-#: includes/module.php:908
+#: includes/module.php:929
 msgid "Sent"
 msgstr ""
 
@@ -2121,18 +2121,18 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: includes/module.php:942
-#: includes/module.php:948
-#: includes/module.php:983
+#: includes/module.php:963
+#: includes/module.php:969
+#: includes/module.php:1004
 #: statistics/newsletters.php:64
 msgid "of"
 msgstr ""
 
-#: includes/module.php:904
+#: includes/module.php:925
 msgid "Sending"
 msgstr ""
 
-#: includes/module.php:906
+#: includes/module.php:927
 msgid "Scheduled"
 msgstr ""
 

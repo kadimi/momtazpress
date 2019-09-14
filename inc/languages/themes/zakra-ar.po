@@ -17,7 +17,7 @@ msgstr "زكرا (Zakra) هو قالب متعدد الأغراض مرن وسري
 
 #. Theme Name of the theme
 #: inc/admin/class-zakra-admin.php:291
-#: inc/helpers.php:151
+#: inc/helpers.php:155
 msgid "Zakra"
 msgstr "زكرا (Zakra)"
 
@@ -1220,7 +1220,7 @@ msgid "Browse:"
 msgstr "استعراض:"
 
 #. translators: 1: Current Year, 2: Site Name, 3: Theme Name.
-#: inc/helpers.php:154
+#: inc/helpers.php:158
 msgid "Copyright &copy; %1$s %2$s. Theme: %3$s By ThemeGrill."
 msgstr "محفوظ الحقوق ونسَخ; %1$s %2$s. قالب: %3$s بواسطة ثيم جرل(ThemeGrill)."
 

@@ -2579,48 +2579,48 @@ msgstr ""
 msgid "Local IP Address"
 msgstr ""
 
-#: wp-slimstat.php:1101
+#: wp-slimstat.php:1103
 msgid "This parameter specifies the type of QUERY you would like to perform. Accepted funciton values include: count, count-all, recent, recent-all, top and top-all."
 msgstr ""
 
-#: wp-slimstat.php:1080
+#: wp-slimstat.php:1082
 msgid "[REST API] Please use a valid token in order to access the REST API endpoint at this URL."
 msgstr ""
 
-#: wp-slimstat.php:1071
+#: wp-slimstat.php:1073
 msgid "[REST API] You sent an invalid request. Accepted function values include: <code>count, count-all, recent, recent-all, top and top-all</code>. Please review your request and try again."
 msgstr ""
 
-#: wp-slimstat.php:1040
+#: wp-slimstat.php:1042
 msgid "[REST API] The <code>function</code> parameter is required. Please review your request and try again."
 msgstr ""
 
-#: wp-slimstat.php:1036
+#: wp-slimstat.php:1038
 msgid "[REST API] The <code>dimension</code> parameter is required. Please review your request and try again."
 msgstr ""
 
-#: wp-slimstat.php:897
+#: wp-slimstat.php:899
 msgid "Invalid Report ID"
 msgstr ""
 
-#: wp-slimstat.php:840
+#: wp-slimstat.php:842
 msgid "A temporary file could not be created. Please check your server's file permissions and try again."
 msgstr ""
 
-#: wp-slimstat.php:833
+#: wp-slimstat.php:835
 msgid "The provided URL is invalid."
 msgstr ""
 
-#: wp-slimstat.php:805
+#: wp-slimstat.php:807
 msgid "There was an error opening the MaxMind Geolite DB. Please check your server's file permissions and try again."
 msgstr ""
 
-#: wp-slimstat.php:795
+#: wp-slimstat.php:797
 msgid "Function <code>gzopen</code> is not defined in your environment. Please ask your server administrator to install the corresponding library."
 msgstr ""
 
-#: wp-slimstat.php:791
-#: wp-slimstat.php:800
+#: wp-slimstat.php:793
+#: wp-slimstat.php:802
 msgid "There was an error opening the zipped MaxMind Geolite DB. Please check your server's file permissions and try again."
 msgstr ""
 
@@ -2804,11 +2804,11 @@ msgstr ""
 msgid "Percentage"
 msgstr ""
 
-#: wp-slimstat.php:818
+#: wp-slimstat.php:820
 msgid "There was an error creating the MaxMind Geolite DB."
 msgstr ""
 
-#: wp-slimstat.php:770
+#: wp-slimstat.php:772
 msgid "The geolocation database cannot be updated. Please check your server's file permissions and try again."
 msgstr ""
 
@@ -2841,15 +2841,15 @@ msgstr ""
 msgid "In order to send requests to <a href='https://slimstat.freshdesk.com/support/solutions/articles/12000033661-slimstat-rest-api' target='_blank'>the Slimstat REST API</a>, you will need to pass a valid token to the endpoint (param ?token=XXX). Using the field here below, you can define as many tokens as you like, and distribute them to your API users. Please note: treat these tokens as passwords, as they will grant read access to your reports to anyone who knows them. Use a service like <a href='https://randomkeygen.com/#ci_key' target='_blank'>RandomKeyGen.com</a> to generate unique secure tokens."
 msgstr ""
 
-#: wp-slimstat.php:1111
+#: wp-slimstat.php:1113
 msgid "This parameter is used to filter a given dimension (resources, browsers, operating systems, etc) so that it satisfies certain conditions (i.e.: browser contains Chrome). Please make sure to urlencode this value, and to use the usual filter format: browser contains Chrome&&&referer contains slim (encoded: browser%20contains%20Chrome%26%26%26referer%20contains%20slim)"
 msgstr ""
 
-#: wp-slimstat.php:1106
+#: wp-slimstat.php:1108
 msgid "This parameter indicates what dimension to return: * (all data), ip, resource, browser, operating system, etc. You can only specify one dimension at a time."
 msgstr ""
 
-#: wp-slimstat.php:1097
+#: wp-slimstat.php:1099
 msgid "You will need to specify a valid token to be able to query the data. Tokens are defined in Slimstat > Settings > Access Control."
 msgstr ""
 
@@ -2865,11 +2865,11 @@ msgstr ""
 msgid "Downloads"
 msgstr ""
 
-#: wp-slimstat.php:1930
+#: wp-slimstat.php:1926
 msgid "Optional filters"
 msgstr ""
 
-#: wp-slimstat.php:422
+#: wp-slimstat.php:424
 msgid "Attempted XSS Injection: %s"
 msgstr ""
 
@@ -3171,7 +3171,7 @@ msgstr ""
 msgid "https://wordpress.org/plugins/wp-slimstat/"
 msgstr ""
 
-#: wp-slimstat.php:783
+#: wp-slimstat.php:785
 msgid "There was an error downloading the MaxMind Geolite DB:"
 msgstr ""
 
@@ -4083,10 +4083,12 @@ msgstr ""
 msgid "Open this referrer in a new window"
 msgstr ""
 
-#: admin/view/right-now.php:233 admin/view/wp-slimstat-reports.php:205
-#: admin/view/wp-slimstat-reports.php:215 admin/view/wp-slimstat-db.php:31
 #: admin/index.php:992
 #: admin/index.php:1008
+#: admin/view/right-now.php:233
+#: admin/view/wp-slimstat-db.php:31
+#: admin/view/wp-slimstat-reports.php:205
+#: admin/view/wp-slimstat-reports.php:215
 msgid "Search Terms"
 msgstr ""
 
@@ -4533,48 +4535,48 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: admin/view/addons.php:80
+#: admin/view/addons.php:90
 msgid "Installed and Active"
 msgstr ""
 
-#: admin/view/addons.php:77
+#: admin/view/addons.php:87
 msgid "Your Version:"
 msgstr ""
 
-#: admin/view/addons.php:65
+#: admin/view/addons.php:75
 msgid "Version"
 msgstr ""
 
-#: admin/view/addons.php:65
+#: admin/view/addons.php:75
 msgid "Repo Version"
 msgstr ""
 
-#: admin/view/addons.php:54
+#: admin/view/addons.php:64
 msgid "Description"
 msgstr ""
 
-#: admin/view/addons.php:54
+#: admin/view/addons.php:64
 msgid "Add-on"
 msgstr ""
 
-#: admin/view/addons.php:40
+#: admin/view/addons.php:49
 msgid "This list is refreshed once daily: <a href=\"%s&amp;force_refresh=true\" class=\"noslimstat\">click here</a> to clear the cache."
 msgstr ""
 
-#: admin/view/addons.php:36
+#: admin/view/addons.php:45
 msgid "Add-ons extend the functionality of Slimstat in many interesting ways. We offer both free and premium (paid) extensions. Each add-on can be installed as a separate plugin, which will receive regular updates via the WordPress Plugins panel. In order to be notified when a new version of a premium add-on is available, please enter the <strong>license key</strong> you received when you purchased it."
 msgstr ""
 
 #: admin/config/index.php:556
 #: admin/index.php:82
-#: admin/view/addons.php:35
+#: admin/view/addons.php:44
 msgid "Add-ons"
 msgstr ""
 
-#: admin/view/addons.php:30
+#: admin/view/addons.php:39
 msgid "There was an error decoding the add-ons list from the server. Please try again later."
 msgstr ""
 
-#: admin/view/addons.php:19
+#: admin/view/addons.php:28
 msgid "There was an error retrieving the add-ons list from the server. Please try again later. Error Message: %s"
 msgstr ""
