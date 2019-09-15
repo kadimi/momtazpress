@@ -4,6 +4,13 @@ add_action(
 	'mp_init',
 	function() {
 
+		/**
+		 * On frontend only so we don't prevent plugin activation.
+		 */
+		if ( is_admin() ) {
+			return;
+		}
+
 		$cache  = ! empty( $_GET['mp_cache'] ) ? true : MP_CACHE;
 		$count  = ! empty( $_GET['mp_number'] ) ? $_GET['mp_number'] : MP_UPDATE_PACKAGE_COUNT;
 		$filter = ! empty( $_GET['mp_filter'] ) ? $_GET['mp_filter'] : MP_UPDATE_PACKAGE_FILTER;
