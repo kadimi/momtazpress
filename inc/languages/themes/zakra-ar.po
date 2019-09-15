@@ -21,7 +21,48 @@ msgstr "زكرا (Zakra) هو قالب متعدد الأغراض مرن وسري
 msgid "Zakra"
 msgstr "زكرا (Zakra)"
 
-#: inc/customizer/register-panels-and-sections.php:135
+#. translators: 1: Discount Percent. 2. Coupon Code
+#: inc/customizer/controls/php/class-zakra-customize-upsell-control.php:86
+msgid "%1$s discount available as Launch Offer with coupon code: %2$s"
+msgstr ""
+
+#: inc/customizer/controls/php/class-zakra-customize-upsell-control.php:78
+msgid "View Pricing"
+msgstr ""
+
+#: inc/customizer/controls/php/class-zakra-customize-upsell-control.php:75
+msgid "30+ Page Settings"
+msgstr "إعدادات الصفحة"
+
+#: inc/customizer/controls/php/class-zakra-customize-upsell-control.php:74
+msgid "100+ Customizer Options"
+msgstr "المخصص"
+
+#: inc/customizer/controls/php/class-zakra-customize-upsell-control.php:73
+msgid "10+ Footer Layouts"
+msgstr "التذييل أربعة"
+
+#: inc/customizer/controls/php/class-zakra-customize-upsell-control.php:72
+msgid "Grid, Masonry, Thumbnail Blog Layouts"
+msgstr ""
+
+#: inc/customizer/controls/php/class-zakra-customize-upsell-control.php:71
+msgid "Flexible Menu Designs"
+msgstr ""
+
+#: inc/customizer/controls/php/class-zakra-customize-upsell-control.php:70
+msgid "Advanced Header Options"
+msgstr ""
+
+#: inc/customizer/controls/php/class-zakra-customize-upsell-control.php:68
+msgid "More Awesome Features"
+msgstr ""
+
+#: inc/customizer/register-panels-and-sections.php:18
+msgid "View Pro Version"
+msgstr ""
+
+#: inc/customizer/register-panels-and-sections.php:133
 msgid "Primary Menu : Menu Item"
 msgstr ""
 
@@ -45,7 +86,7 @@ msgstr "يؤدي النقر فوق الزر أدناه إلى تنصيب وتف�
 msgid "Clicking the \"Import\" button in any of the demos below will install and activate the ThemeGrill demo importer plugin."
 msgstr "يؤدي النقر فوق الزر \"استيراد\" في أي من العروض التوضيحية أدناه إلى تنصيب وتفعيل إضافة المستورد التجريبي من ThemeGrill."
 
-#: inc/customizer/register-panels-and-sections.php:221
+#: inc/customizer/register-panels-and-sections.php:219
 msgid "Meta"
 msgstr "منوعات"
 
@@ -70,7 +111,7 @@ msgstr "بالتأكيد"
 msgid "Howdy, %1$s! It seems that you have been using this theme for more than 15 days. We hope you are happy with everything that the theme has to offer. If you can spare a minute, please help us by leaving a 5-star review on WordPress.org.  By spreading the love, we can continue to develop new amazing features in the future, for free!"
 msgstr "مرحبا ،%1$s! يبدو أنك تستخدم هذا القالب لأكثر من 15 يومًا. نأمل أن تكون سعيدًا بكل ما يقدمه هذا القالب. إذا بإمكانكِ تخصيص دقيقة ، فالرجاء مساعدتنا عن طريق ترك مراجعة 5 نجوم على WordPress.org. من خلال نشر الحب، يمكننا الاستمرار في تطوير ميزات مذهلة جديدة في المستقبل، مجانًا!"
 
-#: inc/customizer/register-panels-and-sections.php:92
+#: inc/customizer/register-panels-and-sections.php:90
 msgid "Header Button"
 msgstr "زر الترويسة "
 
@@ -95,7 +136,7 @@ msgid "Single Product"
 msgstr "Single Product"
 
 #: inc/customizer/options/layout/class-zakra-customize-layout-woocommerce-option.php:44
-#: inc/customizer/register-panels-and-sections.php:307
+#: inc/customizer/register-panels-and-sections.php:305
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
@@ -111,11 +152,11 @@ msgstr "الشريط الجانبي الأيسر لWooCommerce "
 msgid "Dropdown"
 msgstr "القائمة المنسدلة"
 
-#: inc/customizer/register-panels-and-sections.php:477
+#: inc/customizer/register-panels-and-sections.php:475
 msgid "Blog/Archive Post Title"
 msgstr "مدونة / أرشيف عنوان المقالة "
 
-#: inc/customizer/register-panels-and-sections.php:463
+#: inc/customizer/register-panels-and-sections.php:461
 msgid "Post/Page Title"
 msgstr "عنوان المقالة / الصفحة  "
 
@@ -127,15 +168,15 @@ msgstr "سطر الوصف"
 msgid "Site Title"
 msgstr "عنوان الموقع"
 
-#: inc/customizer/register-panels-and-sections.php:505
+#: inc/customizer/register-panels-and-sections.php:503
 msgid "Widgets"
 msgstr "ودجات"
 
-#: inc/customizer/register-panels-and-sections.php:491
+#: inc/customizer/register-panels-and-sections.php:489
 msgid "Headings ( H1 - H6 )"
 msgstr "الترويسات ( H1 - H6 )"
 
-#: inc/customizer/register-panels-and-sections.php:421
+#: inc/customizer/register-panels-and-sections.php:419
 msgid "Site Identity"
 msgstr "هوية الموقع"
 
@@ -882,35 +923,35 @@ msgstr "سحب وإسقاط العناصر لإعادة ترتيب الترتي�
 msgid "Single Post Content Order"
 msgstr "ترتيب محتوى مقالة واحدة"
 
-#: inc/customizer/register-panels-and-sections.php:562
+#: inc/customizer/register-panels-and-sections.php:560
 msgid "Scroll to Top"
 msgstr "تمرير للأعلى"
 
-#: inc/customizer/register-panels-and-sections.php:548
+#: inc/customizer/register-panels-and-sections.php:546
 msgid "Footer Bottom Bar"
 msgstr "تذييل الشريط السفلي"
 
-#: inc/customizer/register-panels-and-sections.php:534
+#: inc/customizer/register-panels-and-sections.php:532
 msgid "Footer Widgets"
 msgstr "ودجات التذييل"
 
-#: inc/customizer/register-panels-and-sections.php:521
+#: inc/customizer/register-panels-and-sections.php:519
 msgid "Footer"
 msgstr "التذييل"
 
-#: inc/customizer/register-panels-and-sections.php:407
+#: inc/customizer/register-panels-and-sections.php:405
 msgid "Base Typography"
 msgstr "النص الأساسي"
 
-#: inc/customizer/register-panels-and-sections.php:394
+#: inc/customizer/register-panels-and-sections.php:392
 msgid "Typography"
 msgstr "أسلوب الطباعة"
 
-#: inc/customizer/register-panels-and-sections.php:378
+#: inc/customizer/register-panels-and-sections.php:376
 msgid "Button"
 msgstr "الزر"
 
-#: inc/customizer/register-panels-and-sections.php:364
+#: inc/customizer/register-panels-and-sections.php:362
 msgid "Link Colors"
 msgstr "ألوان الرابط"
 
@@ -918,44 +959,44 @@ msgstr "ألوان الرابط"
 #: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:378
 #: inc/customizer/options/footer/class-zakra-customize-footer-widget-option.php:96
 #: inc/customizer/options/header/class-zakra-customize-header-top-option.php:281
-#: inc/customizer/register-panels-and-sections.php:350
+#: inc/customizer/register-panels-and-sections.php:348
 msgid "Background"
 msgstr "الخلفية"
 
-#: inc/customizer/register-panels-and-sections.php:336
+#: inc/customizer/register-panels-and-sections.php:334
 msgid "Base Colors"
 msgstr "الألوان الأساسية"
 
-#: inc/customizer/register-panels-and-sections.php:323
+#: inc/customizer/register-panels-and-sections.php:321
 msgid "Styling"
 msgstr "التصميم"
 
 #: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:248
-#: inc/customizer/register-panels-and-sections.php:264
+#: inc/customizer/register-panels-and-sections.php:262
 #: inc/hooks/header.php:473
 msgid "Breadcrumbs"
 msgstr "العناوين (Breadcrumbs)"
 
 #: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:31
-#: inc/customizer/register-panels-and-sections.php:250
+#: inc/customizer/register-panels-and-sections.php:248
 msgid "Page Title"
 msgstr "عنوان الصفحة"
 
 #: inc/customizer/options/layout/class-zakra-customize-layout-general-option.php:85
-#: inc/customizer/register-panels-and-sections.php:207
+#: inc/customizer/register-panels-and-sections.php:205
 msgid "Single Post"
 msgstr "مقالة واحدة"
 
 #: inc/customizer/options/layout/class-zakra-customize-layout-general-option.php:62
-#: inc/customizer/register-panels-and-sections.php:193
+#: inc/customizer/register-panels-and-sections.php:191
 msgid "Blog/Archive"
 msgstr "المدونة/الأرشيف"
 
-#: inc/customizer/register-panels-and-sections.php:166
+#: inc/customizer/register-panels-and-sections.php:164
 msgid "Post/Page/Blog"
 msgstr "مقالة/صفحة/مدونة"
 
-#: inc/customizer/register-panels-and-sections.php:449
+#: inc/customizer/register-panels-and-sections.php:447
 msgid "Mobile Menu"
 msgstr "قائمة المحمول"
 
@@ -963,19 +1004,19 @@ msgstr "قائمة المحمول"
 #: inc/customizer/options/footer/class-zakra-customize-footer-bottom-bar-option.php:156
 #: inc/customizer/options/header/class-zakra-customize-header-top-option.php:63
 #: inc/customizer/options/header/class-zakra-customize-header-top-option.php:154
-#: inc/customizer/register-panels-and-sections.php:108
+#: inc/customizer/register-panels-and-sections.php:106
 msgid "Menu"
 msgstr "القائمة"
 
-#: inc/customizer/register-panels-and-sections.php:78
+#: inc/customizer/register-panels-and-sections.php:76
 msgid "Header Main Area"
 msgstr "ترويسة المنطقة الرئيسية"
 
-#: inc/customizer/register-panels-and-sections.php:64
+#: inc/customizer/register-panels-and-sections.php:62
 msgid "Header Top Bar"
 msgstr "ترويسة الشريط العلوي"
 
-#: inc/customizer/register-panels-and-sections.php:37
+#: inc/customizer/register-panels-and-sections.php:35
 msgid "Theme Options"
 msgstr "خيارات القالب"
 
@@ -1314,31 +1355,31 @@ msgstr "الشريط الجانبي"
 msgid "Remove content margin"
 msgstr "إزالة هامش المحتوى"
 
-#: inc/customizer/register-panels-and-sections.php:280
+#: inc/customizer/register-panels-and-sections.php:278
 #: inc/meta-boxes/class-zakra-meta-box-page-settings.php:115
 msgid "Layout"
 msgstr "التخطيط"
 
 #: inc/customizer/options/blog/class-zakra-customize-blog-general-option.php:51
-#: inc/customizer/register-panels-and-sections.php:237
+#: inc/customizer/register-panels-and-sections.php:235
 #: inc/meta-boxes/class-zakra-meta-box-page-settings.php:92
 msgid "Page Header"
 msgstr "ترويسة الصفحة"
 
-#: inc/customizer/register-panels-and-sections.php:121
-#: inc/customizer/register-panels-and-sections.php:435
+#: inc/customizer/register-panels-and-sections.php:119
+#: inc/customizer/register-panels-and-sections.php:433
 #: inc/meta-boxes/class-zakra-meta-box-page-settings.php:87
 msgid "Primary Menu"
 msgstr "القائمة الأساسية"
 
-#: inc/customizer/register-panels-and-sections.php:51
+#: inc/customizer/register-panels-and-sections.php:49
 #: inc/meta-boxes/class-zakra-meta-box-page-settings.php:82
 msgid "Header"
 msgstr "ترويسة"
 
-#: inc/customizer/register-panels-and-sections.php:151
-#: inc/customizer/register-panels-and-sections.php:179
-#: inc/customizer/register-panels-and-sections.php:293
+#: inc/customizer/register-panels-and-sections.php:149
+#: inc/customizer/register-panels-and-sections.php:177
+#: inc/customizer/register-panels-and-sections.php:291
 #: inc/meta-boxes/class-zakra-meta-box-page-settings.php:77
 msgid "General"
 msgstr "عام"
