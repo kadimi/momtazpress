@@ -6,5 +6,9 @@
             "name": "Nabil Kadimi",
             "email": "nabil@kadimi.com"
         }
-    ]
+    ],
+    "scripts": {
+        "build": "php build/build.php -s=momtazpress -v=5.2.3 -t=201909042209",
+        "build-fast": "php build/build.php -s=momtazpress -v=5.2.3 -t=201909042209 -x=composer_install"
+    }
 }

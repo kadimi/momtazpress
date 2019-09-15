@@ -154,6 +154,7 @@ class Builder {
 				'composer.lock',
 				'build/',
 				'inc/developer/',
+				'setup/',
 			]
 		);
 
@@ -358,6 +359,7 @@ class Builder {
 			'
 			find -name "*.php"
 				-not -path "./build/*"
+				-not -path "./setup/*"
 				-not -path "./tests/*"
 				-not -path "./vendor/*"
 			|
@@ -474,6 +476,7 @@ class Builder {
 			--exclude='.git/'                                                      \
 			--exclude='build/'                                                     \
 			--exclude='inc/developer/'                                             \
+			--exclude='setup/'                                                     \
 			--exclude='*.po'                                                       \
 		"
 		);
