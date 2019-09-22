@@ -25,32 +25,30 @@ add_action(
 			return;
 		}
 
-		if ( $core ) {
-			/**
-			 * Update core.
-			 */
-			if ( ! $filter || in_array( 'core', $filter ) ) {
-				mp_update_core_pomo( $cache );
-			}
-
-			/**
-			 * Update bbPress
-			 */
-			if ( ! $filter || in_array( 'bbpress', $filter ) ) {
-				$po_file = MP_LANG_DIR . '/plugins/bbpress-ar.po';
-				$po_url  = 'https://translate.wordpress.org/projects/wp-plugins/bbpress/stable/ar/default/export-translations/?format=po';
-				mp_update_pomo( $po_file, $po_url, $cache );
-			}
-
-			/**
-			 * Update BuddyPress
-			 */
-			if ( ! $filter || in_array( 'buddypress', $filter ) ) {
-				$po_file = MP_LANG_DIR . '/plugins/buddypress-ar.po';
-				$po_url  = 'https://translate.wordpress.org/projects/wp-plugins/buddypress/stable/ar/default/export-translations/?format=po';
-				mp_update_pomo( $po_file, $po_url, $cache );
-			}
+		/**
+		 * Update core.
+		 */
+		if ( $core || in_array( 'core', $filter ) ) {
+			mp_update_core_pomo( $cache );
 		}
+
+		// /**
+		//  * Update bbPress
+		//  */
+		// if ( $core || in_array( 'bbpress', $filter ) ) {
+		// 	$po_file = MP_LANG_DIR . '/plugins/bbpress-ar.po';
+		// 	$po_url  = 'https://translate.wordpress.org/projects/wp-plugins/bbpress/stable/ar/default/export-translations/?format=po';
+		// 	mp_update_pomo( $po_file, $po_url, $cache );
+		// }
+
+		// /**
+		//  * Update BuddyPress
+		//  */
+		// if ( $core || in_array( 'buddypress', $filter ) ) {
+		// 	$po_file = MP_LANG_DIR . '/plugins/buddypress-ar.po';
+		// 	$po_url  = 'https://translate.wordpress.org/projects/wp-plugins/buddypress/stable/ar/default/export-translations/?format=po';
+		// 	mp_update_pomo( $po_file, $po_url, $cache );
+		// }
 
 		/**
 		 * Update plugins.
