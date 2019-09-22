@@ -37,14 +37,13 @@ function mp_update_pomo( $po_file, $po_url, $use_cache ) {
 	 * @example /tmp/momtazpress-pomo/plugins
 	 * @example /tmp/momtazpress-pomo/themes
 	 */
-	$tmp_dir = sys_get_temp_dir()
+	$tmp_dir = __DIR__
 		. DIRECTORY_SEPARATOR
-		. 'momtazpress-pomo'
+		. 'cache'
 		. DIRECTORY_SEPARATOR
 		. preg_replace( '/.*\//', '', dirname( $po_file ) )
 		. DIRECTORY_SEPARATOR;
-	shell_exec( 'mkdir -p ' . sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'momtazpress-pomo' );
-	shell_exec( "mkdir -p $tmp_dir" );
+	shell_exec ( "mkdir -p $tmp_dir" );
 
 	/**
 	 * Downloaded .po file.
@@ -138,12 +137,22 @@ function mp_update_package_pomo( $slug, $type, $use_cache ) {
  */
 function mp_get_popular_packages( $type, $number = 5 ) {
 
+	$filesystem = mp_get_filesystem();
 	$packages = [];
+	$update_db = false;
+
+	$cache_dir = __DIR__
+		. DIRECTORY_SEPARATOR
+		. 'cache'
+		. DIRECTORY_SEPARATOR
+		. 'api'
+		. DIRECTORY_SEPARATOR;
+	shell_exec ( "mkdir -p $cache_dir" );
 
 	/**
-	 * Prepare URL.
+	 * URL format.
 	 */
-	$url = 'https://api.wordpress.org/' . $type . 's/info/1.1/'
+	$url_format = 'https://api.wordpress.org/' . $type . 's/info/1.1/'
 		. '?action=query_' . $type . 's'
 		. '&request[fields][description]=0'
 		. '&request[fields][downloaded]=1'
@@ -153,7 +162,8 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 		. '&request[fields][screenshot_url]=0'
 		. '&request[fields][preview_url]=0'
 		. '&request[browse]=popular'
-		. '&request[per_page]=250';
+		. '&request[per_page]=250'
+		. '&request[page]={page}';
 	if ( 'theme' === $type ) {
 		foreach ( explode( '|', MP_UPDATE_THEME_TAGS ) as $tag ) {
 			$url .= '&request[tag]=' . $tag;
@@ -161,42 +171,140 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 	}
 
 	/**
-	 * Get from cache if found, otherwise send request and cache it.
+	 * Download all pages from API
 	 */
-	$cache_file = sys_get_temp_dir() . DIRECTORY_SEPARATOR . md5( $url ) . '.json';
-	if ( file_exists( $cache_file ) ) {
-		$dl_content = file_get_contents( $cache_file );
-	} else {
-		$response = wp_remote_get(
-			$url,
-			[
-				'timeout' => 30,
-			]
-		);
-		if ( ! $response || is_wp_error( $response ) || 200 !== $response['response']['code'] ) {
-			return [];
+	$page = 1;
+	do {
+		/**
+		 * Prepare URL.
+		 */
+		$url = str_replace( '{page}', $page, $url_format );
+
+		/**
+		 * Get from cache if found, otherwise send request and cache it.
+		 */
+		$cache_file = $cache_dir
+			. DIRECTORY_SEPARATOR
+			. str_pad( $page, 3, '0', STR_PAD_LEFT ) . '-' . md5( $url ) . '.json';
+
+		if ( ! file_exists( $cache_file ) ) {
+
+			/**
+			 * Since we are not using cache, we need to update the database.
+			 */
+			$update_db = true;
+
+			$response = wp_remote_get(
+				$url,
+				[
+					'timeout' => 30,
+				]
+			);
+
+			/**
+			 * Exit if request fails
+			 */
+			if ( ! $response || is_wp_error( $response ) || 200 !== $response['response']['code'] ) {
+				return [];
+			}
+			/**
+			 * Breaks if no more pages.
+			 */
+			if( ! json_decode( $response[ 'body' ] )->info->results ) {
+				break;
+			}
+
+			file_put_contents( $cache_file, $response['body'] );
 		}
-		$dl_content = $response['body'];
-		file_put_contents( $cache_file, $dl_content );
-	}
+		$page++;
+	} while ( true );
+
+	/**
+	 * Store number of pages.
+	 */
+	$pages = $page - 1;
 
 	/**
 	 * Get packages sorted by download count.
 	 */
-	$packages_from_api = (array) json_decode( $dl_content )->{ $type . 's' };
-	usort(
-		$packages_from_api,
-		function( $a, $b ) {
-			return $a->downloaded < $b->downloaded;
-		}
-	);
+	// $packages_from_api = (array) json_decode( $dl_content )->{ $type . 's' };
+	// usort(
+	// 	$packages_from_api,
+	// 	function( $a, $b ) {
+	// 		return $a->downloaded < $b->downloaded;
+	// 	}
+	// );
+
+	/**
+	 * Make sure stats.db exists.
+	 */
+	$db_file = __DIR__ . DIRECTORY_SEPARATOR . 'stats.db';
+	if ( ! $filesystem->exists( $db_file ) ) {
+		$filesystem->touch( $db_file );
+		$db = new SQLite3( $db_file );
+		$db->exec( "CREATE TABLE packages(
+			id INTEGER PRIMARY KEY,
+			name TEXT,
+			slug TEXT,
+			type TEXT,
+			downloaded INT,
+			percent_translated INT
+		)" );
+	} else {
+		$db = new SQLite3( $db_file );
+	}
+
+	/**
+	 * Maybe update database.
+	 */
+	if ( $update_db ) {
+		$db->exec( "DELETE FROM packages WHERE type = '$type'" );
+		$page = 1;
+		$values_parts = [];
+		do {
+
+			/**
+			 * Get content from file.
+			 */
+			$url = str_replace( '{page}', $page, $url_format );
+			$cache_file = $cache_dir
+				. DIRECTORY_SEPARATOR
+				. str_pad( $page, 3, '0', STR_PAD_LEFT ) . '-' . md5( $url ) . '.json';
+			if ( ! file_exists( $cache_file ) ) {
+				continue;
+			}
+
+			/**
+			 * SQL work.
+			 */
+			$packages_from_api = ( array ) json_decode( file_get_contents( $cache_file ) )->{ $type . 's' };
+			$packages_from_api = array_slice( $packages_from_api, 0, $number );
+			foreach ( $packages_from_api as $package ) {				
+				$values_parts[] = str_replace( [
+					'{slug}',
+					'{name}',
+					'{type}',
+					'{downloaded}',
+					'{percent_translated}',
+				], [
+					$package->slug,
+					SQLite3::escapeString( $package->name ),
+					$type,
+					$package->downloaded,
+					0,
+				], '( "{slug}", "{name}", "{type}", {downloaded}, {percent_translated} )' );
+			}
+		} while ( $page++ < $pages  );
+
+		$db->exec( 'INSERT INTO packages ( slug, name, type, downloaded, percent_translated ) VALUES ' . implode( ', ', $values_parts ) );
+	}
 
 	/**
 	 * Grab first `$number` packages.
 	 */
-	$packages_from_api = array_slice( $packages_from_api, 0, $number );
-	foreach ( $packages_from_api as $package ) {
-		$packages[] = $package->slug;
+	$results = $db->query( "SELECT * FROM 'packages' ORDER BY downloaded DESC LIMIT $number" );
+	while ( $row = $results->fetchArray() ) {
+		$packages[] = $row[ 'slug' ];
 	}
 
 	/**

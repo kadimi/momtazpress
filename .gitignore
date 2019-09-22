@@ -1,3 +1,4 @@
 composer.lock
 build/releases/
+inc/developer/cache/
 vendor/

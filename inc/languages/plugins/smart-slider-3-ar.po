@@ -1,0 +1,65 @@
+# Translation of Plugins - Smart Slider 3 - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - Smart Slider 3 - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-04-12 18:03:09+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Plugins - Smart Slider 3 - Stable (latest release)\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: includes/integrations/Divi/includes/modules/SmartSlider3/SmartSlider3.php:84
+msgid "Here you can create the content that will be used within the module."
+msgstr "هنا يمكنك إنشاء المحتوى الذي سيتم استخدامه داخل الوحدة النمطية."
+
+#. Author URI of the plugin
+msgid "http://nextendweb.com"
+msgstr "http://nextendweb.com"
+
+#. Author of the plugin
+msgid "Nextend"
+msgstr "Nextend"
+
+#. Description of the plugin
+msgid "The perfect all-in-one responsive slider solution for WordPress."
+msgstr "الحل المثالي لعارض شرائح Slider متجاوب في إضافة واحدة لـ ووردبريس."
+
+#. Plugin URI of the plugin
+msgid "https://smartslider3.com/"
+msgstr "https://smartslider3.com/"
+
+#. Plugin Name of the plugin
+msgid "Smart Slider 3"
+msgstr "إضافة Smart Slider 3"
+
+#: nextend/library/libraries/form/elements/joomlacomponentoptions.php:10
+msgid "behavior.modal"
+msgstr "behavior.modal"
+
+#: includes/integrations/unyson/smartslider/shortcodes/smartslider/config.php:10
+msgid "Media Elements"
+msgstr "عناصر الوسائط"
+
+#: includes/integrations/beaver-builder/beaver-builder-module.php:23
+msgid "General"
+msgstr "عام"
+
+#: includes/integrations/beaver-builder/beaver-builder-module.php:12
+msgid "Basic Modules"
+msgstr "الوحدات الأساسية"
+
+#: includes/integrations/Divi/includes/modules/SmartSlider3/SmartSlider3.php:20
+#: includes/integrations/VisualComposer.php:47
+msgid "Content"
+msgstr "المحتوى"
+
+#: includes/integrations/Divi.php:60
+msgid "This will change the label of the module in the builder for easy identification."
+msgstr "سيؤدي ذلك إلى تغيير تسمية الوحدة النمطية في أداة البناء لسهولة تحديد المُعرّف."
+
+#: includes/integrations/Divi.php:58
+msgid "Admin Label"
+msgstr "تسمية المدير"

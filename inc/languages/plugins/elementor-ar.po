@@ -4270,7 +4270,7 @@ msgstr "الاخفاء على الجهاز المكتبي"
 msgid "Border Radius"
 msgstr "الحواف الدائرية"
 
-#: includes/compatibility.php:162
+#: includes/compatibility.php:188
 #: includes/widgets/alert.php:235
 #: includes/widgets/icon-box.php:557
 #: includes/widgets/image-box.php:478

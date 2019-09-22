@@ -1,0 +1,196 @@
+# Translation of Themes - Amp in Arabic
+# This file is distributed under the same license as the Themes - Amp package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2015-07-21 16:15:47+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Themes - Amp\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the plugin/theme
+msgid "TSW theme, Amp, is a novelty theme replicating a classic electric guitar amplifier. Theme options include, Upload logo which sits in top of each article; Upload footer background image; Upload background image; Select colors for site links, background of content, text color and whole site background color. Also a header image can be uploaded. Top menu is volume, tone controls and is very basic but no worries as this theme has a mobile-type navigation for menu two and a menu in the footer for menu three. So you will be able to make the top menu work without losing overall site navigation. Sidebar for widgets is in footer. Demo at: https://leadspilot.com/amp/"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Amp"
+msgstr ""
+
+#: theme-customize.php:123
+msgid "Logo sits to the right of post title"
+msgstr ""
+
+#: theme-customize.php:179
+msgid "<p>Tradesouthwest Themes <a href=\"%s\" target=\"blank\">Website</a></p>"
+msgstr ""
+
+#: theme-customize.php:177
+msgid "Theme by Tradesouthwest =|="
+msgstr ""
+
+#: theme-customize.php:162
+msgid "Content Text Color"
+msgstr ""
+
+#: theme-customize.php:149
+msgid "Content Background Color"
+msgstr ""
+
+#: theme-customize.php:136
+msgid "Link colors"
+msgstr ""
+
+#: theme-customize.php:40
+msgid "Theme Information"
+msgstr ""
+
+#: theme-customize.php:83
+msgid "YouTube"
+msgstr "Youtube"
+
+#: theme-customize.php:70
+msgid "Twitter"
+msgstr "Twitter"
+
+#: theme-customize.php:56
+msgid "Facebook"
+msgstr "Facebook"
+
+#: theme-customize.php:44
+msgid "Theme Author: Larry Judd Oliver <br>Phoenix, Arizona USA"
+msgstr ""
+
+#: theme-customize.php:97
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: theme-customize.php:122
+msgid "Logo"
+msgstr "شعار"
+
+#: theme-customize.php:110
+msgid "Upload image or use color control below"
+msgstr ""
+
+#: theme-customize.php:109
+msgid "Footer Background"
+msgstr ""
+
+#: metadata.php:9
+msgid "Filed under: "
+msgstr ""
+
+#: nav-content.php:4
+#: single.php:18
+msgid "More Pages"
+msgstr ""
+
+#: social-content.php:26
+msgid "Home Page"
+msgstr "الصفحة الرئيسية"
+
+#: theme-customize.php:30
+msgid "Theme Options"
+msgstr "خيارات القالب"
+
+#: metadata.php:4
+#: metadata.php:12
+msgid "Edit"
+msgstr "تحرير"
+
+#: header.php:36
+msgid "Tone"
+msgstr ""
+
+#: header.php:35
+msgid "Volume"
+msgstr "الصوت"
+
+#: functions.php:169
+msgid "Primary Footer Widget Right Side"
+msgstr ""
+
+#: functions.php:171
+msgid "The main footer widget area"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: footer.php:29
+msgid "Copyright"
+msgstr "‏Copyright"
+
+#: functions.php:43
+msgid "Secondary Mobile Navigation"
+msgstr ""
+
+#: functions.php:42
+msgid "Main Primary Navigation"
+msgstr ""
+
+#: footer.php:30
+msgid "Theme Amp by Tradesouthwest"
+msgstr ""
+
+#: functions.php:160
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: functions.php:44
+msgid "Secondary Footer Navigation"
+msgstr ""
+
+#: footer.php:17
+msgid "HOME"
+msgstr "صفحة البداية"
+
+#: archive.php:27
+msgid "Blog Archives"
+msgstr "أرشيف المدونة"
+
+#: archive.php:25
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:25
+msgid "Yearly Archives: %s"
+msgstr "الأرشيف السنوي: %s"
+
+#: archive.php:23
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:23
+msgid "Monthly Archives: %s"
+msgstr "الأرشيف الشهري: %s"
+
+#: archive.php:17
+msgid "Author Archive for %s"
+msgstr ""
+
+#: archive.php:19
+msgid "Tag Archive for %s"
+msgstr ""
+
+#: archive.php:21
+msgid "Daily Archives: %s"
+msgstr "الأرشيف اليومي: %s"
+
+#. Theme URI of the plugin/theme
+msgid "http://themes/tradesouthwest.com/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tradesouthwest"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://tradesouthwest.com"
+msgstr ""

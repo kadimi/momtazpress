@@ -1,0 +1,2353 @@
+# Translation of Plugins - Contact Form by BestWebSoft - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - Contact Form by BestWebSoft - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2016-02-19 12:33:40+0000\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Project-Id-Version: Plugins - Contact Form by BestWebSoft - Stable (latest release)\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: bws_menu/deactivation-form.php:368
+msgid "Skip and Deactivate"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:848
+msgid "Enable to multiple file selection"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:846
+msgid "Multi-attachment"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1793
+msgid "Add Contact Form  to your page or post using the following shortcode:"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1790
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:101
+msgid "Contact Form plugin requires PHP %s or higher. Please contact your hosting provider to upgrade PHP version."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:99
+msgid "Please enable JavaScript in your browser."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:30
+msgid "Misc"
+msgstr ""
+
+#: bws_menu/product_list.php:42
+msgid "Create your own rental website for car renting and booking."
+msgstr ""
+
+#: contact_form.php:659
+msgid "Contact Form plugin doesn't support your current version of Contact Form Multi plugin. Please update Contact Form Multi plugin to version 1.2.6 or higher."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:889
+msgid "Link to Privacy Policy Page"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:884
+msgid "GDPR Compliance"
+msgstr ""
+
+#: contact_form.php:359
+#: includes/class-cntctfrm-settings.php:1089
+#: includes/class-cntctfrm-settings.php:1129
+msgid "I consent to having this site collect my personal data."
+msgstr ""
+
+#: contact_form.php:1819
+#: contact_form.php:1821
+msgid "Illegal language code"
+msgstr ""
+
+#: contact_form.php:1819
+msgid "Error"
+msgstr ""
+
+#: bws_menu/product_list.php:155
+msgid "Stronger security solution which protects your WordPress website from hacks and unauthorized login attempts."
+msgstr ""
+
+#: bws_menu/product_list.php:22
+msgid "Best secure captcha plugin to protect your WordPress forms."
+msgstr ""
+
+#: bws_menu/deactivation-form.php:288
+msgid "Please tell us the reason so we can improve it."
+msgstr ""
+
+#: bws_menu/deactivation-form.php:273
+msgid "Submit and Deactivate"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:244
+msgid "Processing"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:127
+msgid "Send website data and allow to contact me back"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:124
+msgid "If you have a moment, please let us know why you are deactivating"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:123
+msgid "Quick Feedback"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:83
+msgid "It's a temporary deactivation, I'm just debugging an issue"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:77
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:73
+msgid "What feature?"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:71
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:67
+msgid "What's the plugin name?"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:65
+msgid "I found a better plugin"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:58
+msgid "I couldn't understand how to get it work"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:51
+msgid "The plugin broke my site"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:44
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:40
+msgid "What did you expect?"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:38
+msgid "The plugin didn't work as expected"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:34
+msgid "Kindly share what didn't work so we can fix it in future updates..."
+msgstr ""
+
+#: bws_menu/deactivation-form.php:32
+msgid "The plugin is not working"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:27
+msgid "Contact Support"
+msgstr ""
+
+#: bws_menu/deactivation-form.php:27
+msgid "Need help? We are ready to answer your questions."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:1027
+msgid "UploadDir is not writable. Please, upload the plugin manually."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:1020
+msgid "Your server does not support either ZipArchive or Phar. Please, upload the plugin manually."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:1014
+msgid "Failed to open the zip archive. Please, upload the plugin manually."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:1002
+#: bws_menu/class-bws-settings.php:1024
+#: bws_menu/class-bws-settings.php:1046
+msgid "Failed to download the zip archive. Please, upload the plugin manually."
+msgstr ""
+
+#: bws_menu/bws_functions.php:93
+msgid "%s reviews"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:973
+msgid "Unfortunately, Your license has expired. To continue getting top-priority support and plugin updates, you should extend it in your %s."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1281
+msgid "px"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1274
+msgid "Custom"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1266
+msgid "Width"
+msgstr ""
+
+#: bws_menu/product_list.php:481
+msgid "Backup and export Zendesk Help Center content automatically to your WordPress website database."
+msgstr ""
+
+#: bws_menu/product_list.php:471
+msgid "Display live count of online visitors who are currently browsing your WordPress website."
+msgstr ""
+
+#: bws_menu/product_list.php:461
+msgid "Powerful user role management plugin for WordPress website. Create, edit, copy, and delete user roles."
+msgstr ""
+
+#: bws_menu/product_list.php:451
+msgid "Automatically check and update WordPress website core with all installed plugins and themes to the latest versions."
+msgstr ""
+
+#: bws_menu/product_list.php:441
+msgid "Add Twitter Follow, Tweet, Hashtag, and Mention buttons to WordPress posts and pages."
+msgstr ""
+
+#: bws_menu/product_list.php:431
+msgid "Best timesheet plugin for WordPress. Track employee time, streamline attendance and generate reports."
+msgstr ""
+
+#: bws_menu/product_list.php:424
+msgid "Add testimonials and feedbacks from your customers to WordPress website posts, pages, and widgets."
+msgstr ""
+
+#: bws_menu/product_list.php:414
+msgid "Add email newsletter sign up form to WordPress posts, pages and widgets. Collect data and subscribe your users."
+msgstr ""
+
+#: bws_menu/product_list.php:407
+msgid "Add social media login, registration, and commenting to your WordPress website."
+msgstr ""
+
+#: bws_menu/product_list.php:397
+msgid "Add social media buttons and widgets to WordPress posts, pages and widgets. FB, Twitter, G+1, Pinterest, LinkedIn."
+msgstr ""
+
+#: bws_menu/product_list.php:390
+msgid "Configure SMTP server to receive email messages from WordPress to Gmail, Yahoo, Hotmail and other services."
+msgstr ""
+
+#: bws_menu/product_list.php:383
+msgid "The best responsive slider plugin for your WordPress website. Create beautifully animated slides just in a few clicks."
+msgstr ""
+
+#: bws_menu/product_list.php:373
+msgid "Send bulk email messages to WordPress users. Custom templates, advanced settings and detailed reports."
+msgstr ""
+
+#: bws_menu/product_list.php:366
+msgid "Add related, featured, latest, and popular posts to your WordPress website. Connect your blog readers with a relevant content."
+msgstr ""
+
+#: bws_menu/product_list.php:356
+msgid "Create your personal real estate WordPress website. Sell, rent and buy properties. Add, search and browse listings easily."
+msgstr ""
+
+#: bws_menu/product_list.php:346
+msgid "Add rating plugin to your WordPress website to receive feedback from your customers."
+msgstr ""
+
+#: bws_menu/product_list.php:339
+msgid "Add customizable quotes and tips blocks to WordPress posts, pages and widgets."
+msgstr ""
+
+#: bws_menu/product_list.php:329
+msgid "Add and display HTML advertisement banner on WordPress website. Customize bar styles and appearance."
+msgstr ""
+
+#: bws_menu/product_list.php:319
+msgid "Add extra fields to default WordPress user profile. The easiest way to create and manage additional custom values."
+msgstr ""
+
+#: bws_menu/product_list.php:309
+msgid "Export WordPress posts to CSV file format easily. Configure data order."
+msgstr ""
+
+#: bws_menu/product_list.php:299
+msgid "Create your personal portfolio WordPress website. Manage and showcase past projects to get more clients."
+msgstr ""
+
+#: bws_menu/product_list.php:289
+msgid "Add Pinterest Follow, Pin It buttons and profile widgets (Pin, Board, Profile) to WordPress posts, pages and widgets."
+msgstr ""
+
+#: bws_menu/product_list.php:279
+msgid "Generate PDF files and print WordPress posts/pages. Customize document header/footer styles and appearance."
+msgstr ""
+
+#: bws_menu/product_list.php:269
+msgid "Add customizable pagination to WordPress website. Split long content to multiple pages for better navigation."
+msgstr ""
+
+#: bws_menu/product_list.php:259
+msgid "Translate WordPress website content to other languages manually. Create multilingual pages, posts, widgets, menus, etc."
+msgstr ""
+
+#: bws_menu/product_list.php:249
+msgid "Add LinkedIn Share and Follow buttons to WordPress posts, pages and widgets. 5 plugins included – profile, insider, etc."
+msgstr ""
+
+#: bws_menu/product_list.php:239
+msgid "Protect WordPress website against brute force attacks. Limit rate of login attempts."
+msgstr ""
+
+#: bws_menu/product_list.php:232
+msgid "Create your personal job board and listing WordPress website. Search jobs, submit CV/resumes, choose candidates."
+msgstr ""
+
+#: bws_menu/product_list.php:222
+msgid "Protect WordPress website – allow and deny access for certain IP addresses, hostnames, etc."
+msgstr ""
+
+#: bws_menu/product_list.php:215
+msgid "Replace external WordPress website links with Google shortlinks and track click stats."
+msgstr ""
+
+#: bws_menu/product_list.php:205
+msgid "Generate and add XML sitemap to WordPress website. Help search engines index your blog."
+msgstr ""
+
+#: bws_menu/product_list.php:195
+msgid "Add customized Google maps to WordPress posts, pages and widgets."
+msgstr ""
+
+#: bws_menu/product_list.php:185
+msgid "Protect WordPress website forms from spam entries with Google Captcha (reCaptcha)."
+msgstr ""
+
+#: bws_menu/product_list.php:175
+msgid "Add Google Analytics code to WordPress website and track basic stats."
+msgstr ""
+
+#: bws_menu/product_list.php:165
+msgid "Add Adsense ads to WordPress website pages, posts, custom posts, search results, categories, tags, and widgets."
+msgstr ""
+
+#: bws_menu/product_list.php:145
+msgid "Add Google +1, Share, Follow, Hangout buttons and profile badge to WordPress posts, pages and widgets."
+msgstr ""
+
+#: bws_menu/product_list.php:135
+msgid "Add beautiful galleries, albums & images to your WordPress website in a few clicks."
+msgstr ""
+
+#: bws_menu/product_list.php:125
+msgid "Add Facebook Follow, Like, and Share buttons to WordPress posts, pages, and widgets."
+msgstr ""
+
+#: bws_menu/product_list.php:118
+msgid "Get latest error log messages to diagnose website problems. Define and fix issues faster."
+msgstr ""
+
+#: bws_menu/product_list.php:111
+msgid "Add PayPal and 2CO donate buttons to receive charity payments."
+msgstr ""
+
+#: bws_menu/product_list.php:101
+msgid "Add custom post types and taxonomies to WordPress website search results."
+msgstr ""
+
+#: bws_menu/product_list.php:94
+msgid "Add custom fields to WordPress website search results."
+msgstr ""
+
+#: bws_menu/product_list.php:84
+msgid "Add unlimited custom pages to WordPress admin dashboard."
+msgstr ""
+
+#: bws_menu/product_list.php:74
+msgid "Save and manage Contact Form messages. Never lose important data."
+msgstr ""
+
+#: bws_menu/product_list.php:64
+msgid "Add unlimited number of contact forms to WordPress website."
+msgstr ""
+
+#: bws_menu/product_list.php:32
+msgid "Create your personal car rental/booking and reservation website."
+msgstr ""
+
+#: bws_menu/product_list.php:15
+msgid "SMM"
+msgstr ""
+
+#: bws_menu/product_list.php:14
+msgid "SEO"
+msgstr ""
+
+#: bws_menu/product_list.php:11
+msgid "Navigation"
+msgstr ""
+
+#: bws_menu/product_list.php:10
+msgid "Marketing"
+msgstr ""
+
+#: bws_menu/product_list.php:9
+msgid "eCommerce"
+msgstr ""
+
+#: bws_menu/product_list.php:8
+msgid "Content"
+msgstr ""
+
+#: bws_menu/product_list.php:7
+msgid "Admin Tools"
+msgstr ""
+
+#: bws_menu/bws_functions.php:482
+msgid "Thank you for choosing %s plugin!"
+msgstr ""
+
+#: bws_menu/bws_functions.php:208
+msgid "Thank you for installing %s plugin!"
+msgstr ""
+
+#: bws_menu/bws_functions.php:103
+msgid "Need help?"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:917
+msgid "Activate for network"
+msgstr ""
+
+#: bws_menu/deprecated.php:670
+msgid "Congratulations! Pro version of the plugin is  installed and activated successfully."
+msgstr ""
+
+#: bws_menu/deprecated.php:279
+msgid "Congratulations! The Pro license of the plugin is activated successfully."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:1117
+msgid "Start Your Free Trial"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:1106
+msgid "Watch the Video"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:1102
+msgid "Read the Instruction"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:804
+msgid "Manage active licenses, download BWS products, and view your payment history using BestWebSoft Client Area."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:802
+msgid "Login to Client Area"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:800
+msgid "Manage License Settings"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:791
+msgid "If necessary, you can check if the license key is correct or reenter it in the field below."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:770
+msgid "Enter your license key to activate %s and get premium plugin features."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:747
+msgid "Settings page"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:747
+msgid "You will be automatically redirected to the %s in %s seconds."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:746
+msgid "Congratulations! %s license is activated successfully."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:721
+#: includes/class-cntctfrm-settings.php:31
+msgid "License Key"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:605
+msgid "Import / Export"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:593
+msgid "This will restore plugin settings to defaults."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:592
+msgid "Restore Settings"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:590
+msgid "Default Settings"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:585
+msgid "Enable to allow tracking plugin usage anonymously in order to make it better."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:581
+msgid "Track Usage"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:575
+msgid "Enable to display plugin Pro options."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:571
+msgid "Pro Options"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:562
+#: bws_menu/class-bws-settings.php:617
+msgid "It is prohibited to view %s settings on this site in the %s network settings."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:559
+#: bws_menu/class-bws-settings.php:614
+msgid "It is prohibited to change %s settings on this site in the %s network settings."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:550
+msgid "Miscellaneous Settings"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:480
+msgid "Activate custom %s code."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:457
+msgid "These code will be added to the header on all pages of your site."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:442
+#: includes/class-cntctfrm-settings.php:32
+msgid "Custom Code"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:192
+msgid "Version"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:188
+msgid "Status"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:185
+msgid "License"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:180
+msgid "Active"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:178
+msgid "Renew Now"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:178
+msgid "Expired on %s"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:172
+msgid "%s day(-s) left"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:169
+msgid "Expired"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:161
+msgid "Inactive"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:153
+msgid "Information"
+msgstr ""
+
+#: bws_menu/bws_menu.php:425
+msgid "The plugin %s is successfully installed."
+msgstr ""
+
+#: bws_menu/bws_menu.php:228
+msgid "WP DB version"
+msgstr ""
+
+#: bws_menu/bws_menu.php:226
+msgid "Database"
+msgstr ""
+
+#: bws_menu/bws_menu.php:207
+msgid "Server Environment"
+msgstr ""
+
+#: bws_menu/bws_menu.php:203
+#: bws_menu/bws_menu.php:248
+#: bws_menu/bws_menu.php:251
+msgid "by %s"
+msgstr ""
+
+#: bws_menu/bws_menu.php:202
+msgid "WP Memory Limit"
+msgstr ""
+
+#: bws_menu/bws_menu.php:201
+msgid "WP Multisite"
+msgstr ""
+
+#: bws_menu/bws_menu.php:200
+msgid "WP Version"
+msgstr ""
+
+#: bws_menu/bws_menu.php:199
+msgid "Website URL"
+msgstr ""
+
+#: bws_menu/bws_menu.php:196
+msgid "WordPress Environment"
+msgstr ""
+
+#: bws_menu/bws_menu.php:146
+msgid "Congratulations! Pro Membership license is activated successfully."
+msgstr ""
+
+#: bws_menu/bws_functions.php:821
+msgid "Are you sure you want to restore default settings?"
+msgstr ""
+
+#: bws_menu/bws_functions.php:515
+msgid "You can always look at premium options by checking the \"Pro Options\" in the \"Misc\" tab."
+msgstr ""
+
+#: bws_menu/bws_functions.php:389
+msgid "Your license key for %s expires on %s and you won't be granted TOP-PRIORITY SUPPORT or UPDATES."
+msgstr ""
+
+#: bws_menu/bws_functions.php:278
+msgid "This function(-s) will be removed over time. Please update the product(-s)."
+msgstr ""
+
+#: bws_menu/bws_functions.php:264
+msgid "Deprecated function(-s) is used on the site here:"
+msgstr ""
+
+#: bws_menu/bws_functions.php:107
+msgid "Want to support the plugin?"
+msgstr ""
+
+#: bws_menu/bws_functions.php:94
+msgid "Rate it"
+msgstr ""
+
+#: bws_menu/bws_functions.php:92
+msgid "Like the plugin?"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://bestwebsoft.com/products/wordpress/plugins/contact-form/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Simple contact form plugin any WordPress website must have."
+msgstr ""
+
+#: bws_menu/product_list.php:54
+msgid "Allow customers to reach you using secure contact form plugin any website must have."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:554
+msgid "Sending method"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:516
+#: includes/class-cntctfrm-settings.php:908
+#: includes/class-cntctfrm-settings.php:949
+#: includes/class-cntctfrm-settings.php:984
+msgid "settings page"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:513
+#: includes/class-cntctfrm-settings.php:905
+#: includes/class-cntctfrm-settings.php:946
+#: includes/class-cntctfrm-settings.php:981
+msgid "Please activate the appropriate option on"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:463
+msgid "Enter the email address for receiving messages"
+msgstr ""
+
+#: bws_menu/bws_menu.php:531
+msgid "Not installed"
+msgstr ""
+
+#: bws_menu/bws_menu.php:163
+msgid "Please enter your license key."
+msgstr ""
+
+#: bws_menu/deactivation-form.php:89
+msgid "Other"
+msgstr ""
+
+#: bws_menu/product_list.php:13
+msgid "Security"
+msgstr ""
+
+#: bws_menu/bws_menu.php:645
+msgid "Browse More WordPress Themes"
+msgstr ""
+
+#: bws_menu/bws_menu.php:591
+msgid "Nothing found. Try another criteria."
+msgstr ""
+
+#: bws_menu/bws_menu.php:582
+msgid "Install this plugin"
+msgstr ""
+
+#: bws_menu/bws_functions.php:108
+#: bws_menu/bws_menu.php:560
+msgid "Donate"
+msgstr ""
+
+#: bws_menu/bws_menu.php:556
+#: bws_menu/class-bws-settings.php:174
+#: bws_menu/class-bws-settings.php:1113
+#: contact_form.php:63
+#: includes/class-cntctfrm-settings.php:486
+#: includes/class-cntctfrm-settings.php:820
+#: includes/class-cntctfrm-settings.php:1014
+#: includes/class-cntctfrm-settings.php:1531
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: bws_menu/bws_menu.php:538
+msgid "Update to v %s"
+msgstr ""
+
+#: bws_menu/bws_menu.php:535
+msgid "Renew to get updates"
+msgstr ""
+
+#: bws_menu/bws_menu.php:467
+#: bws_menu/bws_menu.php:596
+msgid "Category"
+msgstr ""
+
+#: bws_menu/bws_menu.php:464
+msgid "Filter results"
+msgstr ""
+
+#: bws_menu/bws_menu.php:457
+msgid "Not Installed"
+msgstr ""
+
+#: bws_menu/bws_menu.php:437
+#: bws_menu/bws_menu.php:443
+msgid "Return to BestWebSoft Panel"
+msgstr ""
+
+#: bws_menu/bws_menu.php:437
+msgid "Activate Plugin"
+msgstr ""
+
+#: bws_menu/bws_menu.php:411
+#: bws_menu/bws_menu.php:419
+msgid "Installing the plugin"
+msgstr ""
+
+#: bws_menu/bws_menu.php:406
+msgid "Unpacking the package"
+msgstr ""
+
+#: bws_menu/bws_menu.php:381
+msgid "Downloading install package from"
+msgstr ""
+
+#: bws_menu/bws_menu.php:375
+msgid "Installing Plugin"
+msgstr ""
+
+#: bws_menu/bws_menu.php:368
+msgid "Plugin <strong>activated</strong>."
+msgstr ""
+
+#: bws_menu/bws_menu.php:365
+msgid "Plugin could not be activated because it triggered a <strong>fatal error</strong>."
+msgstr ""
+
+#: bws_menu/bws_menu.php:363
+msgid "The plugin generated %d characters of <strong>unexpected output</strong> during activation. If you notice &#8220;headers already sent&#8221; messages, problems with syndication feeds or other issues, try deactivating or removing this plugin."
+msgstr ""
+
+#: bws_menu/bws_menu.php:359
+msgid "Upload Plugin"
+msgstr ""
+
+#: bws_menu/bws_menu.php:326
+msgid "Subscribe to Pro Membership"
+msgstr ""
+
+#: bws_menu/bws_menu.php:337
+msgid "Enter your license key"
+msgstr ""
+
+#: bws_menu/bws_menu.php:324
+msgid "Get Access to %s+ Premium Plugins"
+msgstr ""
+
+#: bws_menu/bws_menu.php:316
+msgid "Manage purchased licenses & subscriptions"
+msgstr ""
+
+#: bws_menu/bws_menu.php:130
+msgid "Log in"
+msgstr ""
+
+#: bws_menu/bws_menu.php:130
+msgid "This license key is bound to another site. Change it via personal Client Area."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:465
+#: bws_menu/deprecated.php:646
+msgid "You need to make this files writable before you can save your changes. See %s the Codex %s for more information."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:488
+#: bws_menu/deprecated.php:635
+msgid "Learn more about %s"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:475
+#: bws_menu/deprecated.php:628
+msgid "Browsing"
+msgstr ""
+
+#: bws_menu/deprecated.php:626
+msgid "Editing"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:454
+#: bws_menu/deprecated.php:622
+msgid "This PHP code will be hooked to the %s action and will be printed on front end only."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:451
+#: bws_menu/deprecated.php:620
+msgid "These styles will be added to the header on all pages of your site."
+msgstr ""
+
+#: bws_menu/deprecated.php:582
+msgid "Not enough permissions to create the file"
+msgstr ""
+
+#: bws_menu/deprecated.php:552
+#: bws_menu/deprecated.php:579
+msgid "Not enough permissions to create or update the file"
+msgstr ""
+
+#: bws_menu/deprecated.php:550
+#: bws_menu/deprecated.php:577
+msgid "File %s edited successfully."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:446
+#: bws_menu/deprecated.php:498
+msgid "You do not have sufficient permissions to edit plugins for this site."
+msgstr ""
+
+#: bws_menu/deprecated.php:251
+#: bws_menu/deprecated.php:693
+msgid "(your username is the email address specified during the purchase)."
+msgstr ""
+
+#: bws_menu/deprecated.php:249
+#: bws_menu/deprecated.php:691
+msgid "License key can be found in the"
+msgstr ""
+
+#: bws_menu/deprecated.php:689
+msgid "version of the plugin."
+msgstr ""
+
+#: bws_menu/deprecated.php:687
+msgid "Enter your license key to install and activate"
+msgstr ""
+
+#: bws_menu/bws_functions.php:236
+msgid "Less Details"
+msgstr ""
+
+#: bws_menu/bws_functions.php:235
+msgid "More Details"
+msgstr ""
+
+#: bws_menu/bws_functions.php:233
+msgid "Thank you for installing plugins by BestWebSoft!"
+msgstr ""
+
+#: bws_menu/deprecated.php:93
+msgid "System Status"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1227
+#: includes/class-cntctfrm-settings.php:1327
+msgid "Labels align"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1322
+msgid "Bottom"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1313
+msgid "Top"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1226
+#: includes/class-cntctfrm-settings.php:1309
+msgid "Labels position"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1301
+#: includes/class-cntctfrm-settings.php:1334
+msgid "Center"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1294
+msgid "Form align"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1039
+msgid "Sent from (IP address)"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:560
+msgid "You can use the Wordpress wp_mail function for mailing"
+msgstr ""
+
+#: bws_menu/bws_functions.php:484
+msgid "Suggest a Feature"
+msgstr ""
+
+#: bws_menu/bws_functions.php:483
+msgid "If you have a feature, suggestion or idea you'd like to see in the plugin, we'd love to hear about it!"
+msgstr ""
+
+#: contact_form.php:2087
+#: contact_form.php:2097
+msgid "Language"
+msgstr "اللغة"
+
+#: contact_form.php:2074
+msgid "Contact form"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1543
+msgid "Drag the necessary field to sort fields."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1261
+#: includes/class-cntctfrm-settings.php:1304
+#: includes/class-cntctfrm-settings.php:1319
+#: includes/class-cntctfrm-settings.php:1337
+msgid "Right"
+msgstr "يسار الرقم"
+
+#: includes/class-cntctfrm-settings.php:1258
+#: includes/class-cntctfrm-settings.php:1298
+#: includes/class-cntctfrm-settings.php:1316
+#: includes/class-cntctfrm-settings.php:1331
+msgid "Left"
+msgstr "شمال"
+
+#: includes/class-cntctfrm-settings.php:1249
+msgid "Two columns"
+msgstr "عمودين"
+
+#: includes/class-cntctfrm-settings.php:1246
+msgid "One column"
+msgstr "عامود واحد"
+
+#: includes/class-cntctfrm-settings.php:1224
+msgid "Please enable JavaScript to change '%s', '%s', '%s', '%s' options and for fields sorting."
+msgstr ""
+
+#: contact_form.php:653
+msgid "NEW_FORM"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1228
+#: includes/class-cntctfrm-settings.php:1254
+msgid "Submit position"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1225
+#: includes/class-cntctfrm-settings.php:1242
+msgid "Form layout"
+msgstr ""
+
+#: bws_menu/bws_functions.php:933
+msgid "Submit a Request"
+msgstr ""
+
+#: bws_menu/bws_functions.php:932
+msgid "Video Instructions"
+msgstr ""
+
+#: bws_menu/bws_functions.php:931
+msgid "Documentation"
+msgstr "مستندات المساعدة"
+
+#: bws_menu/bws_functions.php:930
+msgid "For more information:"
+msgstr "لمزيد من المعلومات :"
+
+#: bws_menu/bws_functions.php:104
+#: bws_menu/bws_functions.php:919
+#: bws_menu/class-bws-settings.php:1104
+msgid "Visit Help Center"
+msgstr ""
+
+#: bws_menu/bws_functions.php:673
+msgid "Add BestWebSoft plugins' shortcodes using this button."
+msgstr ""
+
+#: bws_menu/bws_functions.php:673
+msgid "Add shortcode"
+msgstr ""
+
+#: bws_menu/bws_functions.php:654
+msgid "Add BWS Plugins Shortcode"
+msgstr ""
+
+#: bws_menu/bws_functions.php:500
+msgid "The plugin's settings have been changed."
+msgstr ""
+
+#: bws_menu/bws_functions.php:500
+#: bws_menu/class-bws-settings.php:559
+#: bws_menu/class-bws-settings.php:562
+#: bws_menu/class-bws-settings.php:614
+#: bws_menu/class-bws-settings.php:617
+msgid "Notice"
+msgstr "لاحظ"
+
+#: bws_menu/deprecated.php:680
+msgid "Show Pro features"
+msgstr ""
+
+#: bws_menu/deprecated.php:316
+msgid "Check premium options on the plugin settings page!"
+msgstr ""
+
+#: bws_menu/bws_functions.php:193
+msgid "or higher! We do not guarantee that our plugin will work correctly. Please upgrade to WordPress latest version."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://bestwebsoft.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "BestWebSoft"
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "Contact Form by BestWebSoft"
+msgstr ""
+
+#: contact_form.php:2011
+msgid "Manage messages that have been sent from your website."
+msgstr ""
+
+#: contact_form.php:2010
+msgid "allows to store your messages to the database."
+msgstr ""
+
+#: contact_form.php:1756
+msgid "Install Contact Form Multi plugin to create unlimited number of contact forms."
+msgstr ""
+
+#: contact_form.php:1756
+msgid "Add multiple forms"
+msgstr ""
+
+#: contact_form.php:1734
+msgid "Are you sure that you want to delete this language data?"
+msgstr ""
+
+#: bws_menu/bws_menu.php:315
+#: contact_form.php:1685
+msgid "Support"
+msgstr ""
+
+#: contact_form.php:1612
+msgid "If you can see this MIME, it means that the MIME type is not supported by your email client!"
+msgstr ""
+
+#: contact_form.php:1435
+#: contact_form.php:1484
+msgid "Site"
+msgstr ""
+
+#: contact_form.php:1430
+msgid "Contact from"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1542
+msgid "Contact Form | Preview"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1515
+msgid "Button text color"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1507
+msgid "Button color"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1499
+msgid "Width in px, numbers only"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1495
+msgid "Submit button"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1490
+#: includes/class-cntctfrm-settings.php:1523
+msgid "Border color"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1482
+msgid "Border width in px, numbers only"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1478
+msgid "Text fields color"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1470
+msgid "Input fields background color"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1462
+msgid "Input fields"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1457
+msgid "Placeholder color of the input field errors"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1449
+msgid "Border color of the input field errors"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1441
+msgid "Background color of the input field errors"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1433
+msgid "Error text color"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1425
+msgid "Errors color"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1420
+msgid "Placeholder color"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1411
+msgid "Label text color"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1065
+#: includes/class-cntctfrm-settings.php:1165
+#: includes/class-cntctfrm-settings.php:1270
+msgid "Default"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1403
+msgid "Text color"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1230
+#: includes/class-cntctfrm-settings.php:1399
+msgid "Style options"
+msgstr ""
+
+#: contact_form.php:356
+#: includes/class-cntctfrm-settings.php:1086
+#: includes/class-cntctfrm-settings.php:1126
+#: includes/class-cntctfrm-settings.php:1391
+msgid "Attachment"
+msgstr ""
+
+#: contact_form.php:1473
+#: contact_form.php:1514
+#: includes/class-cntctfrm-settings.php:1377
+msgid "Phone Number"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1372
+msgid "Email address"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1229
+#: includes/class-cntctfrm-settings.php:1358
+msgid "Add tooltips"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1352
+msgid "Add placeholder to the input blocks"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1347
+msgid "Display error messages & color of the input field errors"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1346
+msgid "Color of the input field errors."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1345
+msgid "Display error messages"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1342
+msgid "Errors output"
+msgstr ""
+
+#: bws_menu/bws_functions.php:501
+#: bws_menu/class-bws-settings.php:200
+#: bws_menu/class-bws-settings.php:220
+#: bws_menu/deprecated.php:642
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: includes/class-cntctfrm-settings.php:1204
+msgid "Url"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1203
+msgid "Redirect to the page"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1178
+#: includes/class-cntctfrm-settings.php:1192
+msgid "Text"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1164
+msgid "Display text"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1162
+msgid "Action after email is sent"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1156
+msgid "Use the changed names of the contact form fields in the email"
+msgstr ""
+
+#: contact_form.php:1855
+#: contact_form.php:1857
+#: includes/class-cntctfrm-settings.php:1106
+#: includes/class-cntctfrm-settings.php:1108
+#: includes/class-cntctfrm-settings.php:1146
+#: includes/class-cntctfrm-settings.php:1148
+#: includes/class-cntctfrm-settings.php:1180
+#: includes/class-cntctfrm-settings.php:1182
+#: includes/class-cntctfrm-settings.php:1194
+#: includes/class-cntctfrm-settings.php:1196
+msgid "for this language"
+msgstr ""
+
+#: contact_form.php:1855
+#: contact_form.php:1857
+#: includes/class-cntctfrm-settings.php:1106
+#: includes/class-cntctfrm-settings.php:1108
+#: includes/class-cntctfrm-settings.php:1146
+#: includes/class-cntctfrm-settings.php:1148
+#: includes/class-cntctfrm-settings.php:1180
+#: includes/class-cntctfrm-settings.php:1182
+#: includes/class-cntctfrm-settings.php:1194
+#: includes/class-cntctfrm-settings.php:1196
+msgid "Use shortcode"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1103
+#: includes/class-cntctfrm-settings.php:1143
+msgid "Error message for the whole form"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1102
+#: includes/class-cntctfrm-settings.php:1142
+msgid "Error message for the Captcha field"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1101
+#: includes/class-cntctfrm-settings.php:1141
+msgid "Error message when file size limit for the Attachment field is exceeded"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1100
+#: includes/class-cntctfrm-settings.php:1140
+msgid "Error message while moving the file for the Attachment field"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1099
+#: includes/class-cntctfrm-settings.php:1139
+msgid "Error message while uploading a file for the Attachment field to the server"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1098
+#: includes/class-cntctfrm-settings.php:1138
+msgid "Error message about the file type for the Attachment field"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1097
+#: includes/class-cntctfrm-settings.php:1137
+msgid "Error message for the Message field"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1096
+#: includes/class-cntctfrm-settings.php:1136
+msgid "Error message for the Subject field"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1095
+#: includes/class-cntctfrm-settings.php:1135
+msgid "Error message for the Phone field"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1094
+#: includes/class-cntctfrm-settings.php:1134
+msgid "Error message for the Email field"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1093
+#: includes/class-cntctfrm-settings.php:1133
+msgid "Error message for the Address field"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1092
+#: includes/class-cntctfrm-settings.php:1132
+msgid "Error message for the Name field"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1087
+#: includes/class-cntctfrm-settings.php:1127
+msgid "Tips below the Attachment block"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1078
+#: includes/class-cntctfrm-settings.php:1118
+msgid "click to expand/hide the list"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1060
+msgid "Change the names of the contact form fields and error messages"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1056
+msgid "Add a language"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1047
+msgid "Language settings for the field names in the form"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1042
+msgid "Example: Using (user agent): Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
+msgstr ""
+
+#: contact_form.php:1418
+#: contact_form.php:1420
+#: includes/class-cntctfrm-settings.php:1042
+msgid "Using (user agent)"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1041
+msgid "Example: Sent from (referer):   https://bestwebsoft.com/contacts/contact-us/"
+msgstr ""
+
+#: contact_form.php:1412
+#: contact_form.php:1414
+#: includes/class-cntctfrm-settings.php:1041
+msgid "Sent from (referer)"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1040
+msgid "Example: Date/Time: August 19, 2013 8:50 pm"
+msgstr ""
+
+#: contact_form.php:1406
+#: contact_form.php:1408
+#: includes/class-cntctfrm-settings.php:1040
+msgid "Date/Time"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1039
+msgid "Example: Sent from (IP address): 127.0.0.1"
+msgstr ""
+
+#: contact_form.php:1400
+#: contact_form.php:1402
+msgid "Sent from (ip address)"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1033
+msgid "Display additional info in the email"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1029
+msgid "Email in HTML format sending"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1023
+msgid "Delete an attachment file from the server after the email is sent"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1008
+msgid "Optional checkbox, the results of which will be displayed in email"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1008
+msgid "Optional checkbox"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1007
+msgid "Required checkbox for submitting the form"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:1007
+msgid "Agreement checkbox"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:877
+msgid "'Send me a copy' block"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:870
+msgid "Tips below the Attachment"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:865
+msgid "Add to the form"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:830
+msgid "Users can attach the following file formats"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:828
+msgid "Attachment block"
+msgstr ""
+
+#: contact_form.php:355
+#: contact_form.php:1467
+#: contact_form.php:1509
+#: includes/class-cntctfrm-settings.php:790
+#: includes/class-cntctfrm-settings.php:1085
+#: includes/class-cntctfrm-settings.php:1125
+#: includes/class-cntctfrm-settings.php:1386
+msgid "Message"
+msgstr ""
+
+#: contact_form.php:354
+#: contact_form.php:1462
+#: contact_form.php:1505
+#: includes/class-cntctfrm-settings.php:766
+#: includes/class-cntctfrm-settings.php:1084
+#: includes/class-cntctfrm-settings.php:1124
+#: includes/class-cntctfrm-settings.php:1382
+msgid "Subject"
+msgstr ""
+
+#: contact_form.php:353
+#: includes/class-cntctfrm-settings.php:750
+#: includes/class-cntctfrm-settings.php:1083
+#: includes/class-cntctfrm-settings.php:1123
+msgid "Phone number"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:744
+msgid "Use User's email as a default value if the user is logged in."
+msgstr ""
+
+#: contact_form.php:352
+#: includes/class-cntctfrm-settings.php:730
+#: includes/class-cntctfrm-settings.php:1082
+#: includes/class-cntctfrm-settings.php:1122
+msgid "Email Address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: contact_form.php:351
+#: contact_form.php:1451
+#: contact_form.php:1496
+#: includes/class-cntctfrm-settings.php:714
+#: includes/class-cntctfrm-settings.php:1081
+#: includes/class-cntctfrm-settings.php:1121
+#: includes/class-cntctfrm-settings.php:1367
+msgid "Address"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:694
+msgid "Location selectbox"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:688
+#: includes/class-cntctfrm-settings.php:745
+msgid "'Visible' and 'Disabled for editing' options will be applied only to logged-in users."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:687
+msgid "Use User's name as a default value if the user is logged in."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:655
+msgid "Department selectbox"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:648
+#: includes/class-cntctfrm-settings.php:707
+#: includes/class-cntctfrm-settings.php:783
+#: includes/class-cntctfrm-settings.php:807
+msgid "Field's default value"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:647
+#: includes/class-cntctfrm-settings.php:683
+#: includes/class-cntctfrm-settings.php:740
+#: includes/class-cntctfrm-settings.php:779
+#: includes/class-cntctfrm-settings.php:803
+msgid "Disabled for editing"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:646
+#: includes/class-cntctfrm-settings.php:679
+#: includes/class-cntctfrm-settings.php:736
+#: includes/class-cntctfrm-settings.php:775
+#: includes/class-cntctfrm-settings.php:799
+msgid "Visible"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:644
+#: includes/class-cntctfrm-settings.php:659
+#: includes/class-cntctfrm-settings.php:674
+#: includes/class-cntctfrm-settings.php:701
+#: includes/class-cntctfrm-settings.php:721
+#: includes/class-cntctfrm-settings.php:757
+#: includes/class-cntctfrm-settings.php:770
+#: includes/class-cntctfrm-settings.php:794
+msgid "Required"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:643
+#: includes/class-cntctfrm-settings.php:670
+#: includes/class-cntctfrm-settings.php:697
+#: includes/class-cntctfrm-settings.php:717
+#: includes/class-cntctfrm-settings.php:753
+#: includes/class-cntctfrm-settings.php:835
+msgid "Used"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:642
+msgid "Fields"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:632
+msgid "Required symbol"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:623
+msgid "If this option is changed, email messages may be moved to the spam folder or email delivery failures may occur."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:614
+msgid "The email address of the user who fills the form will be used in the field 'From'."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:612
+msgid "User email"
+msgstr ""
+
+#: contact_form.php:1457
+#: contact_form.php:1501
+#: includes/class-cntctfrm-settings.php:601
+msgid "Email"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:590
+msgid "The name of the user who fills the form will be used in the field 'From'."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:588
+msgid "User name"
+msgstr ""
+
+#: contact_form.php:350
+#: contact_form.php:1444
+#: contact_form.php:1490
+#: includes/class-cntctfrm-settings.php:577
+#: includes/class-cntctfrm-settings.php:667
+#: includes/class-cntctfrm-settings.php:1080
+#: includes/class-cntctfrm-settings.php:1120
+#: includes/class-cntctfrm-settings.php:1362
+msgid "Name"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:572
+msgid "'FROM' field"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:565
+msgid "Mail"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:566
+msgid "You can use the PHP mail function for mailing"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:559
+msgid "Wp-mail"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:529
+#: includes/class-cntctfrm-settings.php:924
+#: includes/class-cntctfrm-settings.php:963
+#: includes/class-cntctfrm-settings.php:996
+msgid "Download"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:507
+#: includes/class-cntctfrm-settings.php:521
+#: includes/class-cntctfrm-settings.php:528
+msgid "Using"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:495
+msgid "Save emails to the database"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:476
+msgid "Add department selectbox to the contact form"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:458
+msgid "Use this email address"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:453
+msgid "Select a username of the person who should get the messages from the contact form."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:440
+msgid "Select a username"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:435
+msgid "The user's email address"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:432
+msgid "If you leave the fields empty, the messages will be sent to the email address specified during registration."
+msgstr ""
+
+#: contact_form.php:654
+msgid "If you want to create multiple contact forms, please install the Contact Form Multi plugin."
+msgstr ""
+
+#: bws_menu/bws_functions.php:924
+#: contact_form.php:1684
+msgid "FAQ"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:29
+#: includes/class-cntctfrm-settings.php:1216
+msgid "Appearance"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:28
+#: includes/class-cntctfrm-settings.php:549
+msgid "Additional Settings"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:302
+msgid "All plugin settings were restored."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:407
+msgid "Settings are not saved."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:405
+msgid "Settings saved."
+msgstr "تم حفظ الاعدادات."
+
+#: includes/class-cntctfrm-settings.php:385
+msgid "Please enter a valid email address in the 'FROM' field."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:377
+msgid "Please enter a valid email address in the 'Use this email address' field."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:367
+msgid "Such user does not exist."
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:360
+msgid "If the 'Redirect to page' option is selected then the URL field should be in the following format"
+msgstr ""
+
+#: includes/class-cntctfrm-settings.php:350
+msgid "Email 'FROM' field option was changed, which may cause email messages being moved to the spam folder or email delivery failures."
+msgstr ""
+
+#: contact_form.php:373
+msgid "Please make corrections below and try again."
+msgstr ""
+
+#: contact_form.php:372
+msgid "Please fill out the CAPTCHA."
+msgstr ""
+
+#: contact_form.php:371
+msgid "This file is too large."
+msgstr ""
+
+#: contact_form.php:370
+msgid "The file could not be uploaded."
+msgstr ""
+
+#: contact_form.php:369
+msgid "File upload error."
+msgstr ""
+
+#: contact_form.php:368
+msgid "File format is not valid."
+msgstr ""
+
+#: contact_form.php:367
+msgid "Message text is required."
+msgstr ""
+
+#: contact_form.php:366
+msgid "Subject is required."
+msgstr ""
+
+#: contact_form.php:365
+msgid "Phone number is required."
+msgstr ""
+
+#: contact_form.php:364
+msgid "A valid email address is required."
+msgstr ""
+
+#: contact_form.php:363
+msgid "Address is required."
+msgstr ""
+
+#: contact_form.php:362
+msgid "Your name is required."
+msgstr ""
+
+#: contact_form.php:361
+#: includes/class-cntctfrm-settings.php:1091
+#: includes/class-cntctfrm-settings.php:1131
+msgid "Submit"
+msgstr ""
+
+#: contact_form.php:358
+#: includes/class-cntctfrm-settings.php:1088
+#: includes/class-cntctfrm-settings.php:1128
+msgid "Send me a copy"
+msgstr ""
+
+#: contact_form.php:357
+msgid "Supported file types: HTML, TXT, CSS, GIF, PNG, JPEG, JPG, TIFF, BMP, AI, EPS, PS, CSV, RTF, PDF, DOC, DOCX, XLS, XLSX, ZIP, RAR, WAV, MP3, PPT."
+msgstr ""
+
+#: contact_form.php:39
+#: contact_form.php:47
+#: contact_form.php:649
+#: includes/class-cntctfrm-settings.php:428
+msgid "Contact Form Settings"
+msgstr ""
+
+#: bws_menu/bws_menu.php:661
+msgid "Send to custom email &#187;"
+msgstr ""
+
+#: bws_menu/bws_menu.php:654
+msgid "Send to support"
+msgstr ""
+
+#: bws_menu/bws_menu.php:239
+msgid "Inactive Plugins"
+msgstr ""
+
+#: bws_menu/bws_menu.php:234
+msgid "Active Plugins"
+msgstr ""
+
+#: bws_menu/bws_menu.php:635
+msgid "Already Installed"
+msgstr ""
+
+#: bws_menu/bws_menu.php:628
+msgid "By %s"
+msgstr ""
+
+#: bws_menu/bws_menu.php:550
+#: bws_menu/bws_menu.php:573
+#: bws_menu/bws_menu.php:582
+msgid "Install Now"
+msgstr ""
+
+#: bws_menu/bws_menu.php:570
+#: bws_menu/bws_menu.php:579
+msgid "Activate this plugin"
+msgstr ""
+
+#: bws_menu/bws_functions.php:211
+#: bws_menu/bws_functions.php:244
+#: bws_menu/bws_menu.php:564
+#: bws_menu/bws_menu.php:566
+#: contact_form.php:48
+#: contact_form.php:1669
+#: contact_form.php:1683
+#: includes/class-cntctfrm-settings.php:27
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: bws_menu/product_list.php:12
+msgid "Recommended"
+msgstr ""
+
+#: bws_menu/bws_menu.php:454
+#: bws_menu/bws_menu.php:637
+msgid "Installed"
+msgstr ""
+
+#: bws_menu/bws_menu.php:451
+#: bws_menu/bws_menu.php:471
+#: bws_menu/bws_menu.php:600
+msgid "All"
+msgstr ""
+
+#: bws_menu/bws_menu.php:306
+#: bws_menu/bws_menu.php:310
+#: bws_menu/bws_menu.php:618
+#: bws_menu/deprecated.php:92
+msgid "Themes"
+msgstr ""
+
+#: bws_menu/bws_menu.php:305
+#: bws_menu/bws_menu.php:309
+#: bws_menu/bws_menu.php:358
+#: bws_menu/deprecated.php:91
+msgid "Plugins"
+msgstr ""
+
+#: bws_menu/bws_menu.php:307
+#: bws_menu/bws_menu.php:311
+#: bws_menu/bws_menu.php:648
+msgid "System status"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:1100
+msgid "Need Help?"
+msgstr ""
+
+#: bws_menu/bws_menu.php:289
+#: contact_form.php:761
+msgid "Sorry, email message could not be delivered."
+msgstr ""
+
+#: bws_menu/bws_menu.php:266
+#: contact_form.php:375
+msgid "Thank you for contacting us."
+msgstr ""
+
+#: bws_menu/bws_menu.php:262
+msgid "Email with system info is sent to %s."
+msgstr ""
+
+#: bws_menu/bws_menu.php:260
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: bws_menu/bws_menu.php:203
+msgid "Active Theme"
+msgstr ""
+
+#: bws_menu/bws_menu.php:198
+msgid "Home URL"
+msgstr ""
+
+#: bws_menu/bws_menu.php:220
+msgid "PHP XML support"
+msgstr ""
+
+#: bws_menu/bws_menu.php:219
+msgid "PHP IPTC support"
+msgstr ""
+
+#: bws_menu/bws_menu.php:218
+msgid "PHP Exif support"
+msgstr ""
+
+#: bws_menu/bws_menu.php:217
+msgid "PHP Max Script Execute Time"
+msgstr ""
+
+#: bws_menu/bws_menu.php:216
+msgid "PHP Max Post Size"
+msgstr ""
+
+#: bws_menu/bws_menu.php:215
+msgid "PHP Max Upload Size"
+msgstr ""
+
+#: bws_menu/bws_menu.php:213
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: bws_menu/bws_menu.php:212
+msgid "PHP Allow URL fopen"
+msgstr ""
+
+#: bws_menu/bws_menu.php:211
+msgid "PHP Version"
+msgstr ""
+
+#: bws_menu/bws_menu.php:230
+msgid "SQL Mode"
+msgstr ""
+
+#: bws_menu/bws_menu.php:229
+msgid "MySQL version"
+msgstr ""
+
+#: bws_menu/bws_menu.php:214
+msgid "Memory Usage"
+msgstr ""
+
+#: bws_menu/bws_menu.php:210
+msgid "Server"
+msgstr ""
+
+#: bws_menu/bws_menu.php:209
+msgid "Operating System"
+msgstr ""
+
+#: bws_menu/bws_menu.php:183
+#: bws_menu/bws_menu.php:184
+#: bws_menu/bws_menu.php:185
+#: bws_menu/bws_menu.php:189
+msgid "No"
+msgstr ""
+
+#: bws_menu/bws_menu.php:183
+#: bws_menu/bws_menu.php:184
+#: bws_menu/bws_menu.php:185
+#: bws_menu/bws_menu.php:189
+msgid "Yes"
+msgstr ""
+
+#: bws_menu/bws_menu.php:182
+msgid " Mb"
+msgstr ""
+
+#: bws_menu/bws_menu.php:177
+#: bws_menu/bws_menu.php:178
+#: bws_menu/bws_menu.php:179
+#: bws_menu/bws_menu.php:180
+#: bws_menu/bws_menu.php:181
+#: bws_menu/bws_menu.php:182
+#: bws_menu/bws_menu.php:191
+msgid "N/A"
+msgstr ""
+
+#: bws_menu/bws_menu.php:176
+msgid "Off"
+msgstr ""
+
+#: bws_menu/bws_menu.php:176
+msgid "On"
+msgstr ""
+
+#: bws_menu/bws_menu.php:174
+msgid "Not set"
+msgstr ""
+
+#: bws_menu/bws_functions.php:881
+msgid "The shortcode will be inserted"
+msgstr ""
+
+#: bws_menu/bws_functions.php:876
+msgid "Shortcode settings"
+msgstr ""
+
+#: bws_menu/bws_functions.php:867
+msgid "Plugin"
+msgstr ""
+
+#: bws_menu/bws_functions.php:825
+msgid "No, go back to the settings page"
+msgstr ""
+
+#: bws_menu/bws_functions.php:824
+msgid "Yes, restore all settings"
+msgstr ""
+
+#: bws_menu/deprecated.php:481
+msgid "Restore settings"
+msgstr ""
+
+#: bws_menu/deprecated.php:479
+msgid "Restore all plugin settings to defaults"
+msgstr ""
+
+#: bws_menu/bws_functions.php:729
+#: contact_form.php:1765
+#: includes/class-cntctfrm-settings.php:472
+#: includes/class-cntctfrm-settings.php:1003
+#: includes/class-cntctfrm-settings.php:1290
+msgid "Close"
+msgstr "إغلاق"
+
+#: bws_menu/bws_functions.php:653
+msgid "Add BWS Shortcode"
+msgstr ""
+
+#: bws_menu/bws_functions.php:218
+#: bws_menu/bws_functions.php:228
+#: bws_menu/bws_functions.php:332
+#: bws_menu/bws_functions.php:385
+#: bws_menu/bws_functions.php:487
+#: contact_form.php:2005
+msgid "Close notice"
+msgstr ""
+
+#: bws_menu/bws_functions.php:214
+#: bws_menu/bws_functions.php:246
+msgid "Add New"
+msgstr ""
+
+#: bws_menu/bws_functions.php:210
+msgid "Let's get started"
+msgstr ""
+
+#: bws_menu/bws_functions.php:170
+msgid "The Pro Trial license will expire on"
+msgstr ""
+
+#: bws_menu/bws_functions.php:167
+msgid "Notice: You are using the Pro Trial license of plugin."
+msgstr ""
+
+#: bws_menu/bws_functions.php:165
+msgid "Notice: You are using the Pro Trial license of %s plugin."
+msgstr ""
+
+#: bws_menu/bws_functions.php:147
+#: bws_menu/bws_functions.php:389
+#: bws_menu/deprecated.php:586
+#: contact_form.php:360
+#: contact_form.php:1761
+#: includes/class-cntctfrm-settings.php:1090
+#: includes/class-cntctfrm-settings.php:1130
+msgid "Learn more"
+msgstr ""
+
+#: bws_menu/bws_functions.php:147
+msgid "Your license has expired. To continue getting top-priority support and plugin updates, you should extend it."
+msgstr ""
+
+#: bws_menu/bws_functions.php:145
+msgid "Notice: Your Pro Trial license has expired. To continue using the plugin, you should buy a Pro license"
+msgstr ""
+
+#: bws_menu/bws_functions.php:128
+msgid "You can use one license of the Pro plugin for one domain only. Please check and edit your license or domain if necessary using your personal Client Area. We strongly recommend you to solve the problem within 24 hours, otherwise the Pro plugin will be deactivated."
+msgstr ""
+
+#: bws_menu/bws_functions.php:128
+msgid "WARNING: Illegal use notification"
+msgstr ""
+
+#: bws_menu/bws_menu.php:334
+#: bws_menu/bws_menu.php:345
+#: bws_menu/class-bws-settings.php:789
+#: bws_menu/deprecated.php:227
+msgid "Check license key"
+msgstr ""
+
+#: bws_menu/deprecated.php:223
+msgid "(your username is the email address specified during the purchase). If necessary, please submit \"Lost your password?\" request."
+msgstr ""
+
+#: bws_menu/deprecated.php:223
+msgid "If necessary, you can check if the license key is correct or reenter it in the field below. You can find your license key on your personal page - Client Area - on our website"
+msgstr ""
+
+#: bws_menu/deprecated.php:204
+msgid "Please, enter your license key"
+msgstr ""
+
+#: bws_menu/bws_menu.php:144
+#: bws_menu/class-bws-settings.php:877
+#: bws_menu/deprecated.php:156
+msgid "Your license will expire on"
+msgstr ""
+
+#: bws_menu/bws_menu.php:142
+#: bws_menu/class-bws-settings.php:873
+#: bws_menu/deprecated.php:153
+msgid "The license key is valid."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:871
+#: bws_menu/deprecated.php:151
+msgid "The Pro Trial license key is valid."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:866
+#: bws_menu/deprecated.php:147
+msgid "Unfortunately, the Pro Trial licence was already installed to this domain. The Pro Trial license can be installed only once."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:864
+#: bws_menu/deprecated.php:145
+msgid "Unfortunately, you have exceeded the number of available tries."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:862
+#: bws_menu/deprecated.php:143
+msgid "This license key is valid, but Your license has expired. If you want to update our plugin in future, you should extend the license."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:860
+#: bws_menu/class-bws-settings.php:969
+#: bws_menu/deprecated.php:141
+#: bws_menu/deprecated.php:361
+msgid "This license key is bound to another site."
+msgstr ""
+
+#: bws_menu/bws_menu.php:128
+#: bws_menu/class-bws-settings.php:858
+#: bws_menu/class-bws-settings.php:967
+#: bws_menu/deprecated.php:139
+#: bws_menu/deprecated.php:359
+msgid "Wrong license key."
+msgstr ""
+
+#: bws_menu/bws_menu.php:132
+#: bws_menu/bws_menu.php:332
+#: bws_menu/deprecated.php:261
+msgid "Unfortunately, you have exceeded the number of available tries per day."
+msgstr ""
+
+#: bws_menu/deprecated.php:246
+msgid "After that, you can activate it by entering your license key."
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:881
+#: bws_menu/deprecated.php:159
+#: bws_menu/deprecated.php:246
+msgid "In order to continue using the plugin it is necessary to buy a %s license."
+msgstr ""
+
+#: bws_menu/bws_menu.php:343
+#: bws_menu/bws_menu.php:570
+#: bws_menu/bws_menu.php:579
+#: bws_menu/class-bws-settings.php:768
+#: bws_menu/deprecated.php:259
+#: bws_menu/deprecated.php:267
+#: bws_menu/deprecated.php:631
+#: bws_menu/deprecated.php:703
+#: bws_menu/deprecated.php:712
+#: includes/class-cntctfrm-settings.php:522
+#: includes/class-cntctfrm-settings.php:915
+#: includes/class-cntctfrm-settings.php:957
+#: includes/class-cntctfrm-settings.php:991
+msgid "Activate"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:776
+#: bws_menu/deprecated.php:697
+msgid "Start Your Free %s-Day Trial Now"
+msgstr ""
+
+#: bws_menu/bws_functions.php:213
+#: bws_menu/bws_menu.php:326
+#: bws_menu/class-bws-settings.php:776
+#: bws_menu/class-bws-settings.php:1106
+#: bws_menu/class-bws-settings.php:1116
+#: bws_menu/deprecated.php:697
+msgid "or"
+msgstr ""
+
+#: bws_menu/deprecated.php:282
+#: bws_menu/deprecated.php:673
+msgid "You will be redirected automatically in 5 seconds."
+msgstr ""
+
+#: bws_menu/deprecated.php:281
+#: bws_menu/deprecated.php:672
+msgid "the setting page"
+msgstr ""
+
+#: bws_menu/deprecated.php:281
+#: bws_menu/deprecated.php:672
+msgid "Please, go to"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:1087
+#: bws_menu/deprecated.php:464
+msgid "Please, enter Your license key"
+msgstr ""
+
+#: bws_menu/bws_menu.php:153
+#: bws_menu/class-bws-settings.php:1050
+#: bws_menu/deprecated.php:436
+msgid "Something went wrong. Try again later or upload the plugin manually. We are sorry for inconvenience."
+msgstr ""
+
+#: bws_menu/bws_menu.php:432
+#: bws_menu/deprecated.php:413
+msgid "UploadDir is not writable. Please, upload the plugin manually"
+msgstr ""
+
+#: bws_menu/bws_menu.php:422
+#: bws_menu/deprecated.php:406
+msgid "Your server does not support either ZipArchive or Phar. Please, upload the plugin manually"
+msgstr ""
+
+#: bws_menu/bws_menu.php:415
+#: bws_menu/deprecated.php:400
+msgid "Failed to open the zip archive. Please, upload the plugin manually"
+msgstr ""
+
+#: bws_menu/bws_menu.php:398
+#: bws_menu/bws_menu.php:429
+#: bws_menu/bws_menu.php:440
+#: bws_menu/deprecated.php:388
+#: bws_menu/deprecated.php:410
+#: bws_menu/deprecated.php:432
+msgid "Failed to download the zip archive. Please, upload the plugin manually"
+msgstr ""
+
+#: bws_menu/bws_menu.php:136
+#: bws_menu/class-bws-settings.php:975
+#: bws_menu/deprecated.php:367
+msgid "Unfortunately, the Pro licence was already installed to this domain. The Pro Trial license can be installed only once."
+msgstr ""
+
+#: bws_menu/bws_menu.php:134
+#: bws_menu/deprecated.php:365
+msgid "Unfortunately, Your license has expired. To continue getting top-priority support and plugin updates, you should extend it in your %s"
+msgstr ""
+
+#: bws_menu/class-bws-settings.php:773
+#: bws_menu/class-bws-settings.php:971
+#: bws_menu/deprecated.php:363
+#: bws_menu/deprecated.php:706
+msgid "Unfortunately, you have exceeded the number of available tries per day. Please, upload the plugin manually."
+msgstr ""
+
+#: bws_menu/bws_menu.php:122
+#: bws_menu/class-bws-settings.php:852
+#: bws_menu/class-bws-settings.php:923
+#: bws_menu/class-bws-settings.php:961
+#: bws_menu/deprecated.php:133
+#: bws_menu/deprecated.php:199
+#: bws_menu/deprecated.php:353
+msgid "We are sorry for inconvenience."
+msgstr ""
+
+#: bws_menu/bws_menu.php:122
+#: bws_menu/class-bws-settings.php:852
+#: bws_menu/class-bws-settings.php:923
+#: bws_menu/class-bws-settings.php:961
+#: bws_menu/deprecated.php:133
+#: bws_menu/deprecated.php:199
+#: bws_menu/deprecated.php:353
+msgid "Something went wrong. Please try again later. If the error appears again, please contact us"
+msgstr ""
+
+#: bws_menu/bws_menu.php:101
+#: bws_menu/class-bws-settings.php:825
+#: bws_menu/deprecated.php:323
+msgid "Wrong license key"
+msgstr ""
+
+#: bws_menu/bws_functions.php:128
+#: bws_menu/bws_functions.php:341
+#: bws_menu/bws_menu.php:631
+#: bws_menu/class-bws-settings.php:161
+#: contact_form.php:2014
+msgid "Learn More"
+msgstr "أعرف أكثر"
+
+#: bws_menu/bws_functions.php:338
+msgid "Extend standard plugin functionality with new great options."
+msgstr ""
+
+#: bws_menu/bws_functions.php:337
+msgid "version!"
+msgstr ""
+
+#: bws_menu/bws_functions.php:337
+msgid "to"
+msgstr ""
+
+#: bws_menu/bws_functions.php:337
+msgid "It’s time to upgrade your"
+msgstr ""
+
+#: bws_menu/bws_functions.php:78
+msgid "Plugins page"
+msgstr ""
+
+#: bws_menu/bws_functions.php:76
+msgid "Back to the WordPress"
+msgstr ""
+
+#: bws_menu/bws_functions.php:75
+msgid "or higher, that is why it has been deactivated! Please upgrade WordPress and try again."
+msgstr ""
+
+#: bws_menu/bws_functions.php:73
+#: bws_menu/bws_functions.php:191
+msgid "requires"
+msgstr ""
