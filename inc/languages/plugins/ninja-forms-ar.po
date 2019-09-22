@@ -11,6 +11,15 @@ msgstr ""
 "Project-Id-Version: Plugins - Ninja Forms &#8211; The Easy and Powerful Forms Builder - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
+#: includes/Templates/admin-menu-new-form.html.php:497
+msgid "Please place one label on each line, separated by commas."
+msgstr ""
+
+#: fuzzy
+#: includes/Admin/Processes/ImportForm.php:258
+msgid "Failed to insert new form."
+msgstr "فشل في انشاء الملف في الخادم."
+
 #: includes/Config/Currency.php:105
 msgid "Chinese Yuan"
 msgstr ""
@@ -27,195 +36,6 @@ msgstr ""
 msgid "http://ninjaforms.com/?utm_source=Ninja+Forms+Plugin&utm_medium=Plugins+WP+Dashboard"
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:270
-msgid "Checkout our full list of features!"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:269
-msgid "What else comes with Ninja Forms?"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:259
-msgid "So much more!"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:258
-msgid "More email marketing"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:257
-msgid "Advanced Analytics"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:256
-msgid "SMS and Slack notifications"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:255
-msgid "CRM integrations"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:253
-msgid "All Ninja Forms add-ons"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:249
-msgid "UNLIMITED SITES"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:244
-msgid "EVERYTHING IN PROFESSIONAL, PLUS:"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:236
-msgid "AGENCY"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:222
-msgid "Recurly"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:221
-msgid "Stripe"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:214
-msgid "Webhooks"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:211
-msgid "INTEGRATE ANYWHERE"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:206
-msgid "Save Form Progress"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:205
-msgid "Post Creation Forms"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:204
-msgid "Update Profile Forms"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:203
-msgid "Login & Registration Forms"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:201
-msgid "EMPOWER CLIENTS & USERS"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:197
-msgid "20 SITES"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:192
-msgid "EVERYTHING IN PERSONAL, PLUS:"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:186
-#: includes/Templates/admin-menu-dashboard.html.php:238
-msgid "SAVE OVER"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:184
-msgid "PROFESSIONAL"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:176
-#: includes/Templates/admin-menu-dashboard.html.php:228
-msgid "off Additional Add-Ons"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:176
-#: includes/Templates/admin-menu-dashboard.html.php:228
-msgid "Plus "
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:171
-msgid "PayPal Express"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:169
-#: includes/Templates/admin-menu-dashboard.html.php:219
-msgid "ACCEPT PAYMENTS"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:164
-msgid "EmailOctopus"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:163
-msgid "ConvertKit"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:162
-msgid "Emma"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:161
-msgid "Campaign Monitor"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:160
-msgid "Constant Contact"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:159
-msgid "MailChimp"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:157
-msgid "EMAIL MARKETING"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:152
-msgid "Multi-Part Forms"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:151
-msgid "File Uploads"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:150
-msgid "Conditional Logic"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:149
-msgid "Layout & Styles"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:147
-msgid "FORM BUILDING ESSENTIALS"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:143
-msgid "PRIORITY SUPPORT"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:139
-msgid "SINGLE SITE"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:134
-msgid "ALL THE ESSENTIALS, PLUS:"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:128
-msgid "SAVE OVER $280!"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:127
-#: includes/Templates/admin-menu-dashboard.html.php:185
-msgid "year"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:126
-msgid "PERSONAL"
-msgstr ""
-
 #: includes/Config/RequiredUpdates.php:33
 msgid "Field Meta Cleanup."
 msgstr ""
@@ -224,7 +44,7 @@ msgstr ""
 msgid "SQL Version Variable"
 msgstr ""
 
-#: includes/Templates/admin-menu-new-form.html.php:513
+#: includes/Templates/admin-menu-new-form.html.php:528
 msgid "Copy"
 msgstr ""
 
@@ -232,7 +52,7 @@ msgstr ""
 msgid "Display Your Form"
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:371
+#: includes/Templates/admin-menu-dashboard.html.php:213
 #: includes/Templates/admin-menu-new-form.html.php:137
 msgid "Public Link"
 msgstr ""
@@ -281,7 +101,7 @@ msgstr ""
 msgid "Something went wrong. SendWP was not installed correctly."
 msgstr ""
 
-#: includes/Admin/Processes/ImportForm.php:398
+#: includes/Admin/Processes/ImportForm.php:414
 msgid "Some fields might not have been imported properly."
 msgstr ""
 
@@ -309,27 +129,27 @@ msgstr ""
 msgid "Form Imported Successfully. %sView Form%s"
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:311
+#: includes/Templates/admin-menu-dashboard.html.php:153
 msgid "Do Required Updates"
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:299
+#: includes/Templates/admin-menu-dashboard.html.php:141
 msgid "When you're ready, just click the \"Do Required Updates\" button below to get started. You'll be able to create and edit forms in no time."
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:296
+#: includes/Templates/admin-menu-dashboard.html.php:138
 msgid "It's always a good idea to have an up to date backup of your WordPress site on hand. That's especially true when you run plugin and theme updates. Luckily, there are plenty of good backup plugins available."
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:293
+#: includes/Templates/admin-menu-dashboard.html.php:135
 msgid "Normally, users will still be able to view and submit forms while these updates take place. If an update needs to modify database information, we'll put the affected form in maintenance mode until we get done with that update."
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:290
+#: includes/Templates/admin-menu-dashboard.html.php:132
 msgid "Ninja Forms needs to run some updates on your installation before you can continue. You'll be able to create and edit forms after the updates listed below have completed."
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:287
+#: includes/Templates/admin-menu-dashboard.html.php:129
 msgid "Required Updates"
 msgstr ""
 
@@ -1310,7 +1130,7 @@ msgstr ""
 msgid "Anonymous"
 msgstr ""
 
-#: includes/Templates/admin-menu-new-form.html.php:760
+#: includes/Templates/admin-menu-new-form.html.php:775
 msgid "Decimals"
 msgstr ""
 
@@ -1318,42 +1138,32 @@ msgstr ""
 msgid "It's that easy."
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:391
+#: includes/Templates/admin-menu-dashboard.html.php:233
 msgid "Loading Forms"
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:388
+#: includes/Templates/admin-menu-dashboard.html.php:230
 msgid "No Forms"
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:349
+#: includes/Templates/admin-menu-dashboard.html.php:191
 msgid "Less"
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:348
+#: includes/Templates/admin-menu-dashboard.html.php:190
 msgid "More"
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:343
+#: includes/Templates/admin-menu-dashboard.html.php:185
 msgid "Loading Forms..."
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:337
+#: includes/Templates/admin-menu-dashboard.html.php:179
 msgid "Title"
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:331
+#: includes/Templates/admin-menu-dashboard.html.php:173
 msgid "Search Forms"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:213
-msgid "Zapier"
-msgstr ""
-
-#: includes/Templates/admin-menu-dashboard.html.php:129
-#: includes/Templates/admin-menu-dashboard.html.php:187
-#: includes/Templates/admin-menu-dashboard.html.php:239
-msgid "Buy Now"
 msgstr ""
 
 #: includes/Templates/admin-menu-dashboard.html.php:10
@@ -1579,7 +1389,7 @@ msgstr ""
 msgid "DD.MM.YYYY"
 msgstr ""
 
-#: includes/AJAX/Controllers/Submission.php:533
+#: includes/AJAX/Controllers/Submission.php:535
 #: includes/AJAX/REST/Controller.php:85
 msgid "The server encountered an error during processing."
 msgstr ""
@@ -1824,7 +1634,7 @@ msgstr ""
 msgid "Before requesting help from our support team please review:"
 msgstr ""
 
-#: includes/Templates/admin-menu-new-form.html.php:800
+#: includes/Templates/admin-menu-new-form.html.php:815
 msgid " Open in new window"
 msgstr ""
 
@@ -2019,8 +1829,8 @@ msgstr ""
 msgid "Ninja Forms shortcode used without specifying a form."
 msgstr ""
 
-#: includes/Admin/Processes/ImportForm.php:544
-#: includes/Database/Models/Form.php:655
+#: includes/Admin/Processes/ImportForm.php:560
+#: includes/Database/Models/Form.php:665
 msgid "Save Form"
 msgstr ""
 
@@ -2463,7 +2273,7 @@ msgstr ""
 msgid "Go get a life, script kiddies"
 msgstr ""
 
-#: includes/Templates/admin-menu-dashboard.html.php:339
+#: includes/Templates/admin-menu-dashboard.html.php:181
 msgid "Date Created"
 msgstr ""
 
@@ -2486,9 +2296,9 @@ msgstr ""
 msgid "Invalid form id"
 msgstr ""
 
-#: includes/Admin/Processes/ImportForm.php:813
+#: includes/Admin/Processes/ImportForm.php:829
 #: includes/Config/FieldSettings.php:877
-#: includes/Database/Models/Form.php:924
+#: includes/Database/Models/Form.php:934
 #: includes/Fields/Confirm.php:26
 msgid "Confirm"
 msgstr ""
@@ -2668,8 +2478,8 @@ msgstr ""
 msgid "Checkbox List"
 msgstr ""
 
-#: includes/Admin/Processes/ImportForm.php:837
-#: includes/Database/Models/Form.php:948
+#: includes/Admin/Processes/ImportForm.php:853
+#: includes/Database/Models/Form.php:958
 #: includes/Fields/CreditCardZip.php:23
 msgid "Credit Card Zip"
 msgstr ""
@@ -3438,7 +3248,7 @@ msgstr ""
 msgid "List Field Mapping"
 msgstr ""
 
-#: includes/AJAX/Controllers/Submission.php:554
+#: includes/AJAX/Controllers/Submission.php:556
 msgid "An unexpected error occurred."
 msgstr ""
 
@@ -3819,6 +3629,7 @@ msgstr ""
 #: deprecated/includes/fields/list.php:175
 #: includes/Config/FieldSettings.php:180
 #: includes/Templates/admin-menu-new-form.html.php:494
+#: includes/Templates/admin-menu-new-form.html.php:509
 msgid "Import"
 msgstr ""
 
@@ -6838,7 +6649,7 @@ msgstr ""
 #: deprecated/includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:192
 #: deprecated/includes/admin/sidebar.php:155
 #: includes/Templates/admin-menu-all-forms-column-title.html.php:27
-#: includes/Templates/admin-menu-dashboard.html.php:373
+#: includes/Templates/admin-menu-dashboard.html.php:215
 msgid "View Submissions"
 msgstr ""
 
@@ -6860,7 +6671,7 @@ msgstr ""
 #: deprecated/includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:218
 #: deprecated/includes/admin/welcome.php:355
 #: includes/Admin/AllFormsTable.php:75
-#: includes/Templates/admin-menu-dashboard.html.php:338
+#: includes/Templates/admin-menu-dashboard.html.php:180
 msgid "Shortcode"
 msgstr ""
 
@@ -7025,7 +6836,7 @@ msgstr ""
 
 #: deprecated/includes/admin/form-preview.php:39
 #: includes/Templates/admin-menu-all-forms-column-title.html.php:23
-#: includes/Templates/admin-menu-dashboard.html.php:362
+#: includes/Templates/admin-menu-dashboard.html.php:204
 msgid "Preview Form"
 msgstr ""
 
@@ -7704,7 +7515,7 @@ msgstr ""
 #: includes/Config/FieldSettings.php:180
 #: includes/Config/FieldSettings.php:1064
 #: includes/Config/FormCalculationSettings.php:12
-#: includes/Templates/admin-menu-dashboard.html.php:321
+#: includes/Templates/admin-menu-dashboard.html.php:163
 msgid "Add New"
 msgstr ""
 
@@ -7746,7 +7557,7 @@ msgstr ""
 #: deprecated/classes/notifications-table.php:131
 #: deprecated/includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:190
 #: includes/Templates/admin-menu-all-forms-column-title.html.php:19
-#: includes/Templates/admin-menu-dashboard.html.php:361
+#: includes/Templates/admin-menu-dashboard.html.php:203
 #: includes/Templates/ui-item-controls.html.php:3
 #: includes/Templates/ui-nf-drawer-buttons.html.php:3
 msgid "Duplicate"
@@ -7761,7 +7572,7 @@ msgstr ""
 #: includes/Config/i18nBuilder.php:75
 #: includes/Config/i18nDashboard.php:67
 #: includes/Templates/admin-menu-all-forms-column-title.html.php:15
-#: includes/Templates/admin-menu-dashboard.html.php:374
+#: includes/Templates/admin-menu-dashboard.html.php:216
 #: includes/Templates/ui-item-controls.html.php:2
 #: includes/Templates/ui-nf-drawer-buttons.html.php:2
 msgid "Delete"
@@ -7771,7 +7582,7 @@ msgstr ""
 #: deprecated/classes/subs-cpt.php:389
 #: deprecated/includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:188
 #: includes/Templates/admin-menu-all-forms-column-title.html.php:10
-#: includes/Templates/admin-menu-dashboard.html.php:360
+#: includes/Templates/admin-menu-dashboard.html.php:202
 #: includes/Templates/admin-menu-new-form.html.php:204
 #: includes/Templates/ui-item-controls.html.php:4
 msgid "Edit"
@@ -8009,7 +7820,7 @@ msgstr ""
 #: includes/Config/i18nBuilder.php:76
 #: includes/Config/i18nDashboard.php:68
 #: includes/Config/i18nDashboard.php:79
-#: includes/Templates/admin-menu-dashboard.html.php:322
+#: includes/Templates/admin-menu-dashboard.html.php:164
 #: includes/Templates/ui-nf-header.html.php:12
 msgid "Cancel"
 msgstr ""

@@ -11,6 +11,86 @@ msgstr ""
 "Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
+#. translators: %s expands to an invalid Facebook App ID.
+#: inc/options/class-wpseo-option.php:425
+msgid "%s does not seem to be a valid Facebook App ID. Please correct."
+msgstr ""
+
+#: admin/class-yoast-input-validation.php:279
+msgid "The submitted value was: %s"
+msgstr ""
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:136
+msgid "Yandex confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s"
+msgstr ""
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:131
+msgid "Twitter usernames can only contain letters, numbers, and underscores. %s"
+msgstr ""
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:126
+msgid "Pinterest confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s"
+msgstr ""
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:121
+msgid "Bing confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s"
+msgstr ""
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:116
+msgid "Google verification codes can only contain letters, numbers, hyphens, and underscores. %s"
+msgstr ""
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:111
+msgid "The Facebook App ID you entered doesn't exist. %s"
+msgstr ""
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:106
+msgid "Baidu verification codes can only contain letters, numbers, hyphens, and underscores. %s"
+msgstr ""
+
+#: admin/views/partial-alerts-template.php:45
+msgid "Show this item."
+msgstr ""
+
+#: admin/views/partial-alerts-template.php:38
+msgid "Hide this item."
+msgstr ""
+
+#. translators: %d expands the amount of hidden problems.
+#: admin/views/partial-alerts-errors.php:25
+msgid "You have %d hidden problem:"
+msgid_plural "You have %d hidden problems:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %d expands the amount of hidden notifications.
+#: admin/views/partial-alerts-warnings.php:25
+#: fuzzy
+msgid "You have %d hidden notification:"
+msgid_plural "You have %d hidden notifications:"
+msgstr[0] "لا توجد إشعارات جديدة."
+msgstr[1] "لا توجد إشعارات جديدة."
+msgstr[2] "لا توجد إشعارات جديدة."
+msgstr[3] "لا توجد إشعارات جديدة."
+msgstr[4] "لا توجد إشعارات جديدة."
+msgstr[5] "لا توجد إشعارات جديدة."
+
+#: admin/formatter/class-metabox-formatter.php:119
+#: inc/class-wpseo-rank.php:138
+msgid "Focus Keyphrase not set"
+msgstr ""
+
 #: languages/yoast-components.php:90
 msgid "The following words and word combinations occur the most in the content. These give an indication of what your content focuses on. If the words differ a lot from your topic, you might want to rewrite your content accordingly. "
 msgstr ""
@@ -60,10 +140,10 @@ msgstr ""
 
 #. translators: %1$s expands to the opening anchor tag, %2$s to the closing
 #. anchor tag, %3$s to the SEO score.
-#: admin/formatter/class-metabox-formatter.php:115
-#: admin/formatter/class-metabox-formatter.php:122
-#: admin/formatter/class-metabox-formatter.php:129
-#: admin/formatter/class-metabox-formatter.php:136
+#: admin/formatter/class-metabox-formatter.php:116
+#: admin/formatter/class-metabox-formatter.php:123
+#: admin/formatter/class-metabox-formatter.php:130
+#: admin/formatter/class-metabox-formatter.php:137
 msgid "%1$sSEO%2$s: %3$s"
 msgstr "%1$sتحسين محركات البحث%2$s: %3$s"
 
@@ -77,10 +157,10 @@ msgstr "تحسين المحتوى:"
 
 #. translators: %1$s expands to the opening anchor tag, %2$s to the closing
 #. anchor tag, %3$s to the readability score.
-#: admin/formatter/class-metabox-formatter.php:85
-#: admin/formatter/class-metabox-formatter.php:92
-#: admin/formatter/class-metabox-formatter.php:99
-#: admin/formatter/class-metabox-formatter.php:106
+#: admin/formatter/class-metabox-formatter.php:86
+#: admin/formatter/class-metabox-formatter.php:93
+#: admin/formatter/class-metabox-formatter.php:100
+#: admin/formatter/class-metabox-formatter.php:107
 msgid "%1$sReadability%2$s: %3$s"
 msgstr "%1$sقابلية القراءة%2$s: %3$s"
 
@@ -336,7 +416,7 @@ msgstr ""
 msgid "%s for WordPress training"
 msgstr "%s لتدريبات الووردبرس "
 
-#: inc/class-my-yoast-api-request.php:187
+#: inc/class-my-yoast-api-request.php:186
 msgid "No JSON object was returned."
 msgstr ""
 
@@ -365,11 +445,11 @@ msgstr "الروابط الداخلية المستلمة"
 msgid "Outgoing internal links"
 msgstr "الروابط الداخلية الصادرة"
 
-#: languages/wordpress-seojs.php:215
+#: languages/wordpress-seojs.php:212
 msgid "New step added"
 msgstr "تم إضافة خطوة جديدة"
 
-#: languages/wordpress-seojs.php:178
+#: languages/wordpress-seojs.php:175
 msgid "New question added"
 msgstr "تم إضافة سؤال جديد"
 
@@ -392,10 +472,6 @@ msgstr ""
 msgid "Keyphrase"
 msgstr "العبارة الرئيسية"
 
-#: languages/wordpress-seojs.php:166
-msgid "Free"
-msgstr "مجانًا"
-
 #. translators: %1$s expands to the link to the article, %2$s closes the link
 #. to the article
 #: admin/views/tabs/metas/paper-content/media-content.php:41
@@ -411,9 +487,9 @@ msgstr ""
 msgid "For this feature to work, %1$s needs to create a table in your database. We were unable to create this table automatically."
 msgstr ""
 
-#. translators: %1$s: link to knowledge base article about solving table issue.
-#. %2$s: is anchor closing.
 #. translators: %1$s: link to knowledge base article about solving PHP issue.
+#. %2$s: is anchor closing.
+#. translators: %1$s: link to knowledge base article about solving table issue.
 #. %2$s: is anchor closing.
 #: admin/links/class-link-compatibility-notifier.php:58
 #: admin/links/class-link-table-accessible-notifier.php:56
@@ -426,9 +502,9 @@ msgstr "الرجاء قراءة التالي  %1$s مقالة قاعدة الم�
 msgid "For this feature to work %1$s requires at least PHP version %2$s. We have detected PHP version %3$s on this website."
 msgstr ""
 
+#. translators: %1$s: Yoast SEO. %2$s: Version number of Yoast SEO.
 #. translators: %1$s: Yoast SEO. %2$s: Version number of Yoast SEO. %3$s:
 #. strong opening tag, %4$s: strong closing tag
-#. translators: %1$s: Yoast SEO. %2$s: Version number of Yoast SEO.
 #: admin/links/class-link-compatibility-notifier.php:43
 #: admin/links/class-link-table-accessible-notifier.php:43
 msgid "The %3$sText link counter%4$s feature (introduced in %1$s %2$s) is currently disabled."
@@ -557,7 +633,7 @@ msgid "%1$sKeyphrase in subheading%3$s: %2$sUse more keyphrases or synonyms in y
 msgstr ""
 
 #. translators: 1: object ID; 2: object type.
-#: src/repositories/indexable-repository.php:143
+#: src/repositories/indexable-repository.php:173
 msgid "Indexable created for object %1$s with type %2$s"
 msgstr ""
 
@@ -1284,7 +1360,7 @@ msgstr "العبارات الرئيسية:"
 msgid "%1$s video"
 msgstr "%1$s فيديو"
 
-#: admin/class-yoast-form.php:768
+#: admin/class-yoast-form.php:776
 msgid "This feature has been disabled by the network admin."
 msgstr ""
 
@@ -1297,32 +1373,32 @@ msgstr ""
 msgid "Multiple keyphrases"
 msgstr ""
 
-#: admin/class-yoast-form.php:568
+#: admin/class-yoast-form.php:576
 #: admin/metabox/class-metabox.php:583
 #: admin/taxonomy/class-taxonomy-fields-presenter.php:127
 msgid "Clear Image"
 msgstr "مسح الصورة"
 
-#. translators: %s expands to Yoast SEO Premium
 #. translators: %s expands to 'Yoast SEO Premium'.
+#. translators: %s expands to Yoast SEO Premium
 #: admin/class-add-keyword-modal.php:38
 #: admin/class-help-center.php:114
 #: admin/class-keyword-synonyms-modal.php:38
 #: admin/class-multiple-keywords-modal.php:38
 #: admin/class-premium-popup.php:81
 #: admin/class-premium-upsell-admin-block.php:72
-#: admin/formatter/class-metabox-formatter.php:212
+#: admin/formatter/class-metabox-formatter.php:213
 #: admin/views/sidebar.php:39
 #: admin/watchers/class-slug-change-watcher.php:223
 #: languages/wordpress-seojs.php:92
 msgid "Get %s"
 msgstr "احصل على %s"
 
-#: languages/wordpress-seojs.php:254
+#: languages/wordpress-seojs.php:251
 msgid "Optional. Customize how you want to describe the duration of the instruction"
 msgstr ""
 
-#: languages/wordpress-seojs.php:251
+#: languages/wordpress-seojs.php:248
 msgid "Describe the duration of the instruction:"
 msgstr ""
 
@@ -1354,15 +1430,15 @@ msgstr ""
 msgid "This is a list of related content to which you could link in your post. {{a}}Read our article about site structure{{/a}} to learn more about how internal linking can help improve your SEO."
 msgstr ""
 
-#: languages/wordpress-seojs.php:302
+#: languages/wordpress-seojs.php:299
 msgid "%s, %s and %s"
 msgstr "%s، %s و %s"
 
-#: languages/wordpress-seojs.php:298
+#: languages/wordpress-seojs.php:295
 msgid "%s and %s"
 msgstr "%s و %s"
 
-#: languages/wordpress-seojs.php:294
+#: languages/wordpress-seojs.php:291
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "دقيقة (%d)"
@@ -1372,7 +1448,7 @@ msgstr[3] "%d دقائق"
 msgstr[4] "%d دقيقة"
 msgstr[5] "%d دقيقة"
 
-#: languages/wordpress-seojs.php:290
+#: languages/wordpress-seojs.php:287
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "ساعة (%d)"
@@ -1382,7 +1458,7 @@ msgstr[3] "%d ساعات"
 msgstr[4] "%d ساعة"
 msgstr[5] "%d ساعة"
 
-#: languages/wordpress-seojs.php:286
+#: languages/wordpress-seojs.php:283
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "يوم (%d)"
@@ -1392,35 +1468,35 @@ msgstr[3] "%d أيام"
 msgstr[4] "%d يوم"
 msgstr[5] "%d يوم"
 
-#: languages/wordpress-seojs.php:279
+#: languages/wordpress-seojs.php:276
 msgid "Enter a step title"
 msgstr "ادخل عنوان بديل"
 
-#: languages/wordpress-seojs.php:248
+#: languages/wordpress-seojs.php:245
 msgid "Optional. This can give you better control over the styling of the steps."
 msgstr ""
 
-#: languages/wordpress-seojs.php:245
+#: languages/wordpress-seojs.php:242
 msgid "CSS class(es) to apply to the steps"
 msgstr ""
 
-#: languages/wordpress-seojs.php:236
+#: languages/wordpress-seojs.php:233
 msgid "minutes"
 msgstr "دقائق"
 
-#: languages/wordpress-seojs.php:233
+#: languages/wordpress-seojs.php:230
 msgid "hours"
 msgstr "ساعات"
 
-#: languages/wordpress-seojs.php:230
+#: languages/wordpress-seojs.php:227
 msgid "days"
 msgstr "أيام"
 
-#: languages/wordpress-seojs.php:206
+#: languages/wordpress-seojs.php:203
 msgid "Create a How-to guide in an SEO-friendly way. You can only use one How-to block per post."
 msgstr ""
 
-#: languages/wordpress-seojs.php:169
+#: languages/wordpress-seojs.php:166
 msgid "List your Frequently Asked Questions in an SEO-friendly way. You can only use one FAQ block per post."
 msgstr ""
 
@@ -1433,43 +1509,43 @@ msgid "An error occurred loading the %s primary taxonomy picker."
 msgstr ""
 
 #. translators: %1$s expands to Yoast.
-#: inc/class-structured-data-blocks.php:55
+#: inc/class-structured-data-blocks.php:72
 msgid "%1$s Structured Data Blocks"
 msgstr ""
 
-#: languages/wordpress-seojs.php:264
+#: languages/wordpress-seojs.php:261
 msgid "Time needed:"
 msgstr "مطلوب إدخال الوقت:"
 
-#: languages/wordpress-seojs.php:193
+#: languages/wordpress-seojs.php:190
 msgid "Move question down"
 msgstr "تحريك السؤال لأسفل"
 
-#: languages/wordpress-seojs.php:190
+#: languages/wordpress-seojs.php:187
 msgid "Move question up"
 msgstr "تحريك السؤال لأعلى"
 
-#: languages/wordpress-seojs.php:187
+#: languages/wordpress-seojs.php:184
 msgid "Insert question"
 msgstr "إدراج سؤال"
 
-#: languages/wordpress-seojs.php:184
+#: languages/wordpress-seojs.php:181
 msgid "Delete question"
 msgstr "حذف السؤال"
 
-#: languages/wordpress-seojs.php:199
+#: languages/wordpress-seojs.php:196
 msgid "Enter the answer to the question"
 msgstr "اكتب إجابة السؤال"
 
-#: languages/wordpress-seojs.php:196
+#: languages/wordpress-seojs.php:193
 msgid "Enter a question"
 msgstr "إدخال سؤال"
 
-#: languages/wordpress-seojs.php:181
+#: languages/wordpress-seojs.php:178
 msgid "Add question"
 msgstr "إضافة سؤال"
 
-#: languages/wordpress-seojs.php:175
+#: languages/wordpress-seojs.php:172
 msgid "Frequently Asked Questions"
 msgstr "الأسئلة الشائعة"
 
@@ -1478,7 +1554,7 @@ msgstr "الأسئلة الشائعة"
 #: admin/class-add-keyword-modal.php:26
 #: admin/class-keyword-synonyms-modal.php:26
 #: admin/class-multiple-keywords-modal.php:26
-#: admin/formatter/class-metabox-formatter.php:200
+#: admin/formatter/class-metabox-formatter.php:201
 #: languages/wordpress-seojs.php:151
 msgid "Great news: you can, with %s!"
 msgstr ""
@@ -1516,63 +1592,63 @@ msgstr ""
 msgid "Mark as cornerstone content"
 msgstr ""
 
-#: languages/wordpress-seojs.php:276
+#: languages/wordpress-seojs.php:273
 msgid "Move step down"
 msgstr "نقل خطوة للاسفل"
 
-#: languages/wordpress-seojs.php:273
+#: languages/wordpress-seojs.php:270
 msgid "Move step up"
 msgstr "تحرك خطوة لأعلى"
 
-#: languages/wordpress-seojs.php:270
+#: languages/wordpress-seojs.php:267
 msgid "Insert step"
 msgstr "إدخال خطوة"
 
-#: languages/wordpress-seojs.php:267
+#: languages/wordpress-seojs.php:264
 msgid "Delete step"
 msgstr "حذف الخطوة"
 
-#: languages/wordpress-seojs.php:203
+#: languages/wordpress-seojs.php:200
 msgid "Add image"
 msgstr "إضافة صورة "
 
-#: languages/wordpress-seojs.php:282
+#: languages/wordpress-seojs.php:279
 msgid "Enter a step description"
 msgstr "أدخل وصفًا للخطوة "
 
-#: languages/wordpress-seojs.php:260
+#: languages/wordpress-seojs.php:257
 msgid "Enter a description"
 msgstr "أدخل وصفا"
 
-#: languages/wordpress-seojs.php:257
+#: languages/wordpress-seojs.php:254
 msgid "Unordered list"
 msgstr "قائمة غير مرتبة "
 
-#: languages/wordpress-seojs.php:224
+#: languages/wordpress-seojs.php:221
 msgid "Showing step items as an ordered list."
 msgstr ""
 
-#: languages/wordpress-seojs.php:221
+#: languages/wordpress-seojs.php:218
 msgid "Showing step items as an unordered list"
 msgstr ""
 
-#: languages/wordpress-seojs.php:218
+#: languages/wordpress-seojs.php:215
 msgid "Add step"
 msgstr "إضافة خطوة"
 
-#: languages/wordpress-seojs.php:239
+#: languages/wordpress-seojs.php:236
 msgid "Delete total time"
 msgstr "حذف الوقت الإجمالي"
 
-#: languages/wordpress-seojs.php:227
+#: languages/wordpress-seojs.php:224
 msgid "Add total time"
 msgstr "إضافة الوقت الإجمالي"
 
-#: languages/wordpress-seojs.php:212
+#: languages/wordpress-seojs.php:209
 msgid "How to"
 msgstr "كيفية"
 
-#: languages/wordpress-seojs.php:209
+#: languages/wordpress-seojs.php:206
 msgid "How-to"
 msgstr "كيف"
 
@@ -1742,7 +1818,7 @@ msgid "Would you like to add keyphrase synonyms?"
 msgstr ""
 
 #: admin/class-add-keyword-modal.php:23
-#: admin/formatter/class-metabox-formatter.php:197
+#: admin/formatter/class-metabox-formatter.php:198
 msgid "Would you like to add more than one keyphrase?"
 msgstr ""
 
@@ -1756,7 +1832,7 @@ msgstr ""
 msgid "You haven't set a Shop page in your WooCommerce settings. Please do this first."
 msgstr ""
 
-#: languages/wordpress-seojs.php:305
+#: languages/wordpress-seojs.php:302
 msgid "Current year"
 msgstr "العام الحالي"
 
@@ -1777,11 +1853,11 @@ msgid "Insert snippet variable"
 msgstr ""
 
 #: inc/class-wpseo-replace-vars.php:1335
-#: languages/wordpress-seojs.php:320
+#: languages/wordpress-seojs.php:317
 msgid "Tagline"
 msgstr ""
 
-#: languages/wordpress-seojs.php:314
+#: languages/wordpress-seojs.php:311
 msgid "Page"
 msgstr "صفحة"
 
@@ -1827,7 +1903,7 @@ msgid "User description"
 msgstr "وصف المستخدم"
 
 #: inc/class-wpseo-replace-vars.php:1362
-#: languages/wordpress-seojs.php:311
+#: languages/wordpress-seojs.php:308
 msgid "ID"
 msgstr "المُعرّف"
 
@@ -1844,12 +1920,12 @@ msgid "Post type (singular)"
 msgstr ""
 
 #: inc/class-wpseo-replace-vars.php:1346
-#: languages/wordpress-seojs.php:341
+#: languages/wordpress-seojs.php:338
 msgid "Separator"
 msgstr "منفصل"
 
 #: inc/class-wpseo-replace-vars.php:1345
-#: languages/wordpress-seojs.php:317
+#: languages/wordpress-seojs.php:314
 msgid "Search phrase"
 msgstr "عبارة البحث"
 
@@ -1858,27 +1934,27 @@ msgid "Term title"
 msgstr ""
 
 #: inc/class-wpseo-replace-vars.php:1343
-#: languages/wordpress-seojs.php:353
+#: languages/wordpress-seojs.php:350
 msgid "Term description"
 msgstr "توضيح الشروط"
 
 #: inc/class-wpseo-replace-vars.php:1342
-#: languages/wordpress-seojs.php:350
+#: languages/wordpress-seojs.php:347
 msgid "Tag description"
 msgstr ""
 
 #: inc/class-wpseo-replace-vars.php:1341
-#: languages/wordpress-seojs.php:347
+#: languages/wordpress-seojs.php:344
 msgid "Category description"
 msgstr "وصف التصنيف"
 
 #: inc/class-wpseo-replace-vars.php:1340
-#: languages/wordpress-seojs.php:338
+#: languages/wordpress-seojs.php:335
 msgid "Primary category"
 msgstr ""
 
 #: inc/class-wpseo-replace-vars.php:1339
-#: languages/wordpress-seojs.php:326
+#: languages/wordpress-seojs.php:323
 msgid "Category"
 msgstr "التصنيف"
 
@@ -1887,17 +1963,17 @@ msgid "Tag"
 msgstr "وسم"
 
 #: inc/class-wpseo-replace-vars.php:1337
-#: languages/wordpress-seojs.php:344
+#: languages/wordpress-seojs.php:341
 msgid "Excerpt only"
 msgstr "مقتطف فقط"
 
 #: inc/class-wpseo-replace-vars.php:1336
-#: languages/wordpress-seojs.php:335
+#: languages/wordpress-seojs.php:332
 msgid "Excerpt"
 msgstr "مقتطف"
 
 #: inc/class-wpseo-replace-vars.php:1334
-#: languages/wordpress-seojs.php:323
+#: languages/wordpress-seojs.php:320
 msgid "Site title"
 msgstr "عنوان الموقع"
 
@@ -1906,12 +1982,12 @@ msgid "Archive title"
 msgstr "عنوان الارشيف"
 
 #: inc/class-wpseo-replace-vars.php:1332
-#: languages/wordpress-seojs.php:332
+#: languages/wordpress-seojs.php:329
 msgid "Parent title"
 msgstr ""
 
 #: inc/class-wpseo-replace-vars.php:1330
-#: languages/wordpress-seojs.php:308
+#: languages/wordpress-seojs.php:305
 msgid "Date"
 msgstr "التاريخ"
 
@@ -2447,15 +2523,15 @@ msgstr ""
 msgid "Default for %2$s, currently: %1$s"
 msgstr ""
 
-#. translators: %s expands to the post type name.
 #. translators: %s = taxonomy name.
+#. translators: %s expands to the post type name.
 #: admin/metabox/class-metabox.php:76
 #: admin/taxonomy/class-taxonomy-settings-fields.php:40
 msgid "Allow search engines to show this %s in search results?"
 msgstr ""
 
 #: admin/menu/class-admin-menu.php:89
-#: frontend/class-frontend.php:1187
+#: frontend/class-frontend.php:1198
 msgid "Search Appearance"
 msgstr ""
 
@@ -2475,7 +2551,7 @@ msgstr ""
 
 #. translators: %s expands to an indexable object's name, like a post type or
 #. taxonomy
-#: admin/class-yoast-form.php:712
+#: admin/class-yoast-form.php:720
 msgid "Show %s in search results?"
 msgstr "عرض %s في نتائج البحث؟"
 
@@ -2509,7 +2585,7 @@ msgstr ""
 msgid "Support requests you create here are sent directly into our support system, which is secured with 256 bit SSL, so communication is 100% secure."
 msgstr ""
 
-#: admin/formatter/class-metabox-formatter.php:177
+#: admin/formatter/class-metabox-formatter.php:178
 #: languages/yoast-components.php:62
 msgid "Good results"
 msgstr "نتائج جيّدة"
@@ -2596,12 +2672,12 @@ msgstr ""
 msgid "Search the Yoast Knowledge Base for answers to your questions:"
 msgstr ""
 
-#: admin/formatter/class-metabox-formatter.php:181
+#: admin/formatter/class-metabox-formatter.php:182
 #: languages/yoast-components.php:50
 msgid "Remove highlight from the text"
 msgstr "إزالة التضليل من النص"
 
-#: admin/formatter/class-metabox-formatter.php:178
+#: admin/formatter/class-metabox-formatter.php:179
 msgid "Your site language is set to {language}."
 msgstr ""
 
@@ -2615,7 +2691,7 @@ msgstr ""
 msgid "First-time SEO configuration"
 msgstr ""
 
-#: admin/formatter/class-metabox-formatter.php:179
+#: admin/formatter/class-metabox-formatter.php:180
 msgid "Your site language is set to {language}. If this is not correct, contact your site administrator."
 msgstr ""
 
@@ -2623,22 +2699,22 @@ msgstr ""
 msgid "Your site language is set to %s. "
 msgstr ""
 
-#: admin/formatter/class-metabox-formatter.php:180
+#: admin/formatter/class-metabox-formatter.php:181
 #: languages/yoast-components.php:53
 msgid "Highlight this result in the text"
 msgstr ""
 
-#: admin/formatter/class-metabox-formatter.php:176
+#: admin/formatter/class-metabox-formatter.php:177
 #: languages/yoast-components.php:59
 msgid "Considerations"
 msgstr "الاعتبارات"
 
-#: admin/formatter/class-metabox-formatter.php:173
+#: admin/formatter/class-metabox-formatter.php:174
 #: languages/yoast-components.php:65
 msgid "Errors"
 msgstr "أخطاء"
 
-#: admin/formatter/class-metabox-formatter.php:172
+#: admin/formatter/class-metabox-formatter.php:173
 #: languages/yoast-components.php:99
 msgid "Change language"
 msgstr "تغيير اللغة"
@@ -2713,11 +2789,6 @@ msgstr ""
 msgid "You've done it!"
 msgstr "لقد فعلتها!"
 
-#. translators: %1$s expands to Yoast SEO
-#: admin/class-plugin-availability.php:120
-msgid "Seamlessly integrate %1$s into your AMP pages!"
-msgstr ""
-
 #. translators: %1$s expands to Yoast SEO, %2$s expands to Advanced Custom
 #. Fields
 #: admin/class-plugin-availability.php:101
@@ -2752,7 +2823,7 @@ msgid "Loading help center."
 msgstr "تحميل مركز المساعدة."
 
 #: admin/class-help-center.php:230
-#: languages/wordpress-seojs.php:362
+#: languages/wordpress-seojs.php:359
 msgid "Get support"
 msgstr "الحصول على الدعم"
 
@@ -2774,8 +2845,8 @@ msgstr "عودة إلى نتائج البحث"
 #: admin/class-multiple-keywords-modal.php:42
 #: admin/class-premium-popup.php:82
 #: admin/class-premium-upsell-admin-block.php:73
-#: admin/formatter/class-metabox-formatter.php:183
-#: admin/formatter/class-metabox-formatter.php:216
+#: admin/formatter/class-metabox-formatter.php:184
+#: admin/formatter/class-metabox-formatter.php:217
 #: admin/views/licenses.php:110
 #: admin/watchers/class-slug-change-watcher.php:224
 #: languages/yoast-components.php:180
@@ -2908,16 +2979,8 @@ msgid "You are not receiving updates or support! Fix this problem by adding this
 msgstr ""
 
 #. translators: %1$s expands to the request method
-#: admin/class-remote-request.php:96
+#: admin/class-remote-request.php:95
 msgid "Request method %1$s is not valid."
-msgstr ""
-
-#: admin/views/partial-alerts-warnings.php:16
-msgid "Muted notifications:"
-msgstr ""
-
-#: admin/views/partial-alerts-errors.php:16
-msgid "Muted problems:"
 msgstr ""
 
 #. translators: %1$s expands to the social network's name, %2$s to Yoast SEO
@@ -2996,7 +3059,7 @@ msgstr "درجة قابلية القراءة"
 #: admin/class-help-center.php:206
 #: admin/class-keyword-synonyms-modal.php:32
 #: admin/class-multiple-keywords-modal.php:32
-#: admin/formatter/class-metabox-formatter.php:206
+#: admin/formatter/class-metabox-formatter.php:207
 #: languages/wordpress-seojs.php:140
 msgid "Other benefits of %s for you:"
 msgstr "منافع اخرى من %s لك:"
@@ -3092,7 +3155,7 @@ msgstr "حفظ التغييرات"
 #: admin/class-keyword-synonyms-modal.php:41
 #: admin/class-multiple-keywords-modal.php:41
 #: admin/class-premium-popup.php:88
-#: admin/formatter/class-metabox-formatter.php:215
+#: admin/formatter/class-metabox-formatter.php:216
 #: languages/wordpress-seojs.php:145
 msgid "1 year free support and updates included!"
 msgstr ""
@@ -3221,7 +3284,7 @@ msgstr "البيانات الوصفية (meta) لا تحتوي على أي جم�
 msgid "Step %1$d: %2$s"
 msgstr "خطوة %1$d: %2$s"
 
-#: admin/views/partial-alerts-warnings.php:15
+#: admin/views/partial-alerts-warnings.php:22
 msgid "No new notifications."
 msgstr "لا توجد إشعارات جديدة."
 
@@ -3292,7 +3355,7 @@ msgstr ""
 msgid "Mark this result in the text"
 msgstr ""
 
-#: admin/formatter/class-metabox-formatter.php:182
+#: admin/formatter/class-metabox-formatter.php:183
 #: languages/yoast-components.php:47
 #: languages/yoast-seo-js.php:492
 msgid "Marks are disabled in current view"
@@ -3421,10 +3484,6 @@ msgstr ""
 #: admin/config-ui/class-configuration-page.php:108
 msgid "%s &rsaquo; Configuration Wizard"
 msgstr ""
-
-#: admin/menu/class-admin-menu.php:99
-msgid "Courses"
-msgstr "الدورات التدريبية"
 
 #: admin/views/tabs/metas/archives.php:24
 msgid "Date archives settings"
@@ -3566,7 +3625,7 @@ msgstr ""
 msgid "The name of the person"
 msgstr "اسم الشخص"
 
-#: admin/class-yoast-form.php:704
+#: admin/class-yoast-form.php:712
 #: admin/config-ui/fields/class-field-choice-post-type.php:35
 #: admin/config-ui/fields/class-field-multiple-authors.php:24
 #: admin/metabox/class-metabox.php:83
@@ -3576,7 +3635,7 @@ msgstr "اسم الشخص"
 msgid "No"
 msgstr "لا"
 
-#: admin/class-yoast-form.php:703
+#: admin/class-yoast-form.php:711
 #: admin/config-ui/fields/class-field-choice-post-type.php:34
 #: admin/config-ui/fields/class-field-multiple-authors.php:23
 #: admin/metabox/class-metabox.php:82
@@ -3758,7 +3817,7 @@ msgstr ""
 msgid "Google Trends"
 msgstr ""
 
-#: admin/views/partial-alerts-warnings.php:13
+#: admin/views/partial-alerts-warnings.php:20
 #: inc/class-wpseo-admin-bar-menu.php:199
 msgid "Notifications"
 msgstr "الإشعارات"
@@ -3817,7 +3876,7 @@ msgid "Search results"
 msgstr "نتائج البحث"
 
 #. translators: %s: number of notifications
-#: admin/menu/class-admin-menu.php:121
+#: admin/menu/class-admin-menu.php:120
 #: inc/class-wpseo-admin-bar-menu.php:636
 msgid "%s notification"
 msgid_plural "%s notifications"
@@ -3841,8 +3900,8 @@ msgstr ""
 msgid "Readability analysis"
 msgstr "تحليل قابلية القراءة"
 
-#: admin/formatter/class-metabox-formatter.php:95
-#: admin/formatter/class-metabox-formatter.php:125
+#: admin/formatter/class-metabox-formatter.php:96
+#: admin/formatter/class-metabox-formatter.php:126
 #: admin/statistics/class-statistics-service.php:217
 #: inc/class-wpseo-rank.php:140
 #: inc/class-wpseo-rank.php:163
@@ -3861,41 +3920,34 @@ msgstr "قابلية القراءة"
 msgid "You are trying to load non-minified files. These are only available in our development package. Check out %1$s to see all the source files."
 msgstr ""
 
-#: admin/formatter/class-metabox-formatter.php:175
+#: admin/formatter/class-metabox-formatter.php:176
 #: languages/yoast-components.php:56
 msgid "Improvements"
 msgstr "تحسينات"
 
-#: admin/views/partial-alerts-template.php:35
-msgid "Restore this item."
-msgstr ""
-
 #: admin/notifiers/class-configuration-notifier.php:169
-#: admin/views/partial-alerts-template.php:31
 msgid "Dismiss this item."
 msgstr ""
 
-#: admin/views/partial-alerts-errors.php:15
+#: admin/views/partial-alerts-errors.php:22
 msgid "Good job! We could detect no serious SEO problems."
 msgstr ""
 
-#: admin/views/partial-alerts-errors.php:14
+#: admin/views/partial-alerts-errors.php:21
 msgid "We have detected the following issues that affect the SEO of your site."
 msgstr ""
 
-#: admin/formatter/class-metabox-formatter.php:174
-#: admin/views/partial-alerts-errors.php:13
+#: admin/formatter/class-metabox-formatter.php:175
+#: admin/views/partial-alerts-errors.php:20
 #: languages/yoast-components.php:68
 msgid "Problems"
 msgstr "مشاكل"
 
-#: admin/formatter/class-metabox-formatter.php:145
+#: admin/formatter/class-metabox-formatter.php:146
 msgid "Analysis"
 msgstr "التحليل"
 
-#: admin/formatter/class-metabox-formatter.php:88
-#: admin/formatter/class-metabox-formatter.php:118
-#: inc/class-wpseo-rank.php:138
+#: admin/formatter/class-metabox-formatter.php:89
 msgid "Not available"
 msgstr "غير متوفر"
 
@@ -3907,7 +3959,7 @@ msgstr ""
 msgid "Meta description not set."
 msgstr ""
 
-#: languages/wordpress-seojs.php:356
+#: languages/wordpress-seojs.php:353
 msgid "Video tutorial"
 msgstr ""
 
@@ -3916,7 +3968,7 @@ msgstr ""
 msgid "Email support is a %s feature"
 msgstr ""
 
-#: languages/wordpress-seojs.php:359
+#: languages/wordpress-seojs.php:356
 msgid "Knowledge base"
 msgstr ""
 
@@ -4064,7 +4116,7 @@ msgstr ""
 msgid "Author archives"
 msgstr ""
 
-#: admin/class-yoast-form.php:734
+#: admin/class-yoast-form.php:742
 msgid "Show"
 msgstr "عرض"
 
@@ -4134,10 +4186,10 @@ msgstr ""
 msgid "If you don't want to use the title for sharing on %1$s but instead want another title there, write it here."
 msgstr ""
 
-#. translators: %1$s: opens a link to a related knowledge base article. %2$s:
-#. closes the link.
 #. translators: 1: opens a link to a related knowledge base article. 2: closes
 #. the link
+#. translators: %1$s: opens a link to a related knowledge base article. %2$s:
+#. closes the link.
 #: admin/onpage/class-onpage.php:172
 #: admin/onpage/class-ryte-service.php:66
 msgid "%1$sYour homepage cannot be indexed by search engines%2$s. This is very bad for SEO and should be fixed."
@@ -4181,22 +4233,22 @@ msgstr ""
 msgid "Yoast SEO"
 msgstr ""
 
-#: wp-seo-main.php:642
+#: wp-seo-main.php:643
 msgid "Activation failed:"
 msgstr "فشل التفعيل"
 
-#: wp-seo-main.php:632
+#: wp-seo-main.php:633
 msgid "The filter extension seem to be unavailable. Please ask your web host to enable it."
 msgstr ""
 
 #. translators: %1$s expands to Yoast SEO, %2$s / %3$s: links to the
 #. installation manual in the Readme for the Yoast SEO code repository on
 #. GitHub
-#: wp-seo-main.php:608
+#: wp-seo-main.php:609
 msgid "The %1$s plugin installation is incomplete. Please refer to %2$sinstallation instructions%3$s."
 msgstr ""
 
-#: wp-seo-main.php:586
+#: wp-seo-main.php:587
 msgid "The Standard PHP Library (SPL) extension seem to be unavailable. Please ask your web host to enable it."
 msgstr ""
 
@@ -4246,12 +4298,12 @@ msgid "Keyword Research"
 msgstr "البحث عن كلمات مفتاحية"
 
 #. translators: %s expands to an invalid URL.
-#: inc/options/class-wpseo-option.php:345
+#: inc/options/class-wpseo-option.php:349
 msgid "%s does not seem to be a valid url. Please correct."
 msgstr ""
 
 #. translators: 1: Verification string from user input; 2: Service name.
-#: inc/options/class-wpseo-option.php:312
+#: inc/options/class-wpseo-option.php:314
 msgid "%1$s does not seem to be a valid %2$s verification string. Please correct."
 msgstr ""
 
@@ -4267,7 +4319,7 @@ msgstr "لقد بحثت عن %s"
 
 #. translators: %s expands to a twitter user name.
 #: inc/options/class-wpseo-option-social.php:198
-msgid "%s does not seem to be a valid Twitter user-id. Please correct."
+msgid "%s does not seem to be a valid Twitter Username. Please correct."
 msgstr ""
 
 #: inc/options/class-wpseo-option-social.php:112
@@ -4328,8 +4380,8 @@ msgstr "الأرشيف الخاص بـ"
 msgid "Error 404: Page not found"
 msgstr "خطأ 404: لم يتم العثور على الصفحة"
 
-#: admin/formatter/class-metabox-formatter.php:109
-#: admin/formatter/class-metabox-formatter.php:139
+#: admin/formatter/class-metabox-formatter.php:110
+#: admin/formatter/class-metabox-formatter.php:140
 #: admin/statistics/class-statistics-service.php:227
 #: inc/class-wpseo-rank.php:142
 #: inc/class-wpseo-rank.php:173
@@ -4473,7 +4525,7 @@ msgstr ""
 
 #. Translators: %1$s resolves to the SEO menu item, %2$s resolves to the Search
 #. Appearance submenu item.
-#: frontend/class-frontend.php:1185
+#: frontend/class-frontend.php:1196
 msgid "Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [%1$s - %2$s] menu and set up a template."
 msgstr ""
 
@@ -4881,7 +4933,7 @@ msgstr "أرشيف الكاتب"
 #: admin/views/tabs/social/facebook.php:42
 #: admin/views/tool-bulk-editor.php:133
 #: inc/class-wpseo-replace-vars.php:1331
-#: languages/wordpress-seojs.php:329
+#: languages/wordpress-seojs.php:326
 msgid "Title"
 msgstr "العنوان"
 
@@ -4892,7 +4944,7 @@ msgstr "العنوان"
 msgid "%1$s Meta Box"
 msgstr ""
 
-#: admin/class-yoast-form.php:735
+#: admin/class-yoast-form.php:743
 msgid "Hide"
 msgstr "إخفاء"
 
@@ -5214,7 +5266,7 @@ msgstr "تعطيل %s"
 msgid "The %1$s plugin might cause issues when used in conjunction with %2$s."
 msgstr ""
 
-#: admin/class-yoast-form.php:561
+#: admin/class-yoast-form.php:569
 #: admin/metabox/class-metabox.php:578
 #: admin/taxonomy/class-taxonomy-fields-presenter.php:121
 msgid "Upload Image"
@@ -5294,22 +5346,22 @@ msgstr "تكوين إعدادات OpenGraph لـ %1$s"
 msgid "Both %1$s and %2$s create Open Graph output, which might make Facebook, Twitter, LinkedIn and other social networks use the wrong texts and images when your pages are being shared."
 msgstr ""
 
-#. translators: %s expands to the name of a social network.
 #. translators: %s expands to the social network name
+#. translators: %s expands to the name of a social network.
 #: admin/class-social-admin.php:66
 #: admin/taxonomy/class-taxonomy-social-fields.php:68
 msgid "%s Image"
 msgstr "%s صورة"
 
-#. translators: %s expands to the name of a social network.
 #. translators: %s expands to the social network name
+#. translators: %s expands to the name of a social network.
 #: admin/class-social-admin.php:62
 #: admin/taxonomy/class-taxonomy-social-fields.php:61
 msgid "%s Description"
 msgstr "%s الوصف"
 
-#. translators: %s expands to the name of a social network.
 #. translators: %s expands to the social network name
+#. translators: %s expands to the name of a social network.
 #: admin/class-social-admin.php:58
 #: admin/taxonomy/class-taxonomy-social-fields.php:53
 msgid "%s Title"
@@ -5333,10 +5385,10 @@ msgstr "تويتر"
 msgid "Facebook"
 msgstr "فيسبوك"
 
-#. translators: %1$s expands to the social network, %2$s to the recommended
-#. image size.
 #. translators: %1$s expands to the social network name, %2$s expands to the
 #. image size
+#. translators: %1$s expands to the social network, %2$s to the recommended
+#. image size.
 #: admin/class-social-admin.php:39
 #: admin/taxonomy/class-taxonomy-social-fields.php:72
 msgid "The recommended image size for %1$s is %2$s pixels."
@@ -5377,8 +5429,8 @@ msgstr "حاول تركيب جمل أقصر لتحسين سهولة القراء
 msgid "fairly difficult"
 msgstr "صعب إلى حد ما"
 
-#: admin/formatter/class-metabox-formatter.php:102
-#: admin/formatter/class-metabox-formatter.php:132
+#: admin/formatter/class-metabox-formatter.php:103
+#: admin/formatter/class-metabox-formatter.php:133
 #: admin/statistics/class-statistics-service.php:222
 #: inc/class-wpseo-rank.php:141
 #: inc/class-wpseo-rank.php:168
@@ -5635,7 +5687,7 @@ msgid "Twitter username (without @)"
 msgstr "اسم تويتر المستعار (بدون @)"
 
 #: admin/class-admin.php:235
-#: languages/wordpress-seojs.php:172
+#: languages/wordpress-seojs.php:169
 msgid "FAQ"
 msgstr "الأسئلة الشائعة"
 
@@ -5645,7 +5697,7 @@ msgstr "الدعم الفني المتقدم"
 
 #: admin/class-admin.php:221
 #: admin/google_search_console/class-gsc-platform-tabs.php:44
-#: languages/wordpress-seojs.php:242
+#: languages/wordpress-seojs.php:239
 msgid "Settings"
 msgstr "الإعدادات"
 
@@ -5713,17 +5765,17 @@ msgstr "اجتماعي"
 #: admin/menu/class-network-admin-menu.php:35
 #: admin/metabox/class-metabox.php:333
 #: admin/taxonomy/class-taxonomy-metabox.php:125
-#: frontend/class-frontend.php:1186
+#: frontend/class-frontend.php:1197
 #: inc/class-wpseo-admin-bar-menu.php:467
 msgid "SEO"
 msgstr "SEO"
 
+#. translators: %1$s expands to Yoast SEO, %2$s expands to the installed
+#. version, %3$s expands to Gutenberg
 #. translators: %1$s expands to Yoast SEO, %2$s expands to 5.4.3, %3$s expands
 #. to Google Analytics by Yoast
 #. translators: %1$s expands to Yoast SEO, %2$s expands to the plugin version,
 #. %3$s expands to the plugin name
-#. translators: %1$s expands to Yoast SEO, %2$s expands to the installed
-#. version, %3$s expands to Gutenberg
 #: admin/class-admin-gutenberg-compatibility-notification.php:76
 #: admin/class-admin-init.php:275
 #: admin/class-admin-init.php:378
@@ -5761,3 +5813,9 @@ msgstr "تحتوي المشاركة على نوع محتوى غير صالح: %s
 #: admin/ajax.php:150
 msgid "Post doesn't exist."
 msgstr "المشاركة غير موجودة."
+
+#~ msgid "Free"
+#~ msgstr "مجانًا"
+
+#~ msgid "Courses"
+#~ msgstr "الدورات التدريبية"

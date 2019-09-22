@@ -11,6 +11,14 @@ msgstr ""
 "Project-Id-Version: Plugins - Meta Box &#8211; WordPress Custom Fields Framework - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
+#: inc/core.php:39
+msgid "Go Pro"
+msgstr ""
+
+#: inc/core.php:38
+msgid "Docs"
+msgstr ""
+
 #. Translators: %2$s - URL to the My Account page.
 #: inc/update/settings.php:119
 msgid "Your license key is <b>active</b>."
@@ -54,7 +62,7 @@ msgstr ""
 msgid "Your license key for Meta Box is <b>invalid</b>. Please <a href=\"%1$s\">update your license key</a> or <a href=\"%2$s\" target=\"_blank\">get a new one</a> to enable automatic updates."
 msgstr ""
 
-#: inc/update/checker.php:127
+#: inc/update/checker.php:133
 msgid "UPDATE UNAVAILABLE! Please enter a valid license key to enable automatic updates."
 msgstr ""
 
@@ -503,7 +511,7 @@ msgctxt "media"
 msgid "Select Files"
 msgstr ""
 
-#: inc/fields/taxonomy.php:48
+#: inc/fields/taxonomy.php:92
 msgid "Select a term"
 msgstr ""
 
@@ -561,7 +569,7 @@ msgstr ""
 msgid "Please correct the errors highlighted below and try again."
 msgstr ""
 
-#: inc/fields/user.php:42
+#: inc/fields/user.php:82
 msgid "Select an user"
 msgstr ""
 
@@ -574,12 +582,12 @@ msgid "All"
 msgstr ""
 
 #. Translators: %s is the taxonomy singular label.
-#: inc/fields/post.php:41
-#: inc/fields/taxonomy.php:52
+#: inc/fields/post.php:84
+#: inc/fields/taxonomy.php:96
 msgid "Select a %s"
 msgstr ""
 
-#: inc/fields/post.php:35
+#: inc/fields/post.php:78
 msgid "Select a post"
 msgstr ""
 
@@ -627,12 +635,12 @@ msgstr ""
 msgid "Select File"
 msgstr ""
 
-#: inc/fields/file.php:164
+#: inc/fields/file.php:170
 msgctxt "file upload"
 msgid "Edit"
 msgstr ""
 
-#: inc/fields/file.php:163
+#: inc/fields/file.php:169
 msgctxt "file upload"
 msgid "Delete"
 msgstr "حذف"
@@ -658,11 +666,9 @@ msgstr ""
 #: inc/about/sections/getting-started.php:25
 #: inc/about/sections/tabs.php:12
 #: inc/about/sections/welcome.php:22
-#: inc/core.php:39
 msgid "Extensions"
 msgstr ""
 
 #: inc/about/sections/welcome.php:21
-#: inc/core.php:38
 msgid "Documentation"
 msgstr ""
