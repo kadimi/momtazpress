@@ -2,7 +2,7 @@
 
 define( 'MP_CACHE', false );
 define( 'MP_UPDATE_INTERVAL', 7 * DAY_IN_SECONDS );
-define( 'MP_UPDATE_PACKAGE_COUNT', 100 );
+define( 'MP_UPDATE_PACKAGE_COUNT', 10 );
 define( 'MP_UPDATE_PACKAGE_FILTER', '' );
 define( 'MP_UPDATE_THEME_TAGS', 'rtl-language-support' );
 define( 'MP_UPDATE_TRANSCIENT_NAME', 'mp_update' );

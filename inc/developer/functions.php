@@ -185,7 +185,7 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 		 */
 		$cache_file = $cache_dir
 			. DIRECTORY_SEPARATOR
-			. str_pad( $page, 3, '0', STR_PAD_LEFT ) . '-' . md5( $url ) . '.json';
+			. str_pad( $page, 3, '0', STR_PAD_LEFT ) . '-' . $type . '-' . md5( $url ) . '.json';
 
 		if ( ! file_exists( $cache_file ) ) {
 
