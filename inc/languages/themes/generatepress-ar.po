@@ -20,6 +20,17 @@ msgstr ""
 msgid "GeneratePress"
 msgstr "GeneratePress"
 
+#: inc/general.php:62
+msgid "Close Search Bar"
+msgstr "إغلاق شريط البحث"
+
+#: inc/general.php:61
+#: inc/structure/navigation.php:114
+#: inc/structure/navigation.php:324
+#: inc/structure/navigation.php:357
+msgid "Open Search Bar"
+msgstr "البحث عن:"
+
 #: inc/customizer.php:1421
 msgid "Reduce the number of CSS file requests and use a lite version of our grid system."
 msgstr ""
@@ -182,7 +193,7 @@ msgctxt "GeneratePress"
 msgid "Powered by"
 msgstr "منفذ بواسطة GeneratePress "
 
-#: inc/structure/navigation.php:368
+#: inc/structure/navigation.php:387
 msgid "Mobile Menu"
 msgstr "قائمة الموبايل"
 
@@ -244,15 +255,15 @@ msgstr "شعار عالي الجودة"
 msgid "Premium Modules Available"
 msgstr "الوحدات المدفوعة المتاحة"
 
-#: inc/customizer/controls/class-typography-control.php:41
+#: inc/customizer/controls/class-typography-control.php:39
 msgid "Variants"
 msgstr "مختلفات"
 
-#: inc/customizer/controls/class-typography-control.php:33
+#: inc/customizer/controls/class-typography-control.php:32
 msgid "System fonts"
 msgstr "خطوط الكتابة للنظام"
 
-#: inc/structure/comments.php:93
+#: inc/structure/comments.php:118
 msgid "Comment"
 msgstr "تعليق"
 
@@ -302,7 +313,7 @@ msgid "Top Bar Width"
 msgstr "عرض الشريط العلوي"
 
 #: inc/customizer.php:602
-#: inc/general.php:84
+#: inc/general.php:93
 msgid "Top Bar"
 msgstr "الشريط العلوي"
 
@@ -324,7 +335,7 @@ msgstr "مدفوع الثمن"
 msgid "Footer Bar Alignment"
 msgstr "محاذاة شريط التذييل"
 
-#: inc/general.php:83
+#: inc/general.php:92
 msgid "Footer Bar"
 msgstr "شريط تذييل الصفحة"
 
@@ -478,54 +489,54 @@ msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <
 msgid "Nothing Found"
 msgstr "لم يتم العثور على شيء"
 
-#: inc/structure/post-meta.php:206
+#: inc/structure/post-meta.php:228
 msgid "% Comments"
 msgstr "% تعليقات"
 
-#: inc/structure/post-meta.php:206
+#: inc/structure/post-meta.php:228
 msgid "1 Comment"
 msgstr "تعليق واحد"
 
-#: inc/structure/post-meta.php:206
+#: inc/structure/post-meta.php:228
 msgid "Leave a comment"
 msgstr "أضف تعليق"
 
-#: inc/structure/post-meta.php:193
+#: inc/structure/post-meta.php:214
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "الوسوم"
 
-#: inc/structure/post-meta.php:180
+#: inc/structure/post-meta.php:197
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "التصنيفات"
 
-#: inc/structure/post-meta.php:177
-#: inc/structure/post-meta.php:190
+#: inc/structure/post-meta.php:191
+#: inc/structure/post-meta.php:208
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ", "
 
-#: inc/structure/navigation.php:276
+#: inc/structure/navigation.php:292
 msgctxt "label"
 msgid "Search"
 msgstr "البحث"
 
-#: inc/structure/post-meta.php:299
-#: inc/structure/post-meta.php:319
+#: inc/structure/post-meta.php:318
+#: inc/structure/post-meta.php:338
 msgid "Read more"
 msgstr "اقرأ المزيد"
 
 #. translators: 1: Author name
-#: inc/structure/post-meta.php:166
+#: inc/structure/post-meta.php:180
 msgid "View all posts by %s"
 msgstr "عرض جميع المواضيع التي كتبها %s"
 
-#: inc/structure/post-meta.php:163
+#: inc/structure/post-meta.php:249
 msgid "by"
 msgstr "بقلم"
 
-#: inc/structure/comments.php:68
+#: inc/structure/comments.php:59
 msgid "Your comment is awaiting moderation."
 msgstr "تعليقك بانتظار المراجعة."
 
@@ -539,35 +550,35 @@ msgstr "%1$s في %2$s"
 msgid "Pingback:"
 msgstr "التنبيهات:"
 
-#: inc/structure/post-meta.php:74
+#: inc/structure/post-meta.php:86
 msgid "Newer posts"
 msgstr "مقالات أحدث"
 
-#: inc/structure/post-meta.php:67
+#: inc/structure/post-meta.php:79
 msgid "Older posts"
 msgstr "مقالات أقدم"
 
-#: inc/structure/post-meta.php:57
-#: inc/structure/post-meta.php:74
+#: inc/structure/post-meta.php:51
+#: inc/structure/post-meta.php:86
 msgid "Next"
 msgstr "التالي"
 
-#: inc/structure/post-meta.php:51
-#: inc/structure/post-meta.php:67
+#: inc/structure/post-meta.php:50
+#: inc/structure/post-meta.php:79
 msgid "Previous"
 msgstr "السابق"
 
-#: inc/structure/post-meta.php:46
+#: inc/structure/post-meta.php:45
 msgid "Post navigation"
 msgstr "تصفّح المقالات"
 
 #: inc/deprecated.php:28
-#: inc/structure/post-meta.php:82
+#: inc/structure/post-meta.php:94
 msgid "Next &rarr;"
 msgstr "التالي &larr;"
 
 #: inc/deprecated.php:27
-#: inc/structure/post-meta.php:81
+#: inc/structure/post-meta.php:93
 msgid "&larr; Previous"
 msgstr "&rarr; السابق"
 
@@ -595,10 +606,6 @@ msgstr "تحذير: هذا سيزيل إعداداتك."
 msgid "Customize"
 msgstr "تخصيص"
 
-#: inc/structure/navigation.php:100
-#: inc/structure/navigation.php:306
-#: inc/structure/navigation.php:336
-#: inc/structure/navigation.php:339
 #: searchform.php:17
 msgctxt "submit button"
 msgid "Search"
@@ -610,6 +617,7 @@ msgid "Skip to content"
 msgstr "انتقل إلى المحتوى"
 
 #: inc/structure/navigation.php:44
+#: inc/structure/navigation.php:54
 msgid "Menu"
 msgstr "القائمة"
 
@@ -874,11 +882,11 @@ msgstr "اخفاء اسم الموقع"
 msgid "Font size"
 msgstr "حجم الخط"
 
-#: inc/customizer/controls/class-typography-control.php:39
+#: inc/customizer/controls/class-typography-control.php:37
 msgid "Text transform"
 msgstr "تحول النص"
 
-#: inc/customizer/controls/class-typography-control.php:38
+#: inc/customizer/controls/class-typography-control.php:36
 msgid "Font weight"
 msgstr "وزن النص"
 
@@ -892,12 +900,12 @@ msgid "Typography"
 msgstr "شكل الخطوط"
 
 #: inc/customizer/controls/class-deprecated.php:53
-#: inc/customizer/controls/class-typography-control.php:37
+#: inc/customizer/controls/class-typography-control.php:35
 msgid "Font family"
 msgstr "عائلة الخط"
 
 #: inc/customizer/controls/class-deprecated.php:52
-#: inc/customizer/controls/class-typography-control.php:34
+#: inc/customizer/controls/class-typography-control.php:33
 msgid "Google fonts"
 msgstr "خطوط جووجل"
 
@@ -906,43 +914,43 @@ msgid "Default fonts"
 msgstr "الخطوط الافتراضية"
 
 #: inc/customizer.php:690
-#: inc/general.php:77
+#: inc/general.php:86
 msgid "Header"
 msgstr "ترويسة"
 
 #: inc/customizer.php:907
-#: inc/general.php:76
+#: inc/general.php:85
 #: inc/meta-box.php:143
 msgid "Left Sidebar"
 msgstr "الشريط الجانبي (يسار)"
 
 #: inc/customizer.php:908
-#: inc/general.php:75
+#: inc/general.php:84
 #: inc/meta-box.php:138
 msgid "Right Sidebar"
 msgstr "الشريط الجانبي (يمين)"
 
-#: functions.php:49
+#: functions.php:48
 msgid "Primary Menu"
 msgstr "القائمة الأساسية"
 
-#: inc/general.php:82
+#: inc/general.php:91
 msgid "Footer Widget 5"
 msgstr "5 ودجت لعقب الصفحة"
 
-#: inc/general.php:81
+#: inc/general.php:90
 msgid "Footer Widget 4"
 msgstr " 4 ودجت لعقب الصفحة"
 
-#: inc/general.php:80
+#: inc/general.php:89
 msgid "Footer Widget 3"
 msgstr "3 ودجت لعقب الصفحة"
 
-#: inc/general.php:79
+#: inc/general.php:88
 msgid "Footer Widget 2"
 msgstr "2 ودجت عقب الصفحة "
 
-#: inc/general.php:78
+#: inc/general.php:87
 msgid "Footer Widget 1"
 msgstr "1 ودجت لعقب الصفحة"
 
@@ -952,29 +960,29 @@ msgid "Edit"
 msgstr "تحرير"
 
 #: content-link.php:71
-#: content-page.php:48
+#: content-page.php:64
 #: content-single.php:66
 #: content.php:70
 msgid "Pages:"
 msgstr "الصفحات:"
 
-#: inc/structure/comments.php:101
+#: inc/structure/comments.php:126
 msgid "Post Comment"
 msgstr "إرســال التعليق"
 
-#: inc/structure/comments.php:100
+#: inc/structure/comments.php:125
 msgid "Leave a Comment"
 msgstr "أضف تعليق"
 
-#: inc/structure/comments.php:131
+#: inc/structure/comments.php:156
 msgid "Website"
 msgstr "الموقع الإلكتروني"
 
-#: inc/structure/comments.php:125
+#: inc/structure/comments.php:150
 msgid "Email"
 msgstr "البريد الإلكتروني"
 
-#: inc/structure/comments.php:119
+#: inc/structure/comments.php:144
 msgid "Name"
 msgstr "الاسم"
 

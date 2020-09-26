@@ -19,200 +19,988 @@ msgstr "نيفي (Neve) هو قالب سريع للغاية، سهل التخص�
 msgid "Neve"
 msgstr "نيفي (Neve)"
 
-#: inc/core/admin.php:274
-msgid "Become a contributor by opting in to our anonymous data tracking. We guarantee no sensitive data is collected."
+#: inc/customizer/options/buttons.php:175
+msgid "Button Text"
+msgstr "الزر"
+
+#: inc/compatibility/block-patterns/two-columns-image-text.php:9
+msgid "Two columns with image and text"
 msgstr ""
 
-#: inc/customizer/controls/react/src/background/BackgroundComponent.js:106
-msgid "Select from the Media Library or upload a new image"
+#: inc/compatibility/block-patterns/two-columns-with-text.php:9
+msgid "Two columns with text"
 msgstr ""
 
-#: inc/core/admin.php:489
-msgid "Typekit(Adobe) Fonts"
-msgstr "خطوط أدوبي "
-
-#: inc/core/admin.php:484
-msgid "Make your LifterLMS pages look stunning with our PRO design options. Specially created to help you set up your online courses with minimum customizations."
+#: inc/compatibility/block-patterns/light-header-left-aligned-content.php:9
+msgid "Light header with left-aligned content"
 msgstr ""
 
-#: inc/customizer/controls/react/src/background/BackgroundComponent.js:42
-#: inc/customizer/controls/react/src/background/BackgroundComponent.js:105
-msgid "Image"
+#: inc/compatibility/block-patterns/gallery-title-buttons.php:9
+msgid "Gallery with title and button"
 msgstr ""
 
-#: inc/core/admin.php:490
-msgid "The module allows for an easy way of enabling new awesome Adobe (previous Typekit) Fonts in Neve's Typography options."
+#: inc/compatibility/block-patterns/testimonials-columns.php:9
+msgid "Testimonial columns"
 msgstr ""
 
-#: inc/core/admin.php:275
-msgid "Allow anonymous tracking"
+#: inc/compatibility/block-patterns/two-columns-centered-content.php:9
+msgid "Two columns with centered content"
 msgstr ""
+
+#: inc/compatibility/block-patterns/three-columns-images-text.php:9
+msgid "Three columns with images and text"
+msgstr ""
+
+#: inc/compatibility/block-patterns/three-columns-images-texts-content.php:9
+msgid "Three columns with images, content and buttons"
+msgstr ""
+
+#: inc/compatibility/block-patterns/dark-header-centered-content.php:9
+msgid "Dark header with centered content"
+msgstr ""
+
+#: inc/compatibility/block-patterns/gallery-grid-buttons.php:9
+msgid "Gallery grid with buttons"
+msgstr ""
+
+#: inc/compatibility/block-patterns/four-columns-team-members.php:9
+msgid "Four columns with team members"
+msgstr ""
+
+#: inc/admin/metabox/src/components/Sidebar.js:55
+#: inc/admin/metabox/src/components/Sidebar.js:59
+msgid "Neve Options"
+msgstr "خيارات الترويسة"
+
+#: inc/admin/metabox/src/components/Sidebar.js:16
+msgid "Open Neve meta sidebar"
+msgstr "افتح الشريط الجانبي التعريفي (meta) لـ Neve "
+
+#: inc/admin/metabox/src/components/controls/SortableItems.js:20
+#: inc/admin/metabox/src/components/controls/SortableItems.js:95
+msgid "neve"
+msgstr "neve"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:391
+msgid "Return to customizer settings"
+msgstr "الروابط إلى إعدادات المخصص"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:382
+msgid "Reset all options to default"
+msgstr "إعادة تعيين جميع الخيارات إلى الافتراضي"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:321
+msgid "Elements"
+msgstr "ترتيب العناصر"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:313
+msgid "Sharing Icons"
+msgstr "Search Icon"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:312
+msgid "Related Posts"
+msgstr "تدوينات ذات صلة"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:311
+msgid "Author Biography"
+msgstr "سيرة الكاتب"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:296
+msgid "Post Navigation"
+msgstr "تصفّح المقالات"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:292
+msgid "Featured Image"
+msgstr "تعطيل الصورة المميزة"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:291
+msgid "Post Meta"
+msgstr "ميتا المقالة"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:290
+msgid "Post Title"
+msgstr "العنوان"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:273
+msgid "Reading Time"
+msgstr "العناوين"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:218
+msgid "Title alignment"
+msgstr "محاذاة العنوان"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:214
+msgid "Page Title"
+msgstr "تعطيل العنوان"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:173
+msgid "Custom Content Width (%)"
+msgstr "عرض المحتوى (%)"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:112
+msgid "Page Layout"
+msgstr "التخطيط"
+
+#: header-footer-grid/Core/Components/Nav.php:292
+msgid "Expand first level of dropdowns when menu is in mobile menu content."
+msgstr "قم بتوسيع المستوى الأول من القوائم المنسدلة عندما تكون القائمة في محتوى قائمة الجوال."
+
+#: header-footer-grid/Core/Components/MenuIcon.php:131
+msgid "Mobile Menu Options"
+msgstr "تفعيل الخيارات المتقدمة"
+
+#: header-footer-grid/Core/Components/MenuIcon.php:127
+msgid "Show Mobile Menu"
+msgstr "عرض قائمة الجوال"
+
+#: header-footer-grid/Core/Components/Nav.php:262
+#: header-footer-grid/Core/Components/NavFooter.php:177
+#: header-footer-grid/Core/Components/SecondNav.php:180
+msgid "Items Min Height (px)"
+msgstr "ارتفاع الصف (بكسل)"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1320
+msgid "Sidebar Width"
+msgstr "الشريط الجانبي"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1305
+msgid "Slide Down"
+msgstr "إزاحة لأسفل"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1304
+msgid "Full Canvas"
+msgstr "لوحة كاملة"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1303
+msgid "Pull from Right"
+msgstr "اسحب من اليمين"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1302
+msgid "Pull from Left"
+msgstr "إنزلاق من اليسار"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1301
+msgid "Slide from Right"
+msgstr "إنزلاق من اليسار"
+
+#: inc/admin/metabox/manager.php:199
+msgid "or"
+msgstr "أو"
+
+#. translators: %1$s - Keyboard shortcut.   %2&s - svg icon
+#: inc/admin/metabox/manager.php:194
+msgid "Click the %1$s icon in the top bar or use the keyboard shortcut ( %2$s ) to customise the layout settings for this page"
+msgstr "انقر فوق أيقونة %1$s في الشريط العلوي أو استخدم اختصار لوحة المفاتيح ( %2$s ) لتخصيص إعدادات التخطيط لهذه الصفحة"
+
+#: inc/admin/metabox/manager.php:191
+msgid "Page Settings are now accessible from the top bar"
+msgstr "يمكن الآن الوصول إلى إعدادات الصفحة من الشريط العلوي"
+
+#: header-footer-grid/Core/Magic_Tags.php:502
+msgid "Time to read meta"
+msgstr "حان الوقت لقراءة الوصف التعريفي meta"
+
+#: header-footer-grid/Core/Magic_Tags.php:498
+msgid "Comments meta"
+msgstr "التعليقات"
+
+#: header-footer-grid/Core/Magic_Tags.php:494
+msgid "Category meta"
+msgstr "التصنيف"
+
+#: header-footer-grid/Core/Magic_Tags.php:490
+msgid "Date meta"
+msgstr "التاريخ"
+
+#: header-footer-grid/Core/Magic_Tags.php:486
+msgid "Author meta"
+msgstr "الصورة الرمزية Avatar للكاتب"
+
+#: header-footer-grid/Core/Magic_Tags.php:482
+msgid "Current Post Meta"
+msgstr "الوصف التعريفي meta للمقالة الحالية"
+
+#: inc/customizer/controls/react/src/multiselect/MultiSelect.js:63
+msgid "All items are already selected."
+msgstr "تم تحديد جميع العناصر بالفعل."
+
+#: inc/customizer/controls/react/src/multiselect/MultiSelect.js:56
+msgid "Add items by clicking the ones below."
+msgstr "أضف عناصر بالضغط على العناصر أدناه."
+
+#: inc/customizer/controls/react/src/multiselect/MultiSelect.js:32
+msgid "Remove Item"
+msgstr "إزالة عنصر"
+
+#: inc/customizer/controls/react/src/multiselect/MultiSelect.js:14
+msgid "Add item"
+msgstr "إضافة عنصر"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:895
+msgid "Vertical Alignment"
+msgstr "محاذاة المكون"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:878
+msgid "Middle"
+msgstr "منتصف"
+
+#: inc/customizer/options/typography.php:316
+msgid "Comments reply title"
+msgstr "التعليقات مغلقة."
+
+#: inc/customizer/options/typography.php:300
+#: inc/customizer/options/typography.php:311
+msgid "Post meta"
+msgstr "ميتا المقالة"
+
+#: inc/customizer/options/typography.php:295
+msgid "Post excerpt"
+msgstr "المقتطف"
+
+#: inc/customizer/options/typography.php:290
+msgid "Blog Archive"
+msgstr "المدونة / الأرشيف"
+
+#: inc/customizer/options/typography.php:289
+#: inc/customizer/options/typography.php:305
+msgid "Post title"
+msgstr "عنوان المقالة"
+
+#: header-footer-grid/Core/Components/Search.php:80
+#: header-footer-grid/Core/Components/SearchResponsive.php:244
+msgid "Height"
+msgstr "يمين"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:227
+msgid "Search Field"
+msgstr "استمارة البحث"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:135
+msgid "Icon"
+msgstr "أيقونة السلة"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:119
+msgid "Float Above Header"
+msgstr "تعطيل الترويسة"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:118
+msgid "Minimal"
+msgstr "الحد الأدنى"
+
+#: header-footer-grid/Core/Components/SearchResponsive.php:117
+msgid "Canvas"
+msgstr "اللوحة"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1295
+#: header-footer-grid/Core/Components/SearchResponsive.php:113
+msgid "Open Behaviour"
+msgstr "افتح السلوك"
+
+#: dashboard/build/build.js:6
+msgid "Banner Image"
+msgid_plural "name"
+msgstr[0] "صورة البانر"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: dashboard/build/build.js:6
+msgid "Installing"
+msgid_plural "neve"
+msgstr[0] "جاري التنصيب"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: dashboard/build/build.js:6
+msgid "Install"
+msgid_plural "neve"
+msgstr[0] "تنصيب"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: dashboard/build/build.js:6
+msgid "Deactivating"
+msgid_plural "neve"
+msgstr[0] "إلغاء التنشيط"
+msgstr[1] "إلغاء التنشيط"
+msgstr[2] "إلغاء التنشيط"
+msgstr[3] "إلغاء التنشيط"
+msgstr[4] "إلغاء التنشيط"
+msgstr[5] "إلغاء التنشيط"
+
+#: inc/core/front_end.php:218
+msgid "Button Hover Color"
+msgstr "لون الزر"
+
+#: inc/core/front_end.php:214
+msgid "Button Hover text color"
+msgstr "لون تحويم النص "
+
+#: inc/core/front_end.php:210
+msgid "Button text color"
+msgstr "لون الزر"
+
+#. translators: 1 - Theme Name (Neve), 2 - Plugin Name (Neve Pro)
+#: dashboard/inc/Main.php:284
+msgid "We recommend that both %1$s and %2$s are updated to the latest version to ensure optimal intercompatibility."
+msgstr "نوصى بتحديث كل من%1$s و %2$s إلى أحدث إصدار لضمان التوافق التام."
+
+#. translators: s - Pro plugin name (Neve Pro)
+#: dashboard/inc/Main.php:266
+msgid "New plugin update for %1$s! Please update to %2$s."
+msgstr "تحديث جديد لإضافة %1$s! يرجى التحديث إلى%2$s."
+
+#: dashboard/inc/Main.php:254
+#: dashboard/inc/Main.php:275
+msgid "Update Now"
+msgstr "تحديث الآن"
+
+#. translators: s - theme name (Neve).
+#: dashboard/inc/Main.php:249
+msgid "New theme update for %1$s! Please update to %2$s."
+msgstr "تحديث جديد لقالب %1$s!  يرجى التحديث إلى%2$s."
+
+#. translators: store name (Themeisle)
+#: dashboard/inc/Main.php:215
+msgid "Enter your license from %1$s purchase history in order to get plugin updates"
+msgstr "أدخل ترخيصك من محفوظات شراء %1$s للحصول على تحديثات الإضافة"
+
+#. translators: %s - "Neve Pro Addon"
+#: dashboard/inc/Main.php:211
+msgid "Please update %s to the latest version and then refresh this page to have access to the options."
+msgstr "يرجى تحديث %s إلى أحدث إصدار ثم قم بتحديث هذه الصفحة للوصول إلى الخيارات"
+
+#. translators: %s - "Neve Pro Addon"
+#: dashboard/inc/Main.php:209
+msgid "%s license"
+msgstr "ترخيص %s"
+
+#. translators: %s - "Public roadmap"
+#: dashboard/inc/Main.php:201
+msgid "public roadmap"
+msgstr "خارطة الطريق العامة"
+
+#. translators: %s - "Public roadmap"
+#: dashboard/inc/Main.php:201
+msgid "Share opinions, ask questions and help each other on our Neve community! Keep up with what we’re working on and vote to help us prioritize on our %s."
+msgstr "مشاركة الآراء وطرح الأسئلة ومساعدة بعضكم البعض في مجتمع Neve! مواكبة ما نعمل عليه والتصويت لمساعدتنا في تحديد الأولويات على %s."
+
+#. translators: %s - Theme name
+#: dashboard/inc/Main.php:197
+msgid "%s Options"
+msgstr "خيارات التذييل"
+
+#: header-footer-grid/Core/Components/Search.php:194
+#: header-footer-grid/Core/Components/SearchResponsive.php:358
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:144
+msgid "Border Width"
+msgstr "الحواف الدائرية"
+
+#: header-footer-grid/Core/Components/Search.php:251
+#: header-footer-grid/Core/Components/SearchResponsive.php:415
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:118
+msgid "Border Radius"
+msgstr "الحواف الدائرية"
+
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:228
+msgid "Transform"
+msgstr "تحويل النص"
+
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:196
+msgid "Weight"
+msgstr "يمين"
+
+#: inc/customizer/controls/react/src/common/ColorControl.js:55
+msgid "Clear"
+msgstr "إزالة"
+
+#: inc/customizer/options/layout_container.php:63
+msgid "Container width"
+msgstr "عرض الحاوية (بكسل px)"
+
+#: header-footer-grid/Core/Components/Logo.php:162
+msgid "Logo max width"
+msgstr "الحد الأقصى لعرض الشعار (بكسل)"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:325
+msgid "Row height"
+msgstr "ارتفاع الصف (بكسل)"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:132
+msgid "Style 6"
+msgstr "نمط"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:128
+msgid "Style 5"
+msgstr "نمط"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:124
+msgid "Style 4"
+msgstr "نمط"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:120
+msgid "Style 3"
+msgstr "نمط"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:116
+msgid "Style 2"
+msgstr "نمط"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:112
+msgid "Style 1"
+msgstr "نمط"
+
+#: header-footer-grid/Core/Magic_Tags.php:595
+msgid "Currency Symbol"
+msgstr "رمز العملة"
+
+#: header-footer-grid/Core/Magic_Tags.php:591
+msgid "Currency Name"
+msgstr "اسم العملة"
+
+#: header-footer-grid/Core/Magic_Tags.php:587
+msgid "Total"
+msgstr "المجموع"
+
+#: header-footer-grid/Core/Magic_Tags.php:583
+msgid "Total + Currency Symbol"
+msgstr "المجموع + رمز العملة"
+
+#: header-footer-grid/Core/Components/Logo.php:192
+msgid "Disable Homepage Link"
+msgstr "تعطيل الترويسة"
+
+#: inc/customizer/controls/react/src/presets-selector/PresetsSelector.js:63
+msgid "No header presets found"
+msgstr "لم يتم العثور على إعدادات جاهزة للترويسة "
+
+#: inc/customizer/controls/react/src/presets-selector/PresetsSelector.js:44
+msgid "Search Header Presets..."
+msgstr "البحث عن إعدادات جاهزة للترويسة  ..."
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:103
+msgid "No Icon"
+msgstr "أيقونة السلة"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:99
+msgid "WordPress Avatar"
+msgstr "الصورة الرمزية Avatar للكاتب"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:95
+msgid "Icon Style 6"
+msgstr "نمط الايقونة 6"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:91
+msgid "Icon Style 5"
+msgstr "نمط الايقونة 5"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:87
+msgid "Icon Style 4"
+msgstr "نمط الايقونة 4"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:83
+msgid "Icon Style 3"
+msgstr "نمط الايقونة 3"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:79
+msgid "Icon Style 1"
+msgstr "نمط الايقونة 1"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:75
+msgid "Icon Style 2"
+msgstr "نمط الايقونة 2"
+
+#: header-footer-grid/Core/Magic_Tags.php:553
+msgid "User Email"
+msgstr "البريد الإلكتروني للمستخدم"
+
+#: header-footer-grid/Core/Magic_Tags.php:549
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#: header-footer-grid/Core/Magic_Tags.php:545
+msgid "User Nice Name"
+msgstr "الاسم اللطيف للمستخدم"
+
+#: header-footer-grid/Core/Magic_Tags.php:542
+msgid "Current User"
+msgstr "المستخدم الحالي"
+
+#: header-footer-grid/Core/Components/Nav.php:236
+#: header-footer-grid/Core/Components/NavFooter.php:151
+#: header-footer-grid/Core/Components/SecondNav.php:154
+msgid "Items Spacing (px)"
+msgstr "تباعد الحروف"
+
+#: header-footer-grid/Core/Components/Nav.php:95
+#: header-footer-grid/Core/Components/NavFooter.php:68
+#: header-footer-grid/Core/Components/SecondNav.php:68
+msgid "Hover Skin Mode"
+msgstr "وضع السطح"
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:479
+msgid "Justify"
+msgstr "محاذاة بالتساوي"
+
+#: header-footer-grid/Core/Builder/Header.php:97
+#: header-footer-grid/Core/Builder/Header.php:107
+msgid "Header Presets"
+msgstr "Booster الترويسة"
+
+#: inc/views/pluggable/pagination.php:141
+#: inc/views/template_parts.php:76
+#: inc/views/template_parts.php:114
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: inc/customizer/options/layout_sidebar.php:286
+msgid "edit"
+msgstr "تحرير"
+
+#. translators: %s is edit page link
+#: inc/customizer/options/layout_sidebar.php:282
+msgid "Note: It seems that the shop page has an individual sidebar layout already set. To be able to control the layout from here, %s your page and set the sidebar to \"Inherit\"."
+msgstr "ملاحظة: يبدو أن صفحة المتجر بها شريط جانبي فردي معين بالفعل. لتتمكن من التحكم في التخطيط من هنا ،%s صفحتك وتعيين الشريط الجانبي على \"توريث\"."
+
+#. translators: %s is the header name
+#: header-footer-grid/Core/Customizer.php:265
+msgid "You are customizing the %s Header"
+msgstr "أنت تقوم بتخصيص الترويسة %s "
 
 #: inc/customizer/controls/react/src/background/BackgroundComponent.js:141
-msgid "Fixed Background"
-msgstr "لون تحويم الخلفية"
+msgid "Remove Image"
+msgstr "إزالة الصورة"
 
-#: inc/core/admin.php:273
-msgid "Contributing"
-msgstr ""
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:140
+msgid "Remove Fallback Image"
+msgstr "إزالة الصورة الاحتياطية"
 
-#: inc/core/admin.php:62
-#: inc/core/admin.php:276
-msgid "What do we track?"
-msgstr ""
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:109
+msgid "Fallback Image"
+msgstr "الصورة الاحتياطية"
 
-#: inc/customizer/controls/react/src/common/Responsive.js:82
-msgid "Smartphones"
-msgstr ""
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:99
+msgid "Use Featured Image"
+msgstr "تعطيل الصورة المميزة"
 
-#: inc/customizer/controls/react/src/common/Responsive.js:69
-msgid "Tablet Devices"
-msgstr ""
+#: inc/customizer/controls/react/src/dynamic-fields/dynamic-field-inserter.js:52
+msgid "Insert Dynamic Tag"
+msgstr "إدراج وسم ديناميكي"
 
-#: inc/customizer/controls/react/src/common/Responsive.js:56
+#: header-footer-grid/Core/Magic_Tags.php:619
+msgid "Checkout URL"
+msgstr "رابط إتمام الطلب"
+
+#: header-footer-grid/Core/Magic_Tags.php:615
+msgid "Cart URL"
+msgstr "السلة "
+
+#: header-footer-grid/Core/Magic_Tags.php:611
+msgid "Product Title"
+msgstr "عنوان المنتج"
+
+#: header-footer-grid/Core/Magic_Tags.php:607
+msgid "Product Price"
+msgstr "سعر المنتج"
+
+#: header-footer-grid/Core/Magic_Tags.php:604
+msgid "WooCommerce"
+msgstr "Booster ووكومرس  "
+
+#: header-footer-grid/Core/Magic_Tags.php:574
+msgid "Current Year"
+msgstr "السنة الحالية"
+
+#: header-footer-grid/Core/Magic_Tags.php:570
+msgid "Home URL"
+msgstr "رابط الرئيسية"
+
+#: header-footer-grid/Core/Magic_Tags.php:566
+msgid "Site Tagline"
+msgstr "إظهار سطر وصف الموقع"
+
+#: header-footer-grid/Core/Magic_Tags.php:562
+msgid "Site Title"
+msgstr "إظهار عنوان الموقع"
+
+#: header-footer-grid/Core/Magic_Tags.php:559
+msgid "Global"
+msgstr "الشامل"
+
+#: header-footer-grid/Core/Magic_Tags.php:536
+msgid "Author URL"
+msgstr "المؤلف"
+
+#: header-footer-grid/Core/Magic_Tags.php:532
+msgid "Author Name"
+msgstr "المؤلف"
+
+#: header-footer-grid/Core/Magic_Tags.php:528
+msgid "Author Bio"
+msgstr "المؤلف"
+
+#: header-footer-grid/Core/Magic_Tags.php:519
+msgid "Archive URL"
+msgstr "رابط الأرشيف"
+
+#: header-footer-grid/Core/Magic_Tags.php:515
+msgid "Archive Title"
+msgstr "إظهار عنوان الموقع"
+
+#: header-footer-grid/Core/Magic_Tags.php:511
+msgid "Archive Description"
+msgstr "وصف الأرشيف"
+
+#: header-footer-grid/Core/Magic_Tags.php:508
+msgid "Archive"
+msgstr "المتجر / الأرشيف"
+
+#: header-footer-grid/Core/Magic_Tags.php:478
+msgid "Current Single URL"
+msgstr "عنوان الرابط الفردي الحالي"
+
+#: header-footer-grid/Core/Magic_Tags.php:474
+msgid "Current Single Excerpt"
+msgstr "المقتطف الفردي الحالي"
+
+#: header-footer-grid/Core/Magic_Tags.php:470
+msgid "Current Single Title"
+msgstr "العنوان الفردي الحالي"
+
+#: header-footer-grid/Core/Magic_Tags.php:467
+msgid "Single"
+msgstr "مقالة واحدة"
+
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:125
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:59
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:171
+msgid "Inherit"
+msgstr "توريث"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:45
+msgid "Logo on Top"
+msgstr "الشعار في الأعلى"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:41
+msgid "Title & Tagline - Logo"
+msgstr "العنوان وسطر الوصف - الشعار"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:37
+msgid "Logo - Title & Tagline"
+msgstr "إظهار سطر وصف الموقع"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:33
+msgid "Logo Only"
+msgstr "الشعار فقط"
+
+#: header-footer-grid/Core/Components/Logo.php:112
+msgid "Display"
+msgstr "عرض"
+
+#: header-footer-grid/Core/Components/CartIcon.php:116
+#: header-footer-grid/Core/Components/SearchResponsive.php:154
+msgid "Icon Size"
+msgstr "حجم الخط"
+
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:249
+msgid "Outline"
+msgstr "مُحدد"
+
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:243
+msgid "Filled"
+msgstr "معبأ"
+
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:186
+msgid "Hover"
+msgstr "لون التحويم"
+
+#: header-footer-grid/Core/Components/Search.php:306
+#: header-footer-grid/Core/Components/SearchResponsive.php:470
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:182
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:189
+msgid "Text and Border"
+msgstr "تعريف الترتيب"
+
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:181
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:188
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:58
+msgid "Background"
+msgstr "الألوان و الخلفية"
+
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:179
+msgid "Normal"
+msgstr "عادي"
+
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:123
+msgid "Add Image"
+msgstr "إضافة صورة"
+
+#: inc/customizer/options/buttons.php:98
+msgid "Button Appearance"
+msgstr "مظهر الزر"
+
+#: header-footer-grid/Core/Components/Button.php:142
+#: header-footer-grid/Core/Components/MenuIcon.php:148
+msgid "Appearance"
+msgstr "المظهر"
+
+#: header-footer-grid/Core/Components/MenuIcon.php:101
+msgid "Menu label"
+msgstr "تسمية القائمة"
+
+#: header-footer-grid/Core/Components/CustomHtml.php:143
+msgid "Arbitrary HTML code. It supports also shortcodes."
+msgstr "كود HTML عشوائي. وهو يدعم أيضا أكواد مختصرة."
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:497
+msgid "Alignment"
+msgstr "محاذاة المكون"
+
+#: header-footer-grid/templates/rows.php:77
+msgid "Hide"
+msgstr "إخفاء"
+
+#: header-footer-grid/templates/rows.php:76
+msgid "Show"
+msgstr "عرض"
+
+#: header-footer-grid/Core/Builder/Header.php:189
+#: header-footer-grid/templates/rows.php:73
+msgid "Mobile menu content"
+msgstr "محتوى القائمة على المحمول"
+
+#: inc/customizer/controls/react/src/common/Sizing.js:69
+msgid "Reset Value"
+msgstr "إعادة تعيين القيمة"
+
+#: inc/customizer/controls/react/src/common/Responsive.js:37
+msgid "Mobile"
+msgstr "المحمول"
+
+#: inc/customizer/controls/react/src/common/Responsive.js:33
+msgid "Tablet"
+msgstr "جهاز الكمبيوتر اللوحي"
+
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:188
+msgid "Loading..."
+msgstr "جاري التحميل ..."
+
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:145
+msgid "No results."
+msgstr "لا توجد نتائج."
+
+#: inc/customizer/options/layout_blog.php:254
+msgid "Thumbnail Shadow"
+msgstr "الصور المصغرة"
+
+#: inc/customizer/options/typography.php:150
+msgid "Body"
+msgstr "الجسم"
+
+#: header-footer-grid/Core/Customizer.php:315
+msgid "Search Components"
+msgstr "المكونات"
+
+#: header-footer-grid/Core/Customizer/Instructions_Control.php:87
+#: header-footer-grid/Core/Customizer/Instructions_Section.php:85
+msgid "Quick Links"
+msgstr "روابط سريعة"
+
+#: header-footer-grid/Core/Components/Logo.php:73
+msgid "Display your company logo here or simply use words to describe your business."
+msgstr "اعرض شعار شركتك هنا أو استخدم ببساطة كلمات لوصف عملك."
+
+#: header-footer-grid/Core/Components/Abstract_Component.php:469
+msgid "Center"
+msgstr "وسط"
+
+#: header-footer-grid/Core/Builder/Footer.php:68
+msgid "Change Footer Color"
+msgstr "لون المرور فوق الرابط"
+
+#: header-footer-grid/Core/Builder/Footer.php:64
+msgid "Change Copyright"
+msgstr "حقوق النشر"
+
+#: header-footer-grid/Core/Builder/Header.php:76
+msgid "Change Menu"
+msgstr "سجل التغيير"
+
+#: header-footer-grid/Core/Builder/Header.php:72
+msgid "Change Header Color"
+msgstr "الشريط الجانبي للترويسة"
+
+#: header-footer-grid/Core/Builder/Header.php:68
+msgid "Change Logo"
+msgstr "سجل التغيير"
+
+#. translators: 1: builder, 2: builder symbol
+#: header-footer-grid/Core/Builder/Footer.php:57
+#: header-footer-grid/Core/Builder/Header.php:61
+msgid "Welcome to the %1$s builder! Click the %2$s button to add a new component or follow the Quick Links."
+msgstr "مرحبًا بك في منشئ %1$s! انقر فوق الزر %2$s لإضافة مكون جديد أو اتبع الروابط السريعة."
+
+#: inc/compatibility/pwa.php:63
+msgid "Oops! Something went wrong."
+msgstr "عفواً! حدث خطأ."
+
+#: inc/compatibility/pwa.php:50
+msgid "Oops! It looks like you&#8217;re offline."
+msgstr "عفوا! يبدو أنك غير متصل."
+
+#: inc/customizer/controls/react/src/common/Responsive.js:29
 msgid "Desktop"
 msgstr ""
 
-#: inc/customizer/controls/react/src/common/Responsive.js:39
-msgid "Responsiveness Settings"
-msgstr ""
-
-#: inc/customizer/controls/react/src/common/Sizing.js:84
+#: inc/customizer/controls/react/src/common/Sizing.js:69
 msgid "Reset all Values"
 msgstr ""
 
-#: inc/customizer/controls/react/src/common/Sizing.js:77
+#: inc/customizer/controls/react/src/common/Sizing.js:27
 msgid "Link Values"
 msgstr ""
 
-#: inc/customizer/controls/react/src/common/Sizing.js:76
+#: inc/customizer/controls/react/src/common/Sizing.js:27
 msgid "Unlink Values"
 msgstr ""
 
-#: inc/customizer/controls/react/src/background/BackgroundComponent.js:164
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:175
 msgid "Overlay Opacity"
 msgstr ""
 
-#: inc/customizer/controls/react/src/background/BackgroundComponent.js:149
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:168
 msgid "Overlay Color"
 msgstr "لون التحويم"
 
-#: inc/core/admin.php:483
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:156
+msgid "Fixed Background"
+msgstr "لون تحويم الخلفية"
+
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:113
+msgid "Select from the Media Library or upload a new image"
+msgstr ""
+
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:46
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:110
+msgid "Image"
+msgstr ""
+
+#: dashboard/inc/Main.php:387
+msgid "The module allows for an easy way of enabling new awesome Adobe (previous Typekit) Fonts in Neve's Typography options."
+msgstr ""
+
+#: dashboard/inc/Main.php:386
+msgid "Typekit(Adobe) Fonts"
+msgstr "خطوط أدوبي "
+
+#: dashboard/inc/Main.php:382
+msgid "Make your LifterLMS pages look stunning with our PRO design options. Specially created to help you set up your online courses with minimum customizations."
+msgstr ""
+
+#: dashboard/inc/Main.php:381
 msgid "LifterLMS Booster"
 msgstr "Booster الترويسة"
 
-#: inc/core/admin.php:460
+#: dashboard/inc/Main.php:362
 msgid "Powerful Custom Layouts builder which allows you to easily create your own header, footer or custom content on any of the hook locations available in the theme."
 msgstr ""
 
-#: inc/core/admin.php:454
+#: dashboard/inc/Main.php:357
 msgid "The Page Header is the horizontal area that sits directly below the header and contains the page/post title. Easily design an attractive Page Header area using our dedicated builder."
 msgstr ""
 
-#: inc/core/admin.php:453
+#: dashboard/inc/Main.php:356
 msgid "Page Header Builder"
 msgstr "الشريط الجانبي للترويسة"
 
-#: inc/core/admin.php:278
-msgid "Option updated."
-msgstr ""
-
-#: inc/core/admin.php:277
-msgid "Could not update option. Please try again."
-msgstr ""
-
-#. translators: %s link to documentation
-#: header-footer-grid/Core/Builder/Footer.php:39
-#: header-footer-grid/Core/Builder/Header.php:40
-msgid "Design your %1$s by dragging, dropping and resizing all the elements in real-time. %2$s."
-msgstr ""
-
-#: header-footer-grid/Core/Builder/Abstract_Builder.php:367
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:361
 msgid "Row Background"
 msgstr "الألوان و الخلفية"
 
-#: inc/views/partials/post_meta.php:85
+#. translators: %s link to documentation
+#: header-footer-grid/Core/Builder/Footer.php:41
+#: header-footer-grid/Core/Builder/Header.php:45
+msgid "Design your %1$s by dragging, dropping and resizing all the elements in real-time. %2$s."
+msgstr ""
+
+#: inc/views/partials/post_meta.php:163
 msgid "by"
 msgstr "بواسطة"
 
-#: inc/customizer/options/layout_blog.php:441
+#: inc/customizer/options/layout_blog.php:463
 msgid "Show Author Avatar"
 msgstr "عرض الصورة الرمزية Avatar للكاتب"
 
-#: inc/customizer/options/layout_blog.php:422
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:258
+#: inc/customizer/options/layout_blog.php:444
 msgid "Author Avatar"
 msgstr "الصورة الرمزية Avatar للكاتب"
 
-#: inc/customizer/controls/font_selector.php:69
-msgid "Adobe Fonts"
-msgstr "خطوط أدوبي "
-
-#: inc/core/admin.php:502
+#: dashboard/inc/Main.php:397
 msgid "Simple but effective module to help you navigate back to the top of the really long pages."
 msgstr "وحدة بسيطة ولكنها فعالة لمساعدتك على العودة إلى أعلى الصفحات الطويلة جدا."
 
-#: inc/core/admin.php:501
+#: dashboard/inc/Main.php:396
 msgid "Scroll To Top"
 msgstr "التمرير إلى الأعلى"
 
-#: inc/core/admin.php:496
+#: dashboard/inc/Main.php:392
 msgid "For any developer or agency out there building websites for their own clients, we've made it easy to present the theme as your own."
 msgstr "بالنسبة لأي مطور أو وكالة يبنون مواقع الويب لعملائهم، فقد سهلنا عملية تقديم القالب كقالب خاص بك."
 
-#: inc/core/admin.php:495
+#: dashboard/inc/Main.php:391
 msgid "White Label"
 msgstr "بطاقة بيضاء"
 
-#: inc/core/admin.php:478
+#: dashboard/inc/Main.php:377
 msgid "Wishlist, quick view, video products, advanced reviews, multiple dedicated layouts and many more."
 msgstr "قائمة الامنيات، عرض سريع، منتجات الفيديو، المراجعات المتقدمة، تخطيطات متعددة مخصصة وأكثر من ذلك."
 
-#: inc/core/admin.php:478
+#: dashboard/inc/Main.php:377
 msgid "Empower your online store with awesome new features, specially designed for a smooth WooCommerce integration."
 msgstr "قم بتمكين متجرك عبر الإنترنت من خلال ميزات جديدة رائعة، تم تصميمها خصيصًا لتحقيق تكامل سلس مع ووكومرس."
 
-#: inc/core/admin.php:466
+#: dashboard/inc/Main.php:367
 msgid "Sharing, custom article sorting, comments integrations, number of minutes needed to read an article and many more."
 msgstr "المشاركة، فرز المقالات المخصصة، تكامل التعليقات، عدد الدقائق اللازمة لقراءة المقالة وأكثر من ذلك."
 
-#: inc/core/admin.php:466
+#: dashboard/inc/Main.php:367
 msgid "Give a huge boost to your entire blogging experience with features specially designed for increased user experience."
 msgstr "أعط دفعة قوية لتجربة التدوين بالكامل مع ميزات مصممة خصيصًا لزيادة تجربة المستخدم."
 
-#: inc/core/admin.php:448
+#: dashboard/inc/Main.php:352
 msgid "Take the header builder to a new level with new awesome components: socials, contact, breadcrumbs, language switcher, multiple HTML, sticky and transparent menu, page header builder and many more."
 msgstr "قم بنقل منشئ الترويسة إلى مستوى جديد مع مكونات جديدة رائعة: الاجتماعية ، الاتصال، العناوين (Breadcrumbs)، مبدل اللغات، HTML متعددة، قائمة مثبتة وشفافة، منشئ ترويسة الصفحة وأكثر من ذلك."
 
-#: inc/core/admin.php:442
+#: dashboard/inc/Main.php:347
 msgid "Neve is fully compatible with Gutenberg, the new WordPress editor and for all of you page builder fans, Neve has full compatibility with Elementor, Beaver Builder, and all the other popular page builders."
 msgstr "Neve متوافق تمامًا مع Gutenberg، محرر WordPress الجديد ولجميع المعجبين بمنشئي الصفحات، يتمتع Neve بالتوافق الكامل مع Elementor و Beaver Builder وجميع منشئي الصفحات المشهورين الآخرين."
 
-#: inc/core/admin.php:441
+#: dashboard/inc/Main.php:346
 msgid "Page Builder Compatibility"
 msgstr "توافق منشئ الصفحة"
 
-#: inc/core/admin.php:436
+#: dashboard/inc/Main.php:342
 msgid "Easily build your header and footer by dragging and dropping all the important elements in the real-time WordPress Customizer. More advanced options are available in PRO."
 msgstr "يمكنك بسهولة إنشاء الترويسة وتذييل الصفحة عن طريق سحب وإسقاط جميع العناصر المهمة في مخصّص WordPress في الوقت الحقيقي. المزيد من الخيارات المتقدمة متوفرة في PRO."
 
-#: inc/core/admin.php:435
+#: dashboard/inc/Main.php:341
 msgid "Header/Footer builder"
 msgstr "منشئ الترويسة / تذييل الصفحة"
-
-#. translators: s - theme name
-#: inc/core/admin.php:431
-msgid "Get %s now!"
-msgstr "احصل على %s الآن!"
-
-#: inc/core/admin.php:217
-msgid "Free vs PRO"
-msgstr "مجانا مقابل PRO"
 
 #: inc/customizer/controls/upsell_control.php:88
 msgid "PRO"
 msgstr "PRO"
 
-#: inc/core/admin.php:472
+#: dashboard/inc/Main.php:372
 #: inc/customizer/options/upsells.php:100
 msgid "Leverage the true flexibility of Elementor with powerful addons and templates that you can import with just one click."
 msgstr "استفد من المرونة الحقيقية لـ Elementor من خلال مكونات إضافية و نماذج قوية يمكنك استيرادها بنقرة واحدة فقط."
@@ -226,7 +1014,7 @@ msgstr "يمكنك إنشاء الترويسات والتذييلات المخص
 msgid "Add new awesome header components, sticky and transparent menu, socials, and many more."
 msgstr "أضف مكونات ترويسة جديدة رائعة، وقائمة مثبتة وشفافة، وإجتماعي، وأكثر من ذلك."
 
-#: inc/core/admin.php:471
+#: dashboard/inc/Main.php:371
 #: inc/customizer/options/upsells.php:95
 msgid "Elementor Booster"
 msgstr "Elementor Booster"
@@ -239,22 +1027,22 @@ msgstr "التمرير إلى الوحدة الأعلى"
 msgid "White Label module"
 msgstr "وحدة البطاقة البيضاء"
 
-#: inc/core/admin.php:459
+#: dashboard/inc/Main.php:361
 #: inc/customizer/options/upsells.php:92
 msgid "Custom Layouts"
 msgstr "تخطيطات مخصصة"
 
-#: inc/core/admin.php:477
+#: dashboard/inc/Main.php:376
 #: inc/customizer/options/upsells.php:91
 msgid "WooCommerce Booster"
 msgstr "Booster ووكومرس  "
 
-#: inc/core/admin.php:465
+#: dashboard/inc/Main.php:366
 #: inc/customizer/options/upsells.php:90
 msgid "Blog Booster"
 msgstr "Booster المدونة"
 
-#: inc/core/admin.php:447
+#: dashboard/inc/Main.php:351
 #: inc/customizer/options/upsells.php:89
 msgid "Header Booster"
 msgstr "Booster الترويسة"
@@ -263,81 +1051,78 @@ msgstr "Booster الترويسة"
 msgid "View PRO Features"
 msgstr "عرض مميزات PRO"
 
-#: inc/customizer/options/buttons.php:188
+#: inc/customizer/options/buttons.php:154
 msgid "Border radius"
 msgstr "الحواف الدائرية"
 
-#: inc/customizer/options/buttons.php:112
+#: header-footer-grid/Core/Components/CartIcon.php:168
+#: header-footer-grid/Core/Components/SearchResponsive.php:205
 msgid "Hover Color"
 msgstr "لون التحويم"
 
-#: inc/customizer/controls/react/src/background/BackgroundComponent.js:41
-#: inc/customizer/options/buttons.php:108
+#: header-footer-grid/Core/Components/CartIcon.php:142
+#: header-footer-grid/Core/Components/SearchResponsive.php:184
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:45
+#: inc/customizer/controls/react/src/background/BackgroundComponent.js:89
 msgid "Color"
 msgstr "اللون"
 
-#: inc/customizer/options/buttons.php:102
-msgid "Hover Text Color"
-msgstr "لون تحويم النص "
-
-#: inc/customizer/options/buttons.php:98
-msgid "Hover Background Color"
-msgstr "لون تحويم الخلفية"
-
-#: inc/customizer/options/buttons.php:90
+#: header-footer-grid/Core/Components/Search.php:284
+#: header-footer-grid/Core/Components/SearchResponsive.php:448
 msgid "Background Color"
 msgstr "لون الخلفية"
 
+#: assets/js/src/gutenberg.js:19
 #: inc/customizer/options/buttons.php:62
 msgid "Secondary"
 msgstr "ثانوي"
 
-#: inc/customizer/options/buttons.php:58
+#: assets/js/src/gutenberg.js:14
+#: inc/customizer/options/buttons.php:59
 msgid "Primary"
 msgstr "أساسي"
 
-#: inc/customizer/options/buttons.php:42
+#: inc/customizer/options/buttons.php:43
 msgid "Buttons"
 msgstr "الأزرار"
 
-#: header-footer-grid/Core/Settings/Manager.php:183
+#: header-footer-grid/Core/Settings/Manager.php:185
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:274
 msgid "Style"
 msgstr "نمط"
 
-#: header-footer-grid/Core/Components/SecondNav.php:128
+#: header-footer-grid/Core/Components/SecondNav.php:142
 msgid "Select Menu"
 msgstr "اختر قائمة"
 
-#: header-footer-grid/Core/Components/Abstract_Component.php:379
+#: header-footer-grid/Core/Components/Abstract_Component.php:559
 msgid "Margin"
 msgstr "الهامش "
 
-#: inc/customizer/options/buttons.php:173
+#: header-footer-grid/Core/Components/Abstract_Component.php:465
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:129
 msgid "Left"
 msgstr "يسار"
 
-#: inc/customizer/options/buttons.php:172
+#: header-footer-grid/Core/Components/Abstract_Component.php:882
 msgid "Bottom"
 msgstr "أسفل"
 
-#: inc/customizer/options/buttons.php:171
+#: header-footer-grid/Core/Components/Abstract_Component.php:473
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:131
 msgid "Right"
 msgstr "يمين"
 
-#: inc/customizer/options/buttons.php:170
+#: header-footer-grid/Core/Components/Abstract_Component.php:874
 msgid "Top"
 msgstr "أعلى"
 
-#: header-footer-grid/Core/Components/Abstract_Component.php:333
-#: inc/customizer/options/buttons.php:166
+#: header-footer-grid/Core/Components/Abstract_Component.php:533
+#: inc/customizer/options/buttons.php:135
 msgid "Padding"
 msgstr "الهامش الداخلي"
 
-#: header-footer-grid/Core/Builder/Abstract_Builder.php:277
-msgid "Toggle Dropdown"
-msgstr "تبديل القائمة المنسدلة"
-
-#: header-footer-grid/Core/Builder/Abstract_Builder.php:276
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:1300
 msgid "Slide from Left"
 msgstr "إنزلاق من اليسار"
 
@@ -353,203 +1138,151 @@ msgstr "العنوان"
 msgid "Exclusive Products"
 msgstr "منتجات حصرية"
 
-#: inc/compatibility/lifter.php:296
+#: inc/compatibility/lifter.php:314
 msgid "Catalog Sidebar"
 msgstr "الشريط الجانبي للكتالوج"
 
-#. translators: %s: Name of current theme
-#: inc/core/admin.php:234
-msgid "Take the new WordPress editor to the next level by using Otter's blocks that are specially designed for %s."
-msgstr " انقل محرر ووردبريس الجديد إلى المستوى التالي باستخدام مكوّنات Otter المصممة خصيصًا لـ %s."
-
-#: header-footer-grid/Core/Builder/Footer.php:100
+#: header-footer-grid/Core/Builder/Footer.php:125
 msgid "Footer Bottom"
 msgstr "الجزء الأسفل من أسفل الصفحة"
 
-#: header-footer-grid/Core/Builder/Footer.php:96
+#: header-footer-grid/Core/Builder/Footer.php:121
 msgid "Footer Top"
 msgstr "الجزء العلوي من أسفل الصفحة"
 
-#: header-footer-grid/Core/Builder/Header.php:116
-msgid "Header Sidebar"
-msgstr "الشريط الجانبي للترويسة"
-
-#: header-footer-grid/Core/Builder/Header.php:112
+#: header-footer-grid/Core/Builder/Header.php:185
 msgid "Header Bottom"
 msgstr "الجزء السفلي من الترويسة"
 
-#: header-footer-grid/Core/Builder/Header.php:108
+#: header-footer-grid/Core/Builder/Header.php:181
 msgid "Header Main"
 msgstr "الجزء الرئيسي من الترويسة"
 
-#: header-footer-grid/Core/Builder/Header.php:104
+#: header-footer-grid/Core/Builder/Header.php:177
 msgid "Header Top"
 msgstr "الجزء العلوي من الترويسة"
 
-#: inc/compatibility/gutenberg.php:276
-msgid "Visual Integration"
-msgstr "التكامل البصري"
-
-#: inc/customizer/options/typography.php:232
-#: inc/customizer/options/typography.php:397
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:348
 msgid "Letter Spacing"
 msgstr "تباعد الحروف"
 
-#: inc/customizer/options/typography.php:135
-#: inc/customizer/options/typography.php:461
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:235
 msgid "Lowercase"
 msgstr "أحرف صغيرة"
 
-#: inc/customizer/options/typography.php:134
-#: inc/customizer/options/typography.php:460
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:236
 msgid "Uppercase"
 msgstr "أحرف كبيرة"
 
-#: inc/customizer/options/typography.php:133
-#: inc/customizer/options/typography.php:459
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:234
 msgid "Capitalize"
 msgstr "تكبير الحروف"
 
-#: inc/customizer/options/typography.php:128
-#: inc/customizer/options/typography.php:454
-msgid "Text Transform"
-msgstr "تحويل النص"
-
-#: inc/customizer/options/typography.php:97
-#: inc/customizer/options/typography.php:423
-msgid "Font Weight"
-msgstr "عرض الخط"
-
-#: header-footer-grid/templates/rows.php:94
-msgid "To activate a component, drag it to one of the upper rows."
-msgstr "لتفعيل مكون، اسحبه إلى أحد الصفوف العليا."
-
-#: header-footer-grid/templates/rows.php:92
-msgid "Available components"
-msgstr "المكونات المتوفرة"
-
-#: header-footer-grid/Core/Components/Nav.php:181
+#: header-footer-grid/Core/Components/Nav.php:203
 msgid "Last Menu Item"
 msgstr "عنصر القائمة الأخير"
 
-#: header-footer-grid/Core/Components/Nav.php:138
+#: header-footer-grid/Core/Components/Nav.php:135
 msgid "Active Item Color"
 msgstr "عنصر اللون المفعل"
 
-#: header-footer-grid/Core/Components/SearchResponsive.php:35
+#: header-footer-grid/Core/Components/SearchResponsive.php:48
 msgid "Search Icon"
 msgstr "Search Icon"
 
-#: header-footer-grid/Core/Components/Abstract_Component.php:288
-msgid "Component Alignment"
-msgstr "محاذاة المكون"
-
-#: header-footer-grid/Core/Components/Search.php:56
-#: header-footer-grid/Core/Components/SearchResponsive.php:56
+#: header-footer-grid/Core/Components/Search.php:66
+#: header-footer-grid/Core/Components/SearchResponsive.php:98
 msgid "Placeholder"
 msgstr "عنصر نائب"
 
-#: header-footer-grid/Core/Components/Search.php:55
-#: header-footer-grid/Core/Components/Search.php:85
-#: header-footer-grid/Core/Components/Search.php:89
-#: header-footer-grid/Core/Components/SearchResponsive.php:55
-#: header-footer-grid/Core/Components/SearchResponsive.php:85
-#: header-footer-grid/Core/Components/SearchResponsive.php:89
+#: header-footer-grid/Core/Components/Search.php:65
+#: header-footer-grid/Core/Components/Search.php:456
+#: header-footer-grid/Core/Components/Search.php:460
+#: header-footer-grid/Core/Components/SearchResponsive.php:97
+#: header-footer-grid/Core/Components/SearchResponsive.php:670
+#: header-footer-grid/Core/Components/SearchResponsive.php:674
 msgid "Search for..."
 msgstr "البحث عن..."
 
-#: header-footer-grid/Core/Components/Search.php:35
+#: header-footer-grid/Core/Components/Search.php:42
 msgid "Search Form"
 msgstr "استمارة البحث"
 
-#: header-footer-grid/Core/Components/Nav.php:151
-#: header-footer-grid/Core/Components/NavFooter.php:109
+#: header-footer-grid/Core/Components/Nav.php:156
+#: header-footer-grid/Core/Components/NavFooter.php:108
 #: header-footer-grid/Core/Components/SecondNav.php:109
 msgid "Items Hover Color"
 msgstr "لون المرور فوق العناصر "
 
-#: header-footer-grid/Core/Components/Nav.php:125
-#: header-footer-grid/Core/Components/NavFooter.php:95
-#: header-footer-grid/Core/Components/SecondNav.php:95
+#: header-footer-grid/Core/Components/Nav.php:114
+#: header-footer-grid/Core/Components/NavFooter.php:86
+#: header-footer-grid/Core/Components/SecondNav.php:86
 msgid "Items Color"
 msgstr "لون العناصر "
 
-#: header-footer-grid/Core/Components/SecondNav.php:37
-#: header-footer-grid/Core/Components/SecondNav.php:122
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:66
+msgid "Top Border"
+msgstr "الشريط العلوي"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:62
+msgid "Bottom Border"
+msgstr "أسفل"
+
+#: inc/customizer/controls/react/src/radio-buttons/RadioButtonsComponent.js:54
+msgid "Plain"
+msgstr "عادي"
+
+#: header-footer-grid/Core/Components/SecondNav.php:41
+#: header-footer-grid/Core/Components/SecondNav.php:136
 #: header-footer-grid/templates/components/component-nav-secondary.php:23
-#: inc/core/front_end.php:76
-#: inc/customizer/options/top_bar.php:189
+#: inc/core/front_end.php:74
 msgid "Secondary Menu"
 msgstr "القائمة الثانوية"
 
-#: header-footer-grid/Core/Components/Copyright.php:34
-#: header-footer-grid/Core/Components/Copyright.php:65
+#: header-footer-grid/Core/Components/Copyright.php:36
+#: header-footer-grid/Core/Components/Copyright.php:70
 msgid "Copyright"
 msgstr "حقوق النشر"
 
-#: header-footer-grid/Core/Components/CartIcon.php:32
+#: header-footer-grid/Core/Components/CartIcon.php:46
 msgid "Cart Icon"
 msgstr "أيقونة السلة"
 
-#: header-footer-grid/Core/Components/Button.php:69
+#: header-footer-grid/Core/Components/Button.php:101
 msgid "Link"
 msgstr "الرابط"
 
-#: header-footer-grid/Core/Components/Button.php:46
-#: header-footer-grid/Core/Components/Button.php:81
+#: header-footer-grid/Core/Components/Button.php:77
+#: header-footer-grid/Core/Components/Button.php:115
 msgid "Button"
 msgstr "الزر"
 
-#: header-footer-grid/Core/Components/Logo.php:72
+#: header-footer-grid/Core/Components/Logo.php:132
 msgid "Show Site Tagline"
 msgstr "إظهار سطر وصف الموقع"
 
-#: header-footer-grid/Core/Components/Logo.php:89
+#: header-footer-grid/Core/Components/Logo.php:147
 msgid "Show Site Title"
 msgstr "إظهار عنوان الموقع"
 
-#: header-footer-grid/Core/Components/Logo.php:106
-msgid "Logo max width (px)"
-msgstr "الحد الأقصى لعرض الشعار (بكسل)"
-
-#: header-footer-grid/Core/Components/Logo.php:37
+#: header-footer-grid/Core/Components/Logo.php:72
 msgid "Logo & Site Identity"
 msgstr "شعار وهوية الموقع"
 
-#: header-footer-grid/Core/Components/MenuIcon.php:61
-msgid "Show Sidebar"
-msgstr "إظهار الشريط الجانبي"
-
-#: header-footer-grid/Core/Components/MenuIcon.php:36
+#: header-footer-grid/Core/Components/MenuIcon.php:77
 msgid "Menu Icon"
 msgstr "أيقونة القائمة"
 
 #: header-footer-grid/Core/Components/CustomHtml.php:35
-#: header-footer-grid/Core/Components/CustomHtml.php:140
+#: header-footer-grid/Core/Components/CustomHtml.php:142
 msgid "HTML"
 msgstr "HTML"
 
-#: header-footer-grid/Core/Builder/Abstract_Builder.php:389
-#: header-footer-grid/Core/Components/Nav.php:90
-#: header-footer-grid/Core/Components/NavFooter.php:60
-#: header-footer-grid/Core/Components/SecondNav.php:60
-msgid "Skin Mode"
-msgstr "وضع السطح"
-
-#: header-footer-grid/Core/Builder/Abstract_Builder.php:314
-msgid "Row height (px)"
-msgstr "ارتفاع الصف (بكسل)"
-
-#. translators: %s - theme name
-#: inc/core/admin.php:87
-msgid "%s Community"
-msgstr "مجتمع %s"
-
-#: inc/views/pluggable/pagination.php:162
+#: inc/views/pluggable/pagination.php:163
 msgid "next"
 msgstr "التالي"
 
-#: inc/views/pluggable/pagination.php:157
+#: inc/views/pluggable/pagination.php:158
 msgid "previous"
 msgstr "السابق"
 
@@ -558,33 +1291,34 @@ msgid "Post navigation"
 msgstr "تصفّح المقالات"
 
 #. translators: %s - post type
-#: inc/admin/metabox/manager.php:113
+#: inc/admin/metabox/manager.php:128
+#: inc/admin/metabox/manager.php:145
 msgid "%s Settings"
 msgstr "%s  الإعدادات"
 
-#: inc/core/admin.php:762
+#: inc/core/admin.php:217
 msgid "Return to your dashboard"
 msgstr "العودة إلى لوحة المعلومات الخاصة بك"
 
 #. translators: %s - theme name
-#: inc/core/admin.php:749
+#: inc/core/admin.php:204
 msgid "%s is now installed and ready to use. We've assembled some links to get you started."
 msgstr "%s هو الآن منصب وجاهز للاستخدام. لقد جمعنا بعض الروابط لتبدأ."
 
-#: inc/core/admin.php:746
+#: inc/core/admin.php:201
 msgid "Congratulations!"
 msgstr "تهانينا!"
 
-#: inc/core/admin.php:768
+#: inc/core/admin.php:223
 msgid "or go to the theme settings"
 msgstr "أو أذهب إلى إعدادات القالب"
 
-#: inc/core/admin.php:757
+#: inc/core/admin.php:212
 msgid "Try one of our ready to use Starter Sites"
 msgstr "جرب واحدة من قوالبنا للمبتدئين الجاهزة للاستعمال "
 
 #. translators: %s: number of comments
-#: inc/views/partials/post_meta.php:195
+#: inc/views/partials/post_meta.php:201
 msgid "%s Comment"
 msgid_plural "%s Comments"
 msgstr[0] "%s تعليق"
@@ -607,15 +1341,30 @@ msgstr "مُنشئ الصفحة كامل العرض نيفي (Neve)"
 msgid "Get the PRO version!"
 msgstr "احصل على النسخة PRO!"
 
-#: inc/core/admin.php:780
+#: inc/core/admin.php:234
 msgid "Sites Library"
 msgstr "مكتبة المواقع"
 
-#: inc/views/content_none.php:71
+#: dashboard/build/build.js:6
+msgid "Activating"
+msgid_plural "neve"
+msgstr[0] "‏‏يتم التنشيط"
+msgstr[1] "‏‏يتم التنشيط"
+msgstr[2] "‏‏يتم التنشيط"
+msgstr[3] "‏‏يتم التنشيط"
+msgstr[4] "‏‏يتم التنشيط"
+msgstr[5] "‏‏يتم التنشيط"
+
+#: dashboard/inc/Main.php:128
+#: dashboard/inc/Main.php:129
+msgid "Options"
+msgstr "خيارات التذييل"
+
+#: inc/views/content_404.php:37
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "يبدو أنه لا يمكننا &rsquo; العثور على ما تبحث &rsquo; عنه. ربما البحث يمكن أن يساعد."
 
-#: inc/views/content_none.php:59
+#: inc/views/content_none.php:57
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "عذرًا، ولكن لا شيء يقابل مصطلحات البحث التي استعملتها. يرجى المحاولة مجددا بإستخدام كلمات أساسية أخرى."
 
@@ -628,12 +1377,13 @@ msgstr "ابدأ هنا"
 msgid "Ready to publish your first post? %s."
 msgstr "هل أنت جاهز لنشر مقالتك الأولى؟ %s."
 
-#: inc/views/template_parts.php:229
+#: inc/views/template_parts.php:259
 msgid "Read More"
 msgstr "اقرأ المزيد"
 
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:294
 #: inc/customizer/options/layout_single_post.php:70
-#: inc/views/partials/post_meta.php:209
+#: inc/views/partials/post_meta.php:215
 msgid "Tags"
 msgstr "الوسوم"
 
@@ -688,69 +1438,57 @@ msgid "Comments are closed."
 msgstr "التعليقات مغلقة."
 
 #. translators: search result
-#: inc/views/page_header.php:73
+#: inc/views/page_header.php:78
 msgid "Search Results for: %s"
 msgstr "نتائج البحث عن: %s"
 
-#: header-footer-grid/templates/components/component-menu-icon.php:38
-#: header-footer-grid/templates/row-wrapper-mobile.php:37
+#: header-footer-grid/templates/components/component-menu-icon.php:39
+#: header-footer-grid/templates/row-wrapper-mobile.php:38
 msgid "Toggle Navigation"
 msgstr "تبديل التنقل"
 
-#: header-footer-grid/templates/components/component-menu-icon.php:30
-#: header-footer-grid/templates/row-wrapper-mobile.php:27
+#: header-footer-grid/templates/components/component-menu-icon.php:26
+#: header-footer-grid/templates/row-wrapper-mobile.php:28
 msgid "Navigation Menu"
 msgstr "قائمة التنقل"
 
-#: header-footer-grid/Core/Customizer.php:251
-#: header-footer-grid/templates/components/component-search-responsive.php:39
-#: inc/views/header.php:119
-#: inc/views/layouts/layout_sidebar.php:141
+#: header-footer-grid/Core/Customizer.php:273
+#: header-footer-grid/templates/components/component-cart-icon.php:26
+#: inc/views/header.php:130
+#: inc/views/layouts/layout_sidebar.php:148
 msgid "Close"
 msgstr "إغلاق"
 
-#: inc/customizer/options/typography.php:193
-#: inc/customizer/options/typography.php:357
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:301
 msgid "Line Height"
 msgstr "إرتفاع السطر"
 
-#: inc/customizer/options/typography.php:153
-#: inc/customizer/options/typography.php:314
+#: header-footer-grid/Core/Components/Search.php:120
+#: header-footer-grid/Core/Components/SearchResponsive.php:284
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:257
 msgid "Font Size"
 msgstr "حجم الخط"
 
-#: inc/customizer/options/typography.php:77
-#: inc/customizer/options/typography.php:291
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:159
 msgid "Font Family"
 msgstr "عائلة الخطوط"
 
-#: inc/customizer/options/typography.php:258
-msgid "Font Subsets"
-msgstr "المجموعات الفرعية للخط"
-
-#: inc/customizer/options/typography.php:42
+#: inc/customizer/options/typography.php:111
 msgid "Headings"
 msgstr "العناوين"
 
-#: header-footer-grid/Core/Settings/Manager.php:175
-#: inc/customizer/options/typography.php:38
+#: header-footer-grid/Core/Settings/Manager.php:177
+#: inc/customizer/options/typography.php:107
 msgid "General"
 msgstr "عام"
 
-#: inc/customizer/options/top_bar.php:67
-msgid "Enable Top Bar"
-msgstr "تفعيل الشريط العلوي"
-
-#: inc/customizer/options/top_bar.php:48
-msgid "Top Bar"
-msgstr "الشريط العلوي"
-
-#: inc/customizer/options/main.php:57
+#: header-footer-grid/Core/Components/Abstract_Component.php:793
+#: inc/customizer/options/main.php:55
 msgid "Typography"
 msgstr "أسلوب الطباعة"
 
-#: header-footer-grid/Core/Builder/Abstract_Builder.php:504
-#: header-footer-grid/Core/Builder/Header.php:35
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:491
+#: header-footer-grid/Core/Builder/Header.php:38
 msgid "Header"
 msgstr "ترويسة"
 
@@ -758,33 +1496,34 @@ msgstr "ترويسة"
 msgid "Elements Order"
 msgstr "ترتيب العناصر"
 
-#: inc/customizer/options/layout_sidebar.php:264
+#: inc/customizer/options/layout_sidebar.php:323
 msgid "Content Width (%)"
 msgstr "عرض المحتوى (%)"
 
-#: inc/customizer/options/layout_sidebar.php:220
+#: inc/customizer/options/layout_sidebar.php:224
 msgid "Sidebar Layout"
 msgstr "تخطيط الشريط الجانبي "
 
-#: inc/customizer/options/layout_sidebar.php:161
+#: inc/customizer/options/layout_sidebar.php:165
 msgid "Others"
 msgstr "غير ذلك"
 
-#: inc/customizer/options/layout_sidebar.php:157
+#: inc/customizer/options/layout_sidebar.php:161
 #: inc/customizer/options/layout_single_product.php:52
 msgid "Single Product"
 msgstr "منتج واحد"
 
-#: inc/customizer/options/layout_sidebar.php:156
+#: inc/customizer/options/layout_sidebar.php:160
 msgid "Shop / Archive"
 msgstr "المتجر / الأرشيف"
 
-#: inc/customizer/options/layout_sidebar.php:149
+#: inc/customizer/options/layout_sidebar.php:153
 #: inc/customizer/options/layout_single_post.php:42
+#: inc/customizer/options/typography.php:306
 msgid "Single Post"
 msgstr "مقالة واحدة"
 
-#: inc/customizer/options/layout_sidebar.php:105
+#: inc/customizer/options/layout_sidebar.php:104
 msgid "Enable Advanced Options"
 msgstr "تفعيل الخيارات المتقدمة"
 
@@ -796,120 +1535,122 @@ msgstr "عرض المحتوى على مستوى الموقع (%)"
 msgid "Sitewide Sidebar Layout"
 msgstr "تخطيط الشريط الجانبي على مستوى الموقع"
 
-#: header-footer-grid/Core/Components/Nav.php:162
+#: header-footer-grid/Core/Components/Nav.php:177
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:123
 msgid "Search"
 msgstr "البحث"
 
-#: header-footer-grid/Core/Builder/Abstract_Builder.php:571
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:579
 msgid "Section Content"
 msgstr "محتوى القسم"
 
 #. translators: %1$s is Theme Name ( Neve ), %2$s is WordPress
-#: header-footer-grid/Core/Components/Copyright.php:59
+#: header-footer-grid/Core/Components/Copyright.php:64
 msgid "%1$s | Powered by %2$s"
 msgstr "%1$s | مشغل بواسطة %2$s"
 
-#: header-footer-grid/Core/Components/Button.php:82
+#: header-footer-grid/Core/Components/Button.php:116
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:182
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:189
 msgid "Text"
 msgstr "النص"
 
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:127
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:201
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:233
 #: inc/customizer/options/layout_single_product.php:124
-#: inc/customizer/options/typography.php:132
-#: inc/customizer/options/typography.php:458
 msgid "None"
 msgstr "لا شيء"
 
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:293
 #: inc/customizer/options/layout_single_post.php:69
-#: inc/customizer/options/top_bar.php:123
 msgid "Content"
 msgstr "المحتوى"
 
 #: header-footer-grid/Core/Builder/Footer.php:34
-#: header-footer-grid/Core/Builder/Footer.php:50
+#: header-footer-grid/Core/Builder/Footer.php:75
 msgid "Footer"
 msgstr "التذييل"
 
-#: inc/customizer/options/layout_container.php:120
+#: inc/customizer/options/layout_container.php:112
 msgid "Single Product Container Style"
 msgstr "نمط الحاوية لمنتج واحد"
 
-#: inc/customizer/options/layout_container.php:116
+#: inc/customizer/options/layout_container.php:108
 msgid "Shop / Archive Container Style"
 msgstr "نمط الحاوية للمتجر / الأرشيف"
 
-#: inc/customizer/options/layout_container.php:106
+#: inc/customizer/options/layout_container.php:98
 msgid "Single Post Container Style"
 msgstr "نمط الحاوية لمقالة واحدة"
 
-#: inc/customizer/options/layout_container.php:102
+#: inc/customizer/options/layout_container.php:94
 msgid "Blog / Archive Container Style"
 msgstr "نمط الحاوية للمدونة / الأرشيف"
 
-#: inc/customizer/options/layout_container.php:98
+#: inc/customizer/options/layout_container.php:90
 msgid "Default Container Style"
 msgstr "نمط الحاوية الافتراضي"
 
-#: inc/customizer/options/layout_container.php:62
-msgid "Container width (px)"
-msgstr "عرض الحاوية (بكسل px)"
-
-#: inc/customizer/options/layout_blog.php:276
+#: inc/customizer/options/layout_blog.php:298
 msgid "Meta Order"
 msgstr "تعريف الترتيب"
 
-#: inc/customizer/options/layout_blog.php:264
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:295
+#: inc/customizer/options/layout_blog.php:286
 #: inc/customizer/options/layout_single_post.php:72
-#: inc/views/partials/post_meta.php:154
+#: inc/views/partials/post_meta.php:128
 msgid "Comments"
 msgstr "التعليقات"
 
-#: inc/customizer/options/layout_blog.php:263
-#: inc/views/partials/post_meta.php:153
+#: inc/customizer/options/layout_blog.php:285
+#: inc/views/partials/post_meta.php:127
 msgid "Date"
 msgstr "التاريخ"
 
-#: inc/customizer/options/layout_blog.php:262
+#: inc/customizer/options/layout_blog.php:284
 #: inc/customizer/options/layout_single_product.php:107
-#: inc/views/partials/post_meta.php:152
+#: inc/views/partials/post_meta.php:126
 msgid "Category"
 msgstr "التصنيف"
 
-#: inc/customizer/options/layout_blog.php:261
-#: inc/views/partials/post_meta.php:151
+#: header-footer-grid/Core/Magic_Tags.php:525
+#: inc/customizer/options/layout_blog.php:283
+#: inc/views/partials/post_meta.php:125
 msgid "Author"
 msgstr "المؤلف"
 
-#: inc/customizer/options/layout_blog.php:236
+#: inc/customizer/options/layout_blog.php:235
 msgid "Post Content Order"
 msgstr "ترتيب مقالة المحتوى"
 
-#: inc/customizer/options/layout_blog.php:225
+#: inc/customizer/options/layout_blog.php:224
 msgid "Excerpt"
 msgstr "المقتطف"
 
-#: inc/customizer/options/layout_blog.php:224
+#: inc/customizer/options/layout_blog.php:223
 #: inc/customizer/options/layout_single_post.php:67
 msgid "Title & Meta"
 msgstr "العنوان و التعريف"
 
-#: inc/customizer/options/layout_blog.php:223
+#: inc/customizer/options/layout_blog.php:222
 #: inc/customizer/options/layout_single_post.php:68
 msgid "Thumbnail"
 msgstr "الصور المصغرة"
 
-#: inc/customizer/options/layout_blog.php:173
+#: inc/customizer/options/layout_blog.php:172
 msgid "Infinite Scroll"
 msgstr "تمرير لانهائي"
 
-#: inc/customizer/options/layout_blog.php:172
+#: inc/customizer/options/layout_blog.php:171
 msgid "Number"
 msgstr "رقم"
 
-#: inc/customizer/options/layout_blog.php:167
+#: inc/customizer/options/layout_blog.php:166
 msgid "Post Pagination"
 msgstr "تصفيح المقالة"
 
-#: inc/customizer/options/layout_blog.php:139
+#: inc/customizer/options/layout_blog.php:138
 msgid "Excerpt Length"
 msgstr "طول المقتطف"
 
@@ -937,21 +1678,20 @@ msgstr "عمود واحد"
 msgid "Grid Layout"
 msgstr "الخطاطة الشبكية"
 
-#: header-footer-grid/Core/Builder/Abstract_Builder.php:271
-#: header-footer-grid/Core/Builder/Abstract_Builder.php:293
-#: header-footer-grid/Core/Settings/Manager.php:179
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:303
+#: header-footer-grid/Core/Settings/Manager.php:181
 #: inc/customizer/options/layout_blog.php:66
-#: inc/customizer/options/main.php:53
-#: inc/customizer/options/top_bar.php:90
+#: inc/customizer/options/main.php:51
 msgid "Layout"
 msgstr "التخطيط"
 
 #: inc/customizer/options/layout_blog.php:66
+#: inc/customizer/options/typography.php:115
 msgid "Blog"
 msgstr "المدونة"
 
 #: inc/customizer/options/layout_blog.php:47
-#: inc/customizer/options/layout_sidebar.php:148
+#: inc/customizer/options/layout_sidebar.php:152
 msgid "Blog / Archive"
 msgstr "المدونة / الأرشيف"
 
@@ -959,269 +1699,159 @@ msgstr "المدونة / الأرشيف"
 msgid "Colors & Background"
 msgstr "الألوان و الخلفية"
 
-#: inc/customizer/controls/font_selector.php:71
-msgid "Google Fonts"
-msgstr "خطوط قوقل"
-
-#: inc/customizer/controls/font_selector.php:67
-msgid "Standard Fonts"
-msgstr "الخطوط القياسية"
-
-#: inc/customizer/controls/font_selector.php:65
+#. translators: %s is the header name
+#: assets/js/src/gutenberg.js:9
+#: header-footer-grid/Core/Customizer.php:265
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:151
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:60
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:172
 msgid "Default"
 msgstr "افتراضي"
 
-#: inc/customizer/controls/font_selector.php:62
-msgctxt "label"
-msgid "Search"
-msgstr "البحث"
-
 #: header-footer-grid/Core/Components/FooterWidgetFour.php:32
-#: inc/core/front_end.php:955
+#: inc/core/front_end.php:535
 msgid "Footer Four"
 msgstr "التذييل أربعة"
 
 #: header-footer-grid/Core/Components/FooterWidgetThree.php:31
-#: inc/core/front_end.php:954
+#: inc/core/front_end.php:534
 msgid "Footer Three"
 msgstr "التذييل ثلاثة"
 
 #: header-footer-grid/Core/Components/FooterWidgetTwo.php:32
-#: inc/core/front_end.php:953
+#: inc/core/front_end.php:533
 msgid "Footer Two"
 msgstr "التذييل إثنان"
 
 #: header-footer-grid/Core/Components/FooterWidgetOne.php:31
-#: inc/core/front_end.php:952
+#: inc/core/front_end.php:532
 msgid "Footer One"
 msgstr "التذييل واحد"
 
-#: inc/core/front_end.php:946
+#: inc/core/front_end.php:526
 msgid "Shop Sidebar"
 msgstr "الشريط جانبي للمتجر"
 
-#: inc/core/front_end.php:644
-#: inc/customizer/options/buttons.php:94
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:385
+#: header-footer-grid/Core/Components/Copyright.php:84
+#: header-footer-grid/Core/Components/CustomHtml.php:158
+#: header-footer-grid/Core/Components/Logo.php:205
+#: inc/core/front_end.php:206
 #: inc/customizer/options/colors_background.php:66
 msgid "Text Color"
 msgstr "لون النص"
 
-#: inc/core/front_end.php:640
+#: inc/core/front_end.php:202
 #: inc/customizer/options/colors_background.php:61
 msgid "Link Hover Color"
 msgstr "لون المرور فوق الرابط"
 
-#: inc/core/front_end.php:636
+#: inc/core/front_end.php:198
 #: inc/customizer/options/colors_background.php:56
 msgid "Link Color"
 msgstr "لون الرابط"
 
-#: inc/core/front_end.php:632
+#: inc/core/front_end.php:194
 msgid "Button Color"
 msgstr "لون الزر"
 
-#: inc/core/front_end.php:623
+#: inc/core/front_end.php:185
 msgid "White"
 msgstr "أبيض"
 
-#: inc/core/front_end.php:614
+#: inc/core/front_end.php:176
 msgid "Black"
 msgstr "أسود"
 
-#. translators: %s - theme name
-#: inc/core/front_end.php:571
+#. translators: %s - Theme name
+#: dashboard/inc/Main.php:203
 msgid "With %s, you can choose from multiple unique demos, specially designed for you, that can be installed with a single click. You just need to choose your favorite, and we will take care of everything else."
 msgstr "مع  %s، يمكنك الاختيار من بين العديد من العروض التوضيحية الفريدة المصممة خصيصًا لك، والتي يمكن تنصيبها بنقرة واحدة. أنت فقط بحاجة إلى اختيار التصميم الذي تفضله، وسنتولى العناية بكل شيء آخر."
 
-#: inc/core/front_end.php:569
-msgid "Ready to use pre-built websites with 1-click installation"
-msgstr "هل أنت جاهز لاستخدام مواقع الويب سابقة التحديد مع تنصيب بنقرة واحدة"
-
-#: inc/core/front_end.php:552
-#: inc/core/front_end.php:562
-msgid "Hi! We've noticed you were using Zelle before. To make your transition easier, we can help you keep the same beautiful homepage you had before, by converting it into an Elementor template. This option will also import your homepage content."
-msgstr "مرحبا! لقد لاحظنا أنك كنت تستخدم زيلي (Zelle) من قبل. لتسهيل عملية الانتقال، يمكننا مساعدتك في الاحتفاظ بنفس الصفحة الرئيسية الجميلة التي كان لديك من قبل، من خلال تحويلها إلى قالب ألمنتر (Elementor). سيعمل هذا الخيار أيضًا على استيراد محتوى صفحتك الرئيسية."
-
-#: inc/core/front_end.php:551
-#: inc/core/front_end.php:561
-msgid "Want to keep using Zelle's homepage?"
-msgstr "هل تريد الاستمرار في استخدام الصفحة الرئيسية لـزيلي (Zelle)؟"
-
-#: header-footer-grid/Core/Components/NavFooter.php:37
-#: header-footer-grid/Core/Components/NavFooter.php:126
+#: header-footer-grid/Core/Components/NavFooter.php:41
+#: header-footer-grid/Core/Components/NavFooter.php:138
 #: header-footer-grid/templates/components/component-nav-footer.php:23
-#: inc/core/front_end.php:75
+#: inc/core/front_end.php:73
 msgid "Footer Menu"
 msgstr "قائمة التذييل"
 
-#: header-footer-grid/Core/Components/Nav.php:39
-#: header-footer-grid/Core/Components/Nav.php:198
-#: header-footer-grid/templates/components/component-nav.php:25
-#: inc/core/front_end.php:74
+#: header-footer-grid/Core/Components/Nav.php:43
+#: header-footer-grid/Core/Components/Nav.php:221
+#: header-footer-grid/templates/components/component-nav.php:26
+#: inc/core/front_end.php:72
 msgid "Primary Menu"
 msgstr "القائمة الأساسية"
 
-#: inc/core/admin.php:636
+#: dashboard/inc/Main.php:327
 #: inc/customizer/options/layout_sidebar.php:43
 msgid "Content / Sidebar"
 msgstr "المحتوى / الشريط الجانبي"
 
-#: inc/core/admin.php:631
+#: dashboard/inc/Main.php:323
 msgid "Footer Options"
 msgstr "خيارات التذييل"
 
-#: inc/core/admin.php:626
+#: dashboard/inc/Main.php:319
 msgid "Blog Layouts"
 msgstr "تخطيطات المدونة"
 
-#: inc/core/admin.php:621
+#: dashboard/inc/Main.php:315
 msgid "Header Options"
 msgstr "خيارات الترويسة"
 
-#: inc/core/admin.php:616
+#: dashboard/inc/Main.php:311
 msgid "Layout Options"
 msgstr "خيارات التخطيط"
 
-#: inc/core/admin.php:611
+#: dashboard/inc/Main.php:307
 msgid "Customize Fonts"
 msgstr "تخصيص الخطوط"
 
-#: inc/core/admin.php:606
+#: dashboard/inc/Main.php:303
 msgid "Set Colors"
 msgstr "تعيين الألوان"
 
-#: inc/core/admin.php:601
+#: dashboard/inc/Main.php:299
 msgid "Upload Logo"
 msgstr "رفع الشعار"
 
-#: inc/core/admin.php:200
-msgid "In the documentation below you will find an easy way to build a great looking landing page using a drag-and-drop content builder plugin."
-msgstr "ستجد في الوثائق أدناه طريقة سهلة لإنشاء صفحة هبوط رائعة باستخدام إضافة مُنشئ المحتوى بالسحب والإسقاط."
-
-#: inc/core/admin.php:198
-msgid "Build a landing page with a drag-and-drop content builder"
-msgstr "أنشئ صفحة الهبوط باستخدام مُنشئ المحتوى بالسحب والإسقاط."
-
-#: inc/core/admin.php:190
-msgid "If you find yourself in a situation where everything on your site is running very slowly, you might consider having a look at the documentation below where you will find the most common issues causing this and possible solutions for each of the issues."
-msgstr "إذا وجدت نفسك في وضعية حيث يعمل كل شيء على موقعك ببطء شديد، قد تفكر في النظر إلى الوثائق أدناه حيث تستطيع العثور على أكثر المشاكل شيوعا التي تسبب هذا و الحلول الممكنة لكل من هذه المشاكل."
-
-#: inc/core/admin.php:188
-msgid "Speed up your site"
-msgstr "اجعل موقعك أكثر سرعة"
-
-#: inc/core/admin.php:182
-#: inc/core/admin.php:192
-#: inc/core/admin.php:202
-msgid "View how to do this"
-msgstr "عرض كيفية القيام بهذا"
-
-#: inc/core/admin.php:180
-msgid "If you want to make changes to the theme's files, those changes are likely to be overwritten when you next update the theme. In order to prevent that from happening, you need to create a child theme. For this, please follow the documentation below."
-msgstr "إذا تريد إجراء تغييرات على ملفات القالب، من المرجح أن تتم الكتابة الفوقية على تلك التغييرات عندما تقوم بالتحديث التالي للقالب. لمنع حدوث ذلك، تحتاج إلى إنشاء قالب فرعي. لهذا، يرجى الاطلاع على الوثائق أدناه."
-
-#: inc/core/admin.php:178
-msgid "Create a child theme"
-msgstr "إنشاء قالب فرعي"
-
-#: inc/core/admin.php:169
-msgid "Want to get the gist on the latest theme changes? Just consult our changelog below to get a taste of the recent fixes and features implemented."
-msgstr "تريد معرفة جوهر أحدث تغييرات القالب؟ فقط راجع سجل التغيير لدينا أدناه لتأخذ فكرة على الإصلاحات والميزات الحديثة التي تم تنفيذها."
-
-#: inc/core/admin.php:168
-#: inc/core/admin.php:171
-#: inc/core/admin.php:211
-msgid "Changelog"
-msgstr "سجل التغيير"
-
-#: header-footer-grid/Core/Builder/Footer.php:45
-#: header-footer-grid/Core/Builder/Header.php:46
-#: inc/core/admin.php:160
-#: inc/core/admin.php:793
+#: header-footer-grid/Core/Builder/Footer.php:47
+#: header-footer-grid/Core/Builder/Header.php:51
+#: inc/core/admin.php:246
 msgid "Read full documentation"
 msgstr "اقرأ الوثائق كاملة"
 
+#. translators: %s - Theme name
 #. translators: %s - theme name
-#: inc/core/admin.php:158
-#: inc/core/admin.php:791
+#: dashboard/inc/Main.php:207
+#: inc/core/admin.php:244
 msgid "Need more details? Please check our full documentation for detailed information on how to use %s."
 msgstr "بحاجة الى أكثر تفاصيل؟ يرجى مراجعة وثائقنا الكاملة للحصول على معلومات مفصلة حول كيفية استخدام %s."
 
-#. translators: 1 - theme name, 2 - theme name
-#: inc/core/admin.php:147
+#. translators: %s - Theme name
+#: dashboard/inc/Main.php:205
 msgid "We want to make sure you have the best experience using %1$s, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using %1$s as much as we enjoy creating great products."
 msgstr "نريد أن نتأكد من حصولك على أفضل تجربة عندما تستخدم %1$s، لهذا السبب جمعنا لك كل المعلومات الضرورية هنا. نحن نتمنى أن تستمتع باستخدام %1$s بقدر ما نتمتع نحن بإنشاء منتجات رائعة."
 
-#: inc/core/admin.php:145
-#: inc/core/admin.php:149
-msgid "Contact Support"
-msgstr "الاتصال بالدعم"
-
-#: inc/core/admin.php:141
-#: inc/core/admin.php:156
-#: inc/core/admin.php:789
+#: inc/core/admin.php:242
 msgid "Documentation"
 msgstr "الوثائق"
 
-#: inc/core/admin.php:124
-msgid "Useful Plugins"
-msgstr "إضافات مفيدة"
-
-#: inc/core/admin.php:117
-msgid "Links to Customizer Settings"
-msgstr "الروابط إلى إعدادات المخصص"
-
-#: inc/core/admin.php:111
-msgid "See demos"
-msgstr "انظر إلى العروض التوضيحية"
-
+#. translators: %s - Theme name
 #. translators: %s - theme name
-#: inc/core/admin.php:109
-#: inc/core/admin.php:782
+#: dashboard/inc/Main.php:199
+#: inc/core/admin.php:236
 msgid "%s now comes with a sites library with various designs to pick from. Visit our collection of demos that are constantly being added."
 msgstr "الآن يأتي %s مع مكتبة المواقع ذات تصميمات مختلفة للاختيار من بينها. قم بزيارة مجموعتنا من العروض التوضيحية التي يتم إضافتها باستمرار."
 
-#: inc/core/admin.php:107
-#: inc/core/admin.php:228
-msgid "Recommended actions"
-msgstr "الإجراءات الموصى بها"
-
-#: inc/core/admin.php:104
-msgid "Getting Started"
-msgstr "بدء الاستخدام"
-
-#. translators: %s - theme name
-#: inc/core/admin.php:97
-msgid "Submit a review"
-msgstr "إرسال مراجعة"
-
-#. translators: %s - theme name
-#: inc/core/admin.php:96
-msgid "Are you are enjoying %s? We would love to hear your feedback."
-msgstr "هل أنت تستمتع ب%s؟ نحن نحب أن نعرف ملاحظاتك."
-
-#: inc/core/admin.php:94
-msgid "Leave us a review"
-msgstr "أكتب لنا مراجعة"
-
-#. translators: %s - theme name
-#: inc/core/admin.php:90
-msgid "Join our Facebook Group"
-msgstr "انضم إلى مجموعتنا على الفيس بوك (Facebook)"
-
-#. translators: %s - theme name
-#: inc/core/admin.php:89
-msgid "Join the community of %s users. Get connected, share opinions, ask questions and help each other!"
-msgstr "انضم إلى مجتمع مستخدمي %s. تواصل مع الآخرين وشارك بآرائك واطرح الأسئلة وساعدوا بعضكم بعضا!"
-
-#: header-footer-grid/Core/Components/Nav.php:167
-#: header-footer-grid/templates/components/component-cart-icon.php:18
-#: inc/compatibility/woocommerce.php:639
-#: inc/views/header.php:152
+#: header-footer-grid/Core/Components/Nav.php:182
+#: header-footer-grid/Core/Magic_Tags.php:580
+#: header-footer-grid/templates/components/component-cart-icon.php:50
+#: inc/views/header.php:165
 msgid "Cart"
 msgstr "السلة "
 
-#: inc/compatibility/woocommerce.php:322
+#: inc/compatibility/woocommerce.php:356
 msgid "Filter"
 msgstr "تصفية "
 
@@ -1233,23 +1863,36 @@ msgstr "‏‏يتم التنشيط"
 msgid "Jetpack Portfolio"
 msgstr "قائمة مشاريع جاتباك (Jetpack)"
 
+#: dashboard/build/build.js:6
 #: inc/admin/plugin_install/main.php:128
 msgid "Deactivate"
-msgstr "إلغاء التنشيط"
+msgid_plural "neve"
+msgstr[0] "إلغاء التنشيط"
+msgstr[1] "إلغاء التنشيط"
+msgstr[2] "إلغاء التنشيط"
+msgstr[3] "إلغاء التنشيط"
+msgstr[4] "إلغاء التنشيط"
+msgstr[5] "إلغاء التنشيط"
 
+#: dashboard/build/build.js:6
 #: inc/admin/plugin_install/main.php:113
 #: inc/admin/plugin_install/main.php:133
 msgid "Activate"
-msgstr "التنشيط"
+msgid_plural "neve"
+msgstr[0] "التنشيط"
+msgstr[1] "التنشيط"
+msgstr[2] "التنشيط"
+msgstr[3] "التنشيط"
+msgstr[4] "التنشيط"
+msgstr[5] "التنشيط"
 
 #: inc/admin/plugin_install/main.php:109
 msgid "Install and activate"
 msgstr "التنصيب والتنشيط"
 
-#: header-footer-grid/templates/rows.php:80
 #: inc/admin/metabox/main.php:56
-#: inc/compatibility/gutenberg.php:275
-#: inc/core/front_end.php:945
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:117
+#: inc/core/front_end.php:525
 msgid "Sidebar"
 msgstr "الشريط الجانبي"
 
@@ -1266,21 +1909,24 @@ msgid "Left Sidebar"
 msgstr "الشريط الجانبي الأيسر"
 
 #: inc/admin/metabox/main.php:41
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:141
 #: inc/customizer/options/layout_container.php:43
 msgid "Container"
 msgstr "الحاوية"
 
-#: header-footer-grid/Core/Builder/Abstract_Builder.php:298
-#: header-footer-grid/Core/Builder/Abstract_Builder.php:299
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:308
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:309
 #: inc/admin/metabox/main.php:39
-#: inc/customizer/options/layout_container.php:142
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:165
+#: inc/customizer/options/layout_container.php:134
 msgid "Full Width"
 msgstr "كامل العرض"
 
-#: header-footer-grid/Core/Builder/Abstract_Builder.php:298
-#: header-footer-grid/Core/Builder/Abstract_Builder.php:300
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:308
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:310
 #: inc/admin/metabox/main.php:38
-#: inc/customizer/options/layout_container.php:141
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:158
+#: inc/customizer/options/layout_container.php:133
 msgid "Contained"
 msgstr "محتواة"
 
@@ -1290,6 +1936,7 @@ msgid "Customizer Setting"
 msgstr "إعداد المخصص"
 
 #: inc/admin/metabox/main.php:88
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:350
 msgid "Disable Footer"
 msgstr "تعطيل التذييل"
 
@@ -1298,10 +1945,12 @@ msgid "Disable Featured Image"
 msgstr "تعطيل الصورة المميزة"
 
 #: inc/admin/metabox/main.php:76
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:364
 msgid "Disable Title"
 msgstr "تعطيل العنوان"
 
 #: inc/admin/metabox/main.php:71
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:338
 msgid "Disable Header"
 msgstr "تعطيل الترويسة"
 
@@ -1317,7 +1966,7 @@ msgstr "فعّل عرض المحتوى الفردي"
 msgid "Content Width"
 msgstr "عرض المحتوى"
 
-#: header.php:30
+#: header.php:31
 msgid "Skip to content"
 msgstr "تخطى إلى المحتوى"
 
@@ -1337,6 +1986,124 @@ msgstr "قالب الجزيرة (ThemeIsle)"
 #. Theme URI of the theme
 msgid "https://themeisle.com/themes/neve/"
 msgstr "https://themeisle.com/themes/neve/"
+
+#~ msgid "Adobe Fonts"
+#~ msgstr "خطوط أدوبي "
+
+#~ msgid "Get %s now!"
+#~ msgstr "احصل على %s الآن!"
+
+#~ msgid "Free vs PRO"
+#~ msgstr "مجانا مقابل PRO"
+
+#~ msgid "Hover Background Color"
+#~ msgstr "لون تحويم الخلفية"
+
+#~ msgid "Toggle Dropdown"
+#~ msgstr "تبديل القائمة المنسدلة"
+
+#~ msgid "Take the new WordPress editor to the next level by using Otter's blocks that are specially designed for %s."
+#~ msgstr " انقل محرر ووردبريس الجديد إلى المستوى التالي باستخدام مكوّنات Otter المصممة خصيصًا لـ %s."
+
+#~ msgid "Header Sidebar"
+#~ msgstr "الشريط الجانبي للترويسة"
+
+#~ msgid "Visual Integration"
+#~ msgstr "التكامل البصري"
+
+#~ msgid "Font Weight"
+#~ msgstr "عرض الخط"
+
+#~ msgid "To activate a component, drag it to one of the upper rows."
+#~ msgstr "لتفعيل مكون، اسحبه إلى أحد الصفوف العليا."
+
+#~ msgid "Available components"
+#~ msgstr "المكونات المتوفرة"
+
+#~ msgid "Show Sidebar"
+#~ msgstr "إظهار الشريط الجانبي"
+
+#~ msgid "%s Community"
+#~ msgstr "مجتمع %s"
+
+#~ msgid "Font Subsets"
+#~ msgstr "المجموعات الفرعية للخط"
+
+#~ msgid "Enable Top Bar"
+#~ msgstr "تفعيل الشريط العلوي"
+
+#~ msgid "Google Fonts"
+#~ msgstr "خطوط قوقل"
+
+#~ msgid "Standard Fonts"
+#~ msgstr "الخطوط القياسية"
+
+#~ msgctxt "label"
+#~ msgid "Search"
+#~ msgstr "البحث"
+
+#~ msgid "Ready to use pre-built websites with 1-click installation"
+#~ msgstr "هل أنت جاهز لاستخدام مواقع الويب سابقة التحديد مع تنصيب بنقرة واحدة"
+
+#~ msgid "Hi! We've noticed you were using Zelle before. To make your transition easier, we can help you keep the same beautiful homepage you had before, by converting it into an Elementor template. This option will also import your homepage content."
+#~ msgstr "مرحبا! لقد لاحظنا أنك كنت تستخدم زيلي (Zelle) من قبل. لتسهيل عملية الانتقال، يمكننا مساعدتك في الاحتفاظ بنفس الصفحة الرئيسية الجميلة التي كان لديك من قبل، من خلال تحويلها إلى قالب ألمنتر (Elementor). سيعمل هذا الخيار أيضًا على استيراد محتوى صفحتك الرئيسية."
+
+#~ msgid "Want to keep using Zelle's homepage?"
+#~ msgstr "هل تريد الاستمرار في استخدام الصفحة الرئيسية لـزيلي (Zelle)؟"
+
+#~ msgid "In the documentation below you will find an easy way to build a great looking landing page using a drag-and-drop content builder plugin."
+#~ msgstr "ستجد في الوثائق أدناه طريقة سهلة لإنشاء صفحة هبوط رائعة باستخدام إضافة مُنشئ المحتوى بالسحب والإسقاط."
+
+#~ msgid "Build a landing page with a drag-and-drop content builder"
+#~ msgstr "أنشئ صفحة الهبوط باستخدام مُنشئ المحتوى بالسحب والإسقاط."
+
+#~ msgid "If you find yourself in a situation where everything on your site is running very slowly, you might consider having a look at the documentation below where you will find the most common issues causing this and possible solutions for each of the issues."
+#~ msgstr "إذا وجدت نفسك في وضعية حيث يعمل كل شيء على موقعك ببطء شديد، قد تفكر في النظر إلى الوثائق أدناه حيث تستطيع العثور على أكثر المشاكل شيوعا التي تسبب هذا و الحلول الممكنة لكل من هذه المشاكل."
+
+#~ msgid "Speed up your site"
+#~ msgstr "اجعل موقعك أكثر سرعة"
+
+#~ msgid "View how to do this"
+#~ msgstr "عرض كيفية القيام بهذا"
+
+#~ msgid "If you want to make changes to the theme's files, those changes are likely to be overwritten when you next update the theme. In order to prevent that from happening, you need to create a child theme. For this, please follow the documentation below."
+#~ msgstr "إذا تريد إجراء تغييرات على ملفات القالب، من المرجح أن تتم الكتابة الفوقية على تلك التغييرات عندما تقوم بالتحديث التالي للقالب. لمنع حدوث ذلك، تحتاج إلى إنشاء قالب فرعي. لهذا، يرجى الاطلاع على الوثائق أدناه."
+
+#~ msgid "Create a child theme"
+#~ msgstr "إنشاء قالب فرعي"
+
+#~ msgid "Want to get the gist on the latest theme changes? Just consult our changelog below to get a taste of the recent fixes and features implemented."
+#~ msgstr "تريد معرفة جوهر أحدث تغييرات القالب؟ فقط راجع سجل التغيير لدينا أدناه لتأخذ فكرة على الإصلاحات والميزات الحديثة التي تم تنفيذها."
+
+#~ msgid "Contact Support"
+#~ msgstr "الاتصال بالدعم"
+
+#~ msgid "Useful Plugins"
+#~ msgstr "إضافات مفيدة"
+
+#~ msgid "See demos"
+#~ msgstr "انظر إلى العروض التوضيحية"
+
+#~ msgid "Recommended actions"
+#~ msgstr "الإجراءات الموصى بها"
+
+#~ msgid "Getting Started"
+#~ msgstr "بدء الاستخدام"
+
+#~ msgid "Submit a review"
+#~ msgstr "إرسال مراجعة"
+
+#~ msgid "Are you are enjoying %s? We would love to hear your feedback."
+#~ msgstr "هل أنت تستمتع ب%s؟ نحن نحب أن نعرف ملاحظاتك."
+
+#~ msgid "Leave us a review"
+#~ msgstr "أكتب لنا مراجعة"
+
+#~ msgid "Join our Facebook Group"
+#~ msgstr "انضم إلى مجموعتنا على الفيس بوك (Facebook)"
+
+#~ msgid "Join the community of %s users. Get connected, share opinions, ask questions and help each other!"
+#~ msgstr "انضم إلى مجتمع مستخدمي %s. تواصل مع الآخرين وشارك بآرائك واطرح الأسئلة وساعدوا بعضكم بعضا!"
 
 #~ msgid "Row color"
 #~ msgstr "لون الصف"

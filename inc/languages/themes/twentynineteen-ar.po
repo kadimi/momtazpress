@@ -19,7 +19,19 @@ msgstr "قالبنا الافتراضي لعام 2019 صُمم ليعرض قوة
 msgid "Twenty Nineteen"
 msgstr "Twenty Nineteen"
 
-#. translators: %s: parent post link
+#: classes/class-twentynineteen-walker-comment.php:96
+msgid "Your comment is awaiting moderation. This is a preview, your comment will be visible after it has been approved."
+msgstr "تعليقك في انتظار المراجعة. هذه معاينة، سيكون تعليقك مرئيًا بعد الموافقة عليه."
+
+#: functions.php:153
+msgid "Dark Blue"
+msgstr "أزرق داكن"
+
+#: functions.php:148
+msgid "Blue"
+msgstr "أزرق"
+
+#. translators: %s: Parent post link.
 #: single.php:31
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</span>"
 msgstr "<span class=\"meta-nav\">نُشر في</span><span class=\"post-title\">%s</span>"
@@ -35,17 +47,18 @@ msgctxt "post"
 msgid "Featured"
 msgstr "البارزة"
 
-#: inc/back-compat.php:39
-#: inc/back-compat.php:53
-#: inc/back-compat.php:73
+#. translators: %s: WordPress version.
+#: inc/back-compat.php:40
+#: inc/back-compat.php:55
+#: inc/back-compat.php:76
 msgid "Twenty Nineteen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
 msgstr "يتطلب قالب Twenty Nineteen على الأقل إصدار ووردبريس 4.7. أنت تقوم بتشغيل الإصدار %s. يرجى الترقية والمحاولة مرة أخرى."
 
-#: inc/template-functions.php:216
+#: inc/template-functions.php:143
 msgid "Back"
 msgstr "رجوع"
 
-#: inc/template-functions.php:209
+#: inc/template-functions.php:136
 msgid "More"
 msgstr "المزيد"
 
@@ -67,53 +80,49 @@ msgctxt "primary color"
 msgid "Default"
 msgstr "اللون الأساسي"
 
-#: functions.php:166
+#: functions.php:168
 msgid "White"
 msgstr "أبيض"
 
-#: functions.php:161
+#: functions.php:163
 msgid "Light Gray"
 msgstr "رمادي فاتح"
 
-#: functions.php:156
+#: functions.php:158
 msgid "Dark Gray"
 msgstr "رمادي داكن"
 
-#: functions.php:151
-msgid "Secondary"
-msgstr "الفرعي"
-
-#: functions.php:134
+#: functions.php:136
 msgid "XL"
 msgstr "XL"
 
-#: functions.php:133
+#: functions.php:135
 msgid "Huge"
 msgstr "كبير جدًا"
 
-#: functions.php:128
+#: functions.php:130
 msgid "L"
 msgstr "L"
 
-#: functions.php:127
+#: functions.php:129
 msgid "Large"
 msgstr "كبير"
 
-#: functions.php:122
+#: functions.php:124
 msgid "M"
 msgstr "M"
 
-#: functions.php:121
+#: functions.php:123
 msgid "Normal"
 msgstr "عادي"
 
-#: functions.php:115
-msgid "Small"
-msgstr "صغير"
-
-#: functions.php:116
+#: functions.php:118
 msgid "S"
 msgstr "S"
+
+#: functions.php:117
+msgid "Small"
+msgstr "صغير"
 
 #: footer.php:37
 #: functions.php:60
@@ -129,11 +138,11 @@ msgstr "الحجم الكامل"
 msgid "Page"
 msgstr "الصفحة"
 
-#: functions.php:190
+#: functions.php:192
 msgid "Add widgets here to appear in your footer."
 msgstr "إضافة ودجات هنا لتظهر في تذييل موقعك."
 
-#: functions.php:188
+#: functions.php:190
 #: template-parts/footer/footer-widgets.php:12
 msgid "Footer"
 msgstr "التذييل"
@@ -146,7 +155,7 @@ msgstr "اللون الرئيسي"
 msgid "No comments"
 msgstr "لا توجد تعليقات"
 
-#. translators: %1(X comments)$s
+#. translators: %d: Number of comments.
 #: template-parts/post/discussion-meta.php:16
 msgid "%d Comment"
 msgid_plural "%d Comments"
@@ -161,7 +170,7 @@ msgstr[5] "%d تعليق"
 msgid "View more posts"
 msgstr "عرض مقالات أكثر"
 
-#. translators: %s: post author
+#. translators: %s: Post author.
 #: template-parts/post/author-bio.php:17
 msgid "Published by %s"
 msgstr "نُشر بواسطة %s"
@@ -170,7 +179,7 @@ msgstr "نُشر بواسطة %s"
 msgid "Top Menu"
 msgstr "القائمة العلوية"
 
-#. translators: %s: Name of current post. Only visible to screen readers
+#. translators: %s: Post title. Only visible to screen readers.
 #: template-parts/content/content-single.php:27
 #: template-parts/content/content.php:36
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
@@ -191,7 +200,7 @@ msgstr "يبدو أننا لم نعثر على ما تطلب. لعل استعم�
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
 
-#. translators: 1: link to WP admin new post page.
+#. translators: 1: Link to WP admin new post page.
 #: template-parts/content/content-none.php:26
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
@@ -217,7 +226,7 @@ msgid "Next Post"
 msgstr "المقالة التالية"
 
 #: search.php:22
-msgid "Search results for:"
+msgid "Search results for: "
 msgstr "نتائج البحث عن:"
 
 #: inc/template-tags.php:234
@@ -236,13 +245,13 @@ msgstr "وسوم:"
 msgid "Posted in"
 msgstr "نُشر في"
 
-#. translators: used between list items, there is a space after the comma.
+#. translators: Used between list items, there is a space after the comma.
 #: inc/template-tags.php:86
 #: inc/template-tags.php:98
 msgid ", "
 msgstr "،"
 
-#. translators: %s: Name of current post. Only visible to screen readers.
+#. translators: %s: Post title. Only visible to screen readers.
 #: inc/template-tags.php:63
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "اترك تعليقًا<span class=\"screen-reader-text\"> على %s</span>"
@@ -265,7 +274,7 @@ msgstr "Y"
 msgid "Archives:"
 msgstr "الأرشيف:"
 
-#. translators: %s: Taxonomy singular name
+#. translators: %s: Taxonomy singular name.
 #: inc/template-functions.php:90
 msgid "%s Archives:"
 msgstr "أرشيف %s:"
@@ -298,8 +307,7 @@ msgstr "أرشيف الوسم:"
 msgid "Category Archives: "
 msgstr "أرشيف التصنيف:"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#. translators: %s: Name of current post. Only visible to screen readers.
+#. translators: %s: Post title. Only visible to screen readers.
 #: inc/template-tags.php:120
 #: template-parts/content/content-page.php:41
 #: template-parts/header/entry-header.php:32
@@ -316,7 +324,6 @@ msgid "Social Links Menu"
 msgstr "قائمة الروابط الإجتماعية"
 
 #: functions.php:59
-#: functions.php:146
 msgid "Primary"
 msgstr "رئيسي"
 
@@ -343,7 +350,7 @@ msgstr "السابق"
 msgid "Comments"
 msgstr "التعليقات"
 
-#. translators: 1: number of comments, 2: post title
+#. translators: 1: Number of comments, 2: Post title.
 #: comments.php:44
 msgctxt "comments title"
 msgid "%1$s reply on &ldquo;%2$s&rdquo;"
@@ -355,7 +362,7 @@ msgstr[3] "%1$s تعليقات على &ldquo;%2$s&rdquo;"
 msgstr[4] "%1$s تعليق على &ldquo;%2$s&rdquo;"
 msgstr[5] "%1$s تعليق على &ldquo;%2$s&rdquo;"
 
-#. translators: %s: post title
+#. translators: %s: Post title.
 #: comments.php:40
 msgctxt "comments title"
 msgid "One reply on &ldquo;%s&rdquo;"
@@ -371,20 +378,21 @@ msgstr "اترك تعليقًا"
 msgid "Join the Conversation"
 msgstr "انضم إلى المحادثة"
 
-#: classes/class-twentynineteen-walker-comment.php:99
+#: classes/class-twentynineteen-walker-comment.php:94
 msgid "Your comment is awaiting moderation."
 msgstr "تعليقك بإنتظار الموافقة للنشر."
 
-#: classes/class-twentynineteen-walker-comment.php:94
+#: classes/class-twentynineteen-walker-comment.php:87
 msgid "Edit"
 msgstr "تحرير"
 
-#. translators: 1: comment date, 2: comment time
-#: classes/class-twentynineteen-walker-comment.php:86
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentynineteen-walker-comment.php:79
 msgid "%1$s at %2$s"
 msgstr "%1$s في %2$s"
 
-#: classes/class-twentynineteen-walker-comment.php:66
+#. translators: %s: Comment author link.
+#: classes/class-twentynineteen-walker-comment.php:59
 msgid "%s <span class=\"screen-reader-text says\">says:</span>"
 msgstr "%s <span class=\"screen-reader-text says\">قال:</span>"
 
@@ -408,3 +416,6 @@ msgstr "فريق ووردبريس"
 #: footer.php:25
 msgid "https://wordpress.org/"
 msgstr "https://ar.wordpress.org/"
+
+#~ msgid "Secondary"
+#~ msgstr "الفرعي"

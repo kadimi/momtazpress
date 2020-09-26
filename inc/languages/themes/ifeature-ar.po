@@ -1,0 +1,1432 @@
+# Translation of Themes - iFeature in Arabic
+# This file is distributed under the same license as the Themes - iFeature package.
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2020-09-04 20:28:17+0000\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"Project-Id-Version: Themes - iFeature\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#. Description of the theme
+msgid "iFeature is a fully-responsive, Gutenberg compatible, translation-ready, and a multipurpose professional theme. The theme is perfectly designed for e-commerce sites, blogging, personal profiles, startups, and more. iFeature's touch-friendly drag-and-drop elements allow you to set up a professional website in minutes. When it comes to responsive elements and drag-and-drop options, CyberChimps not only pioneered but continues to innovate these elements for the greater WordPress community. The theme works well with all major page builders like- Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. With options on a per-page basis, this theme allows you to control the look and feel of every page. iFeature has a sticky header menu and has options available to exclude categories from the blog page. You can also display author bio for each post. Includes a Testimonial section so you can highlight positive feedback from your customers and boost conversion. Includes a team section to display your team members’ details. Two types of footer widgets layout available. Features: #Responsive #Starter Data #WooCommerce Ready #LMS Ready (Sensei, LearnDash) #RTL #Translations Ready # WPML Compatible #Retina Logo #Layout Settings #Transparent Headers #White Label #Site/Blog Layouts #Unlimited Colors #Custom spacing. View iFeature Demo (http://demos.cyberchimps.com/ifeature/)"
+msgstr ""
+
+#. Theme Name of the theme
+msgid "iFeature"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:892
+msgid "Vimeo URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:872
+msgid "Display Vimeo?"
+msgstr ""
+
+#: inc/starter-content.php:151
+msgid "Primary"
+msgstr ""
+
+#: inc/starter-content.php:34
+msgid "Starter_Home"
+msgstr ""
+
+#: functions.php:1537
+msgid "I already did"
+msgstr ""
+
+#: functions.php:1536
+msgid "Nope, maybe later"
+msgstr ""
+
+#: functions.php:1535
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: functions.php:1534
+msgid "Can you please do us a favor and give us a 5-star rating? Your feedback keeps us motivated and helps us grow the iFeature community."
+msgstr ""
+
+#: functions.php:1533
+msgid "Hi! Thanks for using the iFeature theme."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width Page (Gutenberg)"
+msgstr ""
+
+#: functions.php:1248
+msgid "by "
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2989
+msgid "Drag & Drop Header Elements"
+msgstr ""
+
+#: comments.php:46
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %s: post title
+#: comments.php:39
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: functions.php:791
+#: functions.php:884
+msgid "Choose Footer Widgets Layout"
+msgstr ""
+
+#: inc/admin-about.php:53
+msgid "Leave a star rating"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1214
+msgid "Please choose the post categories that should not be displayed on the blog page"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1213
+msgid "Exclude Categories from Blog page"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:243
+msgid "Choose Category"
+msgstr ""
+
+#: functions.php:811
+msgid "Skin Options"
+msgstr ""
+
+#: functions.php:742
+#: functions.php:867
+msgid "Choose a skin"
+msgstr ""
+
+#: functions.php:719
+#: functions.php:858
+msgid "Gradient Design"
+msgstr ""
+
+#: elements/testimonial.php:73
+msgid "Testimonial Background"
+msgstr ""
+
+#: elements/init.php:50
+#: elements/init.php:65
+msgid "Contact Us"
+msgstr ""
+
+#: elements/init.php:49
+#: elements/init.php:64
+msgid "Testimonial"
+msgstr ""
+
+#: elements/contact-us.php:185
+msgid "Custom Contact Options"
+msgstr ""
+
+#: elements/contact-us.php:174
+msgid "Recommended: Contact Form"
+msgstr ""
+
+#: elements/contact-us.php:173
+msgid "Additional data"
+msgstr ""
+
+#: elements/contact-us.php:166
+msgid "Contact Email"
+msgstr ""
+
+#: elements/contact-us.php:154
+msgid "Contact Address"
+msgstr ""
+
+#: elements/contact-us.php:148
+msgid "Contact Section Title"
+msgstr ""
+
+#: elements/testimonial.php:160
+msgid "Third Testimonial Text"
+msgstr ""
+
+#: elements/testimonial.php:152
+msgid "Third Testimonial about the Author"
+msgstr ""
+
+#: elements/testimonial.php:144
+msgid "Third Testimonial Author Name"
+msgstr ""
+
+#: elements/testimonial.php:135
+msgid "Third Testimonial Image"
+msgstr ""
+
+#: elements/testimonial.php:127
+msgid "Second Testimonial Text"
+msgstr ""
+
+#: elements/testimonial.php:119
+msgid "Second Testimonial about the Author"
+msgstr ""
+
+#: elements/testimonial.php:112
+msgid "Second Testimonial Author Name"
+msgstr ""
+
+#: elements/testimonial.php:104
+msgid "Second Testimonial Image"
+msgstr ""
+
+#: elements/testimonial.php:97
+msgid "First Testimonial Text"
+msgstr ""
+
+#: elements/testimonial.php:90
+msgid "First Testimonial about the Author"
+msgstr ""
+
+#: elements/testimonial.php:84
+msgid "First Testimonial Author Name"
+msgstr ""
+
+#: elements/testimonial.php:77
+msgid "First Testimonial Image"
+msgstr ""
+
+#: elements/testimonial.php:72
+msgid "Best suited image size is 1280px * 375px"
+msgstr ""
+
+#: elements/testimonial.php:63
+msgid "Testimonial Section Title"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1926
+msgid "Post Author Bio"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:922
+#: elements/contact-us.php:160
+msgid "Contact Number"
+msgstr ""
+
+#: functions.php:762
+msgid "Sticky Header"
+msgstr ""
+
+#: elements/testimonial.php:176
+msgid "Testimonial Options"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:907
+msgid "Contact Elements"
+msgstr ""
+
+#: cyberchimps/options/meta-box-class/meta-box.php:58
+msgid "Featured lite"
+msgstr ""
+
+#: cyberchimps/functions.php:1170
+msgid "Install the \"WPForms Lite\" plugin"
+msgstr ""
+
+#: cyberchimps/functions.php:1167
+msgid "Please activate the \"WPForms Lite\" plugin"
+msgstr ""
+
+#: cyberchimps/functions.php:1165
+msgid "WPForms Settings"
+msgstr ""
+
+#: cyberchimps/functions.php:1124
+msgid "WPForms Lite"
+msgstr ""
+
+#: cyberchimps/functions.php:1148
+msgid "Install the \"SlideDeck Lite\" plugin"
+msgstr ""
+
+#: cyberchimps/functions.php:1145
+msgid "Please activate the \"SlideDeck Lite\" plugin"
+msgstr ""
+
+#: cyberchimps/functions.php:1143
+msgid "SlideDeck Settings"
+msgstr ""
+
+#: cyberchimps/functions.php:1118
+msgid "SlideDeck Lite"
+msgstr ""
+
+#: functions.php:849
+msgid "Select color for menu text"
+msgstr ""
+
+#: functions.php:839
+msgid "Select menu hover color"
+msgstr ""
+
+#: functions.php:829
+msgid "Select menu background color"
+msgstr ""
+
+#: functions.php:701
+#: functions.php:848
+msgid "Menu Text Color"
+msgstr ""
+
+#: functions.php:680
+#: functions.php:838
+msgid "Menu Hover Color"
+msgstr ""
+
+#: functions.php:659
+#: functions.php:828
+msgid "Menu Background Color"
+msgstr ""
+
+#: functions.php:582
+msgid "Welcome to iFeature! Get 30%% off on %1$s using Coupon Code <span style=\"color:red\">IFEATURE30</span>"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2485
+msgid "Layout"
+msgstr "التخطيط"
+
+#: cyberchimps/options/options-customizer.php:2364
+msgid "404"
+msgstr "صفحة الخطأ"
+
+#: cyberchimps/options/options-customizer.php:1944
+msgid "Post Title"
+msgstr "عنوان المقالة"
+
+#: cyberchimps/options/options-customizer.php:1875
+msgid "Several settings for Template"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1874
+msgid "Template"
+msgstr "نموذج"
+
+#: cyberchimps/options/options-customizer.php:1838
+msgid "Third Link URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1781
+msgid "Second Link URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1724
+msgid "First Link URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1669
+msgid "Forth Porfolio URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1651
+msgid "Show Forth Porfolio Link"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1632
+msgid "Forth Portfolio Image Caption"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1613
+msgid "Forth Portfolio Image"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1593
+msgid "Third Porfolio URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1575
+msgid "Show Third Porfolio Link"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1517
+msgid "Second Porfolio URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1499
+msgid "Show Second Porfolio Link"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1441
+msgid "First Porfolio URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1423
+msgid "Show First Porfolio Link"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1329
+msgid "Upload Slider Image 3"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1290
+msgid "Upload Slider Image 2"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1251
+msgid "Upload Slider Image 1"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:951
+msgid "Blog elements configuration"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:950
+msgid "Blog Option"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:940
+msgid "Several settings for Blog"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:832
+msgid "Display Instagram?"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:793
+msgid "Display RSS?"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:754
+msgid "Display Email?"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:715
+msgid "Display Google Maps?"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:676
+msgid "Display Pinterest?"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:637
+msgid "Display Flickr?"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:617
+msgid "Youtube URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:598
+msgid "Display Youtube?"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:559
+msgid "Display LinkedIn?"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:520
+msgid "Display Google?"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:480
+msgid "Display Twitter?"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:438
+msgid "Display Facebook?"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:386
+msgid "Social Option"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:369
+msgid "Display Searchbar?"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:349
+msgid "Upload Logo Image"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:327
+msgid "Display Logo?"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:309
+msgid "Enter Custom Logo URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:274
+msgid "Header Option"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:264
+msgid "Several settings for Header"
+msgstr ""
+
+#: sidebar-left.php:61
+#: sidebar-right.php:61
+#: sidebar.php:61
+msgid "Comments (RSS)"
+msgstr "التعليقات (RSS)"
+
+#: sidebar-left.php:60
+#: sidebar-right.php:60
+#: sidebar.php:60
+msgid "Entries (RSS)"
+msgstr "خلاصة التدوينات (RSS)"
+
+#: sidebar-left.php:58
+#: sidebar-right.php:58
+#: sidebar.php:58
+msgid "Subscribe"
+msgstr "اشتراك"
+
+#: no-results.php:48
+msgid "It seems we cannot find what you are looking for. Perhaps searching can help."
+msgstr ""
+
+#: no-results.php:41
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
+
+#: no-results.php:19
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: image.php:177
+msgid "Both comments and trackbacks are currently closed."
+msgstr "التعليقات والتعقيبات مغلقة حالياً"
+
+#: image.php:173
+msgid "post a comment"
+msgstr ""
+
+#: image.php:173
+msgid "Trackbacks are closed, but you can"
+msgstr ""
+
+#: image.php:68
+msgid "Next"
+msgstr "التالي"
+
+#: image.php:65
+msgid "Previous"
+msgstr "السابق"
+
+#: functions.php:449
+#: functions.php:542
+msgid "Menu Home Icon"
+msgstr ""
+
+#: functions.php:430
+#: functions.php:526
+msgid "iMenu Options"
+msgstr ""
+
+#: functions.php:257
+msgid "iFeature Responsive Drag and Drop WordPress Theme"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: functions.php:146
+msgid "%1$s at %2$s"
+msgstr "%1$s الساعة %2$s"
+
+#: functions.php:137
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك بانتظار المراجعة."
+
+#: functions.php:131
+msgid "says"
+msgstr ""
+
+#: functions.php:114
+#: functions.php:151
+msgid "(Edit)"
+msgstr "(تحرير)"
+
+#: functions.php:114
+msgid "Pingback:"
+msgstr "التنبيهات:"
+
+#: footer.php:70
+#: footer.php:108
+#: sidebar-left.php:51
+#: sidebar-right.php:51
+#: sidebar.php:51
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "هذا الموقع يستخدم ووردبريس المعرب، منصة دلالية للنشر الشخصي."
+
+#: footer.php:65
+#: footer.php:70
+#: footer.php:103
+#: footer.php:108
+#: sidebar-left.php:46
+#: sidebar-left.php:51
+#: sidebar-right.php:46
+#: sidebar-right.php:51
+#: sidebar.php:46
+#: sidebar.php:51
+msgid "WordPress"
+msgstr "ووردبريس"
+
+#: footer.php:43
+#: footer.php:83
+#: sidebar-left.php:25
+#: sidebar-right.php:25
+#: sidebar.php:25
+msgid "Pages"
+msgstr "صفحات"
+
+#: elements/slider-lite.php:82
+msgid "Slider Lite Options"
+msgstr ""
+
+#: elements/slider-lite.php:72
+msgid "Slide Three Link"
+msgstr ""
+
+#: elements/slider-lite.php:66
+msgid "Slide Three Image"
+msgstr ""
+
+#: elements/slider-lite.php:59
+msgid "Slide Two Link"
+msgstr ""
+
+#: elements/slider-lite.php:53
+msgid "Slide Two Image"
+msgstr ""
+
+#: elements/slider-lite.php:46
+msgid "Slide One Link"
+msgstr ""
+
+#: elements/slider-lite.php:40
+msgid "Slide One Image"
+msgstr ""
+
+#: elements/portfolio-lite.php:134
+msgid "Image 4"
+msgstr ""
+
+#: elements/portfolio-lite.php:105
+msgid "Image 3"
+msgstr ""
+
+#: elements/portfolio-lite.php:76
+msgid "Image 2"
+msgstr ""
+
+#: elements/portfolio-lite.php:47
+msgid "Image 1"
+msgstr ""
+
+#: elements/parallax.php:159
+msgid "Set the background image at Appearance > Background to get parallax effect on whole body."
+msgstr ""
+
+#: elements/parallax.php:104
+#: elements/parallax.php:125
+#: elements/parallax.php:146
+msgid "Background image for parallax"
+msgstr ""
+
+#: elements/parallax.php:94
+#: elements/parallax.php:115
+#: elements/parallax.php:136
+#: elements/parallax.php:157
+msgid "Parallax"
+msgstr ""
+
+#: cyberchimps/options/options-sanitize.php:449
+msgid "Bold Italic"
+msgstr "Bold Italic"
+
+#: cyberchimps/options/options-sanitize.php:448
+msgid "Bold"
+msgstr "عريض"
+
+#: cyberchimps/options/options-sanitize.php:447
+msgid "Italic"
+msgstr "مائل"
+
+#: cyberchimps/options/options-sanitize.php:446
+msgid "Normal"
+msgstr "عادي"
+
+#: cyberchimps/options/options-sanitize.php:369
+msgid "Fixed in Place"
+msgstr "Fixed in Place"
+
+#: cyberchimps/options/options-sanitize.php:368
+msgid "Scroll Normally"
+msgstr "Scroll Normally"
+
+#: cyberchimps/options/options-sanitize.php:354
+msgid "Bottom Right"
+msgstr "أسفل اليمين"
+
+#: cyberchimps/options/options-sanitize.php:353
+msgid "Bottom Center"
+msgstr "أسفل وسط"
+
+#: cyberchimps/options/options-sanitize.php:352
+msgid "Bottom Left"
+msgstr "أسفل اليسار"
+
+#: cyberchimps/options/options-sanitize.php:351
+msgid "Middle Right"
+msgstr "Middle Right"
+
+#: cyberchimps/options/options-sanitize.php:350
+msgid "Middle Center"
+msgstr "Middle Center"
+
+#: cyberchimps/options/options-sanitize.php:349
+msgid "Middle Left"
+msgstr "Middle Left"
+
+#: cyberchimps/options/options-sanitize.php:348
+msgid "Top Right"
+msgstr "أعلى اليمين"
+
+#: cyberchimps/options/options-sanitize.php:347
+msgid "Top Center"
+msgstr "أعلى وسط"
+
+#: cyberchimps/options/options-sanitize.php:346
+msgid "Top Left"
+msgstr "أعلى اليسار"
+
+#: cyberchimps/options/options-sanitize.php:332
+msgid "Repeat All"
+msgstr "Repeat All"
+
+#: cyberchimps/options/options-sanitize.php:331
+msgid "Repeat Vertically"
+msgstr "Repeat Vertically"
+
+#: cyberchimps/options/options-sanitize.php:330
+msgid "Repeat Horizontally"
+msgstr "Repeat Horizontally"
+
+#: cyberchimps/options/options-sanitize.php:329
+msgid "No Repeat"
+msgstr "بدون تكرار"
+
+#: cyberchimps/options/options-medialibrary-uploader.php:239
+msgid "Previously Uploaded"
+msgstr ""
+
+#: cyberchimps/options/options-medialibrary-uploader.php:239
+msgid "Gallery"
+msgstr "معرض"
+
+#: cyberchimps/options/options-medialibrary-uploader.php:113
+msgid "View File"
+msgstr "View File"
+
+#: cyberchimps/options/options-customizer.php:2885
+msgid "Background Image"
+msgstr "صورة الخلفية"
+
+#: cyberchimps/options/options-customizer.php:2801
+msgid "Typography Face"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2753
+msgid "Typography Style"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2731
+msgid "Typography Size"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2607
+msgid "Skin Color"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:98
+msgid "make sure you have removed the image above before selecting one of these"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2471
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2422
+msgid "Custom 404 Content"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2404
+msgid "Custom 404 Title"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1037
+#: cyberchimps/options/options-customizer.php:1980
+#: cyberchimps/options/options-customizer.php:2127
+msgid "Post Format Icons"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1906
+#: cyberchimps/options/options-customizer.php:2107
+#: cyberchimps/options/options-customizer.php:2289
+#: cyberchimps/options/options-customizer.php:2384
+msgid "Sidebar Options"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1348
+msgid "Slide 3 URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1309
+msgid "Slide 2 URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1270
+msgid "Slide 1 URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1234
+msgid "Slider Lite limits you to a total of 3 images throughout your whole site. Upgrade to %1$s to be able to create more images. Categorize them and display each category on a different page."
+msgstr ""
+
+#: elements/portfolio-lite.php:140
+msgid "Fourth Porfolio Link"
+msgstr ""
+
+#: elements/portfolio-lite.php:133
+msgid "Fourth Portfolio Image Caption"
+msgstr ""
+
+#: elements/portfolio-lite.php:127
+msgid "Fourth Portfolio Image"
+msgstr ""
+
+#: elements/portfolio-lite.php:111
+msgid "Third Porfolio Link"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1556
+#: elements/portfolio-lite.php:104
+msgid "Third Portfolio Image Caption"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1537
+#: elements/portfolio-lite.php:98
+msgid "Third Portfolio Image"
+msgstr ""
+
+#: elements/portfolio-lite.php:82
+msgid "Second Porfolio Link"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1480
+#: elements/portfolio-lite.php:75
+msgid "Second Portfolio Image Caption"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1461
+#: elements/portfolio-lite.php:69
+msgid "Second Portfolio Image"
+msgstr ""
+
+#: elements/portfolio-lite.php:53
+msgid "First Porfolio Link"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1404
+#: elements/portfolio-lite.php:46
+msgid "First Portfolio Image Caption"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1385
+#: elements/portfolio-lite.php:40
+msgid "First Portfolio Image"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1367
+msgid "Portfolio Lite limits you to a total of 4 items throughout your whole site. Upgrade to %1$s to be able to create as many portfolio items as you like. Categorize them and display each category on a different page."
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1856
+msgid "Third Box Text"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1819
+msgid "Third Box Image"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1799
+msgid "Second Box Text"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1762
+msgid "Second Box Image"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1742
+msgid "First Box Text"
+msgstr ""
+
+#: elements/portfolio-lite.php:60
+#: elements/portfolio-lite.php:89
+#: elements/portfolio-lite.php:118
+#: elements/portfolio-lite.php:147
+msgid "Link URL"
+msgstr "رابط الوصلة"
+
+#: cyberchimps/options/options-customizer.php:1705
+msgid "First Box Image"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1234
+#: cyberchimps/options/options-customizer.php:1367
+#: cyberchimps/options/options-customizer.php:1687
+msgid "Pro"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1687
+msgid "Boxes Lite limits you to a total of 3 boxes throughout your whole site. Upgrade to %1$s to be able to create as many boxes as you like. Categorize them and display each category on a different page."
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1199
+#: cyberchimps/options/options-customizer.php:2070
+#: cyberchimps/options/options-customizer.php:2253
+msgid "Post Byline Tags"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1181
+#: cyberchimps/options/options-customizer.php:2052
+#: cyberchimps/options/options-customizer.php:2235
+msgid "Post Byline Comments"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1163
+#: cyberchimps/options/options-customizer.php:2034
+#: cyberchimps/options/options-customizer.php:2217
+msgid "Post Byline Date"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1145
+#: cyberchimps/options/options-customizer.php:2016
+#: cyberchimps/options/options-customizer.php:2199
+msgid "Post Byline Categories"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1127
+#: cyberchimps/options/options-customizer.php:1998
+#: cyberchimps/options/options-customizer.php:2181
+msgid "Post Byline Author"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1109
+#: cyberchimps/options/options-customizer.php:1962
+#: cyberchimps/options/options-customizer.php:2163
+msgid "Featured Images"
+msgstr "الصور البارزة"
+
+#: cyberchimps/options/options-customizer.php:1091
+#: cyberchimps/options/options-customizer.php:2347
+msgid "Excerpt Length"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1073
+#: cyberchimps/options/options-customizer.php:2328
+msgid "Read More Text"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1055
+#: cyberchimps/options/options-customizer.php:2145
+#: cyberchimps/options/options-customizer.php:2309
+msgid "Post Excerpts"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1019
+msgid "Blog Title Text"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:999
+msgid "Blog Title"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2960
+msgid "Drag & Drop Blog Elements"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:851
+msgid "Instagram URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:812
+msgid "RSS URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:773
+msgid "Email Address"
+msgstr "البريد الإلكتروني"
+
+#: cyberchimps/options/options-customizer.php:734
+msgid "Google Maps URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:695
+msgid "Pinterest URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:656
+msgid "Flickr URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:578
+msgid "LinkedIn URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:539
+msgid "Google+ URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:500
+msgid "Twitter URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:459
+msgid "Facebook URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:415
+msgid "Choose your icon style"
+msgstr ""
+
+#: functions.php:561
+msgid "Searchbar"
+msgstr ""
+
+#: elements/parallax.php:105
+#: elements/parallax.php:126
+#: elements/parallax.php:147
+#: elements/testimonial.php:78
+#: elements/testimonial.php:105
+#: elements/testimonial.php:136
+msgid "Enter URL or upload file"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:291
+msgid "Custom Logo URL"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2998
+#: functions.php:297
+msgid "Logo"
+msgstr "شعار"
+
+#: cyberchimps/options/options-customizer.php:2997
+msgid "Logo + Search"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2863
+msgid "Google font for headings"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2842
+msgid "Font Family for headings"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2822
+msgid "Enter Google font"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2675
+msgid "Link Hover Color"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2653
+msgid "Link Color"
+msgstr "لون الرابط"
+
+#: cyberchimps/options/options-customizer.php:2631
+msgid "Text Color"
+msgstr "لون النص"
+
+#: cyberchimps/options/options-customizer.php:2572
+msgid "Max Width"
+msgstr "عرض أقصى"
+
+#: cyberchimps/options/options-customizer.php:2553
+msgid "Only works on layouts with 1 sidebar"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2551
+msgid "Wide Sidebar"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2534
+msgid "Gallery Lightbox"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2517
+msgid "Responsive Videos"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2500
+msgid "Responsive Design"
+msgstr "تحسينات إضافية على التصميم"
+
+#: footer.php:57
+#: footer.php:97
+#: sidebar-left.php:39
+#: sidebar-right.php:39
+#: sidebar.php:39
+msgid "Categories"
+msgstr "تصنيفات"
+
+#: cyberchimps/options/options-customizer.php:2269
+#: searchform.php:18
+msgid "Search"
+msgstr "بحث"
+
+#: cyberchimps/options/options-customizer.php:2087
+msgid "Archive"
+msgstr "الارشيف"
+
+#: cyberchimps/options/options-customizer.php:1886
+msgid "Single Post"
+msgstr "مقالة منفردة"
+
+#: cyberchimps/options/options-customizer.php:1686
+#: elements/init.php:45
+#: elements/init.php:60
+msgid "Boxes Lite"
+msgstr ""
+
+#: elements/portfolio-lite.php:156
+msgid "Portfolio Lite Options"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:1233
+msgid "Blog Slider Lite"
+msgstr ""
+
+#: cyberchimps/options/options-customizer.php:2711
+msgid "Typography"
+msgstr "شكل الخطوط"
+
+#: cyberchimps/options/options-customizer.php:2439
+msgid "Footer"
+msgstr "أسفل الصفحة (الفوتر)"
+
+#: cyberchimps/options/options-customizer.php:939
+#: cyberchimps/options/options-customizer.php:1010
+msgid "Blog"
+msgstr "المدونة"
+
+#: cyberchimps/options/options-customizer.php:263
+msgid "Header"
+msgstr "ترويسة"
+
+#: cyberchimps/options/options-customizer.php:2584
+msgid "Design"
+msgstr ""
+
+#: cyberchimps/options/options-medialibrary-uploader.php:89
+msgid "Upload"
+msgstr "رفع"
+
+#: cyberchimps/options/meta-box-class/my-meta-box-class.php:1935
+#: cyberchimps/options/meta-box-class/my-meta-box-class.php:1945
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr ""
+
+#: cyberchimps/options/meta-box-class/meta-box.php:133
+msgid "Custom Feature Slides"
+msgstr ""
+
+#: cyberchimps/options/meta-box-class/meta-box.php:123
+msgid "Caption"
+msgstr "كلمات توضيحية"
+
+#: cyberchimps/options/meta-box-class/meta-box.php:116
+msgid "Title"
+msgstr "العنوان"
+
+#: cyberchimps/options/meta-box-class/meta-box.php:110
+msgid "Custom Slide Link"
+msgstr ""
+
+#: cyberchimps/options/meta-box-class/meta-box.php:104
+msgid "Slider Caption"
+msgstr ""
+
+#: cyberchimps/options/meta-box-class/meta-box.php:97
+msgid "Slider Image"
+msgstr ""
+
+#: cyberchimps/options/meta-box-class/meta-box.php:76
+msgid "Page Options"
+msgstr ""
+
+#: cyberchimps/options/meta-box-class/meta-box.php:68
+msgid "Visit the %s page options guide"
+msgstr ""
+
+#: cyberchimps/options/meta-box-class/meta-box.php:67
+msgid "Need Help?"
+msgstr ""
+
+#: cyberchimps/options/meta-box-class/meta-box.php:59
+msgid "Twitter Bar"
+msgstr ""
+
+#: cyberchimps/options/meta-box-class/meta-box.php:56
+#: cyberchimps/options/options-customizer.php:1366
+#: cyberchimps/options/options-customizer.php:2968
+#: elements/init.php:46
+#: elements/init.php:61
+msgid "Portfolio Lite"
+msgstr ""
+
+#: cyberchimps/options/meta-box-class/meta-box.php:55
+#: elements/init.php:62
+msgid "Page"
+msgstr "الصفحة"
+
+#: cyberchimps/options/meta-box-class/meta-box.php:52
+msgid "Page Elements"
+msgstr ""
+
+#: cyberchimps/options/meta-box-class/meta-box.php:45
+msgid "Page Title"
+msgstr "عنوان الصفحة"
+
+#: cyberchimps/options/meta-box-class/meta-box.php:34
+#: cyberchimps/options/options-customizer.php:978
+msgid "Select Page Layout"
+msgstr ""
+
+#: cyberchimps/init.php:185
+#: cyberchimps/options/options-customizer.php:2454
+msgid "Footer Widgets"
+msgstr ""
+
+#: cyberchimps/init.php:174
+msgid "Sidebar Right"
+msgstr ""
+
+#: cyberchimps/init.php:162
+msgid "Sidebar Left"
+msgstr ""
+
+#: cyberchimps/init.php:82
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: cyberchimps/inc/cc-custom-background.php:93
+msgid "Or choose one of CyberChimps background images"
+msgstr ""
+
+#: cyberchimps/hooks/class-cyberchimps-hooks.php:255
+#: cyberchimps/options/options-customizer.php:2996
+msgid "Logo + Icons"
+msgstr ""
+
+#: cyberchimps/hooks/class-cyberchimps-hooks.php:160
+msgid "Our Blog"
+msgstr ""
+
+#: cyberchimps/hooks/class-cyberchimps-hooks.php:57
+#: cyberchimps/options/options-customizer.php:2969
+#: elements/init.php:47
+msgid "Post Page"
+msgstr ""
+
+#: cyberchimps/options/meta-box-class/meta-box.php:54
+#: cyberchimps/options/options-customizer.php:2967
+msgid "Boxes"
+msgstr "المربعات"
+
+#: cyberchimps/options/meta-box-class/meta-box.php:57
+#: cyberchimps/options/options-customizer.php:2970
+#: elements/init.php:48
+#: elements/init.php:63
+msgid "Slider Lite"
+msgstr ""
+
+#: cyberchimps/functions.php:1106
+msgid "Add Ons"
+msgstr ""
+
+#: cyberchimps/functions.php:973
+msgid "Options"
+msgstr "خيارات"
+
+#: cyberchimps/functions.php:886
+msgid "For even more amazing new features, upgrade to %1$s which includes a slider with customizable features, an image carousel, widgetized boxes, a callout section, expanded typography (including Google Fonts), additional color skins, and many more powerful new features. Visit %2$s to learn more!"
+msgstr ""
+
+#: cyberchimps/functions.php:879
+msgid "Upgrade to %1$s"
+msgstr ""
+
+#: cyberchimps/functions.php:867
+msgid "Support"
+msgstr "الدعم الفني"
+
+#: cyberchimps/functions.php:861
+msgid "Instructions"
+msgstr ""
+
+#: cyberchimps/functions.php:699
+#: cyberchimps/functions.php:739
+#: cyberchimps/options/options-customizer.php:2330
+msgid "Read More..."
+msgstr "قراءة المزيد..."
+
+#: cyberchimps/functions.php:539
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: cyberchimps/functions.php:528
+msgid "Not Found"
+msgstr "غير موجود"
+
+#: cyberchimps/functions.php:523
+msgid "Search for &quot; %s &quot;"
+msgstr ""
+
+#: cyberchimps/functions.php:515
+msgid "Shop"
+msgstr ""
+
+#: cyberchimps/functions.php:507
+msgid "Author Archives"
+msgstr ""
+
+#: cyberchimps/functions.php:372
+msgid "Comments"
+msgstr "تعليقات"
+
+#: cyberchimps/functions.php:372
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: cyberchimps/functions.php:368
+#: cyberchimps/functions.php:383
+msgid "Leave a comment"
+msgstr "أضف تعليق"
+
+#: cyberchimps/functions.php:344
+msgid "Tags: %s"
+msgstr ""
+
+#: cyberchimps/functions.php:317
+msgid "Posted in %s"
+msgstr "داخل %s"
+
+#: cyberchimps/functions.php:288
+msgid "by %s"
+msgstr "بواسطة %s"
+
+#: cyberchimps/functions.php:284
+#: cyberchimps/functions.php:1244
+#: functions.php:1236
+msgid "View all posts by %s"
+msgstr "عرض جميع المواضيع التي كتبها %s"
+
+#: cyberchimps/functions.php:254
+msgid "Posted on %s"
+msgstr ""
+
+#: content.php:81
+#: content.php:94
+#: content.php:139
+#: image.php:101
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: content.php:80
+#: content.php:117
+#: content.php:129
+#: content.php:138
+#: image.php:59
+#: image.php:179
+msgid "Edit"
+msgstr "تحرير"
+
+#: content.php:79
+#: content.php:93
+#: content.php:137
+msgid "Continue reading"
+msgstr "متابعة القراءة"
+
+#: content.php:37
+#: content.php:53
+#: cyberchimps/functions.php:403
+#: functions.php:1449
+msgid "Permalink to %s"
+msgstr "الرابط الدائم لـِ %s"
+
+#: comments.php:97
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:87
+msgid "Newer Comments &rarr;"
+msgstr "التعليقات الأحدث &larr;"
+
+#: comments.php:86
+msgid "&larr; Older Comments"
+msgstr "&rarr; التعليقات الأقدم"
+
+#: comments.php:66
+msgid "Newer Comments"
+msgstr "التعليقات الأحدث"
+
+#: comments.php:65
+msgid "Older Comments"
+msgstr "التعليقات الأقدم"
+
+#: comments.php:63
+#: comments.php:84
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: archive.php:69
+#: cyberchimps/functions.php:517
+#: footer.php:50
+#: footer.php:90
+#: sidebar-left.php:32
+#: sidebar-right.php:32
+#: sidebar.php:32
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: 404.php:48
+msgid "It looks like nothing was found at this location. Maybe try searching for it?"
+msgstr ""
+
+#: 404.php:40
+msgid "Oops! That page cannot be found."
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.cyberchimps.com/"
+msgstr ""
+
+#. Author of the theme
+msgid "CyberChimps"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://cyberchimps.com/ifeature-free/"
+msgstr ""

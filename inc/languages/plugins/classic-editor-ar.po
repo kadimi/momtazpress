@@ -11,86 +11,80 @@ msgstr ""
 "Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
-#: classic-editor.php:812
+#: classic-editor.php:822
 msgctxt "Editor Name"
-msgid "Edit (Classic Editor)"
+msgid "Edit (classic editor)"
 msgstr "تحرير (المحرر التقليدي)"
 
-#: classic-editor.php:805
+#: classic-editor.php:815
 msgctxt "Editor Name"
-msgid "Edit (Block Editor)"
+msgid "Edit (block editor)"
 msgstr "تحرير (مُحرر المكوّنات)"
 
-#: classic-editor.php:479
+#: classic-editor.php:489
 msgid "Change settings"
 msgstr "تغيير الإعدادات"
 
-#: classic-editor.php:466
+#: classic-editor.php:476
 msgid "Default editor for all sites"
 msgstr "المحرر الافتراضي لجميع المواقع"
 
-#: classic-editor.php:462
+#: classic-editor.php:472
 msgid "Editor Settings"
 msgstr "إعدادات المحرر"
 
-#: classic-editor.php:446
+#: classic-editor.php:456
 msgid "Default Editor"
 msgstr "المحرر الافتراضي"
 
-#: classic-editor.php:397
-#: classic-editor.php:474
-#: classic-editor.php:846
-#: classic-editor.php:859
+#: classic-editor.php:856
 msgctxt "Editor Name"
-msgid "Block Editor"
+msgid "block editor"
 msgstr "مُحرر المكوّنات"
 
-#: classic-editor.php:393
-#: classic-editor.php:470
-#: classic-editor.php:843
-#: classic-editor.php:859
+#: classic-editor.php:853
 msgctxt "Editor Name"
-msgid "Classic Editor"
+msgid "classic editor"
 msgstr "المحرر التقليدي"
 
 #. translators: %s: post title
-#: classic-editor.php:807
-msgid "Edit &#8220;%s&#8221; in the Block Editor"
+#: classic-editor.php:817
+msgid "Edit &#8220;%s&#8221; in the block editor"
 msgstr "تحرير &#8220;%s&#8221; في مُحرر المكوّنات"
 
-#: classic-editor.php:647
-msgid "Switch to Block Editor"
+#: classic-editor.php:657
+msgid "Switch to block editor"
 msgstr "التبديل إلى مُحرر المكوّنات"
 
-#: classic-editor.php:671
-msgid "Switch to Classic Editor"
+#: classic-editor.php:681
+msgid "Switch to classic editor"
 msgstr "التبديل إلى المحرر التقليدي"
 
-#: classic-editor.php:483
-msgid "By default the Block Editor is replaced with the Classic Editor and users cannot switch editors."
+#: classic-editor.php:493
+msgid "By default the block editor is replaced with the classic editor and users cannot switch editors."
 msgstr "بشكل افتراضي، يتمّ استبدال مُحرر المكوّنات بالمحرر التقليدي ولا يمكن للمستخدمين التبديل بين المُحررين."
 
-#: classic-editor.php:482
+#: classic-editor.php:492
 msgid "Allow site admins to change settings"
 msgstr "السماح لمدراء الموقع بتغيير الإعدادات"
 
-#: classic-editor.php:628
+#: classic-editor.php:638
 msgid "Editor"
 msgstr "المُحرر"
 
-#: classic-editor.php:421
+#: classic-editor.php:431
 msgid "No"
 msgstr "لا"
 
-#: classic-editor.php:417
+#: classic-editor.php:427
 msgid "Yes"
 msgstr "نعم"
 
-#: classic-editor.php:344
+#: classic-editor.php:354
 msgid "Allow users to switch editors"
 msgstr "السماح للمستخدمين للتبديل بين المُحررين"
 
-#: classic-editor.php:343
+#: classic-editor.php:353
 msgid "Default editor for all users"
 msgstr "المُحرر الافتراضي لجميع المستخدمين"
 
@@ -115,10 +109,10 @@ msgid "Classic Editor"
 msgstr "المحرر التقليدي Classic Editor"
 
 #. translators: %s: post title
-#: classic-editor.php:814
-msgid "Edit &#8220;%s&#8221; in the Classic Editor"
+#: classic-editor.php:824
+msgid "Edit &#8220;%s&#8221; in the classic editor"
 msgstr "تحرير &#8220;%s&#8221; في المحرر التقليدي"
 
-#: classic-editor.php:690
+#: classic-editor.php:700
 msgid "Settings"
 msgstr "الإعدادات"
