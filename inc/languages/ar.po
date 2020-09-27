@@ -91,27 +91,22 @@ msgid "number_format_decimal_point"
 msgstr "."
 
 #. translators: %s: WP_ENVIRONMENT_TYPES
-#: fuzzy
 #: wp-includes/load.php:164
 msgid "The %s constant is no longer supported."
 msgstr "هذا الموقع لم يعد متاحاً."
 
-#: fuzzy
 #: wp-includes/block-patterns/text-three-columns-buttons.php:11
 msgid "Chapter Three"
 msgstr "فصول"
 
-#: fuzzy
 #: wp-includes/block-patterns/text-three-columns-buttons.php:11
 msgid "Chapter Two"
 msgstr "فصول"
 
-#: fuzzy
 #: wp-includes/block-patterns/text-three-columns-buttons.php:11
 msgid "Chapter One"
 msgstr "فصول"
 
-#: fuzzy
 #: wp-includes/block-patterns/large-header-button.php:10
 msgid "Read now"
 msgstr "قراءة المزيد"
@@ -150,12 +145,10 @@ msgstr "هناك نسخة جديدة متاحة من %s، لكنها لا تعم
 msgid "There is a new version of %s available, but it doesn&#8217;t work with your versions of WordPress and PHP."
 msgstr "هناك نسخة جديدة متاحة من %s، لكنها لا تعمل مع إصدارات ووردبريس و PHP الخاصة بك."
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:29776
 msgid "Color value in HSLA"
 msgstr "قيمة اللون HSL"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:29732
 msgid "Color value in RGBA"
 msgstr "قيمة اللون RGB"
@@ -191,7 +184,6 @@ msgctxt "Block pattern description"
 msgid "Three filled buttons with rounded corners, side by side."
 msgstr "ثلاثة أزرار مملوءة بزوايا مستديرة، جنبًا إلى جنب."
 
-#: fuzzy
 #: wp-includes/block-patterns/three-buttons.php:10
 msgid "Books"
 msgstr "روابط"
@@ -209,7 +201,6 @@ msgstr "فلما تجهزّ بجهازه، لم يشأ أن ينتظر أكثر 
 msgid "Which treats of the first sally the ingenious Don Quixote made from home"
 msgstr "في أول خرْجة (رحلة) للماهر دون كيخوته خرجها من وطنه"
 
-#: fuzzy
 #: wp-includes/block-patterns/heading-paragraph.php:9
 msgid "Heading and paragraph"
 msgstr "إضافة الفقرات آلياً."
@@ -253,7 +244,6 @@ msgstr "قسم استعراضي كبير مع مثال لصورة خلفية و�
 msgid "Don Quixote"
 msgstr "دون كيخوتي"
 
-#: fuzzy
 #: wp-includes/block-patterns/large-header.php:9
 msgid "Large header with a heading"
 msgstr "ارتفاع الصورة ذات الحجم الكبير"
@@ -263,13 +253,11 @@ msgctxt "Block pattern description"
 msgid "Two buttons, one filled and one outlined, side by side."
 msgstr "زران، أحدهما مملوء والآخر مُحدد، جنبًا إلى جنب."
 
-#: wp-includes/block-patterns/two-buttons.php:10
-#: fuzzy
 #: wp-includes/block-patterns/three-buttons.php:10
+#: wp-includes/block-patterns/two-buttons.php:10
 msgid "About Cervantes"
 msgstr "نبذة عن ووردبريس"
 
-#: fuzzy
 #: wp-includes/block-patterns/two-buttons.php:10
 msgid "Download now"
 msgstr "تنزيل"
@@ -434,25 +422,21 @@ msgid "The \"%s\" must be a callable function."
 msgstr "يجب أن تكون \"%s\" دالة قابلة للاستدعاء."
 
 #. translators: %s: customize_messenger_channel
-#: fuzzy
 #: wp-includes/class-wp-customize-manager.php:1914
 msgid "Unauthorized. You may remove the %s param to preview as frontend."
 msgstr "غير مصرح. حاول إزالة المُعامل customize_messenger_channel لمعاينة الواجهة."
 
 #. translators: 1: Deprecated option key, 2: New option key.
-#: fuzzy
 #: wp-includes/option.php:53
 #: wp-includes/option.php:354
 #: wp-includes/option.php:541
 msgid "The \"%1$s\" option key has been renamed to \"%2$s\"."
 msgstr "مجموعة الخيارات \"%s\" تمّت إزالتها. استخدم مجموعة إعدادات أخرى."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:670
 msgid "Sorry, you are not allowed to manage network plugins."
 msgstr "عذرًا، غير مسموح لك بإدارة حالات النشر."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:25039
 msgid "Child Blocks"
 msgstr "جميع المكوّنات"
@@ -463,12 +447,10 @@ msgstr "جميع المكوّنات"
 msgid "The REST API route definition for %1$s is missing the required %2$s argument. For REST API routes that are intended to be public, use %3$s as the permission callback."
 msgstr "يفتقد تعريف توجيه REST API لـ %1$s للمتغير المطلوب %2$s. بالنسبة لتوجيهات REST API التي يجب أن تكون عامة، استخدم %3$s كطلب استدعاء صلاحية."
 
-#: fuzzy
 #: wp-includes/post.php:3991
 msgid "Could not update attachment in the database."
 msgstr "لا يمكن تحديث الموقع في قاعدة البيانات."
 
-#: fuzzy
 #: wp-admin/plugins.php:48
 #: wp-admin/plugins.php:175
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:678
@@ -477,7 +459,6 @@ msgstr "عذرًا، غير مسموح لك تحرير هذه الصفحة."
 
 #. translators: %s: the author.
 #. translators: byline. %s: current author.
-#: fuzzy
 #: wp-includes/blocks/latest-posts.php:105
 #: wp-includes/blocks/rss.php:60
 #: wp-includes/js/dist/block-library.js:17390
@@ -495,7 +476,6 @@ msgstr[4] "تم إضافة المكوّنات التالية إلى موقعك."
 msgstr[5] "تم إضافة المكوّنات التالية إلى موقعك."
 
 #. translators: %d: number of blocks (number).
-#: fuzzy
 #: wp-includes/js/dist/block-directory.js:2105
 msgid "Added: %d block"
 msgid_plural "Added: %d blocks"
@@ -506,12 +486,10 @@ msgstr[3] "إضافة مكوّن"
 msgstr[4] "إضافة مكوّن"
 msgstr[5] "إضافة مكوّن"
 
-#: fuzzy
 #: wp-includes/js/dist/block-directory.js:1763
 msgid "Reload"
 msgstr "تحميل مسبق"
 
-#: fuzzy
 #: wp-includes/js/dist/block-directory.js:1657
 msgid "Adding…"
 msgstr "تضمين…"
@@ -527,17 +505,14 @@ msgstr[3] "هذا الكاتب يملك %1$d مكوّنات."
 msgstr[4] "هذا الكاتب يملك %1$d مكوّن."
 msgstr[5] "هذا الكاتب يملك %1$d مكوّن."
 
-#: fuzzy
 #: wp-includes/js/dist/block-directory.js:1136
 msgid "Error installing block. You can reload the page and try again."
 msgstr "حدث خطأ. يرجى إعادة تحميل الصفحة والمحاولة مرة أخرى."
 
-#: fuzzy
 #: wp-includes/js/dist/block-directory.js:1135
 msgid "This block is already installed. Try reloading the page."
 msgstr "هذه الصفحة يجري تحريرها بالفعل حاليًا."
 
-#: fuzzy
 #: wp-includes/js/dist/block-directory.js:1130
 #: wp-includes/js/dist/block-directory.js:1201
 msgid "An error occurred."
@@ -547,25 +522,21 @@ msgstr "حدث خطأ غير معروف."
 msgid "Error registering block. Try reloading the page."
 msgstr "خطأ في تسجيل المكوّن. حاول إعادة تحميل الصفحة."
 
-#: fuzzy
 #: wp-admin/includes/ajax-actions.php:1507
 #: wp-includes/js/dist/core-data.js:2103
 msgid "Menu Item"
 msgstr "أضف عناصر القائمة"
 
-#: fuzzy
 #: wp-admin/edit-form-comment.php:72
 #: wp-admin/includes/template.php:459
 #: wp-includes/js/dist/core-data.js:2091
 msgid "Comment"
 msgstr "التعليق"
 
-#: fuzzy
 #: wp-includes/js/dist/core-data.js:2079
 msgid "Widget area"
 msgstr "ودجات"
 
-#: fuzzy
 #: wp-includes/js/dist/core-data.js:2045
 msgid "Site"
 msgstr "المواقع"
@@ -574,7 +545,6 @@ msgstr "المواقع"
 msgid " … "
 msgstr " … "
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:17205
 msgid "Display author name"
 msgstr "عرض الكاتب"
@@ -623,12 +593,10 @@ msgstr "إعدادات الألوان"
 msgid "Browser default"
 msgstr "المتصفح الافتراضي"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:8141
 msgid "Edit gallery image"
 msgstr "تحرير المعرض"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:5289
 msgid "Upload external image"
 msgstr "رفع صورة"
@@ -638,7 +606,6 @@ msgstr "رفع صورة"
 msgid "Crop"
 msgstr "قص"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:5252
 msgid "Image uploaded."
 msgstr "تمّ تحديث الصفحة."
@@ -652,7 +619,6 @@ msgid "Zoom"
 msgstr "تكبير"
 
 #. translators: 1. Error message
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:4875
 msgid "Could not edit image. %s"
 msgstr "تعذّر قراءة حجم الصورة."
@@ -693,7 +659,6 @@ msgstr "16:9"
 msgid "16:10"
 msgstr "16:10"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:4740
 msgid "Landscape"
 msgstr "مفتاح Esc"
@@ -715,7 +680,6 @@ msgstr "اجتماعي"
 
 #. translators: accessibility text. 1: The block title. 2: The block row
 #. number.
-#: fuzzy
 #: wp-includes/js/dist/blocks.js:6980
 msgid "%1$s Block. Row %2$d"
 msgstr "%1$s على %2$s"
@@ -724,22 +688,18 @@ msgstr "%1$s على %2$s"
 msgid "Design"
 msgstr "تصميم"
 
-#: fuzzy
 #: wp-includes/js/dist/a11y.js:140
 msgid "Notifications"
 msgstr "تعليقات توضيحية"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:7991
 msgid "Block library"
 msgstr "قائمة المكوّنات"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:7851
 msgid "Open save panel"
 msgstr "فتح لوحة النشر"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:6145
 msgid "Preview in new tab"
 msgstr "رابط المعاينة"
@@ -748,7 +708,6 @@ msgstr "رابط المعاينة"
 msgid "Contain text cursor inside active block"
 msgstr "تحتوي على مؤشر نص بداخل مكوّن نشط"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5390
 msgid "Keyboard options"
 msgstr "مزيد من الخيارات"
@@ -758,17 +717,14 @@ msgid "Enable the Most Used Blocks category in the block library"
 msgstr "تمكين تصنيف المكوّنات (الأكثر استخدامًا) في مكتبة المكوّنات"
 
 #. translators: accessibility text for the left sidebar landmark region.
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:4174
 msgid "Left sidebar"
 msgstr "الشريط الجانبي"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:38413
 msgid "Move the selected block(s) down."
 msgstr "إزالة المكوّنات المُحددة."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:38404
 msgid "Move the selected block(s) up."
 msgstr "إزالة المكوّنات المُحددة."
@@ -777,7 +733,6 @@ msgstr "إزالة المكوّنات المُحددة."
 msgid "Mobile"
 msgstr "الجوال"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:36115
 msgid "Tablet"
 msgstr "جدول"
@@ -786,17 +741,14 @@ msgstr "جدول"
 msgid "Desktop"
 msgstr "سطح المكتب"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:34528
 msgid "Current media URL:"
 msgstr "الترويسة الحالية"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:34213
 msgid "Creating"
 msgstr "إنشاء"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:34093
 msgid "An unknown error occurred during creation. Please try again."
 msgstr "حدث خطأ. يرجى المحاولة مرة أخرى."
@@ -806,22 +758,18 @@ msgstr "حدث خطأ. يرجى المحاولة مرة أخرى."
 msgid "New page: <mark>%s</mark>"
 msgstr "صفحة جديدة: <mark>%s</mark>"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:32506
 msgid "Image size presets"
 msgstr "حجم الصورة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:32129
 msgid "Block variations"
 msgstr "قائمة المكوّنات"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:32083
 msgid "Navigation item"
 msgstr "بند قائمة التصفح"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:31150
 msgid "Block navigation structure"
 msgstr "قائمة المكوّنات"
@@ -832,7 +780,6 @@ msgstr "قائمة المكوّنات"
 msgid "Add block at position %1$d, Level %2$d"
 msgstr "إضافة المكوّن في الموضع %1$d، المستوى %2$d"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:30955
 msgid "Go to block"
 msgstr "تحويل إلى مكوّنات"
@@ -843,7 +790,6 @@ msgstr "تحويل إلى مكوّنات"
 msgid "Block %1$d of %2$d, Level %3$d"
 msgstr "المكوّن %1$d من %2$d، المستوى %3$d"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:28872
 msgid "Move To"
 msgstr "تحريك للأسفل"
@@ -881,7 +827,6 @@ msgid "Copied \"%s\" to clipboard."
 msgstr "تم نسخ \"%s\" إلى الحافظة."
 
 #. translators: %s: Name of the block's parent.
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:27662
 msgid "Select parent (%s)"
 msgstr "تحديد السنة"
@@ -904,7 +849,6 @@ msgid "Patterns"
 msgstr "الأنماط"
 
 #. translators: %d: the name of the block that has been added
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:25571
 msgid "%d block added."
 msgid_plural "%d blocks added."
@@ -916,7 +860,6 @@ msgstr[4] "%d مكوّن"
 msgstr[5] "%d مكوّن"
 
 #. translators: %s: block pattern title.
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:25154
 msgid "Pattern \"%s\" inserted."
 msgstr "استخدم %s كبديل."
@@ -929,7 +872,6 @@ msgstr "استخدم مفتاح Tab ومفاتيح الأسهم لاختيار �
 msgid "You are currently in navigation mode. Navigate blocks using the Tab key and Arrow keys. Use Left and Right Arrow keys to move between nesting levels. To exit navigation mode and edit the selected block, press Enter."
 msgstr "أنت حاليًا في وضع التنقّل. تنقل بين المكوّنات باستخدام مفتاح Tab ومفاتيح الأسهم. استخدم الأسهم لليمين واليسار للتنقّل بين مستويات البناء. للخروج من وضع التنقل وتحرير المكوّنات المحددة، اضغط على مفتاح Enter."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:18314
 msgid "Reset search"
 msgstr "استعادة كلمة المرور"
@@ -954,17 +896,14 @@ msgstr "اضغط على <kbd>زر المسافة</kbd> للمسافة الباد
 msgid "Open Colors Selector"
 msgstr "فتح مُحدّد الألوان"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:16373
 msgid "Change matrix alignment"
 msgstr "تغيير محاذاة النص"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:14729
 msgid "Spacing"
 msgstr "زر المسافة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:14684
 msgid "Padding"
 msgstr "عنوان"
@@ -973,27 +912,22 @@ msgstr "عنوان"
 msgid "Typography"
 msgstr "الخطوط"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:14126
 msgid "Line height"
 msgstr "محاذاة لليمين"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:11565
 msgid "Save draft"
 msgstr "حفظ المسودة"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:7776
 msgid "Review changes."
 msgstr "عرض حزمة التغييرات"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:7776
 msgid "Hide changes."
 msgstr "تجاهل التغييرات"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:7772
 msgid "Are you ready to save?"
 msgstr "هل أنت مستعدّ للجدولة؟"
@@ -1028,17 +962,14 @@ msgstr "تم إجراء تغييرات على %1$s و %2$s."
 
 #. translators: placeholders represent pre-translated singular/plural entity
 #. names (page, post, template, site, etc.)
-#: fuzzy
 #: wp-includes/js/dist/editor.js:7656
 msgid "Changes have been made to your %s."
 msgstr "تم وضع التغييرات في سلة المهملات بالفعل."
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:7653
 msgid "There are no changes."
 msgstr "حفظ تعديلاتك."
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:7648
 msgid "site"
 msgid_plural "sites"
@@ -1049,7 +980,6 @@ msgstr[3] "الموقع الإلكتروني"
 msgstr[4] "الموقع الإلكتروني"
 msgstr[5] "الموقع الإلكتروني"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:7645
 msgid "page"
 msgid_plural "pages"
@@ -1060,7 +990,6 @@ msgstr[3] "الصفحة الرئيسية"
 msgstr[4] "الصفحة الرئيسية"
 msgstr[5] "الصفحة الرئيسية"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:7639
 msgid "template"
 msgid_plural "templates"
@@ -1071,7 +1000,6 @@ msgstr[3] "نموذج"
 msgstr[4] "نموذج"
 msgstr[5] "نموذج"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:7636
 msgid "template part"
 msgid_plural "template parts"
@@ -1082,17 +1010,14 @@ msgstr[3] "نموذج"
 msgstr[4] "نموذج"
 msgstr[5] "نموذج"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:28086
 msgid "Box Control"
 msgstr "عرض عناصر التحكم."
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:27799
 msgid "Link Sides"
 msgstr "عنوان الرابط"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:27799
 msgid "Unlink Sides"
 msgstr "إزالة الربط"
@@ -1101,27 +1026,22 @@ msgstr "إزالة الربط"
 msgid "Alignment Matrix Control"
 msgstr "التحكّم بحشوة المحاذاة"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:18798
 msgid "Bottom Center"
 msgstr "أسفل اليسار"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:18796
 msgid "Center Right"
 msgstr "وسط"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:18795
 msgid "Center Center"
 msgstr "وسط"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:18794
 msgid "Center Left"
 msgstr "وسط"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:18792
 msgid "Top Center"
 msgstr "وسط"
@@ -1131,13 +1051,11 @@ msgstr "وسط"
 msgid "The file URL has been copied to your clipboard"
 msgstr "تم نسخ رابط الملف إلى الحافظة الخاصة بك"
 
-#: fuzzy
 #: wp-includes/class-wp-oembed-controller.php:213
 msgid "Embed Handler"
 msgstr "إدراج مشغل الوسائط"
 
 #. translators: %s: Documentation URL.
-#: fuzzy
 #: wp-includes/ms-load.php:497
 msgid "Read the <a href=\"%s\" target=\"_blank\">Debugging a WordPress Network</a> article. Some of the suggestions there may help you figure out what went wrong."
 msgstr "اقرأ صفحة <a href=\"%s\" target=\"_blank\">تقرير عن خطأ</a>. بعض التوجيهات هناك قد تساعدك على معرفة ما الخطأ الذي حدث."
@@ -1147,36 +1065,30 @@ msgstr "اقرأ صفحة <a href=\"%s\" target=\"_blank\">تقرير عن خط�
 msgid "Block pattern category \"%1$s\" not found."
 msgstr "لم يتم العثور على تصنيف نمط المكوّن \"%1$s\"."
 
-#: fuzzy
 #: wp-includes/class-wp-block-pattern-categories-registry.php:39
 msgid "Block pattern category name must be a string."
 msgstr "يجب أن تتكون أسماء نوع المكوّن على أحرف فقط."
 
-#: fuzzy
 #: wp-includes/block-patterns.php:46
 msgctxt "Block pattern category"
 msgid "Text"
 msgstr "نص"
 
-#: fuzzy
 #: wp-includes/block-patterns.php:45
 msgctxt "Block pattern category"
 msgid "Headers"
 msgstr "ترويسة"
 
-#: fuzzy
 #: wp-includes/block-patterns.php:44
 msgctxt "Block pattern category"
 msgid "Gallery"
 msgstr "معرض"
 
-#: fuzzy
 #: wp-includes/block-patterns.php:43
 msgctxt "Block pattern category"
 msgid "Columns"
 msgstr "أعمدة"
 
-#: fuzzy
 #: wp-includes/block-patterns.php:42
 msgctxt "Block pattern category"
 msgid "Buttons"
@@ -1188,7 +1100,6 @@ msgid "Return a %1$s or %2$s object from your callback when using the REST API."
 msgstr "إرجاع كائن %1$s أو %2$s من رد استجابتك عند استخدام الـ REST API."
 
 #. translators: Unit symbol for byte.
-#: fuzzy
 #: wp-includes/functions.php:461
 #: wp-includes/functions.php:466
 msgctxt "unit symbol"
@@ -1196,28 +1107,24 @@ msgid "B"
 msgstr "B"
 
 #. translators: Unit symbol for kilobyte.
-#: fuzzy
 #: wp-includes/functions.php:459
 msgctxt "unit symbol"
 msgid "KB"
 msgstr "B"
 
 #. translators: Unit symbol for megabyte.
-#: fuzzy
 #: wp-includes/functions.php:457
 msgctxt "unit symbol"
 msgid "MB"
 msgstr "B"
 
 #. translators: Unit symbol for gigabyte.
-#: fuzzy
 #: wp-includes/functions.php:455
 msgctxt "unit symbol"
 msgid "GB"
 msgstr "B"
 
 #. translators: Unit symbol for terabyte.
-#: fuzzy
 #: wp-includes/functions.php:453
 msgctxt "unit symbol"
 msgid "TB"
@@ -1229,56 +1136,47 @@ msgid "Modern"
 msgstr "عصري"
 
 #. translators: 1: Title prefix. 2: Title.
-#: fuzzy
 #: wp-includes/general-template.php:1725
 msgctxt "archive title"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
 #. translators: %s: Taxonomy singular name.
-#: fuzzy
 #: wp-includes/general-template.php:1706
 msgctxt "taxonomy term archive title prefix"
 msgid "%s:"
 msgstr "%s:"
 
-#: fuzzy
 #: wp-includes/general-template.php:1698
 msgctxt "post type archive title prefix"
 msgid "Archives:"
 msgstr "الأرشيف"
 
-#: fuzzy
 #: wp-includes/general-template.php:1675
 msgctxt "date archive title prefix"
 msgid "Day:"
 msgstr "اليوم: %s"
 
-#: fuzzy
 #: wp-includes/general-template.php:1672
 msgctxt "date archive title prefix"
 msgid "Month:"
 msgstr "الشهر"
 
-#: fuzzy
 #: wp-includes/general-template.php:1669
 msgctxt "date archive title prefix"
 msgid "Year:"
 msgstr "عام"
 
-#: fuzzy
 #: wp-includes/general-template.php:1666
 msgctxt "author archive title prefix"
 msgid "Author:"
 msgstr "الكاتب:"
 
-#: fuzzy
 #: wp-includes/general-template.php:1663
 msgctxt "tag archive title prefix"
 msgid "Tag:"
 msgstr "الوسم: %s"
 
-#: fuzzy
 #: wp-includes/general-template.php:1660
 msgctxt "category archive title prefix"
 msgid "Category:"
@@ -1289,59 +1187,48 @@ msgstr "تصنيف"
 msgid "The asset file for the \"%1$s\" defined in \"%2$s\" block definition is missing."
 msgstr "الملف الأصل لتعريف \"%1$s\" المحدد في تعريف المكوّن \"%2$s\" مفقود."
 
-#: fuzzy
 #: wp-includes/ms-deprecated.php:413
 msgid "<strong>Error</strong>: There was a problem creating site entry."
 msgstr "<strong>خطأ</strong>: مشكلة في إنشاء الصفحة الرئيسية للموقع."
 
-#: fuzzy
 #: wp-includes/ms-deprecated.php:404
 msgid "<strong>Error</strong>: Site URL you&#8217;ve entered is already taken."
 msgstr "<strong>خطأ</strong>: رابط هذه الموقع مستخدم سابقاً."
 
 #. translators: 1: Pattern name.
-#: fuzzy
 #: wp-includes/class-wp-block-patterns-registry.php:75
 msgid "Pattern \"%1$s\" not found."
 msgstr "الصفحة غير موجودة."
 
-#: fuzzy
 #: wp-includes/class-wp-block-patterns-registry.php:52
 msgid "Pattern content must be a string."
 msgstr "يجب أن تتكون أسماء نوع المكوّن على أحرف فقط."
 
-#: fuzzy
 #: wp-includes/class-wp-block-patterns-registry.php:47
 msgid "Pattern title must be a string."
 msgstr "يجب أن تتكون أسماء نوع المكوّن على أحرف فقط."
 
-#: fuzzy
 #: wp-includes/class-wp-block-patterns-registry.php:42
 msgid "Pattern name must be a string."
 msgstr "يجب أن تتكون أسماء نوع المكوّن على أحرف فقط."
 
-#: fuzzy
 #: wp-includes/media.php:4241
 msgid "Attachment details"
 msgstr "تفاصيل المرفق"
 
-#: fuzzy
 #: wp-includes/media.php:4187
 #: wp-includes/media.php:4209
 msgid "Add media"
 msgstr "أضف ملفات وسائط"
 
-#: fuzzy
 #: wp-includes/post.php:4014
 msgid "Could not insert attachment into the database."
 msgstr "لا يمكن إدراج موقع إلى قاعدة البيانات."
 
-#: fuzzy
 #: wp-includes/comment.php:2525
 msgid "Could not update comment in the database."
 msgstr "لم أتمكن من تحديث المقالة في قاعدة البيانات"
 
-#: fuzzy
 #: wp-admin/includes/media.php:3269
 #: wp-includes/media-template.php:503
 #: wp-includes/media-template.php:694
@@ -1349,24 +1236,20 @@ msgid "File URL:"
 msgstr "رابط الموقع."
 
 #. translators: %s is the name of a JSON field expecting a valid uuid.
-#: fuzzy
 #: wp-includes/rest-api.php:1769
 msgid "%s is not a valid UUID."
 msgstr "%s ليس عنوان IP صالح."
 
-#: fuzzy
 #: wp-includes/rest-api.php:1745
 msgid "Invalid hex color."
 msgstr "ملف تعريف ارتباط غير صالح."
 
 #. translators: 1: Parameter, 2: Pattern.
-#: fuzzy
 #: wp-includes/rest-api.php:1732
 msgid "%1$s does not match pattern %2$s."
 msgstr "%1$s ليس من النوع %2$s."
 
 #. translators: 1: Parameter, 2: Number of characters.
-#: fuzzy
 #: wp-includes/rest-api.php:1721
 msgid "%1$s must be at most %2$s character long."
 msgid_plural "%1$s must be at most %2$s characters long."
@@ -1378,7 +1261,6 @@ msgstr[4] "يجب أن يتكون اسم الموقع من %s حرف على ال
 msgstr[5] "يجب أن يتكون اسم الموقع من %s حرف على الأقل."
 
 #. translators: 1: Parameter, 2: Number of characters.
-#: fuzzy
 #: wp-includes/rest-api.php:1709
 msgid "%1$s must be at least %2$s character long."
 msgid_plural "%1$s must be at least %2$s characters long."
@@ -1390,7 +1272,6 @@ msgstr[4] "يجب أن يتكون اسم الموقع من %s حرف على ال
 msgstr[5] "يجب أن يتكون اسم الموقع من %s حرف على الأقل."
 
 #. translators: 1: Property of an object, 2: Parameter.
-#: fuzzy
 #: wp-includes/rest-api.php:1633
 #: wp-includes/rest-api.php:1640
 msgid "%1$s is a required property of %2$s."
@@ -1437,7 +1318,6 @@ msgstr "يمكن أن تحتوي الكلمة المفتاحية للمخطط \"
 #. translators: Developer debugging message. 1: PHP function name, 2:
 #. Explanatory message.
 #. translators: 1: Theme name. 2: Theme slug.
-#: fuzzy
 #: wp-admin/includes/class-wp-debug-data.php:1055
 #: wp-admin/includes/class-wp-debug-data.php:1074
 #: wp-admin/includes/class-wp-debug-data.php:1171
@@ -1447,7 +1327,6 @@ msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
 #. translators: %s: Name of the script or stylesheet.
-#: fuzzy
 #: wp-includes/functions.wp-scripts.php:59
 msgid "This notice was triggered by the %s handle."
 msgstr "هذا المحتوى تم حذفه بواسطة الكاتب."
@@ -1457,7 +1336,6 @@ msgstr "هذا المحتوى تم حذفه بواسطة الكاتب."
 msgid "Please consider writing more inclusive code."
 msgstr "يرجى النظر في كتابة كود أكثر شمولاً."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1317
 msgid "URL to the edited image file."
 msgstr "رابط ملف الوسائط"
@@ -1482,17 +1360,14 @@ msgstr "كنسبة مئوية من الصورة، الموضع x لبدء الا
 msgid "The amount to rotate the image clockwise in degrees."
 msgstr "مقدار تدوير الصورة باتجاه عقارب الساعة بالدرجة."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:512
 msgid "Unable to crop this image."
 msgstr "غير قادر على حذف التغييرات."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:493
 msgid "Unable to rotate this image."
 msgstr "غير قادر على حذف التغييرات."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:482
 msgid "Unable to edit this image."
 msgstr "انقر لتحرير هذا الودجت."
@@ -1501,17 +1376,14 @@ msgstr "انقر لتحرير هذا الودجت."
 msgid "The image was not edited. Edit the image before applying the changes."
 msgstr "لم يتم تحرير الصورة. قم بتحرير الصورة قبل تطبيق التغييرات."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:441
 msgid "This type of file cannot be edited."
 msgstr "عذراً، لا يمكن تحرير هذا الملف."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:431
 msgid "Unable to get meta information for file."
 msgstr "غير قادر على إرسال بريد إلكتروني لتأكيد تصدير البيانات الشخصية."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:307
 msgid "Limit result set to blocks matching the search term."
 msgstr "حصر النتائج على من يطابق سلسلة نصية."
@@ -1521,7 +1393,6 @@ msgstr "حصر النتائج على من يطابق سلسلة نصية."
 msgid "The date when the block was last updated, in fuzzy human readable format."
 msgstr "التاريخ الذي تم فيه آخر تحديث للمكوّن، بتنسيق غامض قابل للقراءة."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:272
 msgid "The block icon."
 msgstr "أيقونة المكوّن"
@@ -1530,12 +1401,10 @@ msgstr "أيقونة المكوّن"
 msgid "The WordPress.org username of the block author."
 msgstr "اسم مستخدم WordPress.org لمؤلف المكوّن."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:262
 msgid "The number of blocks published by the same author."
 msgstr "عدد المقالات المنشورة للعنصر."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:257
 msgid "The average rating of blocks published by the same author."
 msgstr "تاريخ نشر الكائن، بتوقيت الموقع."
@@ -1548,12 +1417,10 @@ msgstr "عدد المواقع التي قامت بتفعيل هذا المكوّ
 msgid "The number of ratings."
 msgstr "عدد التقييمات."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:242
 msgid "The star rating of the block."
 msgstr "الجزء الأخير من الرابط."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:237
 msgid "The block slug."
 msgstr "أظهر المكوّنات"
@@ -1570,17 +1437,14 @@ msgstr "عنوان المكوّن، بتنسيق قابل للقراءة."
 msgid "The block name, in namespace/block-name format."
 msgstr "اسم المكوّن، بتنسيق مساحة تسمية / اسم مكوّن."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:59
 msgid "Sorry, you are not allowed to browse the block directory."
 msgstr "عذرًا، غير مسموح لك بقراءة المكوّنات بهذا المستخدم."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1249
 msgid "This username is invalid because it uses illegal characters. Please enter a valid username."
 msgstr "<strong>خطأ</strong>: اسم المستخدم غير صحيح لأنه يحتوي على رموز أو حروف ممنوعة. يرجى اختيار اسم مستخدم آخر."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:963
 msgid "Limits results to plugins with the given status."
 msgstr "حصر النتيجة على العناصر المُثبتة."
@@ -1605,17 +1469,14 @@ msgstr "ما إذا كانت الإضافة لا يمكن تنشيطها إلا 
 msgid "The plugin version number."
 msgstr "رقم نسخة الإضافة."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:909
 msgid "The plugin description formatted for display."
 msgstr "وصف (HTML) للكائن، مُعد للعرض."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:905
 msgid "The raw plugin description."
 msgstr "وصف المرفق."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:899
 msgid "The plugin description."
 msgstr "وصف المرفق."
@@ -1648,7 +1509,6 @@ msgstr "نظام الملفات غير متاح حاليًا لإدارة الإ
 msgid "Network only plugin must be network activated."
 msgstr "يجب تنشيط الإضافة على الشبكة فقط."
 
-#: fuzzy
 #: wp-admin/plugins.php:198
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:686
 msgid "Sorry, you are not allowed to deactivate this plugin."
@@ -1658,7 +1518,6 @@ msgstr "عذرًا، غير مسموح لك حذف هذه الصفحة."
 msgid "Cannot delete an active plugin. Please deactivate it first."
 msgstr "لا يمكن حذف إضافة نشطة. يرجى تعطيلها أولاً."
 
-#: fuzzy
 #: wp-admin/includes/ajax-actions.php:4539
 #: wp-admin/plugins.php:268
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:488
@@ -1679,12 +1538,10 @@ msgstr "غير قادر على تحديد الإضافة التي تنصيبها
 msgid "Unable to connect to the filesystem. Please confirm your credentials."
 msgstr "غير قادر على الاتصال بنظام الملفات. يرجى التأكّد من صحة بيانات الدخول."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:251
 msgid "Sorry, you are not allowed to activate plugins."
 msgstr "عذرًا، غير مسموح لك بتحديث الخيارات."
 
-#: fuzzy
 #: wp-admin/includes/ajax-actions.php:4320
 #: wp-admin/plugin-install.php:19
 #: wp-admin/update.php:106
@@ -1694,13 +1551,11 @@ msgstr "عذرًا، غير مسموح لك بتحديث الخيارات."
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr "عذرًا، غير مسموح لك بنشر صفحات في هذا الموقع."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:213
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:626
 msgid "Plugin not found."
 msgstr "الصفحة غير موجودة."
 
-#: fuzzy
 #: wp-admin/includes/ajax-actions.php:4615
 #: wp-admin/includes/ajax-actions.php:4667
 #: wp-admin/plugins.php:13
@@ -1720,12 +1575,10 @@ msgstr "حالة تفعيل الإضافة."
 msgid "WordPress.org plugin directory slug."
 msgstr "الاسم اللطيف (slug) لدليل إضافة WordPress.org"
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:398
 msgid "The theme's current version."
 msgstr "وصف المرفق."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:391
 msgid "The URI of the theme's webpage, transformed for display."
 msgstr "مُعرف (GUID) الكائن، مُعد للعرض."
@@ -1734,7 +1587,6 @@ msgstr "مُعرف (GUID) الكائن، مُعد للعرض."
 msgid "The URI of the theme's webpage, as found in the theme header."
 msgstr "عنوان URI لصفحة الويب الخاصة بالقالب، كما هو موجود بترويسة القالب."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:381
 msgid "The URI of the theme's webpage."
 msgstr "رابط لوحة التحكم"
@@ -1743,7 +1595,6 @@ msgstr "رابط لوحة التحكم"
 msgid "The theme's text domain."
 msgstr "الـ textdomain للقالب."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:364
 msgid "The theme tags, transformed for display."
 msgstr "مُعرف (GUID) الكائن، مُعد للعرض."
@@ -1768,7 +1619,6 @@ msgstr "الحدّ الأدنى من إصدار ووردبريس المطلوب 
 msgid "The minimum PHP version required for the theme to work."
 msgstr "الحدّ الأدنى من إصدار PHP المطلوب حتى يعمل القالب."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:330
 msgid "The theme name, transformed for display."
 msgstr "مُعرف (GUID) الكائن، مُعد للعرض."
@@ -1777,12 +1627,10 @@ msgstr "مُعرف (GUID) الكائن، مُعد للعرض."
 msgid "The theme name, as found in the theme header."
 msgstr "اسم القالب، كما هو موجود بترويسة القالب."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:321
 msgid "The name of the theme."
 msgstr "الاسم المستعار لهذا المستخدم."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:315
 msgid "The theme description, transformed for display."
 msgstr "وصف (HTML) للكائن، مُعد للعرض."
@@ -1791,12 +1639,10 @@ msgstr "وصف (HTML) للكائن، مُعد للعرض."
 msgid "The theme description, as found in the theme header."
 msgstr "وصف القالب، كما هو موجود بترويسة القالب."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:306
 msgid "A description of the theme."
 msgstr "وصف (HTML) للعنصر."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:299
 msgid "The website of the theme author, transformed for display."
 msgstr "عنوان (HTML) للكائن، مُعد للعرض."
@@ -1805,12 +1651,10 @@ msgstr "عنوان (HTML) للكائن، مُعد للعرض."
 msgid "The website of the theme author, as found in the theme header."
 msgstr "الموقع الإلكتروني لمطوّر القالب، كما هو موجود بترويسة القالب."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:289
 msgid "The website of the theme author."
 msgstr "عنوان الحالة."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:283
 msgid "HTML for the theme author, transformed for display."
 msgstr "كلمات توضيحية (HTML) للمرفق، مُعدة للعرض."
@@ -1819,7 +1663,6 @@ msgstr "كلمات توضيحية (HTML) للمرفق، مُعدة للعرض."
 msgid "The theme author's name, as found in the theme header."
 msgstr "اسم مطوّر القالب، كما هو موجود بترويسة القالب."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:274
 msgid "The theme author."
 msgstr "شرح المرفق."
@@ -1832,7 +1675,6 @@ msgstr "نموذج القالب. إذا كان هذا قالبًا فرعيًا 
 msgid "The theme's stylesheet. This uniquely identifies the theme."
 msgstr "ملف تنسيق القالب. هذا يُحدّد القالب بشكل فريد."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:587
 msgid "Block namespace."
 msgstr "تم إنشاء المكوّن."
@@ -1841,12 +1683,10 @@ msgstr "تم إنشاء المكوّن."
 msgid "A list of the inner block's own inner blocks. This is a recursive definition following the parent innerBlocks schema."
 msgstr "قائمة بالمكوّنات الداخلية للكتل الداخلية. هذا تعريف تكراري يتبع مخطط innerBlocks الأب."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:554
 msgid "The attributes of the inner block."
 msgstr "خاصية نوع العنصر."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:550
 msgid "The name of the inner block."
 msgstr "الاسم المستعار لهذا المستخدم."
@@ -1855,22 +1695,18 @@ msgstr "الاسم المستعار لهذا المستخدم."
 msgid "The list of inner blocks used in the example."
 msgstr "قائمة المكوّنات الداخلية المستخدمة في المثال."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:540
 msgid "The attributes used in the example."
 msgstr "خاصية نوع العنصر."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:535
 msgid "Block example."
 msgstr "تم حذف المكوّن."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:525
 msgid "Block keywords."
 msgstr "تم حذف المكوّن."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:515
 msgid "Parent blocks."
 msgstr "مكوّن فقرة"
@@ -1887,17 +1723,14 @@ msgstr "يحتوي على المعالج الذي يُعرّف نمط المكو
 msgid "Inline CSS code that registers the CSS class required for the style."
 msgstr "كود CSS مضمن والذي يسجّل فئة CSS المطلوبة للتنسيق."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:490
 msgid "The human-readable label for the style."
 msgstr "وصف سهل القراءة لنوع المحتوى."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:485
 msgid "Unique name identifying the style."
 msgstr "مُعرف فريد للعنصر."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:479
 msgid "Block style variations."
 msgstr "تصفّح قائمة المكوّنات"
@@ -1906,7 +1739,6 @@ msgstr "تصفّح قائمة المكوّنات"
 msgid "Public facing style handle."
 msgstr "مُعالج السكربت الموجّه للعامة."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:465
 msgid "Editor style handle."
 msgstr "تحرير الجدول"
@@ -1923,12 +1755,10 @@ msgstr "مُعالج سكربت المحرّر."
 msgid "Is the block dynamically rendered."
 msgstr "هل يقدم المكوّن محتوى ديناميكيًا."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:437
 msgid "Block category."
 msgstr "تم إنشاء المكوّن."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:429
 msgid "Block supports."
 msgstr "اختصارات المكوّنات"
@@ -1941,7 +1771,6 @@ msgstr "قيم السياق التي ورثتها مكوّنات من هذا ا�
 msgid "Context provided by blocks of this type."
 msgstr "السياق المقدّم بواسطة مكوّنات من هذا النوع."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:397
 msgid "Block attributes."
 msgstr "خصائص المقالة"
@@ -1950,42 +1779,34 @@ msgstr "خصائص المقالة"
 msgid "Icon of block type."
 msgstr "أيقونة نوع المكوّن."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:383
 msgid "Description of block type."
 msgstr "وصف المستخدم."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:376
 msgid "Unique name identifying the block type."
 msgstr "المُعرف الفريد للكائن."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:369
 msgid "Title of block type."
 msgstr "أنواع المكوّن المتاحة"
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:210
 msgid "Invalid block type."
 msgstr "مكوّن غير صالح."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:196
 msgid "Sorry, you are not allowed to manage block types."
 msgstr "عذرًا، غير مسموح لك بإدارة حالات النشر."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:94
 msgid "Block namespace"
 msgstr "زر Backspace"
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:90
 msgid "Block name"
 msgstr "مدير المكوّنات"
 
-#: fuzzy
 #: wp-includes/meta.php:1373
 msgid "When registering a default meta value the data must match the type provided."
 msgstr "يجب توفير التسجيل وتواريخ التحديثات الأخيرة كلاهما."
@@ -2042,7 +1863,6 @@ msgstr "عند تسجيل ميزة مصفوفة \"array\" أو كائن \"object
 msgid "When registering a \"variadic\" theme feature, the \"type\" must be an \"array\"."
 msgstr "عند تسجيل ميزة قالب \"variadic\"، يجب أن يكون الـ \"type\" عبارة عن مصفوفة \"array\"."
 
-#: fuzzy
 #: wp-includes/theme.php:3089
 msgid "The feature \"type\" is not valid JSON Schema type."
 msgstr "الاستجابة لا تمثل رد JSON صحيح."
@@ -2069,7 +1889,6 @@ msgstr "<strong>خطأ:</strong> لا تلبي إصدارات ووردبريس �
 msgid "This image cannot be displayed in a web browser. For best results convert it to JPEG before uploading."
 msgstr "لا يمكن عرض هذه الصورة في متصفح الويب. للحصول على أفضل النتائج، قم بتحويلها إلى JPEG قبل الرفع."
 
-#: fuzzy
 #: wp-includes/admin-bar.php:314
 msgid "Edit Profile"
 msgstr "تحرير ملفي الشخصي"
@@ -2078,12 +1897,10 @@ msgstr "تحرير ملفي الشخصي"
 msgid "Priority"
 msgstr "الأولوية"
 
-#: fuzzy
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:63
 msgid "Change Frequency"
 msgstr "تغيير القالب"
 
-#: fuzzy
 #: wp-admin/includes/class-wp-posts-list-table.php:1103
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:62
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:176
@@ -2096,13 +1913,11 @@ msgstr "آخر تحديث"
 msgid "Number of URLs in this XML Sitemap: %s."
 msgstr "عدد الروابط في خريطة الموقع XML هذه: %s."
 
-#: fuzzy
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:51
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:165
 msgid "Learn more about XML sitemaps."
 msgstr "أعرف المزيد حول الـ CSS"
 
-#: fuzzy
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:50
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:164
 msgid "https://www.sitemaps.org/"
@@ -2113,7 +1928,6 @@ msgstr "http://ar.wordpress.org/"
 msgid "This XML Sitemap is generated by WordPress to make your content more visible for search engines."
 msgstr "تم إنشاء ملف الـ Sitemap XML هذا بواسطة ووردبريس لجعل المحتوى الخاص بك أكثر وضوحًا لمحركات البحث."
 
-#: fuzzy
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:46
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:160
 msgid "XML Sitemap"
@@ -2139,18 +1953,15 @@ msgid "Check your email"
 msgstr "تحقق من بريدك الإلكتروني"
 
 #. translators: %s: Link to the login page.
-#: fuzzy
 #: wp-login.php:1158
 msgid "Registration complete. Please check your email, then visit the <a href=\"%s\">login page</a>."
 msgstr "أكتمل التسجيل. يرجى مراجعة بريدك الإلكتروني."
 
 #. translators: %s: Link to the login page.
-#: fuzzy
 #: wp-login.php:1148
 msgid "Check your email for the confirmation link, then visit the <a href=\"%s\">login page</a>."
 msgstr "تحقق من رابط التأكيّد في بريدك الإلكتروني."
 
-#: fuzzy
 #: wp-admin/includes/meta-boxes.php:172
 #: wp-admin/includes/meta-boxes.php:201
 #: wp-includes/comment-template.php:603
@@ -2162,42 +1973,35 @@ msgid "Namespace must not start or end with a slash."
 msgstr "يجب ألا تبدأ مساحة التسمية (Namespace) أو تنتهي بشرطة مائلة."
 
 #. translators: 1: Type of block (i.e. Text, Image etc)
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:17245
 msgid "Block %1$s is at the beginning of the content and can’t be moved left"
 msgstr "المكوّن %s موجود في بداية المحتوى ولا يمكن نقله للأعلى"
 
 #. translators: 1: Type of block (i.e. Text, Image etc)
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:17240
 msgid "Block %1$s is at the beginning of the content and can’t be moved up"
 msgstr "المكوّن %s موجود في بداية المحتوى ولا يمكن نقله للأعلى"
 
 #. translators: 1: Type of block (i.e. Text, Image etc)
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:17205
 msgid "Block %1$s is at the end of the content and can’t be moved left"
 msgstr "المكوّن %s موجود في نهاية المحتوى ولا يمكن تحريكه للأسفل"
 
 #. translators: 1: Type of block (i.e. Text, Image etc)
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:17200
 msgid "Block %1$s is at the end of the content and can’t be moved down"
 msgstr "المكوّن %s موجود في نهاية المحتوى ولا يمكن تحريكه للأسفل"
 
-#: fuzzy
 #: wp-includes/class-wp-xmlrpc-server.php:3385
 #: wp-includes/class-wp-xmlrpc-server.php:3388
 msgid "Sorry, the category could not be created."
 msgstr "عذرًا، تعذر إنشاء العنصر."
 
-#: fuzzy
 #: wp-includes/class-wp-xmlrpc-server.php:1786
 #: wp-includes/class-wp-xmlrpc-server.php:5202
 msgid "Sorry, the post could not be deleted."
 msgstr "عذرًا، تعذر تحرير التعليق."
 
-#: fuzzy
 #: wp-includes/class-wp-xmlrpc-server.php:1643
 #: wp-includes/class-wp-xmlrpc-server.php:5142
 #: wp-includes/class-wp-xmlrpc-server.php:5900
@@ -2205,7 +2009,6 @@ msgid "Sorry, the post could not be updated."
 msgstr "عذرًا، تعذر تحرير التعليق."
 
 #. translators: %s: Name of the plugin e.g: "Akismet".
-#: fuzzy
 #: wp-includes/js/dist/block-directory.js:1600
 msgid "%s block icon"
 msgstr "أيقونة المكوّن"
@@ -2222,24 +2025,20 @@ msgstr "عرض أيقونة ترتبط بحساب موقع تواصل اجتما
 msgid "Briefly describe the link to help screen reader users."
 msgstr "وصف موجز للرابط لمساعدة مستخدمي قارئ الشاشة."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:25696
 msgid "Link label"
 msgstr "خصائص الرابط"
 
 #. translators: %s: name of the social service.
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:25693
 msgid "%s label"
 msgstr "(بدون تسمية)"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:25646
 #: wp-includes/js/dist/block-library.js:25776
 msgid "Social Icon"
 msgstr "أيقونة الموقع"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:24578
 msgctxt "block keywords"
 msgid "links"
@@ -2249,18 +2048,15 @@ msgstr "رابط"
 msgid "Display icons linking to your social media profiles or websites."
 msgstr "عرض أيقونات ترتبط بحسابات موقع تواصل اجتماعي أو مواقع إلكترونية."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:24576
 msgid "Social Icons"
 msgstr "أيقونة الموقع"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:23701
 #: wp-includes/media.php:4288
 msgid "Select poster image"
 msgstr "حدّد صورة الملصق"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:23700
 msgid "Poster image"
 msgstr "صورة الملصق"
@@ -2287,12 +2083,10 @@ msgstr ""
 "إذا كان ما تنويهِ فعلاً مضارعاً \n"
 "\tمضى قبل أنْ تُلقى عليهِ الجوازمُ "
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:22491
 msgid "Footer label"
 msgstr "تذييل"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:22489
 msgid "Header label"
 msgstr "خلايا الترويسة"
@@ -2314,42 +2108,34 @@ msgstr ""
 "نافذة، صغيرة جدًا في المسافة، مضيئة.\n"
 "حول تلك المناطق شاشة سوداء تمامًا تقريبًا. الآن، وبينما تتحرّك الكاميرا ببطء نحو النافذة التي تكاد تكون طابعًا بريديًا في الإطار، تظهر أشكال أخرى;"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:18326
 msgid "Unsupported"
 msgstr "الدعم"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:17257
 msgid "Image alignment"
 msgstr "تغيير المحاذاة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:17223
 msgid "Display featured image"
 msgstr "استخدامها كصورة بارزة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:17221
 msgid "Featured image settings"
 msgstr "الصورة البارزة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:17184
 msgid "Full post"
 msgstr "عرض كامل"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:17178
 msgid "Show:"
 msgstr "عرض"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:15283
 msgid "download"
 msgstr "تنزيل"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:14720
 msgid "Media file"
 msgstr "ملف الوسائط"
@@ -2379,17 +2165,14 @@ msgstr ""
 "// محتوى أو تخطيط الصفحة.\n"
 "registerBlockType( name, settings );"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:10961
 msgid "Prompt visitors to take action with a group of button-style links."
 msgstr "الزوار الفوريون لاتخاذ إجراء باستخدام رابط على شكل زر."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:10960
 msgid "Buttons"
 msgstr "زر"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:9724
 msgid "recording"
 msgstr "ترميز"
@@ -2398,13 +2181,11 @@ msgstr "ترميز"
 msgid "podcast"
 msgstr "بودكاست"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:8778
 #: wp-includes/js/dist/block-library.js:14730
 msgid "Link to"
 msgstr "رابط لـ:"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:8763
 msgid "Gallery settings"
 msgstr "إعدادات المعرض"
@@ -2414,7 +2195,6 @@ msgid "ADD MEDIA"
 msgstr "إضافة ملفات وسائط"
 
 #. translators: accessibility text. 1: heading level. 2: heading content.
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:6786
 msgid "Level %1$s. %2$s"
 msgstr "%1$s %2$s"
@@ -2424,7 +2204,6 @@ msgstr "%1$s %2$s"
 msgid "Level %s. Empty."
 msgstr "المستوى %s. فارغ."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:6423
 #: wp-includes/js/dist/block-library.js:6432
 msgid "Change heading level"
@@ -2438,31 +2217,26 @@ msgstr "(ملاحظة: العديد من الأجهزة والمتصفحات ل�
 msgid "Describe the role of this image on the page."
 msgstr "وصف دور هذه الصورة على الصفحة."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:5320
 msgid "Title attribute"
 msgstr "خصائص العنوان"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:3327
 msgid "Embed a TikTok video."
 msgstr "تضمين فيديو Vimeo."
 
 #. translators: accessibility text. %s: The block title.
-#: fuzzy
 #: wp-includes/js/dist/blocks.js:7001
 msgid "%s Block"
 msgstr "المكوّن"
 
 #. translators: accessibility text. %1: The block title. %2: The block label.
-#: fuzzy
 #: wp-includes/js/dist/blocks.js:6996
 msgid "%1$s Block. %2$s"
 msgstr "%1$s على %2$s"
 
 #. translators: accessibility text. 1: The block title. 2: The block column
 #. number.
-#: fuzzy
 #: wp-includes/js/dist/blocks.js:6990
 msgid "%1$s Block. Column %2$d"
 msgstr "%1$s على %2$s"
@@ -2475,17 +2249,14 @@ msgstr "مكوّن [%1$s]. العمود %2$d. %3$s"
 
 #. translators: accessibility text. 1: The block title. 2: The block row
 #. number. 3: The block label..
-#: fuzzy
 #: wp-includes/js/dist/blocks.js:6975
 msgid "%1$s Block. Row %2$d. %3$s"
 msgstr "%1$s (منذ %2$s; %3$s)"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:8119
 msgid "Open document settings"
 msgstr "إعدادات أحدث التعليقات"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:8119
 msgid "Open block settings"
 msgstr "إخفاء إعدادات المكوّن"
@@ -2531,24 +2302,20 @@ msgstr "البدء"
 msgid "Welcome to the block editor"
 msgstr "مرحبًا بك في مُحرِّر المكوِّنات"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:7533
 msgid "inserter"
 msgstr "إدراج"
 
-#: fuzzy
 #: wp-admin/edit-form-advanced.php:143
 #: wp-includes/js/dist/edit-post.js:6875
 msgid "View post"
 msgstr "مشاهدة المقالة"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5418
 #: wp-includes/js/dist/edit-post.js:7030
 msgid "Page attributes"
 msgstr "خصائص الصفحة"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:2035
 #: wp-includes/js/dist/edit-post.js:7604
 msgid "https://wordpress.org/support/article/wordpress-editor/"
@@ -2558,20 +2325,17 @@ msgstr "https://wordpress.org/support/article/cookies/"
 msgid "Welcome Guide"
 msgstr "الدليل الترحيبي"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:1939
 #: wp-includes/js/dist/edit-post.js:4787
 msgid "Keyboard shortcuts"
 msgstr "اختصارات لوحة المفاتيح"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:38367
 msgid "Remove multiple selected blocks."
 msgstr "إزالة المكوّنات المُحددة."
 
 #. translators: 1: Type of block (i.e. Text, Image etc), 2: Position of
 #. selected block, 3: New position
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:17190
 #: wp-includes/js/dist/block-editor.js:17230
 msgid "Move %1$s block from position %2$d right to position %3$d"
@@ -2579,7 +2343,6 @@ msgstr "تحريك المكوّن %1$s من الموضع %2$d للأعلى إل�
 
 #. translators: 1: Type of block (i.e. Text, Image etc), 2: Position of
 #. selected block, 3: New position
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:17185
 #: wp-includes/js/dist/block-editor.js:17225
 msgid "Move %1$s block from position %2$d left to position %3$d"
@@ -2604,12 +2367,10 @@ msgstr "استخدم نفس الـ %s على كل أحجام الشاشات."
 msgid "Large screens"
 msgstr "شاشات كبيرة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:35394
 msgid "Medium screens"
 msgstr "متوسط"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:35391
 msgid "Small screens"
 msgstr "شاشة كاملة"
@@ -2620,27 +2381,22 @@ msgctxt "Text labelling a interface as controlling a given layout property (eg: 
 msgid "Controls the %1$s property for %2$s viewports."
 msgstr "التحكّم بخاصية الـ %1$s لمنافذ العرض %2$s."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:34501
 msgid "Open Media Library"
 msgstr "مكتبة الوسائط"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:34433
 msgid "The media file has been replaced"
 msgstr "تم نقل التعليق لسلة المهملات بالفعل."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:34258
 msgid "Currently selected"
 msgstr "مستند (مُحدد)"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:34141
 msgid "Recently updated"
 msgstr "آخر تحديث"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:33607
 msgid "Search or type url"
 msgstr "البحث عن مكوّن"
@@ -2653,7 +2409,6 @@ msgstr "اضغط إدخال لإضافة هذا الرابط"
 msgid "Currently selected link settings"
 msgstr "حالياً تم تحديد إعدادات الرابط"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:32471
 #: wp-includes/js/dist/block-library.js:8783
 msgid "Image size"
@@ -2664,22 +2419,18 @@ msgid "Gradient Presets"
 msgstr " الإعدادات المسبقة للتدرج"
 
 #. translators: accessibility text for the editor footer landmark region.
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:8006
 msgid "Editor footer"
 msgstr "محتوى المحرر"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:32114
 msgid "Select a variation to start with."
 msgstr "حدّد منطقة لنقل هذا الودجت إليها:"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:32112
 msgid "Choose variation"
 msgstr "اختيار فيديو"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:23961
 #: wp-includes/js/dist/block-editor.js:26038
 #: wp-includes/js/dist/edit-post.js:5734
@@ -2688,7 +2439,6 @@ msgid "Add block"
 msgstr "إضافة مكوّن"
 
 #. translators: %s: the name of the block when there is only one
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:23959
 #: wp-includes/js/dist/block-editor.js:26036
 msgctxt "directly add the only allowed block"
@@ -2696,12 +2446,10 @@ msgid "Add %s"
 msgstr "إضافة %s"
 
 #. translators: %s: the name of the block that has been added
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:26260
 msgid "%s block added"
 msgstr "تمّ إضافة %s"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:26975
 msgid "Multiple selected blocks"
 msgstr "التخطي إلى المكوّن المُحدد"
@@ -2710,7 +2458,6 @@ msgstr "التخطي إلى المكوّن المُحدد"
 msgid "You are currently in edit mode. To return to the navigation mode, press Escape."
 msgstr "أنت حاليًا في وضع التحرير. للعودة إلى وضع التنقل، اضغط على مفتاح الخروج Esc."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:18541
 msgid "Midnight"
 msgstr "منتصف الليل"
@@ -2719,12 +2466,10 @@ msgstr "منتصف الليل"
 msgid "Electric grass"
 msgstr "أخضر مشع"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:18533
 msgid "Pale ocean"
 msgstr "أزرق سماوي شاحب"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:18529
 msgid "Luminous dusk"
 msgstr "برتقالي ناري"
@@ -2741,42 +2486,34 @@ msgstr "بنفسجي متورد"
 msgid "Cool to warm spectrum"
 msgstr "بارد إلى طيف دافئ"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:18513
 msgid "Very light gray to cyan bluish gray"
 msgstr "رمادي فاتح جداً"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:18509
 msgid "Luminous vivid orange to vivid red"
 msgstr "برتقالي فاقع"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:18505
 msgid "Luminous vivid amber to luminous vivid orange"
 msgstr "برتقالي فاقع"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:18501
 msgid "Light green cyan to vivid green cyan"
 msgstr "أخضر سماوي فاتح"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:18497
 msgid "Vivid cyan blue to vivid purple"
 msgstr "أزرق سماوي حيوي"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:16524
 msgid "Block breadcrumb"
 msgstr "تم إنشاء المكوّن."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:13294
 msgid "(%s: gradient %s)"
 msgstr "(%s: %s)"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:13291
 msgid "(%s: color %s)"
 msgstr "(%s: %s)"
@@ -2786,22 +2523,18 @@ msgstr "(%s: %s)"
 msgid "Gradient"
 msgstr "التدرّج"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:13214
 msgid "Solid"
 msgstr "لون كامل"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:13139
 msgid "(Gradient: %s)"
 msgstr "(القائمة الحالية: %s)"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:13136
 msgid "(Color: %s)"
 msgstr "اللون: %s"
 
-#: fuzzy
 #: wp-admin/edit-tag-form.php:138
 #: wp-admin/edit-tags.php:446
 #: wp-admin/includes/class-wp-posts-list-table.php:1555
@@ -2813,53 +2546,44 @@ msgstr "اللون: %s"
 msgid "Slug"
 msgstr "رابط الاسم اللطيف Slug"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:9795
 msgid "Update…"
 msgstr "تحديث"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:9793
 msgid "Submit for Review…"
 msgstr "إرسال للمراجعة"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:9704
 msgid "Pending review"
 msgstr "بإنتظار المراجعة"
 
-#: fuzzy
 #: wp-admin/includes/meta-boxes.php:708
 #: wp-includes/js/dist/editor.js:8628
 msgid "https://wordpress.org/support/article/excerpt/"
 msgstr "https://wordpress.org/support/article/cookies/"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:42049
 #: wp-includes/js/dist/components.js:42060
 msgid "Finish"
 msgstr "إنهاء"
 
 #. translators: 1: current page number 2: total number of pages
-#: fuzzy
 #: wp-includes/js/dist/components.js:41915
 msgid "Page %1$d of %2$d"
 msgstr "صورة %1$d من %2$d في المعرض"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:41902
 msgid "Guide controls"
 msgstr "إخفاء عناصر التحكم."
 
 #. translators: %s: The name of the gradient e.g: "Angular red to blue".
-#: fuzzy
 #: wp-includes/js/dist/components.js:41354
 msgid "Gradient: %s"
 msgstr "نقل إلى سلة المهملات: %s"
 
 #. translators: %s: gradient code e.g: "linear-gradient(90deg,
 #. rgba(98,16,153,1) 0%, rgba(172,110,22,1) 100%);".
-#: fuzzy
 #: wp-includes/js/dist/components.js:41345
 #: wp-includes/js/dist/components.js:41355
 msgid "Gradient code: %s"
@@ -2873,7 +2597,6 @@ msgstr "تدرّج شعاعي"
 msgid "Linear Gradient"
 msgstr "تدرّج خطي"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:40666
 msgid "Remove Control Point"
 msgstr "إزالة الرابط"
@@ -2888,17 +2611,14 @@ msgstr "استخدم مفاتيح الأسهم يسار / يمين أو السح
 msgid "Gradient control point at position %1$s with color code %2$s."
 msgstr "نقطة تحكم التدرّج في الموضع %1$s مع رمز اللون %2$s."
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:38882
 msgid "Preset size"
 msgstr "الضبط"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:35984
 msgid "Extra Large"
 msgstr "كبير"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:35975
 msgid "Small"
 msgstr "صغير"
@@ -2908,13 +2628,11 @@ msgid "Angle"
 msgstr "زاوية"
 
 #. translators: 1: Post status, 2: Capability name.
-#: fuzzy
 #: wp-includes/capabilities.php:246
 msgid "The post status %1$s is not registered, so it may not be reliable to check the capability \"%2$s\" against a post with that status."
 msgstr "نوع المحتوى %1$s غير مُسجل، لذلك لا يمكن الإعتماد عليه في التحقق من الصلاحية \"%2$s\" على محتوى من هذا النوع."
 
 #. translators: %s: Comment link.
-#: fuzzy
 #: wp-admin/comment.php:204
 #: wp-admin/includes/class-wp-comments-list-table.php:871
 #: wp-includes/comment-template.php:981
@@ -2933,22 +2651,18 @@ msgstr "عند تسجيل إعدادات \"array\" لإظهاره في واجه�
 msgid "User&#8217;s Session Tokens data."
 msgstr "بيانات رموز الجلسة (Tokens) للمستخدم."
 
-#: fuzzy
 #: wp-includes/user.php:3143
 msgid "Session Tokens"
 msgstr "انتهت صلاحية الجلسة"
 
-#: fuzzy
 #: wp-includes/user.php:3122
 msgid "Last Login"
 msgstr "المشاركة الأخيرة"
 
-#: fuzzy
 #: wp-includes/user.php:3121
 msgid "User Agent"
 msgstr "طلب المستخدم"
 
-#: fuzzy
 #: wp-includes/user.php:3119
 msgid "Expiration"
 msgstr "تعدد الصفحات"
@@ -2957,7 +2671,6 @@ msgstr "تعدد الصفحات"
 msgid "User&#8217;s location data used for the Community Events in the WordPress Events and News dashboard widget."
 msgstr "بيانات موقع المستخدم تُستخدم لأحداث المجتمع التي تظهر ضمن ودجت أحداث وأخبار ووردبريس عبر رئيسية لوحة التحكم."
 
-#: fuzzy
 #: wp-includes/user.php:3108
 msgid "Community Events Location"
 msgstr "تصفّح التعليقات"
@@ -2975,7 +2688,6 @@ msgstr "خط الطول"
 msgid "Latitude"
 msgstr "خط العرض"
 
-#: fuzzy
 #: wp-includes/user.php:3089
 msgid "Country"
 msgstr "عدد الصفوف"
@@ -2989,21 +2701,18 @@ msgstr "المدينة"
 msgid "Filter %s returned items with reserved names."
 msgstr "قام المرشح %s بإرجاع العناصر ذات الأسماء المحجوزة."
 
-#: fuzzy
 #: wp-admin/includes/media.php:3410
 #: wp-includes/media-template.php:424
 #: wp-includes/media-template.php:623
 msgid "Original image:"
 msgstr "الأصلي"
 
-#: fuzzy
 #: wp-includes/cron.php:831
 msgid "Once Weekly"
 msgstr "مرة واحدة يومياُ"
 
 #. translators: Comment moderation. %s: Parent comment edit URL.
 #. translators: %s: Comment link.
-#: fuzzy
 #: wp-admin/edit-form-comment.php:177
 #: wp-includes/pluggable.php:1630
 #: wp-includes/pluggable.php:1814
@@ -3014,7 +2723,6 @@ msgstr "رد على %s"
 msgid "HTTP redirect status code must be a redirection code, 3xx."
 msgstr "يجب أن يكون رمز حالة إعادة توجيه HTTP رمز إعادة توجيه، 3xx."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2717
 msgid "Limit result set based on relationship between multiple taxonomies."
 msgstr "الرقم المُعرف للعنصر مشترك بين عدة فئات."
@@ -3037,7 +2745,6 @@ msgstr "ما إذا كان القالب باستطاعته إدارة وسم ع�
 msgid "Allows use of HTML5 markup for search forms, comment forms, comment lists, gallery, and caption."
 msgstr "يسمح باستخدام أكواد html5 لنماذج البحث، ونماذج التعليقات، وقوائم التعليقات، المعرض، والكلمات التوضيحية."
 
-#: fuzzy
 #: wp-includes/theme.php:3953
 msgid "Whether theme opts in to the editor styles CSS wrapper."
 msgstr "ما إذا كان يجب تضمين المقالات في قائمة التحرير لنفس نوع المقالة."
@@ -3054,17 +2761,14 @@ msgstr "أحجام خطوط مخصصة في حال تم تعيينها من ال
 msgid "Custom color palette if defined by the theme."
 msgstr "لوحة ألوان مخصصة في حال تم تعيينها من القالب."
 
-#: fuzzy
 #: wp-includes/theme.php:3871
 msgid "Whether the theme disables custom gradients."
 msgstr "ما إذا كان القالب يدعم الصور المصغرة للمقالة."
 
-#: fuzzy
 #: wp-includes/theme.php:3864
 msgid "Whether the theme disables custom font sizes."
 msgstr "ما إذا كان القالب يدعم الصور المصغرة للمقالة."
 
-#: fuzzy
 #: wp-includes/theme.php:3857
 msgid "Whether the theme disables custom colors."
 msgstr "ما إذا كان القالب يدعم الصور المصغرة للمقالة."
@@ -3097,13 +2801,11 @@ msgstr "ما إذا كانت روابط خلاصة المقالات والتعل
 msgid "Whether theme opts in to wide alignment CSS class."
 msgstr "ما إذا كان القالب يختار فئة CSS ذات المحاذاة الواسعة."
 
-#: fuzzy
 #: wp-includes/class-wp-xmlrpc-server.php:4989
 #: wp-includes/class-wp-xmlrpc-server.php:5002
 msgid "Sorry, this method is not supported."
 msgstr "عذرًا، نوع الملف هذا غير مدعوم هنا."
 
-#: fuzzy
 #: wp-includes/class-wp-xmlrpc-server.php:1645
 #: wp-includes/class-wp-xmlrpc-server.php:5062
 #: wp-includes/class-wp-xmlrpc-server.php:5555
@@ -3121,7 +2823,6 @@ msgstr "3"
 msgid "Post-processing of the image failed likely because the server is busy or does not have enough resources. Uploading a smaller image may help. Suggested maximum size is 2500 pixels."
 msgstr "فشلت معالجة نشر الصورة على الأرجح لأن الخادم مشغول أو ليس لديه الموارد الكافية. رفعُ صورة بحجم أصغر؛ قد يساعد في معالجتها. الحجم الأقصى المقترح هو 2500 بكسل."
 
-#: fuzzy
 #: wp-login.php:861
 msgid "Please enter your username or email address. You will receive an email message with instructions on how to reset your password."
 msgstr "الرجاء إدخال اسم المستخدم أو عنوان البريد الإلكتروني. سيتم إرسال رابط إلى بريدك الإلكتروني تستطيع من خلاله إنشاء كلمة مرور جديدة."
@@ -3134,36 +2835,30 @@ msgstr "فشل رفع الوسائط. إذا كانت هذه صورة أو لق�
 msgid "All content copied."
 msgstr "تم نسخ كل المحتوى."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:24657
 msgid "No Preview Available."
 msgstr "نسخة جديدة مُتاحة."
 
 #. translators: Accessibility text.
-#: fuzzy
 #: wp-includes/media-template.php:188
 msgid "Selected media actions"
 msgstr "تحديد أيقونة الموقع"
 
-#: fuzzy
 #: wp-includes/media-template.php:177
 msgctxt "media modal menu"
 msgid "Menu"
 msgstr "القائمة"
 
-#: fuzzy
 #: wp-includes/media-template.php:175
 msgctxt "media modal menu actions"
 msgid "Actions"
 msgstr "الإجراء"
 
-#: fuzzy
 #: wp-includes/post.php:2798
 msgctxt "file type group"
 msgid "Archives"
 msgstr "الأرشيف"
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:906
 msgid "List of the missing image sizes of the attachment."
 msgstr "مُعرف المقالة المرتبطة بالمرفق."
@@ -3177,7 +2872,6 @@ msgid "Unknown username. Check again or try your email address."
 msgstr "اسم مستخدم غير معروف. تحقّق مرة أخرى أو المحاولة بواسطة عنوان بريدك الإلكتروني."
 
 #. translators: %s: Number of selected media attachments.
-#: fuzzy
 #: wp-includes/js/media-views.js:8605
 msgid "%s item selected"
 msgid_plural "%s items selected"
@@ -3188,28 +2882,23 @@ msgstr[3] "العنصر تم تحديده."
 msgstr[4] "العنصر تم تحديده."
 msgstr[5] "العنصر تم تحديده."
 
-#: fuzzy
 #: wp-includes/media.php:4313
 msgid "Media list"
 msgstr "ودجت الوسائط"
 
-#: fuzzy
 #: wp-includes/media.php:4312
 msgid "Filter media"
 msgstr "تحرير الوسائط"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:31192
 #: wp-includes/js/dist/block-editor.js:31276
 msgid "Block navigation"
 msgstr "قائمة المكوّنات"
 
-#: fuzzy
 #: wp-includes/js/dist/format-library.js:746
 msgid "Inline Code"
 msgstr "مضمنة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:25729
 msgid "Enter address"
 msgstr "عنوان %s"
@@ -3222,7 +2911,6 @@ msgstr "شكل قرص"
 msgid "Logos Only"
 msgstr "شعارات فقط"
 
-#: fuzzy
 #: wp-admin/includes/class-wp-media-list-table.php:45
 #: wp-includes/js/dist/block-library.js:17332
 #: wp-includes/js/dist/block-library.js:20087
@@ -3230,7 +2918,6 @@ msgstr "شعارات فقط"
 msgid "Grid view"
 msgstr "عرض كشبكة"
 
-#: fuzzy
 #: wp-admin/includes/class-wp-media-list-table.php:44
 #: wp-includes/js/dist/block-library.js:17323
 #: wp-includes/js/dist/block-library.js:20078
@@ -3242,28 +2929,23 @@ msgstr "عرض كقائمة"
 msgid "Sorting and filtering"
 msgstr "الفرز والتصفية"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:17203
 msgid "Post meta settings"
 msgstr "إغلاق الإعدادات"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:17170
 msgid "Post content"
 msgstr "إرســال التعليق"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:17168
 msgid "Post content settings"
 msgstr "إغلاق الإعدادات"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:17337
 #: wp-includes/js/dist/block-editor.js:17343
 msgid "Move right"
 msgstr "أعلى اليمين"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:17337
 #: wp-includes/js/dist/block-editor.js:17343
 msgid "Move left"
@@ -3273,7 +2955,6 @@ msgstr "تحريك للأعلى"
 msgid "Percentage width"
 msgstr "نسبة العرض"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:12506
 msgid "Column settings"
 msgstr "إغلاق الإعدادات"
@@ -3284,7 +2965,6 @@ msgid "There is no poster image currently selected"
 msgstr "لا توجد صورة ملصق محددة حاليًا"
 
 #. translators: %s: poster image URL.
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:23718
 msgid "The current poster image url is %s"
 msgstr "يستطيع العضو الحالي نشر هذه المقالة."
@@ -3335,17 +3015,14 @@ msgstr "عمودين; مقسمة بالتساوي"
 msgid "Fill"
 msgstr "تعبئة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:10869
 msgid "Call to Action"
 msgstr "الإجراء"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:10716
 msgid "Link rel"
 msgstr "خصائص الرابط"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:10554
 msgid "Border radius"
 msgstr "لون الحدود"
@@ -3366,12 +3043,10 @@ msgstr "استشهاد مقتبس"
 msgid "Reverse list numbering"
 msgstr "عكس قائمة الترقيم"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:17721
 msgid "Start value"
 msgstr "قيمة اللون"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:17719
 msgid "Ordered list settings"
 msgstr "قائمة مرتبة"
@@ -3382,12 +3057,10 @@ msgstr "قائمة مرتبة"
 msgid "One of the hardest things to do in technology is disrupt yourself."
 msgstr "أحد أصعب الأشياء التي يمكن القيام بها في مجال التقنية هو تعطيل نفسك."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:14948
 msgid "Upload a file or pick one from your media library."
 msgstr "اسحب ملفاً، ارفع ملف جديد أو تحديد ملف من مكتبتك."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:32952
 #: wp-includes/js/dist/block-editor.js:35996
 #: wp-includes/js/dist/block-library.js:10712
@@ -3395,17 +3068,14 @@ msgstr "اسحب ملفاً، ارفع ملف جديد أو تحديد ملف م
 msgid "Open in new tab"
 msgstr "فتح في علامة تبويب جديدة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:14723
 msgid "Attachment page"
 msgstr "صفحة المرفق"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:22983
 msgid "December 6, 2018"
 msgstr "ديسمبر"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:22972
 msgid "February 21, 2019"
 msgstr "فبراير"
@@ -3422,42 +3092,34 @@ msgstr "تاريخ الإصدار"
 msgid "Jazz Musician"
 msgstr "موسيقار الجاز"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:22606
 msgid "Footer section"
 msgstr "إزالة التحديد."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:22602
 msgid "Header section"
 msgstr "إزالة التحديد."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:22587
 msgid "Change column alignment"
 msgstr "تغيير المحاذاة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:22571
 msgid "Create Table"
 msgstr "إنشاء معرض"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:22549
 msgid "Insert a table for sharing data."
 msgstr "إدراج جدول — مثالي لمشاركة الرسوم البيانية والبيانات."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:22027
 msgid "Align Column Right"
 msgstr "محاذاة لليمين"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:22023
 msgid "Align Column Center"
 msgstr "محاذاة للوسط"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:22019
 msgid "Align Column Left"
 msgstr "محاذاة لليسار"
@@ -3466,12 +3128,10 @@ msgstr "محاذاة لليسار"
 msgid "<strong>Snow Patrol</strong>"
 msgstr "<strong>دورة الثلج</strong>"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:13486
 msgid "Upload an image or video file, or pick one from your media library."
 msgstr "اسحب صورة أو فيديو، ارفع ملف جديد أو تحديد ملف من مكتبتك."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:13435
 msgid "Clear Media"
 msgstr "وسائط الترويسة"
@@ -3495,7 +3155,6 @@ msgstr "طائر النِّمنِمَة<br>يكتسب رزقه<br>بلا ضجة.
 msgid "Leave empty if the image is purely decorative."
 msgstr "اتركه فارغًا إذا كانت الصورة زخرفية أو عنصر تزيين بشكل عام."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:5306
 #: wp-includes/js/dist/block-library.js:16290
 msgid "Describe the purpose of the image"
@@ -3505,12 +3164,10 @@ msgstr "أدخل رابط الصورة"
 msgid "Crop image to fill entire column"
 msgstr "قصّ الصورة لملء العمود بأكمله"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:8295
 msgid "Write gallery caption…"
 msgstr "كتابة تسمية توضيحية…"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:8163
 msgid "Move image forward"
 msgstr "إزالة الصورة"
@@ -3519,7 +3176,6 @@ msgstr "إزالة الصورة"
 msgid "Move image backward"
 msgstr "تحريك الصورة للخلف"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:6772
 msgid "Code is Poetry"
 msgstr "مُحرر الشفرة البرمجية"
@@ -3552,12 +3208,10 @@ msgstr "اثنان."
 msgid "One."
 msgstr "واحد."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:20624
 msgid "section"
 msgstr "الإجراء"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:20624
 msgid "row"
 msgstr "بني"
@@ -3578,12 +3232,10 @@ msgstr "إضافة مكوّن يجمع مجموعة مكوّنات أخرى."
 msgid "Group"
 msgstr "مجموعة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:13970
 msgid "Learn more about embeds"
 msgstr "أعرف المزيد حول الـ CSS"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:13969
 msgid "https://wordpress.org/support/article/embeds/"
 msgstr "https://wordpress.org/support/article/cookies/"
@@ -3592,7 +3244,6 @@ msgstr "https://wordpress.org/support/article/cookies/"
 msgid "Paste a link to the content you want to display on your site."
 msgstr "ألصق رابطًا للمحتوى الذي تريد عرضه على موقعك."
 
-#: fuzzy
 #: wp-includes/js/dist/server-side-render.js:555
 msgid "Block rendered as empty."
 msgstr "تمّ إعادة المكوّن إلى حالة المسودة."
@@ -3609,13 +3260,11 @@ msgstr "تفعيل وإعادة تحميل"
 msgid "A page reload is required for this change. Make sure your content is saved before reloading."
 msgstr "لابدّ من إعادة تحميل الصفحة لإجراء هذا التغيير، تأكّد من حفظ المحتوى قبل إعادة التحميل."
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5385
 msgid "Pre-publish checks"
 msgstr "تمكين التحقق قبل النشر"
 
 #. translators: %d: number of blocks.
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5040
 msgid "%d block is disabled."
 msgid_plural "%d blocks are disabled."
@@ -3626,22 +3275,18 @@ msgstr[3] "تمّ تحديد %s مكوّنات."
 msgstr[4] "تمّ تحديد %s مكوّن."
 msgstr[5] "تمّ تحديد %s مكوّن."
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:4517
 msgid "Display these keyboard shortcuts."
 msgstr "اختصارات لوحة المفاتيح للمكوّن التقليدي"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5987
 msgid "More tools & options"
 msgstr "إخفاء المزيد من الأدوات والخيارات"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:12748
 msgid "Separate multiple classes with spaces."
 msgstr "افصل بين الوسوم بفواصل"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:12639
 msgid "Learn more about anchors"
 msgstr "تعلم المزيد حول المقتطفات اليدوية"
@@ -3650,42 +3295,34 @@ msgstr "تعلم المزيد حول المقتطفات اليدوية"
 msgid "Enter a word or two — without spaces — to make a unique web address just for this heading, called an “anchor.” Then, you’ll be able to link directly to this section of your page."
 msgstr "أدخل كلمة أو كلمتين — بدون مسافات — لإنشاء عنوان ويب فريد لهذا العنوان فقط، يسمى \"رابط للقفز.\" بعد ذلك، ستتمكن من الارتباط مباشرةً بهذا القسم من صفحتك."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:36480
 msgid "Default Style"
 msgstr "افتراضي"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:35047
 msgid "Upload a video file, pick one from your media library, or add one with a URL."
 msgstr "تضمين فيديو من مكتبة الوسائط الخاصة بك أو ارفع ملف جديد."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:35045
 msgid "Upload an image file, pick one from your media library, or add one with a URL."
 msgstr "تضمين فيديو من مكتبة الوسائط الخاصة بك أو ارفع ملف جديد."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:35043
 msgid "Upload an audio file, pick one from your media library, or add one with a URL."
 msgstr "تضمين فيديو من مكتبة الوسائط الخاصة بك أو ارفع ملف جديد."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:35040
 msgid "Upload a media file or pick one from your media library."
 msgstr "اسحب ملف وسائط، ارفع ملف جديد أو تحديد ملف من مكتبتك."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:32153
 msgid "Skip"
 msgstr "تخطي الإعلان"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:13421
 msgid "This color combination may be hard for people to read."
 msgstr "قد يكون من الصعب قراءة تركيبة الألوان هذه. جرب استخدام لون خلفية أكثر إشراقاً و/أو لون نص داكن."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:26175
 msgid "Add a block"
 msgstr "إضافة مكوّن"
@@ -3694,12 +3331,10 @@ msgstr "إضافة مكوّن"
 msgid "While writing, you can press <kbd>/</kbd> to quickly insert new blocks."
 msgstr "أثناء الكتابة، يمكنك الضغط على <kbd>/</kbd> لإدراج مكوّنات جديدة بشكل سريع."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:18439
 msgid "Vivid purple"
 msgstr "أحمر فاقع"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:32241
 msgctxt "Block vertical alignment setting label"
 msgid "Change vertical alignment"
@@ -3715,7 +3350,6 @@ msgctxt "Block vertical alignment setting"
 msgid "Vertically Align Middle"
 msgstr "محاذاة عمودية وسط"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:32205
 msgctxt "Block vertical alignment setting"
 msgid "Vertically Align Top"
@@ -3736,14 +3370,12 @@ msgstr[3] "لم يتم العثور على مكوّنات في مكتبتك. و�
 msgstr[4] "لم يتم العثور على مكوّنات في مكتبتك. وجدنا %d مكوّن متاح للتنزيل."
 msgstr[5] "لم يتم العثور على مكوّنات في مكتبتك. وجدنا %d مكوّن متاح للتنزيل."
 
-#: fuzzy
 #: wp-includes/js/dist/block-directory.js:1932
 #: wp-includes/js/dist/block-directory.js:1935
 #: wp-includes/js/dist/block-directory.js:1947
 msgid "No blocks found in your library."
 msgstr "لم يتم العثور على مكوّنات في سلة المُهملات."
 
-#: fuzzy
 #: wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php:62
 #: wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php:105
 #: wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php:111
@@ -3755,7 +3387,6 @@ msgid "Retry"
 msgstr "الشِعر"
 
 #. translators: %s: number of active installations.
-#: fuzzy
 #: wp-includes/js/dist/block-directory.js:1715
 msgid "%d active installation"
 msgid_plural "%d active installations"
@@ -3778,7 +3409,6 @@ msgstr[4] "يملك هذا المؤلف %1$d مكوّن، بمتوسط تقيي�
 msgstr[5] "يملك هذا المؤلف %1$d مكوّن، بمتوسط تقييم %2$d."
 
 #. translators: %s: author name.
-#: fuzzy
 #: wp-includes/js/dist/block-directory.js:1471
 msgid "Authored by %s"
 msgstr "الكاتب هو %s"
@@ -3799,7 +3429,6 @@ msgstr[5] "إجمالي التقييمات %d"
 msgid "%s out of 5 stars"
 msgstr "%s من 5 نجوم"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:13610
 msgctxt "Ungrouping blocks from within a Group block back into individual blocks within the Editor "
 msgid "Ungroup"
@@ -3810,19 +3439,16 @@ msgctxt "verb"
 msgid "Group"
 msgstr "تجميع"
 
-#: fuzzy
 #: wp-admin/includes/template.php:2547
 #: wp-includes/js/dist/editor.js:8000
 msgid "Restore the backup"
 msgstr "استعادة آخر مسودة"
 
-#: fuzzy
 #: wp-admin/includes/template.php:2546
 #: wp-includes/js/dist/editor.js:7997
 msgid "The backup of this post in your browser is different from the version below."
 msgstr "هناك حفظ تلقائي لهذه المقالة أحدث من النسخة أدناه."
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:40035
 msgid "Separate with commas or the Enter key."
 msgstr "فرّق بفاصلة"
@@ -3831,7 +3457,6 @@ msgstr "فرّق بفاصلة"
 msgid "Separate with commas, spaces, or the Enter key."
 msgstr "الفصل بينها بفواصل، أو مسافات، أو مفتاح الإدخال Enter."
 
-#: fuzzy
 #: wp-includes/nav-menu.php:97
 msgid "Nav menu locations must be strings."
 msgstr "يجب أن تتكون أسماء نوع المكوّن على أحرف فقط."
@@ -3842,35 +3467,29 @@ msgid "PHP version %s"
 msgstr "إصدار PHP %s"
 
 #. translators: 1: The failing plugins name. 2: The failing plugins version.
-#: fuzzy
 #: wp-includes/class-wp-recovery-mode-email-service.php:339
 msgid "Current plugin: %1$s (version %2$s)"
 msgstr "التعليقات لموقع %s للبحث عن %sالتعليقات لـ  %1$s في البحث عن %2$s"
 
 #. translators: 1: Current active theme name. 2: Current active theme version.
-#: fuzzy
 #: wp-includes/class-wp-recovery-mode-email-service.php:330
 msgid "Current theme: %1$s (version %2$s)"
 msgstr "تحرير عنصر القائمة: %1$s (%2$s)"
 
 #. translators: %s: Your current version of WordPress.
-#: fuzzy
 #: wp-admin/includes/class-wp-site-health.php:264
 #: wp-includes/class-wp-recovery-mode-email-service.php:325
 msgid "WordPress version %s"
 msgstr "مستخدم ووردبريس"
 
-#: fuzzy
 #: wp-includes/ms-load.php:498
 msgid "https://wordpress.org/support/article/debugging-a-wordpress-network/"
 msgstr "https://wordpress.org/support/article/cookies/"
 
-#: fuzzy
 #: wp-includes/formatting.php:4857
 msgid "https://wordpress.org/support/article/using-permalinks/#choosing-your-permalink-structure"
 msgstr "https://codex.wordpress.org/Using_Permalinks#Choosing_your_permalink_structure"
 
-#: fuzzy
 #: wp-admin/includes/class-wp-users-list-table.php:360
 #: wp-includes/link-template.php:2585
 #: wp-includes/link-template.php:2667
@@ -3878,7 +3497,6 @@ msgstr "https://codex.wordpress.org/Using_Permalinks#Choosing_your_permalink_str
 msgid "Posts"
 msgstr "مقالات"
 
-#: fuzzy
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:54
 msgid "https://wordpress.org/support/article/wordpress-widgets/"
 msgstr "https://wordpress.org/support/article/cookies/"
@@ -3890,7 +3508,6 @@ msgstr "تم تعيين المنطقة الزمنية الخاصة بك إلى %
 
 #. translators: 1: Timezone name, 2: Timezone abbreviation, 3: UTC abbreviation
 #. and offset, 4: UTC offset.
-#: fuzzy
 #: wp-includes/customize/class-wp-customize-date-time-control.php:238
 msgid "Your timezone is set to %1$s (%2$s), currently %3$s (Coordinated Universal Time %4$s)."
 msgstr "المنطقة الزمنيّة هي %1$s (%2$s)، حاليًا %3$s."
@@ -3900,12 +3517,10 @@ msgstr "المنطقة الزمنيّة هي %1$s (%2$s)، حاليًا %3$s."
 msgid "Block \"%1$s\" does not contain a style named \"%2$s\"."
 msgstr "لا يحتوي المكوّن \"%1$s\" على نمط مسمى \"%2$s\"."
 
-#: fuzzy
 #: wp-includes/class-wp-block-styles-registry.php:52
 msgid "Block style name must be a string."
 msgstr "يجب أن تتكون أسماء نوع المكوّن على أحرف فقط."
 
-#: fuzzy
 #: wp-includes/class-wp-block-styles-registry.php:46
 msgid "Block name must be a string."
 msgstr "يجب أن تتكون أسماء نوع المكوّن على أحرف فقط."
@@ -3916,19 +3531,16 @@ msgid "Learn more about debugging in WordPress."
 msgstr "معرفة المزيد حول استكشاف الأخطاء في ووردبريس."
 
 #. translators: Documentation explaining debugging in WordPress.
-#: fuzzy
 #: wp-admin/includes/class-wp-site-health.php:1438
 #: wp-includes/class-wp-fatal-error-handler.php:195
 #: wp-includes/functions.php:5214
 msgid "https://wordpress.org/support/article/debugging-in-wordpress/"
 msgstr "https://wordpress.org/support/article/cookies/"
 
-#: fuzzy
 #: wp-includes/class-wp-fatal-error-handler.php:188
 msgid "There has been a critical error on your website."
 msgstr "حصل خطأ أثناء قص الصورة."
 
-#: fuzzy
 #: wp-includes/class-wp-fatal-error-handler.php:186
 msgid "There has been a critical error on your website. Please check your site admin email inbox for instructions."
 msgstr "هذا الموقع يواجه صعوبات تقنية. يرجى التحقق من صندوق البريد الوارد الخاص بمدير الموقع للحصول على الإرشادات."
@@ -3945,7 +3557,6 @@ msgstr "لا يمكن تدوير الصورة، لأنه تعذّر تحديث �
 msgid "User&#8217;s profile data."
 msgstr "بيانات الملف الشخصي للمستخدم."
 
-#: fuzzy
 #: wp-includes/user.php:1816
 msgid "Not enough data to create this user."
 msgstr "لم يتم العثور على بيانات شخصية لهذا المستخدم."
@@ -3958,7 +3569,6 @@ msgstr "المعذرة، وضع علامة على المستخدم كمزعج م
 msgid "User&#8217;s media data."
 msgstr "بيانات وسائط المستخدم."
 
-#: fuzzy
 #: wp-includes/media.php:4238
 msgid "No media items found. Try a different search."
 msgstr "لا توجد قوالب. جرب البحث بكلمات مختلفة."
@@ -3967,13 +3577,11 @@ msgstr "لا توجد قوالب. جرب البحث بكلمات مختلفة."
 msgid "Number of media items displayed: %d. Scroll the page for more results."
 msgstr "عدد عناصر الوسائط المعروضة: %d. تمرير الصفحة لأسفل لمزيد من النتائج."
 
-#: fuzzy
 #: wp-includes/media.php:4235
 msgid "Number of media items found: %d"
 msgstr "عدد العناصر التى وجدت: %d"
 
 #. translators: %s: Number of archives.
-#: fuzzy
 #: wp-includes/post.php:2801
 msgid "Archive <span class=\"count\">(%s)</span>"
 msgid_plural "Archives <span class=\"count\">(%s)</span>"
@@ -3984,13 +3592,11 @@ msgstr[3] "الخاصة <span class=\"count\">(%s)</span>"
 msgstr[4] "الخاصة <span class=\"count\">(%s)</span>"
 msgstr[5] "الخاصة <span class=\"count\">(%s)</span>"
 
-#: fuzzy
 #: wp-includes/post.php:2799
 msgid "Manage Archives"
 msgstr "أرشيفات الصفحة"
 
 #. translators: %s: Number of spreadsheets.
-#: fuzzy
 #: wp-includes/post.php:2792
 msgid "Spreadsheet <span class=\"count\">(%s)</span>"
 msgid_plural "Spreadsheets <span class=\"count\">(%s)</span>"
@@ -4001,22 +3607,18 @@ msgstr[3] "سلة المهملات <span class=\"count\">(%s)</span>"
 msgstr[4] "سلة المهملات <span class=\"count\">(%s)</span>"
 msgstr[5] "سلة المهملات <span class=\"count\">(%s)</span>"
 
-#: fuzzy
 #: wp-includes/post.php:2790
 msgid "Manage Spreadsheets"
 msgstr "إدارة الصور"
 
-#: fuzzy
 #: wp-includes/post.php:2789
 msgid "Spreadsheets"
 msgstr "ملف الستايل"
 
-#: fuzzy
 #: wp-includes/post.php:2781
 msgid "Manage Documents"
 msgstr "إدارة التعليقات"
 
-#: fuzzy
 #: wp-includes/post.php:2780
 msgid "Documents"
 msgstr "المستند"
@@ -4036,7 +3638,6 @@ msgstr "يمكن تحرير قيم %1$s، %2$s و %3$s لتعيين مسار ل�
 msgid "User&#8217;s comment data."
 msgstr "بيانات تعليق المستخدم."
 
-#: fuzzy
 #: wp-includes/class-wp-text-diff-renderer-table.php:137
 msgid "Unchanged:"
 msgstr "تغيير"
@@ -4045,18 +3646,15 @@ msgstr "تغيير"
 msgid "Added:"
 msgstr "تم إضافة:"
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:344
 msgid "Whether posts of this status may have floating published dates."
 msgstr "ما إذا كانت المقالات مع هذه الحالة ينبغي أن تكون خاصة."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:413
 msgid "Sorry, you are not allowed to delete revisions of this post."
 msgstr "عذراً، غير مسموح لك بمشاهدة مراجعات هذه المقالة."
 
 #. translators: %s: Custom field key.
-#: fuzzy
 #: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:315
 #: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:329
 #: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:379
@@ -4072,7 +3670,6 @@ msgstr "عند تسجيل نوع تعريف \"array\" لإظهاره في واج
 msgid "Your site doesn&#8217;t have any %s, so there&#8217;s nothing to display here at the moment."
 msgstr "لا يحتوي موقعك على أي  %s، لذلك لا يوجد شي لعرضه هنا في الوقت الحالي."
 
-#: fuzzy
 #: wp-includes/widgets/class-wp-widget-meta.php:74
 msgid "Comments feed"
 msgstr "خلاصة التعليقات"
@@ -4085,7 +3682,6 @@ msgstr "إدخالات الخلاصات Feed"
 msgid "Unexpected response from the server. The file may have been uploaded successfully. Check in the Media Library or reload the page."
 msgstr "استجابة غير متوقّعة من الخادم. ربما تم رفع الملف بنجاح. تحقق من مكتبة الوسائط أو أعد تحميل الصفحة."
 
-#: fuzzy
 #: wp-admin/setup-config.php:194
 #: wp-load.php:83
 msgid "https://wordpress.org/support/article/editing-wp-config-php/"
@@ -4113,7 +3709,6 @@ msgid "Why is this important?"
 msgstr "لماذا هذا مهم؟"
 
 #. translators: URL to the WordPress help section about admin email.
-#: fuzzy
 #: wp-login.php:686
 msgid "https://wordpress.org/support/article/settings-general-screen/#email-address"
 msgstr "https://wordpress.org/support/article/cookies/"
@@ -4136,7 +3731,6 @@ msgctxt "excerpt_length"
 msgid "55"
 msgstr "55"
 
-#: fuzzy
 #: wp-admin/includes/class-custom-background.php:430
 #: wp-includes/class-wp-customize-manager.php:5527
 msgctxt "Original Size"
@@ -4154,47 +3748,38 @@ msgstr "20"
 msgid "Cannot resize the image. Both width and height are not set."
 msgstr "لا يمكن تغيير حجم الصورة. لم يتم تعيين كل من العرض والارتفاع."
 
-#: fuzzy
 #: wp-includes/media-template.php:1113
 msgid "Image size in pixels"
 msgstr "الارتفاع بالبكسل"
 
-#: fuzzy
 #: wp-includes/media-template.php:582
 msgid "Media title&hellip;"
 msgstr "عنوان الصفحة الجديدة&hellip;"
 
-#: fuzzy
 #: wp-includes/media-template.php:581
 msgid "Media title"
 msgstr "ملف الوسائط"
 
-#: fuzzy
 #: wp-includes/media-template.php:579
 msgid "Audio title&hellip;"
 msgstr "عنوان الصفحة الجديدة&hellip;"
 
-#: fuzzy
 #: wp-includes/media-template.php:578
 msgid "Audio title"
 msgstr "إضافة عنوان"
 
-#: fuzzy
 #: wp-includes/media-template.php:576
 msgid "Video title&hellip;"
 msgstr "عنوان الصفحة الجديدة&hellip;"
 
-#: fuzzy
 #: wp-includes/media-template.php:575
 msgid "Video title"
 msgstr "تفاصيل الفيديو"
 
-#: fuzzy
 #: wp-includes/media-template.php:571
 msgid "Caption&hellip;"
 msgstr "قص&hellip;"
 
-#: fuzzy
 #: wp-admin/import.php:205
 #: wp-admin/includes/class-wp-theme-install-list-table.php:369
 #: wp-admin/includes/class-wp-themes-list-table.php:271
@@ -4202,17 +3787,14 @@ msgstr "قص&hellip;"
 msgid "Details"
 msgstr "تفاصيل الخطأ"
 
-#: fuzzy
 #: wp-includes/media-template.php:356
 msgid "Attachment Preview"
 msgstr "صفحة المرفق"
 
-#: fuzzy
 #: wp-includes/media-template.php:232
 msgid "Your browser cannot upload files"
 msgstr "يسمح لك برفع ملف واحد فقط"
 
-#: fuzzy
 #: wp-includes/class-wp-xmlrpc-server.php:615
 #: wp-includes/option.php:2185
 msgid "Allow people to submit comments on new posts."
@@ -4223,7 +3805,6 @@ msgstr "السماح للناس بإرسال التعليقات على المق�
 msgid "<strong>Error</strong>: The email could not be sent. Your site may not be correctly configured to send emails. <a href=\"%s\">Get support for resetting your password</a>."
 msgstr "<strong>خطأ</strong>: تعذّر إرسال البريد الإلكتروني. ربما لم يتم تكوين إعدادات موقعك بشكل صحيح لإرسال رسائل البريد الإلكتروني. <a href=\"%s\">احصل على الدعم لإعادة تعيين كلمة مرورك</a>."
 
-#: fuzzy
 #: wp-login.php:475
 msgid "https://wordpress.org/support/article/resetting-your-password/"
 msgstr "https://wordpress.org/support/article/cookies/"
@@ -4234,7 +3815,6 @@ msgstr "https://wordpress.org/support/article/cookies/"
 msgid "New version available."
 msgstr "نسخة جديدة مُتاحة."
 
-#: fuzzy
 #: wp-includes/taxonomy.php:2362
 msgid "Could not insert term taxonomy into the database."
 msgstr "تعذر إدخال العنصر في قاعدة البيانات."
@@ -4258,7 +3838,6 @@ msgstr "في هذه الحالة، اكتشف ووردبريس خطأً بأحد
 
 #. translators: Do not translate LINK, EXPIRES, CAUSE, DETAILS, SITEURL,
 #. PAGEURL, SUPPORT. DEBUG: those are placeholders.
-#: fuzzy
 #: wp-includes/class-wp-recovery-mode-email-service.php:152
 msgid ""
 "Howdy!\n"
@@ -4392,7 +3971,6 @@ msgstr "[%s] طلب تغيير البريد الإلكتروني"
 msgid "[%s] Email Changed"
 msgstr "[%s] تم تغيير البريد الإلكتروني"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:24064
 msgid "Tag Cloud settings"
 msgstr "إعدادات سحابة الوسوم"
@@ -4432,7 +4010,6 @@ msgstr "عرض التاريخ"
 msgid "Display author"
 msgstr "عرض الكاتب"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:20098
 msgid "RSS settings"
 msgstr "إعدادات RSS"
@@ -4520,7 +4097,6 @@ msgstr "رابط"
 msgid "Prompt visitors to take action with a button-style link."
 msgstr "الزوار الفوريون لاتخاذ إجراء باستخدام رابط على شكل زر."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:13408
 #: wp-includes/js/dist/block-library.js:16276
 msgid "Focal point picker"
@@ -4557,7 +4133,6 @@ msgstr "كتاب إلكتروني"
 msgid "Read about permalinks"
 msgstr "إقرأ حول الروابط الدائمة"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:6871
 msgid "The last part of the URL."
 msgstr "الجزء الأخير من الرابط."
@@ -4626,7 +4201,6 @@ msgctxt "keyboard key"
 msgid "Backspace"
 msgstr "زر Backspace"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:31415
 msgid "More rich text controls"
 msgstr "المزيد من عناصر التحكم للنصّ"
@@ -4647,12 +4221,10 @@ msgstr "التثبيت بالجزء العلوي من المدونة"
 msgid "Exit the Editor"
 msgstr "الخروج من المُحرر"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:37611
 msgid "Vertical pos."
 msgstr "الوضع العمودي"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:37600
 msgid "Horizontal pos."
 msgstr "الوضع الأفقي"
@@ -4689,7 +4261,6 @@ msgid "A recovery link was already sent %1$s ago. Please wait another %2$s befor
 msgstr "تمّ إرسال رابط الاسترداد بالفعل منذ %1$s. يرجى الانتظار لمدة %2$s قبل تقديم طلب بريد إلكتروني جديد."
 
 #. translators: %s: mail()
-#: fuzzy
 #: wp-includes/class-wp-recovery-mode-email-service.php:71
 msgid "The email could not be sent. Possible reason: your host may have disabled the %s function."
 msgstr "تعذر إرسال البريد الإلكتروني. السبب المُحتمل: ربما قد يكون مستضيفك قام بتعطيل وظيفة mail()."
@@ -5040,7 +4611,6 @@ msgstr "ما إذا كانت الفئة صالحة بشكل عام."
 msgid "Whether a taxonomy is intended for use publicly either via the admin interface or by front-end users."
 msgstr "ما إذا كان القصد من الفئة هو استخدامها بشكل عام، إما عبر واجهة مدير الموقع أو من خلال واجهة الموقع للمستخدمين."
 
-#: fuzzy
 #: wp-includes/user.php:2288
 #: wp-login.php:365
 #: wp-login.php:407
@@ -5086,7 +4656,6 @@ msgstr "مكوّن (مُحدد)"
 msgid "Document (selected)"
 msgstr "مستند (مُحدد)"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5936
 msgid "Top toolbar"
 msgstr "شريط الأدوات العلوي"
@@ -5202,7 +4771,6 @@ msgstr "فاصل الصفحة"
 msgid "Stack on mobile"
 msgstr "تجميع على الجوال"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5319
 msgid "Custom fields"
 msgstr "الحقول المخصصة"
@@ -5243,7 +4811,6 @@ msgstr "تمّ تحرير الرابط."
 msgid "Link removed."
 msgstr "تمّ إزالة الرابط."
 
-#: fuzzy
 #: wp-includes/js/dist/format-library.js:868
 msgid "Inline image"
 msgstr "صورة مضمنة"
@@ -5260,7 +4827,6 @@ msgstr "فيلم"
 msgid "Embed a video from your media library or upload a new one."
 msgstr "تضمين فيديو من مكتبة الوسائط الخاصة بك أو ارفع ملف جديد."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:23452
 msgid "Playback controls"
 msgstr "ضوابط التشغيل"
@@ -5269,7 +4835,6 @@ msgstr "ضوابط التشغيل"
 msgid "Muted"
 msgstr "تم التجاهل"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:23694
 msgid "Video settings"
 msgstr "إعدادات الفيديو"
@@ -5314,7 +4879,6 @@ msgstr "إدراج جدول — مثالي لمشاركة الرسوم البي�
 msgid "Fixed width table cells"
 msgstr "خلايا الجدول ذات عرض ثابت"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:22595
 msgid "Table settings"
 msgstr "إعدادات الجدول"
@@ -5371,7 +4935,6 @@ msgstr "عنوان فرعي (مُهمل)"
 msgid "Height in pixels"
 msgstr "الارتفاع بالبكسل"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:21145
 msgid "Spacer settings"
 msgstr "إعدادات الفاصل"
@@ -5434,7 +4997,6 @@ msgstr "صندوق اقتباس"
 msgid "Give quoted text visual emphasis. \"In quoting others, we cite ourselves.\" — Julio Cortázar"
 msgstr "منح النصّ المقتبس تركيزاً بصرياً. \"في اقتباسات الآخرين، نحن نذكّر أنفسنا.\" — خوليو كورتاثر"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:19585
 msgid "Solid color"
 msgstr "لون كامل"
@@ -5447,7 +5009,6 @@ msgstr "منح التركيز البصري على اقتباس من النص ا�
 msgid "Pullquote"
 msgstr "اقتباس مائل"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:19304
 msgid "Main color"
 msgstr "اللون الرئيسي"
@@ -5480,12 +5041,10 @@ msgstr "نص"
 msgid "Start with the building block of all narrative."
 msgstr "ابدأ بناء مكوّنات لكل الحكايا."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:2422
 msgid "Drop cap"
 msgstr "الحرف الكبير"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:2420
 msgid "Text settings"
 msgstr "إعدادات النص"
@@ -5545,7 +5104,6 @@ msgstr "ضبط الوسائط والكلمات جنبًا إلى جنب للحص
 msgid "Media & Text"
 msgstr "وسائط مع نصّ"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:16258
 msgid "Media & Text settings"
 msgstr "إعدادات وسائط مع نصّ"
@@ -5615,17 +5173,14 @@ msgstr "عرض قائمة بأحدث التعليقات."
 msgid "Latest Comments"
 msgstr "آخر التعليقات"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:16756
 msgid "Number of comments"
 msgstr "عدد التعليقات"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:16744
 msgid "Display avatar"
 msgstr "عرض الصورة الرمزية"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:16742
 msgid "Latest comments settings"
 msgstr "إعدادات أحدث التعليقات"
@@ -5639,18 +5194,15 @@ msgstr "صورة"
 msgid "Insert an image to make a visual statement."
 msgstr "إدراج صورة من أجل جذب الانتباه."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:32479
 msgid "Image dimensions"
 msgstr "أبعاد الصورة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:5301
 #: wp-includes/js/dist/block-library.js:16285
 msgid "Alt text (alternative text)"
 msgstr "النص البديل"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:5299
 msgid "Image settings"
 msgstr "إعدادات الصورة"
@@ -5710,7 +5262,6 @@ msgstr "الصور"
 msgid "Display multiple images in a rich gallery."
 msgstr "عرض صور متعددة في معرض صور ثريّ."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:8773
 msgid "Crop images"
 msgstr "اقتصاص الصور"
@@ -5727,17 +5278,14 @@ msgstr "الصور المصغرة غير مقصوصة."
 msgid "Thumbnails are cropped to align."
 msgstr "يتم اقتصاص الصور المصغّرة لضبط المحاذاة."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:14741
 msgid "Show download button"
 msgstr "عرض زر التنزيل"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:14739
 msgid "Download button settings"
 msgstr "إعدادات زر التنزيل"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:14728
 msgid "Text link settings"
 msgstr "إعدادات نص الرابط"
@@ -5809,7 +5357,6 @@ msgstr "تضمين…"
 msgid "Resize for smaller devices"
 msgstr "تغيير الحجم من أجل الأجهزة الصغيرة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:13402
 #: wp-includes/js/dist/block-library.js:13898
 msgid "Media settings"
@@ -5937,7 +5484,6 @@ msgstr "صوتيات"
 msgid "blog"
 msgstr "مدونة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:3095
 #: wp-includes/js/dist/editor.js:7642
 msgid "post"
@@ -6001,12 +5547,10 @@ msgstr "كتابة عنوان…"
 msgid "Overlay"
 msgstr "غطاء Overlay"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:13404
 msgid "Fixed background"
 msgstr "خلفية ثابتة"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:10551
 msgid "Border settings"
 msgstr "إغلاق الإعدادات"
@@ -6058,7 +5602,6 @@ msgstr "المزيد"
 msgid "Display a list of all categories."
 msgstr "عرض قائمة جميع التصنيفات."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:11357
 msgid "Categories settings"
 msgstr "إعدادات التصنيفات"
@@ -6076,7 +5619,6 @@ msgstr "دائري"
 msgid "Button"
 msgstr "زر"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:13665
 #: wp-includes/js/dist/block-editor.js:15356
 #: wp-includes/js/dist/block-editor.js:15359
@@ -6092,7 +5634,6 @@ msgstr "إعدادات الألوان"
 msgid "Add text…"
 msgstr "إضافة نص…"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:19980
 msgid "Create and save content to reuse across your site. Update the block, and the changes apply everywhere it’s used."
 msgstr "أنشئ محتوى، ثم قم بحفظه لتتمكّن أنت والمساهمين الآخرين من إعادة استخدامه عبر موقعك. حدّث المكوّن، وسيتم تطبيق التغييرات في كل مكان تم استخدام المكوّن فيه."
@@ -6118,7 +5659,6 @@ msgstr "تضمين مشغل صوت بسيط."
 msgid "Write caption…"
 msgstr "كتابة تسمية توضيحية…"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:9524
 msgid "Audio settings"
 msgstr "إعدادات الصوت"
@@ -6127,12 +5667,10 @@ msgstr "إعدادات الصوت"
 msgid "Display a monthly archive of your posts."
 msgstr "عرض أرشيف شهري لمقالات موقعك."
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:9219
 msgid "Archives settings"
 msgstr "إعدادات الأرشيف"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:25421
 #: wp-includes/js/dist/block-editor.js:25426
 #: wp-includes/js/dist/blocks.js:5994
@@ -6177,7 +5715,6 @@ msgstr "مُحرر الشفرة البرمجية المُحدد"
 msgid "Visual editor selected"
 msgstr "المحرر المرئي المُحدد"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:1874
 msgid "Copy all content"
 msgstr "نسخ كل المحتوى"
@@ -6214,12 +5751,10 @@ msgstr "إعدادات إضافية متاحة الآن في إعدادات مح
 msgid "Block settings closed"
 msgstr "تم إغلاق إعدادات المكوّن"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:4302
 msgid "Exit code editor"
 msgstr "الخروج من مُحرر الشفرة البرمجية"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:4298
 msgid "Editing code"
 msgstr "تحرير الشفرة البرمجية"
@@ -6258,7 +5793,6 @@ msgstr[5] "%d مكوّن"
 msgid "Visibility"
 msgstr "الظهور"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:6543
 msgid "Status & visibility"
 msgstr "الحالة والظهور"
@@ -6275,7 +5809,6 @@ msgstr "إلغاء التثبيت من شريط الأدوات"
 msgid "Close plugin"
 msgstr "إغلاق الإضافة"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5421
 msgid "Advanced panels"
 msgstr "لوحات متقدمة"
@@ -6287,7 +5820,6 @@ msgstr "لوحات متقدمة"
 msgid "Discussion"
 msgstr "مناقشة"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5395
 msgid "Document panels"
 msgstr "لوحات المستند"
@@ -6367,7 +5899,6 @@ msgstr "تحديد كل النص عند الكتابة. اضغط مرة أخرى
 msgid "Selection shortcuts"
 msgstr "اختصارات التحديد"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:4455
 msgid "Switch between visual editor and code editor."
 msgstr "التبديل بين المُحرر المرئي و محرر الشفرة البرمجية."
@@ -6412,7 +5943,6 @@ msgstr "اخنصارات عامة"
 msgid "Work without distraction"
 msgstr "العمل دون تشتيت الانتباه"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5948
 msgid "Fullscreen mode"
 msgstr "وضع الشاشة الكاملة"
@@ -6421,7 +5951,6 @@ msgstr "وضع الشاشة الكاملة"
 msgid "Focus on one block at a time"
 msgstr "التركيز على مكوّن واحد أثناء التحرير"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5942
 msgid "Spotlight mode"
 msgstr "وضع تسليط الضوء"
@@ -6444,12 +5973,10 @@ msgstr "الخيارات"
 msgid "Editor"
 msgstr "المُحرر"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5784
 msgid "Code editor"
 msgstr "مُحرر الشفرة البرمجية"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5781
 msgid "Visual editor"
 msgstr "محرر مرئي"
@@ -6500,17 +6027,14 @@ msgstr "تم إنشاء المكوّن."
 msgid "Trashing failed"
 msgstr " فشلت عملية الحذف"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:2972
 msgid "Updating failed."
 msgstr "فشلت عملية التحديث"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:2970
 msgid "Scheduling failed."
 msgstr "فشلت عملية الجدولة"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:2968
 #: wp-includes/js/dist/editor.js:2969
 msgid "Publishing failed."
@@ -6572,17 +6096,14 @@ msgstr "أحمر فاقع"
 msgid "Pale pink"
 msgstr "زهري فاتح"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:12741
 msgid "Additional CSS class(es)"
 msgstr "وضع CSS Class إضافي"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:12636
 msgid "HTML anchor"
 msgstr "رابط القفز HTML"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:34753
 #: wp-includes/js/dist/block-library.js:10710
 msgid "Link settings"
@@ -6726,12 +6247,10 @@ msgstr "عنصر"
 msgid "Tag"
 msgstr "وسم"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:10676
 msgid "Add new Term"
 msgstr "إضافة عنصر جديد"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:11406
 msgid "Switch to draft"
 msgstr "تحويل إلى مسودة"
@@ -6880,7 +6399,6 @@ msgstr "معاينة"
 msgid "Generating preview…"
 msgstr "تجهيز المعاينة…"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:9747
 msgid "Allow pingbacks & trackbacks"
 msgstr "السماح بالتنبيهات والتعقيبات"
@@ -6965,7 +6483,6 @@ msgstr "تعلم المزيد حول المقتطفات اليدوية"
 msgid "Write an excerpt (optional)"
 msgstr "كتابة مقتطف (اختياري)"
 
-#: fuzzy
 #: wp-admin/includes/meta-boxes.php:801
 #: wp-includes/js/dist/editor.js:8588
 msgid "Allow comments"
@@ -6991,7 +6508,6 @@ msgstr "ترتيب"
 msgid "Paste or type URL"
 msgstr "لصق أو كتابة رابط URL"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:25463
 #: wp-includes/js/dist/edit-post.js:2031
 msgid "Manage all reusable blocks"
@@ -7002,7 +6518,6 @@ msgstr "إدارة جميع المكوّنات القابلة لإعادة ال�
 msgid "Reusable"
 msgstr "قابل لإعادة الاستخدام"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:25041
 #: wp-includes/js/dist/block-editor.js:25046
 msgctxt "blocks"
@@ -7074,7 +6589,6 @@ msgstr "قد يكون من الصعب قراءة تركيبة الألوان ه�
 msgid "This color combination may be hard for people to read. Try using a darker background color and/or a brighter text color."
 msgstr "قد يكون من الصعب قراءة تركيبة الألوان هذه. جرب استخدام لون خلفية أكثر إشراقاً و/أو لون نص داكن."
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:27933
 msgid "Transform to"
 msgstr "تحويل إلى:"
@@ -7090,7 +6604,6 @@ msgstr[3] "تغيير نوع %d مكوّنات"
 msgstr[4] "تغيير نوع %d مكوّن"
 msgstr[5] "تغيير نوع %d مكوّن"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:13494
 msgid "Remove from Reusable blocks"
 msgstr "حذف من المكوّنات القابلة لإعادة الاستخدام"
@@ -7099,12 +6612,10 @@ msgstr "حذف من المكوّنات القابلة لإعادة الاستخ�
 msgid "Convert to Regular Block"
 msgstr "تحويل إلى مكوّن عادي"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:13408
 msgid "Add to Reusable blocks"
 msgstr "إضافة إلى المكوّنات القابلة لإعادة الاستخدام"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:28889
 msgid "Remove Block"
 msgid_plural "Remove Blocks"
@@ -7171,7 +6682,6 @@ msgid "Blocks cannot be moved up as they are already at the top"
 msgstr "لا يمكن نقل المكوّنات إلى أعلى لأنها بالفعل بالأعلى"
 
 #. translators: 1: Type of block (i.e. Text, Image etc)
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:17250
 msgid "Block %1$s is at the beginning of the content and can’t be moved right"
 msgstr "المكوّن %s موجود في بداية المحتوى ولا يمكن نقله للأعلى"
@@ -7183,7 +6693,6 @@ msgid "Move %1$s block from position %2$d up to position %3$d"
 msgstr "تحريك المكوّن %1$s من الموضع %2$d للأعلى إلى الموضع %3$d"
 
 #. translators: 1: Type of block (i.e. Text, Image etc)
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:17210
 msgid "Block %1$s is at the end of the content and can’t be moved right"
 msgstr "المكوّن %s موجود في نهاية المحتوى ولا يمكن تحريكه للأسفل"
@@ -7255,7 +6764,6 @@ msgstr "تحويل إلى HTML"
 msgid "Current"
 msgstr "الحالي"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:12288
 msgid "Change alignment"
 msgstr "تغيير المحاذاة"
@@ -7268,7 +6776,6 @@ msgstr "عرض كامل"
 msgid "Wide width"
 msgstr "عرض واسع"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:15805
 msgid "Change text alignment"
 msgstr "تغيير محاذاة النص"
@@ -7299,12 +6806,10 @@ msgstr "ي ← أ"
 msgid "A → Z"
 msgstr "أ ← ي"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:42962
 msgid "Oldest to newest"
 msgstr "الأقدم الى الأحدث"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:42959
 msgid "Newest to oldest"
 msgstr "الأحدث الى الأقدم"
@@ -7658,7 +7163,6 @@ msgstr "عذرًا، غير مسموح لك بقراءة المكوّنات له
 msgid "ID of the post context."
 msgstr " رقم معرف سياق المقال."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-renderer-controller.php:54
 msgid "Attributes for the block"
 msgstr "سمات مكوّن %s "
@@ -8600,7 +8104,6 @@ msgstr ""
 "###SITENAME###\n"
 "###SITEURL###"
 
-#: fuzzy
 #: wp-includes/user.php:2832
 msgid "<strong>Error</strong>: The email address is already used."
 msgstr "<strong>خطأ</strong>: عنوان البريد الإلكتروني مُستخدم بالفعل."
@@ -8644,7 +8147,6 @@ msgstr[5] "هناك %d خطأ يجب تصحيحه قبل أن تتمكن من ا
 msgid "There is a more recent autosave of your changes than the one you are previewing. <a href=\"%s\">Restore the autosave</a>"
 msgstr "هناك أكثر من سجل حفظ تلقائي للتغييرات التي تجريها أحدث من الذي تقوم بمعاينته الآن. <a href=\"%s\">استعادة الحفظ التلقائي</a>"
 
-#: fuzzy
 #: wp-includes/script-loader.php:1122
 msgid "Are you sure you want to discard your unpublished changes?"
 msgstr "هل أنت متأكد من رغبتك بتجاهل التغييرات الغير منشورة؟"
@@ -9792,13 +9294,11 @@ msgctxt "post"
 msgid "Set featured image"
 msgstr "تعيين الصورة البارزة للمقالة"
 
-#: fuzzy
 #: wp-includes/post.php:1714
 msgctxt "page"
 msgid "Featured image"
 msgstr "الصورة البارزة للصفحة"
 
-#: fuzzy
 #: wp-includes/post.php:1714
 msgctxt "post"
 msgid "Featured image"
@@ -9850,7 +9350,6 @@ msgstr "عفوًا، التعليقات غير مسموح بها لهذا الع
 msgid "Sorry, you are not allowed to make proxied oEmbed requests."
 msgstr "عفوًا غير مسموح لك بعمل طلبات على oEmbed."
 
-#: fuzzy
 #: wp-includes/class-wp-oembed-controller.php:98
 msgid "Whether to perform an oEmbed discovery request for unsanctioned providers."
 msgstr "ما إن كان يجب تنفيذ استعلام لاستكشاف oEmbed للمزودين الذين ليسوا على القائمة البيضاء."
@@ -10474,7 +9973,6 @@ msgctxt "Theme starter content"
 msgid "Saturday &amp; Sunday: 11:00AM&ndash;3:00PM"
 msgstr "السبت &amp; الأحد: 11:00ص&ndash;3:00م"
 
-#: fuzzy
 #: wp-includes/theme.php:2156
 msgctxt "Theme starter content"
 msgid "Monday&ndash;Friday: 9:00AM&ndash;5:00PM"
@@ -10632,7 +10130,6 @@ msgstr "حصر النتيجة على مقالات مع اسم أو عدة أسم
 msgid "Comment is required."
 msgstr "التعليق مطلوب."
 
-#: fuzzy
 #: wp-includes/class-wp-customize-nav-menus.php:949
 msgid "Empty title."
 msgstr "عنوان فارغ"
@@ -10649,7 +10146,6 @@ msgstr "عذرًا، التعقيبات مغلقة لهذا العنصر."
 msgid "I really need an ID for this to work."
 msgstr "أريد حقاً مُعرف (ID) لعمل هذا."
 
-#: fuzzy
 #: wp-includes/block-patterns/three-buttons.php:10
 msgid "Contact us"
 msgstr "اتصال"
@@ -10764,7 +10260,6 @@ msgstr "اسم المستخدم غير قابل للتحرير."
 msgid "Sorry, you are not allowed to edit roles of this user."
 msgstr "عذرًا، غير مسموح لك تغيير رتبة هذا المستخدم."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:431
 msgid "Sorry, you are not allowed to delete this revision."
 msgstr "عذرًا، غير مسموح لك حذف هذا المستخدم."
@@ -11036,7 +10531,6 @@ msgstr "تم حذف المقال بالفعل."
 msgid "Sorry, you are not allowed to edit comments."
 msgstr "عذرًا، غير مسموح لك بتحرير التعليقات."
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:226
 msgid "Sorry, you are not allowed to manage this plugin."
 msgstr "عذرًا، غير مسموح لك تحرير هذه الصفحة."
@@ -11343,7 +10837,6 @@ msgstr "عذرًا، يجب أن تكون متصلًا لتتمكّن من ال�
 msgid "Query parameter not permitted: %s"
 msgstr "مُعامل الاستعلام غير مسموح: %s"
 
-#: fuzzy
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:104
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:119
 msgid "Whether to bypass Trash and force deletion."
@@ -11410,7 +10903,6 @@ msgid "Sorry, you are not allowed to upload media on this site."
 msgstr "عذرًا، غير مسموح لك رفع ملفات وسائط على هذا الموقع."
 
 #. translators: %s: rest_authentication_errors
-#: fuzzy
 #: wp-includes/rest-api/class-wp-rest-server.php:317
 msgid "The REST API can no longer be completely disabled, the %s filter can be used to restrict access to the API, instead."
 msgstr "الـ REST API ﻻ يمكن تعطيله كليًا بعد الآن، بالإمكان استخدام rest_authentication_errors لتقييد الوصول للـ API بدلاً عن ذلك."
@@ -11644,7 +11136,6 @@ msgstr "انقر لتحرير هذه القائمة."
 msgid "Markup is not allowed in CSS."
 msgstr "وسوم التوصيف (Markup) غير مسموحة في تنسيقات الـ CSS."
 
-#: fuzzy
 #: wp-includes/class-wp-xmlrpc-server.php:3797
 msgid "Sorry, the comment could not be updated."
 msgstr "عذرًا، تعذر تحرير التعليق."
@@ -11668,7 +11159,6 @@ msgstr "عذرًا، غير مسموح لك بحذف هذا العنصر."
 msgid "Sorry, you are not allowed to edit this term."
 msgstr "عذرًا، غير مسموح لك بتحرير هذا العنصر."
 
-#: fuzzy
 #: wp-includes/class-wp-xmlrpc-server.php:2088
 msgid "Sorry, the term could not be created."
 msgstr "عذرًا، تعذر إنشاء العنصر."
@@ -12045,7 +11535,6 @@ msgstr "اليوم"
 msgid "An unknown error occurred."
 msgstr "حدث خطأ غير معروف."
 
-#: fuzzy
 #: wp-includes/class-wp-text-diff-renderer-table.php:127
 msgid "Deleted:"
 msgstr "محذوف!"
@@ -12155,7 +11644,6 @@ msgstr "تم تحديد الرابط."
 msgid "%s is required to strip image meta."
 msgstr "الطريقة %s مطلوبة لإزالة معلومات الميتا للصورة."
 
-#: fuzzy
 #: wp-includes/media.php:4237
 msgid "No media items found."
 msgstr "لم يتمّ إيجاد ملفات وسائط."
@@ -12213,12 +11701,10 @@ msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
 #. translators: %s: Email address.
-#: fuzzy
 #: wp-includes/user.php:247
 msgid "<strong>Error</strong>: The password you entered for the email address %s is incorrect."
 msgstr "<strong>خطأ</strong>: كلمة المرور التي ادخلتها للبريد الالكتروني %s غير صحيحة."
 
-#: fuzzy
 #: wp-includes/user.php:212
 msgid "<strong>Error</strong>: The email field is empty."
 msgstr "<strong>خطأ</strong>: حقل البريد الالكتروني فارغ."
@@ -12283,7 +11769,6 @@ msgctxt "post password form"
 msgid "Enter"
 msgstr "إدخال"
 
-#: fuzzy
 #: wp-includes/pluggable.php:554
 msgid "<strong>Error</strong>: Invalid username, email address or incorrect password."
 msgstr "<strong>خطأ</strong>: اسم المستخدم أو عنوان البريد الإلكتروني غير صالح أو كلمة المرور غير صحيحة."
@@ -12333,22 +11818,18 @@ msgstr "%s ممنوع"
 msgid "Partial render must echo the content or return the content string (or array), but not both."
 msgstr "معالج الجزء يجب أن يطبع (echo) المحتوى أو يرجع (return) سلسلة نصية (أو مصفوفة)، ولكن ليس كلاهما."
 
-#: fuzzy
 #: wp-includes/comment.php:1306
 msgid "<strong>Error</strong>: Your comment is too long."
 msgstr "<strong>خطأ</strong>: تعليقك طويل جداً."
 
-#: fuzzy
 #: wp-includes/comment.php:1302
 msgid "<strong>Error</strong>: Your URL is too long."
 msgstr "<strong>خطأ</strong>: رابط موقعك طويل جداً."
 
-#: fuzzy
 #: wp-includes/comment.php:1298
 msgid "<strong>Error</strong>: Your email address is too long."
 msgstr "<strong>خطأ</strong>: بريدك الالكتروني طويل جداً."
 
-#: fuzzy
 #: wp-includes/comment.php:1294
 msgid "<strong>Error</strong>: Your name is too long."
 msgstr "<strong>خطأ</strong>: اسمك طويل جداً."
@@ -12375,7 +11856,6 @@ msgstr "موافق عليه"
 msgid "Template is missing. Standalone themes need to have a %1$s template file. <a href=\"%2$s\">Child themes</a> need to have a Template header in the %3$s stylesheet."
 msgstr "أحد ملفات القالب مفقود. القوالب القائمة بذاتها يجب أن تحتوي على الملف %1$s. <a href=\"%2$s\">القوالب الفرعية</a> يجب أن تحتوي على ترويسة Template في ملف التنسيق %3$s."
 
-#: fuzzy
 #: wp-includes/class-wp-metadata-lazyloader.php:77
 #: wp-includes/class-wp-metadata-lazyloader.php:117
 msgid "Invalid object type."
@@ -12417,7 +11897,6 @@ msgstr "انقر على زر Shift لتحرير هذا العنصر. "
 msgid "Comment Submission Failure"
 msgstr "فشل تقديم التعليق"
 
-#: fuzzy
 #: wp-admin/includes/user.php:196
 #: wp-includes/user.php:2528
 msgid "<strong>Error</strong>: Sorry, that username is not allowed."
@@ -12445,7 +11924,6 @@ msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information
 msgstr "من فضلك اطلع على <a href=\"%s\">تنقيح الأخطاء في ووردبريس</a> لمزيد من المعلومات."
 
 #. translators: 1: $table_prefix, 2: wp-config.php
-#: fuzzy
 #: wp-includes/load.php:548
 msgid "<strong>Error</strong>: %1$s in %2$s can only contain numbers, letters, and underscores."
 msgstr "<strong>خطأ</strong>: %1$s في %2$s يمكن أن يحتوي فقط على أرقام، حروف وشرطات سُفلية."
@@ -12643,7 +12121,6 @@ msgstr "العنوان المُرسَل:"
 msgid "Author:"
 msgstr "الكاتب:"
 
-#: fuzzy
 #: wp-includes/wp-db.php:1852
 msgid "Are you sure the database server is not under particularly heavy load?"
 msgstr "هل أنت متأكد أن خادم قاعدة البيانات ليس تحت ضغط ثقيل؟"
@@ -12663,13 +12140,11 @@ msgstr "خطأ في إعادة الإتصال بقاعدة البيانات"
 msgid "If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href=\"%s\">WordPress Support Forums</a>."
 msgstr "إن لم تكن متأكدًا من ما تعنيه هذه المصطلحات فلربما عليك مراسلة المُضيف، إذا احتجت لأي مساعدة يمكنك دائمًا زيارة <a href=\"%s\">منتديات ووردبريس للدعم الفني</a>."
 
-#: fuzzy
 #: wp-includes/wp-db.php:1695
 #: wp-includes/wp-db.php:1851
 msgid "Are you sure the database server is running?"
 msgstr "هل أنت متأكد أن خادم قاعدة البيانات قيد التشغيل؟"
 
-#: fuzzy
 #: wp-includes/wp-db.php:1694
 msgid "Are you sure you have typed the correct hostname?"
 msgstr "هل أنت متأكد بأنك كتبت اسم المُضيف الصحيح؟"
@@ -12720,7 +12195,6 @@ msgid "Nicename may not be longer than 50 characters."
 msgstr "الاسم اللطيف لا يجوز أن يحتوي على أكثر من 50 حرفًا."
 
 #. translators: %s: User name.
-#: fuzzy
 #: wp-includes/user.php:175
 msgid "<strong>Error</strong>: The password you entered for the username %s is incorrect."
 msgstr "<strong>خطأ</strong>: كلمة المرور التي ادخلتها للمستخدم %s غير صحيحة."
@@ -13471,7 +12945,6 @@ msgstr "'tain't,'twere,'twas,'tis,'twill,'til,'bout,'nuff,'round,'cause,'em"
 msgid "Content:"
 msgstr "المحتوى"
 
-#: fuzzy
 #: wp-includes/class-wp-xmlrpc-server.php:620
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks) on new posts."
 msgstr "السماح بإشعارات الروابط من مدونات أخرى (تنبيهات وتعقيبات) على المقالات الجديدة."
@@ -13649,7 +13122,6 @@ msgstr "العناصر الإضافية التى وجدت: %d"
 msgid "Number of items found: %d"
 msgstr "عدد العناصر التى وجدت: %d"
 
-#: fuzzy
 #: wp-includes/js/dist/core-data.js:2053
 msgid "Post Type"
 msgstr "صفحة المقالات"
@@ -14015,7 +13487,6 @@ msgstr "نص الرابط"
 msgid "Live Preview"
 msgstr "معاينة حيّة"
 
-#: fuzzy
 #: wp-includes/customize/class-wp-customize-theme-control.php:237
 msgctxt "theme"
 msgid "Previewing:"
@@ -14344,7 +13815,6 @@ msgstr ""
 msgid "Press return or enter to open this panel"
 msgstr "إضغط زر العودة أو الإدخال لفتح هذه اللوحة"
 
-#: fuzzy
 #: wp-includes/media.php:4225
 msgid "Bulk select"
 msgstr "تحديد متعدد"
@@ -14365,7 +13835,6 @@ msgstr "(بدون تسمية)"
 msgid "This site is no longer available."
 msgstr "هذا الموقع لم يعد متاحاً."
 
-#: fuzzy
 #: wp-includes/media.php:4233
 msgid "Search media"
 msgstr "بحث في الوسائط"
@@ -14489,7 +13958,6 @@ msgstr "الودجات هي أقسام مستقلة للمحتوى، يمكن و
 msgid "You are customizing %s"
 msgstr "أنت الآن تقوم بتخصيص %s"
 
-#: fuzzy
 #: wp-includes/comment.php:3544
 msgid "<strong>Error</strong>: The comment could not be saved. Please try again later."
 msgstr "<strong>خطأ</strong>: تعذّر حفظ التعليق. يُرجى المحاولة لاحقاً."
@@ -14523,13 +13991,11 @@ msgid "Keyboard Shortcuts"
 msgstr "اختصارات لوحة المفاتيح"
 
 #. translators: %s: Browser cookie documentation URL.
-#: fuzzy
 #: wp-login.php:1267
 msgid "<strong>Error</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
 msgstr "<strong>خطأ</strong>: ملفات الكوكيز محظورة او غير مدعومة من قبل متصفحك. يجب عليك <a href=\"%s\">تفعيل الكوكيز</a> لاستخدام ووردبريس."
 
 #. translators: 1: Browser cookie documentation URL, 2: Support forums URL.
-#: fuzzy
 #: wp-login.php:1256
 msgid "<strong>Error</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
 msgstr "<strong>خطأ</strong>: ملفات الكوكيز محظورة لسبب ما غير متوقّع . للحصول على مساعدة، يرجى الاطلاّع على <a href=\"%1$s\">هذه الوثيقة</a> أو اللجوء إلى <a href=\"%2$s\">منتديات الدعم</a>."
@@ -14550,12 +14016,10 @@ msgstr "تحديث قائمة التشغيل الصوتية"
 msgid "Insert audio playlist"
 msgstr "أدرج قائمة تشغيل صوت"
 
-#: fuzzy
 #: wp-includes/media.php:4295
 msgid "&#8592; Cancel audio playlist"
 msgstr "&#8592; إلغاء قائمة التشغيل الصوتية"
 
-#: fuzzy
 #: wp-includes/media.php:4294
 msgid "Edit audio playlist"
 msgstr "تحرير قائمة تشغيل الصوت"
@@ -14925,7 +14389,6 @@ msgctxt "TinyMCE"
 msgid "Formats"
 msgstr "التنسيقات"
 
-#: fuzzy
 #: wp-includes/media-template.php:1239
 #: wp-includes/media-template.php:1330
 msgid "Add alternate sources for maximum HTML5 playback"
@@ -14944,7 +14407,6 @@ msgstr "معامل الإستعلام للدالة %s يجب أن يحتوي ع�
 msgid "Invalid menu ID."
 msgstr "معرّف القائمة (ID) غير صالح."
 
-#: fuzzy
 #: wp-includes/media.php:4309
 msgid "Add to video Playlist"
 msgstr "أضف ملفات إلى قائمة تشغيل الفيديو"
@@ -14961,17 +14423,14 @@ msgstr "تحديث قائمة تشغيل الفيديو"
 msgid "Insert video playlist"
 msgstr "إدراج قائمة تشغيل الفيديو"
 
-#: fuzzy
 #: wp-includes/media.php:4305
 msgid "&#8592; Cancel video playlist"
 msgstr "&#8592; إلغاء قائمة تشغيل الفيديو"
 
-#: fuzzy
 #: wp-includes/media.php:4304
 msgid "Edit video playlist"
 msgstr "تحرير قائمة تشغيل الفيديو"
 
-#: fuzzy
 #: wp-includes/media.php:4303
 msgid "Create video playlist"
 msgstr "إنشاء قائمة تشغيل فيديو"
@@ -14980,7 +14439,6 @@ msgstr "إنشاء قائمة تشغيل فيديو"
 msgid "Drag and drop to reorder videos."
 msgstr "إسحب وأفلت لإعادة ترتيب ملفات الفيديو."
 
-#: fuzzy
 #: wp-includes/media.php:4293
 msgid "Create audio playlist"
 msgstr "إنشاء قائمة تشغيل صوتية"
@@ -14989,37 +14447,30 @@ msgstr "إنشاء قائمة تشغيل صوتية"
 msgid "Drag and drop to reorder tracks."
 msgstr "إسحب وأفلت لإعادة ترتيب المسارات."
 
-#: fuzzy
 #: wp-includes/media.php:4289
 msgid "Add subtitles"
 msgstr "إضافة ترجمات"
 
-#: fuzzy
 #: wp-includes/media.php:4286
 msgid "Add video source"
 msgstr "إضافة مصدر الفيديو"
 
-#: fuzzy
 #: wp-includes/media.php:4285
 msgid "Replace video"
 msgstr "استبدال الفيديو"
 
-#: fuzzy
 #: wp-includes/media.php:4284
 msgid "Video details"
 msgstr "تفاصيل الفيديو"
 
-#: fuzzy
 #: wp-includes/media.php:4280
 msgid "Add audio source"
 msgstr "إضافة مصدر الملف الصوتي"
 
-#: fuzzy
 #: wp-includes/media.php:4279
 msgid "Replace audio"
 msgstr "استبدال الصوت"
 
-#: fuzzy
 #: wp-includes/media.php:4278
 msgid "Audio details"
 msgstr "تفاصيل الصوت"
@@ -15028,22 +14479,18 @@ msgstr "تفاصيل الصوت"
 msgid "Crop your image"
 msgstr "قص الصورة"
 
-#: fuzzy
 #: wp-includes/media.php:4270
 msgid "Crop image"
 msgstr "قص صورة"
 
-#: fuzzy
 #: wp-includes/media.php:4269
 msgid "Skip cropping"
 msgstr "تخطي القص"
 
-#: fuzzy
 #: wp-includes/media.php:4268
 msgid "Select and crop"
 msgstr "اختيار وقص"
 
-#: fuzzy
 #: wp-includes/media.php:4263
 #: wp-includes/media.php:4281
 #: wp-includes/media.php:4287
@@ -15054,7 +14501,6 @@ msgstr "إلغاء التحرير"
 msgid "Replace Image"
 msgstr "استبدال صورة"
 
-#: fuzzy
 #: wp-includes/media.php:4261
 msgid "Image details"
 msgstr "تفاصيل الصورة"
@@ -15193,7 +14639,6 @@ msgid "Header cell"
 msgstr "خلايا الترويسة"
 
 #. translators: accessibility text for the footer landmark region.
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:4183
 msgid "Footer"
 msgstr "تذييل"
@@ -15607,7 +15052,6 @@ msgstr "اجل,اذا,اذما,اذن,الا,الالاء,الالى,التي,ا
 msgid "This content is password protected. To view it please enter your password below:"
 msgstr "هذا المحتوى محمي بكلمة مرور. لإظهار المحتوى يتعين عليك كتابة كلمة المرور في الأدنى:"
 
-#: fuzzy
 #: wp-includes/functions.php:1558
 msgid "Error: This is not a valid feed template."
 msgstr "خطأ: هذا قالب تغذية غير صالح."
@@ -15652,7 +15096,6 @@ msgstr "كلمات توضيحية/ترجمات"
 msgid "Unmute"
 msgstr "إلغاء كتم الصوت"
 
-#: fuzzy
 #: wp-includes/script-loader.php:909
 msgid "Download File"
 msgstr "تحميل الفيديو"
@@ -15661,7 +15104,6 @@ msgstr "تحميل الفيديو"
 msgid "Invalid"
 msgstr "غير صالح"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:2665
 #: wp-includes/js/dist/block-library.js:6112
 msgid "Empty"
@@ -15787,7 +15229,6 @@ msgstr "g:i a"
 msgid "F j, Y"
 msgstr "j F، Y"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:36463
 msgid "Not set"
 msgstr "لم يتم تعيين صورة"
@@ -15807,7 +15248,6 @@ msgid "The web browser on your device cannot be used to upload files. You may be
 msgstr "المتصفح على جهازك لا يمكن استخدامه لرفع الملفات. ربما يمكنك استخدام <a href=\"%s\">تطبيق آخر يدعم جهازك</a> كبديل."
 
 #. translators: %s: Admin email address.
-#: fuzzy
 #: wp-includes/user.php:2584
 msgid "<strong>Error</strong>: Couldn&#8217;t register you&hellip; please contact the <a href=\"mailto:%s\">site admin</a>!"
 msgstr "<strong>خطأ</strong>: لا يمكن تسجيلك&hellip; يرجى التواصل مع <a href=\"mailto:%s\">المسؤول عن الموقع</a> !"
@@ -15934,7 +15374,6 @@ msgstr "تعيين صورة بارزة"
 msgid "Deselect"
 msgstr "إلغاء التحديد"
 
-#: fuzzy
 #: wp-admin/includes/class-wp-comments-list-table.php:372
 #: wp-admin/includes/class-wp-media-list-table.php:175
 #: wp-admin/includes/class-wp-media-list-table.php:180
@@ -16083,12 +15522,10 @@ msgstr "تفاصيل المرفق"
 msgid "Large"
 msgstr "كبير"
 
-#: fuzzy
 #: wp-includes/media.php:4253
 msgid "&#8592; Cancel gallery"
 msgstr "&#8592; إلغاء المعرض"
 
-#: fuzzy
 #: wp-includes/media.php:4205
 msgid "Upload images"
 msgstr "رفع صور"
@@ -16106,12 +15543,10 @@ msgstr "إعدادات عرض المرفق"
 msgid "WordPress &rsaquo; Success"
 msgstr "ووردبريس &rsaquo; نجاح"
 
-#: fuzzy
 #: wp-includes/media.php:4204
 msgid "Upload files"
 msgstr "رفع ملفات"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:7528
 msgid "Selected"
 msgstr "اختر"
@@ -16129,7 +15564,6 @@ msgstr "إدراج المعرض"
 msgid "Drop files to upload"
 msgstr "أفلت الملفات لرفعها"
 
-#: fuzzy
 #: wp-includes/media.php:4251
 msgid "Create gallery"
 msgstr "إنشاء معرض"
@@ -16224,7 +15658,6 @@ msgstr "رابط لـ "
 msgid "Update gallery"
 msgstr "تحديث المعرض"
 
-#: fuzzy
 #: wp-admin/includes/user.php:189
 #: wp-includes/user.php:2522
 msgid "<strong>Error</strong>: This username is already registered. Please choose another one."
@@ -16372,7 +15805,6 @@ msgstr "عذراً، المراجعات معطلة."
 msgid "Sorry, you are not allowed to edit posts."
 msgstr "عذرًا، غير مسموح لك بتحرير مقالات."
 
-#: fuzzy
 #: wp-includes/class-wp-xmlrpc-server.php:2886
 msgid "Sorry, the user could not be updated."
 msgstr "عذراً، لا يمكن تحديث المستخدم."
@@ -16585,7 +16017,6 @@ msgstr "إزالة"
 msgid "Upload"
 msgstr "رفع"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:5407
 #: wp-includes/js/dist/edit-post.js:6703
 #: wp-includes/js/dist/editor.js:8755
@@ -16716,7 +16147,6 @@ msgstr "القالب \"%s\" ليس بقالب رئيسي (أب) صالح."
 msgid "Stylesheet is not readable."
 msgstr "ملف الستايل غير قابل للقراءة."
 
-#: fuzzy
 #: wp-includes/class-wp-theme.php:258
 msgid "Error: The themes directory is either empty or doesn&#8217;t exist. Please check your installation."
 msgstr "خطأ: مجلد القوالب فارغ أو غير موجود. الرجاء التحقّق من التنصيب."
@@ -17013,17 +16443,14 @@ msgstr "تجاوز %s حجم الرفع الأقصى في هذا الموقع."
 msgid "Feedback"
 msgstr "طلبات واقتراحات"
 
-#: fuzzy
 #: wp-includes/comment.php:3530
 msgid "<strong>Error</strong>: Please type your comment text."
 msgstr "<strong>خطأ</strong>: الرجاء كتابة تعليق."
 
-#: fuzzy
 #: wp-includes/comment.php:3505
 msgid "<strong>Error</strong>: Please enter a valid email address."
 msgstr "<strong>خطأ</strong>: رجاءاً تأكد من البريد الإلكتروني."
 
-#: fuzzy
 #: wp-includes/comment.php:3503
 msgid "<strong>Error</strong>: Please fill the required fields (name, email)."
 msgstr "<strong>خطأ</strong>: يرجى ملء الحقول المطلوبة (الاسم، البريد الإلكتروني)."
@@ -17165,7 +16592,6 @@ msgstr "كل الصفحات"
 msgid "All Posts"
 msgstr "كل المقالات"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:13976
 msgid "Link Color"
 msgstr "اللون الرئيسي"
@@ -17205,7 +16631,6 @@ msgstr "شريط الأدوات"
 msgid "Words"
 msgstr "أحرف"
 
-#: fuzzy
 #: wp-includes/js/dist/block-library.js:4736
 msgid "Square"
 msgstr "مربع"
@@ -17674,7 +17099,6 @@ msgstr "مقالات"
 msgid "<strong>Conflicting values for the constants VHOST and SUBDOMAIN_INSTALL.</strong> The value of SUBDOMAIN_INSTALL will be assumed to be your subdomain configuration setting."
 msgstr "<strong>هناك تعارض بين المتغيّرات VHOST و SUBDOMAIN_INSTALL.</strong> القيمة SUBDOMAIN_INSTALL سيتّم اعتبارها المسؤولة عن إعداد تكوين النطاقات الفرعية (subdomain configuration setting)."
 
-#: fuzzy
 #: wp-admin/includes/user.php:185
 #: wp-includes/user.php:2519
 msgid "<strong>Error</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
@@ -17932,7 +17356,6 @@ msgstr "عناصر قائمة التصفح"
 msgid "Links for %s"
 msgstr "روابط %s"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:38840
 #: wp-includes/js/dist/components.js:38897
 #: wp-includes/js/dist/components.js:38905
@@ -17976,7 +17399,6 @@ msgid "%d WordPress Update"
 msgstr "تحديث ووردبريس %d"
 
 #. translators: %s: Humanized date of last update e.g: "2 months ago".
-#: fuzzy
 #: wp-includes/js/dist/block-directory.js:1721
 msgid "Updated %s"
 msgstr "تحديث %s الآن"
@@ -18429,14 +17851,12 @@ msgstr "احصل على كلمة مرور جديدة"
 msgid "Lost Password"
 msgstr "استعادة كلمة المرور"
 
-#: fuzzy
 #: wp-admin/includes/user.php:203
 #: wp-includes/user.php:2536
 #: wp-includes/user.php:2820
 msgid "<strong>Error</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>خطأ</strong>: البريد الإلكتروني غير صحيح."
 
-#: fuzzy
 #: wp-includes/user.php:2534
 msgid "<strong>Error</strong>: Please type your email address."
 msgstr "<strong>خطأ</strong>: يرجى كتابة عنوان بريدك الإلكتروني."
@@ -18462,7 +17882,6 @@ msgstr "[%s] تغيير كلمة المرور"
 msgid "Password reset is not allowed for this user"
 msgstr "لا يسمح لك بإعادة كلمة المرور الى الحالة الأولى (reset)"
 
-#: fuzzy
 #: wp-login.php:361
 msgid "<strong>Error</strong>: Please enter a username or email address."
 msgstr "<strong>خطأ</strong>: أدخل اسم المستخدم أو البريد الإلكتروني."
@@ -18473,7 +17892,6 @@ msgstr "يعمل بواسطة برنامج ووردبريس"
 
 #. translators: 1: WordPress version number, 2: Minimum required MySQL version
 #. number.
-#: fuzzy
 #: wp-includes/wp-db.php:3534
 msgid "<strong>Error</strong>: WordPress %1$s requires MySQL %2$s or higher"
 msgstr "<strong>خطأ</strong>: ووردبريس %1$s يحتاج MySQL %2$s أو أعلى"
@@ -18489,18 +17907,15 @@ msgstr "الشريط الجانبي %d"
 msgid "Please log in again."
 msgstr "الرجاء تسجيل الدخول مرة أخرى"
 
-#: fuzzy
 #: wp-includes/user.php:322
 msgid "<strong>Error</strong>: Your account has been marked as a spammer."
 msgstr "<strong>خطأ</strong>: موقعك مشتبه بكونه موقع مزعج (spammer)."
 
-#: fuzzy
 #: wp-includes/user.php:141
 #: wp-includes/user.php:216
 msgid "<strong>Error</strong>: The password field is empty."
 msgstr "<strong>خطأ</strong>: حقل كلمة المرور فارغ."
 
-#: fuzzy
 #: wp-includes/user.php:137
 msgid "<strong>Error</strong>: The username field is empty."
 msgstr "<strong>خطأ</strong>: حقل اسم المستخدم فارغ."
@@ -18554,7 +17969,6 @@ msgctxt "password strength"
 msgid "Medium"
 msgstr "متوسط"
 
-#: fuzzy
 #: wp-includes/script-loader.php:847
 msgid "moved to the Trash."
 msgstr "انقل الى سلة المهملات"
@@ -18671,12 +18085,10 @@ msgstr "لا يمكن إنشاء عضو بدون أن يكون لديه اسم �
 msgid "Cannot create a revision of a revision"
 msgstr "لا يمكن عمل مراجعة لمراجعة"
 
-#: fuzzy
 #: wp-includes/post.php:4016
 msgid "Could not insert post into the database."
 msgstr "لم أتمكن من إدراج المقالة في قاعدة البيانات"
 
-#: fuzzy
 #: wp-includes/post.php:3993
 msgid "Could not update post in the database."
 msgstr "لم أتمكن من تحديث المقالة في قاعدة البيانات"
@@ -18686,7 +18098,6 @@ msgid "Content, title, and excerpt are empty."
 msgstr "حقول المحتوى، العنوان والمقتطف فارغة"
 
 #. translators: %s: Number of documents.
-#: fuzzy
 #: wp-includes/post.php:2783
 msgid "Document <span class=\"count\">(%s)</span>"
 msgid_plural "Documents <span class=\"count\">(%s)</span>"
@@ -19303,7 +18714,6 @@ msgstr "مهيأ مسبقا"
 msgid "Paragraph"
 msgstr "فقرة"
 
-#: fuzzy
 #: wp-includes/js/dist/components.js:38878
 msgid "Font size"
 msgstr "حجم الخط"
@@ -19325,7 +18735,6 @@ msgstr "اللغة"
 msgid "Document properties"
 msgstr "خصائص المستند"
 
-#: fuzzy
 #: wp-includes/js/dist/edit-post.js:4464
 msgid "Toggle fullscreen mode."
 msgstr "وضع الشاشة الكاملة"
@@ -20052,7 +19461,6 @@ msgstr "كل ساعة"
 msgid "This argument has changed to an array to match the behavior of the other cron functions."
 msgstr "هذه المعلومة (argument) تغيرت إلى مصفوفة (array) لتتناسب مع سلوك وظائف المهام المجدولة (cron) الأخرى."
 
-#: fuzzy
 #: wp-includes/comment.php:2390
 msgid "Could not update comment status."
 msgstr "لم يتم التمكن من تحديث حالة التعليق"
@@ -20137,7 +19545,6 @@ msgid "Meta"
 msgstr "منوعات"
 
 #. translators: %s: search term.
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:34143
 msgid "Search results for \"%s\""
 msgstr "نتائج البحث عن &#8220;%s&#8221;"
@@ -20406,7 +19813,6 @@ msgstr "قوالب"
 msgid "Sites"
 msgstr "المواقع"
 
-#: fuzzy
 #: wp-includes/js/dist/block-editor.js:35719
 #: wp-includes/js/dist/block-editor.js:36017
 msgid "Edit link"
@@ -20467,13 +19873,11 @@ msgstr "الرئيسية"
 msgid "There are no options for this widget."
 msgstr "لا توجد أي خيارات لهذا الودجت."
 
-#: fuzzy
 #: wp-admin/includes/user.php:207
 #: wp-includes/user.php:2539
 msgid "<strong>Error</strong>: This email is already registered. Please choose another one."
 msgstr "<strong>خطأ</strong>: البريد الإلكتروني مسجل مسبقاً , يرجى اختيار بريد إلكتروني آخر."
 
-#: fuzzy
 #: wp-admin/includes/user.php:146
 #: wp-includes/user.php:2517
 msgid "<strong>Error</strong>: Please enter a username."
@@ -20653,7 +20057,6 @@ msgstr "صور"
 #. translators: %s: Theme author.
 #. translators: %s: Theme author link.
 #. translators: %s: Plugin author.
-#: fuzzy
 #: wp-admin/includes/class-wp-debug-data.php:893
 #: wp-admin/includes/class-wp-debug-data.php:940
 #: wp-admin/includes/class-wp-debug-data.php:1269
@@ -20673,7 +20076,6 @@ msgstr "صور"
 msgid "By %s"
 msgstr "بواسطة %s"
 
-#: fuzzy
 #: wp-admin/includes/class-plugin-installer-skin.php:217
 #: wp-admin/includes/class-theme-installer-skin.php:240
 #: wp-admin/includes/class-wp-debug-data.php:67
@@ -20731,7 +20133,6 @@ msgstr "كل التصنيفات"
 msgid "Add"
 msgstr "أضف"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:10676
 msgid "Add new tag"
 msgstr "أضف صورة جديدة"
@@ -20793,7 +20194,6 @@ msgstr "خاص"
 msgid "OK"
 msgstr "موافق"
 
-#: fuzzy
 #: wp-includes/js/dist/editor.js:11565
 msgid "Save as pending"
 msgstr "حفظ بإنتظار المراجعة"

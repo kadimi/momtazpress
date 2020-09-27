@@ -11,7 +11,6 @@ msgstr ""
 "Project-Id-Version: WordPress - 5.2.x - Development - Administration - Network Admin\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:293
 msgctxt "site"
 msgid "Not spam"
@@ -29,7 +28,6 @@ msgstr[4] "لن يتم تحديث %s قالب بشكل تلقائي."
 msgstr[5] "لن يتم تحديث %s قالب بشكل تلقائي."
 
 #. translators: %s: Number of themes.
-#: fuzzy
 #: wp-admin/network/themes.php:396
 msgid "%s theme will be auto-updated."
 msgid_plural "%s themes will be auto-updated."
@@ -40,7 +38,6 @@ msgstr[3] "تمّ حذف %s قوالب."
 msgstr[4] "تمّ حذف %s قالبًا."
 msgstr[5] "تمّ حذف %s قالبًا."
 
-#: fuzzy
 #: wp-admin/network/themes.php:225
 msgid "Sorry, you are not allowed to change themes automatic update settings."
 msgstr "عذرًا، لا يُسمح لك بتغيير الموقع الحالي."
@@ -65,7 +62,6 @@ msgid "It seems your network is running with Nginx web server. <a href=\"%s\">Le
 msgstr "يبدو أن شبكتك تعمل مع خادم الويب Nginx. <a href=\"%s\">تعرّف على المزيد حول إعدادات التكوين الإضافية</a>."
 
 #. translators: %s: Number of sites.
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:254
 msgid "Deleted <span class=\"count\">(%s)</span>"
 msgid_plural "Deleted <span class=\"count\">(%s)</span>"
@@ -77,7 +73,6 @@ msgstr[4] "معطّلة <span class=\"count\">(%s)</span>"
 msgstr[5] "معطّلة <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of sites.
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:247
 msgctxt "sites"
 msgid "Spam <span class=\"count\">(%s)</span>"
@@ -90,7 +85,6 @@ msgstr[4] "الكل <span class=\"count\">(%s)</span>"
 msgstr[5] "الكل <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of sites.
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:241
 msgid "Mature <span class=\"count\">(%s)</span>"
 msgid_plural "Mature <span class=\"count\">(%s)</span>"
@@ -102,7 +96,6 @@ msgstr[4] "لا يعمل <span class=\"count\">(%s)</span>"
 msgstr[5] "لا يعمل <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of sites.
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:235
 msgid "Archived <span class=\"count\">(%s)</span>"
 msgid_plural "Archived <span class=\"count\">(%s)</span>"
@@ -114,7 +107,6 @@ msgstr[4] "الكل <span class=\"count\">(%s)</span>"
 msgstr[5] "الكل <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of sites.
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:229
 msgid "Public <span class=\"count\">(%s)</span>"
 msgid_plural "Public <span class=\"count\">(%s)</span>"
@@ -126,7 +118,6 @@ msgstr[4] "الكل <span class=\"count\">(%s)</span>"
 msgstr[5] "الكل <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of sites.
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:222
 msgctxt "sites"
 msgid "All <span class=\"count\">(%s)</span>"
@@ -138,18 +129,15 @@ msgstr[3] "الكل <span class=\"count\">(%s)</span>"
 msgstr[4] "الكل <span class=\"count\">(%s)</span>"
 msgstr[5] "الكل <span class=\"count\">(%s)</span>"
 
-#: fuzzy
 #: wp-admin/network/upgrade.php:31
 msgid "<a href=\"https://wordpress.org/support/article/network-admin-updates-screen/\">Documentation on Upgrade Network</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\">وثائق المساعدة - ترقية الشبكة</a>"
 
-#: fuzzy
 #: wp-admin/network/index.php:55
 msgid "<a href=\"https://wordpress.org/support/article/network-admin/\">Documentation on the Network Admin</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin\">وثائق المساعدة - إدارة الشبكة</a>"
 
 #. translators: %s: Number of themes.
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:406
 msgctxt "themes"
 msgid "Update Available <span class=\"count\">(%s)</span>"
@@ -165,13 +153,11 @@ msgstr[5] "الكل <span class=\"count\">(%s)</span>"
 msgid "Main"
 msgstr "الرئيسي"
 
-#: fuzzy
 #: wp-admin/network.php:67
 #: wp-admin/network.php:80
 msgid "<a href=\"https://wordpress.org/support/article/tools-network-screen/\">Documentation on the Network Screen</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\">وثائق المساعدة - شاشة الشبكة</a>"
 
-#: fuzzy
 #: wp-admin/network.php:66
 #: wp-admin/network.php:79
 msgid "<a href=\"https://wordpress.org/support/article/create-a-network/\">Documentation on Creating a Network</a>"
@@ -325,7 +311,6 @@ msgid "The internet address of your network will be %s."
 msgstr "عنوان الإنترنت الخاص بشبكتك سيكون %s."
 
 #. translators: 1: Site URL, 2: Host name, 3: www.
-#: fuzzy
 #: wp-admin/includes/network.php:274
 msgid "We recommend you change your site domain to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
 msgstr "ننصحك بتغيير رابط موقعك إلى %1$s قبل البدء بتفعيل ميزة الشبكة. سيكون من الممكن زيارة موقعك باستخدام البادئة %3$s مع العنوان %2$s ولكن لن يبدأ أي رابط بالبادئة %3$s."
@@ -375,13 +360,11 @@ msgstr[3] "مدير عام <span class=\"count\">(%s)</span>"
 msgstr[4] "مدير عام <span class=\"count\">(%s)</span>"
 msgstr[5] "مدير عام <span class=\"count\">(%s)</span>"
 
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-users-list-table.php:118
 msgctxt "user"
 msgid "Not spam"
 msgstr "غير مزعج"
 
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-users-list-table.php:117
 msgctxt "user"
 msgid "Mark as spam"
@@ -436,7 +419,6 @@ msgid "Enable"
 msgstr "تفعيل"
 
 #. translators: %s: Number of themes.
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:415
 msgctxt "themes"
 msgid "Broken <span class=\"count\">(%s)</span>"
@@ -449,7 +431,6 @@ msgstr[4] "لا يعمل <span class=\"count\">(%s)</span>"
 msgstr[5] "لا يعمل <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of themes.
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:397
 msgctxt "themes"
 msgid "Disabled <span class=\"count\">(%s)</span>"
@@ -462,7 +443,6 @@ msgstr[4] "معطّلة <span class=\"count\">(%s)</span>"
 msgstr[5] "معطّلة <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of themes.
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:388
 msgctxt "themes"
 msgid "Enabled <span class=\"count\">(%s)</span>"
@@ -528,7 +508,6 @@ msgctxt "site"
 msgid "Not Spam"
 msgstr "غير مزعج"
 
-#: fuzzy
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:292
 msgctxt "site"
 msgid "Mark as spam"
@@ -940,7 +919,6 @@ msgstr "لا، أعدني إلى قائمة القوالب"
 msgid "Yes, delete this theme"
 msgstr "نعم، إحذف هذا القالب"
 
-#: fuzzy
 #: wp-admin/network/themes.php:159
 msgid "Are you sure you want to delete these themes?"
 msgstr "هل أنت متأكّد أنك تريد حذف هذه القوالب؟"
@@ -1156,7 +1134,6 @@ msgstr "أدخل المعلومات المطلوبة أدناه وستكون ع�
 msgid "Welcome to the Network installation process!"
 msgstr "مرحبًا بك في عملية تنصيب الشبكة!"
 
-#: fuzzy
 #: wp-admin/includes/network.php:160
 msgid "Error: The network could not be created."
 msgstr "خطأ: تعذر إنشاء الشبكة."
