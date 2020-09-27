@@ -52,7 +52,12 @@ function mp_update_pomo( $po_file, $po_url, $use_cache ) {
 	 */
 	$dl_file = $tmp_dir . basename( $po_file );
 	if ( ! $use_cache || ! file_exists( $dl_file ) ) {
-		$response = wp_remote_get( $po_url, [ 'timeout' => 60 ] );
+		$response = wp_remote_get(
+			$po_url,
+			[
+				'timeout' => 60,
+			]
+		);
 		if ( ! $response || is_wp_error( $response ) || 200 !== $response['response']['code'] ) {
 			return false;
 		}
@@ -80,7 +85,7 @@ function mp_update_pomo( $po_file, $po_url, $use_cache ) {
 	$mo_cmd = sprintf( 'msgfmt -o %s %s', preg_replace( '/po$/', 'mo', $po_file ), $po_file );
 	shell_exec( $mo_cmd );
 
-	printf( '%1$s updated in %2$.2fs' . "\n", basename( $po_file ), microtime( true ) - $timer );
+	printf( '%1$s updated in %2$.2fs<br>', basename( $po_file ), microtime( true ) - $timer );
 }
 
 function mp_update_core_pomo( $use_cache ) {
@@ -173,7 +178,10 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 	/**
 	 * Download all pages from API
 	 */
+	printf( 'Download the packages list for "%s":<br>', $type );
+	echo 'Pages: ';
 	$page = 1;
+	$timer = microtime( true );
 	do {
 		/**
 		 * Prepare URL.
@@ -197,7 +205,7 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 			$response = wp_remote_get(
 				$url,
 				[
-					'timeout' => 30,
+					'timeout' => 60,
 				]
 			);
 
@@ -215,9 +223,17 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 			}
 
 			file_put_contents( $cache_file, $response['body'] );
+
+			echo '- ';
+		} else {
+			echo '. ';
 		}
 		$page++;
 	} while ( true );
+	echo '<br>';
+	printf ('Completed in %.2fs<br>', microtime( true ) - $timer );
+	echo '========================================<br>';
+
 
 	/**
 	 * Store number of pages.
@@ -225,20 +241,9 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 	$pages = $page - 1;
 
 	/**
-	 * Get packages sorted by download count.
-	 */
-	// $packages_from_api = (array) json_decode( $dl_content )->{ $type . 's' };
-	// usort(
-	// 	$packages_from_api,
-	// 	function( $a, $b ) {
-	// 		return $a->downloaded < $b->downloaded;
-	// 	}
-	// );
-
-	/**
 	 * Make sure stats.db exists.
 	 */
-	$db_file = __DIR__ . DIRECTORY_SEPARATOR . 'stats.db';
+	$db_file = __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'languages' . DIRECTORY_SEPARATOR . 'stats.db';
 	if ( ! $filesystem->exists( $db_file ) ) {
 		$filesystem->touch( $db_file );
 		$db = new SQLite3( $db_file );
@@ -269,7 +274,8 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 			$url = str_replace( '{page}', $page, $url_format );
 			$cache_file = $cache_dir
 				. DIRECTORY_SEPARATOR
-				. str_pad( $page, 3, '0', STR_PAD_LEFT ) . '-' . md5( $url ) . '.json';
+				. str_pad( $page, 3, '0', STR_PAD_LEFT ) . '-' . $type . '-' . md5( $url ) . '.json'
+			;
 			if ( ! file_exists( $cache_file ) ) {
 				continue;
 			}
@@ -302,7 +308,13 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 	/**
 	 * Grab first `$number` packages.
 	 */
-	$results = $db->query( "SELECT * FROM 'packages' ORDER BY downloaded DESC LIMIT $number" );
+	$results = $db->query( "
+		SELECT * FROM `packages`
+		WHERE `type`
+		LIKE '$type'
+		ORDER BY downloaded DESC
+		LIMIT $number
+	" );
 	while ( $row = $results->fetchArray() ) {
 		$packages[] = $row[ 'slug' ];
 	}

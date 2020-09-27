@@ -30,6 +30,7 @@ add_action(
 		 */
 		if ( $core || in_array( 'core', $filter ) ) {
 			mp_update_core_pomo( $cache );
+			echo '========================================<br>';
 		}
 
 		// /**
@@ -58,6 +59,7 @@ add_action(
 				mp_update_package_pomo( $slug, 'plugin', $cache );
 			}
 		}
+		echo '========================================<br>';
 
 		/**
 		 * Update themes.
@@ -67,12 +69,13 @@ add_action(
 				mp_update_package_pomo( $slug, 'theme', $cache );
 			}
 		}
+		echo '========================================<br>';
 
 		/**
 		 * Set transcient.
 		 */
 		set_transient( MP_UPDATE_TRANSCIENT_NAME, 1, MP_UPDATE_INTERVAL );
 
-		die( "Update complete\n" );
+		die( 'Update complete' );
 	}
 );
