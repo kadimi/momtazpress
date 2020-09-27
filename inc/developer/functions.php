@@ -143,7 +143,6 @@ function mp_update_package_pomo( $slug, $type, $use_cache ) {
 function mp_get_popular_packages( $type, $number = 5 ) {
 
 	$filesystem = mp_get_filesystem();
-	$packages = [];
 	$update_db = false;
 
 	$cache_dir = __DIR__
@@ -193,8 +192,8 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 	/**
 	 * Download all pages from API
 	 */
-	printf( 'Download the packages list for "%s"<br>', $type );
-	echo 'Pages: ';
+	printf( 'Downloading "%s" Data<br>', $type );
+	echo 'Pages:';
 	$page = 1;
 	$timer = microtime( true );
 	do {
@@ -237,18 +236,37 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 				break;
 			}
 
-			file_put_contents( $cache_file, $response['body'] );
+			/**
+			 * Build JSON file without unwanted fields to save space.
+			 */
+			$packages = [];
+			foreach ( json_decode( $response['body'] )->{ $type . 's'} as $i => $package ) {
+				foreach ( $package as $k => $v ) {
+					if ( ! in_array( $k, [
+						'name',
+						'slug',
+						'downloaded',
+					] ) ) {
+						unset( $package->$k );
+					}
+				}
+				$packages[] = $package;
+			}
 
-			echo '- ';
+			/**
+			 * Save to cache.
+			 */
+			file_put_contents( $cache_file, json_encode( $packages ) );
+
+			printf( ' <a href="%1%s" title="Page %2$d Downloaded Now">•</a>', $url, $page );
 		} else {
-			echo '. ';
+			printf( ' <a href="%1%s" title="Page %2$d Downloaded Before">◦</a>', $url, $page );
 		}
 		$page++;
 	} while ( true );
 	echo '<br>';
 	printf ('Completed in %.2fs<br>', microtime( true ) - $timer );
 	echo '========================================<br>';
-
 
 	/**
 	 * Store number of pages.
@@ -298,7 +316,7 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 			/**
 			 * SQL work.
 			 */
-			$packages_from_api = ( array ) json_decode( file_get_contents( $cache_file ) )->{ $type . 's' };
+			$packages_from_api = ( array ) json_decode( file_get_contents( $cache_file ) );
 			$packages_from_api = array_slice( $packages_from_api, 0, $number );
 			foreach ( $packages_from_api as $package ) {				
 				$values_parts[] = str_replace( [
@@ -330,6 +348,7 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 		ORDER BY downloaded DESC
 		LIMIT $number
 	" );
+	$packages = [];
 	while ( $row = $results->fetchArray() ) {
 		$packages[] = $row[ 'slug' ];
 	}
