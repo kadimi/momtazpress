@@ -159,14 +159,29 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 	 */
 	$url_format = 'https://api.wordpress.org/' . $type . 's/info/1.1/'
 		. '?action=query_' . $type . 's'
-		. '&request[fields][description]=0'
-		. '&request[fields][downloaded]=1'
-		. '&request[fields][homepage]=0'
-		. '&request[fields][last_updated]=1'
-		. '&request[fields][rating]=0'
-		. '&request[fields][screenshot_url]=0'
-		. '&request[fields][preview_url]=0'
 		. '&request[browse]=popular'
+		. '&request[fields][name]=0'
+		. '&request[fields][slug]=1'
+		. '&request[fields][version]=0'
+		. '&request[fields][author]=0'
+		. '&request[fields][author_profile]=0'
+		. '&request[fields][requires]=0'
+		. '&request[fields][tested]=0'
+		. '&request[fields][requires_php]=0'
+		. '&request[fields][compatibility]=0'
+		. '&request[fields][ratings]=0'
+		. '&request[fields][num_ratings]=0'
+		. '&request[fields][support_threads]=0'
+		. '&request[fields][support_threads_resolved]=0'
+		. '&request[fields][downloaded]=1'
+		. '&request[fields][last_updated]=1'
+		. '&request[fields][added]=0'
+		. '&request[fields][sections]=0'
+		. '&request[fields][short_description]=0'
+		. '&request[fields][download_link]=0'
+		. '&request[fields][screenshots]=0'
+		. '&request[fields][tags]=0'
+		. '&request[fields][versions]=0'
 		. '&request[per_page]=250'
 		. '&request[page]={page}';
 	if ( 'theme' === $type ) {
@@ -178,7 +193,7 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 	/**
 	 * Download all pages from API
 	 */
-	printf( 'Download the packages list for "%s":<br>', $type );
+	printf( 'Download the packages list for "%s"<br>', $type );
 	echo 'Pages: ';
 	$page = 1;
 	$timer = microtime( true );
@@ -243,7 +258,7 @@ function mp_get_popular_packages( $type, $number = 5 ) {
 	/**
 	 * Make sure stats.db exists.
 	 */
-	$db_file = __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'languages' . DIRECTORY_SEPARATOR . 'stats.db';
+	$db_file = __DIR__ . DIRECTORY_SEPARATOR . 'stats.db';
 	if ( ! $filesystem->exists( $db_file ) ) {
 		$filesystem->touch( $db_file );
 		$db = new SQLite3( $db_file );
